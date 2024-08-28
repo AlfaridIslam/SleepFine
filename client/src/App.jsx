@@ -15,6 +15,7 @@ import Pocketed from "./pages/Pocketed/Pocketed.jsx";
 import Pillow from "./pages/Pillows/Pillow.jsx";
 import Comforter from "./pages/Comforters/Comforter.jsx";
 import HeadBoard from "./pages/HeadBoardsAndBases/HeadBoard.jsx";
+import GoToTop from "./components/GoToTop/GoToTop.jsx"
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
             <Route path="/products/headboards" Component={HeadBoard} />
           </Routes>
         </Router>
+        <GoToTop/>
       </>
     </>
   );
