@@ -5,6 +5,7 @@ import Section1 from '../components/Section1/Section1'
 import Section2 from '../components/Section2/Section2'
 import Testimonial from '../components/Testimonials/Testimonial'
 import Footer from '../components/Footer/Footer'
+import Whatsapp from '../components/Whatsapp/Whatsapp'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
         {/* <Navbar/> */}
         <Carousel/>
         <Section1/>
+         <Whatsapp/>
         <Section2/>
         <Testimonial/>
         <Footer/>
