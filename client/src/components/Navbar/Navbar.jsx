@@ -1,5 +1,6 @@
+/* eslint-disable-next-line no-unused-vars */
 import React, { useState } from "react";
-import Logo from "../../assets/sleepfinelogo.jpeg";
+// import Logo from "../../assets/sleepfinelogo.jpeg";
 
 const Navbar = () => {
   const [isProductsDropdownOpen, setIsProductsDropdownOpen] = useState(false);
