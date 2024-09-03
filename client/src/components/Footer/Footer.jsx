@@ -1,5 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./Footer.css"
 
 import {
   faFacebookF,
@@ -10,7 +11,7 @@ import {
 
 function Footer() {
   return (
-    <div className="bg-black">
+    <div className="  bg-black ">
       <div className=" text-white  flex mt-10 pt-10 justify-around">
         <div>
           <h1 className="text-lg font-normal">OUR PROMISE</h1>

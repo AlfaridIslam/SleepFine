@@ -5,7 +5,7 @@ import Carousel3 from "../../assets/carousel3.jpg";
 
 const slides = [
   {
-    image: Carousel1,
+    image:Carousel1,
     title: "Wide Range of Variety",
     description:
       "Sleep Fine Mattresses comes with varieties ranging from medical rebonded to Bonnell and Pocketed spring super soft.",
@@ -51,9 +51,9 @@ const Carousel = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center text-white p-4">
+        <div className="absolute inset-0 bg-black bg-opacity-10 flex flex-col justify-center items-center text-center text-black text-[12px] p-4">
           <h5 className="text-xl mb-2">{slides[currentIndex].title}</h5>
-          <p>{slides[currentIndex].description}</p>
+          <p className="font-medium">{slides[currentIndex].description}</p>
         </div>
         <button
           className="absolute top-1/2 left-4 transform -translate-y-1/2  text-white p-2 "
