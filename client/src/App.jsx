@@ -17,12 +17,14 @@ import Comforter from "./pages/Comforters/Comforter.jsx";
 import HeadBoard from "./pages/HeadBoardsAndBases/HeadBoard.jsx";
 import GoToTop from "./components/GoToTop/GoToTop.jsx"
 
+
 function App() {
   return (
     <>
       <>
         <Router>
           <Navbar />
+         
           <Routes>
             <Route path="/" Component={Home} />
             <Route path="/products" Component={Products} />
