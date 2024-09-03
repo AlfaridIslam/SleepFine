@@ -13,47 +13,57 @@ import {
   HoveredImage9,
   HoveredImage10,
   HoveredImage11,
+  // Add subcategory images here
+  SubImage1,
+  SubImage2,
+  SubImage3,
+  SubImage4,
+  SubImage5,
+  SubImage6,
 } from "../../assets/index.jsx";
+import ProductList from "../../components/ProductList/ProductList.jsx"; // Import the ProductList component
 
 const Product = () => {
+  const [selectedProduct, setSelectedProduct] = useState(null);
+
   const products = [
     {
       id: 1,
       frontImage: Image8,
       backImage: Image9,
       description: "Bonnell Spring Mattresses",
+      subcategories: [
+        { image: SubImage1, name: "Bonnell Spring Sub 1" },
+        { image: SubImage2, name: "Bonnell Spring Sub 2" },
+      ],
     },
     {
       id: 2,
       frontImage: Image10,
       backImage: Image11,
       description: "Pocketed Spring Mattresses",
+      subcategories: [
+        { image: SubImage3, name: "Pocketed Spring Sub 1" },
+        { image: SubImage4, name: "Pocketed Spring Sub 2" },
+      ],
     },
     {
       id: 3,
       frontImage: HoveredImage4,
       backImage: HoveredImage5,
       description: "Medical Rebonded Mattresses",
+      subcategories: [
+        { image: SubImage5, name: "Medical Rebonded Sub 1" },
+        { image: SubImage6, name: "Medical Rebonded Sub 2" },
+      ],
     },
-    {
-      id: 4,
-      frontImage: HoveredImage6,
-      backImage: HoveredImage7,
-      description: "Head Board and Bases",
-    },
-    {
-      id: 5,
-      frontImage: HoveredImage8,
-      backImage: HoveredImage9,
-      description: "Pillows",
-    },
-    {
-      id: 6,
-      frontImage: HoveredImage10,
-      backImage: HoveredImage11,
-      description: "Comforters",
-    },
+    // Add more products and subcategories as needed
   ];
+
+  const handleProductClick = (product) => {
+    // Toggle the display of subcategories
+    setSelectedProduct(product.id === selectedProduct?.id ? null : product);
+  };
 
   return (
     <div className="flex-col justify-center items-center p-5">
@@ -65,6 +75,7 @@ const Product = () => {
           <div
             key={product.id}
             className="product-card w-[400px] h-[250px] p-6"
+            onClick={() => handleProductClick(product)} // Handle product click
           >
             <div className="product-card-inner">
               <div className="product-card-front">
@@ -83,6 +94,10 @@ const Product = () => {
               </div>
             </div>
             <p className="text-center mt-2">{product.description}</p>
+            {/* Render subcategories if this product is selected */}
+            {selectedProduct?.id === product.id && (
+              <ProductList subcategories={product.subcategories} />
+            )}
           </div>
         ))}
       </div>
