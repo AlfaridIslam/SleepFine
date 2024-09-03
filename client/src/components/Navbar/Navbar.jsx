@@ -1,6 +1,7 @@
 /* eslint-disable-next-line no-unused-vars */
 import React, { useState } from "react";
 // import Logo from "../../assets/sleepfinelogo.jpeg";
+import  './Navbar.css'
 
 const Navbar = () => {
   const [isProductsDropdownOpen, setIsProductsDropdownOpen] = useState(false);
@@ -19,12 +20,12 @@ const Navbar = () => {
     <div>
       <img src="src\assets\comfort-planet-logo.png" alt=""   className="h-20 w-28  ml-[70%]"/>
     </div>
-    <div className="flex text-black justify-around shadow-lg z-50 pt-1  gap-[25%]  pb-5 mb-2">
+    <div className=" flex text-black justify-around shadow-lg z-50 pt-1  gap-[25%]  pb-5 mb-2">
       <div
         className=''>
         <img src="src\assets\sleepfinelogo-3.png" alt=""  className="w-44 h-14"/>
       </div>
-      <div className="menu flex justify-evenly gap-14 cursor-pointer relative z-10 text-[12px] font-sans mt-6  ">
+      <div className=" menu flex justify-evenly gap-14 cursor-pointer relative z-10 text-[12px] font-sans mt-6  ">
         <div className="underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current ">HOME</div>
         <div
           className="relative underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current"
