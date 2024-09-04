@@ -35,7 +35,7 @@ const AboutUs = () => {
           <b className="text-gray-800">OUR MISSION</b>
           <p>
             Awake each morning feeling completely refreshed and revitalised.
-            And sleep happily ever after.
+            And sleep happily ever after.This for testing purpose we will delete many pages.
           </p>
         </div>
       </div>
