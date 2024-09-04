@@ -1,6 +1,5 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "./Footer.css"
 
 import {
   faFacebookF,
@@ -8,11 +7,14 @@ import {
   faInstagram,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
+import Whatsapp from "../Whatsapp/Whatsapp";
 
 function Footer() {
   return (
-    <div className="  bg-black ">
-      <div className=" text-white  flex mt-10 pt-10 justify-around">
+  
+    <div className="relative bg-black">
+      <Whatsapp/>
+      <div className="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2  grid-cols-1 sm: text-white gap-20 text-[18px] ml-10 mr-10 mt-10 pt-10 justify-around ">
         <div>
           <h1 className="text-lg font-normal">OUR PROMISE</h1>
           <ul className="font-extralight mt-10 text-sm">
@@ -53,7 +55,7 @@ function Footer() {
         <div>
           <h1>CONTACT US</h1>
           <ul className="font-extralight mt-10 text-sm">
-            <li>e-mail n : sales@sleepfineindia.com</li>
+            <li>e-mail id : sales@sleepfineindia.com</li>
             <li>Tel : +91-40-4040032084</li>
           </ul>
         </div>
@@ -83,7 +85,7 @@ function Footer() {
       <div className="text-white mt-10">
         <h1 className="border-[1px] h-0 mx-14"></h1>
 
-        <h1 className="justify-center items-center flex mt-10">FOLLOW US</h1>
+        <h1 className="  justify-center items-center flex mt-10">FOLLOW US</h1>
 
         <ul className="flex justify-center items-center gap-10 mt-5">
           <li>
@@ -108,7 +110,7 @@ function Footer() {
             </a>
           </li>
         </ul>
-        <li className="list-none font-extralight  text-[11px] flex justify-center items-center mt-5">
+        <li className="  list-none font-extralight  text-[11px] flex justify-center items-center mt-5">
           Copyright.All rights reserved @ 2024
         </li>
       </div>

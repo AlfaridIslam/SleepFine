@@ -27,20 +27,20 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="flex border-b-[2px] justify-end gap-10 p-2">
+      <div className="flex border-b-[2px] justify-end gap-10 p-2 ">
         <div>
-          <FontAwesomeIcon icon={faPhone} className="mt-1 pr-2" />08978878769
+          <FontAwesomeIcon icon={faPhone} className="mt-1 pr-2" />09866645804
         </div>
         <div>
           <FontAwesomeIcon icon={faLocationDot} className="mt-1 pr-2" />Find Store
         </div>
       </div>
 
-      <div className="flex text-black justify-around shadow-lg z-50 gap-[25%] pb-5 pt-2">
+      <div className="grid sm:flex text-black sm:justify-around shadow-lg z-50   sm:gap-[25%] pl-2 pt-2 sm:pb-5 sm:pt-2">
         <div>
-          <img src="src/assets/sleepfinelogo-3.png" alt="" className="w-44 h-14 mt-5" />
+          <img src="src/assets/sleepfinelogo-3.png" alt="" className=" w-28 sm:w-44   sm:h-14  sm:mt-5" />
         </div>
-        <div className="menu flex justify-evenly gap-14 cursor-pointer relative z-10 text-[13px] font-sans mt-10">
+        <div className="menu grid sm:flex sm:justify-evenly  gap-5 sm:gap-14 cursor-pointer relative z-10 text-[13px] font-sans mt-5 sm:mt-10">
           <div className="underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">HOME</div>
           <div
             className="relative underline decoration-transparent transition duration-100 ease-in-out hover:decoration-current"
