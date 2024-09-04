@@ -1,7 +1,7 @@
 import "./App.css";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar/Navbar.jsx";
-// import Products from "./pages/Products/Product.jsx";
+import Products from "./pages/Products/Product.jsx";
 import AboutUs from "./pages/AboutUs/AboutUs.jsx";
 import ContactUs from "./pages/ContactUs/ContactUs.jsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -27,7 +27,7 @@ function App() {
          
           <Routes>
             <Route path="/" Component={Home} />
-            {/* <Route path="/products" Component={Products} /> */}
+            <Route path="/products" Component={Products} />
             <Route path="/aboutus" Component={AboutUs} />
             <Route path="/contactus" Component={ContactUs} />
             <Route path="/products/medical" Component={Medical} />
