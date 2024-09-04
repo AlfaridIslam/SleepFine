@@ -40,6 +40,7 @@ const GoToTop = () => {
       )}
     </>
   );
-};
+}
+
 
 export default GoToTop;
