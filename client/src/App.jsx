@@ -18,8 +18,9 @@ import HeadBoard from "./pages/HeadBoardsAndBases/HeadBoard.jsx";
 import GoToTop from "./components/GoToTop/GoToTop.jsx"
 import ProductTypes from "./pages/ProductTypes/ProductTypes.jsx";
 import ProductDetails from "./pages/ProductDetails/ProductDetails.jsx";
+import NewsandUpdate from "./components/NewsandUpdates/NewsUpdate.jsx";
+import Store from "./components/OurStore/OurStore.jsx"
 import Gallery from "./pages/Gallery/Gallery.jsx";
-import { Image10 } from "./assets/index.jsx";
 
 
 function App() {
@@ -37,6 +38,9 @@ function App() {
             <Route path="/gallery" Component={Gallery} />
             <Route path="/products/medical" Component={Medical} />
             <Route path="/product-types" element={<ProductTypes />} />
+            <Route path="/updates" element={<NewsandUpdate />} />
+            <Route path="/ourstores" element={<Store />} />
+            <Route path="/gallery" element={<Gallery />} />
             <Route
               path="/product-details/:productType"
               element={<ProductDetails />}
@@ -64,10 +68,9 @@ function App() {
             <Route path="/products/headboards" Component={HeadBoard} />
           </Routes>
         </Router>
-        
-        <GoToTop/>
-      
-       
+
+        <GoToTop />
+
         <GoToTop />
       </>
     </>

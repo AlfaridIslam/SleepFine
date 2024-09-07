@@ -1,5 +1,4 @@
 import React from 'react'
-// import Navbar from '../components/Navbar/Navbar'
 import Carousel from '../components/Carousel/Carousel'
 import Section1 from '../components/Section1/Section1'
 import Section2 from '../components/Section2/Section2'
@@ -12,7 +11,7 @@ import { Updates } from '../components/Updates/Updates'
 const Home = () => {
   return (
     <div>
-        {/* <Navbar/> */}
+        
         <Carousel/>
         <Section1/>
        
