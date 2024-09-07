@@ -15,12 +15,16 @@ const Home = () => {
         {/* <Navbar/> */}
         <Carousel/>
         <Section1/>
-         <Whatsapp/>
-         <Section3/>
+       
+        <Whatsapp/>
+
+        
+        <Section3/>
         <Section2/>
         <Testimonial/>
         <Updates/>
-        <Footer/>
+        <Footer/> 
+       
     </div>
   )
 }

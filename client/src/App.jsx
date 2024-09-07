@@ -54,7 +54,10 @@ function App() {
             <Route path="/products/headboards" Component={HeadBoard} />
           </Routes>
         </Router>
+        
         <GoToTop/>
+      
+       
       </>
     </>
   );
