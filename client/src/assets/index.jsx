@@ -15,6 +15,12 @@ import HoveredImage8 from "./hoveredimage8.jpg";
 import HoveredImage9 from "./hoveredimage9.jpg";
 import HoveredImage10 from "./hoveredimage10.jpg";
 import HoveredImage11 from "./hoveredimage11.jpg";
+import Sofa from "./sofa.jpg";
+import LeatherSofa from "./leather-sofa.jpg";
+import FabricSofa from "./fabric-sofa.jpg";
+import Bed from "./bed.jpg";
+import KingSizeBed from "./king-size-bed.jpg";
+import QueenSizeBed from "./queen-size-bed.jpg";
 
 export {
   Image4,
@@ -33,4 +39,10 @@ export {
   HoveredImage9,
   HoveredImage10,
   HoveredImage11,
+  Sofa,
+  LeatherSofa,
+  FabricSofa,
+  Bed,
+  KingSizeBed,
+  QueenSizeBed,
 };
