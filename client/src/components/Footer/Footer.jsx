@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
@@ -9,13 +9,15 @@ import {
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 
-function Footer() {
+const Footer = () => {
   return (
-    <div className="bg-black ">
-      <div className="text-white  flex mt-10 pt-10 justify-around">
+    <div className='Main-Sectio bg-black xl:w-full sm:w-[600px]'>
+
+<div className="text-white  xl:flex xl:mt-10 xl:pt-10 xl:justify-around xl:w-full
+                 sm:mt-2  sm:grid sm:justify-center">
         <div>
-          <h1 className="text-lg font-normal">OUR PROMISE</h1>
-          <ul className="font-extralight mt-10 text-sm">
+          <h1 className="text-lg font-normal xl:mt-0 sm:mt-5">OUR PROMISE</h1>
+          <ul className="font-extralight xl:mt-10 text-sm sm:mt-2">
             <li>
               {" "}
               <p>
@@ -31,9 +33,9 @@ function Footer() {
           </ul>
         </div>
 
-        <div>
+        <div className='xl:mt-0 sm:mt-4'>
           <h1>CATEGORIES</h1>
-          <ul className="font-extralight mt-10 text-sm">
+          <ul className="font-extralight xl:mt-10  sm:mt-2 text-sm">
             <li>Mattresses</li>
             <li>Head Boards</li>
             <li>Comforters</li>
@@ -41,26 +43,26 @@ function Footer() {
           </ul>
         </div>
 
-        <div>
+        <div className='xl:mt-0 sm:mt-4'>
           <h1>SUPPORT</h1>
-          <ul className="font-extralight mt-10 text-sm">
+          <ul className="font-extralight xl:mt-10  sm:mt-2 text-sm">
             <li>Privacy Policy</li>
             <li>Terms & Conditions</li>
             <li>Warranty</li>
           </ul>
         </div>
 
-        <div>
+        <div className='xl:mt-0 sm:mt-4'>
           <h1>CONTACT US</h1>
-          <ul className="font-extralight mt-10 text-sm">
+          <ul className="font-extralight xl:mt-10  sm:mt-2 text-sm">
             <li>e-mail n : sales@sleepfineindia.com</li>
             <li>Tel : +91-40-4040032084</li>
           </ul>
         </div>
 
-        <div>
+        <div className='xl:mt-0 sm:mt-4'>
           <h1>PAYMENT METHODS</h1>
-          <ul className="font-extralight mt-10 grid gap-2 text-sm">
+          <ul className="font-extralight xl:mt-10 grid xl:gap-2 sm:gap-1 text-sm">
             <li>
               <img
                 src="src\assets\Fotter-Img\img-1.png"
@@ -79,7 +81,6 @@ function Footer() {
           </ul>
         </div>
       </div>
-
       <div className="text-white mt-10">
         <h1 className="border-[1px] h-0 mx-14"></h1>
 
@@ -112,10 +113,10 @@ function Footer() {
           Copyright.All rights reserved @ 2024
         </li>
       </div>
+
+
     </div>
-  );
+  )
 }
 
 export default Footer;
-
-

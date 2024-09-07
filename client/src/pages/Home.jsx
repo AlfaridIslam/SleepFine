@@ -8,6 +8,7 @@ import Footer from '../components/Footer/Footer'
 import Whatsapp from '../components/Whatsapp/Whatsapp'
 import Section3 from '../components/Section3/Section3'
 import { Updates } from '../components/Updates/Updates'
+import FooterSample from '../components/Footer/Footer'
 
 const Home = () => {
   return (
@@ -23,7 +24,8 @@ const Home = () => {
         <Section2/>
         <Testimonial/>
         <Updates/>
-        <Footer/> 
+       
+       < Footer/>
        
     </div>
   )
