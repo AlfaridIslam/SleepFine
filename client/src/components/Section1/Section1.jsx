@@ -10,22 +10,25 @@ const Section1 = () => {
   };
 
   return (
-    <div className="flex justify-center items-center bg-gray-100 p-6 gap-8">
-      <div className="image">
+    <div className="xl:flex xl:justify-center xl:items-center xl:bg-gray-100 xl:p-6 xl:gap-8 xl:w-full xl:mt-0
+                      sm:w-[140%] sm:mt-4  ">
+      <div className="image ">
         {/* Adjust image size dynamically based on content visibility */}
-        <img
+        <img 
           src={Logo}
           alt="Image"
           className={`${
-            showFullContent ? "w-[2600px] h-[200px]" : "w-[3000px] h-[250px]"
-          } transition-all duration-500`}
+            showFullContent ? "xl:w-[2600px] xl:h-[200px]" : "xl:w-[3000px] xl:h-[250px]"
+          } transition-all duration-500  sm:pl-[5rem] sm:pr-[1rem] sm:h-40 `}
         />
       </div>
-      <div className="description flex-col justify-center items-center p-11">
-        <p className="poppins-medium text-center text-5xl">
+      <div className="description xl:flex-col xl:justify-center xl:items-center xl:p-11 xl:mt-0 
+                           sm:mt-6 sm:p-5">
+        <p className="poppins-medium xl:text-center xl:text-4xl
+                           sm:text-2xl sm:mb-2">
           Welcome to Sleep Fine, where rest meets innovation
         </p>
-        <p className="poppins-regular text-2xl my-6">
+        <p className="poppins-regular xl:text-2xl xl:my-6">
           At Sleep Fine, we believe that a great night's sleep is the foundation
           of a fulfilling life. That's why we're dedicated to crafting
           exceptional mattresses that cradle your body and soothe your mind. Our
@@ -92,14 +95,15 @@ const Section1 = () => {
           </>
         ) : (
           <button
-            className="text-blue-500 underline mt-2"
+            className="xl:text-blue-800 xl:underline mt-2"
             onClick={toggleContent}
           >
             View More
           </button>
         )}
-        <div className="flex items-center gap-1.5 cursor-pointer text-xs font-bold mt-9 border-2 bg-slate-500 text-white w-[150px] justify-center">
-          <Link to="/products" className="p-[14px]">
+        <div className="xl:flex xl:items-center xl:gap-1.5 xl:cursor-pointer xl:text-xs font-bold xl:mt-9 xl:border-2 xl:rounded-none xl:bg-gray-500 xl:text-white xl:w-[150px] xl:justify-center
+                             sm:rounded-full sm:bg-orange-400 sm:w-36 sm:p-[8px] sm:pl-[17px] sm:items-center sm:ml-[13rem] sm:h-10">
+          <Link to="/products" className="p-[1px]">
             View Products
           </Link>
         </div>
