@@ -42,7 +42,8 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-[550px] mx-auto overflow-hidden">
+    <div className="xl:relative xl:w-full xl:h-[550px] xl:mx-auto xl:overflow-hidden
+                     sm:w-[140%] sm:h-60">
       <div
         className="relative w-full h-full bg-gray-200"
         style={{
