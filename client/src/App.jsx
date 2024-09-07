@@ -16,6 +16,10 @@ import Pillow from "./pages/Pillows/Pillow.jsx";
 import Comforter from "./pages/Comforters/Comforter.jsx";
 import HeadBoard from "./pages/HeadBoardsAndBases/HeadBoard.jsx";
 import GoToTop from "./components/GoToTop/GoToTop.jsx"
+import ProductTypes from "./pages/ProductTypes/ProductTypes.jsx";
+import ProductDetails from "./pages/ProductDetails/ProductDetails.jsx";
+import Gallery from "./pages/Gallery/Gallery.jsx";
+import { Image10 } from "./assets/index.jsx";
 
 
 function App() {
@@ -24,13 +28,19 @@ function App() {
       <>
         <Router>
           <Navbar />
-         
+
           <Routes>
             <Route path="/" Component={Home} />
             <Route path="/products" Component={Products} />
             <Route path="/aboutus" Component={AboutUs} />
             <Route path="/contactus" Component={ContactUs} />
+            <Route path="/gallery" Component={Gallery} />
             <Route path="/products/medical" Component={Medical} />
+            <Route path="/product-types" element={<ProductTypes />} />
+            <Route
+              path="/product-details/:productType"
+              element={<ProductDetails />}
+            />
             <Route
               path="/products/medical/medicalrebonded"
               Component={MedicalRebonded}
@@ -54,7 +64,7 @@ function App() {
             <Route path="/products/headboards" Component={HeadBoard} />
           </Routes>
         </Router>
-        <GoToTop/>
+        <GoToTop />
       </>
     </>
   );

@@ -1,0 +1,273 @@
+{
+  "products": {
+    "beds": {
+      "productId": "beds001",
+      "image": ["/assets/images.json", "/assets/image9.jpg"],
+      "description": "Explore our range of comfortable beds designed to suit all styles and preferences.",
+      "categories": [
+        {
+          "categoryId": "single001",
+          "name": "Single Bed",
+          "images": ["/assets/image5.jpg", "/assets/image6.jpg"]
+        },
+        {
+          "categoryId": "double001",
+          "name": "Double Bed",
+          "images": ["/assets/image7.jpg", "/assets/hoveredimage4.jpg"]
+        }
+      ]
+    },
+    "sofas": {
+      "productId": "sofa001",
+      "image": [
+        "/assets//assets//assets/hoveredimage5.jpg",
+        "/assets//assets//assets/hoveredimage6.jpg"
+      ],
+      "description": "Discover our collection of stylish sofas that offer comfort and elegance for your living room.",
+      "categories": [
+        {
+          "categoryId": "sofaset001",
+          "name": "Sofa Sets",
+          "images": [
+            "/assets//assets//assets/hoveredimage5.jpg",
+            "/assets//assets//assets/hoveredimage6.jpg"
+          ]
+        },
+        {
+          "categoryId": "recliners001",
+          "name": "Recliners",
+          "images": [
+            "/assets//assets//assets/hoveredimage7.jpg",
+            "/assets//assets//assets/hoveredimage8.jpg"
+          ]
+        }
+      ]
+    },
+    "accessories": {
+      "productId": "accessories001",
+      "image": ["/assets//assets/image1.jpg", "/assets//assets/image2.jpg"],
+      "description": "Add the perfect finishing touches to your home with our range of accessories.",
+      "categories": [
+        {
+          "categoryId": "memory001",
+          "name": "Memory Foam",
+          "images": [
+            "/assets//assets/hoveredimage9.jpg",
+            "/assets//assets/hoveredimage10.jpg"
+          ]
+        },
+        {
+          "categoryId": "spring001",
+          "name": "Spring Mattress",
+          "images": [
+            "/assets//assets/hoveredimage11.jpg",
+            "/assets//assets/hoveredimage4.jpg"
+          ]
+        }
+      ]
+    },
+    "mattress": {
+      "productId": "mattress001",
+      "image": ["/assets/image3.jpg", "/assets/image4.jpg"],
+      "description": "Experience unmatched comfort with our premium selection of mattresses.",
+      "categories": [
+        {
+          "categoryId": "orthopedic001",
+          "name": "Orthopedic Bonded Collection",
+          "images": ["image4.jpg", "image4.jpg"],
+          "subcategories": [
+            {
+              "categoryId": "orthomed001",
+              "name": "Orthomed",
+              "description": "Orthomed mattresses are designed to provide superior support and comfort for orthopedic needs.",
+              "images": ["image4.jpg", "image4.jpg", "image4.jpg", "image4.jpg"]
+            },
+            {
+              "categoryId": "preference001",
+              "name": "Preference",
+              "description": "Preference series offers a balance of luxury and support for a restful sleep experience.",
+              "images": ["image4.jpg", "image4.jpg", "image4.jpg", "image4.jpg"]
+            },
+            {
+              "categoryId": "buckingham001",
+              "name": "Buckingham",
+              "description": "Buckingham mattresses feature premium materials for a plush and comfortable sleep surface.",
+              "images": ["image4.jpg", "image4.jpg", "image4.jpg", "image4.jpg"]
+            },
+            {
+              "categoryId": "aloe001",
+              "name": "Aloe-Vera with Latex",
+              "description": "Aloe-Vera with Latex mattresses combine natural materials for a soothing and breathable sleep environment.",
+              "images": ["image4.jpg", "image4.jpg", "image4.jpg", "image4.jpg"]
+            },
+            {
+              "categoryId": "memofy001",
+              "name": "Memofy",
+              "description": "Memofy mattresses utilize advanced memory foam technology to adapt to your body's contours.",
+              "images": ["image4.jpg", "image4.jpg", "image4.jpg", "image4.jpg"]
+            }
+          ]
+        },
+        {
+          "categoryId": "ortho001",
+          "name": "Ortho Bonnell Spring Collection",
+          "images": ["image10.jpg", "image11.jpg"],
+          "subcategories": [
+            {
+              "categoryId": "silver001",
+              "name": "6 inch silver Crown",
+              "description": "Orthomed mattresses are designed to provide superior support and comfort for orthopedic needs.",
+              "images": [
+                "image8.jpg",
+                "image9.jpg",
+                "image10.jpg",
+                "image11.jpg"
+              ]
+            },
+            {
+              "categoryId": "oxford001",
+              "name": "6 inch Oxford",
+              "description": "Preference series offers a balance of luxury and support for a restful sleep experience.",
+              "images": [
+                "hoveredimage5.jpg",
+                "hoveredimage6.jpg",
+                "hoveredimage7.jpg",
+                "hoveredimage8.jpg"
+              ]
+            },
+            {
+              "categoryId": "love001",
+              "name": "8 inch Loveland",
+              "description": "Buckingham mattresses feature premium materials for a plush and comfortable sleep surface.",
+              "images": [
+                "hoveredimage1.jpg",
+                "hoveredimage2.jpg",
+                "hoveredimage3.jpg",
+                "hoveredimage4.jpg"
+              ]
+            },
+            {
+              "categoryId": "love002",
+              "name": "8 inch Loveland pillow top",
+              "description": "Aloe-Vera with Latex mattresses combine natural materials for a soothing and breathable sleep environment.",
+              "images": ["image4.jpg", "image4.jpg", "image4.jpg", "image4.jpg"]
+            },
+            {
+              "categoryId": "romantic001",
+              "name": "8 inch Romantic Euroton",
+              "description": "Memofy mattresses utilize advanced memory foam technology to adapt to your body's contours.",
+              "images": ["image9.jpg", "image9.jpg", "image9.jpg", "image9.jpg"]
+            },
+            {
+              "categoryId": "aloe002",
+              "name": "Aloe-Vera with Latex",
+              "description": "Memofy mattresses utilize advanced memory foam technology to adapt to your body's contours.",
+              "images": [
+                "hoveredimage10.jpg",
+                "hoveredimage10.jpg",
+                "hoveredimage10.jpg",
+                "hoveredimage10.jpg"
+              ]
+            },
+            {
+              "categoryId": "aloe003",
+              "name": "Aloe-Vera with Memory",
+              "description": "Memofy mattresses utilize advanced memory foam technology to adapt to your body's contours.",
+              "images": [
+                "hoveredimage1.jpg",
+                "hoveredimage1.jpg",
+                "hoveredimage1.jpg",
+                "hoveredimage1.jpg"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "pocketed001",
+          "name": "Pocketed Spring Collection",
+          "images": ["hoveredimage1.jpg", "hoveredimage2.jpg"],
+          "subcategories": [
+            {
+              "categoryId": "inspiration001",
+              "name": "Inspiration",
+              "description": "Orthomed mattresses are designed to provide superior support and comfort for orthopedic needs.",
+              "images": ["image5.jpg", "image5.jpg", "image5.jpg", "image5.jpg"]
+            },
+            {
+              "categoryId": "eternity001",
+              "name": "8 inch Eternity-Euroton",
+              "description": "Preference series offers a balance of luxury and support for a restful sleep experience.",
+              "images": [
+                "hoveredimage1.jpg",
+                "hoveredimage2.jpg",
+                "hoveredimage3.jpg",
+                "hoveredimage4.jpg"
+              ]
+            },
+            {
+              "categoryId": "aloe004",
+              "name": "Aloe-Vera with Latex",
+              "description": "Buckingham mattresses feature premium materials for a plush and comfortable sleep surface.",
+              "images": [
+                "hoveredimage5.jpg",
+                "hoveredimage6.jpg",
+                "hoveredimage7.jpg",
+                "hoveredimage8.jpg"
+              ]
+            },
+            {
+              "categoryId": "aloe005",
+              "description": "Aloe-Vera with Latex mattresses combine natural materials for a soothing and breathable sleep environment.",
+              "images": [
+                "hoveredimage8.jpg",
+                "hoveredimage9.jpg",
+                "hoveredimage11.jpg",
+                "hoveredimage10.jpg"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "hr001",
+          "name": "HR PU Foam Collection",
+          "images": ["image5.jpg", "image6.jpg"],
+          "subcategories": [
+            {
+              "name": "Gravity",
+              "description": "Orthomed mattresses are designed to provide superior support and comfort for orthopedic needs.",
+              "images": [
+                "image11.jpg",
+                "image8.jpg",
+                "image9.jpg",
+                "image10.jpg"
+              ]
+            },
+            {
+              "categoryId": "space001",
+              "name": "Space",
+              "description": "Preference series offers a balance of luxury and support for a restful sleep experience.",
+              "images": [
+                "hoveredimage1.jpg",
+                "hoveredimage1.jpg",
+                "hoveredimage1.jpg",
+                "hoveredimage1.jpg"
+              ]
+            },
+            {
+              "categoryId": "plush001",
+              "name": "Plush",
+              "description": "Buckingham mattresses feature premium materials for a plush and comfortable sleep surface.",
+              "images": ["image1.jpg", "image1.jpg", "image1.jpg", "image1.jpg"]
+            },
+            {
+              "categoryId": "tech001",
+              "name": "Techniko",
+              "description": "Aloe-Vera with Latex mattresses combine natural materials for a soothing and breathable sleep environment.",
+              "images": ["image1.jpg", "image1.jpg", "image1.jpg", "image1.jpg"]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
