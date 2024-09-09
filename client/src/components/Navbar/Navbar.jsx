@@ -56,16 +56,16 @@ const Navbar = () => {
                        sm:grid sm:gap-1 sm:ml-2 sm:mt-1 "
       >
         {/* ____________________________Logo-Image _______________________*/}
-        <div onClick={barsOpenHandler} className="xl:hidden sm:pt-2  ">
-          <FontAwesomeIcon icon={faBars} />
+        <div onClick={barsOpenHandler} className="xl:hidden sm:flexs  ">
+          <FontAwesomeIcon icon={faBars}  className="sm:h-10 sm:ml-2 sm:mt-2"/>
         </div>
 
-        <Link to="/" className="sm:flex sm:justify-around">
+        <Link to="/" className="sm:flex sm:justify-center">
           <img
             src="src/assets/sleepfinelogo-3.png"
             alt=""
             className="xl:w-44   xl:h-14  xl:mt-5  xl:ml-0 xl:pb-0 xl:pt-0
-                    sm:w-40 sm:h-14  sm:-mt-10  sm:pb-2 sm:pt-2 "
+                    sm:w-48  sm:-mt-16  sm:pb-2 sm:pt-2 "
           />
         </Link>
 
@@ -73,7 +73,7 @@ const Navbar = () => {
 
         <div
           className={`xl:flex xl:justify-evenly xl:gap-14 xl:cursor-pointer xl:relative xl:z-10 xl:text-[13px] font-sans xl:mt-10 
-              sm:grid sm:gap-4 sm:-mt-1 sm:text-[10px] sm:${
+              sm:grid sm:gap-4 sm:-mt-1 sm:text-[20px] sm:${
                 barsOpen ? "block" : "hidden"
               }`}
         >

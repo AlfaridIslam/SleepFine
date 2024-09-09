@@ -12,30 +12,30 @@ const Section1 = () => {
   return (
     <div className="xl:flex xl:justify-center xl:items-center xl:bg-gray-100 xl:p-6 xl:gap-8 xl:w-full xl:mt-0
                       sm:w-[140%] sm:mt-4  ">
-      <div className="image ">
+      <div className="image  sm:justify-center sm:flex ">
         {/* Adjust image size dynamically based on content visibility */}
         <img 
           src={Logo}
           alt="Image"
           className={`${
             showFullContent ? "xl:w-[2600px] xl:h-[200px]" : "xl:w-[3000px] xl:h-[250px]"
-          } transition-all duration-500  sm:pl-[5rem] sm:pr-[1rem] sm:h-40 `}
+          } transition-all duration-500  sm:h-40   `}
         />
       </div>
       <div className="description xl:flex-col xl:justify-center xl:items-center xl:p-11 xl:mt-0 
-                           sm:mt-6 sm:p-5">
+                           sm:mt-6  sm:grid sm:justify-center sm:items-center">
         <p className="poppins-medium xl:text-center xl:text-4xl
-                           sm:text-2xl sm:mb-2">
+                           sm:text-2xl sm:mb-2 sm:text-center">
           Welcome to Sleep Fine, where rest meets innovation
         </p>
-        <p className="poppins-regular xl:text-2xl xl:my-6">
+        <p className="poppins-regular xl:text-2xl xl:my-6 xl:px-0 sm:text-center sm:px-4">
           At Sleep Fine, we believe that a great night's sleep is the foundation
           of a fulfilling life. That's why we're dedicated to crafting
           exceptional mattresses that cradle your body and soothe your mind. Our
           journey began with a simple question: "What if a mattress could be
           both luxurious and affordable?"
         </p>
-        <p className="poppins-light">
+        <p className="poppins-light  xl:text-left xl:mt-0 sm:text-center sm:text-lg sm:mt-2 xl:px-0 sm:px-4">
           <strong>Our Story</strong>
           <br />
           Founded in the year 2006 by an experienced team of siblings as a
@@ -95,18 +95,19 @@ const Section1 = () => {
           </>
         ) : (
           <button
-            className="xl:text-blue-800 xl:underline mt-2"
+            className="text-blue-800 underline mt-2 xl:flex xl:items-start "
             onClick={toggleContent}
           >
             View More
           </button>
         )}
-        <div className="xl:flex xl:items-center xl:gap-1.5 xl:cursor-pointer xl:text-xs font-bold xl:mt-9 xl:border-2 xl:rounded-none xl:bg-gray-500 xl:text-white xl:w-[150px] xl:justify-center
-                             sm:rounded-full sm:bg-orange-400 sm:w-36 sm:p-[8px] sm:pl-[17px] sm:items-center sm:ml-[13rem] sm:h-10">
-          <Link to="/products" className="p-[1px]">
-            View Products
-          </Link>
-        </div>
+       <div className="xl:bg-gray-500 xl:w-fit xl:p-2 xl:shadow-xl xl:grid xl:mx-auto xl:mt-6 xl:rounded-none
+                          sm:bg-orange-300 sm:w-fit sm:p-4 sm:shadow-xl sm:mx-auto sm:mt-6 sm:rounded-2xl">
+  <Link to="/products" className="">
+    View Products
+  </Link>
+</div>
+
       </div>
     </div>
   );

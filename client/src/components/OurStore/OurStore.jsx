@@ -3,13 +3,13 @@ import React from "react";
  const Ourstore = () => {
   return (
     <div className="ourstore-container">
-      <div className="text-center text-4xl text-underline poppins-medium mt-20 mb-10 h-10">
-        Our Stores
-      <hr className=" mx-80" color="green" />
+      <div className=" poppins-medium xl:text-3xl xl:flex xl:justify-center xl:ml-0 xl:p-8 xl:underline sm:text-xl sm:flex sm:justify-center sm:mt-10 sm:p-5 sm:ml-40 sm:underline">
+        OUR STORES
+    
       </div>
      
       
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto max-w-4xl">
+      <div className="xl:grid xl:grid-cols-2 xl:gap-8 xl:px-10 xl:w-full  sm:w-[140%] sm:px-10 sm:grid sm:gap-8 ">
          {/* Store 1 */}
         <div className="rounded-2xl border-2 shadow opacity-1 pt-10 items-center justify-between p-6 w-full h-auto relative bg-slate-100">
           <div className="address p-4 py-0">
@@ -65,7 +65,7 @@ import React from "react";
         </div>
 
         {/* Store 4 */}
-        <div className="rounded-2xl border-2 shadow opacity-1 pt-10 poppins-medium items-center justify-between p-6 w-full h-auto relative bg-slate-100">
+        <div className="rounded-2xl border-2 shadow opacity-1 pt-10 items-center justify-between p-6 w-full h-auto relative bg-slate-100">
           <div className="address p-4 py-0">
             <p className="text-xl">
             Sleep Fine Comfort Planet-Gajularamaram 500055
