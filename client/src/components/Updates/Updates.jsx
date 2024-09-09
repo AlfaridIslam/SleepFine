@@ -7,14 +7,14 @@ export const Updates = () => {
   return (
     <div className="xl:grid sm:grid ">
       <div className="xl:text-center text-4xl poppins-medium xl:mt-20 xl:mb-10 xl:w-full xl:ml-0
-                      sm:mt-10  sm:ml-36  sm:text-3xl">
+                      sm:mt-14  sm:ml-40  sm:text-3xl">
         News & Updates
       </div>
 
       <div
         className="container xl:rounded-2xl xl:border-2 xl:shadow xl:opacity-1 xl:flex 
       xl:items-center xl:justify-between xl:p-[135px] xl:w-[650px] xl:h-[200px] xl:ml-12 xl:relative xl:bg-slate-50 xl:mt-0
-       sm:mt-10 sm:shadow sm:bg-slate-50 sm:rounded-xl sm:opacity-1 sm:border-2 sm:w-[200px]"
+       sm:mt-10 sm:shadow sm:bg-slate-50 sm:rounded-xl sm:opacity-1 sm:border-2 sm:w-[200px] "
       >
 
         

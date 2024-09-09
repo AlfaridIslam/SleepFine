@@ -57,11 +57,11 @@ const Gallery = () => {
   ];
 
   return (
-    <div className="flex-col justify-center items-center p-5">
+    <div className="xl:grid xl:justify-center xl:items-center  xl:w-full xl:mt-2   sm:grid sm:items-center  sm:justify-center  sm:w-[140%] sm:mt-10">
       <div className="font-mono font-light text-3xl text-center">
-        OUR PRODUCTS, YOUR COMFORT
+        OUR PRODUCTS,YOUR COMFORT
       </div>
-      <div className="grid grid-cols-3 gap-4 p-4">
+      <div className="xl:grid xl:grid-cols-3 gap-4 p-4 sm:grid sm:grid-cols-1">
         {products.map((product) => (
           <div
             key={product.id}
