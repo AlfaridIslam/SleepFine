@@ -14,7 +14,7 @@ const Product = () => {
   return (
     <div className="xl:grid xl:justify-center xl:items-center xl:mt-4 sm:justify-center xl:w-full sm:grid  sm:w-[140%] sm:mt-10">
       <h1 className="text-2xl font-bold xl:flex xl:justify-center sm:flex sm:justify-center sm:mt-5 ">PRODUCTS</h1>
-      <div className="xl:flex xl:gap-4 xl:mt-4 sm:mt-8 ">
+      <div className="xl:flex xl:gap-4 xl:mt-4 xl:justify-between xl:mr-3 xl:ml-3 sm:mt-8 ">
         {products.map((product) => (
           <div
             key={product.id}

@@ -16,12 +16,50 @@ const products = [
     subcategories: [
       {
         id: 101,
-        name: "Leather Sofa",
+        name: "Orthopedic Bonded Collection",
         image: LeatherSofa,
+        subitems: [
+          // Adding subitems under Orthopedic Bonded Collection
+          {
+            id: 1011,
+            name: "Orthomed",
+            image: LeatherSofa, // Using existing image as dummy
+          },
+          {
+            id: 1012,
+            name: "Preference",
+            image: LeatherSofa, // Using existing image as dummy
+          },
+          {
+            id: 1013,
+            name: "Buckingham",
+            image: LeatherSofa, // Using existing image as dummy
+          },
+          {
+            id: 1014,
+            name: "Aloe-Vera with Latex/Memory",
+            image: LeatherSofa, // Using existing image as dummy
+          },
+          {
+            id: 1015,
+            name: "Memofy",
+            image: LeatherSofa, // Using existing image as dummy
+          },
+        ],
       },
       {
         id: 102,
-        name: "Fabric Sofa",
+        name: "Ortho Bonnell Spring Collection",
+        image: FabricSofa,
+      },
+      {
+        id: 103,
+        name: "Pocketed Spring Collection",
+        image: FabricSofa,
+      },
+      {
+        id: 104,
+        name: "HR PU Foam Collection",
         image: FabricSofa,
       },
     ],
