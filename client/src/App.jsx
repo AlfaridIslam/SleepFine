@@ -16,19 +16,22 @@ import Pillow from "./pages/Pillows/Pillow.jsx";
 import Comforter from "./pages/Comforters/Comforter.jsx";
 import HeadBoard from "./pages/HeadBoardsAndBases/HeadBoard.jsx";
 import GoToTop from "./components/GoToTop/GoToTop.jsx";
-import Whatsaap from "./components/Whatsapp/Whatsapp.jsx"
+import Whatsaap from "./components/Whatsapp/Whatsapp.jsx";
 import ProductTypes from "./pages/ProductTypes/ProductTypes.jsx";
 import ProductDetails from "./pages/ProductDetails/ProductDetails.jsx";
 import NewsandUpdate from "./components/NewsandUpdates/NewsUpdate.jsx";
-import Store from "./components/OurStore/OurStore.jsx"
+import Store from "./components/OurStore/OurStore.jsx";
 import Gallery from "./pages/Gallery/Gallery.jsx";
-
+import { useLoading } from "./components/context/LoadingContext.jsx";
 
 function App() {
+  const { loading } = useLoading();
+
   return (
     <>
       <>
         <Router>
+          {loading && <Spinner />}
           <Navbar />
 
           <Routes>
@@ -71,9 +74,7 @@ function App() {
         </Router>
 
         <GoToTop />
-        <Whatsaap/>
-
-        
+        <Whatsaap />
       </>
     </>
   );
