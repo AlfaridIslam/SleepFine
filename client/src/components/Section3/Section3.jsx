@@ -8,31 +8,42 @@ import Desc3 from "../../assets/image6.jpg";
 
 const Section3 = () => {
   return (
-    <div className="container flex flex-col items-center my-20">
-      <div className="heading poppins-medium text-center text-5xl mb-4">
+    <div className="xl:grid xl:justify-center xl:mt-0 xl:w-full  sm:grid sm:justify-center sm:w-[141%]  sm:mt-10 ">
+      <div className=" poppins-medium text-center  xl:mt-4 xl:text-5xl sm:text-3xl sm:mt-4">
         OUR COLLECTIONS
       </div>
-      <div className="description flex justify-center items-center gap-6 flex-wrap">
-        <img
-          src={Desc1}
-          alt="Modern Statement"
-          className="w-[100px] h-[300px] sm:w-[450px] sm:h-[450px]"
-        />
-        <img
-          src={Desc2}
-          alt="The Essentials Collection"
-          className="w-[300px] h-[300px] sm:w-[450px] sm:h-[450px]"
-        />
-        <img
-          src={Desc3}
-          alt="Made-To-Order Jewelry"
-          className="w-[300px] h-[300px] sm:w-[450px] sm:h-[450px]"
-        />
-        <img
-          src={Desc3}
-          alt="Made-To-Order Jewelry"
-          className="w-[300px] h-[300px] sm:w-[450px] sm:h-[450px]"
-        />
+
+      {/* -----images-div------ */}
+
+      <div className="xl:flex  xl:gap-2 xl:mt-2 xl:mb-4 sm:grid sm:gap-4 sm:mt-2 sm:px-4 ">
+        <div>
+          <img
+            src={Desc1}
+            alt="Modern Statement"
+            className="xl:w-[300px] xl:h-[300px] sm:w-[500px] sm:h-[400px] xl:px-0 xl:ml-0 sm:px-5 sm:ml-4"
+          />
+        </div>
+        <div>
+          <img
+            src={Desc2}
+            alt="The Essentials Collection"
+            className="xl:w-[300px] xl:h-[300px] sm:w-[500px] sm:h-[400px] xl:px-0 xl:ml-0 sm:px-5 sm:ml-4"
+          />
+        </div>
+        <div>
+          <img
+            src={Desc3}
+            alt="Made-To-Order Jewelry"
+            className="xl:w-[300px] xl:h-[300px] sm:w-[500px] sm:h-[400px] xl:px-0 xl:ml-0 sm:px-5 sm:ml-4"
+          />
+        </div>
+        <div>
+          <img
+            src={Desc3}
+            alt="Made-To-Order Jewelry"
+            className="xl:w-[300px] xl:h-[300px] sm:w-[500px] sm:h-[400px] xl:px-0 xl:ml-0 sm:px-5 sm:ml-4"
+          />
+        </div>
       </div>
     </div>
   );

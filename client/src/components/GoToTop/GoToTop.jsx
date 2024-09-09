@@ -27,18 +27,18 @@ const GoToTop = () => {
   }, []);
 
   return (
-    <>
+    <div>
       {isVisible && (
         <div>
           <button
             onClick={top}
-            className="fixed bottom-4 right-1 z-50 text-white bg-blue-600 border-cyan-700 rounded-full p-5 w-8 h-8 flex items-center justify-center shadow-black"
+            className="fixed bottom-4 right-1 z-50 text-white bg-blue-600 border-cyan-700 rounded-full p-5 xl:w-8 sm:w-16  sm:h-16 xl:h-8 flex items-center justify-center shadow-black"
           >
             <FontAwesomeIcon icon={faArrowUp} className="animate-pulse" />
           </button>
         </div>
       )}
-    </>
+    </div>
   );
 }
 
