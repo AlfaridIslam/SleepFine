@@ -34,6 +34,16 @@ const productData = {
     description:
       "Our queen-size beds combine elegance and comfort, making them an ideal choice for any bedroom. They offer the perfect balance of space and style for a restful retreat.",
   },
+  "orthomed": {
+    images: [Image8, Image9, Image10, Image11], // Replace these with actual Queen Size Bed images
+    description:
+      "Our queen-size beds combine elegance and comfort, making them an ideal choice for any bedroom. They offer the perfect balance of space and style for a restful retreat.",
+  },
+  "preference": {
+    images: [Image8, Image9, Image10, Image11], // Replace these with actual Queen Size Bed images
+    description:
+      "Our queen-size beds combine elegance and comfort, making them an ideal choice for any bedroom. They offer the perfect balance of space and style for a restful retreat.",
+  },
 };
 
 const ProductDetails = () => {
