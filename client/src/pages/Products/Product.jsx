@@ -12,9 +12,9 @@ const Product = () => {
   };
 
   return (
-    <div className="p-4">
-      <h1 className="text-2xl font-bold mb-4">Products</h1>
-      <div className="flex gap-4">
+    <div className="xl:grid xl:justify-center xl:items-center xl:mt-4 sm:justify-center xl:w-full sm:grid  sm:w-[140%] sm:mt-10">
+      <h1 className="text-2xl font-bold xl:flex xl:justify-center sm:flex sm:justify-center sm:mt-5 ">PRODUCTS</h1>
+      <div className="xl:flex xl:gap-4 xl:mt-4 sm:mt-8 ">
         {products.map((product) => (
           <div
             key={product.id}
@@ -24,7 +24,7 @@ const Product = () => {
             <img
               src={product.image}
               alt={product.name}
-              className="w-96 h-96 object-cover"
+              className="w-96 h-96 object-cover sm:rounded-xl"
             />
             <h2 className="mt-2 text-center">{product.name}</h2>
           </div>
