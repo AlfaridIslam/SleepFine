@@ -15,7 +15,8 @@ import Pocketed from "./pages/Pocketed/Pocketed.jsx";
 import Pillow from "./pages/Pillows/Pillow.jsx";
 import Comforter from "./pages/Comforters/Comforter.jsx";
 import HeadBoard from "./pages/HeadBoardsAndBases/HeadBoard.jsx";
-import GoToTop from "./components/GoToTop/GoToTop.jsx"
+import GoToTop from "./components/GoToTop/GoToTop.jsx";
+import Whatsaap from "./components/Whatsapp/Whatsapp.jsx"
 import ProductTypes from "./pages/ProductTypes/ProductTypes.jsx";
 import ProductDetails from "./pages/ProductDetails/ProductDetails.jsx";
 import NewsandUpdate from "./components/NewsandUpdates/NewsUpdate.jsx";
@@ -70,8 +71,9 @@ function App() {
         </Router>
 
         <GoToTop />
+        <Whatsaap/>
 
-        <GoToTop />
+        
       </>
     </>
   );
