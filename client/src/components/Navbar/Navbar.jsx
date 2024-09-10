@@ -120,7 +120,7 @@ const Navbar = () => {
                         Orthopedic Bonded Collection &#10097;
                         {hoveredSubCategory ===
                           "Orthopedic Bonded Collection" && (
-                          <div className="xl:absolute xl:left-60 xl:w-56 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-7">
+                          <div className="xl:absolute xl:left-60 xl:w-[9rem] xl:flex xl:flex-col xl:p-[10px]  xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-7">
                             <Link
                               to="product-details/orthomed"
                               className="px-4 py-2 hover:bg-indigo-100"
@@ -174,7 +174,7 @@ const Navbar = () => {
                         Ortho Bonell Spring Collection &#10097;
                         {hoveredSubCategory ===
                           "Ortho Bonell Spring Collection" && (
-                          <div className="xl:absolute xl:left-60 xl:w-56 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-14">
+                          <div className="xl:absolute xl:left-60 xl:w-[9rem] xl:flex xl:flex-col xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-14">
                             <Link
                               to="product-details/6inch-silver-crown"
                               className="px-4 py-2 hover:bg-indigo-100"
@@ -234,7 +234,7 @@ const Navbar = () => {
                         Pocketed Spring Collection &#10097;
                         {hoveredSubCategory ===
                           "Pocketed Spring Collection" && (
-                          <div className="xl:absolute xl:left-60 xl:w-56 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-20">
+                          <div className="xl:absolute xl:left-60 xl:w-[9rem] xl:flex xl:flex-col xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-20">
                             <Link
                               to="product-details/pocketed-spring-inspiration"
                               className="px-4 py-2 hover:bg-indigo-100"
@@ -273,7 +273,7 @@ const Navbar = () => {
                       >
                         HR-PU Foam Collection &#10097;
                         {hoveredSubCategory === "HR-PU Foam Collection" && (
-                          <div className="xl:absolute xl:left-60 xl:w-56 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-32">
+                          <div className="xl:absolute xl:left-60 xl:w-[9rem] xl:flex xl:flex-col xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-32">
                             <Link
                               to="product-details/hr-pu-gravity"
                               className="px-4 py-2 hover:bg-indigo-100"
@@ -315,7 +315,7 @@ const Navbar = () => {
                 >
                   BEDS
                   {hoveredCategory === "Beds" && (
-                    <div className="xl:absolute xl:-left-1 xl:mt-[9px] xl:w-60 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium">
+                    <div className="xl:absolute xl:left-[4.75rem] xl:mt-[9px] xl:w-[9rem] xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium">
                       <div
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
@@ -325,7 +325,7 @@ const Navbar = () => {
                       >
                         King Size Bed &#10097;
                         {hoveredSubCategory === "King Size Bed" && (
-                          <div className="xl:absolute xl:left-60 xl:w-56 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-7">
+                          <div className="xl:absolute xl:left-[9rem] xl:w-[8rem] xl:flex xl:flex-col xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-7">
                             <Link
                               to="product-details/Platform-Bed"
                               className="px-4 py-2 hover:bg-indigo-100"
@@ -362,7 +362,7 @@ const Navbar = () => {
                       >
                         Queen Size Bed &#10097;
                         {hoveredSubCategory === "Queen Size Bed" && (
-                          <div className="xl:absolute xl:left-60 xl:w-56 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-14">
+                          <div className="xl:absolute xl:left-[9rem] xl:w-[8rem] xl:flex xl:flex-col xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-14">
                             <Link
                               to="product-details/Murphy-Bed"
                               className="px-4 py-2 hover:bg-indigo-100"
@@ -397,7 +397,7 @@ const Navbar = () => {
                 >
                   SOFAS
                   {hoveredCategory === "Sofas" && (
-                    <div className="xl:absolute xl:left-60 xl:w-60 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:font-medium">
+                    <div className="xl:absolute xl:left-[9rem] xl:w-60 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:font-medium">
                       {/* Standard-Sofa */}
                       <div
                         className="px-4 py-2 hover:bg-indigo-100"
@@ -408,7 +408,7 @@ const Navbar = () => {
                       >
                         Standard Sofa &#10097;
                         {hoveredSubCategory === "Standard Sofa" && (
-                          <div className="xl:absolute xl:left-full xl:w-56 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-1">
+                          <div className="xl:flex xl:flex-col  xl:absolute xl:left-full xl:w-[7rem] xl:top-[1rem] xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-1">
                             <Link
                               to="product-details/Chesterfield"
                               className="px-4 py-2 hover:bg-indigo-100"
@@ -441,7 +441,7 @@ const Navbar = () => {
                       >
                         Sectional Sofa &#10097;
                         {hoveredSubCategory === "Sectional Sofa" && (
-                          <div className="xl:absolute xl:left-60 xl:w-56 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-14">
+                          <div className="xl:flex xl:flex-col  xl:absolute xl:left-60 xl:w-56 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-14">
                             <Link
                               to="product-details/L-Shaped"
                               className="px-4 py-2 hover:bg-indigo-100"
@@ -476,18 +476,18 @@ const Navbar = () => {
                 >
                   ACCESSORIES
                   {hoveredCategory === "Accessories" && (
-                    <div className="xl:absolute xl:-left-1 xl:mt-[9px] xl:w-60 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium ">
+                    <div className="xl:absolute xl:left-[14.75rem] xl:mt-[9px] xl:w-[8rem] xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium ">
                       {/* Sectional Sofa */}
                       <div
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
-                          handleMouseEnterSubCategory("Accessories")
+                          handleMouseEnterSubCategory("Comforters")
                         }
                         onMouseLeave={handleMouseLeaveSubCategory}
                       >
                         Comforters &#10097;
                         {hoveredSubCategory === "Comforters" && (
-                          <div className="xl:absolute xl:left-60 xl:w-56 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-7">
+                          <div className="xl:absolute xl:left-[8rem] xl:w-[6rem] xl:flex xl:flex-col xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-7">
                             <Link
                               to="product-details/Baffle-Box"
                               className="px-4 py-2 hover:bg-indigo-100"
@@ -513,7 +513,7 @@ const Navbar = () => {
                       >
                         Pillows &#10097;
                         {hoveredSubCategory === "Pillows" && (
-                          <div className="xl:absolute xl:left-60 xl:w-56 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-14">
+                          <div className="xl:left-[8rem] xl:flex xl:flex-col xl:absolute xl:w-[8rem] xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-14">
                             <Link
                               to="product-details/Standard"
                               className="px-4 py-2 hover:bg-indigo-100"

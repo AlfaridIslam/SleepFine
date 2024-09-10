@@ -2,22 +2,58 @@ import React, { useRef, useState } from "react";
 import ArrowRight from "../../assets/right.png";
 import ArrowLeft from "../../assets/left.png";
 import {
-  DSC02061,
-  DSC02067,
-  DSC02138,
-  DSC02143,
-  DSC02130,
-  DSC02132,
-  DSC02120,
-  DSC02126,
-  DSC02165,
-  DSC02171,
-  DSC02082,
-  DSC02085,
-  DSC02179,
-  DSC02177,
-  DSC02102,
-  DSC02104,
+  ORTRHOMED1,
+  ORTRHOMED2,
+  ORTRHOMED3,
+  ORTRHOMED4,
+  ORTRHOMED5,
+  ORTRHOMED6,
+
+  // preference
+  Preference1,
+  Preference2,
+  Preference3,
+  Preference4,
+  Preference5,
+  Preference6,
+
+  // Buking hum
+  Buckingham1,
+  Buckingham2,
+  Buckingham3,
+  Buckingham4,
+  Buckingham5,
+  Buckingham6,
+
+  // OrthopedicAloeveraMemory
+  OrthopedicAloeveraMemory1,
+  OrthopedicAloeveraMemory2,
+  OrthopedicAloeveraMemory3,
+  OrthopedicAloeveraMemory4,
+  OrthopedicAloeveraMemory5,
+  OrthopedicAloeveraMemory6,
+
+  // Pufoam 6
+  SixinchPUFOAM1,
+  SixinchPUFOAM2,
+  SixinchPUFOAM3,
+  SixinchPUFOAM4,
+  SixinchPUFOAM5,
+
+  // Pufoam 8
+  EightinchPUFOAM1,
+  EightinchPUFOAM2,
+  EightinchPUFOAM3,
+  EightinchPUFOAM4,
+  EightinchPUFOAM5,
+
+  // Oxford
+  oxford1,
+  oxford2,
+  oxford3,
+  oxford4,
+  oxford5,
+  oxford6,
 } from "../../assets/index.jsx";
 import { Link } from "react-router-dom";
 
@@ -28,25 +64,25 @@ const Section2 = () => {
   const [isAtStart, setIsAtStart] = useState(true); // Track the start position
 
   const images = [
-    DSC02061,
-    DSC02138,
-    DSC02130,
-    DSC02120,
-    DSC02165,
-    DSC02082,
-    DSC02177,
-    DSC02102,
+    ORTRHOMED1,
+    ORTRHOMED2,
+    ORTRHOMED3,
+    ORTRHOMED4,
+    ORTRHOMED5,
+    ORTRHOMED6,
+    Preference1,
+    Preference2,
   ];
 
   const hoveredImages = [
-    DSC02067,
-    DSC02143,
-    DSC02132,
-    DSC02126,
-    DSC02171,
-    DSC02085,
-    DSC02179,
-    DSC02104,
+    Preference3,
+    Preference4,
+    Preference5,
+    Preference6,
+    Buckingham1,
+    Buckingham2,
+    Buckingham3,
+    Buckingham4,
   ];
 
   const handleScroll = () => {
@@ -120,8 +156,8 @@ const Section2 = () => {
               />
               {hoveredIndex === index && (
                 <Link
-                  to="/"
-                  className="absolute bottom-0 w-full z-50 bg-black bg-opacity-50 text-white text-center py-2 opacity-90 transition-opacity cursor-pointer"
+                  to="/products"
+                  className="absolute  -left-[16px] rounded-[4px] bottom-0 w-full z-50 bg-black bg-opacity-50 text-white text-center py-2 opacity-90 transition-opacity cursor-pointer"
                 >
                   Know More
                 </Link>

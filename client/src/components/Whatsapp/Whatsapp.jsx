@@ -6,7 +6,7 @@ import "./Whatsapp.css";
 const Whatsapp = () => {
   return (
     <div className="whatsapp-container">
-      <div className="whatsapp_float sm:p-2">
+      <div className="whatsapp_float sm:p-2 sm:mr-1">
         <a
           href="https://wa.me/8898916144"
           target="_blank"
