@@ -134,10 +134,10 @@ const Navbar = () => {
                               Preference
                             </Link>
                             <Link
-                              to="product-details/buckinghum"
+                              to="product-details/buckingham"
                               className="px-4 py-2 hover:bg-indigo-100"
                             >
-                              Buckinghum
+                              Buckingham
                             </Link>
                             <Link
                               to="product-details/orthopedic-aloe-vera-latex"
@@ -146,7 +146,7 @@ const Navbar = () => {
                               Aloe-Vera With Latex
                             </Link>
                             <Link
-                              to="product-details/prthopedic-aloe-vera-memory"
+                              to="product-details/orthopedic-aloe-vera-memory"
                               className="px-4 py-2 hover:bg-indigo-100"
                             >
                               Aloe-Vera With Memory
@@ -235,16 +235,28 @@ const Navbar = () => {
                         {hoveredSubCategory ===
                           "Pocketed Spring Collection" && (
                           <div className="xl:absolute xl:left-60 xl:w-56 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-20">
-                            <Link to = "product-details/pocketed-spring-inspiration" className="px-4 py-2 hover:bg-indigo-100">
+                            <Link
+                              to="product-details/pocketed-spring-inspiration"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
                               Inspiration
                             </Link>
-                            <Link to = "product-details/pocketed-spring-6inch-eternity-euroton" className="px-4 py-2 hover:bg-indigo-100">
+                            <Link
+                              to="product-details/pocketed-spring-6inch-eternity-euroton"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
                               6" Eternity-Euroton
                             </Link>
-                            <Link to = "product-details/pocketed-spring-aloe-vera-with-latex" className="px-4 py-2 hover:bg-indigo-100">
+                            <Link
+                              to="product-details/pocketed-spring-aloe-vera-with-latex"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
                               Aloe-Vera With Latex
                             </Link>
-                            <Link to = "product-details/pocketed-spring-aloe-vera-with-memory" className="px-4 py-2 hover:bg-indigo-100">
+                            <Link
+                              to="product-details/pocketed-spring-aloe-vera-with-memory"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
                               Aloe-Vera With Memory
                             </Link>
                           </div>
@@ -262,16 +274,28 @@ const Navbar = () => {
                         HR-PU Foam Collection &#10097;
                         {hoveredSubCategory === "HR-PU Foam Collection" && (
                           <div className="xl:absolute xl:left-60 xl:w-56 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-32">
-                            <Link to = "product-details/hr-pu-gravity" className="px-4 py-2 hover:bg-indigo-100">
+                            <Link
+                              to="product-details/hr-pu-gravity"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
                               Gravity
                             </Link>
-                            <Link to = "product-details/hr-pu-space" className="px-4 py-2 hover:bg-indigo-100">
+                            <Link
+                              to="product-details/hr-pu-space"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
                               Space
                             </Link>
-                            <Link to = "product-details/hr-pu-plush" className="px-4 py-2 hover:bg-indigo-100">
+                            <Link
+                              to="product-details/hr-pu-plush"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
                               Plush
                             </Link>
-                            <Link to = "product-details/hr-pu-techniko" className="px-4 py-2 hover:bg-indigo-100">
+                            <Link
+                              to="product-details/hr-pu-techniko"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
                               Techniko
                             </Link>
                           </div>
@@ -281,41 +305,250 @@ const Navbar = () => {
                   )}
                 </div>
 
-                {/* Other main categories */}
+                {/* BEDS Dropdown */}
                 <div
-                  className={`px-4 py-2 rounded-lg hover:bg-white hover:text-black ${
-                    hoveredCategory === "Bonnell Spring Mattresses"
-                      ? "bg-blue-700"
-                      : ""
+                  className={`px-4 py-2 rounded-lg hover:bg-slate-50 hover:text-black ${
+                    hoveredCategory === "Beds" ? "bg-blue-700" : ""
                   }`}
-                  onMouseEnter={() =>
-                    handleMouseEnterCategory("Bonnell Spring Mattresses")
-                  }
+                  onMouseEnter={() => handleMouseEnterCategory("Beds")}
                   onMouseLeave={handleMouseLeaveCategory}
                 >
                   BEDS
+                  {hoveredCategory === "Beds" && (
+                    <div className="xl:absolute xl:-left-1 xl:mt-[9px] xl:w-60 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium">
+                      <div
+                        className="px-4 py-2 hover:bg-indigo-100"
+                        onMouseEnter={() =>
+                          handleMouseEnterSubCategory("King Size Bed")
+                        }
+                        onMouseLeave={handleMouseLeaveSubCategory}
+                      >
+                        King Size Bed &#10097;
+                        {hoveredSubCategory === "King Size Bed" && (
+                          <div className="xl:absolute xl:left-60 xl:w-56 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-7">
+                            <Link
+                              to="product-details/Platform-Bed"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
+                              Platform Bed
+                            </Link>
+                            <Link
+                              to="product-details/Panel-Bed"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
+                              Panel Bed
+                            </Link>
+                            <Link
+                              to="product-details/Canopy-Bed"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
+                              Canopy Bed
+                            </Link>
+                            <Link
+                              to="product-details/Sleigh-Bed"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
+                              Sleigh Bed
+                            </Link>
+                          </div>
+                        )}
+                      </div>
+                      <div
+                        className="px-4 py-2 hover:bg-indigo-100"
+                        onMouseEnter={() =>
+                          handleMouseEnterSubCategory("Queen Size Bed")
+                        }
+                        onMouseLeave={handleMouseLeaveSubCategory}
+                      >
+                        Queen Size Bed &#10097;
+                        {hoveredSubCategory === "Queen Size Bed" && (
+                          <div className="xl:absolute xl:left-60 xl:w-56 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-14">
+                            <Link
+                              to="product-details/Murphy-Bed"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
+                              Murphy Bed
+                            </Link>
+                            <Link
+                              to="product-details/Loft-Bed"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
+                              Loft Bed
+                            </Link>
+                            <Link
+                              to="product-details/Bunk-Bed"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
+                              Bunk Bed
+                            </Link>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  )}
                 </div>
+                {/* SOFAS Dropdown */}
                 <div
-                  className={`px-4 py-2 rounded-lg hover:bg-white hover:text-black ${
-                    hoveredCategory === "Pocketed Spring Mattresses"
-                      ? "bg-blue-700"
-                      : ""
+                  className={`px-4 py-2 rounded-lg hover:bg-slate-50 hover:text-black ${
+                    hoveredCategory === "Sofas" ? "bg-blue-700" : ""
                   }`}
-                  onMouseEnter={() =>
-                    handleMouseEnterCategory("Pocketed Spring Mattresses")
-                  }
+                  onMouseEnter={() => handleMouseEnterCategory("Sofas")}
                   onMouseLeave={handleMouseLeaveCategory}
                 >
                   SOFAS
+                  {hoveredCategory === "Sofas" && (
+                    <div className="xl:absolute xl:left-60 xl:w-60 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:font-medium">
+                      {/* Standard-Sofa */}
+                      <div
+                        className="px-4 py-2 hover:bg-indigo-100"
+                        onMouseEnter={() =>
+                          handleMouseEnterSubCategory("Standard Sofa")
+                        }
+                        onMouseLeave={handleMouseLeaveSubCategory}
+                      >
+                        Standard Sofa &#10097;
+                        {hoveredSubCategory === "Standard Sofa" && (
+                          <div className="xl:absolute xl:left-full xl:w-56 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-1">
+                            <Link
+                              to="product-details/Chesterfield"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
+                              Chesterfield
+                            </Link>
+                            <Link
+                              to="product-details/Lawson"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
+                              Lawson
+                            </Link>
+                            <Link
+                              to="product-details/Tuxedo"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
+                              Tuxedo
+                            </Link>
+                            {/* Add other links here */}
+                          </div>
+                        )}
+                      </div>
+                      {/* Add other subcategories here */}
+                      <div
+                        className="px-4 py-2 hover:bg-indigo-100"
+                        onMouseEnter={() =>
+                          handleMouseEnterSubCategory("Sectional Sofa")
+                        }
+                        onMouseLeave={handleMouseLeaveSubCategory}
+                      >
+                        Sectional Sofa &#10097;
+                        {hoveredSubCategory === "Sectional Sofa" && (
+                          <div className="xl:absolute xl:left-60 xl:w-56 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-14">
+                            <Link
+                              to="product-details/L-Shaped"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
+                              L-Shaped
+                            </Link>
+                            <Link
+                              to="product-details/U-Shaped"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
+                              U-Shaped
+                            </Link>
+                            <Link
+                              to="product-details/Modular"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
+                              Modular
+                            </Link>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  )}
                 </div>
+                {/* Accessories Dropdown */}
                 <div
                   className={`px-4 py-2 rounded-lg hover:bg-white hover:text-black ${
-                    hoveredCategory === "Pillows" ? "bg-blue-700" : ""
+                    hoveredCategory === "Accessories" ? "bg-blue-700" : ""
                   }`}
-                  onMouseEnter={() => handleMouseEnterCategory("Pillows")}
+                  onMouseEnter={() => handleMouseEnterCategory("Accessories")}
                   onMouseLeave={handleMouseLeaveCategory}
                 >
                   ACCESSORIES
+                  {hoveredCategory === "Accessories" && (
+                    <div className="xl:absolute xl:-left-1 xl:mt-[9px] xl:w-60 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium ">
+                      {/* Sectional Sofa */}
+                      <div
+                        className="px-4 py-2 hover:bg-indigo-100"
+                        onMouseEnter={() =>
+                          handleMouseEnterSubCategory("Accessories")
+                        }
+                        onMouseLeave={handleMouseLeaveSubCategory}
+                      >
+                        Comforters &#10097;
+                        {hoveredSubCategory === "Comforters" && (
+                          <div className="xl:absolute xl:left-60 xl:w-56 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-7">
+                            <Link
+                              to="product-details/Baffle-Box"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
+                              Baffle Box
+                            </Link>
+                            <Link
+                              to="product-details/Sewn-Through"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
+                              Sewn Through
+                            </Link>
+                          </div>
+                        )}
+                      </div>
+                      {/* Add other subcategories here */}
+                      <div
+                        className="px-4 py-2 hover:bg-indigo-100"
+                        onMouseEnter={() =>
+                          handleMouseEnterSubCategory("Pillows")
+                        }
+                        onMouseLeave={handleMouseLeaveSubCategory}
+                      >
+                        Pillows &#10097;
+                        {hoveredSubCategory === "Pillows" && (
+                          <div className="xl:absolute xl:left-60 xl:w-56 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-14">
+                            <Link
+                              to="product-details/Standard"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
+                              Standard
+                            </Link>
+                            <Link
+                              to="product-details/Body"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
+                              Body
+                            </Link>
+                            <Link
+                              to="product-details/Contour"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
+                              Contour
+                            </Link>
+                            <Link
+                              to="product-details/Travel"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
+                              Travel
+                            </Link>
+                            <Link
+                              to="product-details/Wedge"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
+                              Wedge
+                            </Link>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  )}
                 </div>
               </div>
             )}
