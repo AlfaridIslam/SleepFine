@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Image from "../../assets/image1.jpg";
 import { width } from "@fortawesome/free-brands-svg-icons/fa42Group";
+import news from "../../assets/news.jpg";
 
 export const Updates = () => {
   return (
@@ -20,7 +21,7 @@ export const Updates = () => {
         
         <div className="image xl:border-none xl:border-2 xl:p-15 xl:absolute xl:left-2">
           <img
-            src={Image}
+            src={news}
             alt="Image"
            
             className="xl:rounded-xl xl:w-[250px] xl:h-[250px] xl:ml-0 xl:mr-0 sm:w-[180px] sm:h-[180px] sm:ml-[10px] sm:mr-[8px]  sm:rounded-xl"

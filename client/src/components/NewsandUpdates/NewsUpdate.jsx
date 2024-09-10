@@ -1,5 +1,6 @@
 import React from "react";
-import Sleep from "../../assets/sleep.jpg"
+import Sleep from "../../assets/sleep.jpg";
+import news from "../../assets/news.jpg";
 
 const NewsandUpdate=() => {
     return(
@@ -17,7 +18,7 @@ const NewsandUpdate=() => {
             <p className="text-sm text-justify">
             <img
           className="w-full md:max-w-[450px] rounded-xl "
-          src={Sleep}
+          src={news}
           alt=""
         />
               
@@ -34,7 +35,7 @@ const NewsandUpdate=() => {
             <p className="text-sm text-justify">
             <img
           className="w-full md:max-w-[450px] rounded-xl"
-          src={Sleep}
+          src={news}
           alt=""
         />
             The Sleepfine Mattress has also seen a significant price drop, now available for $1,695 instead of $2,095. Additionally, Cyber Monday deals are offering up to $500 off on various mattresses along with free bedding accessories. It’s a great time to invest in a new mattress if you’re looking for comfort and savings!
@@ -52,7 +53,7 @@ const NewsandUpdate=() => {
             <p className="text-sm text-justify">
             <img
           className="w-full md:max-w-[450px] rounded-xl"
-          src={Sleep}
+          src={news}
           alt=""
         />
             
@@ -68,7 +69,7 @@ const NewsandUpdate=() => {
             <p className="text-sm text-justify">
             <img
           className="w-full md:max-w-[450px] rounded-xl"
-          src={Sleep}
+          src={news}
           alt=""
         />
             The Sleepfine Mattress has also seen a significant price drop, now available for $1,695 instead of $2,095. Additionally, Cyber Monday deals are offering up to $500 off on various mattresses along with free bedding accessories. It’s a great time to invest in a new mattress if you’re looking for comfort and savings!

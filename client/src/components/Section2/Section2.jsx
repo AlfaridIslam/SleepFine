@@ -2,23 +2,24 @@ import React, { useRef, useState } from "react";
 import ArrowRight from "../../assets/right.png";
 import ArrowLeft from "../../assets/left.png";
 import {
-  Image4,
-  Image5,
-  Image6,
-  Image7,
-  Image8,
-  Image9,
-  Image10,
-  Image11,
-  HoveredImage4,
-  HoveredImage5,
-  HoveredImage6,
-  HoveredImage7,
-  HoveredImage8,
-  HoveredImage9,
-  HoveredImage10,
-  HoveredImage11,
+  DSC02061,
+  DSC02067,
+  DSC02138,
+  DSC02143,
+  DSC02130,
+  DSC02132,
+  DSC02120,
+  DSC02126,
+  DSC02165,
+  DSC02171,
+  DSC02082,
+  DSC02085,
+  DSC02179,
+  DSC02177,
+  DSC02102,
+  DSC02104,
 } from "../../assets/index.jsx";
+import { Link } from "react-router-dom";
 
 const Section2 = () => {
   const scrollRef = useRef(null);
@@ -27,25 +28,25 @@ const Section2 = () => {
   const [isAtStart, setIsAtStart] = useState(true); // Track the start position
 
   const images = [
-    Image4,
-    Image5,
-    Image6,
-    Image7,
-    Image8,
-    Image9,
-    Image10,
-    Image11,
+    DSC02061,
+    DSC02138,
+    DSC02130,
+    DSC02120,
+    DSC02165,
+    DSC02082,
+    DSC02177,
+    DSC02102,
   ];
 
   const hoveredImages = [
-    HoveredImage4,
-    HoveredImage5,
-    HoveredImage6,
-    HoveredImage7,
-    HoveredImage8,
-    HoveredImage9,
-    HoveredImage10,
-    HoveredImage11,
+    DSC02067,
+    DSC02143,
+    DSC02132,
+    DSC02126,
+    DSC02171,
+    DSC02085,
+    DSC02179,
+    DSC02104,
   ];
 
   const handleScroll = () => {
@@ -105,19 +106,25 @@ const Section2 = () => {
           {images.map((img, index) => (
             <div
               key={index}
-              className="relative h-[500px] flex-shrink-0 xl:w-[30%] sm:space-x-4 sm:w-[100%] md:w-[100%] lg:w-[100%]"
+              className="relative h-[500px] flex-shrink-0 xl:w-[30%] sm:space-x-4 sm:w-[100%] md:w-[100%] lg:w-[100%] border-2 rounded-lg object-cover"
+              style={{
+                width: "30%", // Default width for larger screens
+              }}
               onMouseEnter={() => handleMouseEnter(index)}
               onMouseLeave={handleMouseLeave}
             >
               <img
                 src={hoveredIndex === index ? hoveredImages[index] : img}
                 alt={`Image ${index + 1}`}
-                className="w-full h-full object-cover transition-all duration-300 "
+                className="w-full h-full object-cover transition-all duration-300"
               />
               {hoveredIndex === index && (
-                <div className="absolute bottom-0 w-full z-50 bg-black bg-opacity-50 text-white text-center py-2 opacity-90 transition-opacity cursor-pointer">
+                <Link
+                  to="/"
+                  className="absolute bottom-0 w-full z-50 bg-black bg-opacity-50 text-white text-center py-2 opacity-90 transition-opacity cursor-pointer"
+                >
                   Know More
-                </div>
+                </Link>
               )}
             </div>
           ))}
