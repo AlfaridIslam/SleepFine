@@ -39,12 +39,12 @@ const products = [
           },
           {
             id: 1014,
-            name: "Aloe-Vera with Latex",
+            name: "Orthopedic-Aloe-Vera-Latex",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
             id: 1015,
-            name: "Aloe-Vera with Memory",
+            name: "orthopedic-aloe-vera-memory",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
@@ -64,37 +64,37 @@ const products = [
         subitems: [
           {
             id: 1021,
-            name: "6inch Silver Crown",
+            name: "6inch-Silver-Crown",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
             id: 1022,
-            name: "6inch Oxford",
+            name: "6inch-Oxford",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
             id: 1023,
-            name: "8inch Love Land",
+            name: "8inch-Love-Land",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
             id: 1024,
-            name: "8inch Love Land Pillow Top",
+            name: "8inch-Love-Land-Pillow-Top",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
             id: 1025,
-            name: "8inch Romantic Euroton",
+            name: "8inch-Romantic-Euroton",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
             id: 1026,
-            name: "Aloe-Vera With Latex",
+            name: "ortho-bonnell-aloe-vera-with-latex",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
             id: 1027,
-            name: "Aloe-Vera With Memory",
+            name: "ortho-bonnell-aloe-vera-with-memory",
             image: LeatherSofa, // Using existing image as dummy
           },
         ],
@@ -109,22 +109,22 @@ const products = [
         subitems: [
           {
             id: 1031,
-            name: "Inspiration",
+            name: "pocketed-spring-inspiration",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
             id: 1032,
-            name: "6inch Eternity-Euroton",
+            name: "pocketed-spring-6inch-eternity-euroton",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
             id: 1033,
-            name: "Pocketed Spring Aloe-Vera with Latex",
+            name: "pocketed-spring-aloe-vera-with-latex",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
             id: 1034,
-            name: "Pocketed Spring Aloe-Vera with Memory",
+            name: "pocketed-spring-aloe-vera-with-memory",
             image: LeatherSofa, // Using existing image as dummy
           },
         ],
@@ -134,32 +134,28 @@ const products = [
         id: 104,
         name: "HR PU Foam Collection",
         image: FabricSofa,
-        subcategories: [
+        subitems: [
           {
             id: 1041,
-            name: "HR PU Gravity",
+            name: "hr-pu-gravity",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
             id: 1042,
-            name: "HR PU Space",
+            name: "hr-pu-space",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
             id: 1043,
-            name: "HR PU Plush",
+            name: "hr-pu-plush",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
             id: 1044,
-            name: "HR PU Techniko",
+            name: "hr-pu-techniko",
             image: LeatherSofa, // Using existing image as dummy
           },
-          {
-            id: 1045,
-            name: "Techniko",
-            image: LeatherSofa, // Using existing image as dummy
-          },
+          
         ],
       },
     ],
@@ -178,22 +174,22 @@ const products = [
         subitems: [
           {
             id: 2011,
-            name: "Platform Bed",
+            name: "Platform-Bed",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
             id: 2012,
-            name: "Panel Bed",
+            name: "Panel-Bed",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
             id: 2013,
-            name: "Canopy Bed",
+            name: "Canopy-Bed",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
             id: 2014,
-            name: "Sleigh Bed",
+            name: "Sleigh-Bed",
             image: LeatherSofa, // Using existing image as dummy
           },
         ],
@@ -205,22 +201,22 @@ const products = [
         subitems: [
           {
             id: 2021,
-            name: "Murphy Bed",
+            name: "Murphy-Bed",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
             id: 2022,
-            name: "Loft Bed",
+            name: "Loft-Bed",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
             id: 2023,
-            name: "Bunk Bed",
+            name: "Bunk-Bed",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
             id: 2024,
-            name: "Trundle Bed",
+            name: "Trundle-Bed",
             image: LeatherSofa, // Using existing image as dummy
           },
         ],
@@ -236,7 +232,7 @@ const products = [
     subcategories: [
       {
         id: 301,
-        name: "Standard Sofa",
+        name: "Standard-Sofa",
         image: KingSizeBed,
         subitems: [
           {
@@ -294,12 +290,12 @@ const products = [
         subitems: [
           {
             id: 4011,
-            name: "Baffle Box",
+            name: "Baffle-Box",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
             id: 4012,
-            name: "Sewn Through",
+            name: "Sewn-Through",
             image: LeatherSofa, // Using existing image as dummy
           },
         ],
