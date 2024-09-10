@@ -76,27 +76,18 @@ const Section2 = () => {
   };
 
   return (
-    <div className="relative">
-      <div className="mx-20 my-7 flex-col">
-        <div className="ml-[20px] text-center flex-col justify-center items-center ">
-          <h1
-            className="xl:text-4xl md:text-3xl lg:text-2xl sm:text-xl 
-          font-sans "
-          >
+    <div className="relative sm:flex-col sm:justify-center sm:items-center sm:w-[683px] md:w-[1000px] lg:w-[1500px]">
+      <div className="mx-4 sm:mx-8 lg:mx-16 xl:mx-20 my-7 flex-col">
+        <div className="text-center flex-col justify-center items-center">
+          <h1 className="xl:text-4xl md:text-3xl lg:text-2xl sm:text-xl font-sans">
             Exceptional Quality
           </h1>
-          <p
-            className="xl:font-thin xl:text-[16px] xl:mt-2 md:text-[12px] 
-          md:mt-2 md:font-thin lg:text-[12px] lg:mt-2 lg:font-thin sm:font-thin sm:text-[12px] sm:mt-2"
-          >
+          <p className="xl:font-thin xl:text-[16px] xl:mt-2 md:text-[12px] md:mt-2 md:font-thin lg:text-[12px] lg:mt-2 lg:font-thin sm:font-thin sm:text-[12px] sm:mt-2">
             Soon-to-be staples in your rotation
           </p>
         </div>
       </div>
-      <div
-        className="relative w-full flex justify-center items-center p-12 sm:p-4 sm:w-[810px] md:w-[810px] md:p-4 
-      lg:w-[139%] lg:p-1 xl:w-full xl:p-4"
-      >
+      <div className="relative w-full flex justify-center items-center p-4 sm:p-8 md:p-12 lg:p-16 xl:p-4">
         {!isAtStart && (
           <button
             onClick={scrollLeft}
@@ -108,23 +99,20 @@ const Section2 = () => {
         <div
           ref={scrollRef}
           onScroll={handleScroll}
-          className="flex gap-4 overflow-x-auto space-x-6 hide-scrollbar sm:space-x-0 sm:overflow-hidden"
+          className="flex gap-4 overflow-x-auto space-x-6 hide-scrollbar"
           style={{ scrollBehavior: "smooth" }}
         >
           {images.map((img, index) => (
             <div
               key={index}
-              className="relative h-[500px] flex-shrink-0"
-              style={{
-                width: "30%", // Default width for larger screens
-              }}
+              className="relative h-[500px] flex-shrink-0 xl:w-[30%] sm:space-x-4 sm:w-[100%] md:w-[100%] lg:w-[100%]"
               onMouseEnter={() => handleMouseEnter(index)}
               onMouseLeave={handleMouseLeave}
             >
               <img
                 src={hoveredIndex === index ? hoveredImages[index] : img}
                 alt={`Image ${index + 1}`}
-                className="w-full h-full object-cover transition-all duration-300 sm:w-[100vw]" // Full width on small screens
+                className="w-full h-full object-cover transition-all duration-300 "
               />
               {hoveredIndex === index && (
                 <div className="absolute bottom-0 w-full z-50 bg-black bg-opacity-50 text-white text-center py-2 opacity-90 transition-opacity cursor-pointer">
