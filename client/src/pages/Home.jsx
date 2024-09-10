@@ -20,7 +20,7 @@ const Home = () => {
 
         
         <Section3/>
-        <Section2/>
+         <Section2/> 
         <Testimonial/>
         <Updates/>
        
