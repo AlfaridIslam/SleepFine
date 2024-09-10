@@ -1,5 +1,6 @@
 // assets/products.js
 import {
+  DSC02102,
   Sofa,
   LeatherSofa,
   FabricSofa,
