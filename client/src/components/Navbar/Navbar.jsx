@@ -57,7 +57,7 @@ const Navbar = () => {
       >
         {/* ____________________________Logo-Image _______________________*/}
         <div onClick={barsOpenHandler} className="xl:hidden sm:flexs  ">
-          <FontAwesomeIcon icon={faBars}  className="sm:h-10 sm:ml-2 sm:mt-2"/>
+          <FontAwesomeIcon icon={faBars} className="sm:h-10 sm:ml-2 sm:mt-2" />
         </div>
 
         <Link to="/" className="sm:flex sm:justify-center">
@@ -121,24 +121,42 @@ const Navbar = () => {
                         {hoveredSubCategory ===
                           "Orthopedic Bonded Collection" && (
                           <div className="xl:absolute xl:left-60 xl:w-56 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-7">
-                            <div className="px-4 py-2 hover:bg-indigo-100">
+                            <Link
+                              to="product-details/orthomed"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
                               Orthomed
-                            </div>
-                            <div className="px-4 py-2 hover:bg-indigo-100">
+                            </Link>
+                            <Link
+                              to="product-details/preference"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
                               Preference
-                            </div>
-                            <div className="px-4 py-2 hover:bg-indigo-100">
+                            </Link>
+                            <Link
+                              to="product-details/buckinghum"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
                               Buckinghum
-                            </div>
-                            <div className="px-4 py-2 hover:bg-indigo-100">
+                            </Link>
+                            <Link
+                              to="product-details/orthopedic-aloe-vera-latex"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
                               Aloe-Vera With Latex
-                            </div>
-                            <div className="px-4 py-2 hover:bg-indigo-100">
+                            </Link>
+                            <Link
+                              to="product-details/prthopedic-aloe-vera-memory"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
                               Aloe-Vera With Memory
-                            </div>
-                            <div className="px-4 py-2 hover:bg-indigo-100">
+                            </Link>
+                            <Link
+                              to="product-details/memofy"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
                               Memofy
-                            </div>
+                            </Link>
                           </div>
                         )}
                       </div>
@@ -157,27 +175,48 @@ const Navbar = () => {
                         {hoveredSubCategory ===
                           "Ortho Bonell Spring Collection" && (
                           <div className="xl:absolute xl:left-60 xl:w-56 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-14">
-                            <div className="px-4 py-2 hover:bg-indigo-100">
-                              6" Silver Corown
-                            </div>
-                            <div className="px-4 py-2 hover:bg-indigo-100">
+                            <Link
+                              to="product-details/6inch-silver-crown"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
+                              6" Silver Crown
+                            </Link>
+                            <Link
+                              to="product-details/6inch-oxford"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
                               6" Oxford
-                            </div>
-                            <div className="px-4 py-2 hover:bg-indigo-100">
+                            </Link>
+                            <Link
+                              to="product-details/8inch-love-land"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
                               8" Love Land
-                            </div>
-                            <div className="px-4 py-2 hover:bg-indigo-100">
+                            </Link>
+                            <Link
+                              to="product-details/8inch-love-land-pillow-top"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
                               8" Love Land Pillow Top
-                            </div>
-                            <div className="px-4 py-2 hover:bg-indigo-100">
+                            </Link>
+                            <Link
+                              to="product-details/8inch-romantic-euroton"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
                               8" Romantic Euroton
-                            </div>
-                            <div className="px-4 py-2 hover:bg-indigo-100">
+                            </Link>
+                            <Link
+                              to="product-details/ortho-bonnell-aloe-vera-with-latex"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
                               Aloe-Vera With Latex
-                            </div>
-                            <div className="px-4 py-2 hover:bg-indigo-100">
+                            </Link>
+                            <Link
+                              to="product-details/ortho-bonnell-aloe-vera-with-memory"
+                              className="px-4 py-2 hover:bg-indigo-100"
+                            >
                               Aloe-Vera With Memory
-                            </div>
+                            </Link>
                           </div>
                         )}
                       </div>
@@ -196,18 +235,18 @@ const Navbar = () => {
                         {hoveredSubCategory ===
                           "Pocketed Spring Collection" && (
                           <div className="xl:absolute xl:left-60 xl:w-56 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-20">
-                            <div className="px-4 py-2 hover:bg-indigo-100">
+                            <Link to = "product-details/pocketed-spring-inspiration" className="px-4 py-2 hover:bg-indigo-100">
                               Inspiration
-                            </div>
-                            <div className="px-4 py-2 hover:bg-indigo-100">
+                            </Link>
+                            <Link to = "product-details/pocketed-spring-6inch-eternity-euroton" className="px-4 py-2 hover:bg-indigo-100">
                               6" Eternity-Euroton
-                            </div>
-                            <div className="px-4 py-2 hover:bg-indigo-100">
+                            </Link>
+                            <Link to = "product-details/pocketed-spring-aloe-vera-with-latex" className="px-4 py-2 hover:bg-indigo-100">
                               Aloe-Vera With Latex
-                            </div>
-                            <div className="px-4 py-2 hover:bg-indigo-100">
+                            </Link>
+                            <Link to = "product-details/pocketed-spring-aloe-vera-with-memory" className="px-4 py-2 hover:bg-indigo-100">
                               Aloe-Vera With Memory
-                            </div>
+                            </Link>
                           </div>
                         )}
                       </div>
@@ -223,18 +262,18 @@ const Navbar = () => {
                         HR-PU Foam Collection &#10097;
                         {hoveredSubCategory === "HR-PU Foam Collection" && (
                           <div className="xl:absolute xl:left-60 xl:w-56 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-32">
-                            <div className="px-4 py-2 hover:bg-indigo-100">
+                            <Link to = "product-details/hr-pu-gravity" className="px-4 py-2 hover:bg-indigo-100">
                               Gravity
-                            </div>
-                            <div className="px-4 py-2 hover:bg-indigo-100">
+                            </Link>
+                            <Link to = "product-details/hr-pu-space" className="px-4 py-2 hover:bg-indigo-100">
                               Space
-                            </div>
-                            <div className="px-4 py-2 hover:bg-indigo-100">
+                            </Link>
+                            <Link to = "product-details/hr-pu-plush" className="px-4 py-2 hover:bg-indigo-100">
                               Plush
-                            </div>
-                            <div className="px-4 py-2 hover:bg-indigo-100">
+                            </Link>
+                            <Link to = "product-details/hr-pu-techniko" className="px-4 py-2 hover:bg-indigo-100">
                               Techniko
-                            </div>
+                            </Link>
                           </div>
                         )}
                       </div>
