@@ -9,12 +9,11 @@ import {
 } from "./assets/index"; // Adjust the path according to your folder structure
 
 const products = [
-  //-------------------Mattres-------------
+  //-------------------Mattresses-------------
   {
     id: 1,
     name: "Mattress",
     image: Sofa,
-    //----------Mattress-SUB-----------------
     subcategories: [
       //----------Orthopedic Bonded Collection--------
       {
@@ -23,8 +22,6 @@ const products = [
         image: LeatherSofa,
 
         subitems: [
-          //----------Orthopedic Bonded Collection-SUB--------
-
           {
             id: 1011,
             name: "Orthomed",
@@ -65,50 +62,9 @@ const products = [
         image: FabricSofa,
 
         subitems: [
-          // Adding subitems under Orthopedic Bonded Collection
-          {
-            id: 1041,
-            name: "6inch-silver-crown",
-            image: LeatherSofa, // Using existing image as dummy
-          },
-          {
-            id: 1042,
-            name: "6inch-oxford",
-            image: LeatherSofa, // Using existing image as dummy
-          },
-          {
-            id: 1043,
-            name: "8inch-love-land",
-            image: LeatherSofa, // Using existing image as dummy
-          },
-          {
-            id: 1044,
-            name: "8inch-love-land-pillow-top",
-            image: LeatherSofa, // Using existing image as dummy
-          },
-          {
-            id: 1045,
-            name: "8inch-romantic-euroton",
-            image: LeatherSofa, // Using existing image as dummy
-          },
-          {
-            id: 1046,
-            name: "ortho-bonnell-aloe-vera-with-latex",
-            image: LeatherSofa, // Using existing image as dummy
-          },
-          {
-            id: 1047,
-            name: "ortho-bonnell-aloe-vera-with-memory",
-            image: LeatherSofa, // Using existing image as dummy
-          },
-        ],
-
-        // ------------------------Ortho Bonnell Spring Collection-SUB----------------------------
-        subitems: [
-          // Adding subitems under Orthopedic Bonded Collection
           {
             id: 1021,
-            name: "6inch Silver Corown",
+            name: "6inch Silver Crown",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
@@ -145,16 +101,12 @@ const products = [
       },
 
       //--------------Pocketed Spring Collection----------------------------------
-
       {
         id: 103,
         name: "Pocketed Spring Collection",
         image: FabricSofa,
 
-        //--------------Pocketed Spring Collection---SUB----------------------------------
-
         subitems: [
-          // Adding subitems under Pocketed Spring Collection
           {
             id: 1031,
             name: "Inspiration",
@@ -167,89 +119,53 @@ const products = [
           },
           {
             id: 1033,
-            name: "pocketed-spring-aloe-vera-with-latex",
+            name: "Pocketed Spring Aloe-Vera with Latex",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
             id: 1034,
-            name: "pocketed-spring-aloe-vera-with-memory",
+            name: "Pocketed Spring Aloe-Vera with Memory",
             image: LeatherSofa, // Using existing image as dummy
           },
-        ], // Ensure the closing bracket and comma are placed correctly
+        ],
       },
-    ],
-  },
-  //-----------------HR PU Foam Collection-----------------------
-  {
-    id: 104,
-    name: "HR PU Foam Collection",
-    image: FabricSofa,
-    //-----------------HR PU Foam Collection--SUB-----------------------
-    subitems: [
-      // Adding subitems under HR PU Foam Collection
+      //-----------------HR PU Foam Collection-----------------------
       {
-        id: 1041,
-        name: "hr-pu-gravity",
-        image: LeatherSofa, // Using existing image as dummy
-      },
-      {
-        id: 1042,
-        name: "hr-pu-space",
-        image: LeatherSofa, // Using existing image as dummy
-      },
-      {
-        id: 1043,
-        name: "hr-pu-plush",
-        image: LeatherSofa, // Using existing image as dummy
-      },
-      {
-        id: 1044,
-        name: "hr-pu-techniko",
-        image: LeatherSofa, // Using existing image as dummy
-      },
-      {
-        id: 1045,
-        name: "Techniko",
-        image: LeatherSofa, // Using existing image as dummy
-      },
-    ],
-  },
-
-  {
-    id: 2,
-    name: "Bed",
-    image: Bed,
-    subcategories: [
-      {
-        id: 201,
-        name: "King Size Bed",
-        image: KingSizeBed,
-        subitems: [
-          // Adding subitems under King Size Bed
+        id: 104,
+        name: "HR PU Foam Collection",
+        image: FabricSofa,
+        subcategories: [
           {
-            id: 2011,
-            name: "Platform Bed",
+            id: 1041,
+            name: "HR PU Gravity",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
-            id: 2012,
-            name: "Panel Bed",
+            id: 1042,
+            name: "HR PU Space",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
-            id: 2013,
-            name: "Canopy Bed",
+            id: 1043,
+            name: "HR PU Plush",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
-            id: 2014,
-            name: "Sleigh Bed",
+            id: 1044,
+            name: "HR PU Techniko",
+            image: LeatherSofa, // Using existing image as dummy
+          },
+          {
+            id: 1045,
+            name: "Techniko",
             image: LeatherSofa, // Using existing image as dummy
           },
         ],
       },
     ],
   },
+
+  //-----------------Beds-----------------------
   {
     id: 2,
     name: "Bed",
@@ -260,7 +176,6 @@ const products = [
         name: "King Size Bed",
         image: KingSizeBed,
         subitems: [
-          // Adding subitems under Orthopedic Bonded Collection
           {
             id: 2011,
             name: "Platform Bed",
@@ -288,7 +203,6 @@ const products = [
         name: "Queen Size Bed",
         image: QueenSizeBed,
         subitems: [
-          // Adding subitems under Orthopedic Bonded Collection
           {
             id: 2021,
             name: "Murphy Bed",
@@ -306,13 +220,15 @@ const products = [
           },
           {
             id: 2024,
-            name: "Trundle bed",
+            name: "Trundle Bed",
             image: LeatherSofa, // Using existing image as dummy
           },
         ],
       },
     ],
   },
+
+  //-----------------Sofas-----------------------
   {
     id: 3,
     name: "Sofa",
@@ -323,7 +239,6 @@ const products = [
         name: "Standard Sofa",
         image: KingSizeBed,
         subitems: [
-          // Adding subitems under Orthopedic Bonded Collection
           {
             id: 3011,
             name: "Chesterfield",
@@ -346,7 +261,6 @@ const products = [
         name: "Sectional Sofa",
         image: QueenSizeBed,
         subitems: [
-          // Adding subitems under Orthopedic Bonded Collection
           {
             id: 3021,
             name: "L-Shaped",
@@ -366,6 +280,8 @@ const products = [
       },
     ],
   },
+
+  //-----------------Accessories-----------------------
   {
     id: 4,
     name: "Accessories",
@@ -376,7 +292,6 @@ const products = [
         name: "Comforters",
         image: KingSizeBed,
         subitems: [
-          // Adding subitems under Orthopedic Bonded Collection
           {
             id: 4011,
             name: "Baffle Box",
@@ -394,29 +309,28 @@ const products = [
         name: "Pillows",
         image: QueenSizeBed,
         subitems: [
-          // Adding subitems under Orthopedic Bonded Collection
           {
-            id: 1011,
+            id: 4011,
             name: "Standard",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
-            id: 1012,
+            id: 4012,
             name: "Body",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
-            id: 1013,
+            id: 4013,
             name: "Contour",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
-            id: 1014,
+            id: 4014,
             name: "Travel",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
-            id: 1015,
+            id: 4015,
             name: "Wedge",
             image: LeatherSofa, // Using existing image as dummy
           },
