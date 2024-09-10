@@ -9,17 +9,22 @@ import {
 } from "./assets/index"; // Adjust the path according to your folder structure
 
 const products = [
+  //-------------------Mattres-------------
   {
     id: 1,
     name: "Mattress",
     image: Sofa,
+    //----------Mattress-SUB-----------------
     subcategories: [
+      //----------Orthopedic Bonded Collection--------
       {
         id: 101,
         name: "Orthopedic Bonded Collection",
         image: LeatherSofa,
+
         subitems: [
-          // Adding subitems under Orthopedic Bonded Collection
+          //----------Orthopedic Bonded Collection-SUB--------
+
           {
             id: 1011,
             name: "Orthomed",
@@ -52,10 +57,13 @@ const products = [
           },
         ],
       },
+
+      // ------------------------Ortho Bonnell Spring Collection----------------------------
       {
         id: 102,
         name: "Ortho Bonnell Spring Collection",
         image: FabricSofa,
+
         subitems: [
           // Adding subitems under Orthopedic Bonded Collection
           {
@@ -94,21 +102,67 @@ const products = [
             image: LeatherSofa, // Using existing image as dummy
           },
         ],
+
+        // ------------------------Ortho Bonnell Spring Collection-SUB----------------------------
+        subitems: [
+          // Adding subitems under Orthopedic Bonded Collection
+          {
+            id: 1021,
+            name: "6inch Silver Corown",
+            image: LeatherSofa, // Using existing image as dummy
+          },
+          {
+            id: 1022,
+            name: "6inch Oxford",
+            image: LeatherSofa, // Using existing image as dummy
+          },
+          {
+            id: 1023,
+            name: "8inch Love Land",
+            image: LeatherSofa, // Using existing image as dummy
+          },
+          {
+            id: 1024,
+            name: "8inch Love Land Pillow Top",
+            image: LeatherSofa, // Using existing image as dummy
+          },
+          {
+            id: 1025,
+            name: "8inch Romantic Euroton",
+            image: LeatherSofa, // Using existing image as dummy
+          },
+          {
+            id: 1026,
+            name: "Aloe-Vera With Latex",
+            image: LeatherSofa, // Using existing image as dummy
+          },
+          {
+            id: 1027,
+            name: "Aloe-Vera With Memory",
+            image: LeatherSofa, // Using existing image as dummy
+          },
+        ],
       },
+
+      //--------------Pocketed Spring Collection----------------------------------
+
       {
         id: 103,
         name: "Pocketed Spring Collection",
         image: FabricSofa,
+
+        //--------------Pocketed Spring Collection---SUB----------------------------------
+
         subitems: [
-          // Adding subitems under Orthopedic Bonded Collection
+          // Adding subitems under Pocketed Spring Collection
           {
             id: 1031,
-            name: "pocketed-spring-inspiration",
+            name: "Inspiration",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
             id: 1032,
-            name: "pocketed-spring-6inch-eternity-euroton",
+            name: "6inch Eternity-Euroton",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
@@ -121,32 +175,75 @@ const products = [
             name: "pocketed-spring-aloe-vera-with-memory",
             image: LeatherSofa, // Using existing image as dummy
           },
-        ],
+        ], // Ensure the closing bracket and comma are placed correctly
+      },
+    ],
+  },
+  //-----------------HR PU Foam Collection-----------------------
+  {
+    id: 104,
+    name: "HR PU Foam Collection",
+    image: FabricSofa,
+    //-----------------HR PU Foam Collection--SUB-----------------------
+    subitems: [
+      // Adding subitems under HR PU Foam Collection
+      {
+        id: 1041,
+        name: "hr-pu-gravity",
+        image: LeatherSofa, // Using existing image as dummy
       },
       {
-        id: 104,
-        name: "HR PU Foam Collection",
-        image: FabricSofa,
+        id: 1042,
+        name: "hr-pu-space",
+        image: LeatherSofa, // Using existing image as dummy
+      },
+      {
+        id: 1043,
+        name: "hr-pu-plush",
+        image: LeatherSofa, // Using existing image as dummy
+      },
+      {
+        id: 1044,
+        name: "hr-pu-techniko",
+        image: LeatherSofa, // Using existing image as dummy
+      },
+      {
+        id: 1045,
+        name: "Techniko",
+        image: LeatherSofa, // Using existing image as dummy
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    name: "Bed",
+    image: Bed,
+    subcategories: [
+      {
+        id: 201,
+        name: "King Size Bed",
+        image: KingSizeBed,
         subitems: [
-          // Adding subitems under Orthopedic Bonded Collection
+          // Adding subitems under King Size Bed
           {
-            id: 1041,
-            name: "hr-pu-gravity",
+            id: 2011,
+            name: "Platform Bed",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
-            id: 1042,
-            name: "hr-pu-space",
+            id: 2012,
+            name: "Panel Bed",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
-            id: 1043,
-            name: "hr-pu-plush",
+            id: 2013,
+            name: "Canopy Bed",
             image: LeatherSofa, // Using existing image as dummy
           },
           {
-            id: 1044,
-            name: "hr-pu-techniko",
+            id: 2014,
+            name: "Sleigh Bed",
             image: LeatherSofa, // Using existing image as dummy
           },
         ],
@@ -290,7 +387,6 @@ const products = [
             name: "Sewn Through",
             image: LeatherSofa, // Using existing image as dummy
           },
-         
         ],
       },
       {
@@ -324,7 +420,6 @@ const products = [
             name: "Wedge",
             image: LeatherSofa, // Using existing image as dummy
           },
-          
         ],
       },
     ],

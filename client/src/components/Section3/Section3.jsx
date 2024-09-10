@@ -1,10 +1,9 @@
 import React from "react";
-import Image1 from "../../assets/image1.jpg";
-import Image2 from "../../assets/image2.jpg";
-import Image3 from "../../assets/image3.jpg";
-import Desc1 from "../../assets/image4.jpg";
-import Desc2 from "../../assets/image5.jpg";
-import Desc3 from "../../assets/image6.jpg";
+import DSC02073 from "../../assets/mattress S.F COMP IMG/Romantic soft CI/DSC02073.jpg";
+import DSC02096 from "../../assets/mattress S.F COMP IMG/Prefrence CI/DSC02096.jpg";
+import DSC02159 from "../../assets/mattress S.F COMP IMG/PUFOAM 8/DSC02160.jpg";
+import DSC02147 from "../../assets/mattress S.F COMP IMG/Loveland CI/DSC02147.jpg";
+import DSC02117 from "../../assets/mattress S.F COMP IMG/Oxford CI/DSC02117.jpg";
 
 const Section3 = () => {
   return (
@@ -14,33 +13,34 @@ const Section3 = () => {
       </div>
 
       {/* -----images-div------ */}
+
       <div className="grid gap-4 xl:grid-cols-4 md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 xl:gap-2 xl:mt-2 xl:mb-4 sm:mt-2 sm:px-4">
         <div className="flex justify-center">
           <img
-            src={Desc1}
+            src={DSC02073}
             alt="Modern Statement"
-            className="w-full h-full object-cover xl:w-[300px] xl:h-[300px] sm:w-[500px] sm:h-[400px]"
+            className="w-full h-full object-cover xl:w-[300px] xl:h-[300px] sm:w-[500px] sm:h-[400px] xl:px-0 xl:ml-0 sm:px-5 sm:ml-4 border-2 rounded-xl"
           />
         </div>
         <div className="flex justify-center">
           <img
-            src={Desc2}
+            src={DSC02096}
             alt="The Essentials Collection"
-            className="w-full h-full object-cover xl:w-[300px] xl:h-[300px] sm:w-[500px] sm:h-[400px]"
+            className="w-full h-full object-cover xl:w-[300px] xl:h-[300px] sm:w-[500px] sm:h-[400px] xl:px-0 xl:ml-0 sm:px-5 sm:ml-4 border-2 rounded-xl"
           />
         </div>
         <div className="flex justify-center">
           <img
-            src={Desc3}
-            alt="Made-To-Order Jewelry"
-            className="w-full h-full object-cover xl:w-[300px] xl:h-[300px] sm:w-[500px] sm:h-[400px]"
+            src={DSC02117}
+            alt="Oxford CI"
+            className="w-full h-full object-cover xl:w-[300px] xl:h-[300px] sm:w-[500px] sm:h-[400px] xl:px-0 xl:ml-0 sm:px-5 sm:ml-4 border-2 rounded-xl"
           />
         </div>
         <div className="flex justify-center">
           <img
-            src={Desc3}
-            alt="Made-To-Order Jewelry"
-            className="w-full h-full object-cover xl:w-[300px] xl:h-[300px] sm:w-[500px] sm:h-[400px]"
+            src={DSC02147}
+            alt="Loveland CI"
+            className="w-full h-full object-cover xl:w-[300px] xl:h-[300px] sm:w-[500px] sm:h-[400px] xl:px-0 xl:ml-0 sm:px-5 sm:ml-4 border-2 rounded-xl"
           />
         </div>
       </div>
