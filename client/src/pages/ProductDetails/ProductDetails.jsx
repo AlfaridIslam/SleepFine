@@ -34,17 +34,17 @@ const productData = {
     description:
       "Our queen-size beds combine elegance and comfort, making them an ideal choice for any bedroom. They offer the perfect balance of space and style for a restful retreat.",
   },
-  orthomed: {
+  "orthomed": {
     images: [Image8, Image9, Image10, Image11], // Assuming images are not uploaded yet
     description:
       "Our orthopedic beds provide optimal support for those needing extra care. Designed for comfort and health, these beds ensure a restful sleep experience.",
   },
-  preference: {
+  "preference": {
     images: [], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
-  buckinghum: {
+  "buckinghum": {
     images: [Image8, Image9, Image10, Image11], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
@@ -59,7 +59,7 @@ const productData = {
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
-  memofy: {
+  "memofy": {
     images: [Image8, Image9, Image10, Image11], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
