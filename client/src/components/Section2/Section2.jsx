@@ -113,13 +113,16 @@ const Section2 = () => {
   };
 
   return (
-    <div className="relative sm:flex-col sm:justify-center sm:items-center sm:w-[683px] md:w-[1000px] lg:w-[1500px]">
+    <div className="relative sm:flex-col sm:justify-center sm:items-center xl:w-[99%] sm:w-[400%] md:w-[400%] md:mt-10 lg:w-[400%]">
       <div className="mx-4 sm:mx-8 lg:mx-16 xl:mx-20 my-7 flex-col">
         <div className="text-center flex-col justify-center items-center">
-          <h1 className="xl:text-4xl md:text-3xl lg:text-2xl sm:text-xl font-sans">
+          <h1 className="xl:text-4xl md:text-3xl lg:text-3xl sm:text-3xl font-sans ">
             Exceptional Quality
           </h1>
-          <p className="xl:font-thin xl:text-[16px] xl:mt-2 md:text-[12px] md:mt-2 md:font-thin lg:text-[12px] lg:mt-2 lg:font-thin sm:font-thin sm:text-[12px] sm:mt-2">
+          <p
+            className="xl:font-thin xl:text-[16px] xl:mt-2 md:text-[18px] md:mt-2 md:font-thin 
+          lg:text-[14px] lg:mt-2 lg:font-thin sm:font-thin sm:text-[18px] sm:mt-2"
+          >
             Soon-to-be staples in your rotation
           </p>
         </div>
@@ -142,10 +145,11 @@ const Section2 = () => {
           {images.map((img, index) => (
             <div
               key={index}
-              className="relative h-[500px] flex-shrink-0 xl:w-[30%] sm:space-x-4  md:w-[100%] lg:w-[100%] border-2 rounded-lg object-cover"
+              className="relative h-[500px] flex-shrink-0 xl:w-[20%] sm:space-x-4  md:w-[100%] lg:w-[100%] border-2 rounded-lg object-cover"
               style={{
-                xl:{width: "30%"}, // Default width for larger screens
-                sm:{width: "50%"}
+                xl: { width: "30%" }, // Default width for larger screens
+                sm: { width: "50%" },
+                // lg: { width: "100%" },
               }}
               onMouseEnter={() => handleMouseEnter(index)}
               onMouseLeave={handleMouseLeave}

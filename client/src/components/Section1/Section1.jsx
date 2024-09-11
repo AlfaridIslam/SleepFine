@@ -10,22 +10,32 @@ const Section1 = () => {
   };
 
   return (
-    <div className="xl:flex xl:justify-center xl:items-center xl:bg-gray-100 xl:p-6 xl:gap-8 xl:w-full xl:mt-0
-                      sm:w-[140%] sm:mt-4 md:w-[140%] lg:w-[140%] ">
+    <div
+      className="xl:flex xl:justify-center xl:items-center xl:bg-gray-100 xl:p-6 xl:gap-8 xl:w-full xl:mt-0
+                      sm:w-[400%] sm:mt-4 sm:px-20 
+                      md:w-[400%] 
+                      lg:w-[400%] "
+    >
       <div className="image  sm:justify-center sm:flex ">
         {/* Adjust image size dynamically based on content visibility */}
-        <img 
+        <img
           src={Logo}
           alt="Image"
           className={`${
-            showFullContent ? "xl:w-[2600px] xl:h-[200px]" : "xl:w-[3000px] xl:h-[250px]"
+            showFullContent
+              ? "xl:w-[2600px] xl:h-[200px]"
+              : "xl:w-[3000px] xl:h-[250px]"
           } transition-all duration-500  sm:h-40   `}
         />
       </div>
-      <div className="description xl:flex-col xl:justify-center xl:items-center xl:p-11 xl:mt-0 
-                           sm:mt-6  sm:grid sm:justify-center sm:items-center">
-        <p className="poppins-medium xl:text-center xl:text-4xl
-                           sm:text-2xl sm:mb-2 sm:text-center">
+      <div
+        className="description xl:flex-col xl:justify-center xl:items-center xl:p-11 xl:mt-0 
+                           sm:mt-6  sm:grid sm:justify-center sm:items-center"
+      >
+        <p
+          className="poppins-medium xl:text-center xl:text-4xl
+                           sm:text-2xl sm:mb-2 sm:text-center"
+        >
           Welcome to Sleep Fine, where rest meets innovation
         </p>
         <p className="poppins-regular xl:text-2xl xl:my-6 xl:px-0 sm:text-center sm:px-4">
@@ -101,13 +111,14 @@ const Section1 = () => {
             View More
           </button>
         )}
-       <div className="xl:bg-gray-500 xl:w-fit xl:p-2 xl:shadow-xl xl:grid xl:mx-auto xl:mt-6 xl:rounded-none
-                          sm:bg-orange-300 sm:w-fit sm:p-4 sm:shadow-xl sm:mx-auto sm:mt-6 sm:rounded-2xl">
-  <Link to="/products" className="">
-    View Products
-  </Link>
-</div>
-
+        <div
+          className="xl:bg-gray-500 xl:w-fit xl:p-2 xl:shadow-xl xl:grid xl:mx-auto xl:mt-6 xl:rounded-none
+                          sm:bg-orange-300 sm:w-fit sm:p-4 sm:shadow-xl sm:mx-auto sm:mt-6 sm:rounded-2xl"
+        >
+          <Link to="/products" className="">
+            View Products
+          </Link>
+        </div>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ import Carousel3 from "../../assets/carousel3.jpg";
 
 const slides = [
   {
-    image:Carousel1,
+    image: Carousel1,
     title: "Wide Range of Variety",
     description:
       "Sleep Fine Mattresses comes with varieties ranging from medical rebonded to Bonnell and Pocketed spring super soft.",
@@ -19,7 +19,8 @@ const slides = [
   {
     image: Carousel3,
     title: "Research & Development",
-    description: "Sleep Fine Mattresses has the best R&D setup for continuous product development",
+    description:
+      "Sleep Fine Mattresses has the best R&D setup for continuous product development",
   },
 ];
 
@@ -42,8 +43,11 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div className="xl:relative xl:w-full xl:h-[550px] xl:mx-auto xl:overflow-hidden
-                     sm:w-[140%] sm:h-60">
+    <div
+      className="xl:relative xl:w-full xl:h-[550px] xl:mx-auto xl:overflow-hidden
+                 sm:overflow-hidden sm:w-[400%]  sm:h-[27rem]
+                 md:w-[400%] md:h-[570px] lg:h-[30rem] lg:w-[400%]"
+    >
       <div
         className="relative w-full h-full bg-gray-200"
         style={{
