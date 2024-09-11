@@ -11,89 +11,85 @@ import {
 
 const Footer = () => {
   return (
-    <div className='Main-Sectio bg-black xl:w-full sm:w-[665px] md:w-[1082px] lg:w-[1521px] '>
-
-<div className="text-white  xl:flex xl:mt-10 xl:pt-10 xl:justify-around xl:w-full
-                 sm:mt-2  sm:grid ">
+    <div className="Main-Sectio bg-black xl:w-full sm:w-[399%] md:w-[400%] lg:w-[400%]  ">
+      <div
+        className="text-white  xl:flex xl:mt-10 xl:pt-10 xl:justify-around xl:w-full lg:pl-[8rem] lg:pr-[6relg
+                 sm:mt-2  sm:grid sm:pl-[9rem] sm:pr-[11rem] md:pl-[8rem] md:pr-[6rem] "
+      >
         <div>
-          <h1 className="text-lg font-normal xl:mt-0 sm:mt-5 xl:justify-start sm:justify-start sm:flex sm:text-xl sm:px-4">OUR PROMISE</h1>
+          <h1 className="text-lg font-normal xl:mt-0 sm:mt-5 xl:justify-start sm:justify-start sm:flex sm:text-xl sm:px-4">
+            OUR PROMISE
+          </h1>
           <ul className="font-extralight xl:mt-10 xl:text-sm sm:mt-2 sm:text-base sm:justify-center sm:flex">
             <li>
               {" "}
-              <p className='xl:w-60  sm:px-4'>
-                We at Sleep fine, are constantly pushing the  boundaries
-                of technology and innovations to 
-                craft best sleep solutions that are built 
-                around your personal comfort preferences.
-                 There is only one mattress that understands
-                 you, your body and how you sleep. 
+              <p
+                className="xl:w-60 xl:pr-[0.75rem] xl:pl-[0.25rem] lg:pl-[1rem] lg:pr-[80rem]
+               sm:pr-[13rem] sm:pl-[1rem] md:pr-[80rem] md:pl-[1rem] "
+              >
+                We at Sleep fine, are constantly pushing the boundaries of
+                technology and innovations to craft best sleep solutions that
+                are built around your personal comfort preferences. There is
+                only one mattress that understands you, your body and how you
+                sleep.
               </p>
             </li>
           </ul>
         </div>
 
-        <div className='  xl:gap-24 xl:p-0 xl:text-lg sm: flex sm:justify-between sm:px-4 '>
+        <div className="  xl:gap-24 xl:p-0 xl:text-lg sm: flex sm:justify-between sm:px-4 ">
+          <div className="xl:mt-0 sm:mt-4">
+            <h1>CATEGORIES</h1>
+            <ul className="font-extralight xl:mt-10  sm:mt-2 xl:text-sm sm:text-lg">
+              <li>Mattresses</li>
+              <li>Head Boards</li>
+              <li>Comforters</li>
+              <li>Pillows</li>
+            </ul>
+          </div>
 
-       
+          <div className="xl:mt-0 sm:mt-4">
+            <h1>SUPPORT</h1>
+            <ul className="font-extralight xl:mt-10  sm:mt-2  xl:text-sm sm:text-lg">
+              <li>Privacy Policy</li>
+              <li>Terms & Conditions</li>
+              <li>Warranty</li>
+            </ul>
+          </div>
 
-        <div className='xl:mt-0 sm:mt-4'>
-          <h1>CATEGORIES</h1>
-          <ul className="font-extralight xl:mt-10  sm:mt-2 xl:text-sm sm:text-lg">
-            <li>Mattresses</li>
-            <li>Head Boards</li>
-            <li>Comforters</li>
-            <li>Pillows</li>
-          </ul>
+          <div className="xl:mt-0 sm:mt-4">
+            <h1>CONTACT US</h1>
+            <ul className="font-extralight xl:mt-10  sm:mt-2  xl:text-sm sm:text-lg">
+              <li>E-mail: sales@sleepfineindia.com</li>
+              <li>Tel : +91-40-4040032084</li>
+            </ul>
+          </div>
         </div>
 
-        <div className='xl:mt-0 sm:mt-4'>
-          <h1>SUPPORT</h1>
-          <ul className="font-extralight xl:mt-10  sm:mt-2  xl:text-sm sm:text-lg">
-            <li>Privacy Policy</li>
-            <li>Terms & Conditions</li>
-            <li>Warranty</li>
-          </ul>
-        </div>
-
-        <div className='xl:mt-0 sm:mt-4'>
-          <h1>CONTACT US</h1>
-          <ul className="font-extralight xl:mt-10  sm:mt-2  xl:text-sm sm:text-lg">
-            <li>E-mail: sales@sleepfineindia.com</li>
-            <li>Tel : +91-40-4040032084</li>
-          </ul>
-        </div>
-
-       
-
-        </div>
-
-      
-
-<div className='sm:flex sm:justify-center'>
-        <div className='xl:mt-0 sm:mt-4 '>
-          <h1>PAYMENT METHODS</h1>
-          <ul className="font-extralight xl:mt-10 grid xl:gap-2 sm:gap-1 text-sm">
-            <li>
-              <img
-                src="src\assets\Fotter-Img\img-1.png"
-                alt=""
-                className="w-40"
-              />
-            </li>
-            <li>
-              {" "}
-              <img
-                src="src\assets\Fotter-Img\img-2.png"
-                alt=""
-                className="w-40"
-              />
-            </li>
-          </ul>
+        <div className="sm:flex sm:justify-center">
+          <div className="xl:mt-0 sm:mt-4 ">
+            <h1>PAYMENT METHODS</h1>
+            <ul className="font-extralight xl:mt-10 grid xl:gap-2 sm:gap-1 text-sm">
+              <li>
+                <img
+                  src="src\assets\Fotter-Img\img-1.png"
+                  alt=""
+                  className="w-40"
+                />
+              </li>
+              <li>
+                {" "}
+                <img
+                  src="src\assets\Fotter-Img\img-2.png"
+                  alt=""
+                  className="w-40"
+                />
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-     
-    </div>
-    <div className="text-white mt-10 sm:text-3xl xl:text-lg">
+      <div className="text-white mt-10 sm:text-3xl xl:text-lg">
         <h1 className="border-[1px] h-0 mx-14"></h1>
 
         <h1 className="justify-center items-center flex mt-10">FOLLOW US</h1>
@@ -125,9 +121,8 @@ const Footer = () => {
           Copyright.All rights reserved @ 2024
         </li>
       </div>
-
     </div>
-  )
+  );
 }
 
 export default Footer;
