@@ -11,7 +11,7 @@ const Section1 = () => {
 
   return (
     <div className="xl:flex xl:justify-center xl:items-center xl:bg-gray-100 xl:p-6 xl:gap-8 xl:w-full xl:mt-0
-                      sm:w-[140%] sm:mt-4  ">
+                      sm:w-[140%] sm:mt-4 md:w-[140%] lg:w-[140%] ">
       <div className="image  sm:justify-center sm:flex ">
         {/* Adjust image size dynamically based on content visibility */}
         <img 

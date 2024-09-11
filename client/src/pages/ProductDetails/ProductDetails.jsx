@@ -356,6 +356,16 @@ const productData = {
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
+  "Baffle Box": {
+    images: [
+      EightinchPUFOAM1,
+      EightinchPUFOAM2,
+      EightinchPUFOAM3,
+      EightinchPUFOAM4,
+    ], // Assuming images are not uploaded yet
+    description:
+      "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
+  },
 };
 
 const ProductDetails = () => {
