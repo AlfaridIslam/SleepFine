@@ -59,7 +59,7 @@ const productData = {
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
-  memofy: {
+  " ": {
     images: [Image8, Image9, Image10, Image11], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",

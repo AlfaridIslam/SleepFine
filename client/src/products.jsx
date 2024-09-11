@@ -29,7 +29,7 @@ const products = [
           {
             id: 1011,
             name: "Orthomed",
-            image: LeatherSofa, // Using existing image as dummy
+            // image: LeatherSofa, // Using existing image as dummy
           },
           {
             id: 1012,
