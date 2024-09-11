@@ -142,9 +142,10 @@ const Section2 = () => {
           {images.map((img, index) => (
             <div
               key={index}
-              className="relative h-[500px] flex-shrink-0 xl:w-[30%] sm:space-x-4 sm:w-[100%] md:w-[100%] lg:w-[100%] border-2 rounded-lg object-cover"
+              className="relative h-[500px] flex-shrink-0 xl:w-[30%] sm:space-x-4  md:w-[100%] lg:w-[100%] border-2 rounded-lg object-cover"
               style={{
-                width: "30%", // Default width for larger screens
+                xl:{width: "30%"}, // Default width for larger screens
+                sm:{width: "50%"}
               }}
               onMouseEnter={() => handleMouseEnter(index)}
               onMouseLeave={handleMouseLeave}
