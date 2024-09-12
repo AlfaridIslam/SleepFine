@@ -11,7 +11,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className='Main-Sectio bg-black xl:w-full sm:w-[635px] md:w-[1082px] lg:w-[1521px]'>
+    <div className='Main-Sectio bg-black xl:w-full sm:w-[665px] md:w-[1082px] lg:w-[1521px] '>
 
 <div className="text-white  xl:flex xl:mt-10 xl:pt-10 xl:justify-around xl:w-full
                  sm:mt-2  sm:grid ">

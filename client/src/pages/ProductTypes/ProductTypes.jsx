@@ -1,27 +1,46 @@
-import React from "react";
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
+// components/ProductTypes.jsx
+import React, { useState } from "react";
+import ProductSubitems from "../ProductSubItems/ProductSubitems.jsx"; // Import ProductSubitems component
 
 const ProductTypes = ({ subcategories }) => {
+  const [selectedSubcategoryId, setSelectedSubcategoryId] = useState(null);
+
+  // Handle subcategory click
+  const handleSubcategoryClick = (subcategoryId) => {
+    setSelectedSubcategoryId((prevId) =>
+      prevId === subcategoryId ? null : subcategoryId
+    ); // Toggle selection
+  };
+
   return (
     <div className="xl:mt-8 sm:mt-8">
-      <h1 className="text-2xl font-bold mb-4 xl:text-center sm:text-center" >Product Types</h1>
-      <div className=" xl:grid xl:grid-col-2 sm:grid sm:grid-cols-2 sm:gap-4 ">
+      <h1 className="text-2xl font-bold mb-4 xl:text-center sm:text-center">
+        Product Types
+      </h1>
+      <div className="xl:grid xl:grid-cols-2 sm:grid sm:grid-cols-2 sm:gap-4">
         {subcategories.map((subcategory) => (
-          <Link
-            key={subcategory.id}
-            to={`/product-details/${subcategory.name
-              .replace(/\s+/g, "-")
-              .toLowerCase()}`} // Create a URL-friendly link
-          >
-            <div className="hover:shadow-lg transition-shadow duration-300">
+          <React.Fragment key={subcategory.id}>
+            <div
+              className="cursor-pointer hover:shadow-lg transition-shadow duration-300"
+              onClick={() => handleSubcategoryClick(subcategory.id)}
+            >
               <img
                 src={subcategory.image}
                 alt={subcategory.name}
-                className="sm:w-full sm:h-40 xl:w-full xl:h-[400px]  object-fill"
+                className="sm:w-full sm:h-40 xl:w-full xl:h-[400px] object-fill"
               />
-              <h2 className="xl:mt-2 sm:mt-2 sm:text-center">{subcategory.name}</h2>
+              <h2 className="xl:mt-2 sm:mt-2 sm:text-center">
+                {subcategory.name}
+              </h2>
             </div>
-          </Link>
+
+            {/* Show subitems if this subcategory is selected */}
+            {selectedSubcategoryId === subcategory.id && (
+              <div className="xl:col-span-2 sm:col-span-2 mt-4">
+                <ProductSubitems subitems={subcategory.subitems} />
+              </div>
+            )}
+          </React.Fragment>
         ))}
       </div>
     </div>

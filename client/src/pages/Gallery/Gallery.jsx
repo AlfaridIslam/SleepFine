@@ -1,18 +1,22 @@
 import React, { useState } from "react";
 import "./Gallery.css";
 import {
-  Image8,
-  Image9,
-  Image10,
-  Image11,
-  HoveredImage4,
-  HoveredImage5,
-  HoveredImage6,
-  HoveredImage7,
-  HoveredImage8,
-  HoveredImage9,
-  HoveredImage10,
-  HoveredImage11,
+  // Buking hum
+  Buckingham1,
+  Buckingham2,
+  Buckingham3,
+  Buckingham4,
+  Buckingham5,
+  Buckingham6,
+
+  // OrthopedicAloeveraMemory
+  OrthopedicAloeveraMemory1,
+  OrthopedicAloeveraMemory2,
+  OrthopedicAloeveraMemory3,
+  OrthopedicAloeveraMemory4,
+  OrthopedicAloeveraMemory5,
+  OrthopedicAloeveraMemory6,
+  
 } from "../../assets/index.jsx";
 import { Link } from "react-router-dom";
 
@@ -20,38 +24,38 @@ const Gallery = () => {
   const products = [
     {
       id: 1,
-      frontImage: Image8,
-      backImage: Image9,
+      frontImage: Buckingham1,
+      backImage: Buckingham2,
       description: "Orthopedic Bonded Collection",
     },
     {
       id: 2,
-      frontImage: Image10,
-      backImage: Image11,
+      frontImage: Buckingham3,
+      backImage: Buckingham4,
       description: "Pocketed Spring Mattresses",
     },
     {
       id: 3,
-      frontImage: HoveredImage4,
-      backImage: HoveredImage5,
+      frontImage: Buckingham5,
+      backImage: Buckingham6,
       description: "Medical Rebonded Mattresses",
     },
     {
       id: 4,
-      frontImage: HoveredImage6,
-      backImage: HoveredImage7,
+      frontImage: OrthopedicAloeveraMemory1,
+      backImage: OrthopedicAloeveraMemory2,
       description: "Head Board and Bases",
     },
     {
       id: 5,
-      frontImage: HoveredImage8,
-      backImage: HoveredImage9,
+      frontImage: OrthopedicAloeveraMemory3,
+      backImage: OrthopedicAloeveraMemory4,
       description: "Pillows",
     },
     {
       id: 6,
-      frontImage: HoveredImage10,
-      backImage: HoveredImage11,
+      frontImage: OrthopedicAloeveraMemory5,
+      backImage: OrthopedicAloeveraMemory6,
       description: "Comforters",
     },
   ];

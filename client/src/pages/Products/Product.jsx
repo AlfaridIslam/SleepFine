@@ -1,7 +1,7 @@
 // components/Product.jsx
 import React, { useState } from "react";
-import products from "../../products"; // Adjust the path according to your folder structure
-import ProductTypes from "../ProductTypes/ProductTypes"; // Import the ProductTypes component
+import products from "../../products.jsx"; // Adjust the path according to your folder structure
+import ProductTypes from "../ProductTypes/ProductTypes.jsx"; // Import the ProductTypes component
 
 const Product = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);

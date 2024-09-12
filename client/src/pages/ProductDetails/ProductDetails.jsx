@@ -2,140 +2,385 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import {
-  Image4,
-  Image5,
-  Image6,
-  Image7,
-  Image8,
-  Image9,
-  Image10,
-  Image11,
+  ORTRHOMED1,
+  ORTRHOMED2,
+  ORTRHOMED3,
+  ORTRHOMED4,
+  ORTRHOMED5,
+  ORTRHOMED6,
+  Preference1,
+  Preference2,
+  Preference3,
+  Preference4,
+  Preference5,
+  Preference6,
+  Buckingham1,
+  Buckingham2,
+  Buckingham3,
+  Buckingham4,
+  Buckingham5,
+  Buckingham6,
+  OrthopedicAloeveraMemory1,
+  OrthopedicAloeveraMemory2,
+  OrthopedicAloeveraMemory3,
+  OrthopedicAloeveraMemory4,
+  OrthopedicAloeveraMemory5,
+  OrthopedicAloeveraMemory6,
+  SixinchPUFOAM1,
+  SixinchPUFOAM2,
+  SixinchPUFOAM3,
+  SixinchPUFOAM4,
+  SixinchPUFOAM5,
+  oxford1,
+  oxford2,
+  oxford3,
+  oxford4,
+  oxford5,
+  oxford6,
+  EightinchPUFOAM1,
+  EightinchPUFOAM2,
+  EightinchPUFOAM3,
+  EightinchPUFOAM4,
+  EightinchPUFOAM5,
+  AloveraBonnel1,
+  AloveraBonnel2,
+  AloveraBonnel3,
+  AloveraBonnel4,
+  Loveland1,
+  Loveland2,
+  Loveland3,
+  Loveland4,
+  Loveland5,
+  Loveland6,
+  Romanticfirm1,
+  Romanticfirm2,
+  Romanticfirm3,
+  Romanticfirm4,
+  Romanticfirm5,
+  Romanticfirm6,
 } from "../../assets/index.jsx"; // Adjust the import paths as needed
 
 // Define the image mapping for each product type with multiple images and descriptions
 const productData = {
   "leather-sofa": {
-    images: [Image4, Image5, Image6, Image7], // Replace these with actual Leather Sofa images
+    images: [
+      OrthopedicAloeveraMemory1,
+      OrthopedicAloeveraMemory2,
+      OrthopedicAloeveraMemory3,
+      OrthopedicAloeveraMemory4,
+    ], // Replace these with actual Leather Sofa images
     description:
       "Our leather sofas offer a touch of luxury and timeless elegance. Made from premium materials, these sofas provide both comfort and durability, perfect for any living space.",
   },
   "fabric-sofa": {
-    images: [Image8, Image9, Image10, Image11], // Replace these with actual Fabric Sofa images
+    images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM3, SixinchPUFOAM4], // Replace these with actual Fabric Sofa images
     description:
       "Explore our collection of fabric sofas that blend style with comfort. Choose from a variety of colors and textures to suit your home decor, offering both aesthetic appeal and cozy relaxation.",
   },
   "king-size-bed": {
-    images: [Image4, Image5, Image6, Image7], // Replace these with actual King Size Bed images
+    images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM3, SixinchPUFOAM4], // Replace these with actual King Size Bed images
     description:
       "Experience luxury with our king-size beds that promise superior comfort and spaciousness. Crafted with quality materials, these beds are designed to provide a restful night's sleep.",
   },
   "queen-size-bed": {
-    images: [Image8, Image9, Image10, Image11], // Replace these with actual Queen Size Bed images
+    images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM3, SixinchPUFOAM4], // Replace these with actual Queen Size Bed images
     description:
       "Our queen-size beds combine elegance and comfort, making them an ideal choice for any bedroom. They offer the perfect balance of space and style for a restful retreat.",
   },
-  orthomed: {
-    images: [Image8, Image9, Image10, Image11], // Assuming images are not uploaded yet
+  "orthomed": {
+    images: [ORTRHOMED1, ORTRHOMED2, ORTRHOMED3, ORTRHOMED4], // Assuming images are not uploaded yet
     description:
       "Our orthopedic beds provide optimal support for those needing extra care. Designed for comfort and health, these beds ensure a restful sleep experience.",
   },
-  preference: {
-    images: [], // Assuming images are not uploaded yet
+  "preference": {
+    images: [Preference1, Preference2, Preference3, Preference4], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
-  buckinghum: {
-    images: [Image8, Image9, Image10, Image11], // Assuming images are not uploaded yet
+  "buckingham": {
+    images: [Buckingham1, Buckingham2, Buckingham3, Buckingham4], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
   "orthopedic-aloe-vera-latex": {
-    images: [Image8, Image9, Image10, Image11], // Assuming images are not uploaded yet
+    images: [
+      AloveraBonnel1,
+      AloveraBonnel2,
+      AloveraBonnel3,
+      AloveraBonnel4,
+    ], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
   "orthopedic-aloe-vera-memory": {
-    images: [Image8, Image9, Image10, Image11], // Assuming images are not uploaded yet
+    images: [OrthopedicAloeveraMemory1,OrthopedicAloeveraMemory2,OrthopedicAloeveraMemory3,OrthopedicAloeveraMemory6], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
+  "memofy": {
+    images: [oxford1, oxford2, oxford3, oxford4], // Assuming images are not uploaded yet
   " ": {
     images: [Image8, Image9, Image10, Image11], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
   "6inch-oxford": {
-    images: [Image8, Image9, Image10, Image11], // Assuming images are not uploaded yet
+    images: [
+      EightinchPUFOAM1,
+      EightinchPUFOAM2,
+      EightinchPUFOAM3,
+      EightinchPUFOAM4,
+    ], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
   "6inch-silver-crown": {
-    images: [Image8, Image9, Image10, Image11], // Assuming images are not uploaded yet
+    images: [
+      EightinchPUFOAM1,
+      EightinchPUFOAM2,
+      EightinchPUFOAM3,
+      EightinchPUFOAM4,
+    ], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
   "8inch-love-land": {
-    images: [Image8, Image9, Image10, Image11], // Assuming images are not uploaded yet
+    images: [
+      Loveland1,
+      Loveland2,
+      Loveland5,
+      Loveland6,
+    ], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
   "8inch-love-land-pillow-top": {
-    images: [Image8, Image9, Image10, Image11], // Assuming images are not uploaded yet
+    images: [
+      EightinchPUFOAM1,
+      EightinchPUFOAM2,
+      EightinchPUFOAM3,
+      EightinchPUFOAM4,
+    ], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
   "8inch-romantic-euroton": {
-    images: [Image8, Image9, Image10, Image11], // Assuming images are not uploaded yet
+    images: [
+      Romanticfirm1,
+      Romanticfirm2,
+      Romanticfirm4,
+      Romanticfirm6,
+    ], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
   "ortho-bonnell-aloe-vera-with-latex": {
-    images: [Image8, Image9, Image10, Image11], // Assuming images are not uploaded yet
+    images: [
+      AloveraBonnel1,
+      AloveraBonnel2,
+      AloveraBonnel3,
+      AloveraBonnel4,
+    ], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
   "ortho-bonnell-aloe-vera-with-memory": {
-    images: [Image8, Image9, Image10, Image11], // Assuming images are not uploaded yet
+    images: [
+      OrthopedicAloeveraMemory1,
+      OrthopedicAloeveraMemory2,
+      OrthopedicAloeveraMemory3,
+      OrthopedicAloeveraMemory4,
+    ], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
   "pocketed-spring-inspiration": {
-    images: [Image8, Image9, Image10, Image11], // Assuming images are not uploaded yet
+    images: [
+      EightinchPUFOAM1,
+      EightinchPUFOAM2,
+      EightinchPUFOAM3,
+      EightinchPUFOAM4,
+    ], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
   "pocketed-spring-6inch-eternity-euroton": {
-    images: [Image8, Image9, Image10, Image11], // Assuming images are not uploaded yet
+    images: [Buckingham1, Buckingham2, Buckingham3, Buckingham4], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
   "pocketed-spring-aloe-vera-with-latex": {
-    images: [Image8, Image9, Image10, Image11], // Assuming images are not uploaded yet
+    images: [ AloveraBonnel1,AloveraBonnel2,AloveraBonnel3,AloveraBonnel4,], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
   "pocketed-spring-aloe-vera-with-memory": {
-    images: [Image8, Image9, Image10, Image11], // Assuming images are not uploaded yet
+    images: [ OrthopedicAloeveraMemory1,OrthopedicAloeveraMemory2,OrthopedicAloeveraMemory3,OrthopedicAloeveraMemory4,], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
   "hr-pu-gravity": {
-    images: [Image8, Image9, Image10, Image11], // Assuming images are not uploaded yet
+    images: [Buckingham1, Buckingham2, Buckingham3, Buckingham4], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
   "hr-pu-space": {
-    images: [Image8, Image9, Image10, Image11], // Assuming images are not uploaded yet
+    images: [Buckingham1, Buckingham2, Buckingham3, Buckingham4], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
   "hr-pu-plush": {
-    images: [Image8, Image9, Image10, Image11], // Assuming images are not uploaded yet
+    images: [Buckingham1, Buckingham2, Buckingham3, Buckingham4], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
   "hr-pu-techniko": {
-    images: [Image8, Image9, Image10, Image11], // Assuming images are not uploaded yet
+    images: [Buckingham1, Buckingham2, Buckingham3, Buckingham4], // Assuming images are not uploaded yet
+    description:
+      "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
+  },
+  "Platform-Bed": {
+    images: [Buckingham3, Buckingham4, Buckingham5, Buckingham6], // Assuming images are not uploaded yet
+    description:
+      "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
+  },
+  "Panel-Bed": {
+    images: [
+      OrthopedicAloeveraMemory3,
+      OrthopedicAloeveraMemory4,
+      OrthopedicAloeveraMemory5,
+      OrthopedicAloeveraMemory6,
+    ], // Assuming images are not uploaded yet
+    description:
+      "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
+  },
+  "Canopy-Bed": {
+    images: [ORTRHOMED3, ORTRHOMED4, ORTRHOMED5, ORTRHOMED6], // Assuming images are not uploaded yet
+    description:
+      "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
+  },
+  "Sleigh-Bed": {
+    images: [Preference3, Preference4, Preference5, Preference6], // Assuming images are not uploaded yet
+    description:
+      "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
+  },
+  "Murphy-Bed": {
+    images: [
+      EightinchPUFOAM1,
+      EightinchPUFOAM2,
+      EightinchPUFOAM3,
+      EightinchPUFOAM4,
+    ], // Assuming images are not uploaded yet
+    description:
+      "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
+  },
+  "Loft-Bed": {
+    images: [
+      EightinchPUFOAM1,
+      EightinchPUFOAM2,
+      EightinchPUFOAM3,
+      EightinchPUFOAM4,
+    ], // Assuming images are not uploaded yet
+    description:
+      "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
+  },
+  "Bunk-Bed": {
+    images: [
+      EightinchPUFOAM1,
+      EightinchPUFOAM2,
+      EightinchPUFOAM3,
+      EightinchPUFOAM4,
+    ], // Assuming images are not uploaded yet
+    description:
+      "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
+  },
+  "Trundle-Bed": {
+    images: [
+      EightinchPUFOAM1,
+      EightinchPUFOAM1,
+      EightinchPUFOAM1,
+      EightinchPUFOAM1,
+    ], // Assuming images are not uploaded yet
+    description:
+      "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
+  },
+  "Standard-Sofa": {
+    images: [
+      EightinchPUFOAM2,
+      EightinchPUFOAM2,
+      EightinchPUFOAM2,
+      EightinchPUFOAM2,
+    ], // Assuming images are not uploaded yet
+    description:
+      "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
+  },
+  "Chesterfield": {
+    images: [
+      EightinchPUFOAM3,
+      EightinchPUFOAM3,
+      EightinchPUFOAM3,
+      EightinchPUFOAM3,
+    ], // Assuming images are not uploaded yet
+    description:
+      "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
+  },
+  "Lawson": {
+    images: [
+      EightinchPUFOAM4,
+      EightinchPUFOAM4,
+      EightinchPUFOAM4,
+      EightinchPUFOAM4,
+    ], // Assuming images are not uploaded yet
+    description:
+      "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
+  },
+  "Tuxedo": {
+    images: [
+      EightinchPUFOAM1,
+      EightinchPUFOAM2,
+      EightinchPUFOAM3,
+      EightinchPUFOAM4,
+    ], // Assuming images are not uploaded yet
+    description:
+      "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
+  },
+  "L-Shaped": {
+    images: [
+      EightinchPUFOAM1,
+      EightinchPUFOAM2,
+      EightinchPUFOAM3,
+      EightinchPUFOAM4,
+    ], // Assuming images are not uploaded yet
+    description:
+      "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
+  },
+  "U-Shaped": {
+    images: [
+      EightinchPUFOAM1,
+      EightinchPUFOAM2,
+      EightinchPUFOAM3,
+      EightinchPUFOAM4,
+    ], // Assuming images are not uploaded yet
+    description:
+      "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
+  },
+  "Modular": {
+    images: [
+      EightinchPUFOAM1,
+      EightinchPUFOAM2,
+      EightinchPUFOAM3,
+      EightinchPUFOAM4,
+    ], // Assuming images are not uploaded yet
+    description:
+      "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
+  },
+  "Baffle Box": {
+    images: [
+      EightinchPUFOAM1,
+      EightinchPUFOAM2,
+      EightinchPUFOAM3,
+      EightinchPUFOAM4,
+    ], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
