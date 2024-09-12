@@ -68,7 +68,7 @@ const Navbar = () => {
             src="src/assets/sleepfinelogo-3.png"
             alt=""
             className="xl:w-44   xl:h-14  xl:mt-5  xl:ml-0 xl:pb-0 xl:pt-0
-                    sm:w-48  sm:-mt-16  sm:pb-2 sm:pt-2 
+                    sm:w-48  sm:-mt-16  sm:pb-2 sm:pt-2 sm:mr-[330px] 
                     lg:w-48  lg:-mt-16  lg:pb-2 lg:pt-2 lg:ml-0"
           />
         </Link>

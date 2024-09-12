@@ -71,17 +71,17 @@ const productData = {
     description:
       "Our queen-size beds combine elegance and comfort, making them an ideal choice for any bedroom. They offer the perfect balance of space and style for a restful retreat.",
   },
-  "orthomed": {
+  orthomed: {
     images: [ORTRHOMED1, ORTRHOMED2, ORTRHOMED3, ORTRHOMED4], // Assuming images are not uploaded yet
     description:
       "Our orthopedic beds provide optimal support for those needing extra care. Designed for comfort and health, these beds ensure a restful sleep experience.",
   },
-  "preference": {
+  preference: {
     images: [Preference1, Preference2, Preference3, Preference4], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
-  "buckingham": {
+  buckingham: {
     images: [Buckingham1, Buckingham2, Buckingham3, Buckingham4], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
@@ -101,7 +101,7 @@ const productData = {
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
-  "memofy": {
+  memofy: {
     images: [oxford1, oxford2, oxford3, oxford4], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
@@ -296,7 +296,7 @@ const productData = {
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
-  "Chesterfield": {
+  Chesterfield: {
     images: [
       EightinchPUFOAM3,
       EightinchPUFOAM3,
@@ -306,7 +306,7 @@ const productData = {
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
-  "Lawson": {
+  Lawson: {
     images: [
       EightinchPUFOAM4,
       EightinchPUFOAM4,
@@ -316,7 +316,7 @@ const productData = {
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
-  "Tuxedo": {
+  Tuxedo: {
     images: [
       EightinchPUFOAM1,
       EightinchPUFOAM2,
@@ -346,7 +346,7 @@ const productData = {
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
-  "Modular": {
+  Modular: {
     images: [
       EightinchPUFOAM1,
       EightinchPUFOAM2,
