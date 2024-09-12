@@ -43,9 +43,11 @@ function Testimonial() {
   };
 
   return (
-    <div className="main-card mt-2">
-      <div className="xl:flex xl:justify-around xl:items-center xl:mb-8 xl:w-full
-                       sm:w-[140%]">
+    <div className="main-card mt-2 xl:w-auto sm:w-[400%]">
+      <div
+        className="xl:flex xl:justify-around xl:items-center xl:mb-8 xl:w-full
+                       sm:w-[140%]"
+      >
         <h1 className="text-3xl font-serif text-slate-800 xl:ml-0 sm:ml-20">
           Just ask our well-rested customers
         </h1>

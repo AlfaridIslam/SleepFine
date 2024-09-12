@@ -6,14 +6,15 @@ import "./Whatsapp.css";
 const Whatsapp = () => {
   return (
     <div className="whatsapp-container">
-      <div className="whatsapp_float sm:p-2 sm:mr-1">
+      <div className="whatsapp_float sm:p-2 sm:mr-1 lg:p-2">
         <a
           href="https://wa.me/8898916144"
           target="_blank"
           rel="noopener noreferrer"
         >
           <i className="fa fa-whatsapp whatsapp-icon mb-[10px]"></i>
-          <div className="whatsapp-text flex justify-center xl:pb-0 xl:text-base gap-1 mt-8 sm:pb-10  sm:text-lg">
+          <div className="whatsapp-text flex justify-center xl:pb-0 xl:text-base xl:gap-1 xl:mt-8 
+          sm:pb-10  sm:text-lg lg:pb-10">
             <p>Chat</p>
             <p>with</p>
             <p>us</p>
