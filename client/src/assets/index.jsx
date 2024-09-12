@@ -71,99 +71,115 @@ import oxford5 from "./mattress S.F COMP IMG/Oxford CI/DSC02116.jpg";
 import oxford6 from "./mattress S.F COMP IMG/Oxford CI/DSC02117.jpg";
 
 //--------- Loveland-------------
-import DSC02146 from "./mattress S.F COMP IMG/Loveland CI/DSC02146.jpg";
-import DSC02147 from "./mattress S.F COMP IMG/Loveland CI/DSC02147.jpg";
-import DSC02148 from "./mattress S.F COMP IMG/Loveland CI/DSC02148.jpg";
-import DSC02149 from "./mattress S.F COMP IMG/Loveland CI/DSC02149.jpg";
-import DSC02150 from "./mattress S.F COMP IMG/Loveland CI/DSC02150.jpg";
-import DSC02151 from "./mattress S.F COMP IMG/Loveland CI/DSC02151.jpg";
+import Loveland1 from "./mattress S.F COMP IMG/Loveland CI/DSC02146.jpg";
+import Loveland2 from "./mattress S.F COMP IMG/Loveland CI/DSC02147.jpg";
+import Loveland3 from "./mattress S.F COMP IMG/Loveland CI/DSC02148.jpg";
+import Loveland4 from "./mattress S.F COMP IMG/Loveland CI/DSC02149.jpg";
+import Loveland5 from "./mattress S.F COMP IMG/Loveland CI/DSC02150.jpg";
+import Loveland6 from "./mattress S.F COMP IMG/Loveland CI/DSC02151.jpg";
 
-//--------- Romantic Soft-------------
-import DSC02068 from "./mattress S.F COMP IMG/Romantic soft CI/DSC02068.jpg";
-import DSC02069 from "./mattress S.F COMP IMG/Romantic soft CI/DSC02069.jpg";
-import DSC02070 from "./mattress S.F COMP IMG/Romantic soft CI/DSC02070.jpg";
-import DSC02071 from "./mattress S.F COMP IMG/Romantic soft CI/DSC02071.jpg";
-import DSC02072 from "./mattress S.F COMP IMG/Romantic soft CI/DSC02072.jpg";
-import DSC02073 from "./mattress S.F COMP IMG/Romantic soft CI/DSC02073.jpg";
 
-//--------- Romantic firm-------------
-import DSC02075 from "./mattress S.F COMP IMG/Romantic firm CI/DSC02075.jpg";
-import DSC02076a from "./mattress S.F COMP IMG/Romantic firm CI/DSC02076a.jpg";
-import DSC02077 from "./mattress S.F COMP IMG/Romantic firm CI/DSC02077.jpg";
-import DSC02079 from "./mattress S.F COMP IMG/Romantic firm CI/DSC02079.jpg";
-import DSC02080 from "./mattress S.F COMP IMG/Romantic firm CI/DSC02080.jpg";
-import DSC02081 from "./mattress S.F COMP IMG/Romantic firm CI/DSC02081.jpg";
+//--------- RomanticSoft-------------
+import RomanticSoft1 from "./mattress S.F COMP IMG/Romantic soft CI/DSC02068.jpg";
+import RomanticSoft2 from "./mattress S.F COMP IMG/Romantic soft CI/DSC02069.jpg";
+import RomanticSoft3 from "./mattress S.F COMP IMG/Romantic soft CI/DSC02070.jpg";
+import RomanticSoft4 from "./mattress S.F COMP IMG/Romantic soft CI/DSC02071.jpg";
+import RomanticSoft5 from "./mattress S.F COMP IMG/Romantic soft CI/DSC02072.jpg";
+import RomanticSoft6 from "./mattress S.F COMP IMG/Romantic soft CI/DSC02073.jpg";
 
-//-------Alovera Bonnel----------
+//--------- Romanticfirm-------------
+import Romanticfirm1 from "./mattress S.F COMP IMG/Romantic firm CI/DSC02075.jpg";
+import Romanticfirm2 from "./mattress S.F COMP IMG/Romantic firm CI/DSC02076a.jpg";
+import Romanticfirm3 from "./mattress S.F COMP IMG/Romantic firm CI/DSC02077.jpg";
+import Romanticfirm4 from "./mattress S.F COMP IMG/Romantic firm CI/DSC02079.jpg";
+import Romanticfirm5 from "./mattress S.F COMP IMG/Romantic firm CI/DSC02080.jpg";
+import Romanticfirm6 from "./mattress S.F COMP IMG/Romantic firm CI/DSC02081.jpg";
 
-import DSC02058 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02058.jpg";
-import DSC02060 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02060.jpg";
-import DSC02061 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02061.jpg";
-import DSC02064 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02064.jpg";
-import DSC02065 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02065.jpg";
-import DSC02067 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02067.jpg";
+
+
+//-------AloveraBonnel----------
+
+import AloveraBonnel1 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02058.jpg";
+import AloveraBonnel2 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02060.jpg";
+import AloveraBonnel3 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02061.jpg";
+import AloveraBonnel4 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02064.jpg";
+import AloveraBonnel5 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02065.jpg";
+import AloveraBonnel6 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02067.jpg";
 
 //--BIOPEDIC---------------
 
-import DSC02129 from "./mattress S.F COMP IMG/BIOPEDIC/DSC02129.jpg";
-import DSC02130 from "./mattress S.F COMP IMG/BIOPEDIC/DSC02130.jpg";
-import DSC02132 from "./mattress S.F COMP IMG/BIOPEDIC/DSC02132.jpg";
-import DSC02133 from "./mattress S.F COMP IMG/BIOPEDIC/DSC02133.jpg";
-import DSC02134 from "./mattress S.F COMP IMG/BIOPEDIC/DSC02134.jpg";
-import DSC02136 from "./mattress S.F COMP IMG/BIOPEDIC/DSC02136.jpg";
+import Biopedic1 from "./mattress S.F COMP IMG/BIOPEDIC/DSC02129.jpg";
+import Biopedic2 from "./mattress S.F COMP IMG/BIOPEDIC/DSC02130.jpg";
+import Biopedic3 from "./mattress S.F COMP IMG/BIOPEDIC/DSC02132.jpg";
+import Biopedic4 from "./mattress S.F COMP IMG/BIOPEDIC/DSC02133.jpg";
+import Biopedic5 from "./mattress S.F COMP IMG/BIOPEDIC/DSC02134.jpg";
+import Biopedic6 from "./mattress S.F COMP IMG/BIOPEDIC/DSC02136.jpg";
 
 
 //------------DULATION Pocked---------------
 
-import DSC02120 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02120.jpg";
-import DSC02123 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02123.jpg";
-import DSC02123a from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02123a.jpg";
-import DSC02124 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02124.jpg";
-import DSC02126 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02126.jpg";
-import DSC02126a from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02126a.jpg";
+import DulationPocketed1 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02120.jpg";
+import DulationPocketed2 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02123.jpg";
+import DulationPocketed3  from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02123a.jpg";
+import DulationPocketed4 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02124.jpg";
+import DulationPocketed5 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02126.jpg";
+import DulationPocketed6  from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02126a.jpg";
 
 //----------Impression------------------
 
-import DSC02165 from "./mattress S.F COMP IMG/IMPRESSION/DSC02165.jpg";
-import DSC02169 from "./mattress S.F COMP IMG/IMPRESSION/DSC02169.jpg";
-import DSC02170 from "./mattress S.F COMP IMG/IMPRESSION/DSC02170.jpg";
-import DSC02171 from "./mattress S.F COMP IMG/IMPRESSION/DSC02171.jpg";
-import DSC02172 from "./mattress S.F COMP IMG/IMPRESSION/DSC02172.jpg";
-import DSC02173 from "./mattress S.F COMP IMG/IMPRESSION/DSC02173.jpg";
+import Impression1 from "./mattress S.F COMP IMG/IMPRESSION/DSC02165.jpg";
+import Impression2 from "./mattress S.F COMP IMG/IMPRESSION/DSC02169.jpg";
+import Impression3 from "./mattress S.F COMP IMG/IMPRESSION/DSC02170.jpg";
+import Impression4 from "./mattress S.F COMP IMG/IMPRESSION/DSC02171.jpg";
+import Impression5 from "./mattress S.F COMP IMG/IMPRESSION/DSC02172.jpg";
+import Impression6 from "./mattress S.F COMP IMG/IMPRESSION/DSC02173.jpg";
 
 //---------Insperational pocketed -------------
 
-import DSC02082 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02082.jpg";
-import DSC02083 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02083.jpg";
-import DSC02084 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02084.jpg";
-import DSC02085 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02085.jpg";
-import DSC02085a from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02085a.jpg";
-import DSC02086 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02086.jpg";
+import InsperationalPocketed1 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02082.jpg";
+import InsperationalPocketed2 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02083.jpg";
+import InsperationalPocketed3 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02084.jpg";
+import InsperationalPocketed4 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02085.jpg";
+import InsperationalPocketed5 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02085a.jpg";
+import InsperationalPocketed6 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02086.jpg";
 
 //-----------Milange ----------------
 
-import DSC02176 from "./mattress S.F COMP IMG/MILANGE/DSC02176.jpg";
-import DSC02177 from "./mattress S.F COMP IMG/MILANGE/DSC02177.jpg";
-import DSC02178 from "./mattress S.F COMP IMG/MILANGE/DSC02178.jpg";
-import DSC02179 from "./mattress S.F COMP IMG/MILANGE/DSC02176.jpg";
-import DSC02180 from "./mattress S.F COMP IMG/MILANGE/DSC02176.jpg";
-import DSC02181 from "./mattress S.F COMP IMG/MILANGE/DSC02176.jpg";
+import Milange1 from "./mattress S.F COMP IMG/MILANGE/DSC02176.jpg";
+import Milange2 from "./mattress S.F COMP IMG/MILANGE/DSC02177.jpg";
+import Milange3 from "./mattress S.F COMP IMG/MILANGE/DSC02178.jpg";
+import Milange4 from "./mattress S.F COMP IMG/MILANGE/DSC02176.jpg";
+import Milange5 from "./mattress S.F COMP IMG/MILANGE/DSC02176.jpg";
+import Milange6 from "./mattress S.F COMP IMG/MILANGE/DSC02176.jpg";
+
 
 //------red hard & soft--------------------
 
-import DSC02076 from "./mattress S.F COMP IMG/Red Hard & soft CI/DSC02076.jpg";
-import DSC02182 from "./mattress S.F COMP IMG/Red Hard & soft CI/DSC02182.jpg";
-import DSC02184 from "./mattress S.F COMP IMG/Red Hard & soft CI/DSC02184.jpg";
-import DSC02185 from "./mattress S.F COMP IMG/Red Hard & soft CI/DSC02185.jpg";
-import DSC02186 from "./mattress S.F COMP IMG/Red Hard & soft CI/DSC02186.jpg";
-import DSC02187 from "./mattress S.F COMP IMG/Red Hard & soft CI/DSC02187.jpg";
+import RedHardSoft1 from "./mattress S.F COMP IMG/Red Hard & soft CI/DSC02076.jpg";
+import RedHardSoft2 from "./mattress S.F COMP IMG/Red Hard & soft CI/DSC02182.jpg";
+import RedHardSoft3 from "./mattress S.F COMP IMG/Red Hard & soft CI/DSC02184.jpg";
+import RedHardSoft4 from "./mattress S.F COMP IMG/Red Hard & soft CI/DSC02185.jpg";
+import RedHardSoft5 from "./mattress S.F COMP IMG/Red Hard & soft CI/DSC02186.jpg";
+import RedHardSoft6 from "./mattress S.F COMP IMG/Red Hard & soft CI/DSC02187.jpg";
 
+//Section-2-Exceptional Quality
 
+import Sec21 from "./Section-2-img/Sec21.jpeg";
+import Sec21a from "./Section-2-img/Sec21a.jpeg";
+import Sec22 from "./Section-2-img/Sec22.JPG";
+import Sec22a from "./Section-2-img/Sec22a.jpeg";
+import Sec23 from "./Section-2-img/Sec23.jpeg";
 
+import Sec24 from "./Section-2-img/Sec24.jpg";
 
-
-
-
+import Sec25 from "./Section-2-img/Sec25.png";
+import Sec25a from "./Section-2-img/Sec25a.png";
+import Sec26 from "./Section-2-img/Sec26.jpeg";
+import Sec26a from "./Section-2-img/Sec26a.png";
+import Sec27 from "./Section-2-img/Sec27.jpeg";
+import Sec27a from "./Section-2-img/Sec27a.jpeg";
+import Sec28 from "./Section-2-img/Sec28.jpg";
+import Sec28a from "./Section-2-img/Sec28a.jpg";
 
 
 
@@ -245,101 +261,106 @@ export {
   oxford6,
 
   // Loveland
-  DSC02146,
-  DSC02147,
-  DSC02148,
-  DSC02149,
-  DSC02150,
-  DSC02151,
+  Loveland1,
+  Loveland2,
+  Loveland3,
+  Loveland4,
+  Loveland5,
+  Loveland6,
 
-  // Romantic soft
-  DSC02068,
-  DSC02069,
-  DSC02070,
-  DSC02071,
-  DSC02072,
-  DSC02073,
 
-  // Romantic firm
-  DSC02075,
-  DSC02076a,
-  DSC02077,
-  DSC02079,
-  DSC02080,
-  DSC02081,
+   // Romantic soft
+   RomanticSoft1,
+   RomanticSoft2,
+   RomanticSoft3,
+   RomanticSoft4,
+   RomanticSoft5,
+   RomanticSoft6,
+ 
+   // Romantic firm
+   Romanticfirm1,
+   Romanticfirm2,
+   Romanticfirm3,
+   Romanticfirm4,
+   Romanticfirm5,
+   Romanticfirm6,
+ 
 
-  // Aloevera bonnel
-  DSC02058,
-  DSC02060,
-  DSC02061,
-  DSC02064,
-  DSC02065,
-  DSC02067,
+   // Aloevera bonnel
+   AloveraBonnel1,
+   AloveraBonnel2,
+   AloveraBonnel3,
+   AloveraBonnel4,
+   AloveraBonnel5,
+   AloveraBonnel6,
 
   // Biopedic
-  DSC02129,
-  DSC02130,
-  DSC02132,
-  DSC02133,
-  DSC02134,
-  DSC02136,
+   Biopedic1,
+   Biopedic2,
+   Biopedic3,
+   Biopedic4,
+   Biopedic5,
+   Biopedic6,
+
 
   // Dulation
-  DSC02120,
-  DSC02123,
-  DSC02123a,
-  DSC02124,
-  DSC02126,
-  DSC02126a,
+   DulationPocketed1,
+   DulationPocketed2,
+   DulationPocketed3,
+   DulationPocketed4,
+   DulationPocketed5,
+   DulationPocketed6,
 
   // Impression
-  DSC02165,
-  DSC02169,
-  DSC02170,
-  DSC02171,
-  DSC02172,
-  DSC02173,
+  Impression1,
+  Impression2,
+  Impression3,
+  Impression4,
+  Impression5,
+  Impression6,
+
 
   // Inspirational
-  DSC02082,
-  DSC02083,
-  DSC02084,
-  DSC02085,
-  DSC02085a,
-  DSC02086,
+  InsperationalPocketed1,
+  InsperationalPocketed2,
+  InsperationalPocketed3,
+  InsperationalPocketed4,
+  InsperationalPocketed5,
+  InsperationalPocketed6,
 
   // Milange
-  DSC02176,
-  DSC02177,
-  DSC02178,
-  DSC02179,
-  DSC02180,
-  DSC02181,
+  Milange1,
+  Milange2,
+  Milange3,
+  Milange4,
+  Milange5,
+  Milange6,
+
 
   // Red hard and soft
-  DSC02076,
-  DSC02182,
-  DSC02184,
-  DSC02185,
-  DSC02186,
-  DSC02187,
+  RedHardSoft1,
+  RedHardSoft2,
+  RedHardSoft3,
+  RedHardSoft4,
+  RedHardSoft5,
+  RedHardSoft6,
+//secti0n-2 Exceptional Quality
+  Sec21,
+  Sec21a,
+  Sec22,
+  Sec23,
+  Sec24,
+  Sec25,
+  Sec25a,
+  Sec26,
+  Sec26a,
+  Sec27, 
+  Sec27a,
+  Sec28, 
+  Sec28a,
+  Sec22a,
 
-  // DSC02061,
-  // DSC02067,
-  // DSC02138,
-  // DSC02143,
-  // DSC02130,
-  // DSC02132,
-  // DSC02120,
-  // DSC02126,
-  // DSC02165,
-  // DSC02171,
-  // DSC02082,
-  // DSC02085,
-  // DSC02179,
-  // DSC02177,
-  // DSC02102,
-  // DSC02104,
+
   Image4,
   Image5,
   Image6,

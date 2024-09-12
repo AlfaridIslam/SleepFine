@@ -119,8 +119,6 @@ const productData = {
   },
   "memofy": {
     images: [oxford1, oxford2, oxford3, oxford4], // Assuming images are not uploaded yet
-  " ": {
-    images: [Image8, Image9, Image10, Image11], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
@@ -432,18 +430,18 @@ const ProductDetails = () => {
                 <img
                   src={productInfo.images[currentImageIndex]}
                   alt="Main product"
-                  className="xl:w-[800px] xl:h-[450px] rounded-xl sm:h-[350px] sm:w-[700px]"
+                  className="xl:w-[800px] xl:h-[450px] rounded-xl sm:h-[350px] sm:w-[700px] border-2 border-slate-300 bg-slate-400"
                 />
                 {/* Carousel navigation buttons */}
                 <button
                   onClick={handlePrevClick}
-                  className="absolute top-1/2 left-0 transform -translate-y-1/2 text-white text-7xl p-2 rounded-full hover:bg-gray-700"
+                  className="absolute top-1/2 left-0 transform -translate-y-1/2 text-black text-7xl p-2 rounded-full hover:bg-red-200 h-20"
                 >
                   &#8249;
                 </button>
                 <button
                   onClick={handleNextClick}
-                  className="absolute top-1/2 xl:right-[28px] md:right-[18px] lg:right-[52px] sm:right-0 transform -translate-y-1/2 text-white text-7xl p-2 rounded-full hover:bg-gray-700"
+                  className="absolute top-1/2 xl:right-[28px] md:right-[18px] lg:right-[52px] sm:right-0 transform -translate-y-1/2 text-black text-7xl p-2 rounded-full hover:bg-red-200 h-20"
                 >
                   &#8250;
                 </button>

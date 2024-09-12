@@ -7,8 +7,7 @@ import {
   ORTRHOMED3,
   ORTRHOMED4,
   ORTRHOMED5,
-  ORTRHOMED6,
-
+ 
   // preference
   Preference1,
   Preference2,
@@ -54,6 +53,32 @@ import {
   oxford4,
   oxford5,
   oxford6,
+  AloveraBonnel1,
+  AloveraBonnel3,
+
+  //Section-2
+  Sec21,
+  Sec21a,
+  Sec22,
+  Sec22a,
+  Sec23,
+  ORTRHOMED6,
+  Sec24,
+  Romanticfirm6,
+  Sec25,
+  Sec25a,
+  Sec26,
+  Sec26a,
+  Sec27, 
+  Sec27a,
+  Sec28, 
+  Sec28a,
+  
+ 
+  
+
+
+
 } from "../../assets/index.jsx";
 import { Link } from "react-router-dom";
 
@@ -64,25 +89,28 @@ const Section2 = () => {
   const [isAtStart, setIsAtStart] = useState(true); // Track the start position
 
   const images = [
-    ORTRHOMED1,
-    ORTRHOMED2,
-    ORTRHOMED3,
-    ORTRHOMED4,
-    ORTRHOMED5,
-    ORTRHOMED6,
-    Preference1,
-    Preference2,
+    Sec21,
+    Sec22,
+    Sec23,
+    Sec24,
+    Sec25,
+    Sec26,
+    Sec27, 
+    Sec28,
+     
+   
+   
   ];
 
   const hoveredImages = [
-    Preference3,
-    Preference4,
-    Preference5,
-    Preference6,
-    Buckingham1,
-    Buckingham2,
-    Buckingham3,
-    Buckingham4,
+    Sec21a,
+    Sec22a,
+    ORTRHOMED6,
+    Romanticfirm6,
+    Sec25a,
+    Sec26a,
+    Sec27a,
+    Sec28a,
   ];
 
   const handleScroll = () => {
@@ -113,8 +141,8 @@ const Section2 = () => {
   };
 
   return (
-    <div className="relative sm:flex-col sm:justify-center sm:items-center sm:w-[683px] md:w-[1000px] lg:w-[1500px]">
-      <div className="mx-4 sm:mx-8 lg:mx-16 xl:mx-20 my-7 flex-col">
+    <div className="relative sm:flex-col sm:justify-center sm:items-center sm:w-[683px] md:w-[1000px] lg:w-[1500px] ">
+      <div className="mx-4 sm:mx-8 lg:mx-16 xl:mx-20 my-7 flex-col ">
         <div className="text-center flex-col justify-center items-center">
           <h1 className="xl:text-4xl md:text-3xl lg:text-2xl sm:text-xl font-sans">
             Exceptional Quality
@@ -142,9 +170,10 @@ const Section2 = () => {
           {images.map((img, index) => (
             <div
               key={index}
-              className="relative h-[500px] flex-shrink-0 xl:w-[30%] sm:space-x-4 sm:w-[100%] md:w-[100%] lg:w-[100%] border-2 rounded-lg object-cover"
+              className="relative h-[500px] flex-shrink-0 xl:w-[30%] sm:space-x-4  md:w-[100%] lg:w-[100%] border-2 rounded-lg object-cover xl:overflow-x-hidden"
               style={{
-                width: "30%", // Default width for larger screens
+                xl:{width: "30%"}, // Default width for larger screens
+                sm:{width: "50%"}
               }}
               onMouseEnter={() => handleMouseEnter(index)}
               onMouseLeave={handleMouseLeave}
@@ -152,7 +181,7 @@ const Section2 = () => {
               <img
                 src={hoveredIndex === index ? hoveredImages[index] : img}
                 alt={`Image ${index + 1}`}
-                className="w-full h-full object-cover transition-all duration-300"
+                className="w-full h-full object-fill transition-all duration-300 "
               />
               {hoveredIndex === index && (
                 <Link
