@@ -40,6 +40,10 @@ import {
   OrthopedicAloeveraMemory4,
   OrthopedicAloeveraMemory5,
   OrthopedicAloeveraMemory6,
+  Sec22,
+  Sec24,
+  Sec26,
+  Sec27,
 } from "./assets/index"; // Adjust the path according to your folder structure
 
 const products = [
@@ -47,7 +51,7 @@ const products = [
   {
     id: 1,
     name: "Mattress",
-    image: ORTRHOMED1,
+    image:  Sec22,
     subcategories: [
       //----------Orthopedic Bonded Collection--------
       {
@@ -59,7 +63,6 @@ const products = [
           {
             id: 1011,
             name: "Orthomed",
-            // image: LeatherSofa, // Using existing image as dummy
             image: ORTRHOMED3, // Using existing image as dummy
           },
           {
@@ -199,7 +202,7 @@ const products = [
   {
     id: 2,
     name: "Bed",
-    image: SixinchPUFOAM1,
+    image: Sec24,
     subcategories: [
       {
         id: 201,
@@ -262,7 +265,7 @@ const products = [
   {
     id: 3,
     name: "Sofa",
-    image: oxford1,
+    image: Sec26,
     subcategories: [
       {
         id: 301,
@@ -315,7 +318,7 @@ const products = [
   {
     id: 4,
     name: "Accessories",
-    image: EightinchPUFOAM5,
+    image:Sec27,
     subcategories: [
       {
         id: 401,
