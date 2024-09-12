@@ -42,6 +42,22 @@ import {
   EightinchPUFOAM3,
   EightinchPUFOAM4,
   EightinchPUFOAM5,
+  AloveraBonnel1,
+  AloveraBonnel2,
+  AloveraBonnel3,
+  AloveraBonnel4,
+  Loveland1,
+  Loveland2,
+  Loveland3,
+  Loveland4,
+  Loveland5,
+  Loveland6,
+  Romanticfirm1,
+  Romanticfirm2,
+  Romanticfirm3,
+  Romanticfirm4,
+  Romanticfirm5,
+  Romanticfirm6,
 } from "../../assets/index.jsx"; // Adjust the import paths as needed
 
 // Define the image mapping for each product type with multiple images and descriptions
@@ -88,16 +104,16 @@ const productData = {
   },
   "orthopedic-aloe-vera-latex": {
     images: [
-      OrthopedicAloeveraMemory1,
-      OrthopedicAloeveraMemory2,
-      OrthopedicAloeveraMemory3,
-      OrthopedicAloeveraMemory4,
+      AloveraBonnel1,
+      AloveraBonnel2,
+      AloveraBonnel3,
+      AloveraBonnel4,
     ], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
   "orthopedic-aloe-vera-memory": {
-    images: [oxford1, oxford2, oxford3, oxford4], // Assuming images are not uploaded yet
+    images: [OrthopedicAloeveraMemory1,OrthopedicAloeveraMemory2,OrthopedicAloeveraMemory3,OrthopedicAloeveraMemory6], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
@@ -128,10 +144,10 @@ const productData = {
   },
   "8inch-love-land": {
     images: [
-      EightinchPUFOAM1,
-      EightinchPUFOAM2,
-      EightinchPUFOAM3,
-      EightinchPUFOAM4,
+      Loveland1,
+      Loveland2,
+      Loveland5,
+      Loveland6,
     ], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
@@ -148,30 +164,30 @@ const productData = {
   },
   "8inch-romantic-euroton": {
     images: [
-      EightinchPUFOAM1,
-      EightinchPUFOAM2,
-      EightinchPUFOAM3,
-      EightinchPUFOAM4,
+      Romanticfirm1,
+      Romanticfirm2,
+      Romanticfirm4,
+      Romanticfirm6,
     ], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
   "ortho-bonnell-aloe-vera-with-latex": {
     images: [
-      EightinchPUFOAM1,
-      EightinchPUFOAM2,
-      EightinchPUFOAM3,
-      EightinchPUFOAM4,
+      AloveraBonnel1,
+      AloveraBonnel2,
+      AloveraBonnel3,
+      AloveraBonnel4,
     ], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
   "ortho-bonnell-aloe-vera-with-memory": {
     images: [
-      EightinchPUFOAM1,
-      EightinchPUFOAM2,
-      EightinchPUFOAM3,
-      EightinchPUFOAM4,
+      OrthopedicAloeveraMemory1,
+      OrthopedicAloeveraMemory2,
+      OrthopedicAloeveraMemory3,
+      OrthopedicAloeveraMemory4,
     ], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
@@ -192,12 +208,12 @@ const productData = {
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
   "pocketed-spring-aloe-vera-with-latex": {
-    images: [Buckingham1, Buckingham2, Buckingham3, Buckingham4], // Assuming images are not uploaded yet
+    images: [ AloveraBonnel1,AloveraBonnel2,AloveraBonnel3,AloveraBonnel4,], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
   "pocketed-spring-aloe-vera-with-memory": {
-    images: [Buckingham1, Buckingham2, Buckingham3, Buckingham4], // Assuming images are not uploaded yet
+    images: [ OrthopedicAloeveraMemory1,OrthopedicAloeveraMemory2,OrthopedicAloeveraMemory3,OrthopedicAloeveraMemory4,], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
@@ -366,6 +382,16 @@ const productData = {
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
+  "Baffle Box": {
+    images: [
+      EightinchPUFOAM1,
+      EightinchPUFOAM2,
+      EightinchPUFOAM3,
+      EightinchPUFOAM4,
+    ], // Assuming images are not uploaded yet
+    description:
+      "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
+  },
 };
 
 const ProductDetails = () => {
@@ -414,18 +440,18 @@ const ProductDetails = () => {
                 <img
                   src={productInfo.images[currentImageIndex]}
                   alt="Main product"
-                  className="xl:w-[800px] xl:h-[450px] rounded-xl sm:h-[350px] sm:w-[700px]"
+                  className="xl:w-[800px] xl:h-[450px] rounded-xl sm:h-[350px] sm:w-[700px] border-2 border-slate-300 bg-slate-400"
                 />
                 {/* Carousel navigation buttons */}
                 <button
                   onClick={handlePrevClick}
-                  className="absolute top-1/2 left-0 transform -translate-y-1/2 text-white text-7xl p-2 rounded-full hover:bg-gray-700"
+                  className="absolute top-1/2 left-0 transform -translate-y-1/2 text-black text-7xl p-2 rounded-full hover:bg-red-200 h-20"
                 >
                   &#8249;
                 </button>
                 <button
                   onClick={handleNextClick}
-                  className="absolute top-1/2 xl:right-[28px] md:right-[18px] lg:right-[52px] sm:right-0 transform -translate-y-1/2 text-white text-7xl p-2 rounded-full hover:bg-gray-700"
+                  className="absolute top-1/2 xl:right-[28px] md:right-[18px] lg:right-[52px] sm:right-0 transform -translate-y-1/2 text-black text-7xl p-2 rounded-full hover:bg-red-200 h-20"
                 >
                   &#8250;
                 </button>
