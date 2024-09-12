@@ -12,40 +12,54 @@ import Banner4 from "../../assets/banner4.JPG";
 
 const Section3 = () => {
   return (
-    <div className="w-full xl:w-full xl:grid xl:justify-center xl:mt-0 sm:grid sm:justify-center sm:w-[141%] sm:mt-10">
-      <div className="poppins-medium text-center xl:mt-4 xl:text-5xl sm:text-3xl sm:mt-4">
+    <div
+      className="w-full xl:w-full xl:grid xl:justify-center xl:mt-0
+     sm:grid sm:justify-center sm:w-[400%] sm:my-15
+      md:grid md:justify-center md:w-[400%] md:my-15
+      lg:grid lg:justify-center lg:w-[400%] "
+    >
+      <div className="poppins-medium text-center lg:mb-6 xl:mt-4 xl:text-5xl sm:text-3xl sm:my-8">
         OUR COLLECTIONS
       </div>
 
       {/* -----images-div------ */}
 
-      <div className="grid gap-4 xl:grid-cols-4 md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 xl:gap-2 xl:mt-2 xl:mb-4 sm:mt-2 sm:px-4">
-        <div className="flex justify-center">
+      <div
+        className="grid gap-4 xl:grid-cols-4 xl:gap-2 xl:mt-2 xl:mb-4
+       md:grid-cols-2 md:gap-x-[300px] md:justify-center
+       lg:grid-cols-2 lg:gap-x-[250px] lg:gap-y-28
+       sm:grid-cols-1 sm:mt-2 sm:px-4 sm:gap-y-[40px]"
+      >
+        <div>
           <img
             src={Banner1}
             alt="Modern Statement"
-            className="w-full h-full object-cover xl:w-[300px] xl:h-[300px] sm:w-[500px] sm:h-[400px] xl:px-0 xl:ml-0 sm:px-5 sm:ml-4 border-2 rounded-xl"
+            className="w-full h-full object-cover xl:w-[300px] xl:h-[300px]
+             sm:w-[800px] sm:h-[700px] xl:px-0 xl:ml-0 sm:px-5 sm:ml-4 border-2 rounded-xl"
           />
         </div>
-        <div className="flex justify-center">
+        <div>
           <img
             src={Banner2}
             alt="The Essentials Collection"
-            className="w-full h-full object-cover xl:w-[300px] xl:h-[300px] sm:w-[500px] sm:h-[400px] xl:px-0 xl:ml-0 sm:px-5 sm:ml-4 border-2 rounded-xl"
+            className="w-full h-full object-cover xl:w-[300px] xl:h-[300px]
+             sm:w-[800px] sm:h-[700px] xl:px-0 xl:ml-0 sm:px-5 sm:ml-4 border-2 rounded-xl"
           />
         </div>
-        <div className="flex justify-center">
+        <div>
           <img
             src={Banner3}
             alt="Oxford CI"
-            className="w-full h-full object-cover xl:w-[300px] xl:h-[300px] sm:w-[500px] sm:h-[400px] xl:px-0 xl:ml-0 sm:px-5 sm:ml-4 border-2 rounded-xl"
+            className="w-full h-full object-cover xl:w-[300px] xl:h-[300px]
+             sm:w-[800px] sm:h-[700px] xl:px-0 xl:ml-0 sm:px-5 sm:ml-4 border-2 rounded-xl"
           />
         </div>
-        <div className="flex justify-center">
+        <div>
           <img
             src={Banner4}
             alt="Loveland CI"
-            className="w-full h-full object-cover xl:w-[300px] xl:h-[300px] sm:w-[500px] sm:h-[400px] xl:px-0 xl:ml-0 sm:px-5 sm:ml-4 border-2 rounded-xl"
+            className="w-full h-full object-cover xl:w-[300px] xl:h-[300px]
+             sm:w-[800px] sm:h-[700px] xl:px-0 xl:ml-0 sm:px-5 sm:ml-4 border-2 rounded-xl"
           />
         </div>
       </div>

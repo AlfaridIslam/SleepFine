@@ -22,16 +22,12 @@ import ProductDetails from "./pages/ProductDetails/ProductDetails.jsx";
 import NewsandUpdate from "./components/NewsandUpdates/NewsUpdate.jsx";
 import Store from "./components/OurStore/OurStore.jsx";
 import Gallery from "./pages/Gallery/Gallery.jsx";
-import { useLoading } from "./components/context/LoadingContext.jsx";
 
 function App() {
-  const { loading } = useLoading();
-
   return (
     <>
       <>
         <Router>
-          {loading && <Spinner />}
           <Navbar />
 
           <Routes>
