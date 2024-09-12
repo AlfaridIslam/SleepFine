@@ -441,7 +441,7 @@ const ProductDetails = () => {
                 </button>
                 <button
                   onClick={handleNextClick}
-                  className="absolute top-1/2 xl:right-[28px] md:right-[18px] lg:right-[52px] sm:right-0 transform -translate-y-1/2 text-black text-7xl p-2 rounded-full hover:bg-red-200 h-20"
+                  className="absolute top-1/2 xl:right-[28px] md:right-[18px] lg:right-[52px] sm:right-0 transform -translate-y-1/2 text-black text-7xl p-2 rounded-full hover:bg-blue-300 h-20"
                 >
                   &#8250;
                 </button>
