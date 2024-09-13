@@ -522,31 +522,31 @@ const Navbar = () => {
                               to="product-details/Standard"
                               className="px-4 py-2 hover:bg-indigo-100"
                             >
-                              Standard
+                              Memory Foam
                             </Link>
                             <Link
                               to="product-details/Body"
                               className="px-4 py-2 hover:bg-indigo-100"
                             >
-                              Body
+                              Latex
                             </Link>
                             <Link
                               to="product-details/Contour"
                               className="px-4 py-2 hover:bg-indigo-100"
                             >
-                              Contour
+                              Plush Foam
                             </Link>
                             <Link
                               to="product-details/Travel"
                               className="px-4 py-2 hover:bg-indigo-100"
                             >
-                              Travel
+                              Aloevera & Fibre
                             </Link>
                             <Link
                               to="product-details/Wedge"
                               className="px-4 py-2 hover:bg-indigo-100"
                             >
-                              Wedge
+                              PolyFibre Textile
                             </Link>
                           </div>
                         )}

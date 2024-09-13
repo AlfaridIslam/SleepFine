@@ -1,21 +1,6 @@
 // assets/index.js
-// import DSC02061 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02061.jpg";
-// import DSC02067 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02067.jpg";
-// import DSC02138 from "./mattress S.F COMP IMG/ALOEVERA MEMEORY/DSC02138.jpg";
-// import DSC02143 from "./mattress S.F COMP IMG/ALOEVERA MEMEORY/DSC02143.jpg";
-// import DSC02130 from "./mattress S.F COMP IMG/BIOPEDIC/DSC02130.jpg";
-// import DSC02132 from "./mattress S.F COMP IMG/BIOPEDIC/DSC02132.jpg";
-// import DSC02120 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02120.jpg";
-// import DSC02126 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02126.jpg";
-// import DSC02165 from "./mattress S.F COMP IMG/IMPRESSION/DSC02165.jpg";
-// import DSC02171 from "./mattress S.F COMP IMG/IMPRESSION/DSC02171.jpg";
-// import DSC02082 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02082.jpg";
-// import DSC02085 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02085.jpg";
-// import DSC02179 from "./mattress S.F COMP IMG/MILANGE/DSC02179.jpg";  
-// import DSC02177 from "./mattress S.F COMP IMG/MILANGE/DSC02177.jpg";  
-// import DSC02102 from "./mattress S.F COMP IMG/ORTHOMED/DSC02102.jpg"; 
-// import DSC02104 from "./mattress S.F COMP IMG/ORTHOMED/DSC02104.jpg";
-
+// mattresses
+// ------------------------orthopedicbonded---------------------------------------------
 // -----ORTRHOMED-IMGS----------
 import ORTRHOMED1 from "./mattress S.F COMP IMG/ORTHOMED/DSC02102.jpg";
 import ORTRHOMED2 from "./mattress S.F COMP IMG/ORTHOMED/DSC02103.jpg"; 
@@ -47,21 +32,18 @@ import OrthopedicAloeveraMemory3 from "./mattress S.F COMP IMG/ALOEVERA MEMEORY/
 import OrthopedicAloeveraMemory4 from "./mattress S.F COMP IMG/ALOEVERA MEMEORY/DSC02143.jpg";
 import OrthopedicAloeveraMemory5 from "./mattress S.F COMP IMG/ALOEVERA MEMEORY/DSC02143a.jpg";
 import OrthopedicAloeveraMemory6 from "./mattress S.F COMP IMG/ALOEVERA MEMEORY/DSC02145.jpg";
+//-------orthopedicAloveraBonnel latex----------
 
-//--------- PUFOAM 6-------------
-import SixinchPUFOAM1 from "./mattress S.F COMP IMG/PUFOAM 6/DSC02152.jpg";
-import SixinchPUFOAM2 from "./mattress S.F COMP IMG/PUFOAM 6/DSC02154.jpg";
-import SixinchPUFOAM3 from "./mattress S.F COMP IMG/PUFOAM 6/DSC02155.jpg";
-import SixinchPUFOAM4 from "./mattress S.F COMP IMG/PUFOAM 6/DSC02156.jpg";
-import SixinchPUFOAM5 from "./mattress S.F COMP IMG/PUFOAM 6/DSC02157.jpg";
+import AloveraBonnel1 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02058.jpg";
+import AloveraBonnel2 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02060.jpg";
+import AloveraBonnel3 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02061.jpg";
+import AloveraBonnel4 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02064.jpg";
+import AloveraBonnel5 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02065.jpg";
+import AloveraBonnel6 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02067.jpg";
 
-//--------- PUFOAM 8-------------
-import EightinchPUFOAM1 from "./mattress S.F COMP IMG/PUFOAM 8/DSC02158.jpg";
-import EightinchPUFOAM2 from "./mattress S.F COMP IMG/PUFOAM 8/DSC02159.jpg";
-import EightinchPUFOAM3 from "./mattress S.F COMP IMG/PUFOAM 8/DSC02160.jpg";
-import EightinchPUFOAM4 from "./mattress S.F COMP IMG/PUFOAM 8/DSC02161.jpg";
-import EightinchPUFOAM5 from "./mattress S.F COMP IMG/PUFOAM 8/DSC02163.jpg";
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+//------------------------------ orthobonnell spring--------------------------------------
 //--------- oxford-------------
 import oxford1 from "./mattress S.F COMP IMG/Oxford CI/DSC02109.jpg";
 import oxford2 from "./mattress S.F COMP IMG/Oxford CI/DSC02112.jpg";
@@ -96,15 +78,81 @@ import Romanticfirm5 from "./mattress S.F COMP IMG/Romantic firm CI/DSC02080.jpg
 import Romanticfirm6 from "./mattress S.F COMP IMG/Romantic firm CI/DSC02081.jpg";
 
 
+ 
+//------- ortho spring AloveraBonnellatex----------
 
-//-------AloveraBonnel----------
+// import AloveraBonnel1 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02058.jpg";
+// import AloveraBonnel2 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02060.jpg";
+// import AloveraBonnel3 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02061.jpg";
+// import AloveraBonnel4 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02064.jpg";
+// import AloveraBonnel5 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02065.jpg";
+// import AloveraBonnel6 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02067.jpg";
 
-import AloveraBonnel1 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02058.jpg";
-import AloveraBonnel2 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02060.jpg";
-import AloveraBonnel3 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02061.jpg";
-import AloveraBonnel4 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02064.jpg";
-import AloveraBonnel5 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02065.jpg";
-import AloveraBonnel6 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02067.jpg";
+// // ortho spring aloe vera memory
+// import OrthopedicAloeveraMemory1 from "./mattress S.F COMP IMG/ALOEVERA MEMEORY/DSC02137.jpg";
+// import OrthopedicAloeveraMemory2 from "./mattress S.F COMP IMG/ALOEVERA MEMEORY/DSC02138.jpg";
+// import OrthopedicAloeveraMemory3 from "./mattress S.F COMP IMG/ALOEVERA MEMEORY/DSC02139.jpg";
+// import OrthopedicAloeveraMemory4 from "./mattress S.F COMP IMG/ALOEVERA MEMEORY/DSC02143.jpg";
+// import OrthopedicAloeveraMemory5 from "./mattress S.F COMP IMG/ALOEVERA MEMEORY/DSC02143a.jpg";
+// import OrthopedicAloeveraMemory6 from "./mattress S.F COMP IMG/ALOEVERA MEMEORY/DSC02145.jpg";
+
+
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//----------------pocketed spring------------------------------------------------------------------
+
+
+//---------Insperational pocketed -------------
+import InsperationalPocketed1 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02082.jpg";
+import InsperationalPocketed2 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02083.jpg";
+import InsperationalPocketed3 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02084.jpg";
+import InsperationalPocketed4 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02085.jpg";
+import InsperationalPocketed5 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02085a.jpg";
+import InsperationalPocketed6 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02086.jpg";
+
+//------------DULATION Pocketed---------------
+
+import DulationPocketed1 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02120.jpg";
+import DulationPocketed2 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02123.jpg";
+import DulationPocketed3  from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02123a.jpg";
+import DulationPocketed4 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02124.jpg";
+import DulationPocketed5 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02126.jpg";
+import DulationPocketed6  from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02126a.jpg";
+
+//------- pocketed spring AloveraBonnellatex----------
+
+// import AloveraBonnel1 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02058.jpg";
+// import AloveraBonnel2 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02060.jpg";
+// import AloveraBonnel3 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02061.jpg";
+// import AloveraBonnel4 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02064.jpg";
+// import AloveraBonnel5 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02065.jpg";
+// import AloveraBonnel6 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02067.jpg";
+
+// // pocketed spring aloe vera memory
+// import OrthopedicAloeveraMemory1 from "./mattress S.F COMP IMG/ALOEVERA MEMEORY/DSC02137.jpg";
+// import OrthopedicAloeveraMemory2 from "./mattress S.F COMP IMG/ALOEVERA MEMEORY/DSC02138.jpg";
+// import OrthopedicAloeveraMemory3 from "./mattress S.F COMP IMG/ALOEVERA MEMEORY/DSC02139.jpg";
+// import OrthopedicAloeveraMemory4 from "./mattress S.F COMP IMG/ALOEVERA MEMEORY/DSC02143.jpg";
+// import OrthopedicAloeveraMemory5 from "./mattress S.F COMP IMG/ALOEVERA MEMEORY/DSC02143a.jpg";
+// import OrthopedicAloeveraMemory6 from "./mattress S.F COMP IMG/ALOEVERA MEMEORY/DSC02145.jpg";
+
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//----------------HR-PU foam-----------------------------------------------------------------------------
+//--------- PUFOAM 6-------------
+import SixinchPUFOAM1 from "./mattress S.F COMP IMG/PUFOAM 6/DSC02152.jpg";
+import SixinchPUFOAM2 from "./mattress S.F COMP IMG/PUFOAM 6/DSC02154.jpg";
+import SixinchPUFOAM3 from "./mattress S.F COMP IMG/PUFOAM 6/DSC02155.jpg";
+import SixinchPUFOAM4 from "./mattress S.F COMP IMG/PUFOAM 6/DSC02156.jpg";
+import SixinchPUFOAM5 from "./mattress S.F COMP IMG/PUFOAM 6/DSC02157.jpg";
+
+//--------- PUFOAM 8-------------
+import EightinchPUFOAM1 from "./mattress S.F COMP IMG/PUFOAM 8/DSC02158.jpg";
+import EightinchPUFOAM2 from "./mattress S.F COMP IMG/PUFOAM 8/DSC02159.jpg";
+import EightinchPUFOAM3 from "./mattress S.F COMP IMG/PUFOAM 8/DSC02160.jpg";
+import EightinchPUFOAM4 from "./mattress S.F COMP IMG/PUFOAM 8/DSC02161.jpg";
+import EightinchPUFOAM5 from "./mattress S.F COMP IMG/PUFOAM 8/DSC02163.jpg";
+
+
 
 //--BIOPEDIC---------------
 
@@ -116,14 +164,7 @@ import Biopedic5 from "./mattress S.F COMP IMG/BIOPEDIC/DSC02134.jpg";
 import Biopedic6 from "./mattress S.F COMP IMG/BIOPEDIC/DSC02136.jpg";
 
 
-//------------DULATION Pocked---------------
 
-import DulationPocketed1 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02120.jpg";
-import DulationPocketed2 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02123.jpg";
-import DulationPocketed3  from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02123a.jpg";
-import DulationPocketed4 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02124.jpg";
-import DulationPocketed5 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02126.jpg";
-import DulationPocketed6  from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02126a.jpg";
 
 //----------Impression------------------
 
@@ -134,14 +175,7 @@ import Impression4 from "./mattress S.F COMP IMG/IMPRESSION/DSC02171.jpg";
 import Impression5 from "./mattress S.F COMP IMG/IMPRESSION/DSC02172.jpg";
 import Impression6 from "./mattress S.F COMP IMG/IMPRESSION/DSC02173.jpg";
 
-//---------Insperational pocketed -------------
 
-import InsperationalPocketed1 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02082.jpg";
-import InsperationalPocketed2 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02083.jpg";
-import InsperationalPocketed3 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02084.jpg";
-import InsperationalPocketed4 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02085.jpg";
-import InsperationalPocketed5 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02085a.jpg";
-import InsperationalPocketed6 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02086.jpg";
 
 //-----------Milange ----------------
 
@@ -162,26 +196,33 @@ import RedHardSoft4 from "./mattress S.F COMP IMG/Red Hard & soft CI/DSC02185.jp
 import RedHardSoft5 from "./mattress S.F COMP IMG/Red Hard & soft CI/DSC02186.jpg";
 import RedHardSoft6 from "./mattress S.F COMP IMG/Red Hard & soft CI/DSC02187.jpg";
 
-//Section-2-Exceptional Quality
-
-import Sec21 from "./Section-2-img/Sec21.jpeg";
-import Sec21a from "./Section-2-img/Sec21a.jpeg";
-import Sec22 from "./Section-2-img/Sec22.JPG";
-import Sec22a from "./Section-2-img/Sec22a.jpeg";
-import Sec23 from "./Section-2-img/Sec23.jpeg";
-
-import Sec24 from "./Section-2-img/Sec24.jpg";
-
-import Sec25 from "./Section-2-img/Sec25.png";
-import Sec25a from "./Section-2-img/Sec25a.png";
-import Sec26 from "./Section-2-img/Sec26.jpeg";
-import Sec26a from "./Section-2-img/Sec26a.png";
-import Sec27 from "./Section-2-img/Sec27.jpeg";
-import Sec27a from "./Section-2-img/Sec27a.jpeg";
-import Sec28 from "./Section-2-img/Sec28.jpg";
-import Sec28a from "./Section-2-img/Sec28a.jpg";
 
 
+//---------Beds------------------------------
+//King-Sized-Beds
+import PlatformBed from "../assets/Beds/King-Size-bed/PlatformBed.jpeg";
+import CanopyBed from "../assets/Beds/King-Size-bed/CanopyBed.JPG";
+import PanelBed from "../assets/Beds/King-Size-bed/PanelBed.jpeg";
+import SeighBed from "../assets/Beds/King-Size-bed/SleighBed.jpeg";
+//Queen-Sized-Beds
+import LoftBed from "../assets/Beds/Queen-size-bed/LoftBed.jpg";
+import MurphyBed from "../assets/Beds/Queen-size-bed/MurphyBed.jpeg";
+
+//------Sofas-------------
+//Standard-sofa
+import ChesterfieldSofa from "../assets/Sofas/StandardSofas/ChesterfieldSofa.png";
+import LawsonSofa from "../assets/Sofas/StandardSofas/LawsonSofa.png";
+//Sectional-Sofa
+import LshapedSofa from "../assets/Sofas/Sectional-Sofas/Lshapedsofa.jpeg";
+import UshapedSofa from "../assets/Sofas/Sectional-Sofas/Ushapedsofa.png";
+
+//---------ACCESSORIES------------------------
+//COMFORTERS
+import BaffelBox from "../assets/Accessories/Comforters/BaffleBox.jpg";
+import SewnThrough from "../assets/Accessories/Comforters/SewnThrough.jpg";
+//Pillows
+import BodyPillow from "../assets/Accessories/Pillows/BodyPillow.jpeg";
+import StandardPillow from "../assets/Accessories/Pillows/StandardPillow.jpeg";
 
 import Image4 from "./image4.jpg";
 import Image5 from "./image5.jpg";
@@ -344,22 +385,34 @@ export {
   RedHardSoft4,
   RedHardSoft5,
   RedHardSoft6,
-//secti0n-2 Exceptional Quality
-  Sec21,
-  Sec21a,
-  Sec22,
-  Sec23,
-  Sec24,
-  Sec25,
-  Sec25a,
-  Sec26,
-  Sec26a,
-  Sec27, 
-  Sec27a,
-  Sec28, 
-  Sec28a,
-  Sec22a,
 
+// beds
+// king size
+// platform
+
+//---------Beds------------------------------
+  //King-Sized-Beds
+  PlatformBed,
+  CanopyBed,
+  PanelBed,
+  SeighBed,
+  //Queen-Sized-Beds
+  LoftBed,
+  MurphyBed,
+  //------Sofas-------------
+  //Standard-sofa
+  ChesterfieldSofa,
+  LawsonSofa,
+  //Sectional-Sofa
+  LshapedSofa,
+  UshapedSofa,
+  //---------ACCESSORIES------------------------
+  //COMFORTERS
+  BaffelBox,
+  SewnThrough,
+  //Pillows
+  BodyPillow,
+  StandardPillow,
 
   Image4,
   Image5,
