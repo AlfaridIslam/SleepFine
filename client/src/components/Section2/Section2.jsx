@@ -67,7 +67,7 @@ const Section2 = () => {
   };
 
   return (
-    <div className="relative flex flex-col items-center w-full xl:w-[99%] sm:w-full md:w-full lg:w-full">
+    <div className="relative xl:flex xl:flex-col items-center w-full  sm:w-[158%] sm:h-full md:w-full lg:w-full">
       <div className="mx-4 sm:mx-8 lg:mx-16 xl:mx-20 my-7 flex flex-col items-center">
         <div className="text-center">
           <h1 className="xl:text-4xl md:text-3xl lg:text-3xl sm:text-3xl font-sans">
@@ -90,13 +90,14 @@ const Section2 = () => {
         <div
           ref={scrollRef}
           onScroll={handleScroll}
-          className="flex gap-4 overflow-x-auto space-x-6 hide-scrollbar"
+          className="xl:flex xl:gap-4 xl:overflow-x-auto xl:space-x-6 hide-scrollbar sm:flex sm:overflow-x-auto"
           style={{ scrollBehavior: "smooth" }}
         >
           {images.map((img, index) => (
             <div
               key={index}
-              className="relative h-[500px] flex-shrink-0 w-[30%] border-2 rounded-lg object-cover"
+              className="relative xl:h-[500px] xl:flex-shrink-0 xl:w-[30%] border-2 rounded-lg object-cover
+              sm:h-[300px] sm:w-[50%] sm:flex-shrink-0"
               onMouseEnter={() => handleMouseEnter(index)}
               onMouseLeave={handleMouseLeave}
             >

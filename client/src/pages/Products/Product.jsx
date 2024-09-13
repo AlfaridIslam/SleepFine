@@ -19,7 +19,7 @@ const Product = () => {
         PRODUCTS
       </h1>
       <div
-        className="bg-slate-300 xl:flex xl:gap-4 xl:mt-4 xl:justify-between xl:mr-3 xl:ml-3 xl:py-[8px] xl:px-[63px]
+        className="bg-slate-100 xl:flex xl:gap-4 xl:mt-4 xl:justify-between xl:mr-3 xl:ml-3 xl:py-[8px] xl:px-[63px]
 
        sm:mt-8 lg:flex"
       >

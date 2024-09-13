@@ -43,7 +43,7 @@ function Testimonial() {
   };
 
   return (
-    <div className="main-card mt-2 xl:w-auto sm:w-[400%]">
+    <div className="main-card mt-2 xl:w-full">
       <div
         className="xl:flex xl:justify-around xl:items-center xl:mb-8 xl:w-full
                        sm:w-[140%]"
