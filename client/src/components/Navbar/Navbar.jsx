@@ -53,11 +53,11 @@ const Navbar = () => {
 
       <div
         className="xl:flex xl:text-black  xl:justify-around xl:shadow-lg xl:z-50  xl:pl-2  xl:pb-5 xl:pt-2 xl:ml-0 
-                       sm:flex sm:justify-end sm:gap-1 sm:ml-2 sm:mt-1 "
+                        sm:justify-end sm:gap-1 sm:ml-2 sm:mt-1 sm:grid"
       >
         {/* ____________________________Logo-Image _______________________*/}
-        <div onClick={barsOpenHandler} className="xl:hidden sm:flexs  ">
-          <FontAwesomeIcon icon={faBars} className="sm:h-10 sm:ml-2 sm:mt-10" />
+        <div onClick={barsOpenHandler} className="xl:hidden sm:flex sm:p-4 sm:ml-14 ">
+          <FontAwesomeIcon icon={faBars} className="sm:h-10 sm:ml-2 sm:mt-2" />
         </div>
 
         <Link
@@ -67,7 +67,7 @@ const Navbar = () => {
           <img
             src={logo}
             alt="Logo"
-            className="xl:w-44   xl:h-14  xl:mt-5  xl:ml-0 xl:pb-0 xl:pt-0 xl:p-0  sm:justify-end sm:ml-40 sm:p-4  sm:h-28"
+            className="xl:w-44   xl:h-14  xl:mt-5  xl:ml-0 xl:pb-0 xl:pt-0 xl:p-0  sm:justify-center sm:ml-[450px] sm:py-2  sm:h-20 sm:-mt-20"
           />
         </Link>
 
@@ -75,7 +75,7 @@ const Navbar = () => {
 
         <div
           className={`xl:flex xl:justify-evenly xl:gap-14 xl:cursor-pointer xl:relative xl:z-10 xl:text-[13px] font-sans xl:mt-10 
-              sm:grid sm:gap-4 sm:-mt-1 sm:text-[20px] sm:${
+              sm:grid sm:gap-4   sm:ml-20   sm:text-[20px]  sm:${
                 barsOpen ? "block" : "hidden"
               }`}
         >
@@ -122,7 +122,7 @@ const Navbar = () => {
                         Orthopedic Bonded Collection &#10097;
                         {hoveredSubCategory ===
                           "Orthopedic Bonded Collection" && (
-                          <div className="xl:absolute xl:left-60 xl:w-[9rem] xl:flex xl:flex-col xl:p-[10px]  xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-7">
+                          <div className="xl:absolute xl:left-60 xl:w-[9rem] xl:flex xl:flex-col xl:p-[10px]  xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-7 sm:grid">
                             <Link
                               to="product-details/orthomed"
                               className="px-4 py-2 hover:bg-indigo-100"
@@ -139,6 +139,7 @@ const Navbar = () => {
                               to="product-details/buckingham"
                               className="px-4 py-2 hover:bg-indigo-100"
                             >
+                           
                               Buckingham
                             </Link>
                             <Link
@@ -176,7 +177,7 @@ const Navbar = () => {
                         Ortho Bonell Spring Collection &#10097;
                         {hoveredSubCategory ===
                           "Ortho Bonell Spring Collection" && (
-                          <div className="xl:absolute xl:left-60 xl:w-[9rem] xl:flex xl:flex-col xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-14">
+                          <div className="xl:absolute xl:left-60 xl:w-[9rem] xl:flex xl:flex-col xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-14 sm:grid">
                             <Link
                               to="product-details/6inch-silver-crown"
                               className="px-4 py-2 hover:bg-indigo-100"
@@ -236,7 +237,7 @@ const Navbar = () => {
                         Pocketed Spring Collection &#10097;
                         {hoveredSubCategory ===
                           "Pocketed Spring Collection" && (
-                          <div className="xl:absolute xl:left-60 xl:w-[9rem] xl:flex xl:flex-col xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-20">
+                          <div className="xl:absolute xl:left-60 xl:w-[9rem] xl:flex xl:flex-col xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-20 sm:grid">
                             <Link
                               to="product-details/pocketed-spring-inspiration"
                               className="px-4 py-2 hover:bg-indigo-100"
@@ -275,7 +276,7 @@ const Navbar = () => {
                       >
                         HR-PU Foam Collection &#10097;
                         {hoveredSubCategory === "HR-PU Foam Collection" && (
-                          <div className="xl:absolute xl:left-60 xl:w-[9rem] xl:flex xl:flex-col xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-32">
+                          <div className="xl:absolute xl:left-60 xl:w-[9rem] xl:flex xl:flex-col xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-32 sm:grid ">
                             <Link
                               to="product-details/hr-pu-gravity"
                               className="px-4 py-2 hover:bg-indigo-100"

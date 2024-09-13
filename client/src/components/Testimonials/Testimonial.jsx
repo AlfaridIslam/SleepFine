@@ -54,7 +54,7 @@ function Testimonial() {
         <div className="xl:border-t-2 xl:border-pink-500 xl:w-1/2 xl:ml-4 xl:block sm:hidden"></div>
       </div>
 
-      <div className="xl:px-10 xl:ml-0 xl:mt-0 xl:mr-0 sm:-mr-36 sm:mt-8">
+      <div className="xl:px-10 xl:ml-0 xl:mt-0 xl:mr-0 sm:-mr-36 sm:mt-8  sm:w-[150%]">
         <Slider {...settings}>
           {Tdata.map((item, index) => (
             <div className="px-3" key={index}>
