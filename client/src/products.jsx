@@ -40,18 +40,18 @@ import {
   OrthopedicAloeveraMemory4,
   OrthopedicAloeveraMemory5,
   OrthopedicAloeveraMemory6,
-  Sec22,
-  Sec24,
-  Sec26,
-  Sec27,
+  CanopyBed,
+  LoftBed,
+  LshapedSofa,
+  StandardPillow,
 } from "./assets/index"; // Adjust the path according to your folder structure
 
 const products = [
   //-------------------Mattresses-------------
   {
     id: 1,
-    name: "Mattress",
-    image:  Sec22,
+    name: "Beds",
+    image:  CanopyBed,
     subcategories: [
       //----------Orthopedic Bonded Collection--------
       {
@@ -201,8 +201,8 @@ const products = [
   //-----------------Beds-----------------------
   {
     id: 2,
-    name: "Bed",
-    image: Sec24,
+    name: "Mattresses",
+    image: LoftBed,
     subcategories: [
       {
         id: 201,
@@ -265,7 +265,7 @@ const products = [
   {
     id: 3,
     name: "Sofa",
-    image: Sec26,
+    image: LshapedSofa,
     subcategories: [
       {
         id: 301,
@@ -318,7 +318,7 @@ const products = [
   {
     id: 4,
     name: "Accessories",
-    image:Sec27,
+    image:StandardPillow,
     subcategories: [
       {
         id: 401,
