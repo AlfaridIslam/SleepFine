@@ -429,15 +429,15 @@ const ProductDetails = () => {
                 {/* Carousel navigation buttons */}
                 <button
                   onClick={handlePrevClick}
-                  className="absolute top-1/2 left-0 transform -translate-y-1/2 text-black text-7xl p-2 rounded-full hover:bg-red-200 h-20"
+                  className="absolute top-1/2 left-0 transform -translate-y-1/2 text-black text-7xl p-2 rounded-full hover:bg-blue-300 h-20"
                 >
-                  &#8249;
+                 <div className='-mt-5'> &#8249;</div>
                 </button>
                 <button
                   onClick={handleNextClick}
                   className="absolute top-1/2 xl:right-[28px] md:right-[18px] lg:right-[52px] sm:right-0 transform -translate-y-1/2 text-black text-7xl p-2 rounded-full hover:bg-blue-300 h-20"
                 >
-                  &#8250;
+                <div className='-mt-5'>  &#8250;</div>
                 </button>
               </div>
               <div className="thumbnail flex justify-start gap-2">
