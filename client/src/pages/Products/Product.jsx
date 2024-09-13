@@ -13,15 +13,13 @@ const Product = () => {
 
   return (
     <div className="xl:grid xl:justify-center xl:items-center xl:mt-4 sm:justify-center xl:w-full
-    lg:w-[400%]
+    
      sm:grid  sm:w-[140%] sm:mt-10">
       <h1 className="text-2xl font-bold xl:flex xl:justify-center sm:flex sm:justify-center sm:mt-5 ">
         PRODUCTS
       </h1>
       <div
-        className="bg-slate-100 xl:flex xl:gap-4 xl:mt-4 xl:justify-between xl:mr-3 xl:ml-3 xl:py-[8px] xl:px-[63px]
-
-       sm:mt-8 lg:flex"
+        className="xl:flex xl:gap-4"
       >
         {products.map((product) => (
           <div
@@ -32,7 +30,7 @@ const Product = () => {
             <img
               src={product.image}
               alt={product.name}
-              className="transform scale-90 h-[400px] sm:rounded-xl"
+              className="  h-[400px]  sm:rounded-xl"
             />
             <h2 className="mt-2 text-center">{product.name}</h2>
           </div>

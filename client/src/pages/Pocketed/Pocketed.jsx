@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Image4, Image5, Image6, Image7 } from "../../assets/index.jsx"; // Importing images from assets/index.jsx
+//import { Image4, Image5, Image6, Image7 } from "../../assets/index.jsx"; // Importing images from assets/index.jsx
 
 const Pocketed = () => {
   const images = [Image4, Image5, Image6, Image7];

@@ -13,19 +13,18 @@ const Footer = () => {
   return (
     <div className="Main-Sectio bg-black xl:w-full sm:w-[158%]  ">
       <div
-        className="text-white  xl:flex xl:mt-10 xl:pt-10 xl:justify-around xl:w-full lg:pl-[8rem] lg:pr-[6relg
-                 sm:mt-2  sm:grid  md:pl-[8rem] md:pr-[6rem] "
+        className="text-white  xl:flex xl:mt-10 xl:pt-10 xl:justify-around xl:w-full 
+                 sm:mt-20  sm:grid   "
       >
         <div>
-          <h1 className="text-lg font-normal xl:mt-0 sm:mt-5 xl:justify-start sm:justify-start sm:flex sm:text-xl sm:px-4">
+          <h1 className="text-lg font-normal xl:mt-0  xl:px-0 sm:mt-5 xl:justify-start sm:justify-start sm:flex sm:text-xl sm:px-4">
             OUR PROMISE
           </h1>
           <ul className="font-extralight xl:mt-10 xl:text-sm sm:mt-2 sm:text-base sm:justify-center sm:flex">
             <li>
               {" "}
               <p
-                className="xl:w-60 xl:pr-[0.75rem] xl:pl-[0.25rem] lg:pl-[1rem] lg:pr-[80rem]
-               sm:pr-[13rem] sm:pl-[1rem] md:pr-[80rem] md:pl-[1rem] "
+                className="xl:w-60 xl:pr-[0.75rem] xl:pl-[0.25rem] xl:p-0 sm:p-4 "
               >
                 We at Sleep fine, are constantly pushing the boundaries of
                 technology and innovations to craft best sleep solutions that

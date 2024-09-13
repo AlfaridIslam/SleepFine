@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { Image4, Image5, Image6, Image7 } from "../../assets/index.jsx";
+//import { Image4, Image5, Image6, Image7 } from "../../assets/index.jsx";
 
 const RebondedSuperSoft = () => {
   const images = [Image4, Image5, Image6, Image7];
