@@ -13,8 +13,7 @@ const Product = () => {
 
   return (
     <div className="xl:grid xl:justify-center xl:items-center xl:mt-4 sm:justify-center xl:w-full
-    lg:w-[400%]
-     sm:grid  sm:w-[140%] sm:mt-10">
+     sm:grid sm:w-[140%] sm:mt-10">
       <h1 className="text-2xl font-bold xl:flex xl:justify-center sm:flex sm:justify-center sm:mt-5 ">
         PRODUCTS
       </h1>
