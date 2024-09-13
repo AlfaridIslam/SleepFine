@@ -11,10 +11,10 @@ import {
 
 const Footer = () => {
   return (
-    <div className="Main-Sectio bg-black xl:w-full sm:w-[399%] md:w-[400%] lg:w-[400%]  ">
+    <div className="Main-Sectio bg-black xl:w-full sm:w-[158%]  ">
       <div
         className="text-white  xl:flex xl:mt-10 xl:pt-10 xl:justify-around xl:w-full lg:pl-[8rem] lg:pr-[6relg
-                 sm:mt-2  sm:grid sm:pl-[9rem] sm:pr-[11rem] md:pl-[8rem] md:pr-[6rem] "
+                 sm:mt-2  sm:grid  md:pl-[8rem] md:pr-[6rem] "
       >
         <div>
           <h1 className="text-lg font-normal xl:mt-0 sm:mt-5 xl:justify-start sm:justify-start sm:flex sm:text-xl sm:px-4">

@@ -6,6 +6,7 @@ import {
   faBars,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import logo from "../../assets/sleepfinelogo-3.png";
 
 const Navbar = () => {
   const [isProductsDropdownOpen, setIsProductsDropdownOpen] = useState(false);
@@ -35,11 +36,10 @@ const Navbar = () => {
   };
 
   return (
-    <div className="xl:sm:w-auto sm:w-[140%]">
+    <div>
       <div
-        className="xl:flex xl:border-b-[2px] xl:justify-end xl:gap-10 xl:p-2
-                       sm:flex sm:justify-around sm:border-b-[2px] sm:p-2
-                       lg:justify-end lg:gap-10"
+        className="xl:flex xl:border-b-[2px] xl:justify-end xl:gap-10 xl:p-2 xl:text-base xl:w-full xl:bg-white
+        sm:flex sm:justify-center sm:text-3xl sm:gap-20 sm:bg-amber-300 sm:w-[158%] sm:p-4"
       >
         <div>
           <FontAwesomeIcon icon={faPhone} className="mt-1 pr-2" />
@@ -53,23 +53,21 @@ const Navbar = () => {
 
       <div
         className="xl:flex xl:text-black  xl:justify-around xl:shadow-lg xl:z-50  xl:pl-2  xl:pb-5 xl:pt-2 xl:ml-0 
-                       sm:grid sm:gap-1 sm:ml-2 sm:mt-1 "
+                       sm:flex sm:justify-end sm:gap-1 sm:ml-2 sm:mt-1 "
       >
         {/* ____________________________Logo-Image _______________________*/}
         <div onClick={barsOpenHandler} className="xl:hidden sm:flexs  ">
-          <FontAwesomeIcon icon={faBars} className="sm:h-10 sm:ml-2 sm:mt-2" />
+          <FontAwesomeIcon icon={faBars} className="sm:h-10 sm:ml-2 sm:mt-10" />
         </div>
 
         <Link
           to="/"
-          className="sm:flex sm:justify-center sm:-mr-[181rem] md:-mr-[300rem] lg:justify-center xl:mr-[100px]"
+          className=""
         >
           <img
-            src="src/assets/sleepfinelogo-3.png"
-            alt=""
-            className="xl:w-44   xl:h-14  xl:mt-5  xl:ml-0 xl:pb-0 xl:pt-0
-                    sm:w-48  sm:-mt-16  sm:pb-2 sm:pt-2 sm:mr-[330px] 
-                    lg:w-48  lg:-mt-16  lg:pb-2 lg:pt-2 lg:ml-0"
+            src={logo}
+            alt="Logo"
+            className="xl:w-44   xl:h-14  xl:mt-5  xl:ml-0 xl:pb-0 xl:pt-0 xl:p-0  sm:justify-end sm:ml-40 sm:p-4"
           />
         </Link>
 

@@ -43,34 +43,31 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div
-      className="xl:relative xl:w-full xl:h-[550px] xl:mx-auto xl:overflow-hidden
-                 sm:overflow-hidden sm:w-[400%]  sm:h-[27rem]
-                 md:w-[400%] md:h-[570px] lg:h-[30rem] lg:w-[400%]"
-    >
+    <div className="relative xl:w-full xl:h-[550px] sm:w-full sm:h-[550px]">
       <div
-        className="relative w-full h-full bg-gray-200"
+        className="relative xl:w-[100%] sm:w-[158%] sm:h-full bg-gray-200"
         style={{
           backgroundImage: `url(${slides[currentIndex].image})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-10 flex flex-col justify-center items-center text-center text-black text-[12px] p-4">
-          <h5 className="text-xl mb-2">{slides[currentIndex].title}</h5>
-          <p className="font-medium">{slides[currentIndex].description}</p>
+        <div className="xl:absolute inset-0  xl:flex xl:flex-col xl:justify-center xl:items-center xl:text-center text-black
+        sm:absolute sm:bottom-[7.5rem] sm:left-[2rem] ">
+          <h5 className="text-xl mb-2 xl:text-center sm:text-center">{slides[currentIndex].title}</h5>
+          <p className="font-medium xl:text-center sm:text-center">{slides[currentIndex].description}</p>
         </div>
         <button
-          className="absolute top-1/2 left-4 transform -translate-y-1/2  text-white p-2 "
+          className="absolute top-1/2 left-4 transform -translate-y-1/2 text-white p-2"
           onClick={prevSlide}
         >
-          &#10094;
+          ❮
         </button>
         <button
-          className="absolute top-1/2 right-4 transform -translate-y-1/2  text-white p-2 "
+          className="absolute top-1/2 right-4 transform -translate-y-1/2 text-white p-2"
           onClick={nextSlide}
         >
-          &#10095;
+          ❯
         </button>
       </div>
     </div>
