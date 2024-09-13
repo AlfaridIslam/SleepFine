@@ -136,7 +136,7 @@ import DulationPocketed6  from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC0212
 // import OrthopedicAloeveraMemory5 from "./mattress S.F COMP IMG/ALOEVERA MEMEORY/DSC02143a.jpg";
 // import OrthopedicAloeveraMemory6 from "./mattress S.F COMP IMG/ALOEVERA MEMEORY/DSC02145.jpg";
 
-//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//
 //----------------HR-PU foam-----------------------------------------------------------------------------
 //--------- PUFOAM 6-------------
 import SixinchPUFOAM1 from "./mattress S.F COMP IMG/PUFOAM 6/DSC02152.jpg";
