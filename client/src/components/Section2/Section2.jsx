@@ -2,22 +2,24 @@ import React, { useRef, useState } from "react";
 import ArrowRight from "../../assets/right.png";
 import ArrowLeft from "../../assets/left.png";
 import {
-  Sec21,
-  Sec21a,
-  Sec22,
-  Sec22a,
-  Sec23,
-  ORTRHOMED6,
-  Sec24,
-  Romanticfirm6,
-  Sec25,
-  Sec25a,
-  Sec26,
-  Sec26a,
-  Sec27,
-  Sec27a,
-  Sec28,
-  Sec28a,
+  
+ORTRHOMED6,
+Romanticfirm6,
+PlatformBed,
+CanopyBed,
+PanelBed,
+SeighBed,
+LoftBed,
+MurphyBed,
+ChesterfieldSofa,
+LawsonSofa,
+LshapedSofa,
+UshapedSofa,
+BaffelBox,
+SewnThrough,
+BodyPillow,
+StandardPillow,
+
 } from "../../assets/index.jsx";
 import { Link } from "react-router-dom";
 
@@ -27,16 +29,27 @@ const Section2 = () => {
   const [isAtEnd, setIsAtEnd] = useState(false);
   const [isAtStart, setIsAtStart] = useState(true);
 
-  const images = [Sec21, Sec22, Sec23, Sec24, Sec25, Sec26, Sec27, Sec28];
+  const images = [
+    PlatformBed,
+    CanopyBed,
+    MurphyBed,
+    LoftBed, 
+    ChesterfieldSofa, 
+    LshapedSofa,
+    StandardPillow,
+    BaffelBox,
+
+
+  ];
   const hoveredImages = [
-    Sec21a,
-    Sec22a,
+    PanelBed,
+    SeighBed,
     ORTRHOMED6,
     Romanticfirm6,
-    Sec25a,
-    Sec26a,
-    Sec27a,
-    Sec28a,
+    LawsonSofa,
+    UshapedSofa,
+    BodyPillow,
+    SewnThrough,
   ];
 
   const handleScroll = () => {
