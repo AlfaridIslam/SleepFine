@@ -4,9 +4,9 @@ import { Link } from "react-router-dom"; // Import Link from react-router-dom
 
 const ProductSubitems = ({ subitems }) => {
   return (
-    <div className="mt-8 bg-slate-200 flex flex-col justify-center items-center my-4 border-sky-500">
+    <div className="xl:w-full mt-8 bg-slate-200 flex flex-col justify-center items-center my-4 sm:w-[113%]">
       <h1 className="text-2xl text-center font-bold mb-4">Subitems</h1>
-      <div className="grid grid-cols-2 gap-[8rem]">
+      <div className="grid grid-cols-2 gap-[8rem] px-[24px]">
         {subitems.map((subitem) => (
           <Link
             key={subitem.id}
