@@ -77,16 +77,16 @@ const productData = {
     description:
       "Explore our collection of fabric sofas that blend style with comfort. Choose from a variety of colors and textures to suit your home decor, offering both aesthetic appeal and cozy relaxation.",
   },
-  "king-size-bed": {
-    images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM3, SixinchPUFOAM4], // Replace these with actual King Size Bed images
-    description:
-      "Experience luxury with our king-size beds that promise superior comfort and spaciousness. Crafted with quality materials, these beds are designed to provide a restful night's sleep.",
-  },
-  "queen-size-bed": {
-    images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM3, SixinchPUFOAM4], // Replace these with actual Queen Size Bed images
-    description:
-      "Our queen-size beds combine elegance and comfort, making them an ideal choice for any bedroom. They offer the perfect balance of space and style for a restful retreat.",
-  },
+  // "king-size-bed": {
+  //   images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM3, SixinchPUFOAM4], // Replace these with actual King Size Bed images
+  //   description:
+  //     "Experience luxury with our king-size beds that promise superior comfort and spaciousness. Crafted with quality materials, these beds are designed to provide a restful night's sleep.",
+  // },
+  // "queen-size-bed": {
+  //   images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM3, SixinchPUFOAM4], // Replace these with actual Queen Size Bed images
+  //   description:
+  //     "Our queen-size beds combine elegance and comfort, making them an ideal choice for any bedroom. They offer the perfect balance of space and style for a restful retreat.",
+  // },
   orthomed: {
     images: [ORTRHOMED1, ORTRHOMED2, ORTRHOMED3, ORTRHOMED4], // Assuming images are not uploaded yet
     description:
@@ -227,7 +227,7 @@ const productData = {
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
   },
-  "Platform-Bed": {
+  "platform-bed": {
     images: [Buckingham3, Buckingham4, Buckingham5, Buckingham6], // Assuming images are not uploaded yet
     description:
       "Our preference beds are customizable to your needs, offering flexibility and comfort for a personalized sleep experience.",
@@ -408,14 +408,14 @@ const ProductDetails = () => {
       <Link
         to="/products"
         className="back cursor-pointer absolute rounded-md
-         bg-red-300 text-black xl:text-[13px] xl:top-[160px] xl:left-[30px] xl:py-[5px] xl:pr-[22px] xl:pl-[25px]
-         lg:text-[12px] lg:top-[106px] lg:left-[20px] lg:py-[5px] lg:pr-[22px] lg:pl-[25px]
-         md:text-[12px] md:top-[106px] md:left-[20px] md:py-[5px] md:pr-[22px] md:pl-[25px]
-         sm:text-[12px] sm:top-[106px] sm:left-[20px] sm:py-[5px] sm:pr-[22px] sm:pl-[25px]"
+         bg-red-300 text-black xl:text-[13px] xl:top-[160px] xl:left-[30px] xl:py-[9px] xl:pr-[22px] xl:pl-[25px]
+         lg:text-[12px] lg:top-[152px] lg:left-[20px] lg:py-[8px] lg:pr-[22px] lg:pl-[25px]
+         md:text-[12px] md:top-[152px] md:left-[20px] md:py-[7px] md:pr-[22px] md:pl-[25px]
+         sm:text-[12px] sm:top-[155px] sm:left-[20px] sm:py-[6px] sm:pr-[22px] sm:pl-[25px]"
       >
         BACK
       </Link>
-      <div className="product-details-container p-6 flex gap-8 relative mt-6 flex-col sm:flex-col xl:flex-row">
+      <div className="product-details-container p-6 flex gap-8 relative xl:mt-10 sm:mt-8 flex-col sm:flex-col xl:flex-row">
         {/* Main image and carousel controls */}
         <div className="flex-1">
           {productInfo.images.length > 0 ? (

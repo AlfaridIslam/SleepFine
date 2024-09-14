@@ -50,7 +50,7 @@ const products = [
   //-------------------Mattresses-------------
   {
     id: 1,
-    name: "Beds",
+    name: "Mattressess",
     image:  CanopyBed,
     subcategories: [
       //----------Orthopedic Bonded Collection--------
@@ -201,7 +201,7 @@ const products = [
   //-----------------Beds-----------------------
   {
     id: 2,
-    name: "Mattresses",
+    name: "Beds",
     image: LoftBed,
     subcategories: [
       {
@@ -211,7 +211,7 @@ const products = [
         subitems: [
           {
             id: 2011,
-            name: "Platform-Bed",
+            name: "platform-bed",
             image: SixinchPUFOAM3, // Using existing image as dummy
           },
           {
