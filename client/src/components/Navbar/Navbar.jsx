@@ -18,6 +18,7 @@ const Navbar = () => {
   // Close the bars menu when the location changes (navigating to another page)
   useEffect(() => {
     setBarsOpen(false);
+    setIsProductsDropdownOpen(false);
   }, [location]);
 
   const handleMouseEnterCategory = (category) => {
