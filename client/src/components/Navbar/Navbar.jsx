@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPhone,
   faLocationDot,
   faBars,
 } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logo from "../../assets/sleepfinelogo-3.png";
 
 const Navbar = () => {
@@ -13,6 +13,12 @@ const Navbar = () => {
   const [hoveredCategory, setHoveredCategory] = useState(null);
   const [hoveredSubCategory, setHoveredSubCategory] = useState(null);
   const [barsOpen, setBarsOpen] = useState(false);
+  const location = useLocation();
+
+  // Close the bars menu when the location changes (navigating to another page)
+  useEffect(() => {
+    setBarsOpen(false);
+  }, [location]);
 
   const handleMouseEnterCategory = (category) => {
     setHoveredCategory(category);
@@ -56,14 +62,14 @@ const Navbar = () => {
                         sm:justify-end sm:gap-1 sm:ml-2 sm:mt-1 sm:grid"
       >
         {/* ____________________________Logo-Image _______________________*/}
-        <div onClick={barsOpenHandler} className="xl:hidden sm:flex sm:p-4 sm:ml-14 ">
+        <div
+          onClick={barsOpenHandler}
+          className="xl:hidden sm:flex sm:p-4 sm:ml-14 "
+        >
           <FontAwesomeIcon icon={faBars} className="sm:h-10 sm:ml-2 sm:mt-2" />
         </div>
 
-        <Link
-          to="/"
-          className=""
-        >
+        <Link to="/" className="">
           <img
             src={logo}
             alt="Logo"
@@ -139,7 +145,6 @@ const Navbar = () => {
                               to="product-details/buckingham"
                               className="px-4 py-2 hover:bg-indigo-100"
                             >
-                           
                               Buckingham
                             </Link>
                             <Link
@@ -330,7 +335,7 @@ const Navbar = () => {
                         {hoveredSubCategory === "King Size Bed" && (
                           <div className="xl:absolute xl:left-[9rem] xl:w-[8rem] xl:flex xl:flex-col xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-7">
                             <Link
-                              to="product-details/Platform-Bed"
+                              to="product-details/platform-bed"
                               className="px-4 py-2 hover:bg-indigo-100"
                             >
                               Platform Bed
