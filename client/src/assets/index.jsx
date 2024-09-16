@@ -246,8 +246,22 @@ import FabricSofa from "./fabric-sofa.jpg";
 import Bed from "./bed.jpg";
 import KingSizeBed from "./king-size-bed.jpg";
 import QueenSizeBed from "./queen-size-bed.jpg";
+import OrthomedBanner from "./banner1.png";
+import RoseByRosaBanner2 from "./banner2.JPG";
+import AmbitiousSleepingBanner3 from "./banner3.JPG";
+import RomanticBanner4 from "./banner4.JPG";
 
 export {
+
+  // banner
+  OrthomedBanner,
+  RoseByRosaBanner2,
+  AmbitiousSleepingBanner3,
+  RomanticBanner4,
+
+
+
+  // orthomed
   ORTRHOMED1,
   ORTRHOMED2,
   ORTRHOMED3,
