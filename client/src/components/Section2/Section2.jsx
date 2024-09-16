@@ -19,6 +19,14 @@ BaffelBox,
 SewnThrough,
 BodyPillow,
 StandardPillow,
+MemoryfoamPillow1,
+MemoryfoamPillow2,
+LshapedSofa1,
+LshapedSofa2,
+LshapedSofa4,
+UshapedSofa1,
+UshapedSofa2,
+ModularSofa1,
 
 } from "../../assets/index.jsx";
 import { Link } from "react-router-dom";
@@ -34,9 +42,9 @@ const Section2 = () => {
     CanopyBed,
     MurphyBed,
     LoftBed, 
-    ChesterfieldSofa, 
-    LshapedSofa,
-    StandardPillow,
+    LshapedSofa1,
+    UshapedSofa1,
+    MemoryfoamPillow1,
     BaffelBox,
 
 
@@ -46,9 +54,9 @@ const Section2 = () => {
     SeighBed,
     ORTRHOMED6,
     Romanticfirm6,
-    LawsonSofa,
-    UshapedSofa,
-    BodyPillow,
+    ModularSofa1,
+    UshapedSofa2,
+    MemoryfoamPillow2,
     SewnThrough,
   ];
 
@@ -109,8 +117,8 @@ const Section2 = () => {
           {images.map((img, index) => (
             <div
               key={index}
-              className="relative xl:h-[500px] xl:flex-shrink-0 xl:w-[30%] border-2 rounded-lg object-cover
-              sm:h-[300px] sm:w-[50%] sm:flex-shrink-0"
+              className="relative xl:h-[300px] xl:flex-shrink-0 xl:w-[30%] border-2 rounded-lg object-cover
+              sm:h-[300px] sm:w-[50%] sm:flex-shrink-0 "
               onMouseEnter={() => handleMouseEnter(index)}
               onMouseLeave={handleMouseLeave}
             >
