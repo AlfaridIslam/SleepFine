@@ -11,6 +11,36 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
+// Import all images statically
+import img1 from "../../assets/Testimonial-Img/img-2.png";
+import img2 from "../../assets/Testimonial-Img/img-1.png";
+import img3 from "../../assets/Testimonial-Img/img-3.png";
+import img4 from "../../assets/Testimonial-Img/img-4.png";
+import img5 from "../../assets/Testimonial-Img/img-5.jpeg";
+import img6 from "../../assets/Testimonial-Img/img-6.png";
+import img7 from "../../assets/Testimonial-Img/img-7.png";
+import img8 from "../../assets/Testimonial-Img/img-8.png";
+import img9 from "../../assets/Testimonial-Img/img-9.png";
+import img14 from "../../assets/Testimonial-Img/img-14.png";
+import img12 from "../../assets/Testimonial-Img/img-12.png";
+import img13 from "../../assets/Testimonial-Img/img-13.png"; // Import for Paul
+
+// Map filenames to imported images
+const imageMap = {
+  "img-2.png": img2,
+  "img-1.png": img1,
+  "img-3.png": img3,
+  "img-5.jpeg": img5,
+  "img-6.png": img6,
+  "img-7.png": img7,
+  "img-4.png": img4,
+  "img-8.png": img8,
+  "img-9.png": img9,
+  "img-14.png": img14,
+  "img-12.png": img12,
+  "img-13.png": img13,
+};
+
 function Testimonial() {
   const settings = {
     dots: true,
@@ -18,11 +48,10 @@ function Testimonial() {
     speed: 800,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true, // Enable autoplay
-    autoplaySpeed: 2000, // Set autoplay speed to 2 seconds
-    pauseOnHover: true, // Pause autoplay on hover
+    autoplay: true,
+    autoplaySpeed: 2000,
+    pauseOnHover: true,
     responsive: [
-      // Responsive settings
       {
         breakpoint: 1024,
         settings: {
@@ -44,24 +73,21 @@ function Testimonial() {
 
   return (
     <div className="main-card mt-2 xl:w-full">
-      <div
-        className="xl:flex xl:justify-around xl:items-center xl:mb-8 xl:w-full
-                       sm:w-[140%]"
-      >
+      <div className="xl:flex xl:justify-around xl:items-center xl:mb-8 xl:w-full sm:w-[140%]">
         <h1 className="text-3xl font-serif text-slate-800 xl:ml-0 sm:ml-20">
           Just ask our well-rested customers
         </h1>
         <div className="xl:border-t-2 xl:border-pink-500 xl:w-1/2 xl:ml-4 xl:block sm:hidden"></div>
       </div>
 
-      <div className="xl:px-10 xl:ml-0 xl:mt-0 xl:mr-0 sm:-mr-36 sm:mt-8  sm:w-[150%]">
+      <div className="xl:px-10 xl:ml-0 xl:mt-0 xl:mr-0 sm:-mr-36 sm:mt-8 sm:w-[150%]">
         <Slider {...settings}>
           {Tdata.map((item, index) => (
             <div className="px-3" key={index}>
               <div className="review-card bg-white shadow-lg rounded-lg overflow-hidden">
                 <div className="bg-indigo-400 flex justify-center items-center h-56">
                   <img
-                    src={item.image}
+                    src={imageMap[item.image]} // Use the mapped image
                     alt={item.name}
                     className="w-40 h-40 rounded-full object-cover"
                   />

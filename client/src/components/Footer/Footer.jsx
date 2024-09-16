@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import UPI from "../../assets/Fotter-Img/img-1.png";
+import Card from "../../assets/Fotter-Img/img-2.png";
 
 import {
   faFacebookF,
@@ -71,7 +72,7 @@ const Footer = () => {
             <ul className="font-extralight xl:mt-10 grid xl:gap-2 sm:gap-1 text-sm">
               <li>
                 <img
-                  src="src\assets\Fotter-Img\img-1.png"
+                  src={UPI}
                   alt=""
                   className="w-40"
                 />
@@ -79,7 +80,7 @@ const Footer = () => {
               <li>
                 {" "}
                 <img
-                  src="src\assets\Fotter-Img\img-2.png"
+                  src={Card}
                   alt=""
                   className="w-40"
                 />
