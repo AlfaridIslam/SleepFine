@@ -58,6 +58,10 @@ import {
   Romanticfirm4,
   Romanticfirm5,
   Romanticfirm6,
+  OrthomedBanner,
+  RoseByRosaBanner2,
+  AmbitiousSleepingBanner3,
+  RomanticBanner4,
 } from "../../assets/index.jsx"; // Adjust the import paths as needed
 
 // Define the image mapping for each product type with multiple images and descriptions
@@ -88,9 +92,9 @@ const productData = {
   //     "Our queen-size beds combine elegance and comfort, making them an ideal choice for any bedroom. They offer the perfect balance of space and style for a restful retreat.",
   // },
   orthomed: {
-    images: [ORTRHOMED1, ORTRHOMED2, ORTRHOMED3, ORTRHOMED4],
+    images: [OrthomedBanner,ORTRHOMED1, ORTRHOMED2, ORTRHOMED3, ORTRHOMED4],
     description: `
-    <div class="text-xl font-semibold my-[6px]">Orthomed - Doctor Approved Spine care mattress</div>
+    <div class="text-xl font-semibold my-[6px]">Orthomed - Doctor Approved Spine cure mattress</div>
     <h2 class=" font-bold">Rebonded Foam</h2>
     This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
     <h2 class="font-bold">Orthopedic Support</h2>
@@ -98,22 +102,22 @@ const productData = {
     <h2 class="font-bold">Firmness</h2>
     Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
     <h2 class="font-bold">Breathability</h2>
-    Many spine care mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
+    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
   `,
   },
 
   preference: {
     images: [Preference1, Preference2, Preference3, Preference4], // Assuming images are not uploaded yet
     description: `
-    <div class="text-xl font-semibold my-[6px]">Preferences - Doctor Approved Spine care soft mattress</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
+    <div class="text-xl font-semibold my-[6px]">The Preference Orthomed </div>
+    This mattress is designed for optimal orthopedic support and comfort. It features a high-density rebounded foam core that evenly distributes body weight, reducing pressure on joints and providing spinal alignment. 
+    The mattress is firm yet comfortable, catering to those with back or joint issues. Its breathable cover ensures a cool and hygienic sleeping surface. Ideal for individuals seeking a restful night's sleep while maintaining proper posture and relieving body aches. Suitable for all bed types, it offers durability, long-lasting shape retention, and a blend of therapeutic and luxury sleeping experiences.<br><br>
     <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Soft Comfort</h2>
-    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
+    The Preference Orthomed Mattress offers orthopedic support, providing firm and balanced support that aligns the spine and alleviates pressure points, making it an excellent choice for those with back or joint discomfort.<br><br>
+    <h2 class="font-bold">Comfort</h2>
+    When it comes to comfort, this mattress strikes the perfect balance with its high-density Rebonded foam combines with HR foam core. It provides a firm sleeping surface that supports the body without feeling too hard, ensuring a restful and rejuvenating sleep experience.<br><br>
+    <h2 class="font-bold">Breathability & Upholstery </h2>
+    Its breathability is enhanced by a breathable cover made of 300gsm Viscose Okotex 100 Certified knitted Fabric, designed to regulate temperature and moisture. This keeps the sleeping surface cool, fresh, and hygienic, promoting a more comfortable sleep throughout the night.
   `,
   },
   buckingham: {

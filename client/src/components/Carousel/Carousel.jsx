@@ -53,8 +53,8 @@ const Carousel = () => {
         }}
       >
         <div
-          className="xl:absolute inset-0  xl:flex xl:flex-col xl:justify-center xl:items-center xl:text-center text-black
-        sm:absolute sm:top-[12.5rem] "
+          className="xl:absolute inset-0 xl:font-bold xl:flex xl:flex-col xl:justify-center xl:items-center xl:text-center text-black xl:top-[0.5rem]
+        sm:absolute sm:top-[12.5rem] sm:font-bold "
         >
           <h5 className="text-xl mb-2 xl:text-center sm:text-center">
             {slides[currentIndex].title}

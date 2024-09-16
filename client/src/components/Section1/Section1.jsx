@@ -35,7 +35,7 @@ const Section1 = () => {
         >
           Welcome to Sleep Fine, where rest meets innovation
         </p>
-        <p className="poppins-regular xl:text-2xl xl:my-6 xl:px-0 sm:text-center sm:px-4">
+        <p className="poppins-regular xl:text-2xl xl:my-6 xl:px-0 sm:text-left sm:px-4">
           At Sleep Fine, we believe that a great night's sleep is the foundation
           of a fulfilling life. That's why we're dedicated to crafting
           exceptional mattresses that cradle your body and soothe your mind. Our
