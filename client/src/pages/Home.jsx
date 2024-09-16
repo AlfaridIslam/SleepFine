@@ -9,7 +9,7 @@ import { Updates } from "../components/Updates/Updates";
 
 const Home = () => {
   return (
-    <div>
+    <div className="xl:overflow-hidden">
       <Carousel />
       <Section1 />
       

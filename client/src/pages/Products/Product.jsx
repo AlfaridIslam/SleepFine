@@ -16,7 +16,7 @@ const Product = () => {
 
     
      sm:grid sm:w-[138%]">
-      <h1 className="text-2xl font-bold xl:flex xl:justify-center sm:flex sm:justify-center sm:mt-5 ">
+      <h1 className="text-2xl font-sans xl:flex xl:justify-center sm:flex sm:justify-center sm:mt-5 ">
         PRODUCTS
       </h1>
       <div
@@ -31,7 +31,7 @@ const Product = () => {
             <img
               src={product.image}
               alt={product.name}
-              className="  h-[400px]  sm:rounded-xl w-80 mt-5 sm:w-96"
+              className="  h-[300px]  sm:rounded-xl w-80 mt-5 sm:w-96"
             />
             <h2 className="mt-2 text-center">{product.name}</h2>
           </div>
