@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Image from "../../assets/image1.jpg";
 import { width } from "@fortawesome/free-brands-svg-icons/fa42Group";
 import news from "../../assets/news.jpg";
 

@@ -34,6 +34,7 @@ import {
   oxford4,
   oxford5,
   oxford6,
+  AloveraBonnel1,
   OrthopedicAloeveraMemory1,
   OrthopedicAloeveraMemory2,
   OrthopedicAloeveraMemory3,
@@ -54,10 +55,7 @@ const products = [
     id: 1,
 
     name: "Mattressess",
-    image:  CanopyBed,
-
-    name: "Mattresses",
-    image: LoftBed,
+    image: ORTRHOMED1,
 
     subcategories: [
       //----------Orthopedic Bonded Collection--------
@@ -85,7 +83,7 @@ const products = [
           {
             id: 1014,
             name: "Orthopedic-Aloe-Vera-Latex",
-            image: Buckingham4, // Using existing image as dummy
+            image: AloveraBonnel1, // Using existing image as dummy
           },
           {
             id: 1015,
@@ -212,8 +210,6 @@ const products = [
 
     image: LoftBed,
 
-    image: CanopyBed,
-
     subcategories: [
       {
         id: 201,
@@ -276,7 +272,7 @@ const products = [
   {
     id: 3,
     name: "Sofas",
-    image:  ModularSofa1,
+    image: ModularSofa1,
     subcategories: [
       {
         id: 301,
