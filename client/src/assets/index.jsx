@@ -197,25 +197,83 @@ import RedHardSoft5 from "./mattress S.F COMP IMG/Red Hard & soft CI/DSC02186.jp
 import RedHardSoft6 from "./mattress S.F COMP IMG/Red Hard & soft CI/DSC02187.jpg";
 
 
-
+//---------------------------------------------------------------------------------------------------------------
 //---------Beds------------------------------
 //King-Sized-Beds
 import PlatformBed from "../assets/Beds/King-Size-bed/PlatformBed.jpeg";
 import CanopyBed from "../assets/Beds/King-Size-bed/CanopyBed.JPG";
 import PanelBed from "../assets/Beds/King-Size-bed/PanelBed.jpeg";
 import SeighBed from "../assets/Beds/King-Size-bed/SleighBed.jpeg";
+
+import kingsizebed1 from "../assets/Beds/King-Size-bed/Kingsizebed1.jpg";
+import kingsizebed2 from "../assets/Beds/King-Size-bed/Kingsizebed2.jpg";
+import kingsizebed3 from "../assets/Beds/King-Size-bed/Kingsizebed3.jpg";
+import kingsizebed4 from "../assets/Beds/King-Size-bed/Kingsizebed4.jpg";
+
+
 //Queen-Sized-Beds
 import LoftBed from "../assets/Beds/Queen-size-bed/LoftBed.jpg";
 import MurphyBed from "../assets/Beds/Queen-size-bed/MurphyBed.jpeg";
 
+import queensizebed1 from "../assets/Beds/Queen-size-bed/queensizebed1.jpg";
+import queensizebed2 from "../assets/Beds/Queen-size-bed/queensizebed2.jpg";
+import queensizebed3 from "../assets/Beds/Queen-size-bed/queensizebed3.jpg";
+import queensizebed4 from "../assets/Beds/Queen-size-bed/queensizebed4.jpg";
+
+
+//-------------------------------------------------------------------------------------------------------------
 //------Sofas-------------
 //Standard-sofa
 import ChesterfieldSofa from "../assets/Sofas/StandardSofas/ChesterfieldSofa.png";
 import LawsonSofa from "../assets/Sofas/StandardSofas/LawsonSofa.png";
-//Sectional-Sofa
+
+import chesterfield1 from "../assets/Sofas/StandardSofas/chesterfield1.jpg";
+import chesterfield2 from "../assets/Sofas/StandardSofas/chesterfield2.jpg";
+import chesterfield3 from "../assets/Sofas/StandardSofas/chesterfield3.jpg";
+import chesterfield4 from "../assets/Sofas/StandardSofas/chesterfield4.jpg";
+
+import Lawson1 from "../assets/Sofas/StandardSofas/lawson1.jpg";
+import Lawson2 from "../assets/Sofas/StandardSofas/lawson2.jpg";
+import Lawson3 from "../assets/Sofas/StandardSofas/lawson3.jpg";
+import Lawson4 from "../assets/Sofas/StandardSofas/lawson4.jpg";
+
+import Tuxedo1 from "../assets/Sofas/StandardSofas/Tuxedo1.jpg";
+import Tuxedo2 from "../assets/Sofas/StandardSofas/Tuxedo2.jpg";
+import Tuxedo3 from "../assets/Sofas/StandardSofas/Tuxedo3.jpg";
+import Tuxedo4 from "../assets/Sofas/StandardSofas/Tuxedo4.jpg";
+
+//Sectional Sofas
 import LshapedSofa from "../assets/Sofas/Sectional-Sofas/Lshapedsofa.jpeg";
 import UshapedSofa from "../assets/Sofas/Sectional-Sofas/Ushapedsofa.png";
 
+import LshapedSofa1 from "../assets/Sofas/Sectional-Sofas/LshapedSofa1.jpeg";
+import LshapedSofa2 from "../assets/Sofas/Sectional-Sofas/LshapedSofa2.jpeg";
+import LshapedSofa3 from "../assets/Sofas/Sectional-Sofas/LshapedSofa3.jpeg";
+import LshapedSofa4 from "../assets/Sofas/Sectional-Sofas/LshapedSofa4.jpeg";
+import UshapedSofa1 from "../assets/Sofas/Sectional-Sofas/UshapedSofa1.jpeg";
+import UshapedSofa2 from "../assets/Sofas/Sectional-Sofas/UshapedSofa2.jpeg";
+import UshapedSofa3 from "../assets/Sofas/Sectional-Sofas/UshapedSofa3.jpeg";
+import UshapedSofa4 from "../assets/Sofas/Sectional-Sofas/UshapedSofa4.jpeg";
+
+
+import ushapedsofacumbed1 from "../assets/Sofas/Sectional-Sofas/ushapedsofacumbed1.jpeg";
+import ushapedsofacumbed2 from "../assets/Sofas/Sectional-Sofas/ushapedsofacumbed2.jpeg";
+import ushapedsofacumbed3 from "../assets/Sofas/Sectional-Sofas/ushapedsofacumbed3.jpeg";
+import ushapedsofacumbed4 from "../assets/Sofas/Sectional-Sofas/ushapedsofacumbed4.jpeg";
+
+import Lshapedsofacumbed1 from "../assets/Sofas/Sectional-Sofas/lshapedsofacumbed1.jpg";
+import Lshapedsofacumbed2 from "../assets/Sofas/Sectional-Sofas/lshapedsofacumbed2.jpg";
+import Lshapedsofacumbed3 from "../assets/Sofas/Sectional-Sofas/lshapedsofacumbed3.jpeg";
+import Lshapedsofacumbed4 from "../assets/Sofas/Sectional-Sofas/lshapedsofacumbed4.jpeg";
+
+
+import ModularSofa1 from "../assets/Sofas/Sectional-Sofas/ModularSofa1.jpg";
+import ModularSofa2 from "../assets/Sofas/Sectional-Sofas/ModularSofa2.jpg";
+import ModularSofa3 from "../assets/Sofas/Sectional-Sofas/ModularSofa3.jpg";
+import ModularSofa4 from "../assets/Sofas/Sectional-Sofas/ModularSofa4.jpg";
+
+
+//-----------------------------------------------------------------------------------------------------------------
 //---------ACCESSORIES------------------------
 //COMFORTERS
 import BaffelBox from "../assets/Accessories/Comforters/BaffleBox.jpg";
@@ -223,6 +281,21 @@ import SewnThrough from "../assets/Accessories/Comforters/SewnThrough.jpg";
 //Pillows
 import BodyPillow from "../assets/Accessories/Pillows/BodyPillow.jpeg";
 import StandardPillow from "../assets/Accessories/Pillows/StandardPillow.jpeg";
+import MemoryfoamPillow1 from "../assets/Accessories/Pillows/Memoryfoam_Pillow1.jpeg";
+import MemoryfoamPillow2 from "../assets/Accessories/Pillows/Memoryfoam_Pillow2.jpeg";
+import MemoryfoamPillow3 from "../assets/Accessories/Pillows/Memoryfoam_Pillow3.jpeg";
+import MemoryfoamPillow4 from "../assets/Accessories/Pillows/Memoryfoam_Pillow4.jpeg";
+import LatexPillow1 from "../assets/Accessories/Pillows/LatexPillow1.jpeg";
+import LatexPillow2 from "../assets/Accessories/Pillows/LatexPillow2.jpeg";
+import LatexPillow3 from "../assets/Accessories/Pillows/LatexPillow3.jpeg";
+import LatexPillow4 from "../assets/Accessories/Pillows/LatexPillow4.jpeg";
+import AloveraPolyfiberPillow1 from "../assets/Accessories/Pillows/AloveraPolyfiberPillow1.jpeg";
+import AloveraPolyfiberPillow2 from "../assets/Accessories/Pillows/AloveraPolyfiberPillow2.jpeg";
+import AloveraPolyfiberPillow3 from "../assets/Accessories/Pillows/AloveraPolyfiberPillow3.jpeg";
+import AloveraPolyfiberPillow4 from "../assets/Accessories/Pillows/AloveraPolyfiberPillow4.jpeg";
+
+//Sofas
+
 
 // import Image4 from "./image4.jpg";
 // import Image5 from "./image5.jpg";
@@ -410,16 +483,21 @@ export {
   CanopyBed,
   PanelBed,
   SeighBed,
+
+  kingsizebed1,
+  kingsizebed2,
+  kingsizebed3,
+  kingsizebed4,
   //Queen-Sized-Beds
   LoftBed,
   MurphyBed,
-  //------Sofas-------------
-  //Standard-sofa
-  ChesterfieldSofa,
-  LawsonSofa,
-  //Sectional-Sofa
-  LshapedSofa,
-  UshapedSofa,
+
+  queensizebed1,
+  queensizebed2,
+  queensizebed3,
+  queensizebed4,
+  
+ 
   //---------ACCESSORIES------------------------
   //COMFORTERS
   BaffelBox,
@@ -427,6 +505,62 @@ export {
   //Pillows
   BodyPillow,
   StandardPillow,
+  MemoryfoamPillow1,
+  MemoryfoamPillow2,
+  MemoryfoamPillow3,
+  MemoryfoamPillow4,
+  LatexPillow1,
+  LatexPillow2,
+  LatexPillow3,
+  LatexPillow4,
+  AloveraPolyfiberPillow1,
+  AloveraPolyfiberPillow2,
+  AloveraPolyfiberPillow3,
+  AloveraPolyfiberPillow4,
+
+//-------------------------------------------------------------------------------------------------------------
+  //Sofas
+  //Standard-sofa
+  chesterfield1,
+  chesterfield2,
+  chesterfield3,
+  chesterfield4,
+  ChesterfieldSofa,
+  Lawson1,
+  Lawson2,
+  Lawson3,
+  Lawson4,
+  LawsonSofa,
+  Tuxedo1,
+  Tuxedo2,
+  Tuxedo3,
+  Tuxedo4,
+  //Sectional sofas
+  LshapedSofa,
+  UshapedSofa,
+  LshapedSofa1,
+  LshapedSofa2,
+  LshapedSofa3,
+  LshapedSofa4,
+  UshapedSofa1,
+  UshapedSofa2,
+  UshapedSofa3,
+  UshapedSofa4,
+  ushapedsofacumbed1,
+  ushapedsofacumbed2,
+  ushapedsofacumbed3,
+  ushapedsofacumbed4,
+  Lshapedsofacumbed1,
+  Lshapedsofacumbed2,
+  Lshapedsofacumbed3,
+  Lshapedsofacumbed4,
+  ModularSofa1,
+  ModularSofa2,
+  ModularSofa3,
+  ModularSofa4,
+
+  //standard sofa
+
 
   // Image4,
   // Image5,

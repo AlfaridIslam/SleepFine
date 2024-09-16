@@ -23,7 +23,7 @@ const Product = () => {
 
   return (
     <div className="xl:grid xl:justify-center xl:items-center xl:mt-4 sm:justify-center xl:w-full sm:grid sm:w-[138%]">
-      <h1 className="text-2xl font-bold xl:flex xl:justify-center sm:flex sm:justify-center sm:mt-5 ">
+      <h1 className="text-2xl font-sans xl:flex xl:justify-center sm:flex sm:justify-center sm:mt-5 ">
         PRODUCTS
       </h1>
       <div className="xl:flex xl:gap-4 sm:grid sm:justify-center xl:px-2">

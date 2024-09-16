@@ -93,13 +93,18 @@ const Navbar = () => {
             className="relative underline decoration-transparent transition duration-100 ease-in-out hover:decoration-current"
             onMouseEnter={() => setIsProductsDropdownOpen(true)}
             onMouseLeave={() => setIsProductsDropdownOpen(false)}
-          >
+            onClick={() => setIsProductsDropdownOpen(true)}
+            onDoubleClick={() => !setIsProductsDropdownOpen(false)}
+            
+          >  
             PRODUCTS &#10097;
             {isProductsDropdownOpen && (
               <div
                 className="xl:absolute xl:flex xl:-left-2 xl:bg-black xl:bg-opacity-50 xl:text-white xl:rounded-lg xl:shadow-lg xl:z-50 xl:mt-2 xl:font-bold xl:p-2"
                 onMouseEnter={() => setIsProductsDropdownOpen(true)}
                 onMouseLeave={() => setIsProductsDropdownOpen(false)}
+                onClick={() => setIsProductsDropdownOpen(true)}
+                onDoubleClick={() => setIsProductsDropdownOpen(false)}
               >
                 {/* MATTRESS Dropdown */}
                 <div
@@ -494,7 +499,7 @@ const Navbar = () => {
                         }
                         onMouseLeave={handleMouseLeaveSubCategory}
                       >
-                        Comforters &#10097;
+                        Mattress Protector &#10097;
                         {hoveredSubCategory === "Comforters" && (
                           <div className="xl:absolute xl:left-[8rem] xl:w-[6rem] xl:flex xl:flex-col xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-7">
                             <Link

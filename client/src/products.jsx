@@ -44,14 +44,21 @@ import {
   LoftBed,
   LshapedSofa,
   StandardPillow,
+  LatexPillow1,
+  ModularSofa1,
 } from "./assets/index"; // Adjust the path according to your folder structure
 
 const products = [
   //-------------------Mattresses-------------
   {
     id: 1,
+
     name: "Mattressess",
     image:  CanopyBed,
+
+    name: "Mattresses",
+    image: LoftBed,
+
     subcategories: [
       //----------Orthopedic Bonded Collection--------
       {
@@ -202,7 +209,11 @@ const products = [
   {
     id: 2,
     name: "Beds",
+
     image: LoftBed,
+
+    image: CanopyBed,
+
     subcategories: [
       {
         id: 201,
@@ -264,8 +275,8 @@ const products = [
   //-----------------Sofas-----------------------
   {
     id: 3,
-    name: "Sofa",
-    image: LshapedSofa,
+    name: "Sofas",
+    image:  ModularSofa1,
     subcategories: [
       {
         id: 301,
@@ -318,7 +329,7 @@ const products = [
   {
     id: 4,
     name: "Accessories",
-    image:StandardPillow,
+    image: LatexPillow1,
     subcategories: [
       {
         id: 401,
