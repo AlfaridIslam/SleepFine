@@ -62,6 +62,8 @@ import {
   RoseByRosaBanner2,
   AmbitiousSleepingBanner3,
   RomanticBanner4,
+  OrthoSpecification,
+  Orthospeci,
 } from "../../assets/index.jsx"; // Adjust the import paths as needed
 
 // Define the image mapping for each product type with multiple images and descriptions
@@ -92,7 +94,14 @@ const productData = {
   //     "Our queen-size beds combine elegance and comfort, making them an ideal choice for any bedroom. They offer the perfect balance of space and style for a restful retreat.",
   // },
   orthomed: {
-    images: [OrthomedBanner,ORTRHOMED1, ORTRHOMED2, ORTRHOMED3, ORTRHOMED4],
+    images: [
+      OrthomedBanner,
+      ORTRHOMED1,
+      ORTRHOMED2,
+      ORTRHOMED3,
+      ORTRHOMED4,
+      Orthospeci,
+    ],
     description: `
     <div class="text-xl font-semibold my-[6px]">Orthomed - Doctor Approved Spine cure mattress</div>
     <h2 class=" font-bold">Rebonded Foam</h2>
@@ -103,6 +112,20 @@ const productData = {
     Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
     <h2 class="font-bold">Breathability</h2>
     Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
+    <div class="flex justify-start mt-2 items-center gap-10">
+    <div class="flex-col">
+    <h2 class="font-bold">Height</h2>
+    <p>5 & 6 inches</p>
+    </div>
+    <div>
+    <h2 class="font-bold">Warranty</h2>
+    <p>5 years</p>
+    </div>
+    <div>
+    <h2 class="font-bold">Ratings</h2>
+    <p>⭐⭐⭐⭐</p>
+    </div>
+    </div>
   `,
   },
 
@@ -760,7 +783,7 @@ const ProductDetails = () => {
                 <img
                   src={productInfo.images[currentImageIndex]}
                   alt="Main product"
-                  className="xl:w-[800px] xl:h-[450px] rounded-xl sm:h-[350px] sm:w-[700px] border-2 border-slate-300 bg-slate-400"
+                  className="xl:w-500px] xl:h-[500px] rounded-xl sm:h-[350px] sm:w-[700px] border-2 border-slate-300 bg-slate-400"
                 />
                 {/* Carousel navigation buttons */}
                 <button

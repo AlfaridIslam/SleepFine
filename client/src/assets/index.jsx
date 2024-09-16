@@ -7,7 +7,7 @@ import ORTRHOMED2 from "./mattress S.F COMP IMG/ORTHOMED/DSC02103.jpg";
 import ORTRHOMED3 from "./mattress S.F COMP IMG/ORTHOMED/DSC02104.jpg"; 
 import ORTRHOMED4 from "./mattress S.F COMP IMG/ORTHOMED/DSC02105.jpg"; 
 import ORTRHOMED5 from "./mattress S.F COMP IMG/ORTHOMED/DSC02106.jpg"; 
-import ORTRHOMED6 from "./mattress S.F COMP IMG/ORTHOMED/DSC02107.jpg";  
+import ORTRHOMED6 from "./mattress S.F COMP IMG/ORTHOMED/DSC02107.jpg";
 
 //---------Preference-------------
 import Preference1 from "./mattress S.F COMP IMG/Prefrence CI/DSC02094.jpg";
@@ -294,45 +294,21 @@ import AloveraPolyfiberPillow2 from "../assets/Accessories/Pillows/AloveraPolyfi
 import AloveraPolyfiberPillow3 from "../assets/Accessories/Pillows/AloveraPolyfiberPillow3.jpeg";
 import AloveraPolyfiberPillow4 from "../assets/Accessories/Pillows/AloveraPolyfiberPillow4.jpeg";
 
-//Sofas
+//Banner
 
-
-// import Image4 from "./image4.jpg";
-// import Image5 from "./image5.jpg";
-// import Image6 from "./image6.jpg";
-// import Image7 from "./image7.jpg";
-// import Image8 from "./image8.jpg";
-// import Image9 from "./image9.jpg";
-// import Image10 from "./image10.jpg";
-// import Image11 from "./image11.jpg";
-import HoveredImage4 from "./hoveredimage4.jpg";
-import HoveredImage5 from "./hoveredimage5.jpg";
-import HoveredImage6 from "./hoveredimage6.jpg";
-import HoveredImage7 from "./hoveredimage7.jpg";
-import HoveredImage8 from "./hoveredimage8.jpg";
-import HoveredImage9 from "./hoveredimage9.jpg";
-import HoveredImage10 from "./hoveredimage10.jpg";
-import HoveredImage11 from "./hoveredimage11.jpg";
-import Sofa from "./sofa.jpg";
-import LeatherSofa from "./leather-sofa.jpg";
-import FabricSofa from "./fabric-sofa.jpg";
-import Bed from "./bed.jpg";
-import KingSizeBed from "./king-size-bed.jpg";
-import QueenSizeBed from "./queen-size-bed.jpg";
 import OrthomedBanner from "./banner1.png";
 import RoseByRosaBanner2 from "./banner2.JPG";
 import AmbitiousSleepingBanner3 from "./banner3.JPG";
 import RomanticBanner4 from "./banner4.JPG";
+import Orthospeci from "./orthospeci.png";
 
 export {
-
   // banner
+  Orthospeci,
   OrthomedBanner,
   RoseByRosaBanner2,
   AmbitiousSleepingBanner3,
   RomanticBanner4,
-
-
 
   // orthomed
   ORTRHOMED1,
@@ -396,48 +372,45 @@ export {
   Loveland5,
   Loveland6,
 
+  // Romantic soft
+  RomanticSoft1,
+  RomanticSoft2,
+  RomanticSoft3,
+  RomanticSoft4,
+  RomanticSoft5,
+  RomanticSoft6,
 
-   // Romantic soft
-   RomanticSoft1,
-   RomanticSoft2,
-   RomanticSoft3,
-   RomanticSoft4,
-   RomanticSoft5,
-   RomanticSoft6,
- 
-   // Romantic firm
-   Romanticfirm1,
-   Romanticfirm2,
-   Romanticfirm3,
-   Romanticfirm4,
-   Romanticfirm5,
-   Romanticfirm6,
- 
+  // Romantic firm
+  Romanticfirm1,
+  Romanticfirm2,
+  Romanticfirm3,
+  Romanticfirm4,
+  Romanticfirm5,
+  Romanticfirm6,
 
-   // Aloevera bonnel
-   AloveraBonnel1,
-   AloveraBonnel2,
-   AloveraBonnel3,
-   AloveraBonnel4,
-   AloveraBonnel5,
-   AloveraBonnel6,
+  // Aloevera bonnel
+  AloveraBonnel1,
+  AloveraBonnel2,
+  AloveraBonnel3,
+  AloveraBonnel4,
+  AloveraBonnel5,
+  AloveraBonnel6,
 
   // Biopedic
-   Biopedic1,
-   Biopedic2,
-   Biopedic3,
-   Biopedic4,
-   Biopedic5,
-   Biopedic6,
-
+  Biopedic1,
+  Biopedic2,
+  Biopedic3,
+  Biopedic4,
+  Biopedic5,
+  Biopedic6,
 
   // Dulation
-   DulationPocketed1,
-   DulationPocketed2,
-   DulationPocketed3,
-   DulationPocketed4,
-   DulationPocketed5,
-   DulationPocketed6,
+  DulationPocketed1,
+  DulationPocketed2,
+  DulationPocketed3,
+  DulationPocketed4,
+  DulationPocketed5,
+  DulationPocketed6,
 
   // Impression
   Impression1,
@@ -446,7 +419,6 @@ export {
   Impression4,
   Impression5,
   Impression6,
-
 
   // Inspirational
   InsperationalPocketed1,
@@ -464,7 +436,6 @@ export {
   Milange5,
   Milange6,
 
-
   // Red hard and soft
   RedHardSoft1,
   RedHardSoft2,
@@ -473,17 +444,16 @@ export {
   RedHardSoft5,
   RedHardSoft6,
 
-// beds
-// king size
-// platform
+  // beds
+  // king size
+  // platform
 
-//---------Beds------------------------------
+  //---------Beds------------------------------
   //King-Sized-Beds
   PlatformBed,
   CanopyBed,
   PanelBed,
   SeighBed,
-
   kingsizebed1,
   kingsizebed2,
   kingsizebed3,
@@ -491,13 +461,11 @@ export {
   //Queen-Sized-Beds
   LoftBed,
   MurphyBed,
-
   queensizebed1,
   queensizebed2,
   queensizebed3,
   queensizebed4,
-  
- 
+
   //---------ACCESSORIES------------------------
   //COMFORTERS
   BaffelBox,
@@ -518,7 +486,7 @@ export {
   AloveraPolyfiberPillow3,
   AloveraPolyfiberPillow4,
 
-//-------------------------------------------------------------------------------------------------------------
+  //-------------------------------------------------------------------------------------------------------------
   //Sofas
   //Standard-sofa
   chesterfield1,
@@ -560,28 +528,4 @@ export {
   ModularSofa4,
 
   //standard sofa
-
-
-  // Image4,
-  // Image5,
-  // Image6,
-  // Image7,
-  // Image8,
-  // Image9,
-  // Image10,
-  // Image11,
-  HoveredImage4,
-  HoveredImage5,
-  HoveredImage6,
-  HoveredImage7,
-  HoveredImage8,
-  HoveredImage9,
-  HoveredImage10,
-  HoveredImage11,
-  Sofa,
-  LeatherSofa,
-  FabricSofa,
-  Bed,
-  KingSizeBed,
-  QueenSizeBed,
 };
