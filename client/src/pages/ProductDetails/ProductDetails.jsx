@@ -62,6 +62,10 @@ import {
   RoseByRosaBanner2,
   AmbitiousSleepingBanner3,
   RomanticBanner4,
+<<<<<<< HEAD
+=======
+  OrthoSpecification,
+>>>>>>> 66158c0c74874f6a9e2d753b6ceed586e3acca7e
   Orthospeci,
 } from "../../assets/index.jsx"; // Adjust the import paths as needed
 
