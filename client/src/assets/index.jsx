@@ -3,10 +3,10 @@
 // ------------------------orthopedicbonded---------------------------------------------
 // -----ORTRHOMED-IMGS----------
 import ORTRHOMED1 from "./mattress S.F COMP IMG/ORTHOMED/DSC02102.jpg";
-import ORTRHOMED2 from "./mattress S.F COMP IMG/ORTHOMED/DSC02103.jpg"; 
-import ORTRHOMED3 from "./mattress S.F COMP IMG/ORTHOMED/DSC02104.jpg"; 
-import ORTRHOMED4 from "./mattress S.F COMP IMG/ORTHOMED/DSC02105.jpg"; 
-import ORTRHOMED5 from "./mattress S.F COMP IMG/ORTHOMED/DSC02106.jpg"; 
+import ORTRHOMED2 from "./mattress S.F COMP IMG/ORTHOMED/DSC02103.jpg";
+import ORTRHOMED3 from "./mattress S.F COMP IMG/ORTHOMED/DSC02104.jpg";
+import ORTRHOMED4 from "./mattress S.F COMP IMG/ORTHOMED/DSC02105.jpg";
+import ORTRHOMED5 from "./mattress S.F COMP IMG/ORTHOMED/DSC02106.jpg";
 import ORTRHOMED6 from "./mattress S.F COMP IMG/ORTHOMED/DSC02107.jpg";
 
 //---------Preference-------------
@@ -16,7 +16,7 @@ import Preference3 from "./mattress S.F COMP IMG/Prefrence CI/DSC02098.jpg";
 import Preference4 from "./mattress S.F COMP IMG/Prefrence CI/DSC02099.jpg";
 import Preference5 from "./mattress S.F COMP IMG/Prefrence CI/DSC02100.jpg";
 import Preference6 from "./mattress S.F COMP IMG/Prefrence CI/DSC02101.jpg";
- 
+
 //---------Buckingham-------------
 import Buckingham1 from "./mattress S.F COMP IMG/BUCKINGHUM/DSC02088.jpg";
 import Buckingham2 from "./mattress S.F COMP IMG/BUCKINGHUM/DSC02089.jpg";
@@ -60,7 +60,6 @@ import Loveland4 from "./mattress S.F COMP IMG/Loveland CI/DSC02149.jpg";
 import Loveland5 from "./mattress S.F COMP IMG/Loveland CI/DSC02150.jpg";
 import Loveland6 from "./mattress S.F COMP IMG/Loveland CI/DSC02151.jpg";
 
-
 //--------- RomanticSoft-------------
 import RomanticSoft1 from "./mattress S.F COMP IMG/Romantic soft CI/DSC02068.jpg";
 import RomanticSoft2 from "./mattress S.F COMP IMG/Romantic soft CI/DSC02069.jpg";
@@ -77,8 +76,6 @@ import Romanticfirm4 from "./mattress S.F COMP IMG/Romantic firm CI/DSC02079.jpg
 import Romanticfirm5 from "./mattress S.F COMP IMG/Romantic firm CI/DSC02080.jpg";
 import Romanticfirm6 from "./mattress S.F COMP IMG/Romantic firm CI/DSC02081.jpg";
 
-
- 
 //------- ortho spring AloveraBonnellatex----------
 
 // import AloveraBonnel1 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02058.jpg";
@@ -96,11 +93,9 @@ import Romanticfirm6 from "./mattress S.F COMP IMG/Romantic firm CI/DSC02081.jpg
 // import OrthopedicAloeveraMemory5 from "./mattress S.F COMP IMG/ALOEVERA MEMEORY/DSC02143a.jpg";
 // import OrthopedicAloeveraMemory6 from "./mattress S.F COMP IMG/ALOEVERA MEMEORY/DSC02145.jpg";
 
-
 //------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 //----------------pocketed spring------------------------------------------------------------------
-
 
 //---------Insperational pocketed -------------
 import InsperationalPocketed1 from "./mattress S.F COMP IMG/INSPERATION POCKETED/DSC02082.jpg";
@@ -112,12 +107,12 @@ import InsperationalPocketed6 from "./mattress S.F COMP IMG/INSPERATION POCKETED
 
 //------------DULATION Pocketed---------------
 
-import DulationPocketed1 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02120.jpg";
-import DulationPocketed2 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02123.jpg";
-import DulationPocketed3  from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02123a.jpg";
-import DulationPocketed4 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02124.jpg";
-import DulationPocketed5 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02126.jpg";
-import DulationPocketed6  from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02126a.jpg";
+import EternityEuroton1 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02120.jpg";
+import EternityEuroton2 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02123.jpg";
+import EternityEuroton3 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02123a.jpg";
+import EternityEuroton4 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02124.jpg";
+import EternityEuroton5 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02126.jpg";
+import EternityEuroton6 from "./mattress S.F COMP IMG/DUALTON POCKETED/DSC02126a.jpg";
 
 //------- pocketed spring AloveraBonnellatex----------
 
@@ -152,8 +147,6 @@ import EightinchPUFOAM3 from "./mattress S.F COMP IMG/PUFOAM 8/DSC02160.jpg";
 import EightinchPUFOAM4 from "./mattress S.F COMP IMG/PUFOAM 8/DSC02161.jpg";
 import EightinchPUFOAM5 from "./mattress S.F COMP IMG/PUFOAM 8/DSC02163.jpg";
 
-
-
 //--BIOPEDIC---------------
 
 import Biopedic1 from "./mattress S.F COMP IMG/BIOPEDIC/DSC02129.jpg";
@@ -162,9 +155,6 @@ import Biopedic3 from "./mattress S.F COMP IMG/BIOPEDIC/DSC02132.jpg";
 import Biopedic4 from "./mattress S.F COMP IMG/BIOPEDIC/DSC02133.jpg";
 import Biopedic5 from "./mattress S.F COMP IMG/BIOPEDIC/DSC02134.jpg";
 import Biopedic6 from "./mattress S.F COMP IMG/BIOPEDIC/DSC02136.jpg";
-
-
-
 
 //----------Impression------------------
 
@@ -175,8 +165,6 @@ import Impression4 from "./mattress S.F COMP IMG/IMPRESSION/DSC02171.jpg";
 import Impression5 from "./mattress S.F COMP IMG/IMPRESSION/DSC02172.jpg";
 import Impression6 from "./mattress S.F COMP IMG/IMPRESSION/DSC02173.jpg";
 
-
-
 //-----------Milange ----------------
 
 import Milange1 from "./mattress S.F COMP IMG/MILANGE/DSC02176.jpg";
@@ -186,7 +174,6 @@ import Milange4 from "./mattress S.F COMP IMG/MILANGE/DSC02176.jpg";
 import Milange5 from "./mattress S.F COMP IMG/MILANGE/DSC02176.jpg";
 import Milange6 from "./mattress S.F COMP IMG/MILANGE/DSC02176.jpg";
 
-
 //------red hard & soft--------------------
 
 import RedHardSoft1 from "./mattress S.F COMP IMG/Red Hard & soft CI/DSC02076.jpg";
@@ -195,7 +182,6 @@ import RedHardSoft3 from "./mattress S.F COMP IMG/Red Hard & soft CI/DSC02184.jp
 import RedHardSoft4 from "./mattress S.F COMP IMG/Red Hard & soft CI/DSC02185.jpg";
 import RedHardSoft5 from "./mattress S.F COMP IMG/Red Hard & soft CI/DSC02186.jpg";
 import RedHardSoft6 from "./mattress S.F COMP IMG/Red Hard & soft CI/DSC02187.jpg";
-
 
 //---------------------------------------------------------------------------------------------------------------
 //---------Beds------------------------------
@@ -210,7 +196,6 @@ import kingsizebed2 from "../assets/Beds/King-Size-bed/Kingsizebed2.jpg";
 import kingsizebed3 from "../assets/Beds/King-Size-bed/Kingsizebed3.jpg";
 import kingsizebed4 from "../assets/Beds/King-Size-bed/Kingsizebed4.jpg";
 
-
 //Queen-Sized-Beds
 import LoftBed from "../assets/Beds/Queen-size-bed/LoftBed.jpg";
 import MurphyBed from "../assets/Beds/Queen-size-bed/MurphyBed.jpeg";
@@ -219,7 +204,6 @@ import queensizebed1 from "../assets/Beds/Queen-size-bed/queensizebed1.jpg";
 import queensizebed2 from "../assets/Beds/Queen-size-bed/queensizebed2.jpg";
 import queensizebed3 from "../assets/Beds/Queen-size-bed/queensizebed3.jpg";
 import queensizebed4 from "../assets/Beds/Queen-size-bed/queensizebed4.jpg";
-
 
 //-------------------------------------------------------------------------------------------------------------
 //------Sofas-------------
@@ -255,7 +239,6 @@ import UshapedSofa2 from "../assets/Sofas/Sectional-Sofas/UshapedSofa2.jpeg";
 import UshapedSofa3 from "../assets/Sofas/Sectional-Sofas/UshapedSofa3.jpeg";
 import UshapedSofa4 from "../assets/Sofas/Sectional-Sofas/UshapedSofa4.jpeg";
 
-
 import ushapedsofacumbed1 from "../assets/Sofas/Sectional-Sofas/ushapedsofacumbed1.jpeg";
 import ushapedsofacumbed2 from "../assets/Sofas/Sectional-Sofas/ushapedsofacumbed2.jpeg";
 import ushapedsofacumbed3 from "../assets/Sofas/Sectional-Sofas/ushapedsofacumbed3.jpeg";
@@ -266,12 +249,10 @@ import Lshapedsofacumbed2 from "../assets/Sofas/Sectional-Sofas/lshapedsofacumbe
 import Lshapedsofacumbed3 from "../assets/Sofas/Sectional-Sofas/lshapedsofacumbed3.jpeg";
 import Lshapedsofacumbed4 from "../assets/Sofas/Sectional-Sofas/lshapedsofacumbed4.jpeg";
 
-
 import ModularSofa1 from "../assets/Sofas/Sectional-Sofas/ModularSofa1.jpg";
 import ModularSofa2 from "../assets/Sofas/Sectional-Sofas/ModularSofa2.jpg";
 import ModularSofa3 from "../assets/Sofas/Sectional-Sofas/ModularSofa3.jpg";
 import ModularSofa4 from "../assets/Sofas/Sectional-Sofas/ModularSofa4.jpg";
-
 
 //-----------------------------------------------------------------------------------------------------------------
 //---------ACCESSORIES------------------------
@@ -404,13 +385,13 @@ export {
   Biopedic5,
   Biopedic6,
 
-  // Dulation
-  DulationPocketed1,
-  DulationPocketed2,
-  DulationPocketed3,
-  DulationPocketed4,
-  DulationPocketed5,
-  DulationPocketed6,
+  // Eternity
+  EternityEuroton1,
+  EternityEuroton2,
+  EternityEuroton3,
+  EternityEuroton4,
+  EternityEuroton5,
+  EternityEuroton6,
 
   // Impression
   Impression1,

@@ -35,6 +35,11 @@ import {
   oxford5,
   oxford6,
   AloveraBonnel1,
+  AloveraBonnel2,
+  AloveraBonnel3,
+  AloveraBonnel4,
+  AloveraBonnel5,
+  AloveraBonnel6,
   OrthopedicAloeveraMemory1,
   OrthopedicAloeveraMemory2,
   OrthopedicAloeveraMemory3,
@@ -47,6 +52,30 @@ import {
   StandardPillow,
   LatexPillow1,
   ModularSofa1,
+  Loveland1,
+  Loveland2,
+  Loveland3,
+  Loveland4,
+  Loveland5,
+  Loveland6,
+  Romanticfirm1,
+  Romanticfirm2,
+  Romanticfirm3,
+  Romanticfirm4,
+  Romanticfirm5,
+  Romanticfirm6,
+  EternityEuroton1,
+  EternityEuroton2,
+  EternityEuroton3,
+  EternityEuroton4,
+  EternityEuroton5,
+  EternityEuroton6,
+  InsperationalPocketed1,
+  InsperationalPocketed2,
+  InsperationalPocketed3,
+  InsperationalPocketed4,
+  InsperationalPocketed5,
+  InsperationalPocketed6,
 } from "./assets/index"; // Adjust the path according to your folder structure
 
 const products = [
@@ -107,38 +136,34 @@ const products = [
         subitems: [
           {
             id: 1021,
-            name: "6inch-Silver-Crown",
+            name: "the-hotel",
             image: OrthopedicAloeveraMemory4, // Using existing image as dummy
           },
           {
             id: 1022,
-            name: "6inch-Oxford",
-            image: OrthopedicAloeveraMemory5, // Using existing image as dummy
+            name: "Oxford",
+            image: oxford1, // Using existing image as dummy
           },
           {
             id: 1023,
-            name: "8inch-Love-Land",
-            image: OrthopedicAloeveraMemory6, // Using existing image as dummy
+            name: "Love-Land-pillow-top",
+            image: Loveland1, // Using existing image as dummy
           },
+
           {
             id: 1024,
-            name: "8inch-Love-Land-Pillow-Top",
-            image: ORTRHOMED4, // Using existing image as dummy
-          },
-          {
-            id: 1025,
-            name: "8inch-Romantic-Euroton",
-            image: ORTRHOMED5, // Using existing image as dummy
+            name: "Romantic-Euroton",
+            image: Romanticfirm1, // Using existing image as dummy
           },
           {
             id: 1026,
             name: "ortho-bonnell-aloe-vera-with-latex",
-            image: ORTRHOMED6, // Using existing image as dummy
+            image: AloveraBonnel1, // Using existing image as dummy
           },
           {
             id: 1027,
             name: "ortho-bonnell-aloe-vera-with-memory",
-            image: Preference2, // Using existing image as dummy
+            image: OrthopedicAloeveraMemory5, // Using existing image as dummy
           },
         ],
       },
@@ -147,28 +172,28 @@ const products = [
       {
         id: 103,
         name: "Pocketed Spring Collection",
-        image: Preference3,
+        image: EternityEuroton1,
 
         subitems: [
           {
             id: 1031,
             name: "pocketed-spring-inspiration",
-            image: Preference4, // Using existing image as dummy
+            image: InsperationalPocketed1, // Using existing image as dummy
           },
           {
             id: 1032,
             name: "pocketed-spring-6inch-eternity-euroton",
-            image: Preference5, // Using existing image as dummy
+            image: EternityEuroton2, // Using existing image as dummy
           },
           {
             id: 1033,
             name: "pocketed-spring-aloe-vera-with-latex",
-            image: Preference6, // Using existing image as dummy
+            image: AloveraBonnel2, // Using existing image as dummy
           },
           {
             id: 1034,
             name: "pocketed-spring-aloe-vera-with-memory",
-            image: Buckingham2, // Using existing image as dummy
+            image: OrthopedicAloeveraMemory6, // Using existing image as dummy
           },
         ],
       },
