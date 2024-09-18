@@ -79,6 +79,22 @@ import React from "react";
             </iframe>
           </div>
         </div>
+        {/* Store 5*/}
+
+        <div className="rounded-2xl border-2 shadow opacity-1 pt-10 items-center justify-between p-6 w-full h-auto relative bg-slate-100">
+          <div className="address p-4 py-0">
+            <p className="text-xl">
+            Sleep Fine Mattress Factory-Kompally - 500010.
+            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15218.689267173717!2d78.495924!3d17.523149!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb85c89724427b%3A0x7df68edcf8e67783!2sSleep%20fine%20mattress%20Factory!5e0!3m2!1sen!2sin!4v1726658901039!5m2!1sen!2sin"
+             width="100%" 
+             height="240"
+             allowFullScreen
+             loading="lazy"
+             referrerPolicy="no-referrer-when-downgrade" >
+            </iframe>
+          </div>
+        </div>
       </div>
     </div>
   );

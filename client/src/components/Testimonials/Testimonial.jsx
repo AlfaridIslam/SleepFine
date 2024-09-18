@@ -9,7 +9,7 @@ import Slider from "react-slick";
 
 // Import all images statically
 import img1 from "../../assets/Testimonial-Img/img-2.png";
-import img2 from "../../assets/Testimonial-Img/img-1.png";;
+import img2 from "../../assets/Testimonial-Img/img-1.png";
 import img3 from "../../assets/Testimonial-Img/img-3.png";
 import img4 from "../../assets/Testimonial-Img/img-4.png";
 import img5 from "../../assets/Testimonial-Img/img-5.jpeg";
@@ -17,12 +17,9 @@ import img6 from "../../assets/Testimonial-Img/img-6.png";
 import img7 from "../../assets/Testimonial-Img/img-7.png";
 import img8 from "../../assets/Testimonial-Img/img-8.png";
 import img9 from "../../assets/Testimonial-Img/img-9.png";
-import img14 from "../../assets/Testimonial-Img/img-14.png"; 
-import img12 from "../../assets/Testimonial-Img/img-12.png"; 
+import img14 from "../../assets/Testimonial-Img/img-14.png";
+import img12 from "../../assets/Testimonial-Img/img-12.png";
 import img13 from "../../assets/Testimonial-Img/img-13.png"; // Import for Paul
-
-
-
 
 // Map filenames to imported images
 const imageMap = {
@@ -35,11 +32,10 @@ const imageMap = {
   "img-4.png": img4,
   "img-8.png": img8,
   "img-9.png": img9,
-  "img-14.png": img14, 
-  "img-12.png": img12, 
+  "img-14.png": img14,
+  "img-12.png": img12,
   "img-13.png": img13,
 };
-
 
 function Testimonial() {
   const settings = {
@@ -73,14 +69,21 @@ function Testimonial() {
 
   return (
     <div className="main-card mt-2 xl:w-full">
+
       <div className="xl:flex xl:justify-around xl:items-center xl:mb-8 xl:w-full sm:w-[140%]">
+
+      
         <h1 className="text-3xl font-serif text-slate-800 xl:ml-0 sm:ml-20">
           Just ask our well-rested customers
         </h1>
         <div className="xl:border-t-2 xl:border-pink-500 xl:w-1/2 xl:ml-4 xl:block sm:hidden"></div>
       </div>
 
+
       <div className="xl:px-10 xl:ml-0 xl:mt-0 xl:mr-0 sm:-mr-36 sm:mt-8 sm:w-[150%]">
+
+      <div className="xl:px-10 xl:ml-0 xl:mt-0 xl:mr-0 sm:-mr-36 sm:mt-8  sm:w-[150%]">
+
         <Slider {...settings}>
           {Tdata.map((item, index) => (
             <div className="px-3" key={index}>
@@ -120,6 +123,7 @@ function Testimonial() {
           ))}
         </Slider>
       </div>
+    </div>
     </div>
   );
 }

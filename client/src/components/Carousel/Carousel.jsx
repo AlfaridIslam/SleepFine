@@ -52,10 +52,16 @@ const Carousel = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="xl:absolute inset-0  xl:flex xl:flex-col xl:justify-center xl:items-center xl:text-center text-black
-        sm:absolute sm:bottom-[7.5rem] sm:left-[2rem] ">
-          <h5 className="text-xl mb-2 xl:text-center sm:text-center">{slides[currentIndex].title}</h5>
-          <p className="font-medium xl:text-center sm:text-center">{slides[currentIndex].description}</p>
+        <div
+          className="xl:absolute inset-0 xl:font-bold xl:flex xl:flex-col xl:justify-center xl:items-center xl:text-center text-black xl:top-[0.5rem]
+        sm:absolute sm:top-[12.5rem] sm:font-bold "
+        >
+          <h5 className="text-xl mb-2 xl:text-center sm:text-center">
+            {slides[currentIndex].title}
+          </h5>
+          <p className="font-medium xl:text-center sm:text-center">
+            {slides[currentIndex].description}
+          </p>
         </div>
         <button
           className="absolute top-1/2 left-4 transform -translate-y-1/2 text-white p-2"

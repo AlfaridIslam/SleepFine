@@ -6,7 +6,7 @@ import Testimonial from "../components/Testimonials/Testimonial";
 import Footer from "../components/Footer/Footer";
 import Section3 from "../components/Section3/Section3";
 import { Updates } from "../components/Updates/Updates";
-import ContactUS from "../pages/ContactUs/ContactUs.jsx";
+
 
 const Home = () => {
   return (
@@ -16,8 +16,8 @@ const Home = () => {
       
       <Section3 />
       <Section2 />
-      <ContactUS/>
-      <Testimonial />
+     
+      <Testimonial /> 
       <Updates />
       <Footer />
     </div>
