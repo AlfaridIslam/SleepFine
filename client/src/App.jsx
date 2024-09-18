@@ -23,6 +23,7 @@ import NewsandUpdate from "./components/NewsandUpdates/NewsUpdate.jsx";
 import Store from "./components/OurStore/OurStore.jsx";
 import Gallery from "./pages/Gallery/Gallery.jsx";
 
+
 function App() {
   return (
     <>
