@@ -16,6 +16,7 @@ import Gallery from "./pages/Gallery/Gallery.jsx";
 import NotFound from "./pages/NotFound/NotFound.jsx";
 import Spinner from "./components/spinner/Spinner.jsx";
 
+
 function App() {
   const [loading, setLoading] = useState(true); // Spinner state
 
