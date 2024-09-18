@@ -62,10 +62,7 @@ import {
   RoseByRosaBanner2,
   AmbitiousSleepingBanner3,
   RomanticBanner4,
-<<<<<<< HEAD
-=======
-  OrthoSpecification,
->>>>>>> 66158c0c74874f6a9e2d753b6ceed586e3acca7e
+
   Orthospeci,
 } from "../../assets/index.jsx"; // Adjust the import paths as needed
 
@@ -765,6 +762,20 @@ const ProductDetails = () => {
     setCurrentImageIndex(index);
   };
 
+  // WhatsApp enquiry function
+  const handleEnquiryClick = () => {
+    const whatsappNumber = "9866007847"; // Replace with your WhatsApp number
+    const currentUrl = window.location.href; // Get the current URL
+    const productImage = `${window.location.origin}/${productInfo.images[currentImageIndex]}`; // Get the full image URL
+    // const message = `Check out this product:\n${currentUrl}\n\nImage:\n${productImage}`; // to get both url and image link
+    const message = `Check out this product:\n${currentUrl}`; // just to send the url
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+      message
+    )}`;
+    window.open(whatsappUrl, "_blank"); // Open the WhatsApp URL in a new tab
+  };
+
+
   return (
     <>
       <Link
@@ -786,7 +797,7 @@ const ProductDetails = () => {
                 <img
                   src={productInfo.images[currentImageIndex]}
                   alt="Main product"
-                  className="xl:w-500px] xl:h-[500px] rounded-xl sm:h-[350px] sm:w-[700px] border-2 border-slate-300 bg-slate-400"
+                  className="xl:w-[500px] xl:h-[500px] rounded-xl sm:h-[350px] sm:w-[700px] border-2 border-slate-300 bg-slate-400"
                 />
                 {/* Carousel navigation buttons */}
                 <button
@@ -833,6 +844,14 @@ const ProductDetails = () => {
             className="text-gray-600"
             dangerouslySetInnerHTML={{ __html: productInfo.description }} // Use dangerouslySetInnerHTML here
           />
+
+          {/* Enquiry Now Button */}
+          <button
+            onClick={handleEnquiryClick}
+            className="mt-4 px-6 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600"
+          >
+            Enquiry Now
+          </button>
         </div>
       </div>
     </>

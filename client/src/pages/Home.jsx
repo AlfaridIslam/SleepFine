@@ -13,9 +13,9 @@ const Home = () => {
       <Carousel />
       <Section1 />
       
-      <Section3 />
+      {/* <Section3 /> */}
       <Section2 />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Updates />
       <Footer />
     </div>
