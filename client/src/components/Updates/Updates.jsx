@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { width } from "@fortawesome/free-brands-svg-icons/fa42Group";
 import news from "../../assets/news.jpg";
+import ganeshimage from "../../assets/Ganesha-img.jpeg"
 
 export const Updates = () => {
   return (
@@ -20,7 +21,7 @@ export const Updates = () => {
       >
         <div className="image xl:border-none xl:border-2 xl:p-15 xl:absolute xl:left-2">
           <img
-            src={news}
+            src={ganeshimage}
             alt="Image"
             className="xl:rounded-xl xl:w-[250px] xl:h-[250px] xl:ml-0 xl:mr-0 sm:w-[180px] sm:h-[180px] sm:ml-[10px] sm:mr-[8px]  sm:rounded-xl"
           />
@@ -30,10 +31,8 @@ export const Updates = () => {
                            sm:-mt-40 sm:ml-52 sm:w-96 sm:mb-10"
         >
           <p className="poppins-light ">
-            We're excited to announce the grand opening of our new store in
-            Shahpur, Hyderabad! 🎉 Visit us to explore an exclusive range of
-            products and experience exceptional service.{" "}
-            <Link to="/updates" className="underline text-red-300">
+          At Sleepfine, we are excited to celebrate the vibrant and auspicious Ganesh Chaturthi festival with our valued customers! This festive season brings hope, joy, and new beginnings, and we want to make it extra special for you..{" "}
+            <Link to="/ourstores" className="underline text-red-300">
               See you there!
             </Link>{" "}
             🛍️✨

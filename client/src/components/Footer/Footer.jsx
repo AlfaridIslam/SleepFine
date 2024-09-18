@@ -38,14 +38,17 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="  xl:gap-24 xl:p-0 xl:text-lg sm: flex sm:justify-between sm:px-4 ">
+       
+
+        <div className=" xl:flex xl:gap-14 xl:p-0 xl:text-lg sm:grid sm:grid-cols-2 sm:gap-10  sm:p-10 xl:ml-0 sm:ml-20">
+
           <div className="xl:mt-0 sm:mt-4">
             <h1>CATEGORIES</h1>
             <ul className="font-extralight xl:mt-10  sm:mt-2 xl:text-sm sm:text-lg">
               <li>Mattresses</li>
-              <li>Head Boards</li>
-              <li>Comforters</li>
-              <li>Pillows</li>
+              <li>Beds</li>
+              <li>Sofas</li>
+              <li>Accessories</li>
             </ul>
           </div>
 
@@ -57,17 +60,28 @@ const Footer = () => {
               <li>Warranty</li>
             </ul>
           </div>
+          
 
           <div className="xl:mt-0 sm:mt-4">
             <h1>CONTACT US</h1>
             <ul className="font-extralight xl:mt-10  sm:mt-2  xl:text-sm sm:text-lg">
-              <li>E-mail: sales@sleepfineindia.com</li>
-              <li>Tel : +91-40-4040032084</li>
+              <li>E-mail: contact@sleepfineindia.com</li>
+              <li>Tel : +91-40-40032084</li>
+              <li>Sy. NO. 575, 576, Harsha Hospital Lane,<br />
+              Near S.L.N. Apartments, Pakalakunta, <br />
+              Kompally, Hyderabad - 500 010.</li>
+              <div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.6723251800763!2d78.49592439999999!3d17.523148600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb85c89724427b%3A0x7df68edcf8e67783!2sSleep%20fine%20mattress%20Factory!5e0!3m2!1sen!2sin!4v1726652689795!5m2!1sen!2sin"   width="75%"
+              height="100"
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+
             </ul>
           </div>
-        </div>
 
-        <div className="sm:flex sm:justify-center">
+          <div className="sm:flex sm:justify-center xl:mr-0 sm:mr-40">
           <div className="xl:mt-0 sm:mt-4 ">
             <h1>PAYMENT METHODS</h1>
             <ul className="font-extralight xl:mt-10 grid xl:gap-2 sm:gap-1 text-sm">
@@ -97,7 +111,14 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+        </div>
+
+      
+       
       </div>
+
+{/* -----------------FOLLOW US ------------------------*/}
+
       <div className="text-white mt-10 sm:text-3xl xl:text-lg">
         <h1 className="border-[1px] h-0 mx-14"></h1>
 

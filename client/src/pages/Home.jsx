@@ -7,6 +7,7 @@ import Footer from "../components/Footer/Footer";
 import Section3 from "../components/Section3/Section3";
 import { Updates } from "../components/Updates/Updates";
 
+
 const Home = () => {
   return (
     <div className="xl:overflow-hidden">
@@ -15,7 +16,12 @@ const Home = () => {
       
       {/* <Section3 /> */}
       <Section2 />
+
       {/* <Testimonial /> */}
+
+     
+      <Testimonial /> 
+
       <Updates />
       <Footer />
     </div>

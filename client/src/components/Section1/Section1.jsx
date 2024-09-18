@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import Logo from "../../assets/sleepfinelogo-3.png";
+import LogoImage from "../../assets/logo-image.png";
+import Ispflogo from '../../assets/ISPF LOGO.png';
 import { Link } from "react-router-dom";
-
+import ceritificatesLogo from "../../assets/certificate-logos.png";
 const Section1 = () => {
   const [showFullContent, setShowFullContent] = useState(false);
 
@@ -14,24 +16,40 @@ const Section1 = () => {
       className="xl:flex xl:flex-row xl:justify-center xl:items-center xl:bg-gray-100 xl:p-6 xl:gap-8 xl:w-full xl:mt-0
        sm:mt-4 sm:px-20 sm:flex sm:flex-col sm:justify-center sm:items-center sm:w-[158%] "
     >
+      <div className="grid gap-5">
+
       <div className="image ">
         {/* Adjust image size dynamically based on content visibility */}
         <img
-          src={Logo}
+          src={Ispflogo}
           alt="Image"
           className={`${
             showFullContent
-              ? "xl:w-[2600px] xl:h-[200px]"
-              : "xl:w-[3000px] xl:h-[250px]"
+              ? "xl:w-[2600px] xl:h-[150px]"
+              : "xl:w-[3000px] xl:h-[150px]"
           } transition-all duration-500`}
         />
+      </div>
+      <div className="image ">
+        {/* Adjust image size dynamically based on content visibility */}
+        <img
+          src={LogoImage}
+          alt="Image"
+          className={`${
+            showFullContent
+              ? "xl:w-[2600px] xl:h-[400px]"
+              : "xl:w-[3000px] xl:h-[400px]"
+          } transition-all duration-500`}
+        />
+      </div>
+     
       </div>
       <div
         className="description xl:flex-col xl:justify-center xl:items-center xl:p-11 xl:mt-0"
       >
         <p
-          className="poppins-medium xl:text-center xl:text-4xl
-                           sm:text-2xl sm:mb-2 sm:text-center"
+          className="poppins-medium xl:text-center xl:text-4xl xl:mt-0
+                           sm:text-2xl sm:mb-2 sm:text-center sm:mt-5"
         >
           Welcome to Sleep Fine, where rest meets innovation
         </p>
@@ -42,8 +60,12 @@ const Section1 = () => {
           journey began with a simple question: "What if a mattress could be
           both luxurious and affordable?"
         </p>
-        <p className="poppins-light  xl:text-left xl:mt-0 sm:text-center sm:text-lg sm:mt-2 xl:px-0 sm:px-4">
-          <strong>Our Story</strong>
+        <p className="sm:px-4 xl:px-0">
+        <strong  >Our Certificates & Awards</strong>
+           <img src={ceritificatesLogo} alt=""  className="h-40"/>
+        </p>
+        <p className="poppins-light  xl:text-left xl:mt-0 sm:text-left sm:text-lg sm:mt-2 xl:px-0 sm:px-4">
+          <strong  >Our Story</strong>
           <br />
           Founded in the year 2006 by an experienced team of siblings as a
           family-owned business in the city Hyderabad, Telangana State, India.
@@ -108,14 +130,7 @@ const Section1 = () => {
             View More
           </button>
         )}
-        <div
-          className="xl:bg-gray-500 xl:w-fit xl:p-2 xl:shadow-xl xl:grid xl:mx-auto xl:mt-6 xl:rounded-none
-                          sm:bg-orange-300 sm:w-fit sm:p-4 sm:shadow-xl sm:mx-auto sm:mt-6 sm:rounded-2xl"
-        >
-          <Link to="/products" className="">
-            View Products
-          </Link>
-        </div>
+        
       </div>
     </div>
   );

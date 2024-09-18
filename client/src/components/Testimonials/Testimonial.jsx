@@ -2,11 +2,7 @@ import React from "react";
 import "./Testimonial.css";
 import Tdata from "./Testimonial.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faStar,
-  faQuoteLeft,
-  faQuoteRight,
-} from "@fortawesome/free-solid-svg-icons";
+import { faStar, faQuoteLeft, faQuoteRight } from "@fortawesome/free-solid-svg-icons";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
