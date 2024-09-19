@@ -45,39 +45,8 @@ import inspiration1 from "../../assets/inspiration1.jpeg";
 import inspiration2 from "../../assets/inspiration2.jpeg";
 import gravity1 from "../../assets/gravity1.jpeg";
 import gravity2 from "../../assets/gravity2.jpeg";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
 
 const Section2 = () => {
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 800,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 1000,
-    pauseOnHover: true,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
   const scrollRef = useRef(null);
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const [isAtEnd, setIsAtEnd] = useState(false);
@@ -92,7 +61,14 @@ const Section2 = () => {
       hoveredImage: aloeveralatex2,
     },
     { id: "oxford", image: oxford1, hoveredImage: oxford2 },
-    
+    {
+      id: "romanticEuroton",
+      image: romanticEuroton1,
+      hoveredImage: romanticEuroton2,
+    },
+    { id: "eternity", image: eternity1, hoveredImage: eternity2 },
+    { id: "inspiration", image: inspiration1, hoveredImage: inspiration2 },
+    { id: "gravity", image: gravity1, hoveredImage: gravity2 },
   ];
 
   const handleScroll = () => {
@@ -104,7 +80,15 @@ const Section2 = () => {
     setIsAtEnd(scrollLeft + 1 >= maxScrollLeft);
   };
 
- 
+  const scrollRight = () => {
+    scrollRef.current.scrollBy({ left: 200, behavior: "smooth" });
+    handleScroll();
+  };
+
+  const scrollLeft = () => {
+    scrollRef.current.scrollBy({ left: -200, behavior: "smooth" });
+    handleScroll();
+  };
 
   const handleMouseEnter = (index) => {
     setHoveredIndex(index);
@@ -127,16 +111,21 @@ const Section2 = () => {
         </div>
       </div>
 
-      
-
-      <div className="relative w-full flex justify-center items-center p-4 sm:p-8  xl:p-4">
-       
+      <div className="relative w-full flex justify-center items-center p-4 sm:p-8 md:p-12 lg:p-16 xl:p-4">
+        {!isAtStart && (
+          <button
+            onClick={scrollLeft}
+            className="absolute left-4 z-10 p-2 bg-gray-800 rounded-full"
+          >
+            <img src={ArrowLeft} alt="Left Arrow" className="w-7 h-7" />
+          </button>
+        )}
 
         <div
-         
-        
-          className="xl:flex xl:gap-2   sm:flex "
-          
+          ref={scrollRef}
+          onScroll={handleScroll}
+          className="xl:flex xl:gap-4 xl:overflow-x-auto xl:space-x-6 hide-scrollbar sm:flex sm:overflow-x-auto"
+          style={{ scrollBehavior: "smooth" }}
         >
           {productData.map((product, index) => (
             <div
@@ -150,7 +139,7 @@ const Section2 = () => {
                   hoveredIndex === index ? product.hoveredImage : product.image
                 }
                 alt={`Product ${index + 1}`}
-                className="w-80 h-full object-fill transition-all duration-300"
+                className="w-full h-full object-fill transition-all duration-300"
               />
               {hoveredIndex === index && (
                 <Link
@@ -164,7 +153,14 @@ const Section2 = () => {
           ))}
         </div>
 
-        
+        {!isAtEnd && (
+          <button
+            onClick={scrollRight}
+            className="absolute right-4 z-10 p-2 bg-gray-800 rounded-full"
+          >
+            <img src={ArrowRight} alt="Right Arrow" className="w-7 h-7" />
+          </button>
+        )}
       </div>
     </div>
   );
