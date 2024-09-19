@@ -46,15 +46,19 @@ const Navbar = () => {
     <div>
       <div
         className="xl:flex xl:border-b-[2px] xl:justify-end xl:gap-10 xl:p-2 xl:text-base xl:w-full xl:bg-white
-        sm:flex sm:justify-center sm:text-3xl sm:gap-20 sm:bg-amber-300 sm:w-[158%] sm:p-4"
+  sm:flex sm:justify-center sm:text-3xl sm:gap-20 sm:bg-amber-300 sm:w-[158%] sm:p-4"
       >
         <div>
           <FontAwesomeIcon icon={faPhone} className="mt-1 pr-2" />
-          09866645804
+          <a href="tel:09866645804" className="hover:underline">
+            09866645804
+          </a>
         </div>
         <div>
           <FontAwesomeIcon icon={faLocationDot} className="mt-1 pr-2" />
-          <Link to="/ourstores">Find Store</Link>
+          <Link to="/ourstores" className="hover:underline">
+            Find Store
+          </Link>
         </div>
       </div>
 
