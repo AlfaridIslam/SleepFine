@@ -109,6 +109,9 @@ const Navbar = () => {
           <div className=" underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
           <Accessories/>
           </div>
+          <div className="underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
+            <Link to="/ourstores">OUR-STORES</Link>
+          </div>
         
           <div
             className="relative underline decoration-transparent transition duration-100 ease-in-out hover:decoration-current"
@@ -595,9 +598,9 @@ const Navbar = () => {
           </div>        {/* <div className="underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current"> */}
             {/* <Link to="/updates">NEWS & UPDATES</Link>
           </div> */} 
-          <div className="underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
+          {/* <div className="underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
             <Link to="/ourstores">OUR-STORES</Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
