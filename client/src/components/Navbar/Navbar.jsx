@@ -117,14 +117,14 @@ const Navbar = () => {
             <Link to="/ourstores">OUR-STORES</Link>
           </div>
         
-          <div
+          {/* <div
             className="relative underline decoration-transparent transition duration-100 ease-in-out hover:decoration-current"
             onMouseEnter={() => setIsProductsDropdownOpen(true)}
             onMouseLeave={() => setIsProductsDropdownOpen(false)}
             onClick={() => setIsProductsDropdownOpen(true)}
             onDoubleClick={() => !setIsProductsDropdownOpen(false)}
           >
-            PRODUCTS &#10097;
+            PRODUCTS &#10097; */}
             
           
             {/* PRODUCTS &#10097;
@@ -598,7 +598,7 @@ const Navbar = () => {
                 </div> */}
               {/* </div> */}
             {/* )} */}
-          </div>
+          {/* </div> */}
            {/* <div className="underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
             <Link to=" /Mattress">Mattress</Link>
           </div>        {/* <div className="underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current"> */}
