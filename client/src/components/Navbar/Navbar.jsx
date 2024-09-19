@@ -95,8 +95,7 @@ const Navbar = () => {
             onMouseLeave={() => setIsProductsDropdownOpen(false)}
             onClick={() => setIsProductsDropdownOpen(true)}
             onDoubleClick={() => !setIsProductsDropdownOpen(false)}
-            
-          >  
+          >
             PRODUCTS &#10097;
             {isProductsDropdownOpen && (
               <div
@@ -529,31 +528,31 @@ const Navbar = () => {
                         {hoveredSubCategory === "Pillows" && (
                           <div className="xl:left-[8rem] xl:flex xl:flex-col xl:absolute xl:w-[8rem] xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:-z-50 xl:-mt-14">
                             <Link
-                              to="product-details/Standard"
+                              to="product-details/memory-foam"
                               className="px-4 py-2 hover:bg-indigo-100"
                             >
                               Memory Foam
                             </Link>
                             <Link
-                              to="product-details/Body"
+                              to="product-details/latex"
                               className="px-4 py-2 hover:bg-indigo-100"
                             >
                               Latex
                             </Link>
                             <Link
-                              to="product-details/Contour"
+                              to="product-details/plush-foam"
                               className="px-4 py-2 hover:bg-indigo-100"
                             >
                               Plush Foam
                             </Link>
                             <Link
-                              to="product-details/Travel"
+                              to="product-details/aloevera-fibre"
                               className="px-4 py-2 hover:bg-indigo-100"
                             >
                               Aloevera & Fibre
                             </Link>
                             <Link
-                              to="product-details/Wedge"
+                              to="product-details/PolyFibre-Textile"
                               className="px-4 py-2 hover:bg-indigo-100"
                             >
                               PolyFibre Textile

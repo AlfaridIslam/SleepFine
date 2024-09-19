@@ -62,41 +62,329 @@ import {
   RoseByRosaBanner2,
   AmbitiousSleepingBanner3,
   RomanticBanner4,
-
-
-
-  
-
   Orthospeci,
+  //Sofas
+  //Standard-sofa
+  chesterfield1,
+  chesterfield2,
+  chesterfield3,
+  chesterfield4,
+  ChesterfieldSofa,
+  Lawson1,
+  Lawson2,
+  Lawson3,
+  Lawson4,
+  LawsonSofa,
+  Tuxedo1,
+  Tuxedo2,
+  Tuxedo3,
+  Tuxedo4,
+  //Sectional sofas
+  LshapedSofa,
+  UshapedSofa,
+  LshapedSofa1,
+  LshapedSofa2,
+  LshapedSofa3,
+  LshapedSofa4,
+  UshapedSofa1,
+  UshapedSofa2,
+  UshapedSofa3,
+  UshapedSofa4,
+  ushapedsofacumbed1,
+  ushapedsofacumbed2,
+  ushapedsofacumbed3,
+  ushapedsofacumbed4,
+  Lshapedsofacumbed1,
+  Lshapedsofacumbed2,
+  Lshapedsofacumbed3,
+  Lshapedsofacumbed4,
+  ModularSofa1,
+  ModularSofa2,
+  ModularSofa3,
+  ModularSofa4,
+  //---------ACCESSORIES------------------------
+  //COMFORTERS
+  BaffelBox,
+  SewnThrough,
+  //Pillows
+  BodyPillow,
+  StandardPillow,
+  MemoryfoamPillow1,
+  MemoryfoamPillow2,
+  MemoryfoamPillow3,
+  MemoryfoamPillow4,
+  LatexPillow1,
+  LatexPillow2,
+  LatexPillow3,
+  LatexPillow4,
+  AloveraPolyfiberPillow1,
+  AloveraPolyfiberPillow2,
+  AloveraPolyfiberPillow3,
+  AloveraPolyfiberPillow4,
 } from "../../assets/index.jsx"; // Adjust the import paths as needed
 
 // Define the image mapping for each product type with multiple images and descriptions
 const productData = {
-  "leather-sofa": {
+  // SOFAS
+  // STANDARD SOFA
+  chesterfield: {
     images: [
-      OrthopedicAloeveraMemory1,
-      OrthopedicAloeveraMemory2,
-      OrthopedicAloeveraMemory3,
-      OrthopedicAloeveraMemory4,
-    ], // Replace these with actual Leather Sofa images
-    description:
-      "Our leather sofas offer a touch of luxury and timeless elegance. Made from premium materials, these sofas provide both comfort and durability, perfect for any living space.",
+      chesterfield1,
+      chesterfield2,
+      chesterfield3,
+      chesterfield4,
+      ChesterfieldSofa,
+    ], // Assuming images are not uploaded yet
+    description: `
+    <div class="text-xl font-semibold my-[6px]">Chesterfield</div>
+    <h2 class=" font-bold">Rebonded Foam</h2>
+    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
+    <h2 class="font-bold">Orthopedic Support</h2>
+    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
+    <h2 class="font-bold">Firmness</h2>
+    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
+    <h2 class="font-bold">Soft Comfort</h2>
+    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
+  `,
   },
-  "fabric-sofa": {
-    images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM3, SixinchPUFOAM4], // Replace these with actual Fabric Sofa images
-    description:
-      "Explore our collection of fabric sofas that blend style with comfort. Choose from a variety of colors and textures to suit your home decor, offering both aesthetic appeal and cozy relaxation.",
+  lawson: {
+    images: [Lawson1, Lawson2, Lawson3, Lawson4, LawsonSofa], // Assuming images are not uploaded yet
+    description: `
+    <div class="text-xl font-semibold my-[6px]">Lawson</div>
+    <h2 class=" font-bold">Rebonded Foam</h2>
+    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
+    <h2 class="font-bold">Orthopedic Support</h2>
+    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
+    <h2 class="font-bold">Firmness</h2>
+    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
+    <h2 class="font-bold">Soft Comfort</h2>
+    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
+  `,
   },
-  // "king-size-bed": {
-  //   images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM3, SixinchPUFOAM4], // Replace these with actual King Size Bed images
-  //   description:
-  //     "Experience luxury with our king-size beds that promise superior comfort and spaciousness. Crafted with quality materials, these beds are designed to provide a restful night's sleep.",
-  // },
+  tuxedo: {
+    images: [Tuxedo1, Tuxedo2, Tuxedo3, Tuxedo4], // Replace these with actual King Size Bed images
+    description:
+      "Experience luxury with our king-size beds that promise superior comfort and spaciousness. Crafted with quality materials, these beds are designed to provide a restful night's sleep.",
+  },
   // "queen-size-bed": {
   //   images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM3, SixinchPUFOAM4], // Replace these with actual Queen Size Bed images
   //   description:
   //     "Our queen-size beds combine elegance and comfort, making them an ideal choice for any bedroom. They offer the perfect balance of space and style for a restful retreat.",
   // },
+
+  // SECTIONAL SOFA
+  "l-shaped": {
+    images: [LshapedSofa1, LshapedSofa2, LshapedSofa3, LshapedSofa4], // Assuming images are not uploaded yet
+    description: `
+    <div class="text-xl font-semibold my-[6px]">platform-bed</div>
+    <h2 class=" font-bold">Rebonded Foam</h2>
+    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
+    <h2 class="font-bold">Orthopedic Support</h2>
+    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
+    <h2 class="font-bold">Firmness</h2>
+    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
+    <h2 class="font-bold">Soft Comfort</h2>
+    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
+  `,
+  },
+  "u-shaped": {
+    images: [UshapedSofa1, UshapedSofa2, UshapedSofa3, UshapedSofa4], // Assuming images are not uploaded yet
+    description: `
+    <div class="text-xl font-semibold my-[6px]">platform-bed</div>
+    <h2 class=" font-bold">Rebonded Foam</h2>
+    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
+    <h2 class="font-bold">Orthopedic Support</h2>
+    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
+    <h2 class="font-bold">Firmness</h2>
+    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
+    <h2 class="font-bold">Soft Comfort</h2>
+    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
+  `,
+  },
+
+  "Standard-Sofa": {
+    images: [
+      EightinchPUFOAM2,
+      EightinchPUFOAM2,
+      EightinchPUFOAM2,
+      EightinchPUFOAM2,
+    ], // Assuming images are not uploaded yet
+    description: `
+    <div class="text-xl font-semibold my-[6px]">Standard-Sofa</div>
+    <h2 class=" font-bold">Rebonded Foam</h2>
+    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
+    <h2 class="font-bold">Orthopedic Support</h2>
+    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
+    <h2 class="font-bold">Firmness</h2>
+    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
+    <h2 class="font-bold">Soft Comfort</h2>
+    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
+  `,
+  },
+  modular: {
+    images: [
+      EightinchPUFOAM1,
+      EightinchPUFOAM2,
+      EightinchPUFOAM3,
+      EightinchPUFOAM4,
+    ], // Assuming images are not uploaded yet
+    description: `
+    <div class="text-xl font-semibold my-[6px]">Modular</div>
+    <h2 class=" font-bold">Rebonded Foam</h2>
+    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
+    <h2 class="font-bold">Orthopedic Support</h2>
+    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
+    <h2 class="font-bold">Firmness</h2>
+    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
+    <h2 class="font-bold">Soft Comfort</h2>
+    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
+  `,
+  },
+
+  // BEDS
+  // KING-SIZE-BEDS
+  "platform-bed": {
+    images: [Buckingham3, Buckingham4, Buckingham5, Buckingham6], // Assuming images are not uploaded yet
+    description: `
+    <div class="text-xl font-semibold my-[6px]">platform-bed</div>
+    <h2 class=" font-bold">Rebonded Foam</h2>
+    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
+    <h2 class="font-bold">Orthopedic Support</h2>
+    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
+    <h2 class="font-bold">Firmness</h2>
+    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
+    <h2 class="font-bold">Soft Comfort</h2>
+    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
+  `,
+  },
+  "panel-bed": {
+    images: [
+      OrthopedicAloeveraMemory3,
+      OrthopedicAloeveraMemory4,
+      OrthopedicAloeveraMemory5,
+      OrthopedicAloeveraMemory6,
+    ], // Assuming images are not uploaded yet
+    description: `
+    <div class="text-xl font-semibold my-[6px]">Panel-Bed</div>
+    <h2 class=" font-bold">Rebonded Foam</h2>
+    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
+    <h2 class="font-bold">Orthopedic Support</h2>
+    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
+    <h2 class="font-bold">Firmness</h2>
+    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
+    <h2 class="font-bold">Soft Comfort</h2>
+    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
+  `,
+  },
+  "canopy-bed": {
+    images: [ORTRHOMED3, ORTRHOMED4, ORTRHOMED5, ORTRHOMED6], // Assuming images are not uploaded yet
+    description: `
+    <div class="text-xl font-semibold my-[6px]">Canopy-Bed</div>
+    <h2 class=" font-bold">Rebonded Foam</h2>
+    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
+    <h2 class="font-bold">Orthopedic Support</h2>
+    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
+    <h2 class="font-bold">Firmness</h2>
+    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
+    <h2 class="font-bold">Soft Comfort</h2>
+    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
+  `,
+  },
+  "sleigh-bed": {
+    images: [Preference3, Preference4, Preference5, Preference6], // Assuming images are not uploaded yet
+    description: `
+    <div class="text-xl font-semibold my-[6px]">Sleigh-Bed</div>
+    <h2 class=" font-bold">Rebonded Foam</h2>
+    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
+    <h2 class="font-bold">Orthopedic Support</h2>
+    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
+    <h2 class="font-bold">Firmness</h2>
+    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
+    <h2 class="font-bold">Soft Comfort</h2>
+    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
+  `,
+  },
+  // QUEEN SIZE BEDS
+  "murphy-bed": {
+    images: [
+      EightinchPUFOAM1,
+      EightinchPUFOAM2,
+      EightinchPUFOAM3,
+      EightinchPUFOAM4,
+    ], // Assuming images are not uploaded yet
+    description: `
+    <div class="text-xl font-semibold my-[6px]">  "Murphy-Bed": {
+</div>
+    <h2 class=" font-bold">Rebonded Foam</h2>
+    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
+    <h2 class="font-bold">Orthopedic Support</h2>
+    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
+    <h2 class="font-bold">Firmness</h2>
+    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
+    <h2 class="font-bold">Soft Comfort</h2>
+    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
+  `,
+  },
+  "loft-bed": {
+    images: [
+      EightinchPUFOAM1,
+      EightinchPUFOAM2,
+      EightinchPUFOAM3,
+      EightinchPUFOAM4,
+    ], // Assuming images are not uploaded yet
+    description: `
+    <div class="text-xl font-semibold my-[6px]">Loft-Bed</div>
+    <h2 class=" font-bold">Rebonded Foam</h2>
+    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
+    <h2 class="font-bold">Orthopedic Support</h2>
+    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
+    <h2 class="font-bold">Firmness</h2>
+    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
+    <h2 class="font-bold">Soft Comfort</h2>
+    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
+  `,
+  },
+  "bunk-bed": {
+    images: [
+      EightinchPUFOAM1,
+      EightinchPUFOAM2,
+      EightinchPUFOAM3,
+      EightinchPUFOAM4,
+    ], // Assuming images are not uploaded yet
+    description: `
+    <div class="text-xl font-semibold my-[6px]">Bunk-Bed</div>
+    <h2 class=" font-bold">Rebonded Foam</h2>
+    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
+    <h2 class="font-bold">Orthopedic Support</h2>
+    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
+    <h2 class="font-bold">Firmness</h2>
+    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
+    <h2 class="font-bold">Soft Comfort</h2>
+    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
+  `,
+  },
+  "Trundle-Bed": {
+    images: [
+      EightinchPUFOAM1,
+      EightinchPUFOAM1,
+      EightinchPUFOAM1,
+      EightinchPUFOAM1,
+    ], // Assuming images are not uploaded yet
+    description: `
+    <div class="text-xl font-semibold my-[6px]">Trundle-Bed</div>
+    <h2 class=" font-bold">Rebonded Foam</h2>
+    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
+    <h2 class="font-bold">Orthopedic Support</h2>
+    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
+    <h2 class="font-bold">Firmness</h2>
+    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
+    <h2 class="font-bold">Soft Comfort</h2>
+    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
+  `,
+  },
+
+  // MATTRESSES
+  // ORTHOPEDIC
   orthomed: {
     images: [
       OrthomedBanner,
@@ -448,29 +736,19 @@ const productData = {
     Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
   `,
   },
-  "platform-bed": {
-    images: [Buckingham3, Buckingham4, Buckingham5, Buckingham6], // Assuming images are not uploaded yet
-    description: `
-    <div class="text-xl font-semibold my-[6px]">platform-bed</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Soft Comfort</h2>
-    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
-  `,
-  },
-  "Panel-Bed": {
+
+  // ACCESSORIES
+  // COMFORTERS
+  "baffle-box": {
     images: [
-      OrthopedicAloeveraMemory3,
-      OrthopedicAloeveraMemory4,
-      OrthopedicAloeveraMemory5,
-      OrthopedicAloeveraMemory6,
+      BaffelBox,
+      StandardPillow,
+      MemoryfoamPillow1,
+      MemoryfoamPillow2,
+      MemoryfoamPillow3,
     ], // Assuming images are not uploaded yet
     description: `
-    <div class="text-xl font-semibold my-[6px]">Panel-Bed</div>
+    <div class="text-xl font-semibold my-[6px]">Baffle Box</div>
     <h2 class=" font-bold">Rebonded Foam</h2>
     This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
     <h2 class="font-bold">Orthopedic Support</h2>
@@ -481,234 +759,16 @@ const productData = {
     Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
   `,
   },
-  "Canopy-Bed": {
-    images: [ORTRHOMED3, ORTRHOMED4, ORTRHOMED5, ORTRHOMED6], // Assuming images are not uploaded yet
-    description: `
-    <div class="text-xl font-semibold my-[6px]">Canopy-Bed</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Soft Comfort</h2>
-    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
-  `,
-  },
-  "Sleigh-Bed": {
-    images: [Preference3, Preference4, Preference5, Preference6], // Assuming images are not uploaded yet
-    description: `
-    <div class="text-xl font-semibold my-[6px]">Sleigh-Bed</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Soft Comfort</h2>
-    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
-  `,
-  },
-  "Murphy-Bed": {
+  "sewn-through": {
     images: [
-      EightinchPUFOAM1,
-      EightinchPUFOAM2,
-      EightinchPUFOAM3,
-      EightinchPUFOAM4,
+      SewnThrough,
+      StandardPillow,
+      MemoryfoamPillow1,
+      MemoryfoamPillow2,
+      MemoryfoamPillow3,
     ], // Assuming images are not uploaded yet
     description: `
-    <div class="text-xl font-semibold my-[6px]">  "Murphy-Bed": {
-</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Soft Comfort</h2>
-    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
-  `,
-  },
-  "Loft-Bed": {
-    images: [
-      EightinchPUFOAM1,
-      EightinchPUFOAM2,
-      EightinchPUFOAM3,
-      EightinchPUFOAM4,
-    ], // Assuming images are not uploaded yet
-    description: `
-    <div class="text-xl font-semibold my-[6px]">Loft-Bed</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Soft Comfort</h2>
-    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
-  `,
-  },
-  "Bunk-Bed": {
-    images: [
-      EightinchPUFOAM1,
-      EightinchPUFOAM2,
-      EightinchPUFOAM3,
-      EightinchPUFOAM4,
-    ], // Assuming images are not uploaded yet
-    description: `
-    <div class="text-xl font-semibold my-[6px]">Bunk-Bed</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Soft Comfort</h2>
-    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
-  `,
-  },
-  "Trundle-Bed": {
-    images: [
-      EightinchPUFOAM1,
-      EightinchPUFOAM1,
-      EightinchPUFOAM1,
-      EightinchPUFOAM1,
-    ], // Assuming images are not uploaded yet
-    description: `
-    <div class="text-xl font-semibold my-[6px]">Trundle-Bed</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Soft Comfort</h2>
-    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
-  `,
-  },
-  "Standard-Sofa": {
-    images: [
-      EightinchPUFOAM2,
-      EightinchPUFOAM2,
-      EightinchPUFOAM2,
-      EightinchPUFOAM2,
-    ], // Assuming images are not uploaded yet
-    description: `
-    <div class="text-xl font-semibold my-[6px]">Standard-Sofa</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Soft Comfort</h2>
-    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
-  `,
-  },
-  Chesterfield: {
-    images: [
-      EightinchPUFOAM3,
-      EightinchPUFOAM3,
-      EightinchPUFOAM3,
-      EightinchPUFOAM3,
-    ], // Assuming images are not uploaded yet
-    description: `
-    <div class="text-xl font-semibold my-[6px]">Chesterfield</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Soft Comfort</h2>
-    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
-  `,
-  },
-  Lawson: {
-    images: [
-      EightinchPUFOAM4,
-      EightinchPUFOAM4,
-      EightinchPUFOAM4,
-      EightinchPUFOAM4,
-    ], // Assuming images are not uploaded yet
-    description: `
-    <div class="text-xl font-semibold my-[6px]">Lawson</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Soft Comfort</h2>
-    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
-  `,
-  },
-  Tuxedo: {
-    images: [
-      EightinchPUFOAM1,
-      EightinchPUFOAM2,
-      EightinchPUFOAM3,
-      EightinchPUFOAM4,
-    ], // Assuming images are not uploaded yet
-    description: `
-    <div class="text-xl font-semibold my-[6px]">Tuxedo</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Soft Comfort</h2>
-    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
-  `,
-  },
-  "L-Shaped": {
-    images: [
-      EightinchPUFOAM1,
-      EightinchPUFOAM2,
-      EightinchPUFOAM3,
-      EightinchPUFOAM4,
-    ], // Assuming images are not uploaded yet
-    description: `
-    <div class="text-xl font-semibold my-[6px]">L-Shaped</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Soft Comfort</h2>
-    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
-  `,
-  },
-  "U-Shaped": {
-    images: [
-      EightinchPUFOAM1,
-      EightinchPUFOAM2,
-      EightinchPUFOAM3,
-      EightinchPUFOAM4,
-    ], // Assuming images are not uploaded yet
-    description: `
-    <div class="text-xl font-semibold my-[6px]">U-Shaped</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Soft Comfort</h2>
-    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
-  `,
-  },
-  Modular: {
-    images: [
-      EightinchPUFOAM1,
-      EightinchPUFOAM2,
-      EightinchPUFOAM3,
-      EightinchPUFOAM4,
-    ], // Assuming images are not uploaded yet
-    description: `
-    <div class="text-xl font-semibold my-[6px]">Modular</div>
+    <div class="text-xl font-semibold my-[6px]">Baffle Box</div>
     <h2 class=" font-bold">Rebonded Foam</h2>
     This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
     <h2 class="font-bold">Orthopedic Support</h2>
@@ -720,12 +780,85 @@ const productData = {
   `,
   },
 
-  "Baffle Box": {
+  // pillows
+  "memory-foam": {
     images: [
-      EightinchPUFOAM1,
-      EightinchPUFOAM2,
-      EightinchPUFOAM3,
-      EightinchPUFOAM4,
+      MemoryfoamPillow1,
+      MemoryfoamPillow2,
+      MemoryfoamPillow3,
+      MemoryfoamPillow4,
+    ], // Assuming images are not uploaded yet
+    description: `
+    <div class="text-xl font-semibold my-[6px]">Baffle Box</div>
+    <h2 class=" font-bold">Rebonded Foam</h2>
+    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
+    <h2 class="font-bold">Orthopedic Support</h2>
+    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
+    <h2 class="font-bold">Firmness</h2>
+    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
+    <h2 class="font-bold">Soft Comfort</h2>
+    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
+  `,
+  },
+  latex: {
+    images: [LatexPillow1, LatexPillow2, LatexPillow3, LatexPillow4], // Assuming images are not uploaded yet
+    description: `
+    <div class="text-xl font-semibold my-[6px]">Baffle Box</div>
+    <h2 class=" font-bold">Rebonded Foam</h2>
+    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
+    <h2 class="font-bold">Orthopedic Support</h2>
+    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
+    <h2 class="font-bold">Firmness</h2>
+    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
+    <h2 class="font-bold">Soft Comfort</h2>
+    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
+  `,
+  },
+  "plush-foam": {
+    images: [
+      BaffelBox,
+      StandardPillow,
+      MemoryfoamPillow1,
+      MemoryfoamPillow2,
+      MemoryfoamPillow3,
+    ], // Assuming images are not uploaded yet
+    description: `
+    <div class="text-xl font-semibold my-[6px]">Baffle Box</div>
+    <h2 class=" font-bold">Rebonded Foam</h2>
+    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
+    <h2 class="font-bold">Orthopedic Support</h2>
+    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
+    <h2 class="font-bold">Firmness</h2>
+    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
+    <h2 class="font-bold">Soft Comfort</h2>
+    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
+  `,
+  },
+  "aloevera-fibre": {
+    images: [
+      AloveraPolyfiberPillow1,
+      AloveraPolyfiberPillow2,
+      AloveraPolyfiberPillow3,
+      AloveraPolyfiberPillow4,
+    ], // Assuming images are not uploaded yet
+    description: `
+    <div class="text-xl font-semibold my-[6px]">Baffle Box</div>
+    <h2 class=" font-bold">Rebonded Foam</h2>
+    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
+    <h2 class="font-bold">Orthopedic Support</h2>
+    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
+    <h2 class="font-bold">Firmness</h2>
+    Typically, these mattresses have a soft to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
+    <h2 class="font-bold">Soft Comfort</h2>
+    Despite the firm support, these mattresses are designed to offer a soft and comfortable sleeping surface. This balance ensures that you get the necessary support without sacrificing comfort.
+  `,
+  },
+  "polyfibre-textile": {
+    images: [
+      AloveraPolyfiberPillow1,
+      AloveraPolyfiberPillow2,
+      AloveraPolyfiberPillow3,
+      AloveraPolyfiberPillow4,
     ], // Assuming images are not uploaded yet
     description: `
     <div class="text-xl font-semibold my-[6px]">Baffle Box</div>

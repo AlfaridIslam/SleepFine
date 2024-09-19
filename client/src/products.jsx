@@ -46,12 +46,10 @@ import {
   OrthopedicAloeveraMemory4,
   OrthopedicAloeveraMemory5,
   OrthopedicAloeveraMemory6,
+  PlatformBed,
+  PanelBed,
   CanopyBed,
-  LoftBed,
-  LshapedSofa,
-  StandardPillow,
-  LatexPillow1,
-  ModularSofa1,
+  SeighBed,
   Loveland1,
   Loveland2,
   Loveland3,
@@ -76,6 +74,71 @@ import {
   InsperationalPocketed4,
   InsperationalPocketed5,
   InsperationalPocketed6,
+  LoftBed,
+  MurphyBed,
+  queensizebed1,
+  queensizebed2,
+  queensizebed3,
+  queensizebed4,
+  //Sofas
+  //Standard-sofa
+  chesterfield1,
+  chesterfield2,
+  chesterfield3,
+  chesterfield4,
+  ChesterfieldSofa,
+  Lawson1,
+  Lawson2,
+  Lawson3,
+  Lawson4,
+  LawsonSofa,
+  Tuxedo1,
+  Tuxedo2,
+  Tuxedo3,
+  Tuxedo4,
+  //Sectional sofas
+  LshapedSofa,
+  UshapedSofa,
+  LshapedSofa1,
+  LshapedSofa2,
+  LshapedSofa3,
+  LshapedSofa4,
+  UshapedSofa1,
+  UshapedSofa2,
+  UshapedSofa3,
+  UshapedSofa4,
+  ushapedsofacumbed1,
+  ushapedsofacumbed2,
+  ushapedsofacumbed3,
+  ushapedsofacumbed4,
+  Lshapedsofacumbed1,
+  Lshapedsofacumbed2,
+  Lshapedsofacumbed3,
+  Lshapedsofacumbed4,
+  ModularSofa1,
+  ModularSofa2,
+  ModularSofa3,
+  ModularSofa4,
+  //---------ACCESSORIES------------------------
+  //COMFORTERS
+  BaffelBox,
+  SewnThrough,
+  //Pillows
+  BodyPillow,
+  StandardPillow,
+  MemoryfoamPillow1,
+  MemoryfoamPillow2,
+  MemoryfoamPillow3,
+  MemoryfoamPillow4,
+  LatexPillow1,
+  LatexPillow2,
+  LatexPillow3,
+  LatexPillow4,
+  AloveraPolyfiberPillow1,
+  AloveraPolyfiberPillow2,
+  AloveraPolyfiberPillow3,
+  AloveraPolyfiberPillow4,
+
 } from "./assets/index"; // Adjust the path according to your folder structure
 
 const products = [
@@ -201,27 +264,27 @@ const products = [
       {
         id: 104,
         name: "HR PU Foam Collection",
-        image: Buckingham3,
+        image: SixinchPUFOAM1,
         subitems: [
           {
             id: 1041,
             name: "hr-pu-gravity",
-            image: Buckingham4, // Using existing image as dummy
+            image: SixinchPUFOAM2, // Using existing image as dummy
           },
           {
             id: 1042,
             name: "hr-pu-space",
-            image: Buckingham5, // Using existing image as dummy
+            image: SixinchPUFOAM3, // Using existing image as dummy
           },
           {
             id: 1043,
             name: "hr-pu-plush",
-            image: Buckingham6, // Using existing image as dummy
+            image: SixinchPUFOAM4, // Using existing image as dummy
           },
           {
             id: 1044,
             name: "hr-pu-techniko",
-            image: ORTRHOMED1, // Using existing image as dummy
+            image: SixinchPUFOAM5, // Using existing image as dummy
           },
         ],
       },
@@ -239,54 +302,54 @@ const products = [
       {
         id: 201,
         name: "King Size Bed",
-        image: SixinchPUFOAM2,
+        image: PlatformBed,
         subitems: [
           {
             id: 2011,
             name: "platform-bed",
-            image: SixinchPUFOAM3, // Using existing image as dummy
+            image: PlatformBed, // Using existing image as dummy
           },
           {
             id: 2012,
             name: "Panel-Bed",
-            image: SixinchPUFOAM4, // Using existing image as dummy
+            image: PanelBed, // Using existing image as dummy
           },
           {
             id: 2013,
             name: "Canopy-Bed",
-            image: SixinchPUFOAM5, // Using existing image as dummy
+            image: CanopyBed, // Using existing image as dummy
           },
           {
             id: 2014,
             name: "Sleigh-Bed",
-            image: SixinchPUFOAM5, // Using existing image as dummy
+            image: SeighBed, // Using existing image as dummy
           },
         ],
       },
       {
         id: 202,
-        name: "Queen Size Bed",
-        image: EightinchPUFOAM1,
+        name: "Queen-Size-Bed",
+        image: queensizebed1,
         subitems: [
           {
             id: 2021,
-            name: "Murphy-Bed",
-            image: EightinchPUFOAM2, // Using existing image as dummy
+            name: "Murphy Bed",
+            image: MurphyBed, // Using existing image as dummy
           },
           {
             id: 2022,
             name: "Loft-Bed",
-            image: EightinchPUFOAM3, // Using existing image as dummy
+            image: LoftBed, // Using existing image as dummy
           },
           {
             id: 2023,
             name: "Bunk-Bed",
-            image: EightinchPUFOAM4, // Using existing image as dummy
+            image: queensizebed2, // Using existing image as dummy
           },
           {
             id: 2024,
             name: "Trundle-Bed",
-            image: EightinchPUFOAM5, // Using existing image as dummy
+            image: queensizebed3, // Using existing image as dummy
           },
         ],
       },
@@ -302,44 +365,44 @@ const products = [
       {
         id: 301,
         name: "Standard-Sofa",
-        image: oxford2,
+        image: chesterfield1,
         subitems: [
           {
             id: 3011,
             name: "Chesterfield",
-            image: oxford3, // Using existing image as dummy
+            image: chesterfield3, // Using existing image as dummy
           },
           {
             id: 3012,
             name: "Lawson",
-            image: oxford4, // Using existing image as dummy
+            image: Lawson4, // Using existing image as dummy
           },
           {
             id: 3013,
             name: "Tuxedo",
-            image: oxford5, // Using existing image as dummy
+            image: Tuxedo1, // Using existing image as dummy
           },
         ],
       },
       {
         id: 302,
         name: "Sectional Sofa",
-        image: oxford6,
+        image: UshapedSofa,
         subitems: [
           {
             id: 3021,
             name: "L-Shaped",
-            image: EightinchPUFOAM1, // Using existing image as dummy
+            image: LshapedSofa, // Using existing image as dummy
           },
           {
             id: 3022,
             name: "U-Shaped",
-            image: EightinchPUFOAM1, // Using existing image as dummy
+            image: UshapedSofa1, // Using existing image as dummy
           },
           {
             id: 3023,
             name: "Modular",
-            image: EightinchPUFOAM1, // Using existing image as dummy
+            image: ModularSofa2, // Using existing image as dummy
           },
         ],
       },
@@ -354,50 +417,50 @@ const products = [
     subcategories: [
       {
         id: 401,
-        name: "Comforters",
-        image: EightinchPUFOAM4,
+        name: "Mattress-Protector",
+        image: LatexPillow2,
         subitems: [
           {
             id: 4011,
             name: "Baffle-Box",
-            image: Buckingham1, // Using existing image as dummy
+            image: BaffelBox, // Using existing image as dummy
           },
           {
             id: 4012,
             name: "Sewn-Through",
-            image: Buckingham2, // Using existing image as dummy
+            image: SewnThrough, // Using existing image as dummy
           },
         ],
       },
       {
         id: 402,
         name: "Pillows",
-        image: Buckingham3,
+        image: BodyPillow,
         subitems: [
           {
             id: 4011,
-            name: "Standard",
-            image: Buckingham1, // Using existing image as dummy
+            name: "Memory-foam",
+            image: StandardPillow, // Using existing image as dummy
           },
           {
             id: 4012,
-            name: "Body",
-            image: Buckingham2, // Using existing image as dummy
+            name: "Latex",
+            image: BodyPillow, // Using existing image as dummy
           },
           {
             id: 4013,
-            name: "Contour",
-            image: Buckingham3, // Using existing image as dummy
+            name: "Plush-foam",
+            image: MemoryfoamPillow1, // Using existing image as dummy
           },
           {
             id: 4014,
-            name: "Travel",
-            image: Buckingham4, // Using existing image as dummy
+            name: "Aloevera&fibre",
+            image: MemoryfoamPillow2, // Using existing image as dummy
           },
           {
             id: 4015,
-            name: "Wedge",
-            image: Buckingham5, // Using existing image as dummy
+            name: "Polyfibre-textile",
+            image: MemoryfoamPillow3, // Using existing image as dummy
           },
         ],
       },
