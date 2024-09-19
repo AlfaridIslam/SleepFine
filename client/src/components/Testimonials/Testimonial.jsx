@@ -68,9 +68,9 @@ function Testimonial() {
   };
 
   return (
-    <div className="main-card mt-2 xl:w-full">
+    <div className="main-card mt-2 ">
 
-      <div className="xl:flex xl:justify-around xl:items-center xl:mb-8 xl:w-full sm:w-[140%]">
+      <div className="xl:flex xl:justify-around xl:items-center xl:mb-8 xl:w-full ">
 
       
         <h1 className="text-3xl font-serif text-slate-800 xl:ml-0 sm:ml-20">
@@ -80,14 +80,14 @@ function Testimonial() {
       </div>
 
 
-      <div className="xl:px-10 xl:ml-0 xl:mt-0 xl:mr-0 sm:-mr-36 sm:mt-8 sm:w-[150%]">
+      <div className=" xl:w-full xl:px-10 xl:ml-0 xl:mt-0 xl:mr-0 sm:-mr-20 sm:mt-8 ">
 
-      <div className="xl:px-10 xl:ml-0 xl:mt-0 xl:mr-0 sm:-mr-36 sm:mt-8  sm:w-[150%]">
+      <div className=" xl:w-full xl:px-10 xl:ml-0 xl:mt-0 xl:mr-0 sm:-mr-36 sm:mt-8   ">
 
         <Slider {...settings}>
           {Tdata.map((item, index) => (
             <div className="px-3" key={index}>
-              <div className="review-card bg-white shadow-lg rounded-lg overflow-hidden">
+              <div className="review-card bg-white shadow-lg rounded-lg overflow-hidden xl:h-auto sm:h-[500px]">
                 <div className="bg-indigo-400 flex justify-center items-center h-56">
                   <img
                     src={imageMap[item.image]} // Use the mapped image

@@ -918,10 +918,8 @@ const ProductDetails = () => {
       <Link
         to="/products"
         className="back cursor-pointer absolute rounded-md
-         bg-red-300 text-black xl:text-[13px] xl:top-[160px] xl:left-[30px] xl:py-[9px] xl:pr-[22px] xl:pl-[25px]
-         lg:text-[12px] lg:top-[152px] lg:left-[20px] lg:py-[8px] lg:pr-[22px] lg:pl-[25px]
-         md:text-[12px] md:top-[152px] md:left-[20px] md:py-[7px] md:pr-[22px] md:pl-[25px]
-         sm:text-[12px] sm:top-[155px] sm:left-[20px] sm:py-[6px] sm:pr-[22px] sm:pl-[25px]"
+         bg-red-300 text-black xl:text-[13px] xl:top-[160px] xl:left-[30px] xl:py-[2px] xl:pr-[22px] xl:pl-[25px] xl:px-0 xl:ml-0 xl:mt-0
+          sm:text-lg sm:px-4 sm:ml-8 sm:mt-4"
       >
         BACK
       </Link>
@@ -945,7 +943,7 @@ const ProductDetails = () => {
                 </button>
                 <button
                   onClick={handleNextClick}
-                  className="absolute top-1/2 xl:right-[28px] md:right-[18px] lg:right-[52px] sm:right-0 transform -translate-y-1/2 text-black text-7xl p-2 rounded-full hover:bg-blue-300 h-20"
+                  className="absolute top-1/2 xl:right-[90px] md:right-[18px] lg:right-[52px] sm:right-0 transform -translate-y-1/2 text-black text-7xl p-2 rounded-full hover:bg-blue-300 h-20"
                 >
                   <div className="-mt-5"> &#8250;</div>
                 </button>
@@ -975,7 +973,7 @@ const ProductDetails = () => {
         </div>
 
         {/* Product description */}
-        <div className="flex-1">
+        <div className="flex-1 ">
           <h2 className="text-2xl font-bold mb-2">Product Description</h2>
           <div
             className="text-gray-600"
