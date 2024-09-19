@@ -68,7 +68,7 @@ function Testimonial() {
   };
 
   return (
-    <div className="main-card mt-2 ">
+    <div className="main-card mt-10 ">
 
       <div className="xl:flex xl:justify-around xl:items-center xl:mb-8 xl:w-full ">
 
