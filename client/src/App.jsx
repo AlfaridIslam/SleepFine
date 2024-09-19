@@ -15,6 +15,10 @@ import Store from "./components/OurStore/OurStore.jsx";
 import Gallery from "./pages/Gallery/Gallery.jsx";
 import NotFound from "./pages/NotFound/NotFound.jsx";
 import Spinner from "./components/spinner/Spinner.jsx";
+// import Mattress from "./components/Mattress/Mattress.jsx";
+// import Beds from "./components/Beds/Beds.jsx";
+// import Sofas from "./components/Sofas/Sofas.jsx";
+// import Accessories from "./components/Accessories/Accessories.jsx";
 
 
 function App() {
@@ -41,6 +45,11 @@ function App() {
               <Route path="/aboutus" Component={AboutUs} />
               <Route path="/contactus" Component={ContactUs} />
               <Route path="/gallery" Component={Gallery} />
+              {/* <Route path="/Mattress" Component={Mattress} />
+              <Route path="/Beds" Component={Beds} />
+              <Route path="/Sofas"Component={Sofas}/>
+              <Route path="/Accessories" Component={Accessories} /> */}
+
 
               <Route path="/product-types" element={<ProductTypes />} />
               <Route path="/updates" element={<NewsandUpdate />} />
