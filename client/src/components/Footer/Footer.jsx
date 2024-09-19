@@ -6,7 +6,7 @@ import Card from "../../assets/Fotter-Img/img-2.png";
 
 import {
   faFacebookF,
-  faXTwitter,
+  faYoutube,
   faInstagram,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
@@ -40,7 +40,7 @@ const Footer = () => {
 
        
 
-        <div className=" xl:flex xl:gap-14 xl:p-0 xl:text-lg sm:grid sm:grid-cols-2 sm:gap-10  sm:p-10 xl:ml-0 sm:ml-20">
+        <div className=" xl:flex xl:gap-14 xl:p-0 xl:text-lg sm:grid sm:grid-cols-2 sm:gap-10   xl:ml-0 sm:ml-20 sm:text-2xl">
 
           <div className="xl:mt-0 sm:mt-4">
             <h1>CATEGORIES</h1>
@@ -67,8 +67,8 @@ const Footer = () => {
             <ul className="font-extralight xl:mt-10  sm:mt-2  xl:text-sm sm:text-lg">
               <li>E-mail: contact@sleepfineindia.com</li>
               <li>Tel : +91-40-40032084</li>
-              <li>Sy. NO. 575, 576, Harsha Hospital Lane,<br />
-              Near S.L.N. Apartments, Pakalakunta, <br />
+              <li className='xl:flex xl:justify-center xl:w-48'>Sy. NO. 575, 576, Harsha Hospital Lane,
+              Near S.L.N. Apartments, Pakalakunta, 
               Kompally, Hyderabad - 500 010.</li>
               <div>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.6723251800763!2d78.49592439999999!3d17.523148600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb85c89724427b%3A0x7df68edcf8e67783!2sSleep%20fine%20mattress%20Factory!5e0!3m2!1sen!2sin!4v1726652689795!5m2!1sen!2sin"   width="75%"
@@ -81,7 +81,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="sm:flex sm:justify-center xl:mr-0 sm:mr-40">
+          <div className=" xl:w-auto sm:flex sm:justify-center xl:mr-10 sm:mr-40 sm:w-60">
           <div className="xl:mt-0 sm:mt-4 ">
             <h1>PAYMENT METHODS</h1>
             <ul className="font-extralight xl:mt-10 grid xl:gap-2 sm:gap-1 text-sm">
@@ -93,7 +93,7 @@ const Footer = () => {
                   
 
                   alt=""
-                  className="w-40"
+                  className="xl:w-40  "
                 />
               </li>
               <li>
@@ -105,7 +105,7 @@ const Footer = () => {
                   
 
                   alt=""
-                  className="w-40"
+                  className="xl:w-40"
                 />
               </li>
             </ul>
@@ -126,23 +126,23 @@ const Footer = () => {
 
         <ul className="flex justify-center items-center gap-10 mt-5">
           <li>
-            <a href="">
+            <a href="https://www.facebook.com/share/VVfE1WYnTmnDAewa/?mibextid=qi2Omg" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faFacebookF} />
             </a>
           </li>
           <li>
             {" "}
-            <a href="">
-              <FontAwesomeIcon icon={faXTwitter} />
+            <a href=" "    target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faYoutube} />
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="https://www.instagram.com/sleepfinemattress?utm_source=qr&igsh=cWFkbnMxY3dtaDJ4 " target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
           </li>
           <li>
-            <a href="">
+          <a href="https://whatsapp.com/channel/0029VaG3tVKCXC3Gcjsi8s08" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faWhatsapp} />
             </a>
           </li>

@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
+import { Link } from "react-router-dom";
 import products from "../../products.jsx"; // Adjust the path according to your folder structure
 import ProductTypes from "../ProductTypes/ProductTypes.jsx"; // Import the ProductTypes component
 
@@ -26,11 +27,14 @@ const Product = () => {
       <h1 className="text-2xl font-sans xl:flex xl:justify-center sm:flex sm:justify-center sm:mt-5 ">
         PRODUCTS
       </h1>
+      <Link to='/' >
+      <button className="flex justify-start bg-red-200 w-16 px-[10px]  xl:ml-10 rounded-lg sm:-ml-12">BACK</button>
+      </Link >
       <div className="xl:flex xl:gap-4 sm:grid sm:justify-center xl:px-2">
         {products.map((product) => (
           <div
             key={product.id}
-            className="cursor-pointer xl:p-0 xl:h-[425px] lg:h-[440px]"
+            className="cursor-pointer xl:p-0 xl:h-[425px]  lg:h-[440px]"
             onClick={() => handleProductClick(product)}
           >
             <img
