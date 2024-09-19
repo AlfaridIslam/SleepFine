@@ -1,4 +1,11 @@
 import React, { useState, useEffect } from "react";
+
+import Mattress from '../Mattress/Mattress.jsx';
+import Beds from '../Beds/Beds.jsx';
+import Sofas from "../Sofas/Sofas.jsx";
+
+import Accessories from '../Accessories/Accessories.jsx';
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPhone,
@@ -7,6 +14,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { Link, useLocation } from "react-router-dom";
 import logo from "../../assets/sleepfinelogo-3.png";
+
 
 const Navbar = () => {
   const [isProductsDropdownOpen, setIsProductsDropdownOpen] = useState(false);
@@ -66,7 +74,7 @@ const Navbar = () => {
         className="xl:flex xl:text-black  xl:justify-around xl:shadow-lg xl:z-50  xl:pl-2  xl:pb-5 xl:pt-2 xl:ml-0 
                         sm:justify-end sm:gap-1 sm:ml-2 sm:mt-1 sm:grid"
       >
-        {/* ____________________________Logo-Image _______________________*/}
+        {/* _________Logo-Image ________*/}
         <div
           onClick={barsOpenHandler}
           className="xl:hidden sm:flex sm:p-4 sm:ml-14 "
@@ -90,9 +98,25 @@ const Navbar = () => {
                 barsOpen ? "block" : "hidden"
               }`}
         >
-          <div className="underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
+          <div className=" underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
             <Link to="/">HOME</Link>
           </div>
+          <div className=" underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
+            <Mattress/>
+          </div>
+          <div className=" xl:-pt-10 relative underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
+          <Beds/>
+          </div>
+          <div className=" underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
+           <Sofas/>
+          </div>
+          <div className=" underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
+          <Accessories/>
+          </div>
+          <div className="underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
+            <Link to="/ourstores">OUR-STORES</Link>
+          </div>
+        
           <div
             className="relative underline decoration-transparent transition duration-100 ease-in-out hover:decoration-current"
             onMouseEnter={() => setIsProductsDropdownOpen(true)}
@@ -101,16 +125,21 @@ const Navbar = () => {
             onDoubleClick={() => !setIsProductsDropdownOpen(false)}
           >
             PRODUCTS &#10097;
+            
+          
+            {/* PRODUCTS &#10097;
+>>>>>>> origin/sreenivas-feature
             {isProductsDropdownOpen && (
               <div
                 className="xl:absolute xl:flex xl:-left-2 xl:bg-black xl:bg-opacity-50 xl:text-white xl:rounded-lg xl:shadow-lg xl:z-50 xl:mt-2 xl:font-bold xl:p-2"
                 onMouseEnter={() => setIsProductsDropdownOpen(true)}
                 onMouseLeave={() => setIsProductsDropdownOpen(false)}
                 onClick={() => setIsProductsDropdownOpen(true)}
-                onDoubleClick={() => setIsProductsDropdownOpen(false)}
-              >
+                onDoubleClick={() => setIsProductsDropdownOpen(false)} */}
+              {/* > */}
+                
                 {/* MATTRESS Dropdown */}
-                <div
+                {/* <div
                   className={`px-4 py-2 rounded-lg hover:bg-slate-50 hover:text-black ${
                     hoveredCategory === "Medical Rebounded Mattresses"
                       ? "bg-blue-700"
@@ -125,7 +154,7 @@ const Navbar = () => {
                   {hoveredCategory === "Medical Rebounded Mattresses" && (
                     <div className="xl:absolute xl:-left-1 xl:mt-[9px] xl:w-60 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium ">
                       {/* Orthopedic Bonded Collection */}
-                      <div
+                      {/* <div
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
                           handleMouseEnterSubCategory(
@@ -176,10 +205,10 @@ const Navbar = () => {
                             </Link>
                           </div>
                         )}
-                      </div>
+                      </div> */}
 
                       {/* Ortho Bonell Spring Collection */}
-                      <div
+                      {/* <div
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
                           handleMouseEnterSubCategory(
@@ -236,10 +265,10 @@ const Navbar = () => {
                             </Link>
                           </div>
                         )}
-                      </div>
+                      </div> */}
 
                       {/* Pocketed Spring Collection */}
-                      <div
+                      {/* <div
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
                           handleMouseEnterSubCategory(
@@ -278,10 +307,10 @@ const Navbar = () => {
                             </Link>
                           </div>
                         )}
-                      </div>
+                      </div> */}
 
                       {/* HR-PU Foam Collection */}
-                      <div
+                      {/* <div
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
                           handleMouseEnterSubCategory("HR-PU Foam Collection")
@@ -317,13 +346,13 @@ const Navbar = () => {
                             </Link>
                           </div>
                         )}
-                      </div>
-                    </div>
+                      </div> */}
+                    {/* </div>
                   )}
-                </div>
+                </div> } */}
 
                 {/* BEDS Dropdown */}
-                <div
+                {/* <div
                   className={`px-4 py-2 rounded-lg hover:bg-slate-50 hover:text-black ${
                     hoveredCategory === "Beds" ? "bg-blue-700" : ""
                   }`}
@@ -403,9 +432,9 @@ const Navbar = () => {
                       </div>
                     </div>
                   )}
-                </div>
+                </div> */}
                 {/* SOFAS Dropdown */}
-                <div
+               {/* <div 
                   className={`px-4 py-2 rounded-lg hover:bg-slate-50 hover:text-black ${
                     hoveredCategory === "Sofas" ? "bg-blue-700" : ""
                   }`}
@@ -416,7 +445,7 @@ const Navbar = () => {
                   {hoveredCategory === "Sofas" && (
                     <div className="xl:absolute xl:left-[9rem] xl:w-60 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:font-medium">
                       {/* Standard-Sofa */}
-                      <div
+                      {/* <div
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
                           handleMouseEnterSubCategory("Standard Sofa")
@@ -443,13 +472,13 @@ const Navbar = () => {
                               className="px-4 py-2 hover:bg-indigo-100"
                             >
                               Tuxedo
-                            </Link>
+                            </Link> */}
                             {/* Add other links here */}
-                          </div>
+                          {/* </div>
                         )}
-                      </div>
+                      </div> */}
                       {/* Add other subcategories here */}
-                      <div
+                      {/* <div
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
                           handleMouseEnterSubCategory("Sectional Sofa")
@@ -482,20 +511,20 @@ const Navbar = () => {
                       </div>
                     </div>
                   )}
-                </div>
+                </div> */} 
                 {/* Accessories Dropdown */}
-                <div
+                {/* <div
                   className={`px-4 py-2 rounded-lg hover:bg-white hover:text-black ${
                     hoveredCategory === "Accessories" ? "bg-blue-700" : ""
                   }`}
                   onMouseEnter={() => handleMouseEnterCategory("Accessories")}
-                  onMouseLeave={handleMouseLeaveCategory}
-                >
-                  ACCESSORIES
+                  onMouseLeave={handleMouseLeaveCategory} */}
+                {/* > */}
+                  {/* ACCESSORIES
                   {hoveredCategory === "Accessories" && (
                     <div className="xl:absolute xl:left-[14.75rem] xl:mt-[9px] xl:w-[8rem] xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium ">
                       {/* Sectional Sofa */}
-                      <div
+                      {/* <div
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
                           handleMouseEnterSubCategory("Comforters")
@@ -519,9 +548,9 @@ const Navbar = () => {
                             </Link>
                           </div>
                         )}
-                      </div>
+                      </div>  */}
                       {/* Add other subcategories here */}
-                      <div
+                      {/* <div
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
                           handleMouseEnterSubCategory("Pillows")
@@ -566,19 +595,18 @@ const Navbar = () => {
                       </div>
                     </div>
                   )}
-                </div>
-              </div>
-            )}
+                </div> */}
+              {/* </div> */}
+            {/* )} */}
           </div>
-          <div className="underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
-            <Link to="/gallery">GALLERY</Link>
-          </div>
-          <div className="underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
-            <Link to="/updates">NEWS & UPDATES</Link>
-          </div>
-          <div className="underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
+           {/* <div className="underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
+            <Link to=" /Mattress">Mattress</Link>
+          </div>        {/* <div className="underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current"> */}
+            {/* <Link to="/updates">NEWS & UPDATES</Link>
+          </div> */} 
+          {/* <div className="underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
             <Link to="/ourstores">OUR-STORES</Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -1,0 +1,10 @@
+.slick-slide {
+  padding: 0 10px; /* Horizontal padding for the gap */
+}
+
+.slick-list {
+  margin: 0 -10px; /* Negative margin to avoid overflow caused by padding */
+}
+.poppins-medium{
+    font:poppins;
+}
