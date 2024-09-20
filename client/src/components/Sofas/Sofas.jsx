@@ -40,40 +40,40 @@ const Sofas = () => {
           {/* Sofas standard Collections  */}
           <div
             className={`px-4 py-2 rounded-lg hover:bg-slate-200  hover:text-black ${
-              hoveredCategory === "Standard Sofa Collection" ? "bg-blue-700" : ""
+              hoveredCategory === "Standard Sofa Collection" ? "" : ""
             }`}
-            onMouseEnter={() => handleMouseEnterCategory("Standard Sofa Collection")}
+            onMouseEnter={() =>
+              handleMouseEnterCategory("Standard Sofa Collection")
+            }
             onMouseLeave={handleMouseLeaveCategory}
           >
             Standard Sofa
             {hoveredCategory === "Standard Sofa Collection" && (
-              <div className="xl:absolute xl:left-[150px] xl:-mt-[45px]  xl:w-60   xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium bg-white l:-z-50">
+              <div className="xl:absolute xl:left-[150px] xl:-mt-[45px]  xl:w-40   xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium bg-white l:-z-50">
                 <div className="px-4 py-2 hover:bg-indigo-100">
-                <Link
-                              to="product-details/Chesterfield"
-                              className="px-4 py-2 hover:bg-indigo-100"
-                            >
-                              Chesterfield
-                            </Link>
-                 
-                
+                  <Link
+                    to="product-details/Chesterfield"
+                    className="px-4 py-2 hover:bg-indigo-100"
+                  >
+                    Chesterfield
+                  </Link>
                 </div>
                 <div className="px-4 py-2 hover:bg-indigo-100">
-                <Link
+                  <Link
                     to="product-details/Lawson"
                     className="px-4 py-2 hover:bg-indigo-100"
-                 >
-                   Lawson
-                </Link>
-                </div>  
+                  >
+                    Lawson
+                  </Link>
+                </div>
                 <div className="px-4 py-2 hover:bg-indigo-100">
-                <Link
+                  <Link
                     to="product-details/Tuxedo"
                     className="px-4 py-2 hover:bg-indigo-100"
-                >
-                  Tuxedo
-                </Link>
-                </div>     
+                  >
+                    Tuxedo
+                  </Link>
+                </div>
               </div>
             )}
           </div>
@@ -81,43 +81,60 @@ const Sofas = () => {
           {/* sofas sectional Collection */}
           <div
             className={`px-4 py-2 rounded-lg hover:bg-slate-200 hover:text-black ${
-              hoveredCategory === "Sectional Sofa Collection" ? "bg-blue-700" : ""
+              hoveredCategory === "Sectional Sofa Collection" ? "" : ""
             }`}
-            onMouseEnter={() => handleMouseEnterCategory("Sectional Sofa Collection")}
+            onMouseEnter={() =>
+              handleMouseEnterCategory("Sectional Sofa Collection")
+            }
             onMouseLeave={handleMouseLeaveCategory}
           >
             Sectional Sofa
             {hoveredCategory === "Sectional Sofa Collection" && (
-              <div className="xl:absolute xl:left-[150px] xl:-mt-[45px] xl:w-60 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50">
+              <div className="xl:absolute xl:left-[150px] xl:-mt-[45px] xl:w-56 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50">
                 <div className="px-4 py-2 hover:bg-indigo-100">
-                <Link
-                              to="product-details/L-Shaped"
-                              className="px-4 py-2 hover:bg-indigo-100"
-                            >
-                              L-Shaped
-                            </Link>
+                  <Link
+                    to="product-details/L-Shaped"
+                    className="px-4 py-2 hover:bg-indigo-100"
+                  >
+                    L-Shaped
+                  </Link>
                 </div>
                 <div className="px-4 py-2 hover:bg-indigo-100">
-                <Link
-                              to="product-details/U-Shaped"
-                              className="px-4 py-2 hover:bg-indigo-100"
-                            >
-                              U-Shaped
-                            </Link>
+                  <Link
+                    to="product-details/U-Shaped"
+                    className="px-4 py-2 hover:bg-indigo-100"
+                  >
+                    U-Shaped
+                  </Link>
                 </div>
-                
                 <div className="px-4 py-2 hover:bg-indigo-100">
-                <Link
-                              to="product-details/Modular"
-                              className="px-4 py-2 hover:bg-indigo-100"
-                            >
-                              Modular
-                            </Link>
+                  <Link
+                    to="product-details/l-shaped-sofa-cumbed"
+                    className="px-4 py-2 hover:bg-indigo-100"
+                  >
+                    L-ShapededSofacumBed
+                  </Link>
+                </div>
+                <div className="px-4 py-2 hover:bg-indigo-100">
+                  <Link
+                    to="product-details/u-shaped-sofa-cumbed"
+                    className="px-4 py-2 hover:bg-indigo-100"
+                  >
+                    U-ShapededSofacumBed
+                  </Link>
+                </div>
+
+                <div className="px-4 py-2 hover:bg-indigo-100">
+                  <Link
+                    to="product-details/Modular"
+                    className="px-4 py-2 hover:bg-indigo-100"
+                  >
+                    Modular
+                  </Link>
                 </div>
               </div>
             )}
           </div>
-         
         </div>
       )}
     </div>

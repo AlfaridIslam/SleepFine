@@ -40,14 +40,14 @@ const Accessories = () => {
           {/* Accessories mattress Protector Collections */}
           <div
             className={`px-4 py-2 rounded-lg hover:bg-slate-200  hover:text-black ${
-              hoveredCategory === "Mattress Protector Collection" ? "bg-blue-700" : ""
+              hoveredCategory === "Mattress Protector Collection" ? "" : ""
             }`}
             onMouseEnter={() => handleMouseEnterCategory("Mattress Protector Collection")}
             onMouseLeave={handleMouseLeaveCategory}
           >
             Mattress Protector
             {hoveredCategory === "Mattress Protector Collection" && (
-              <div className="xl:absolute xl:left-[180px] xl:-mt-[45px]  xl:w-60   xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50 ">
+              <div className="xl:absolute xl:left-[180px] xl:-mt-[45px]  xl:w-40   xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50 ">
                 <div className="px-4 py-2 hover:bg-indigo-100">
                 <Link
                               to="product-details/Baffle-Box"
@@ -72,14 +72,14 @@ const Accessories = () => {
           {/* pillows Collection */}
           <div
             className={`px-4 py-2 rounded-lg hover:bg-slate-200 hover:text-black ${
-              hoveredCategory === "Accessories Pillow Collection" ? "bg-blue-700" : ""
+              hoveredCategory === "Accessories Pillow Collection" ? "" : ""
             }`}
             onMouseEnter={() => handleMouseEnterCategory("Accessories Pillow Collection")}
             onMouseLeave={handleMouseLeaveCategory}
           >
             Pillows
             {hoveredCategory === "Accessories Pillow Collection" && (
-              <div className="xl:absolute xl:left-[180px] xl:-mt-[45px] xl:w-60 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50">
+              <div className="xl:absolute xl:left-[180px] xl:-mt-[45px] xl:w-44 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50">
                 <div className="px-4 py-2 hover:bg-indigo-100">
                 <Link
                               to="product-details/memory-foam"

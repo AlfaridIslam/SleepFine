@@ -306,12 +306,12 @@ const products = [
         subitems: [
           {
             id: 2011,
-            name: "platform-bed",
+            name: "king-with-storage",
             image: PlatformBed, // Using existing image as dummy
           },
           {
             id: 2012,
-            name: "Panel-Bed",
+            name: "king-without-storage",
             image: PanelBed, // Using existing image as dummy
           },
           {
@@ -333,12 +333,12 @@ const products = [
         subitems: [
           {
             id: 2021,
-            name: "Murphy Bed",
+            name: "queen-with-storage",
             image: MurphyBed, // Using existing image as dummy
           },
           {
             id: 2022,
-            name: "Loft-Bed",
+            name: "queen-without-storage",
             image: LoftBed, // Using existing image as dummy
           },
           {
@@ -350,6 +350,42 @@ const products = [
             id: 2024,
             name: "Trundle-Bed",
             image: queensizebed3, // Using existing image as dummy
+          },
+        ],
+      },
+      // SINGLE BED
+      {
+        id: 204,
+        name: "single-Size-Bed",
+        image: queensizebed1,
+        subitems: [
+          {
+            id: 2041,
+            name: "single-with-storage",
+            image: MurphyBed, // Using existing image as dummy
+          },
+          {
+            id: 2042,
+            name: "single-without-storage",
+            image: LoftBed, // Using existing image as dummy
+          },
+        ],
+      },
+      // DOUBLE BED
+      {
+        id: 203,
+        name: "double Size Bed",
+        image: queensizebed1,
+        subitems: [
+          {
+            id: 2031,
+            name: "double-with-storage",
+            image: MurphyBed, // Using existing image as dummy
+          },
+          {
+            id: 2032,
+            name: "double-without-storage",
+            image: LoftBed, // Using existing image as dummy
           },
         ],
       },
@@ -402,6 +438,16 @@ const products = [
           {
             id: 3023,
             name: "Modular",
+            image: ModularSofa2, // Using existing image as dummy
+          },
+          {
+            id: 3024,
+            name: "l-shaped-sofa-cumbed",
+            image: ModularSofa2, // Using existing image as dummy
+          },
+          {
+            id: 3025,
+            name: "u-shaped-sofa-cumbed",
             image: ModularSofa2, // Using existing image as dummy
           },
         ],
