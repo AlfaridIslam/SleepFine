@@ -3,33 +3,34 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import "./ProductsScrolling.css";
+import {Link} from "react-router-dom";
 // bed images
 import bed1 from "../../assets/Beds/King-Size-bed/CanopyBed.JPG";
-import bed2 from "../../assets/aloeveralatex1.jpeg";
-import bed3 from "../../assets/Beds/Queen-size-bed/queensizebed2.jpg";
-import bed4 from "../../assets/gravity1.jpeg";
-import bed5 from "../../assets/buckingham1.jpeg";
-import bed6 from "../../assets/Beds/King-Size-bed/PlatformBed.jpeg";
-import bed7 from "../../assets/Beds/King-Size-bed/Kingsizebed1.jpg";
-import bed8 from "../../assets/aloeveralatex1.jpeg";
+import bed2 from "../../assets/Beds/King-Size-bed/SleighBed.jpeg";
+import bed3 from "../../assets/Beds/King-Size-bed/PlatformBed.jpeg";
+import bed4 from "../../assets/Beds/King-Size-bed/PanelBed.jpeg";
+import bed5 from "../../assets/Beds/King-Size-bed/kingsizebed4.jpg";
+import bed6 from "../../assets/Beds/Queen-size-bed/LoftBed.jpg";
+import bed7 from "../../assets/Beds/King-Size-bed/Kingsizebed3.jpg";
+import bed8 from "../../assets/Beds/Queen-size-bed/MurphyBed.jpeg";
 // sofa images
 import sofa1 from "../../assets/Sofas/Sectional-Sofas/Lshapedsofa1.jpeg";
-import sofa2 from "../../assets/aloeveralatex1.jpeg";
-import sofa3 from "../../assets/Sofas/Sectional-Sofas/Lshapedsofa3.jpeg";
-import sofa4 from "../../assets/gravity1.jpeg";
-import sofa5 from "../../assets/Sofas/Sectional-Sofas/ModularSofa1.jpg";
-import sofa6 from "../../assets/buckingham1.jpeg";
-import sofa7 from "../../assets/Sofas/Sectional-Sofas/UshapedSofa1.jpeg";
-import sofa8 from "../../assets/aloeveralatex1.jpeg";
+import sofa2 from "../../assets/Sofas/Sectional-Sofas/ModularSofa1.jpg";
+import sofa3 from "../../assets/Sofas/Sectional-Sofas/UshapedSofa1.jpeg";
+import sofa4 from "../../assets/Sofas/Sectional-Sofas/UshapedSofa4.jpeg";
+import sofa5 from "../../assets/Sofas/StandardSofas/chesterfield4.jpg";
+import sofa6 from "../../assets/Sofas/StandardSofas/chesterfield1.jpg";
+import sofa7 from  "../../assets/Sofas/StandardSofas/Tuxedo3.jpg";
+import sofa8 from "../../assets/Sofas/StandardSofas/Tuxedo1.jpg";
 // accessories images
-import accessories1 from "../../assets/Sofas/Sectional-Sofas/Lshapedsofa1.jpeg";
-import accessories2 from "../../assets/aloeveralatex1.jpeg";
-import accessories3 from "../../assets/Sofas/Sectional-Sofas/Lshapedsofa3.jpeg";
-import accessories4 from "../../assets/gravity1.jpeg";
-import accessories5 from "../../assets/Sofas/Sectional-Sofas/ModularSofa1.jpg";
-import accessories6 from "../../assets/buckingham1.jpeg";
-import accessories7 from "../../assets/Sofas/Sectional-Sofas/UshapedSofa1.jpeg";
-import accessories8 from "../../assets/aloeveralatex1.jpeg";
+import accessories1 from "../../assets/Accessories/Pillows/AloveraPolyfiberPillow2.jpeg";
+import accessories2 from "../../assets/Accessories/Pillows/AloveraPolyfiberPillow1.jpeg";
+import accessories3 from "../../assets/Accessories/Pillows/Memoryfoam_Pillow1.jpeg";
+import accessories4 from "../../assets/Accessories/Pillows/Memoryfoam_Pillow2.jpeg";
+import accessories5 from "../../assets/Accessories/Pillows/LatexPillow1.jpeg";
+import accessories6 from "../../assets/Accessories/Pillows/LatexPillow4.jpeg";
+import accessories7 from "../../assets/Accessories/Pillows/StandardPillow.jpeg";
+import accessories8 from "../../assets/Accessories/Pillows/BodyPillow.jpeg";
 
 const ProductsScrolling = () => {
   const settings = {
@@ -63,71 +64,75 @@ const ProductsScrolling = () => {
 
   const bedItems = [
     {
-      image: { bed1 },
-      hoverImage: { bed2 },
+      image: bed1, // Pass the image directly
+      hoverImage: bed2, // Pass the hover image directly
     },
     {
-      image: { bed3 },
-      hoverImage: { bed4 },
+      image: bed3,
+      hoverImage: bed4,
     },
     {
-      image: { bed5 },
-      hoverImage: { bed6 },
+      image: bed5,
+      hoverImage: bed6,
     },
     {
-      image: { bed7 },
-      hoverImage: { bed8 },
+      image: bed7,
+      hoverImage: bed8,
     },
   ];
+  
   const sofaItems = [
     {
-      image: { sofa1 },
-      hoverImage: { sofa2 },
+      image: sofa1,
+      hoverImage: sofa2,
     },
     {
-      image: { sofa3 },
-      hoverImage: { sofa4 },
+      image: sofa3,
+      hoverImage: sofa4,
     },
     {
-      image: { sofa5 },
-      hoverImage: { sofa6 },
+      image: sofa5,
+      hoverImage: sofa6,
     },
     {
-      image: { sofa7 },
-      hoverImage: { sofa8 },
+      image: sofa7,
+      hoverImage: sofa8,
     },
   ];
-
+  
   const accessoriesItems = [
     {
-      image: { accessories1 },
-      hoverImage: { accessories2 },
+      image: accessories1,
+      hoverImage: accessories2,
     },
     {
-      image: { accessories3 },
-      hoverImage: { accessories4 },
+      image: accessories3,
+      hoverImage: accessories4,
     },
     {
-      image: { accessories5 },
-      hoverImage: { accessories6 },
+      image: accessories5,
+      hoverImage: accessories6,
     },
     {
-      image: { accessories7 },
-      hoverImage: { accessories8 },
+      image: accessories7,
+      hoverImage: accessories8,
     },
   ];
+  
 
   return (
-    <div className="mt-4">
+    <div className="mt-4 sm:justify-center sm:align-middle sm:items-center grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-4 xl:w-full sm:w-[150%] ">
       {/* ------------------Beds------------------------- */}
+      <div className='Beds'>
       <h1 className="text-xl font-semibold text-center mb-4 mt-10">BEDS</h1>
       <p className="font-thin text-[16px] mt-2 flex justify-center">
         Soon-to-be staples in your rotation
       </p>
+      <div>
       <Slider {...settings} className="px-2">
         {bedItems.map((item, index) => (
           <div
-            className="relative group border-2 rounded-xl flex-shrink-0 w-64 h-64"
+            className="relative group border-2 rounded-xl flex-shrink-0 w-64 xl:h-64 sm:h-[400px]"
             key={index}
           >
             {/* Main Image */}
@@ -145,16 +150,23 @@ const ProductsScrolling = () => {
             />
 
             {/* Know More Text */}
+            <Link to='product-details/Murphy-Bed'>
             <div className="absolute inset-0 flex items-end justify-center text-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
               <span className="text-white bg-black bg-opacity-50 px-2 py-2 rounded-lg w-full justify-center items-center">
+               
                 Know More
               </span>
             </div>
+            </Link>
           </div>
         ))}
       </Slider>
+      </div>
+      </div>
 
       {/* -----------------------SOFAS-------------------------- */}
+
+      <div className="sofas">
       <h1 className="text-xl font-semibold text-center mb-4 mt-10">SOFAS</h1>
       <p className="font-thin text-[16px] mt-2 flex justify-center">
         Soon-to-be staples in your rotation
@@ -162,7 +174,7 @@ const ProductsScrolling = () => {
       <Slider {...settings} className="px-2">
         {sofaItems.map((item, index) => (
           <div
-            className="relative group border-2 rounded-xl flex-shrink-0 w-64 h-64"
+            className="relative group border-2 rounded-xl flex-shrink-0 w-64 xl:h-64 sm:h-[400px]"
             key={index}
           >
             {/* Main Image */}
@@ -180,16 +192,22 @@ const ProductsScrolling = () => {
             />
 
             {/* Know More Text */}
+            <Link to="product-details/U-Shaped">
             <div className="absolute inset-0 flex items-end justify-center text-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
               <span className="text-white bg-black bg-opacity-50 px-2 py-2 rounded-lg w-full justify-center items-center">
                 Know More
               </span>
             </div>
+            </Link>
           </div>
         ))}
       </Slider>
 
+      </div>
+
       {/* ----------------------ACCESSORIES----------------------------- */}
+
+      <div className="accessories">
       <h1 className="text-xl font-semibold text-center mb-4 mt-10">
         ACCESSORIES
       </h1>
@@ -199,7 +217,7 @@ const ProductsScrolling = () => {
       <Slider {...settings} className="px-2">
         {accessoriesItems.map((item, index) => (
           <div
-            className="relative group border-2 rounded-xl flex-shrink-0 w-64 h-64"
+            className="relative group border-2 rounded-xl flex-shrink-0 w-64 xl:h-64 sm:h-[400px]"
             key={index}
           >
             {/* Main Image */}
@@ -217,14 +235,17 @@ const ProductsScrolling = () => {
             />
 
             {/* Know More Text */}
+            <Link to="product-details/aloevera-fibre">
             <div className="absolute inset-0 flex items-end justify-center text-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
               <span className="text-white bg-black bg-opacity-50 px-2 py-2 rounded-lg w-full justify-center items-center">
                 Know More
               </span>
             </div>
+            </Link>
           </div>
         ))}
       </Slider>
+      </div>
     </div>
   );
 };

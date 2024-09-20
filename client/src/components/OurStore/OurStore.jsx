@@ -2,14 +2,14 @@ import React from "react";
 
  const Ourstore = () => {
   return (
-    <div className="ourstore-container">
-      <div className=" poppins-medium xl:text-3xl xl:flex xl:justify-center xl:ml-0 xl:p-8 xl:underline sm:text-xl sm:flex sm:justify-center sm:mt-10 sm:p-5 sm:ml-40 sm:underline">
+    <div className="ourstore-container  xl:justify-center sm:grid sm:justify-center   xl:w-full sm:w-[158%]">
+      <div className=" poppins-medium xl:text-3xl xl:flex xl:justify-center xl:ml-0 xl:p-8 xl:underline sm:text-2xl sm:flex sm:justify-center sm:mt-10 sm:p-5  sm:underline">
         OUR STORES
     
       </div>
      
       
-      <div className="xl:grid xl:grid-cols-2 xl:gap-8 xl:px-10 xl:w-full  sm:w-[140%] sm:px-10 sm:grid sm:gap-8 ">
+      <div className="xl:grid xl:grid-cols-2 xl:gap-8 xl:px-10 xl:w-full  sm:w-[100%] sm:px-10 sm:grid sm:gap-8 sm:justify-center ">
          {/* Store 1 */}
         <div className="rounded-2xl border-2 shadow opacity-1 pt-10 items-center justify-between p-6 w-full h-auto relative bg-slate-100">
           <div className="address p-4 py-0">

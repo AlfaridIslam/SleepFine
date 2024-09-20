@@ -6,7 +6,7 @@ import Testimonial from "../components/Testimonials/Testimonial";
 import Footer from "../components/Footer/Footer";
 import Section3 from "../components/Section3/Section3";
 import { Updates } from "../components/Updates/Updates";
-// import ProductsScrolling from "../components/ProductsScrolling/ProductsScrolling";
+import ProductsScrolling from "../components/ProductsScrolling/ProductsScrolling";
 
 
 const Home = () => {
@@ -18,7 +18,7 @@ const Home = () => {
       {/* <Section3 /> */}
       <Section2 />
 
-      {/* <ProductsScrolling/> */}
+     <ProductsScrolling/> 
 
       
       <Testimonial /> 
