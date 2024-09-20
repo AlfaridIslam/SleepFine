@@ -18,7 +18,11 @@ const Home = () => {
       {/* <Section3 /> */}
       <Section2 />
 
+
       <ProductsScrolling/>
+
+     <ProductsScrolling/> 
+
 
       
       <Testimonial /> 

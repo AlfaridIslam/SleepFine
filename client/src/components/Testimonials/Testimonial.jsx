@@ -87,7 +87,7 @@ function Testimonial() {
         <Slider {...settings}>
           {Tdata.map((item, index) => (
             <div className="px-3" key={index}>
-              <div className="review-card bg-white shadow-lg rounded-lg overflow-hidden xl:h-auto sm:h-[500px]">
+              <div className="review-card bg-white shadow-lg rounded-lg overflow-hidden xl:h-[500px] sm:h-[450px]">
                 <div className="bg-indigo-400 flex justify-center items-center h-56">
                   <img
                     src={imageMap[item.image]} // Use the mapped image
