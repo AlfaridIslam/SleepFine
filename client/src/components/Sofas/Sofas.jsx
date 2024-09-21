@@ -33,7 +33,7 @@ const Sofas = () => {
       SOFAS &#10097;
       {isDropdownOpen && (
         <div
-          className="xl:absolute xl:grid xl:-left-2 xl:bg-white xl:bg-opacity-50 xl:text-black xl:rounded-lg xl:shadow-lg  xl:mt-0 xl:font-bold xl:p-0 xl:w-[150px]"
+          className="xl:absolute xl:grid xl:-left-2 xl:bg-white  xl:text-black xl:rounded-lg xl:shadow-lg  xl:mt-0 xl:font-bold xl:p-0 xl:w-[150px]"
           onMouseEnter={() => setIsDropdownOpen(true)}
           onMouseLeave={() => setIsDropdownOpen(false)}
         >

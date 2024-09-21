@@ -33,7 +33,7 @@ const Accessories = () => {
       ACCESSORIES &#10097;
       {isDropdownOpen && (
         <div
-          className="xl:absolute xl:grid xl:-left-2 xl:bg-white xl:bg-opacity-50 xl:text-black xl:rounded-lg xl:shadow-lg  xl:mt-0 xl:font-bold xl:p-0 xl:w-[180px]"
+          className="xl:absolute xl:grid xl:-left-2 xl:bg-white  xl:text-black xl:rounded-lg xl:shadow-lg  xl:mt-0 xl:font-bold xl:p-0 xl:w-[150px]"
           onMouseEnter={() => setIsDropdownOpen(true)}
           onMouseLeave={() => setIsDropdownOpen(false)}
         >
@@ -47,7 +47,7 @@ const Accessories = () => {
           >
             Mattress Protector
             {hoveredCategory === "Mattress Protector Collection" && (
-              <div className="xl:absolute xl:left-[180px] xl:-mt-[45px]  xl:w-40   xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50 ">
+              <div className="xl:absolute xl:left-[145px] xl:-mt-[40px]  xl:w-40   xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50 bg-white">
                 <div className="px-4 py-2 hover:bg-indigo-100">
                 <Link
                               to="product-details/Baffle-Box"
@@ -79,8 +79,8 @@ const Accessories = () => {
           >
             Pillows
             {hoveredCategory === "Accessories Pillow Collection" && (
-              <div className="xl:absolute xl:left-[180px] xl:-mt-[45px] xl:w-44 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50">
-                <div className="px-4 py-2 hover:bg-indigo-100">
+              <div className="xl:absolute xl:left-[150px] xl:-mt-[45px] xl:w-40 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50">
+                <div className="px-2 py-2 hover:bg-indigo-100">
                 <Link
                               to="product-details/memory-foam"
                               className="px-4 py-2 hover:bg-indigo-100"
@@ -88,7 +88,7 @@ const Accessories = () => {
                               Memory Foam
                             </Link>
                 </div>
-                <div className="px-4 py-2 hover:bg-indigo-100">
+                <div className="px-2 py-2 hover:bg-indigo-100">
                 <Link
                               to="product-details/latex"
                               className="px-4 py-2 hover:bg-indigo-100"
@@ -96,7 +96,7 @@ const Accessories = () => {
                               Latex
                             </Link>
                 </div>
-                <div className="px-4 py-2 hover:bg-indigo-100">
+                <div className="px-2 py-2 hover:bg-indigo-100">
                 <Link
                               to="product-details/plush-foam"
                               className="px-4 py-2 hover:bg-indigo-100"
@@ -104,7 +104,7 @@ const Accessories = () => {
                               Plush Foam
                             </Link>
                 </div>
-                <div className="px-4 py-2 hover:bg-indigo-100">
+                <div className="px-2 py-2 hover:bg-indigo-100">
                 <Link
                               to="product-details/aloevera-fibre"
                               className="px-4 py-2 hover:bg-indigo-100"
@@ -112,7 +112,7 @@ const Accessories = () => {
                               Aloevera & Fibre
                             </Link>
                 </div>
-                <div className="px-4 py-2 hover:bg-indigo-100">
+                <div className="px-2 py-2 hover:bg-indigo-100">
                 <Link
                               to="product-details/PolyFibre-Textile"
                               className="px-4 py-2 hover:bg-indigo-100"
