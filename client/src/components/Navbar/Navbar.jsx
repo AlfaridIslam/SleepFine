@@ -54,7 +54,7 @@ const Navbar = () => {
     <div>
       <div
         className="xl:flex xl:border-b-[2px] xl:justify-end xl:gap-10 xl:p-2 xl:text-base xl:w-full xl:bg-white
-  sm:flex sm:justify-center sm:text-3xl sm:gap-20 sm:bg-amber-300 sm:w-[158%] sm:p-4"
+  sm:flex sm:justify-center sm:text-3xl sm:gap-20 sm:bg-amber-300 sm:w-[166%] sm:p-4"
       >
         <div>
           <FontAwesomeIcon icon={faPhone} className="mt-1 pr-2" />
@@ -77,7 +77,7 @@ const Navbar = () => {
         {/* _________Logo-Image ________*/}
         <div
           onClick={barsOpenHandler}
-          className="xl:hidden sm:flex sm:p-4 sm:ml-14 "
+          className="xl:hidden sm:flex sm:p-4 sm:ml-[4.5rem] "
         >
           <FontAwesomeIcon icon={faBars} className="sm:h-10 sm:ml-2 sm:mt-2" />
         </div>
@@ -102,21 +102,21 @@ const Navbar = () => {
             <Link to="/">HOME</Link>
           </div>
           <div className=" underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
-            <Mattress/>
+            <Mattress />
           </div>
           <div className=" xl:-pt-10 relative underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
-          <Beds/>
+            <Beds />
           </div>
           <div className=" underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
-           <Sofas/>
+            <Sofas />
           </div>
           <div className=" underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
-          <Accessories/>
+            <Accessories />
           </div>
           <div className="underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
             <Link to="/ourstores">OUR-STORES</Link>
           </div>
-        
+
           {/* <div
             className="relative underline decoration-transparent transition duration-100 ease-in-out hover:decoration-current"
             onMouseEnter={() => setIsProductsDropdownOpen(true)}
@@ -125,9 +125,8 @@ const Navbar = () => {
             onDoubleClick={() => !setIsProductsDropdownOpen(false)}
           >
             PRODUCTS &#10097; */}
-            
-          
-            {/* PRODUCTS &#10097;
+
+          {/* PRODUCTS &#10097;
 >>>>>>> origin/sreenivas-feature
             {isProductsDropdownOpen && (
               <div
@@ -136,10 +135,10 @@ const Navbar = () => {
                 onMouseLeave={() => setIsProductsDropdownOpen(false)}
                 onClick={() => setIsProductsDropdownOpen(true)}
                 onDoubleClick={() => setIsProductsDropdownOpen(false)} */}
-              {/* > */}
-                
-                {/* MATTRESS Dropdown */}
-                {/* <div
+          {/* > */}
+
+          {/* MATTRESS Dropdown */}
+          {/* <div
                   className={`px-4 py-2 rounded-lg hover:bg-slate-50 hover:text-black ${
                     hoveredCategory === "Medical Rebounded Mattresses"
                       ? "bg-blue-700"
@@ -154,7 +153,7 @@ const Navbar = () => {
                   {hoveredCategory === "Medical Rebounded Mattresses" && (
                     <div className="xl:absolute xl:-left-1 xl:mt-[9px] xl:w-60 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium ">
                       {/* Orthopedic Bonded Collection */}
-                      {/* <div
+          {/* <div
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
                           handleMouseEnterSubCategory(
@@ -207,8 +206,8 @@ const Navbar = () => {
                         )}
                       </div> */}
 
-                      {/* Ortho Bonell Spring Collection */}
-                      {/* <div
+          {/* Ortho Bonell Spring Collection */}
+          {/* <div
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
                           handleMouseEnterSubCategory(
@@ -267,8 +266,8 @@ const Navbar = () => {
                         )}
                       </div> */}
 
-                      {/* Pocketed Spring Collection */}
-                      {/* <div
+          {/* Pocketed Spring Collection */}
+          {/* <div
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
                           handleMouseEnterSubCategory(
@@ -309,8 +308,8 @@ const Navbar = () => {
                         )}
                       </div> */}
 
-                      {/* HR-PU Foam Collection */}
-                      {/* <div
+          {/* HR-PU Foam Collection */}
+          {/* <div
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
                           handleMouseEnterSubCategory("HR-PU Foam Collection")
@@ -347,12 +346,12 @@ const Navbar = () => {
                           </div>
                         )}
                       </div> */}
-                    {/* </div>
+          {/* </div>
                   )}
                 </div> } */}
 
-                {/* BEDS Dropdown */}
-                {/* <div
+          {/* BEDS Dropdown */}
+          {/* <div
                   className={`px-4 py-2 rounded-lg hover:bg-slate-50 hover:text-black ${
                     hoveredCategory === "Beds" ? "bg-blue-700" : ""
                   }`}
@@ -433,8 +432,8 @@ const Navbar = () => {
                     </div>
                   )}
                 </div> */}
-                {/* SOFAS Dropdown */}
-               {/* <div 
+          {/* SOFAS Dropdown */}
+          {/* <div 
                   className={`px-4 py-2 rounded-lg hover:bg-slate-50 hover:text-black ${
                     hoveredCategory === "Sofas" ? "bg-blue-700" : ""
                   }`}
@@ -445,7 +444,7 @@ const Navbar = () => {
                   {hoveredCategory === "Sofas" && (
                     <div className="xl:absolute xl:left-[9rem] xl:w-60 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:font-medium">
                       {/* Standard-Sofa */}
-                      {/* <div
+          {/* <div
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
                           handleMouseEnterSubCategory("Standard Sofa")
@@ -473,12 +472,12 @@ const Navbar = () => {
                             >
                               Tuxedo
                             </Link> */}
-                            {/* Add other links here */}
-                          {/* </div>
+          {/* Add other links here */}
+          {/* </div>
                         )}
                       </div> */}
-                      {/* Add other subcategories here */}
-                      {/* <div
+          {/* Add other subcategories here */}
+          {/* <div
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
                           handleMouseEnterSubCategory("Sectional Sofa")
@@ -511,20 +510,20 @@ const Navbar = () => {
                       </div>
                     </div>
                   )}
-                </div> */} 
-                {/* Accessories Dropdown */}
-                {/* <div
+                </div> */}
+          {/* Accessories Dropdown */}
+          {/* <div
                   className={`px-4 py-2 rounded-lg hover:bg-white hover:text-black ${
                     hoveredCategory === "Accessories" ? "bg-blue-700" : ""
                   }`}
                   onMouseEnter={() => handleMouseEnterCategory("Accessories")}
                   onMouseLeave={handleMouseLeaveCategory} */}
-                {/* > */}
-                  {/* ACCESSORIES
+          {/* > */}
+          {/* ACCESSORIES
                   {hoveredCategory === "Accessories" && (
                     <div className="xl:absolute xl:left-[14.75rem] xl:mt-[9px] xl:w-[8rem] xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium ">
                       {/* Sectional Sofa */}
-                      {/* <div
+          {/* <div
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
                           handleMouseEnterSubCategory("Comforters")
@@ -549,8 +548,8 @@ const Navbar = () => {
                           </div>
                         )}
                       </div>  */}
-                      {/* Add other subcategories here */}
-                      {/* <div
+          {/* Add other subcategories here */}
+          {/* <div
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
                           handleMouseEnterSubCategory("Pillows")
@@ -596,14 +595,14 @@ const Navbar = () => {
                     </div>
                   )}
                 </div> */}
-              {/* </div> */}
-            {/* )} */}
           {/* </div> */}
-           {/* <div className="underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
+          {/* )} */}
+          {/* </div> */}
+          {/* <div className="underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
             <Link to=" /Mattress">Mattress</Link>
           </div>        {/* <div className="underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current"> */}
-            {/* <Link to="/updates">NEWS & UPDATES</Link>
-          </div> */} 
+          {/* <Link to="/updates">NEWS & UPDATES</Link>
+          </div> */}
           {/* <div className="underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
             <Link to="/ourstores">OUR-STORES</Link>
           </div> */}

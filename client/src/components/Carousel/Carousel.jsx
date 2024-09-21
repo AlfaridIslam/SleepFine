@@ -45,7 +45,7 @@ const Carousel = () => {
   return (
     <div className="relative xl:w-full xl:h-[550px] sm:w-full sm:h-[550px]">
       <div
-        className="relative xl:w-[100%] sm:w-[158%] sm:h-full bg-gray-200"
+        className="relative xl:w-[100%] sm:w-[166%] sm:h-full bg-gray-200"
         style={{
           backgroundImage: `url(${slides[currentIndex].image})`,
           backgroundSize: "cover",
