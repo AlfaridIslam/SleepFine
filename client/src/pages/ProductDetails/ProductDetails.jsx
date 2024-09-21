@@ -1600,16 +1600,11 @@ const ProductDetails = () => {
         BACK
       </Link>
       <div className="product-details-container sm:mt-[72px] sm:w-[100%] p-6 flex gap-8 relative xl:mt-10 flex-col sm:flex-col xl:flex-row">
-
-
         {/* Main image and carousel controls */}
         <div className="flex-1">
           {productInfo.images.length > 0 ? (
             <>
-
-              <div className="main-image relative mb-4 xl:w-[100%] xl:h-[380px] sm:ml-[53px] sm:w-[143%]">
-
- 
+              <div className="main-image relative mb-4 xl:w-[100%] xl:h-[380px] sm:ml-[12px] sm:w-[143%]">
                 <img
                   src={productInfo.images[currentImageIndex]}
                   alt="Main product"
@@ -1624,10 +1619,7 @@ const ProductDetails = () => {
                 </button>
                 <button
                   onClick={handleNextClick}
-
                   className="absolute top-1/2 right-[25rem] sm:hidden transform -translate-y-1/2 text-black text-7xl p-2 rounded-full hover:bg-blue-300 h-20"
-
-
                 >
                   <div className="-mt-5"> &#8250;</div>
                 </button>
@@ -1638,10 +1630,7 @@ const ProductDetails = () => {
                     key={index}
                     src={image}
                     alt={`Thumbnail ${index}`}
-
                     className={`cursor-pointer sm:w-[70px] sm:h-[100px] sm:ml-[13px] xl:w-[80px]  xl:h-[80px] xl:ml-5  rounded-xl ${
-
-
                       index === currentImageIndex
                         ? "border-2 border-blue-500"
                         : ""
