@@ -150,7 +150,7 @@ const ProductsScrolling = () => {
             />
 
             {/* Know More Text */}
-            <Link to='product-details/Murphy-Bed'>
+            <Link to='product-details/king-with-storage'>
             <div className="absolute inset-0 flex items-end justify-center text-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
               <span className="text-white bg-black bg-opacity-50 px-2 py-2 rounded-lg w-full justify-center items-center">
                
