@@ -1607,13 +1607,13 @@ const ProductDetails = () => {
           {productInfo.images.length > 0 ? (
             <>
 
-              <div className="main-image relative mb-4 sm:ml-[53px] sm:w-[143%]">
+              <div className="main-image relative mb-4 xl:w-[100%] xl:h-[380px] sm:ml-[53px] sm:w-[143%]">
 
  
                 <img
                   src={productInfo.images[currentImageIndex]}
                   alt="Main product"
-                  className=" sm:w-[540px] sm:h-[412px] xl:w-[645px] xl:h-[500px] rounded-xl border-2 border-slate-300 bg-slate-400"
+                  className=" sm:w-[540px] sm:h-[412px] xl:w-[645px] xl:h-[378px] rounded-xl border-2 border-slate-300 bg-slate-400"
                 />
                 {/* Carousel navigation buttons */}
                 <button
