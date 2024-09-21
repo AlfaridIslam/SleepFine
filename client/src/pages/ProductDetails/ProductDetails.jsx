@@ -1303,7 +1303,7 @@ const productData = {
 
   // ACCESSORIES
   // COMFORTERS
-  "baffle-box": {
+  "protector": {
     images: [
       BaffelBox,
       StandardPillow,

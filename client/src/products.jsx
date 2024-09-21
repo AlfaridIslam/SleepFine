@@ -468,7 +468,7 @@ const products = [
         subitems: [
           {
             id: 4011,
-            name: "Baffle-Box",
+            name: "protector",
             image: BaffelBox, // Using existing image as dummy
           },
           {
