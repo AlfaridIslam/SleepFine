@@ -13,10 +13,15 @@ import {
 
 const Footer = () => {
   return (
+
     <div className=' fotter-main-sec bg-black xl:w-full sm:w-[166%] text-white '>
 
 
 <div className="fotter-text-sec sm:px-[] sm:grid sm:grid-cols-2 sm:gap-4 xl:flex gap-4 justify-between items-stretch px-10 xl:h-[380px] mt-4">
+
+
+
+
   {/* ---------OUR PROMISE (span 2 columns in small screens)-------------- */}
   <div className="sm:col-span-2 flex-1 p-4 rounded-lg">
     <h1 className="text-lg font-normal mb-2">OUR PROMISE</h1>

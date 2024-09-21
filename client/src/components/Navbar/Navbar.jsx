@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 
-import Mattress from '../Mattress/Mattress.jsx';
-import Beds from '../Beds/Beds.jsx';
+import Mattress from "../Mattress/Mattress.jsx";
+import Beds from "../Beds/Beds.jsx";
 import Sofas from "../Sofas/Sofas.jsx";
 
-import Accessories from '../Accessories/Accessories.jsx';
+import Accessories from "../Accessories/Accessories.jsx";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -14,7 +14,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { Link, useLocation } from "react-router-dom";
 import logo from "../../assets/sleepfinelogo-3.png";
-
 
 const Navbar = () => {
   const [isProductsDropdownOpen, setIsProductsDropdownOpen] = useState(false);
@@ -127,7 +126,12 @@ const Navbar = () => {
             PRODUCTS &#10097; */}
 
           {/* PRODUCTS &#10097;
->>>>>>> origin/sreenivas-feature
+
+            
+          
+            {/* PRODUCTS &#10097;
+
+e
             {isProductsDropdownOpen && (
               <div
                 className="xl:absolute xl:flex xl:-left-2 xl:bg-black xl:bg-opacity-50 xl:text-white xl:rounded-lg xl:shadow-lg xl:z-50 xl:mt-2 xl:font-bold xl:p-2"
@@ -135,10 +139,17 @@ const Navbar = () => {
                 onMouseLeave={() => setIsProductsDropdownOpen(false)}
                 onClick={() => setIsProductsDropdownOpen(true)}
                 onDoubleClick={() => setIsProductsDropdownOpen(false)} */}
+
           {/* > */}
 
           {/* MATTRESS Dropdown */}
           {/* <div
+
+              {/* > */}
+
+          {/* MATTRESS Dropdown */}
+          {/* <div
+
                   className={`px-4 py-2 rounded-lg hover:bg-slate-50 hover:text-black ${
                     hoveredCategory === "Medical Rebounded Mattresses"
                       ? "bg-blue-700"
@@ -153,7 +164,11 @@ const Navbar = () => {
                   {hoveredCategory === "Medical Rebounded Mattresses" && (
                     <div className="xl:absolute xl:-left-1 xl:mt-[9px] xl:w-60 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium ">
                       {/* Orthopedic Bonded Collection */}
+
           {/* <div
+
+                      {/* <div
+
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
                           handleMouseEnterSubCategory(
@@ -208,6 +223,10 @@ const Navbar = () => {
 
           {/* Ortho Bonell Spring Collection */}
           {/* <div
+
+                      {/* Ortho Bonell Spring Collection */}
+          {/* <div
+
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
                           handleMouseEnterSubCategory(
@@ -268,6 +287,10 @@ const Navbar = () => {
 
           {/* Pocketed Spring Collection */}
           {/* <div
+
+                      {/* Pocketed Spring Collection */}
+          {/* <div
+
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
                           handleMouseEnterSubCategory(
@@ -310,6 +333,10 @@ const Navbar = () => {
 
           {/* HR-PU Foam Collection */}
           {/* <div
+
+                      {/* HR-PU Foam Collection */}
+          {/* <div
+
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
                           handleMouseEnterSubCategory("HR-PU Foam Collection")
@@ -346,12 +373,21 @@ const Navbar = () => {
                           </div>
                         )}
                       </div> */}
+
           {/* </div>
                   )}
                 </div> } */}
 
           {/* BEDS Dropdown */}
           {/* <div
+
+                    {/* </div>
+                  )}
+                </div> } */}
+
+          {/* BEDS Dropdown */}
+          {/* <div
+
                   className={`px-4 py-2 rounded-lg hover:bg-slate-50 hover:text-black ${
                     hoveredCategory === "Beds" ? "bg-blue-700" : ""
                   }`}
@@ -432,8 +468,12 @@ const Navbar = () => {
                     </div>
                   )}
                 </div> */}
+
           {/* SOFAS Dropdown */}
           {/* <div 
+                {/* SOFAS Dropdown */}
+          {/* <div 
+
                   className={`px-4 py-2 rounded-lg hover:bg-slate-50 hover:text-black ${
                     hoveredCategory === "Sofas" ? "bg-blue-700" : ""
                   }`}
@@ -444,7 +484,11 @@ const Navbar = () => {
                   {hoveredCategory === "Sofas" && (
                     <div className="xl:absolute xl:left-[9rem] xl:w-60 xl:bg-white xl:shadow-lg xl:rounded-lg xl:pt-5 xl:font-medium">
                       {/* Standard-Sofa */}
+
           {/* <div
+
+                      {/* <div
+
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
                           handleMouseEnterSubCategory("Standard Sofa")
@@ -472,12 +516,21 @@ const Navbar = () => {
                             >
                               Tuxedo
                             </Link> */}
+
           {/* Add other links here */}
           {/* </div>
                         )}
                       </div> */}
           {/* Add other subcategories here */}
           {/* <div
+
+                            {/* Add other links here */}
+          {/* </div>
+                        )}
+                      </div> */}
+          {/* Add other subcategories here */}
+          {/* <div
+
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
                           handleMouseEnterSubCategory("Sectional Sofa")
@@ -510,20 +563,34 @@ const Navbar = () => {
                       </div>
                     </div>
                   )}
+
                 </div> */}
           {/* Accessories Dropdown */}
           {/* <div
+
+                </div> */}
+          {/* Accessories Dropdown */}
+          {/* <div
+
                   className={`px-4 py-2 rounded-lg hover:bg-white hover:text-black ${
                     hoveredCategory === "Accessories" ? "bg-blue-700" : ""
                   }`}
                   onMouseEnter={() => handleMouseEnterCategory("Accessories")}
                   onMouseLeave={handleMouseLeaveCategory} */}
+
           {/* > */}
           {/* ACCESSORIES
                   {hoveredCategory === "Accessories" && (
                     <div className="xl:absolute xl:left-[14.75rem] xl:mt-[9px] xl:w-[8rem] xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium ">
                       {/* Sectional Sofa */}
           {/* <div
+                {/* > */}
+          {/* ACCESSORIES
+                  {hoveredCategory === "Accessories" && (
+                    <div className="xl:absolute xl:left-[14.75rem] xl:mt-[9px] xl:w-[8rem] xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium ">
+                      {/* Sectional Sofa */}
+          {/* <div
+
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
                           handleMouseEnterSubCategory("Comforters")
@@ -548,8 +615,12 @@ const Navbar = () => {
                           </div>
                         )}
                       </div>  */}
+
           {/* Add other subcategories here */}
           {/* <div
+                      {/* Add other subcategories here */}
+          {/* <div
+
                         className="px-4 py-2 hover:bg-indigo-100"
                         onMouseEnter={() =>
                           handleMouseEnterSubCategory("Pillows")
@@ -595,6 +666,16 @@ const Navbar = () => {
                     </div>
                   )}
                 </div> */}
+
+          {/* </div> */}
+          {/* )} */}
+          {/* </div> */}
+          {/* <div className="underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
+            <Link to=" /Mattress">Mattress</Link>
+          </div>        {/* <div className="underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current"> */}
+          {/* <Link to="/updates">NEWS & UPDATES</Link>
+          </div> */}
+
           {/* </div> */}
           {/* )} */}
           {/* </div> */}
