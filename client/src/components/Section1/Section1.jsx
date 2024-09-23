@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import Logo from "../../assets/sleepfinelogo-3.png";
 import LogoImage from "../../assets/logo-image.png";
-import Ispflogo from '../../assets/ISPF LOGO.png';
+
+import Ispflogo2 from '../../assets/ISPFlogo2.jpg';
 import { Link } from "react-router-dom";
 import ceritificatesLogo from "../../assets/certificate-logos.png";
 const Section1 = () => {
@@ -21,12 +22,12 @@ const Section1 = () => {
       <div className="image ">
         {/* Adjust image size dynamically based on content visibility */}
         <img
-          src={Ispflogo}
+          src={Ispflogo2}
           alt="Image"
           className={`${
             showFullContent
-              ? "xl:w-[2600px] xl:h-[150px]"
-              : "xl:w-[3000px] xl:h-[150px]"
+              ? "xl:w-[2600px] xl:h-[160px]"
+              : "xl:w-[3000px] xl:h-[160px]"
           } transition-all duration-500`}
         />
       </div>

@@ -26,6 +26,7 @@ import {
   OrthopedicAloeveraMemory4,
   OrthopedicAloeveraMemory5,
   OrthopedicAloeveraMemory6,
+  //pufoam6
   SixinchPUFOAM1,
   SixinchPUFOAM2,
   SixinchPUFOAM3,
@@ -63,6 +64,37 @@ import {
   AmbitiousSleepingBanner3,
   RomanticBanner4,
   Orthospeci,
+  InsperationalPocketed1,
+  InsperationalPocketed2 ,
+  InsperationalPocketed3 ,
+  InsperationalPocketed4 ,
+  InsperationalPocketed5 ,
+  InsperationalPocketed6,
+
+  EternityEuroton1,
+  EternityEuroton3,
+  EternityEuroton2,
+  EternityEuroton4,
+  EternityEuroton5,
+
+  Memofy1,
+  Memofy2,
+  Memofy3,
+//------------------------------------------------------------------
+  //beds
+  //kingsize bed--------------------
+  kingsizebed1,
+  kingsizebed2,
+  kingsizebed3,
+  kingsizebed4,
+
+  //queen size
+  queensizebed1,
+  queensizebed2,
+  queensizebed3,
+  queensizebed4,
+
+
   //Sofas
   //Standard-sofa
   chesterfield1,
@@ -117,6 +149,10 @@ import {
   LatexPillow2,
   LatexPillow3,
   LatexPillow4,
+  Foampillow1,
+  Foampillow2,
+  Foampillow3,
+  Foampillow4,
   AloveraPolyfiberPillow1,
   AloveraPolyfiberPillow2,
   AloveraPolyfiberPillow3,
@@ -133,7 +169,7 @@ const productData = {
       chesterfield2,
       chesterfield3,
       chesterfield4,
-      ChesterfieldSofa,
+      
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
@@ -164,7 +200,7 @@ const productData = {
   `,
   },
   lawson: {
-    images: [Lawson1, Lawson2, Lawson3, Lawson4, LawsonSofa], // Assuming images are not uploaded yet
+    images: [Lawson1, Lawson2,Lawson3,Lawson4, ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">lawson</div>
@@ -194,7 +230,7 @@ const productData = {
   `,
   },
   tuxedo: {
-    images: [Tuxedo1, Tuxedo2, Tuxedo3, Tuxedo4], // Replace these with actual King Size Bed images
+    images: [Tuxedo1, Tuxedo2, Tuxedo3,Tuxedo4,], // Replace these with actual King Size Bed images
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Tuxedo</div>
@@ -226,7 +262,7 @@ const productData = {
 
   // SECTIONAL SOFA
   "l-shaped": {
-    images: [LshapedSofa1, LshapedSofa2, LshapedSofa3, LshapedSofa4], // Assuming images are not uploaded yet
+    images: [LshapedSofa1, LshapedSofa2, LshapedSofa3,LshapedSofa4, ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">l shaped</div>
@@ -256,7 +292,7 @@ const productData = {
   `,
   },
   "u-shaped": {
-    images: [UshapedSofa1, UshapedSofa2, UshapedSofa3, UshapedSofa4], // Assuming images are not uploaded yet
+    images: [UshapedSofa1, UshapedSofa2, UshapedSofa3,UshapedSofa4,], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">U shaped</div>
@@ -287,10 +323,11 @@ const productData = {
   },
   modular: {
     images: [
-      EightinchPUFOAM1,
-      EightinchPUFOAM2,
-      EightinchPUFOAM3,
-      EightinchPUFOAM4,
+      ModularSofa1,
+      ModularSofa2,
+      ModularSofa3,
+      ModularSofa4,
+      
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
@@ -323,10 +360,10 @@ const productData = {
 
   "l-shaped-sofa-cumbed": {
     images: [
-      EightinchPUFOAM2,
-      EightinchPUFOAM2,
-      EightinchPUFOAM2,
-      EightinchPUFOAM2,
+      Lshapedsofacumbed1,
+      Lshapedsofacumbed2,
+      Lshapedsofacumbed3,
+      Lshapedsofacumbed4,
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
@@ -358,7 +395,10 @@ const productData = {
   },
 
   "u-shaped-sofa-cumbed": {
-    images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM3, SixinchPUFOAM4], // Replace these with actual Queen Size Bed images
+    images: [ushapedsofacumbed1,
+      ushapedsofacumbed2,
+      ushapedsofacumbed3,
+      ushapedsofacumbed4,], // Replace these with actual Queen Size Bed images
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">U shaped sofa cum bed</div>
@@ -391,7 +431,11 @@ const productData = {
   // BEDS
   // KING-SIZE-BEDS
   "king-with-storage": {
-    images: [Buckingham3, Buckingham4, Buckingham5, Buckingham6], // Assuming images are not uploaded yet
+    images: [kingsizebed1,
+      kingsizebed2,
+      kingsizebed3,
+      kingsizebed4,
+     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">King with storage</div>
@@ -422,10 +466,11 @@ const productData = {
   },
   "king-without-storage": {
     images: [
-      OrthopedicAloeveraMemory3,
-      OrthopedicAloeveraMemory4,
-      OrthopedicAloeveraMemory5,
-      OrthopedicAloeveraMemory6,
+      kingsizebed1,
+      kingsizebed2,
+      kingsizebed3,
+      kingsizebed4,
+      
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
@@ -519,10 +564,10 @@ const productData = {
   // QUEEN SIZE BEDS
   "queen-with-storage": {
     images: [
-      EightinchPUFOAM1,
-      EightinchPUFOAM2,
-      EightinchPUFOAM3,
-      EightinchPUFOAM4,
+      queensizebed1,
+      queensizebed2,
+      queensizebed3,
+      queensizebed4,
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
@@ -554,10 +599,10 @@ const productData = {
   },
   "queen-without-storage": {
     images: [
-      EightinchPUFOAM1,
-      EightinchPUFOAM2,
-      EightinchPUFOAM3,
-      EightinchPUFOAM4,
+      queensizebed1,
+      queensizebed2,
+      queensizebed3,
+      queensizebed4,
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
@@ -666,8 +711,8 @@ const productData = {
       OrthomedBanner,
       ORTRHOMED1,
       ORTRHOMED2,
-      ORTRHOMED3,
-      ORTRHOMED4,
+      ORTRHOMED6,
+     
       Orthospeci,
     ],
     description: `
@@ -700,7 +745,7 @@ const productData = {
   },
 
   preference: {
-    images: [Preference1, Preference2, Preference3, Preference4], // Assuming images are not uploaded yet
+    images: [Preference1, Preference2, Preference6, ], // Assuming images are not uploaded yet
     description: `
     <div class="text-xl font-semibold my-[6px]">The Preference Orthomed </div>
     This mattress is designed for optimal orthopedic support and comfort. It features a high-density rebounded foam core that evenly distributes body weight, reducing pressure on joints and providing spinal alignment. 
@@ -728,7 +773,7 @@ const productData = {
   `,
   },
   buckingham: {
-    images: [Buckingham1, Buckingham2, Buckingham3, Buckingham4], // Assuming images are not uploaded yet
+    images: [Buckingham1, Buckingham2, Buckingham5,], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Buckinghum</div>
@@ -758,7 +803,7 @@ const productData = {
   `,
   },
   "orthopedic-aloe-vera-latex": {
-    images: [AloveraBonnel1, AloveraBonnel2, AloveraBonnel3, AloveraBonnel4], // Assuming images are not uploaded yet
+    images: [AloveraBonnel1, AloveraBonnel2, AloveraBonnel3, ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Orthopedic aloe vera latex</div>
@@ -791,7 +836,6 @@ const productData = {
     images: [
       OrthopedicAloeveraMemory1,
       OrthopedicAloeveraMemory2,
-      OrthopedicAloeveraMemory3,
       OrthopedicAloeveraMemory6,
     ], // Assuming images are not uploaded yet
     description: `
@@ -821,7 +865,7 @@ const productData = {
   `,
   },
   memofy: {
-    images: [oxford1, oxford2, oxford3, oxford4], // Assuming images are not uploaded yet
+    images: [Memofy1,Memofy2,Memofy3], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Orthopedic aloe vera memory</div>
@@ -852,10 +896,7 @@ const productData = {
   },
   oxford: {
     images: [
-      EightinchPUFOAM1,
-      EightinchPUFOAM2,
-      EightinchPUFOAM3,
-      EightinchPUFOAM4,
+      oxford1, oxford2, oxford6, 
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
@@ -922,10 +963,10 @@ const productData = {
   },
   "love-land-pillow-top": {
     images: [
-      EightinchPUFOAM1,
-      EightinchPUFOAM2,
-      EightinchPUFOAM3,
-      EightinchPUFOAM4,
+      Loveland1,
+      Loveland2,
+      Loveland6,
+      
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
@@ -956,7 +997,7 @@ const productData = {
   `,
   },
   "romantic-euroton": {
-    images: [Romanticfirm1, Romanticfirm2, Romanticfirm4, Romanticfirm6], // Assuming images are not uploaded yet
+    images: [Romanticfirm1, Romanticfirm2, Romanticfirm6], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Romantic Euroton</div>
@@ -986,7 +1027,7 @@ const productData = {
   `,
   },
   "ortho-bonnell-aloe-vera-with-latex": {
-    images: [AloveraBonnel1, AloveraBonnel2, AloveraBonnel3, AloveraBonnel4], // Assuming images are not uploaded yet
+    images: [AloveraBonnel1, AloveraBonnel2, AloveraBonnel3,], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Orthobonell aloe vera latex</div>
@@ -1019,8 +1060,8 @@ const productData = {
     images: [
       OrthopedicAloeveraMemory1,
       OrthopedicAloeveraMemory2,
-      OrthopedicAloeveraMemory3,
-      OrthopedicAloeveraMemory4,
+      OrthopedicAloeveraMemory6,
+      
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
@@ -1052,10 +1093,11 @@ const productData = {
   },
   "pocketed-spring-inspiration": {
     images: [
-      EightinchPUFOAM1,
-      EightinchPUFOAM2,
-      EightinchPUFOAM3,
-      EightinchPUFOAM4,
+      InsperationalPocketed1,
+      InsperationalPocketed2,
+      InsperationalPocketed6,
+      
+      
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
@@ -1086,7 +1128,9 @@ const productData = {
   `,
   },
   "pocketed-spring-6inch-eternity-euroton": {
-    images: [Buckingham1, Buckingham2, Buckingham3, Buckingham4], // Assuming images are not uploaded yet
+    images: [EternityEuroton1,EternityEuroton2,
+      EternityEuroton3,
+     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">pocketed spring 6 inch eternity euroton</div>
@@ -1116,7 +1160,7 @@ const productData = {
   `,
   },
   "pocketed-spring-aloe-vera-with-latex": {
-    images: [AloveraBonnel1, AloveraBonnel2, AloveraBonnel3, AloveraBonnel4], // Assuming images are not uploaded yet
+    images: [AloveraBonnel1, AloveraBonnel2, AloveraBonnel3, ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Pocketed spring aloe vera with latex</div>
@@ -1149,8 +1193,8 @@ const productData = {
     images: [
       OrthopedicAloeveraMemory1,
       OrthopedicAloeveraMemory2,
-      OrthopedicAloeveraMemory3,
-      OrthopedicAloeveraMemory4,
+      OrthopedicAloeveraMemory6,
+      
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
@@ -1181,7 +1225,7 @@ const productData = {
   `,
   },
   "hr-pu-gravity": {
-    images: [Buckingham1, Buckingham2, Buckingham3, Buckingham4], // Assuming images are not uploaded yet
+    images: [ SixinchPUFOAM1,SixinchPUFOAM2,SixinchPUFOAM5,], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">HR PU gravity</div>
@@ -1211,7 +1255,7 @@ const productData = {
   `,
   },
   "hr-pu-space": {
-    images: [Buckingham1, Buckingham2, Buckingham3, Buckingham4], // Assuming images are not uploaded yet
+    images: [SixinchPUFOAM1,SixinchPUFOAM2,SixinchPUFOAM5,], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">HR PU space</div>
@@ -1241,7 +1285,7 @@ const productData = {
   `,
   },
   "hr-pu-plush": {
-    images: [Buckingham1, Buckingham2, Buckingham3, Buckingham4], // Assuming images are not uploaded yet
+    images: [SixinchPUFOAM1,SixinchPUFOAM2,SixinchPUFOAM5,], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">HR PU Plush</div>
@@ -1271,7 +1315,7 @@ const productData = {
   `,
   },
   "hr-pu-techniko": {
-    images: [Buckingham1, Buckingham2, Buckingham3, Buckingham4], // Assuming images are not uploaded yet
+    images: [SixinchPUFOAM1,SixinchPUFOAM2,SixinchPUFOAM5,], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">HR PU Techniko</div>
@@ -1303,17 +1347,14 @@ const productData = {
 
   // ACCESSORIES
   // COMFORTERS
-  "baffle-box": {
+  "protector": {
     images: [
       BaffelBox,
-      StandardPillow,
-      MemoryfoamPillow1,
-      MemoryfoamPillow2,
-      MemoryfoamPillow3,
+      SewnThrough,
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Baffle Box</div>
+    <div class="text-xl font-semibold my-[6px]">Protector</div>
     <h2 class=" font-bold">Rebonded Foam</h2>
     This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
     <h2 class="font-bold">Orthopedic Support</h2>
@@ -1377,7 +1418,7 @@ const productData = {
   },
 
   // pillows
-  "memory-foam": {
+  "memory-pillow": {
     images: [
       MemoryfoamPillow1,
       MemoryfoamPillow2,
@@ -1386,7 +1427,7 @@ const productData = {
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Memory foam</div>
+    <div class="text-xl font-semibold my-[6px]">Memory Pillow</div>
     <h2 class=" font-bold">Rebonded Foam</h2>
     This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
     <h2 class="font-bold">Orthopedic Support</h2>
@@ -1412,11 +1453,11 @@ const productData = {
     </div>
   `,
   },
-  latex: {
+  latexpillow: {
     images: [LatexPillow1, LatexPillow2, LatexPillow3, LatexPillow4], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Latex</div>
+    <div class="text-xl font-semibold my-[6px]">Latex Pillow</div>
     <h2 class=" font-bold">Rebonded Foam</h2>
     This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
     <h2 class="font-bold">Orthopedic Support</h2>
@@ -1442,17 +1483,16 @@ const productData = {
     </div>
   `,
   },
-  "plush-foam": {
+  "foam-pillow": {
     images: [
-      BaffelBox,
-      StandardPillow,
-      MemoryfoamPillow1,
-      MemoryfoamPillow2,
-      MemoryfoamPillow3,
+      Foampillow1,
+      Foampillow2,
+      Foampillow3,
+      Foampillow4,
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Plush Foam</div>
+    <div class="text-xl font-semibold my-[6px]">Foam Pillow</div>
     <h2 class=" font-bold">Rebonded Foam</h2>
     This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
     <h2 class="font-bold">Orthopedic Support</h2>
@@ -1478,16 +1518,16 @@ const productData = {
     </div>
   `,
   },
-  "aloevera-fibre": {
+  "poly-fibre-pillow": {
     images: [
       AloveraPolyfiberPillow1,
       AloveraPolyfiberPillow2,
       AloveraPolyfiberPillow3,
-      AloveraPolyfiberPillow4,
+      Foampillow4,
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Aloe vera fibre</div>
+    <div class="text-xl font-semibold my-[6px]">Poly Fibre Pillow</div>
     <h2 class=" font-bold">Rebonded Foam</h2>
     This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
     <h2 class="font-bold">Orthopedic Support</h2>
@@ -1613,13 +1653,13 @@ const ProductDetails = () => {
                 {/* Carousel navigation buttons */}
                 <button
                   onClick={handlePrevClick}
-                  className="absolute top-1/2 left-0 sm:hidden transform -translate-y-1/2 text-black text-7xl p-2 rounded-full hover:bg-blue-300 h-20"
+                  className="absolute top-1/2 left-0 xl:block sm:hidden transform -translate-y-1/2 text-black text-7xl p-2 rounded-full h-20"
                 >
                   <div className="-mt-5"> &#8249;</div>
                 </button>
                 <button
                   onClick={handleNextClick}
-                  className="absolute top-1/2 right-[25rem] sm:hidden transform -translate-y-1/2 text-black text-7xl p-2 rounded-full hover:bg-blue-300 h-20"
+                  className="absolute top-1/2 left-[550px] xl:block sm:hidden transform -translate-y-1/2 text-black text-7xl p-2 rounded-full h-20"
                 >
                   <div className="-mt-5"> &#8250;</div>
                 </button>
