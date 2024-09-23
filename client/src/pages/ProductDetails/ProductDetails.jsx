@@ -687,6 +687,10 @@ const productData = {
     <p>5 & 6 inches</p>
     </div>
     <div>
+    <h2 class="font-bold">Variant</h2>
+    <p>TT (Tight Top)</p>
+    </div>
+    <div>
     <h2 class="font-bold">Warranty</h2>
     <p>5 years</p>
     </div>
@@ -714,7 +718,11 @@ const productData = {
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
-    <p>5 & 6 inches</p>
+    <p>6 inches only</p>
+    </div>
+    <div>
+    <h2 class="font-bold">Variant</h2>
+    <p>EuroTop</p>
     </div>
     <div>
     <h2 class="font-bold">Warranty</h2>
@@ -743,15 +751,21 @@ const productData = {
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
-    <p>5 & 6 inches</p>
+    <p>8 & 10 inches only</p>
+    </div>
+    <div>
+    <div>
+    <h2 class="font-bold">Variant</h2>
+    <p>EuroTop</p>
+    </div>
     </div>
     <div>
     <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
+    <p>10 years</p>
     </div>
     <div>
     <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐</p>
+    <p>⭐⭐⭐⭐⭐</p>
     </div>
     </div>
     </div>
@@ -770,21 +784,30 @@ const productData = {
     Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
     <h2 class="font-bold">Breathability</h2>
     Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
-    <div class="flex justify-start mt-2 items-center gap-10">
-    <div class="flex-col">
+    </div>
+    <div class="description flex justify-start items-start gap-5 mt-2">
+  <div class="flex flex-col">
     <h2 class="font-bold">Height</h2>
-    <p>5 & 6 inches</p>
-    </div>
-    <div>
+    <p>6 ,8 & 10 inches only</p>
+  </div>
+
+  <div class="flex flex-col">
+    <h2 class="font-bold">Variant</h2>
+    <p>EuroTop</p>
+  </div>
+
+  <div class="flex flex-col">
     <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
-    </div>
-    <div>
+    <p>10 years for 8 & 10 inches</p>
+    <p>7 years for 6 inches</p>
+  </div>
+
+  <div class="flex flex-col">
     <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐</p>
-    </div>
-    </div>
-    </div>
+    <p>⭐⭐⭐⭐⭐</p>
+  </div>
+</div>
+
   `,
   },
   "orthopedic-aloe-vera-memory": {
@@ -795,7 +818,8 @@ const productData = {
       OrthopedicAloeveraMemory6,
     ], // Assuming images are not uploaded yet
     description: `
-    <div class="text-xl font-semibold my-[6px]">Orthopedic Aloe vera memory</div>
+    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="text-xl font-semibold my-[6px]">Orthopedic aloe vera memory</div>
     <h2 class=" font-bold">Rebonded Foam</h2>
     This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
     <h2 class="font-bold">Orthopedic Support</h2>
@@ -804,20 +828,30 @@ const productData = {
     Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
     <h2 class="font-bold">Breathability</h2>
     Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
-    <div class="flex justify-start mt-2 items-center gap-10">
-    <div class="flex-col">
+    </div>
+    <div class="description flex justify-start items-start gap-5 mt-2">
+  <div class="flex flex-col">
     <h2 class="font-bold">Height</h2>
-    <p>5 & 6 inches</p>
-    </div>
-    <div>
+    <p>6 ,8 & 10 inches only</p>
+  </div>
+
+  <div class="flex flex-col">
+    <h2 class="font-bold">Variant</h2>
+    <p>EuroTop</p>
+  </div>
+
+  <div class="flex flex-col">
     <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
-    </div>
-    <div>
+    <p>10 years for 8 & 10 inches</p>
+    <p>7 years for 6 inches</p>
+  </div>
+
+  <div class="flex flex-col">
     <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐</p>
-    </div>
-    </div>
+    <p>⭐⭐⭐⭐⭐</p>
+  </div>
+</div>
+
   `,
   },
   memofy: {
@@ -836,7 +870,11 @@ const productData = {
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
-    <p>5 & 6 inches</p>
+    <p>6 & 8 inches only</p>
+    </div>
+    <div>
+    <h2 class="font-bold">Variant</h2>
+    <p>P/T(PillowTop)</p>
     </div>
     <div>
     <h2 class="font-bold">Warranty</h2>
@@ -989,7 +1027,7 @@ const productData = {
     images: [AloveraBonnel1, AloveraBonnel2, AloveraBonnel3, AloveraBonnel4], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Orthobonell aloe vera latex</div>
+    <div class="text-xl font-semibold my-[6px]">Orthobonnell aloe vera latex</div>
     <h2 class=" font-bold">Rebonded Foam</h2>
     This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
     <h2 class="font-bold">Orthopedic Support</h2>
@@ -998,21 +1036,30 @@ const productData = {
     Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
     <h2 class="font-bold">Breathability</h2>
     Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
-    <div class="flex justify-start mt-2 items-center gap-10">
-    <div class="flex-col">
+    </div>
+    <div class="description flex justify-start items-start gap-5 mt-2">
+  <div class="flex flex-col">
     <h2 class="font-bold">Height</h2>
-    <p>5 & 6 inches</p>
-    </div>
-    <div>
+    <p>6 ,8 & 10 inches only</p>
+  </div>
+
+  <div class="flex flex-col">
+    <h2 class="font-bold">Variant</h2>
+    <p>EuroTop</p>
+  </div>
+
+  <div class="flex flex-col">
     <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
-    </div>
-    <div>
+    <p>10 years for 8 & 10 inches</p>
+    <p>7 years for 6 inches</p>
+  </div>
+
+  <div class="flex flex-col">
     <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐</p>
-    </div>
-    </div>
-    </div>
+    <p>⭐⭐⭐⭐⭐</p>
+  </div>
+</div>
+
   `,
   },
   "ortho-bonnell-aloe-vera-with-memory": {
@@ -1024,7 +1071,7 @@ const productData = {
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Orthobonell aloe vera memory</div>
+    <div class="text-xl font-semibold my-[6px]">Orthobonnell aloe vera memory</div>
     <h2 class=" font-bold">Rebonded Foam</h2>
     This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
     <h2 class="font-bold">Orthopedic Support</h2>
@@ -1033,21 +1080,30 @@ const productData = {
     Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
     <h2 class="font-bold">Breathability</h2>
     Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
-    <div class="flex justify-start mt-2 items-center gap-10">
-    <div class="flex-col">
+    </div>
+    <div class="description flex justify-start items-start gap-5 mt-2">
+  <div class="flex flex-col">
     <h2 class="font-bold">Height</h2>
-    <p>5 & 6 inches</p>
-    </div>
-    <div>
+    <p>6 ,8 & 10 inches only</p>
+  </div>
+
+  <div class="flex flex-col">
+    <h2 class="font-bold">Variant</h2>
+    <p>EuroTop</p>
+  </div>
+
+  <div class="flex flex-col">
     <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
-    </div>
-    <div>
+    <p>10 years for 8 & 10 inches</p>
+    <p>7 years for 6 inches</p>
+  </div>
+
+  <div class="flex flex-col">
     <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐</p>
-    </div>
-    </div>
-    </div>
+    <p>⭐⭐⭐⭐⭐</p>
+  </div>
+</div>
+
   `,
   },
   "pocketed-spring-inspiration": {
@@ -1119,7 +1175,7 @@ const productData = {
     images: [AloveraBonnel1, AloveraBonnel2, AloveraBonnel3, AloveraBonnel4], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Pocketed spring aloe vera with latex</div>
+    <div class="text-xl font-semibold my-[6px]">Pocketed Spring aloe vera with latex</div>
     <h2 class=" font-bold">Rebonded Foam</h2>
     This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
     <h2 class="font-bold">Orthopedic Support</h2>
@@ -1128,21 +1184,30 @@ const productData = {
     Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
     <h2 class="font-bold">Breathability</h2>
     Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
-    <div class="flex justify-start mt-2 items-center gap-10">
-    <div class="flex-col">
+    </div>
+    <div class="description flex justify-start items-start gap-5 mt-2">
+  <div class="flex flex-col">
     <h2 class="font-bold">Height</h2>
-    <p>5 & 6 inches</p>
-    </div>
-    <div>
+    <p>6 ,8 & 10 inches only</p>
+  </div>
+
+  <div class="flex flex-col">
+    <h2 class="font-bold">Variant</h2>
+    <p>EuroTop</p>
+  </div>
+
+  <div class="flex flex-col">
     <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
-    </div>
-    <div>
+    <p>10 years for 8 & 10 inches</p>
+    <p>7 years for 6 inches</p>
+  </div>
+
+  <div class="flex flex-col">
     <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐</p>
-    </div>
-    </div>
-    </div>
+    <p>⭐⭐⭐⭐⭐</p>
+  </div>
+</div>
+
   `,
   },
   "pocketed-spring-aloe-vera-with-memory": {
@@ -1154,7 +1219,7 @@ const productData = {
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Pocketed spring Aloe vera with memory</div>
+    <div class="text-xl font-semibold my-[6px]">Pocketed spring aloe vera with memory</div>
     <h2 class=" font-bold">Rebonded Foam</h2>
     This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
     <h2 class="font-bold">Orthopedic Support</h2>
@@ -1163,21 +1228,30 @@ const productData = {
     Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
     <h2 class="font-bold">Breathability</h2>
     Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
-    <div class="flex justify-start mt-2 items-center gap-10">
-    <div class="flex-col">
+    </div>
+    <div class="description flex justify-start items-start gap-5 mt-2">
+  <div class="flex flex-col">
     <h2 class="font-bold">Height</h2>
-    <p>5 & 6 inches</p>
-    </div>
-    <div>
+    <p>6 ,8 & 10 inches only</p>
+  </div>
+
+  <div class="flex flex-col">
+    <h2 class="font-bold">Variant</h2>
+    <p>EuroTop</p>
+  </div>
+
+  <div class="flex flex-col">
     <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
-    </div>
-    <div>
+    <p>10 years for 8 & 10 inches</p>
+    <p>7 years for 6 inches</p>
+  </div>
+
+  <div class="flex flex-col">
     <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐</p>
-    </div>
-    </div>
-    </div>
+    <p>⭐⭐⭐⭐⭐</p>
+  </div>
+</div>
+
   `,
   },
   "hr-pu-gravity": {
@@ -1303,7 +1377,7 @@ const productData = {
 
   // ACCESSORIES
   // COMFORTERS
-  "protector": {
+  protector: {
     images: [
       BaffelBox,
       StandardPillow,
@@ -1587,7 +1661,6 @@ const ProductDetails = () => {
     )}`;
     window.open(whatsappUrl, "_blank"); // Open the WhatsApp URL in a new tab
   };
-
 
   return (
     <>
