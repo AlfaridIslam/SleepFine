@@ -41,6 +41,11 @@ import AloveraBonnel4 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02064.jpg
 import AloveraBonnel5 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02065.jpg";
 import AloveraBonnel6 from "./mattress S.F COMP IMG/ALOEVERA BONNEL/DSC02067.jpg";
 
+//MEMOFY--------------------
+import Memofy1 from "./mattress S.F COMP IMG/MEMOFY/Memofy1.jpeg";
+import Memofy3 from "./mattress S.F COMP IMG/MEMOFY/Memofy3.jpeg";
+import Memofy2 from "./mattress S.F COMP IMG/MEMOFY/Memofy2.jpeg";
+
 //------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 //------------------------------ orthobonnell spring--------------------------------------
@@ -270,6 +275,10 @@ import LatexPillow1 from "../assets/Accessories/Pillows/LatexPillow1.jpeg";
 import LatexPillow2 from "../assets/Accessories/Pillows/LatexPillow2.jpeg";
 import LatexPillow3 from "../assets/Accessories/Pillows/LatexPillow3.jpeg";
 import LatexPillow4 from "../assets/Accessories/Pillows/LatexPillow4.jpeg";
+import Foampillow1 from "../assets/Accessories/Pillows/Foampillow1.jpeg";
+import Foampillow2 from "../assets/Accessories/Pillows/Foampillow2.jpeg";
+import Foampillow3 from "../assets/Accessories/Pillows/Foampillow3.jpeg";
+import Foampillow4 from "../assets/Accessories/Pillows/Foampillow4.jpeg";
 import AloveraPolyfiberPillow1 from "../assets/Accessories/Pillows/AloveraPolyfiberPillow1.jpeg";
 import AloveraPolyfiberPillow2 from "../assets/Accessories/Pillows/AloveraPolyfiberPillow2.jpeg";
 import AloveraPolyfiberPillow3 from "../assets/Accessories/Pillows/AloveraPolyfiberPillow3.jpeg";
@@ -322,6 +331,11 @@ export {
   OrthopedicAloeveraMemory4,
   OrthopedicAloeveraMemory5,
   OrthopedicAloeveraMemory6,
+
+  //Memofy
+  Memofy1,
+  Memofy3,
+  Memofy2,
 
   // Pufoam 6
   SixinchPUFOAM1,
@@ -462,6 +476,10 @@ export {
   LatexPillow2,
   LatexPillow3,
   LatexPillow4,
+  Foampillow1,
+  Foampillow2,
+  Foampillow3,
+  Foampillow4,
   AloveraPolyfiberPillow1,
   AloveraPolyfiberPillow2,
   AloveraPolyfiberPillow3,

@@ -121,7 +121,7 @@ const ProductsScrolling = () => {
   
 
   return (
-    <div className="mt-4 sm:justify-center sm:align-middle sm:items-center grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-4 xl:w-full sm:w-[150%] ">
+    <div className="mt-4 sm:justify-center sm:align-middle sm:items-center grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-4 xl:w-full sm:w-[160%]  ">
       {/* ------------------Beds------------------------- */}
       <div className='Beds'>
       <h1 className="text-xl font-semibold text-center mb-4 mt-10">BEDS</h1>
@@ -194,7 +194,7 @@ const ProductsScrolling = () => {
             />
 
             {/* Know More Text */}
-            <Link to="product-details/U-Shaped">
+            <Link to="product-details/Lawson">
             <div className="absolute inset-0 flex items-end justify-center text-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
               <span className="text-white bg-black bg-opacity-50 px-2 py-2 rounded-lg w-full justify-center items-center">
                 Know More
@@ -237,7 +237,7 @@ const ProductsScrolling = () => {
             />
 
             {/* Know More Text */}
-            <Link to="product-details/aloevera-fibre">
+            <Link to="product-details/memory-pillow">
             <div className="absolute inset-0 flex items-end justify-center text-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
               <span className="text-white bg-black bg-opacity-50 px-2 py-2 rounded-lg w-full justify-center items-center">
                 Know More

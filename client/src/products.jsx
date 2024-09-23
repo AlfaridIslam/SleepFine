@@ -485,25 +485,25 @@ const products = [
         subitems: [
           {
             id: 4011,
-            name: "Memory-foam",
+            name: "Memory-pillow",
             image: StandardPillow, // Using existing image as dummy
           },
           {
             id: 4012,
-            name: "Latex",
+            name: "Latex-pillow",
             image: BodyPillow, // Using existing image as dummy
           },
           {
             id: 4013,
-            name: "Plush-foam",
+            name: "foam-pillow",
             image: MemoryfoamPillow1, // Using existing image as dummy
           },
           {
             id: 4014,
-            name: "Aloevera&fibre",
+            name: "Poly-fibre-pillow",
             image: MemoryfoamPillow2, // Using existing image as dummy
           },
-          {
+          { 
             id: 4015,
             name: "Polyfibre-textile",
             image: MemoryfoamPillow3, // Using existing image as dummy
