@@ -4,6 +4,17 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import "./ProductsScrolling.css";
 import {Link} from "react-router-dom";
+
+// mattresses images
+import Orthomed1 from "../../assets/ORTHOMED1.jpeg";
+import Orthomed2 from "../../assets/ORTHOMED2.jpeg";
+import Buckingham1 from "../../assets/buckingham1.jpeg";
+import Buckingham2 from "../../assets/buckingham2.jpeg";
+import aloeveralatex1 from "../../assets/aloeveralatex1.jpeg";
+import aloeveralatex2 from "../../assets/aloeveralatex2.jpeg";
+import eternity1 from "../../assets/eternity1.jpeg";
+import eternity2 from "../../assets/eternity2.jpeg";
+
 // bed images
 import bed1 from "../../assets/Beds/King-Size-bed/CanopyBed.JPG";
 import bed2 from "../../assets/Beds/King-Size-bed/SleighBed.jpeg";
@@ -61,6 +72,29 @@ const ProductsScrolling = () => {
       },
     ],
   };
+
+    const mattressItems = [
+      {
+        image: Orthomed1,
+        hoverImage: Orthomed2,
+        link: "orthomed",
+      },
+      {
+        image: Buckingham1,
+        hoverImage: Buckingham2,
+        link: "buckingham",
+      },
+      {
+        image: aloeveralatex1,
+        hoverImage: aloeveralatex2,
+        link: "orthopedic-aloe-vera-latex",
+      },
+      {
+        image: eternity1,
+        hoverImage: eternity2,
+        link: "pocketed-spring-6inch-eternity-euroton",
+      },
+    ];
 
   const bedItems = [
     {
@@ -123,130 +157,171 @@ const ProductsScrolling = () => {
   return (
     <div className="mt-4 sm:justify-center sm:align-middle sm:items-center grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-4 xl:w-full sm:w-[160%]  ">
       {/* ------------------Beds------------------------- */}
-      <div className='Beds'>
-      <h1 className="text-xl font-semibold text-center mb-4 mt-10">BEDS</h1>
-      <p className="font-thin text-[16px] mt-2 flex justify-center">
-        Soon-to-be staples in your rotation
-      </p>
-      <div>
-      <Slider {...settings} className="px-2">
-        {bedItems.map((item, index) => (
-          <div
-            className="relative group border-2 rounded-xl flex-shrink-0 w-64 xl:h-64 sm:h-[400px]"
-            key={index}
-          >
-            {/* Main Image */}
-            <img
-              src={item.image}
-              alt={`Bed ${index + 1}`}
-              className="transition-opacity duration-300 ease-in-out group-hover:opacity-0 w-full h-full object-cover rounded-xl"
-            />
+      <div className="Beds">
+        <h1 className="text-xl font-semibold text-center mb-4 mt-10">
+          MATTRESSES
+        </h1>
+        <p className="font-thin text-[16px] mt-2 flex justify-center">
+          Soon-to-be staples in your rotation
+        </p>
+        <div>
+          <Slider {...settings} className="px-2">
+            {mattressItems.map((item, index) => (
+              <div
+                className="relative group border-2 rounded-xl flex-shrink-0 w-64 xl:h-64 sm:h-[400px]"
+                key={index}
+              >
+                {/* Main Image */}
+                <img
+                  src={item.image}
+                  alt={`Bed ${index + 1}`}
+                  className="transition-opacity duration-300 ease-in-out group-hover:opacity-0 w-full h-full object-cover rounded-xl"
+                />
 
-            {/* Hover Image */}
-            <img
-              src={item.hoverImage}
-              alt={`Hover Bed ${index + 1}`}
-              className="absolute inset-0 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 w-full h-full object-cover rounded-xl"
-            />
+                {/* Hover Image */}
+                <img
+                  src={item.hoverImage}
+                  alt={`Hover Bed ${index + 1}`}
+                  className="absolute inset-0 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 w-full h-full object-cover rounded-xl"
+                />
 
-            {/* Know More Text */}
+                {/* Know More Text */}
 
-            <Link to='product-details/king-with-storage'>
-
-            <div className="absolute inset-0 flex items-end justify-center text-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
-              <span className="text-white bg-black bg-opacity-50 px-2 py-2 rounded-lg w-full justify-center items-center">
-               
-                Know More
-              </span>
-            </div>
-            </Link>
-          </div>
-        ))}
-      </Slider>
+                <Link to={`/product-details/${item.link}`}>
+                  <div className="absolute inset-0 flex items-end justify-center text-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
+                    <span className="text-white bg-black bg-opacity-50 px-2 py-2 rounded-lg w-full justify-center items-center">
+                      Know More
+                    </span>
+                  </div>
+                </Link>
+              </div>
+            ))}
+          </Slider>
+        </div>
       </div>
+
+      {/* ------------------Beds------------------------- */}
+      <div className="Beds">
+        <h1 className="text-xl font-semibold text-center mb-4 mt-10">BEDS</h1>
+        <p className="font-thin text-[16px] mt-2 flex justify-center">
+          Soon-to-be staples in your rotation
+        </p>
+        <div>
+          <Slider {...settings} className="px-2">
+            {bedItems.map((item, index) => (
+              <div
+                className="relative group border-2 rounded-xl flex-shrink-0 w-64 xl:h-64 sm:h-[400px]"
+                key={index}
+              >
+                {/* Main Image */}
+                <img
+                  src={item.image}
+                  alt={`Bed ${index + 1}`}
+                  className="transition-opacity duration-300 ease-in-out group-hover:opacity-0 w-full h-full object-cover rounded-xl"
+                />
+
+                {/* Hover Image */}
+                <img
+                  src={item.hoverImage}
+                  alt={`Hover Bed ${index + 1}`}
+                  className="absolute inset-0 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 w-full h-full object-cover rounded-xl"
+                />
+
+                {/* Know More Text */}
+
+                <Link to="product-details/king-with-storage">
+                  <div className="absolute inset-0 flex items-end justify-center text-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
+                    <span className="text-white bg-black bg-opacity-50 px-2 py-2 rounded-lg w-full justify-center items-center">
+                      Know More
+                    </span>
+                  </div>
+                </Link>
+              </div>
+            ))}
+          </Slider>
+        </div>
       </div>
 
       {/* -----------------------SOFAS-------------------------- */}
 
       <div className="sofas">
-      <h1 className="text-xl font-semibold text-center mb-4 mt-10">SOFAS</h1>
-      <p className="font-thin text-[16px] mt-2 flex justify-center">
-        Soon-to-be staples in your rotation
-      </p>
-      <Slider {...settings} className="px-2">
-        {sofaItems.map((item, index) => (
-          <div
-            className="relative group border-2 rounded-xl flex-shrink-0 w-64 xl:h-64 sm:h-[400px]"
-            key={index}
-          >
-            {/* Main Image */}
-            <img
-              src={item.image}
-              alt={`Sofa ${index + 1}`}
-              className="transition-opacity duration-300 ease-in-out group-hover:opacity-0 w-full h-full object-cover rounded-xl"
-            />
+        <h1 className="text-xl font-semibold text-center mb-4 mt-10">SOFAS</h1>
+        <p className="font-thin text-[16px] mt-2 flex justify-center">
+          Soon-to-be staples in your rotation
+        </p>
+        <Slider {...settings} className="px-2">
+          {sofaItems.map((item, index) => (
+            <div
+              className="relative group border-2 rounded-xl flex-shrink-0 w-64 xl:h-64 sm:h-[400px]"
+              key={index}
+            >
+              {/* Main Image */}
+              <img
+                src={item.image}
+                alt={`Sofa ${index + 1}`}
+                className="transition-opacity duration-300 ease-in-out group-hover:opacity-0 w-full h-full object-cover rounded-xl"
+              />
 
-            {/* Hover Image */}
-            <img
-              src={item.hoverImage}
-              alt={`Hover Sofa ${index + 1}`}
-              className="absolute inset-0 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 w-full h-full object-cover rounded-xl"
-            />
+              {/* Hover Image */}
+              <img
+                src={item.hoverImage}
+                alt={`Hover Sofa ${index + 1}`}
+                className="absolute inset-0 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 w-full h-full object-cover rounded-xl"
+              />
 
-            {/* Know More Text */}
-            <Link to="product-details/Lawson">
-            <div className="absolute inset-0 flex items-end justify-center text-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
-              <span className="text-white bg-black bg-opacity-50 px-2 py-2 rounded-lg w-full justify-center items-center">
-                Know More
-              </span>
+              {/* Know More Text */}
+              <Link to="product-details/Lawson">
+                <div className="absolute inset-0 flex items-end justify-center text-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
+                  <span className="text-white bg-black bg-opacity-50 px-2 py-2 rounded-lg w-full justify-center items-center">
+                    Know More
+                  </span>
+                </div>
+              </Link>
             </div>
-            </Link>
-          </div>
-        ))}
-      </Slider>
-
+          ))}
+        </Slider>
       </div>
 
       {/* ----------------------ACCESSORIES----------------------------- */}
 
       <div className="accessories">
-      <h1 className="text-xl font-semibold text-center mb-4 mt-10">
-        ACCESSORIES
-      </h1>
-      <p className="font-thin text-[16px] mt-2 flex justify-center">
-        Soon-to-be staples in your rotation
-      </p>
-      <Slider {...settings} className="px-2">
-        {accessoriesItems.map((item, index) => (
-          <div
-            className="relative group border-2 rounded-xl flex-shrink-0 w-64 xl:h-64 sm:h-[400px]"
-            key={index}
-          >
-            {/* Main Image */}
-            <img
-              src={item.image}
-              alt={`Accessory ${index + 1}`}
-              className="transition-opacity duration-300 ease-in-out group-hover:opacity-0 w-full h-full object-cover rounded-xl"
-            />
+        <h1 className="text-xl font-semibold text-center mb-4 mt-10">
+          ACCESSORIES
+        </h1>
+        <p className="font-thin text-[16px] mt-2 flex justify-center">
+          Soon-to-be staples in your rotation
+        </p>
+        <Slider {...settings} className="px-2">
+          {accessoriesItems.map((item, index) => (
+            <div
+              className="relative group border-2 rounded-xl flex-shrink-0 w-64 xl:h-64 sm:h-[400px]"
+              key={index}
+            >
+              {/* Main Image */}
+              <img
+                src={item.image}
+                alt={`Accessory ${index + 1}`}
+                className="transition-opacity duration-300 ease-in-out group-hover:opacity-0 w-full h-full object-cover rounded-xl"
+              />
 
-            {/* Hover Image */}
-            <img
-              src={item.hoverImage}
-              alt={`Hover Accessory ${index + 1}`}
-              className="absolute inset-0 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 w-full h-full object-cover rounded-xl"
-            />
+              {/* Hover Image */}
+              <img
+                src={item.hoverImage}
+                alt={`Hover Accessory ${index + 1}`}
+                className="absolute inset-0 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 w-full h-full object-cover rounded-xl"
+              />
 
-            {/* Know More Text */}
-            <Link to="product-details/memory-pillow">
-            <div className="absolute inset-0 flex items-end justify-center text-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
-              <span className="text-white bg-black bg-opacity-50 px-2 py-2 rounded-lg w-full justify-center items-center">
-                Know More
-              </span>
+              {/* Know More Text */}
+              <Link to="product-details/memory-pillow">
+                <div className="absolute inset-0 flex items-end justify-center text-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
+                  <span className="text-white bg-black bg-opacity-50 px-2 py-2 rounded-lg w-full justify-center items-center">
+                    Know More
+                  </span>
+                </div>
+              </Link>
             </div>
-            </Link>
-          </div>
-        ))}
-      </Slider>
+          ))}
+        </Slider>
       </div>
     </div>
   );
