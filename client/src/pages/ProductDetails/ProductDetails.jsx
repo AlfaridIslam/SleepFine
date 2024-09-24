@@ -157,7 +157,8 @@ import {
   AloveraPolyfiberPillow2,
   AloveraPolyfiberPillow3,
   AloveraPolyfiberPillow4,
-} from "../../assets/index.jsx"; // Adjust the import paths as needed
+} from "../../assets/index.jsx"; 
+import "./productDetails.css";
 
 const ORTRHOMED1 =
   "https://res.cloudinary.com/dscazzgvz/image/upload/v1727091165/DSC02102_wxrv0l.jpg";
@@ -1656,9 +1657,9 @@ const ProductDetails = () => {
       >
         BACK
       </Link>
-      <div className="product-details-container sm:mt-[72px] sm:w-[100%] p-6 flex gap-8 relative xl:mt-10 flex-col sm:flex-col xl:flex-row">
+      <div className="product-details-container xl:mb-5 sm:mt-[72px] sm:w-[100%] p-6 flex gap-8 relative xl:mt-10 flex-col sm:flex-col xl:flex-row">
         {/* Main image and carousel controls */}
-        <div className="flex-1">
+        <div className="flex-1 mb-4">
           {productInfo.images.length > 0 ? (
             <>
               <div className="main-image relative mb-4 xl:w-[100%] xl:h-[380px] sm:ml-[12px] sm:w-[143%]">
@@ -1668,17 +1669,11 @@ const ProductDetails = () => {
                   className="sm:w-[540px] sm:h-[412px] xl:w-[645px] xl:h-[378px] rounded-xl border-2 border-slate-300 bg-slate-400"
                 />
                 {/* Carousel navigation buttons */}
-                <button
-                  onClick={handlePrevClick}
-                  className="absolute top-1/2 left-4 xl:left-4 sm:left-2 transform -translate-y-1/2 text-black text-7xl p-2 rounded-full h-20"
-                >
-                  <div className="-mt-5"> &#8249;</div>
+                <button onClick={handlePrevClick} className="left">
+                  <div className="-mt-5 w-11 h-11">&#8249;</div>
                 </button>
-                <button
-                  onClick={handleNextClick}
-                  className="absolute top-1/2 right-[6rem] xl:right-[6rem] sm:right-2 transform -translate-y-1/2 text-black text-7xl p-2 rounded-full h-20"
-                >
-                  <div className="-mt-5"> &#8250;</div>
+                <button onClick={handleNextClick} className="right">
+                  <div className="-mt-5 w-11 h-11">&#8250;</div>
                 </button>
               </div>
 
@@ -1717,7 +1712,7 @@ const ProductDetails = () => {
           {/* Enquiry Now Button */}
           <button
             onClick={handleEnquiryClick}
-            className="mt-4 px-6 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600"
+            className=" sm:mt-[37rem] xl:mt-[20rem] px-6 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600"
           >
             Enquiry Now
           </button>
