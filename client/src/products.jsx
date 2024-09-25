@@ -480,7 +480,12 @@ const products = [
           },
           {
             id: 4012,
-            name: "Sewn-Through",
+            name: "quilted-protector",
+            image: SewnThrough, // Using existing image as dummy
+          },
+          {
+            id: 4013,
+            name: "fitted-protector",
             image: SewnThrough, // Using existing image as dummy
           },
         ],
