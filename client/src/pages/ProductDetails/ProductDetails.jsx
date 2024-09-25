@@ -159,6 +159,7 @@ import {
   AloveraPolyfiberPillow4,
 } from "../../assets/index.jsx"; 
 import "./productDetails.css";
+import { productImages } from "../../components/Cloudinary/ProductImages.jsx";
 
 const ORTRHOMED1 =
   "https://res.cloudinary.com/dscazzgvz/image/upload/v1727091165/DSC02102_wxrv0l.jpg";
@@ -168,6 +169,7 @@ const productData = {
   // SOFAS
   // STANDARD SOFA
   chesterfield: {
+    // images: productImages.chesterfield, // Assuming images are not uploaded yet
     images: [chesterfield1, chesterfield2, chesterfield3, chesterfield4], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
@@ -681,7 +683,8 @@ const productData = {
   // MATTRESSES
   // ORTHOPEDIC
   orthomed: {
-    images: [OrthomedBanner, ORTRHOMED1, ORTRHOMED2, ORTRHOMED6, Orthospeci],
+    images: productImages.orthomed,
+    // images: [OrthomedBanner, ORTRHOMED1, ORTRHOMED2, ORTRHOMED6, Orthospeci],
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Orthomed</div>
