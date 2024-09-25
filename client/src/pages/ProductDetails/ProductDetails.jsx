@@ -14,11 +14,6 @@ import {
   RomanticBanner,
   OrthopedicAloeveraLatexSpeci,
   OrthopedicAloeveraMemorySpeci,
-
-
-
-
-
   Milange1,
   Milange2,
   Milange3,
@@ -87,23 +82,21 @@ import {
   RomanticBanner4,
   Orthospeci,
   InsperationalPocketed1,
-  InsperationalPocketed2 ,
-  InsperationalPocketed3 ,
-  InsperationalPocketed4 ,
-  InsperationalPocketed5 ,
+  InsperationalPocketed2,
+  InsperationalPocketed3,
+  InsperationalPocketed4,
+  InsperationalPocketed5,
   InsperationalPocketed6,
-
   EternityEuroton1,
   EternityEuroton3,
   EternityEuroton2,
   EternityEuroton4,
   EternityEuroton5,
-
   Memofy1,
   Memofy2,
   Memofy3,
   MemofySpeci,
-//------------------------------------------------------------------
+  //------------------------------------------------------------------
   //beds
   //kingsize bed--------------------
   kingsizebed1,
@@ -111,9 +104,9 @@ import {
   kingsizebed3,
   kingsizebed4,
   DenverModel2,
-DenverModel3,
-DenverModel4,
-DenverModel1,
+  DenverModel3,
+  DenverModel4,
+  DenverModel1,
 
   //queen size
   queensizebed1,
@@ -128,7 +121,6 @@ DenverModel1,
   DiamondModel2,
   DiamondModel3,
   DiamondModel4,
-
 
   //Sofas
   //Standard-sofa
@@ -194,14 +186,12 @@ DenverModel1,
   AloveraPolyfiberPillow4,
   PolyfiberPillow1,
   Foampillow11,
-
-} from "../../assets/index.jsx"; 
+} from "../../assets/index.jsx";
 import "./productDetails.css";
 import { productImages } from "../../components/Cloudinary/ProductImages.jsx";
 
 const ORTRHOMED1 =
   "https://res.cloudinary.com/dscazzgvz/image/upload/v1727091165/DSC02102_wxrv0l.jpg";
-
 
 // Define the image mapping for each product type with multiple images and descriptions
 const productData = {
@@ -467,11 +457,7 @@ const productData = {
 
   // DENVER-MODEL-BEDS
   "denver-with-storage": {
-    images: [ DenverModel1, DenverModel2,
-      DenverModel3,
-      DenverModel4,
-     
-     ], // Assuming images are not uploaded yet
+    images: [DenverModel1, DenverModel2, DenverModel3, DenverModel4], // Assuming images are not uploaded yet
 
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
@@ -503,14 +489,7 @@ const productData = {
   },
 
   "denver-without-storage": {
-    images: [
-      DenverModel1,
-      DenverModel2,
-      DenverModel3,
-      DenverModel4,
-      
-      
-    ], // Assuming images are not uploaded yet
+    images: [DenverModel1, DenverModel2, DenverModel3, DenverModel4], // Assuming images are not uploaded yet
 
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
@@ -542,10 +521,7 @@ const productData = {
   },
   // DIAMOND MODEL BED
   "diamond-with-storage": {
-    images: [ DiamondModel1,
-      DiamondModel2,
-      DiamondModel3,
-      DiamondModel4,], // Assuming images are not uploaded yet
+    images: [DiamondModel1, DiamondModel2, DiamondModel3, DiamondModel4], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Diamond with storage</div>
@@ -575,10 +551,7 @@ const productData = {
   `,
   },
   "diamond-without-storage": {
-    images: [ DiamondModel1,
-      DiamondModel2,
-      DiamondModel3,
-      DiamondModel4,], // Assuming images are not uploaded yet
+    images: [DiamondModel1, DiamondModel2, DiamondModel3, DiamondModel4], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Diamond without storage</div>
@@ -610,12 +583,7 @@ const productData = {
 
   // PK MODEL BEDS
   "pkmodel-with-storage": {
-    images: [
-      PKModel1,
-      PKModel2,
-      PKModel3,
-      PKModel4,
-    ], // Assuming images are not uploaded yet
+    images: [PKModel1, PKModel2, PKModel3, PKModel4], // Assuming images are not uploaded yet
 
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
@@ -647,12 +615,7 @@ const productData = {
   },
 
   "pkmodel-without-storage": {
-    images: [
-      PKModel1,
-  PKModel2,
-  PKModel3,
-  PKModel4,
-    ], // Assuming images are not uploaded yet
+    images: [PKModel1, PKModel2, PKModel3, PKModel4], // Assuming images are not uploaded yet
 
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
@@ -792,29 +755,33 @@ const productData = {
   `,
   },
   milange: {
-    images: [OrthomedBanner, Milange1,Milange2,Milange6, MilangeSpeci,], // Assuming images are not uploaded yet
+    images: [OrthomedBanner, Milange1, Milange2, Milange6, MilangeSpeci], // Assuming images are not uploaded yet
     description: `
-    <div class="text-xl font-semibold my-[6px]">Milange </div>
-    This mattress is designed for optimal orthopedic support and comfort. It features a high-density rebounded foam core that evenly distributes body weight, reducing pressure on joints and providing spinal alignment. 
-    The mattress is firm yet comfortable, catering to those with back or joint issues. Its breathable cover ensures a cool and hygienic sleeping surface. Ideal for individuals seeking a restful night's sleep while maintaining proper posture and relieving body aches. Suitable for all bed types, it offers durability, long-lasting shape retention, and a blend of therapeutic and luxury sleeping experiences.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    The Preference Orthomed Mattress offers orthopedic support, providing firm and balanced support that aligns the spine and alleviates pressure points, making it an excellent choice for those with back or joint discomfort.<br><br>
-    <h2 class="font-bold">Comfort</h2>
-    When it comes to comfort, this mattress strikes the perfect balance with its high-density Rebonded foam combines with HR foam core. It provides a firm sleeping surface that supports the body without feeling too hard, ensuring a restful and rejuvenating sleep experience.<br><br>
-    <h2 class="font-bold">Breathability & Upholstery </h2>
-    Its breathability is enhanced by a breathable cover made of 300gsm Viscose Okotex 100 Certified knitted Fabric, designed to regulate temperature and moisture. This keeps the sleeping surface cool, fresh, and hygienic, promoting a more comfortable sleep throughout the night.
+    <div class="text-xl font-semibold my-[6px]">Milange Rebonded HR Foam Dual Mattress</div>
+    Experience unparalleled comfort and support with our Milange Rebonded HR Foam Dual Mattress, designed to provide a restful sleep experience.<br><br>
+    <h2 class="font-bold">Key Features</h2>
+    - Rebonded HR Foam: 100density High-Resilience foam ensures optimal support and durability.<br>
+- Dual Comfort: Two layers of HR PU foam provide medium-soft and medium-firm comfort options.<br>
+- Melange Yarn Fabric Quilting: Soft, breathable, and stylish fabric for a luxurious feel.<br>
+- Long-Lasting: Durable construction ensures years of comfortable sleep.<br><br>
+    <h2 class="font-bold">Benefits</h2>
+    - Pressure Relief: Alleviates pressure points for a pain-free sleep.<br>
+- Allergy-Friendly: Hypoallergenic materials resist dust mites and allergens.<br>
+- Cooling: Breathable fabric regulates body temperature.<br><br>
+    <h2 class="font-bold">Upgrade Your Sleep</h2>
+    Treat yourself to a superior sleeping experience with our Milange Rebonded HR Foam Dual Mattress. 
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
-    <p>6 inches only</p>
+    <p>7 inches only</p>
     </div>
     <div>
     <h2 class="font-bold">Variant</h2>
-    <p>EuroTop</p>
+    <p>Tight Top</p>
     </div>
     <div>
     <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
+    <p>7 years</p>
     </div>
     <div>
     <h2 class="font-bold">Ratings</h2>
@@ -825,8 +792,13 @@ const productData = {
   },
 
   preference: {
-
-    images: [OrthomedBanner,Preference1, Preference2, Preference6,PreferenceBanner, ], // Assuming images are not uploaded yet
+    images: [
+      OrthomedBanner,
+      Preference1,
+      Preference2,
+      Preference6,
+      PreferenceBanner,
+    ], // Assuming images are not uploaded yet
     description: `
     <div class="text-xl font-semibold my-[6px]">The Preference Orthomed </div>
     This mattress is designed for optimal orthopedic support and comfort. It features a high-density rebounded foam core that evenly distributes body weight, reducing pressure on joints and providing spinal alignment. 
@@ -858,8 +830,13 @@ const productData = {
   `,
   },
   buckingham: {
-
-    images: [BuckinghumBanner,Buckingham1, Buckingham2, Buckingham5,BuckinghumSpeci,], // Assuming images are not uploaded yet
+    images: [
+      BuckinghumBanner,
+      Buckingham1,
+      Buckingham2,
+      Buckingham5,
+      BuckinghumSpeci,
+    ], // Assuming images are not uploaded yet
 
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
@@ -895,8 +872,13 @@ const productData = {
   `,
   },
   "orthopedic-aloe-vera-latex": {
-
-    images: [AloeveraBanner,AloveraBonnel1, AloveraBonnel2, AloveraBonnel3,OrthopedicAloeveraLatexSpeci, ], // Assuming images are not uploaded yet
+    images: [
+      AloeveraBanner,
+      AloveraBonnel1,
+      AloveraBonnel2,
+      AloveraBonnel3,
+      OrthopedicAloeveraLatexSpeci,
+    ], // Assuming images are not uploaded yet
 
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
@@ -980,24 +962,23 @@ const productData = {
   `,
   },
   memofy: {
-
-    images: [ OrthomedBanner,Memofy1,Memofy2,Memofy3, MemofySpeci,], // Assuming images are not uploaded yet
+    images: [OrthomedBanner, Memofy1, Memofy2, Memofy3, MemofySpeci], // Assuming images are not uploaded yet
 
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Orthopedic aloe vera memory</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
+    <div class="text-xl font-semibold my-[6px]">Memofy Ortho Mattress</div>
+    
+    This mattress features a core of Rebonded foam for firm support, topped with a unique layer that mimics the feel of memory foam, providing a soft and cushioning surface similar to polyurethane (PU) foam but with orthopedic benefits. Memory-Like PU Foam Feel is crafted for those who seek the ideal balance of orthopedic support and a plush, comfortable sleeping surface.<br><br>
+    <h2 class="font-bold">Rebonded Foam with Comfort</h2>
+    The mattress has a durable Rebonded foam base that provides firm orthopedic support. This core ensures proper spinal alignment. The top layer of this mattress offers a soft, memory-like feel, similar to high-quality PU foam, but with added orthopedic benefits. This layer contours to the body, delivering the plush comfort of memory foam while maintaining support and responsiveness. <br><br>
     <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
+    Designed to promote healthy sleep posture, the firm rebonded foam works in tandem with the plush top layer to reduce stress on the back, neck, and joints. This mattress helps alleviate aches and pains associated with poor sleep alignment.<br><br>
+    <h2 class="font-bold">Fabric & Quilt Cover</h2>
+    The outer fabric is designed and quilted with multilayer PU Foam to enhance breathability, allowing for better air circulation and a cooler sleeping surface, preventing overheating during the night.
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
-    <p>6 & 8 inches only</p>
+    <p>6 inches only</p>
     </div>
     <div>
     <h2 class="font-bold">Variant</h2>
@@ -1005,11 +986,11 @@ const productData = {
     </div>
     <div>
     <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
+    <p>3 years</p>
     </div>
     <div>
     <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐</p>
+    <p>⭐⭐⭐</p>
     </div>
     </div>
     </div>
@@ -1046,11 +1027,7 @@ const productData = {
   `,
   },
   "the-hotel": {
-    images: [
-      Hotel1,
-      Hotel2,
-      Hotel3,
-    ], // Assuming images are not uploaded yet
+    images: [Hotel1, Hotel2, Hotel3], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">The Hotel</div>
@@ -1110,7 +1087,7 @@ const productData = {
   `,
   },
   "romantic-euroton": {
-    images: [RomanticBanner,Romanticfirm1, Romanticfirm2, Romanticfirm6], // Assuming images are not uploaded yet
+    images: [RomanticBanner, Romanticfirm1, Romanticfirm2, Romanticfirm6], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Romantic Euroton</div>
@@ -1140,8 +1117,7 @@ const productData = {
   `,
   },
   "ortho-bonnell-aloe-vera-with-latex": {
-
-    images: [AloeveraBanner,AloveraBonnel1, AloveraBonnel2, AloveraBonnel3,], // Assuming images are not uploaded yet
+    images: [AloeveraBanner, AloveraBonnel1, AloveraBonnel2, AloveraBonnel3], // Assuming images are not uploaded yet
 
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
@@ -1289,8 +1265,7 @@ const productData = {
   `,
   },
   "pocketed-spring-aloe-vera-with-latex": {
-
-    images: [AloeveraBanner,AloveraBonnel1, AloveraBonnel2, AloveraBonnel3, ], // Assuming images are not uploaded yet
+    images: [AloeveraBanner, AloveraBonnel1, AloveraBonnel2, AloveraBonnel3], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Pocketed Spring aloe vera with latex</div>
@@ -1630,13 +1605,7 @@ const productData = {
   `,
   },
   "foam-pillow": {
-
-    images: [
-      Foampillow11,
-      Foampillow2,
-      Foampillow3,
-      Foampillow4,
-    ], // Assuming images are not uploaded yet
+    images: [Foampillow11, Foampillow2, Foampillow3, Foampillow4], // Assuming images are not uploaded yet
 
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
@@ -1781,11 +1750,12 @@ const ProductDetails = () => {
       <Link
         to="/products"
         className="back cursor-pointer absolute rounded-md
-         bg-red-300 text-black xl:text-[13px] xl:top-[160px] xl:left-[30px] xl:py-[2px] xl:pr-[22px] xl:pl-[25px] xl:px-0 xl:ml-0 xl:mt-0
-          sm:text-lg sm:px-4 sm:ml-8 sm:mt-4 sm:p-[12px]"
+     bg-red-300 text-black xl:text-[13px] xl:top-[160px] xl:left-[30px] xl:py-[2px] xl:pr-[22px] xl:pl-[25px] xl:px-0 xl:ml-0 xl:mt-0
+      sm:text-lg sm:px-4 sm:ml-8 sm:mt-4 sm:p-[12px]"
       >
         BACK
       </Link>
+
       <div className="product-details-container xl:mb-5 sm:mt-[72px] sm:w-[100%] p-6 flex gap-8 relative xl:mt-10 flex-col sm:flex-col xl:flex-row">
         {/* Main image and carousel controls */}
         <div className="flex-1 mb-4">
@@ -1817,8 +1787,8 @@ const ProductDetails = () => {
                         ? "border-2 border-blue-500"
                         : ""
                     }`}
-                    onClick={() => handleThumbnailClick(index)} // Change main image on click
-                    onMouseEnter={() => handleThumbnailClick(index)} // Change main image on hover
+                    onClick={() => handleThumbnailClick(index)}
+                    onMouseEnter={() => handleThumbnailClick(index)}
                   />
                 ))}
               </div>
@@ -1835,16 +1805,18 @@ const ProductDetails = () => {
           <h2 className="text-2xl font-bold mb-2">Product Description</h2>
           <div
             className="text-gray-600"
-            dangerouslySetInnerHTML={{ __html: productInfo.description }} // Use dangerouslySetInnerHTML here
+            dangerouslySetInnerHTML={{ __html: productInfo.description }}
           />
 
           {/* Enquiry Now Button */}
-          <button
-            onClick={handleEnquiryClick}
-            className=" sm:mt-[37rem] xl:mt-[20rem] px-6 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600"
-          >
-            Enquiry Now
-          </button>
+          <div className="mt-6 flex justify-center">
+            <button
+              onClick={handleEnquiryClick}
+              className="px-6 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600"
+            >
+              Enquiry Now
+            </button>
+          </div>
         </div>
       </div>
     </>
