@@ -8,6 +8,24 @@ import {
   ORTRHOMED4,
   ORTRHOMED5,
   ORTRHOMED6,
+  AloeveraBanner,
+  BuckinghumBanner,
+  PreferenceBanner,
+  RomanticBanner,
+  OrthopedicAloeveraLatexSpeci,
+  OrthopedicAloeveraMemorySpeci,
+
+
+
+
+
+  Milange1,
+  Milange2,
+  Milange3,
+  Milange4,
+  Milange5,
+  Milange6,
+  MilangeSpeci,
   Preference1,
   Preference2,
   Preference3,
@@ -20,6 +38,10 @@ import {
   Buckingham4,
   Buckingham5,
   Buckingham6,
+  BuckinghumSpeci,
+  Hotel1,
+  Hotel2,
+  Hotel3,
   OrthopedicAloeveraMemory1,
   OrthopedicAloeveraMemory2,
   OrthopedicAloeveraMemory3,
@@ -80,6 +102,7 @@ import {
   Memofy1,
   Memofy2,
   Memofy3,
+  MemofySpeci,
 //------------------------------------------------------------------
   //beds
   //kingsize bed--------------------
@@ -87,12 +110,24 @@ import {
   kingsizebed2,
   kingsizebed3,
   kingsizebed4,
+  DenverModel2,
+DenverModel3,
+DenverModel4,
+DenverModel1,
 
   //queen size
   queensizebed1,
   queensizebed2,
   queensizebed3,
   queensizebed4,
+  PKModel1,
+  PKModel2,
+  PKModel3,
+  PKModel4,
+  DiamondModel1,
+  DiamondModel2,
+  DiamondModel3,
+  DiamondModel4,
 
 
   //Sofas
@@ -157,12 +192,16 @@ import {
   AloveraPolyfiberPillow2,
   AloveraPolyfiberPillow3,
   AloveraPolyfiberPillow4,
+  PolyfiberPillow1,
+  Foampillow11,
+
 } from "../../assets/index.jsx"; 
 import "./productDetails.css";
 import { productImages } from "../../components/Cloudinary/ProductImages.jsx";
 
 const ORTRHOMED1 =
   "https://res.cloudinary.com/dscazzgvz/image/upload/v1727091165/DSC02102_wxrv0l.jpg";
+
 
 // Define the image mapping for each product type with multiple images and descriptions
 const productData = {
@@ -425,12 +464,18 @@ const productData = {
   },
 
   // BEDS
-  // KING-SIZE-BEDS
-  "king-with-storage": {
-    images: [kingsizebed1, kingsizebed2, kingsizebed3, kingsizebed4], // Assuming images are not uploaded yet
+
+  // DENVER-MODEL-BEDS
+  "denver-with-storage": {
+    images: [ DenverModel1, DenverModel2,
+      DenverModel3,
+      DenverModel4,
+     
+     ], // Assuming images are not uploaded yet
+
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">King with storage</div>
+    <div class="text-xl font-semibold my-[6px]">Denver with storage</div>
     <h2 class=" font-bold">Rebonded Foam</h2>
     This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
     <h2 class="font-bold">Orthopedic Support</h2>
@@ -456,11 +501,20 @@ const productData = {
     </div>
   `,
   },
-  "king-without-storage": {
-    images: [kingsizebed1, kingsizebed2, kingsizebed3, kingsizebed4], // Assuming images are not uploaded yet
+
+  "denver-without-storage": {
+    images: [
+      DenverModel1,
+      DenverModel2,
+      DenverModel3,
+      DenverModel4,
+      
+      
+    ], // Assuming images are not uploaded yet
+
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">King without storage</div>
+    <div class="text-xl font-semibold my-[6px]">Denver without storage</div>
     <h2 class=" font-bold">Rebonded Foam</h2>
     This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
     <h2 class="font-bold">Orthopedic Support</h2>
@@ -486,12 +540,15 @@ const productData = {
     </div>
   `,
   },
-  // SINGLE BED
-  "single-with-storage": {
-    images: [ORTRHOMED3, ORTRHOMED4, ORTRHOMED5, ORTRHOMED6], // Assuming images are not uploaded yet
+  // DIAMOND MODEL BED
+  "diamond-with-storage": {
+    images: [ DiamondModel1,
+      DiamondModel2,
+      DiamondModel3,
+      DiamondModel4,], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">single with storage</div>
+    <div class="text-xl font-semibold my-[6px]">Diamond with storage</div>
     <h2 class=" font-bold">Rebonded Foam</h2>
     This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
     <h2 class="font-bold">Orthopedic Support</h2>
@@ -517,11 +574,14 @@ const productData = {
     </div>
   `,
   },
-  "single-without-storage": {
-    images: [Preference3, Preference4, Preference5, Preference6], // Assuming images are not uploaded yet
+  "diamond-without-storage": {
+    images: [ DiamondModel1,
+      DiamondModel2,
+      DiamondModel3,
+      DiamondModel4,], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">single without storage</div>
+    <div class="text-xl font-semibold my-[6px]">Diamond without storage</div>
     <h2 class=" font-bold">Rebonded Foam</h2>
     This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
     <h2 class="font-bold">Orthopedic Support</h2>
@@ -547,12 +607,19 @@ const productData = {
     </div>
   `,
   },
-  // QUEEN SIZE BEDS
-  "queen-with-storage": {
-    images: [queensizebed1, queensizebed2, queensizebed3, queensizebed4], // Assuming images are not uploaded yet
+
+  // PK MODEL BEDS
+  "pkmodel-with-storage": {
+    images: [
+      PKModel1,
+      PKModel2,
+      PKModel3,
+      PKModel4,
+    ], // Assuming images are not uploaded yet
+
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">queen with storage</div>
+    <div class="text-xl font-semibold my-[6px]">PK model with storage</div>
     <h2 class=" font-bold">Rebonded Foam</h2>
     This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
     <h2 class="font-bold">Orthopedic Support</h2>
@@ -578,11 +645,18 @@ const productData = {
     </div>
   `,
   },
-  "queen-without-storage": {
-    images: [queensizebed1, queensizebed2, queensizebed3, queensizebed4], // Assuming images are not uploaded yet
+
+  "pkmodel-without-storage": {
+    images: [
+      PKModel1,
+  PKModel2,
+  PKModel3,
+  PKModel4,
+    ], // Assuming images are not uploaded yet
+
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">queen without storage</div>
+    <div class="text-xl font-semibold my-[6px]">PK Model without storage</div>
     <h2 class=" font-bold">Rebonded Foam</h2>
     This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
     <h2 class="font-bold">Orthopedic Support</h2>
@@ -717,9 +791,42 @@ const productData = {
     </div>
   `,
   },
+  milange: {
+    images: [OrthomedBanner, Milange1,Milange2,Milange6, MilangeSpeci,], // Assuming images are not uploaded yet
+    description: `
+    <div class="text-xl font-semibold my-[6px]">Milange </div>
+    This mattress is designed for optimal orthopedic support and comfort. It features a high-density rebounded foam core that evenly distributes body weight, reducing pressure on joints and providing spinal alignment. 
+    The mattress is firm yet comfortable, catering to those with back or joint issues. Its breathable cover ensures a cool and hygienic sleeping surface. Ideal for individuals seeking a restful night's sleep while maintaining proper posture and relieving body aches. Suitable for all bed types, it offers durability, long-lasting shape retention, and a blend of therapeutic and luxury sleeping experiences.<br><br>
+    <h2 class="font-bold">Firmness</h2>
+    The Preference Orthomed Mattress offers orthopedic support, providing firm and balanced support that aligns the spine and alleviates pressure points, making it an excellent choice for those with back or joint discomfort.<br><br>
+    <h2 class="font-bold">Comfort</h2>
+    When it comes to comfort, this mattress strikes the perfect balance with its high-density Rebonded foam combines with HR foam core. It provides a firm sleeping surface that supports the body without feeling too hard, ensuring a restful and rejuvenating sleep experience.<br><br>
+    <h2 class="font-bold">Breathability & Upholstery </h2>
+    Its breathability is enhanced by a breathable cover made of 300gsm Viscose Okotex 100 Certified knitted Fabric, designed to regulate temperature and moisture. This keeps the sleeping surface cool, fresh, and hygienic, promoting a more comfortable sleep throughout the night.
+    <div class="flex justify-start mt-2 items-center gap-10">
+    <div class="flex-col">
+    <h2 class="font-bold">Height</h2>
+    <p>6 inches only</p>
+    </div>
+    <div>
+    <h2 class="font-bold">Variant</h2>
+    <p>EuroTop</p>
+    </div>
+    <div>
+    <h2 class="font-bold">Warranty</h2>
+    <p>5 years</p>
+    </div>
+    <div>
+    <h2 class="font-bold">Ratings</h2>
+    <p>⭐⭐⭐⭐</p>
+    </div>
+    </div>
+  `,
+  },
 
   preference: {
-    images: [Preference1, Preference2, Preference6], // Assuming images are not uploaded yet
+
+    images: [OrthomedBanner,Preference1, Preference2, Preference6,PreferenceBanner, ], // Assuming images are not uploaded yet
     description: `
     <div class="text-xl font-semibold my-[6px]">The Preference Orthomed </div>
     This mattress is designed for optimal orthopedic support and comfort. It features a high-density rebounded foam core that evenly distributes body weight, reducing pressure on joints and providing spinal alignment. 
@@ -751,7 +858,9 @@ const productData = {
   `,
   },
   buckingham: {
-    images: [Buckingham1, Buckingham2, Buckingham5], // Assuming images are not uploaded yet
+
+    images: [BuckinghumBanner,Buckingham1, Buckingham2, Buckingham5,BuckinghumSpeci,], // Assuming images are not uploaded yet
+
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Buckingham Lexus Ortho Hybrid</div>
@@ -786,7 +895,9 @@ const productData = {
   `,
   },
   "orthopedic-aloe-vera-latex": {
-    images: [AloveraBonnel1, AloveraBonnel2, AloveraBonnel3], // Assuming images are not uploaded yet
+
+    images: [AloeveraBanner,AloveraBonnel1, AloveraBonnel2, AloveraBonnel3,OrthopedicAloeveraLatexSpeci, ], // Assuming images are not uploaded yet
+
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">AloeVera Euroton Ortho Mattress with Latex </div>
@@ -826,9 +937,11 @@ const productData = {
   },
   "orthopedic-aloe-vera-memory": {
     images: [
+      AloeveraBanner,
       OrthopedicAloeveraMemory1,
       OrthopedicAloeveraMemory2,
       OrthopedicAloeveraMemory6,
+      OrthopedicAloeveraMemorySpeci,
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
@@ -867,7 +980,9 @@ const productData = {
   `,
   },
   memofy: {
-    images: [Memofy1, Memofy2, Memofy3], // Assuming images are not uploaded yet
+
+    images: [ OrthomedBanner,Memofy1,Memofy2,Memofy3, MemofySpeci,], // Assuming images are not uploaded yet
+
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Orthopedic aloe vera memory</div>
@@ -932,10 +1047,9 @@ const productData = {
   },
   "the-hotel": {
     images: [
-      EightinchPUFOAM1,
-      EightinchPUFOAM2,
-      EightinchPUFOAM3,
-      EightinchPUFOAM4,
+      Hotel1,
+      Hotel2,
+      Hotel3,
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
@@ -996,7 +1110,7 @@ const productData = {
   `,
   },
   "romantic-euroton": {
-    images: [Romanticfirm1, Romanticfirm2, Romanticfirm6], // Assuming images are not uploaded yet
+    images: [RomanticBanner,Romanticfirm1, Romanticfirm2, Romanticfirm6], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Romantic Euroton</div>
@@ -1026,7 +1140,9 @@ const productData = {
   `,
   },
   "ortho-bonnell-aloe-vera-with-latex": {
-    images: [AloveraBonnel1, AloveraBonnel2, AloveraBonnel3], // Assuming images are not uploaded yet
+
+    images: [AloeveraBanner,AloveraBonnel1, AloveraBonnel2, AloveraBonnel3,], // Assuming images are not uploaded yet
+
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Orthobonnell aloe vera latex</div>
@@ -1066,6 +1182,7 @@ const productData = {
   },
   "ortho-bonnell-aloe-vera-with-memory": {
     images: [
+      AloeveraBanner,
       OrthopedicAloeveraMemory1,
       OrthopedicAloeveraMemory2,
       OrthopedicAloeveraMemory6,
@@ -1172,7 +1289,8 @@ const productData = {
   `,
   },
   "pocketed-spring-aloe-vera-with-latex": {
-    images: [AloveraBonnel1, AloveraBonnel2, AloveraBonnel3], // Assuming images are not uploaded yet
+
+    images: [AloeveraBanner,AloveraBonnel1, AloveraBonnel2, AloveraBonnel3, ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Pocketed Spring aloe vera with latex</div>
@@ -1212,6 +1330,7 @@ const productData = {
   },
   "pocketed-spring-aloe-vera-with-memory": {
     images: [
+      AloeveraBanner,
       OrthopedicAloeveraMemory1,
       OrthopedicAloeveraMemory2,
       OrthopedicAloeveraMemory6,
@@ -1511,7 +1630,14 @@ const productData = {
   `,
   },
   "foam-pillow": {
-    images: [Foampillow1, Foampillow2, Foampillow3, Foampillow4], // Assuming images are not uploaded yet
+
+    images: [
+      Foampillow11,
+      Foampillow2,
+      Foampillow3,
+      Foampillow4,
+    ], // Assuming images are not uploaded yet
+
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Foam Pillow</div>

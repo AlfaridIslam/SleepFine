@@ -37,26 +37,26 @@ const Beds = () => {
           onMouseEnter={() => setIsDropdownOpen(true)}
           onMouseLeave={() => setIsDropdownOpen(false)}
         >
-          {/* king sized Beds collection */}
+          {/* Denver Model collection */}
           <div
             className={`px-4 py-2  rounded-lg hover:bg-slate-200  hover:text-black ${
-              hoveredCategory === "King Size bed Collection" ? "" : ""
+              hoveredCategory === "Denver Model collection" ? "" : ""
             }`}
             onMouseEnter={() =>
-              handleMouseEnterCategory("King Size bed Collection")
+              handleMouseEnterCategory("Denver Model collection")
             }
             onMouseLeave={handleMouseLeaveCategory}
           >
-            King Size Bed
-            {hoveredCategory === "King Size bed Collection" && (
+            Denver Model
+            {hoveredCategory === "Denver Model collection" && (
               <div className="xl:absolute xl:left-[180px] xl:-mt-[45px] xl:w-40 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-[500]">
                 <div className="px-4 py-2 hover:bg-indigo-100">
-                  <Link to="product-details/king-with-storage">
+                  <Link to="product-details/denver-with-storage">
                     With storage
                   </Link>
                 </div>
                 <div className="px-4 py-2 hover:bg-indigo-100">
-                  <Link to="product-details/king-without-storage">
+                  <Link to="product-details/denver-without-storage">
                     Without Storage
                   </Link>
                 </div>
@@ -64,26 +64,26 @@ const Beds = () => {
             )}
           </div>
 
-          {/* Queen sized Beds Collection */}
+          {/* PK Model Collection */}
           <div
             className={`px-4 py-2 rounded-lg hover:bg-slate-200 hover:text-black ${
-              hoveredCategory === "Queen Size bed Collection" ? "" : ""
+              hoveredCategory === "PK Model Collection" ? "" : ""
             }`}
             onMouseEnter={() =>
-              handleMouseEnterCategory("Queen Size bed Collection")
+              handleMouseEnterCategory("PK Model Collection")
             }
             onMouseLeave={handleMouseLeaveCategory}
           >
-            Queen Size Bed
-            {hoveredCategory === "Queen Size bed Collection" && (
+            PK Model
+            {hoveredCategory === "PK Model Collection" && (
               <div className="xl:absolute xl:left-[180px] xl:-mt-[45px] xl:w-40 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50">
                 <div className="px-4 py-2 hover:bg-indigo-100">
-                  <Link to="product-details/queen-with-storage">
+                  <Link to="product-details/pkmodel-with-storage">
                     With storage
                   </Link>
                 </div>
                 <div className="px-4 py-2 hover:bg-indigo-100">
-                  <Link to="product-details/queen-without-storage">
+                  <Link to="product-details/pkmodel-without-storage">
                     With Out storage
                   </Link>
                 </div>
@@ -91,26 +91,26 @@ const Beds = () => {
             )}
           </div>
 
-          {/* single sized beds Collection */}
+          {/* Diamond model Collection */}
           <div
             className={`px-4 py-2 rounded-lg hover:bg-slate-200 hover:text-black ${
-              hoveredCategory === "Single bed Collection" ? "" : ""
+              hoveredCategory === "Diamond model Collection" ? "" : ""
             }`}
             onMouseEnter={() =>
-              handleMouseEnterCategory("Single bed Collection")
+              handleMouseEnterCategory("Diamond model Collection")
             }
             onMouseLeave={handleMouseLeaveCategory}
           >
-            Single Size Bed
-            {hoveredCategory === "Single bed Collection" && (
+            Diamond Model
+            {hoveredCategory === "Diamond model Collection" && (
               <div className="xl:absolute xl:left-[180px] xl:-mt-[45px] xl:w-40 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50">
                 <div className="px-4 py-2 hover:bg-indigo-100">
-                  <Link to="product-details/Single-with-storage">
+                  <Link to="product-details/diamond-with-storage">
                     With Storage
                   </Link>
                 </div>
                 <div className="px-4 py-2 hover:bg-indigo-100">
-                  <Link to="product-details/Single-without-storage">
+                  <Link to="product-details/diamond-without-storage">
                     Without Storage
                   </Link>
                 </div>
@@ -119,7 +119,7 @@ const Beds = () => {
           </div>
 
           {/* Double Sized Beds Collection */}
-          <div
+          {/* <div
             className={`px-4 py-2 rounded-lg hover:bg-slate-200 hover:text-black ${
               hoveredCategory === "Double bed Collection" ? "" : ""
             }`}
@@ -128,7 +128,7 @@ const Beds = () => {
             }
             onMouseLeave={handleMouseLeaveCategory}
           >
-            Double size Bed
+            PK Model
             {hoveredCategory === "Double bed Collection" && (
               <div className="xl:absolute xl:left-[180px] xl:-mt-[45px] xl:w-40 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50">
                 <div className="px-4 py-2 hover:bg-indigo-100">
@@ -143,7 +143,7 @@ const Beds = () => {
                 </div>
               </div>
             )}
-          </div>
+          </div> */}
         </div>
       )}
     </div>

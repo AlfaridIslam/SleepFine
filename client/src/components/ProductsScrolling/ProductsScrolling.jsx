@@ -40,8 +40,8 @@ import accessories3 from "../../assets/Accessories/Pillows/Memoryfoam_Pillow1.jp
 import accessories4 from "../../assets/Accessories/Pillows/Memoryfoam_Pillow2.jpeg";
 import accessories5 from "../../assets/Accessories/Pillows/LatexPillow1.jpeg";
 import accessories6 from "../../assets/Accessories/Pillows/LatexPillow4.jpeg";
-import accessories7 from "../../assets/Accessories/Pillows/StandardPillow.jpeg";
-import accessories8 from "../../assets/Accessories/Pillows/BodyPillow.jpeg";
+import accessories7 from "../../assets/Accessories/Pillows/Foampillow11.png";
+import accessories8 from "../../assets/Accessories/Pillows/Foampillow2.jpeg";
 
 const ProductsScrolling = () => {
   const settings = {

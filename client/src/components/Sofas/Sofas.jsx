@@ -90,7 +90,7 @@ const Sofas = () => {
           >
             Sectional Sofa
             {hoveredCategory === "Sectional Sofa Collection" && (
-              <div className="xl:absolute xl:left-[150px] xl:-mt-[45px] xl:w-56:qa xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50">
+              <div className="xl:absolute xl:left-[150px] xl:-mt-[45px] xl:w-52 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50">
                 <div className="px-4 py-2 hover:bg-indigo-100">
                   <Link
                     to="product-details/L-Shaped"
@@ -112,7 +112,7 @@ const Sofas = () => {
                     to="product-details/l-shaped-sofa-cumbed"
                     className="px-4 py-2 hover:bg-indigo-100"
                   >
-                    L-ShapededSofacumBed
+                    L-Shaped Sofa cum Bed
                   </Link>
                 </div>
                 <div className="px-4 py-2 hover:bg-indigo-100">
@@ -120,7 +120,7 @@ const Sofas = () => {
                     to="product-details/u-shaped-sofa-cumbed"
                     className="px-4 py-2 hover:bg-indigo-100"
                   >
-                    U-ShapededSofacumBed
+                    U-Shaped Sofa cum Bed
                   </Link>
                 </div>
 
