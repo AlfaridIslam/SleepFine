@@ -100,18 +100,22 @@ const ProductsScrolling = () => {
     {
       image: bed1, // Pass the image directly
       hoverImage: bed2, // Pass the hover image directly
+      link: "denver-with-storage",
     },
     {
       image: bed3,
       hoverImage: bed4,
+      link: "denver-without-storage",
     },
     {
       image: bed5,
       hoverImage: bed6,
+      link: "pkmodel-with-storage",
     },
     {
       image: bed7,
       hoverImage: bed8,
+      link: "diamond-with-storage",
     },
   ];
   
@@ -119,18 +123,22 @@ const ProductsScrolling = () => {
     {
       image: sofa1,
       hoverImage: sofa2,
+      link: "L-Shaped",
     },
     {
       image: sofa3,
       hoverImage: sofa4,
+      link: "U-Shaped",
     },
     {
       image: sofa5,
       hoverImage: sofa6,
+      link: "Chesterfield",
     },
     {
       image: sofa7,
       hoverImage: sofa8,
+      link: "Tuxedo",
     },
   ];
   
@@ -138,18 +146,22 @@ const ProductsScrolling = () => {
     {
       image: accessories1,
       hoverImage: accessories2,
+      link: "poly-fibre-pillow",
     },
     {
       image: accessories3,
       hoverImage: accessories4,
+      link: "memory-pillow",
     },
     {
       image: accessories5,
       hoverImage: accessories6,
+      link: "latexpillow",
     },
     {
       image: accessories7,
       hoverImage: accessories8,
+      link: "foam-pillow",
     },
   ];
   
