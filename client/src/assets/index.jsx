@@ -8,6 +8,16 @@ import ORTRHOMED3 from "./mattress S.F COMP IMG/ORTHOMED/DSC02104.jpg";
 import ORTRHOMED4 from "./mattress S.F COMP IMG/ORTHOMED/DSC02105.jpg";
 import ORTRHOMED5 from "./mattress S.F COMP IMG/ORTHOMED/DSC02106.jpg";
 import ORTRHOMED6 from "./mattress S.F COMP IMG/ORTHOMED/DSC02107.jpg";
+//banners and specification---------------------------
+import AloeveraBanner from "./mattress S.F COMP IMG/BANNER&SPECIFICATION/Aloevera banner.jpeg";
+import BuckinghumBanner from "./mattress S.F COMP IMG/BANNER&SPECIFICATION/Buckinghum banner.jpeg";
+import PreferenceBanner from "./mattress S.F COMP IMG/BANNER&SPECIFICATION/preference2speci.jpeg";
+import RomanticBanner from "./mattress S.F COMP IMG/BANNER&SPECIFICATION/Romantic Banner.jpeg";
+import BuckinghumSpeci from "./mattress S.F COMP IMG/BANNER&SPECIFICATION/Buckinghumspeci.jpeg";
+import OrthopedicAloeveraLatexSpeci from "./mattress S.F COMP IMG/BANNER&SPECIFICATION/OrthopedicAloeveralatexSpeci.jpeg";
+import OrthopedicAloeveraMemorySpeci from "./mattress S.F COMP IMG/BANNER&SPECIFICATION/OrthopedicAloeveramemorySpeci.jpeg";
+import MemofySpeci from "./mattress S.F COMP IMG/BANNER&SPECIFICATION/Memofyspeci.jpeg";
+
 
 //---------Preference-------------
 import Preference1 from "./mattress S.F COMP IMG/Prefrence CI/DSC02094.jpg";
@@ -56,6 +66,11 @@ import oxford3 from "./mattress S.F COMP IMG/Oxford CI/DSC02114.jpg";
 import oxford4 from "./mattress S.F COMP IMG/Oxford CI/DSC02115.jpg";
 import oxford5 from "./mattress S.F COMP IMG/Oxford CI/DSC02116.jpg";
 import oxford6 from "./mattress S.F COMP IMG/Oxford CI/DSC02117.jpg";
+
+//THE HOTEL----------------------------
+import Hotel1 from "./mattress S.F COMP IMG/HOTEL/Thehotel1.jpeg";
+import Hotel2 from "./mattress S.F COMP IMG/HOTEL/Thehotel2.jpeg";
+import Hotel3 from "./mattress S.F COMP IMG/HOTEL/Thehotel3.jpeg";
 
 //--------- Loveland-------------
 import Loveland1 from "./mattress S.F COMP IMG/Loveland CI/DSC02146.jpg";
@@ -178,6 +193,7 @@ import Milange3 from "./mattress S.F COMP IMG/MILANGE/DSC02178.jpg";
 import Milange4 from "./mattress S.F COMP IMG/MILANGE/DSC02176.jpg";
 import Milange5 from "./mattress S.F COMP IMG/MILANGE/DSC02176.jpg";
 import Milange6 from "./mattress S.F COMP IMG/MILANGE/DSC02176.jpg";
+import MilangeSpeci from "./mattress S.F COMP IMG/BANNER&SPECIFICATION/Milangespeci.jpeg";
 
 //------red hard & soft--------------------
 
@@ -191,6 +207,17 @@ import RedHardSoft6 from "./mattress S.F COMP IMG/Red Hard & soft CI/DSC02187.jp
 //---------------------------------------------------------------------------------------------------------------
 //---------Beds------------------------------
 //King-Sized-Beds
+//denver bed
+import DenverModel2 from "./Beds/DenverModel/DenverModel2.jpeg";
+import DenverModel3 from "./Beds/DenverModel/DenverModel3.jpeg";
+import DenverModel4 from "./Beds/DenverModel/DenverModel4.jpeg";
+import DenverModel1 from "./Beds/DenverModel/DenverModel1.jpeg";
+
+import PKModel1 from "./Beds/PK Model/PKModel1.jpeg";
+import PKModel2 from "./Beds/PK Model/PKModel2.jpeg";
+import PKModel3 from "./Beds/PK Model/PKModel3.jpeg";
+import PKModel4 from "./Beds/PK Model/PKModel4.jpeg";
+
 import PlatformBed from "../assets/Beds/King-Size-bed/PlatformBed.jpeg";
 import CanopyBed from "../assets/Beds/King-Size-bed/CanopyBed.JPG";
 import PanelBed from "../assets/Beds/King-Size-bed/PanelBed.jpeg";
@@ -209,6 +236,11 @@ import queensizebed1 from "../assets/Beds/Queen-size-bed/queensizebed1.jpg";
 import queensizebed2 from "../assets/Beds/Queen-size-bed/queensizebed2.jpg";
 import queensizebed3 from "../assets/Beds/Queen-size-bed/queensizebed3.jpg";
 import queensizebed4 from "../assets/Beds/Queen-size-bed/queensizebed4.jpg";
+
+import DiamondModel1 from "./Beds/Diamond Model/DiamondModel1.jpeg";
+import DiamondModel2 from "./Beds/Diamond Model/DiamondModel2.jpeg";
+import DiamondModel3 from "./Beds/Diamond Model/DiamondModel3.jpeg";
+import DiamondModel4 from "./Beds/Diamond Model/DiamondModel4.jpeg";
 
 //-------------------------------------------------------------------------------------------------------------
 //------Sofas-------------
@@ -245,9 +277,9 @@ import UshapedSofa3 from "../assets/Sofas/Sectional-Sofas/UshapedSofa3.jpeg";
 import UshapedSofa4 from "../assets/Sofas/Sectional-Sofas/UshapedSofa4.jpeg";
 
 import ushapedsofacumbed1 from "../assets/Sofas/Sectional-Sofas/ushapedsofacumbed1.jpeg";
-import ushapedsofacumbed2 from "../assets/Sofas/Sectional-Sofas/ushapedsofacumbed2.jpeg";
-import ushapedsofacumbed3 from "../assets/Sofas/Sectional-Sofas/ushapedsofacumbed3.jpeg";
-import ushapedsofacumbed4 from "../assets/Sofas/Sectional-Sofas/ushapedsofacumbed4.jpeg";
+import ushapedsofacumbed2 from "../assets/Sofas/Sectional-Sofas/ushapedsofacumbed2.png";
+import ushapedsofacumbed3 from "../assets/Sofas/Sectional-Sofas/ushapedsofacumbed3.png";
+import ushapedsofacumbed4 from "../assets/Sofas/Sectional-Sofas/ushapedsofacumbed4.png";
 
 import Lshapedsofacumbed1 from "../assets/Sofas/Sectional-Sofas/lshapedsofacumbed1.jpg";
 import Lshapedsofacumbed2 from "../assets/Sofas/Sectional-Sofas/lshapedsofacumbed2.jpg";
@@ -276,6 +308,7 @@ import LatexPillow2 from "../assets/Accessories/Pillows/LatexPillow2.jpeg";
 import LatexPillow3 from "../assets/Accessories/Pillows/LatexPillow3.jpeg";
 import LatexPillow4 from "../assets/Accessories/Pillows/LatexPillow4.jpeg";
 import Foampillow1 from "../assets/Accessories/Pillows/Foampillow1.jpeg";
+import Foampillow11 from "../assets/Accessories/Pillows/Foampillow11.png";
 import Foampillow2 from "../assets/Accessories/Pillows/Foampillow2.jpeg";
 import Foampillow3 from "../assets/Accessories/Pillows/Foampillow3.jpeg";
 import Foampillow4 from "../assets/Accessories/Pillows/Foampillow4.jpeg";
@@ -283,6 +316,7 @@ import AloveraPolyfiberPillow1 from "../assets/Accessories/Pillows/AloveraPolyfi
 import AloveraPolyfiberPillow2 from "../assets/Accessories/Pillows/AloveraPolyfiberPillow2.jpeg";
 import AloveraPolyfiberPillow3 from "../assets/Accessories/Pillows/AloveraPolyfiberPillow3.jpeg";
 import AloveraPolyfiberPillow4 from "../assets/Accessories/Pillows/AloveraPolyfiberPillow4.jpeg";
+import PolyfiberPillow1 from "../assets/Accessories/Pillows/PolyfiberPillow1.png";
 
 //Banner
 
@@ -307,6 +341,11 @@ export {
   ORTRHOMED4,
   ORTRHOMED5,
   ORTRHOMED6,
+  AloeveraBanner,
+  BuckinghumBanner,
+  BuckinghumSpeci,
+  PreferenceBanner,
+  RomanticBanner,
 
   // preference
   Preference1,
@@ -331,11 +370,14 @@ export {
   OrthopedicAloeveraMemory4,
   OrthopedicAloeveraMemory5,
   OrthopedicAloeveraMemory6,
+  OrthopedicAloeveraLatexSpeci,
+  OrthopedicAloeveraMemorySpeci,
 
   //Memofy
   Memofy1,
   Memofy3,
   Memofy2,
+  MemofySpeci,
 
   // Pufoam 6
   SixinchPUFOAM1,
@@ -350,6 +392,10 @@ export {
   EightinchPUFOAM3,
   EightinchPUFOAM4,
   EightinchPUFOAM5,
+  //the hotel
+  Hotel1,
+  Hotel2,
+  Hotel3,
 
   // Oxford
   oxford1,
@@ -430,6 +476,7 @@ export {
   Milange4,
   Milange5,
   Milange6,
+  MilangeSpeci,
 
   // Red hard and soft
   RedHardSoft1,
@@ -449,13 +496,28 @@ export {
   CanopyBed,
   PanelBed,
   SeighBed,
+  //denver model
+  DenverModel2,
+  DenverModel3,
+  DenverModel4,
+  DenverModel1,
   kingsizebed1,
   kingsizebed2,
   kingsizebed3,
   kingsizebed4,
+  //diamond model
+  DiamondModel1,
+DiamondModel2,
+DiamondModel3,
+DiamondModel4,
   //Queen-Sized-Beds
   LoftBed,
   MurphyBed,
+  //pkmodel
+  PKModel1,
+  PKModel2,
+  PKModel3,
+  PKModel4,
   queensizebed1,
   queensizebed2,
   queensizebed3,
@@ -484,6 +546,8 @@ export {
   AloveraPolyfiberPillow2,
   AloveraPolyfiberPillow3,
   AloveraPolyfiberPillow4,
+  PolyfiberPillow1,
+  Foampillow11,
 
   //-------------------------------------------------------------------------------------------------------------
   //Sofas

@@ -57,8 +57,8 @@ const Navbar = () => {
       >
         <div>
           <FontAwesomeIcon icon={faPhone} className="mt-1 pr-2" />
-          <a href="tel:09866645804" className="hover:underline">
-            09866645804
+          <a href="tel: 08062181296" className="hover:underline">
+            08062181296
           </a>
         </div>
         <div>

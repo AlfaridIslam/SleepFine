@@ -1,58 +1,69 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import UPI from "../../assets/Fotter-Img/img-1.png";
-import Card from "../../assets/Fotter-Img/img-2.png";
+import Qrimg from "../../assets/Qrimg.jpeg";
 import WarrantyContent from "../PopupContent/WarrantyCnt";
 import TermsContent from "../PopupContent/TermsConditionCnt";
-import PrivacyPolicyCnt from '../PopupContent/PrivacyPolicyCnt'
+import PrivacyPolicyCnt from '../PopupContent/PrivacyPolicyCnt';
 import {
   faFacebookF,
   faYoutube,
   faInstagram,
   faWhatsapp,
-  
-  
 } from "@fortawesome/free-brands-svg-icons";
 import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
   const [showPopup, setShowPopup] = useState(false);
   const [popupContent, setPopupContent] = useState(null);
- 
+  const [qrimg, setQrimg] = useState(false);
 
   const clickHandler = (ContentComponent) => {
     setPopupContent(<ContentComponent />);
-    
     setShowPopup(true);
+    setQrimg(false); 
+  };
+
+  const handleUPIClick = () => {
+    setQrimg(true);
+    setShowPopup(false); 
   };
 
   const closePopup = () => {
     setShowPopup(false);
-    setPopupContent(null);
-   
+    setQrimg(false); 
   };
 
   return (
     <div className='fotter-main-sec bg-black xl:w-full sm:w-[166%] text-white'>
       {/* Popup Section */}
       {showPopup && (
-      <div className='Popups-section fixed inset-0 xl:h-screen grid place-items-center bg-black bg-opacity-50 backdrop-blur-sm gap-0'>
-      <div className='xl:text-3xl flex xl:mt-0 m-0 p-0 sm:text-5xl sm:mt-16'>
-        <button  onClick={closePopup}>
-          <FontAwesomeIcon icon={faCircleXmark} />
-        </button>
-      </div>
-      <div className='bg-white text-black xl:w-[60%] -mt-44 xl:p-8 sm:p-10  z-[2000px] xl:h-80 sm:w-[80%] sm:h-[80%] overflow-y-scroll m-0'>
-        <p>{popupContent}</p>
-        
-      </div>
-    </div>
+        <div className='Popups-section fixed inset-0 xl:h-screen grid place-items-center bg-black bg-opacity-50 backdrop-blur-sm gap-0'>
+          <div className='xl:text-3xl flex xl:mt-10 m-0 p-0 sm:text-5xl sm:mt-16'>
+            <button onClick={closePopup}>
+              <FontAwesomeIcon icon={faCircleXmark} />
+            </button>
+          </div>
+          <div className='bg-white text-black xl:w-[60%] -mt-30 xl:p-8 sm:p-10 z-[2000px] xl:h-90 sm:w-[80%] sm:h-[80%] overflow-y-scroll m-0'>
+            <p>{popupContent}</p>
+          </div>
+        </div>
+      )}
+
     
-      
+      {qrimg && (
+        <div className='fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center h-screen backdrop-blur-sm sm:h-[100%]'>
+          <div className='xl:h-60 xl:w-80 p-4 text-center sm:h-96 sm:w-[60] sm:-mt-40'>
+          
+            <img src={Qrimg} alt="QR Code" className='mb-2 ' />
+            <h1 className="xl:text-base sm:text-4xl">UPI ID: paytmqr603x2h@ptys</h1>
+            <button onClick={closePopup} className='mt-2 text-red-500 text-lg'>Close</button>
+          
+          </div>
+        </div>
       )}
 
       {/* ----------------------------------FOOTER-MAIN-DIV------------------------------------------------- */}
-
       <div className="fotter-text-sec sm:px-[] sm:grid sm:grid-cols-2 sm:gap-4 xl:flex gap-4 justify-between items-stretch px-10 xl:h-[380px] mt-4">
         {/* ---------OUR PROMISE-------------- */}
         <div className="sm:col-span-2 flex-1 p-4 rounded-lg">
@@ -80,9 +91,9 @@ const Footer = () => {
         <div className="flex-1 p-4 rounded-lg">
           <h1 className="text-lg font-normal mb-2">SUPPORT</h1>
           <ul className="font-extralight">
-            <li onClick={() => clickHandler(PrivacyPolicyCnt, )} className='cursor-pointer'>Privacy Policy</li>
-            <li onClick={() => clickHandler(TermsContent, )} className='cursor-pointer'>Terms & Conditions</li>
-            <li onClick={() => clickHandler(WarrantyContent, )} className='cursor-pointer'>Warranty</li>
+            <li onClick={() => clickHandler(PrivacyPolicyCnt)} className='cursor-pointer'>Privacy Policy</li>
+            <li onClick={() => clickHandler(TermsContent)} className='cursor-pointer'>Terms & Conditions</li>
+            <li onClick={() => clickHandler(WarrantyContent)} className='cursor-pointer'>Warranty</li>
           </ul>
         </div>
 
@@ -114,14 +125,7 @@ const Footer = () => {
           <h1 className="text-lg font-normal mb-2">PAYMENT METHODS</h1>
           <ul className="font-extralight">
             <li>
-              <a href="https://merchant.benow.in/ppl/pay/PCEZN00000000814" target="_blank" rel="noopener noreferrer">
-                <img src={UPI} alt="UPI" className="w-40" />
-              </a>
-            </li>
-            <li className="mt-2">
-              <a href="https://merchant.benow.in/ppl/pay/PCEZN00000000814" target="_blank" rel="noopener noreferrer">
-                <img src={Card} alt="Card" className="w-40" />
-              </a>
+              <img src={UPI} alt="UPI" className="w-40 cursor-pointer" onClick={handleUPIClick} />
             </li>
           </ul>
         </div>

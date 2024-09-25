@@ -48,6 +48,9 @@ const Mattress = () => {
                   <Link to="product-details/orthomed">Orthomed</Link>
                 </div>
                 <div className="px-4 py-2 hover:bg-indigo-100">
+                  <Link to="product-details/milange">Milange</Link>
+                </div>
+                <div className="px-4 py-2 hover:bg-indigo-100">
                   <Link to="product-details/preference">Preference</Link>
                 </div>
                 <div className="px-4 py-2 hover:bg-indigo-100">

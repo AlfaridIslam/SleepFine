@@ -138,6 +138,7 @@ import {
   AloveraPolyfiberPillow2,
   AloveraPolyfiberPillow3,
   AloveraPolyfiberPillow4,
+  Milange5,
 
 } from "./assets/index"; // Adjust the path according to your folder structure
 
@@ -162,6 +163,12 @@ const products = [
             name: "Orthomed",
             image: ORTRHOMED3, // Using existing image as dummy
           },
+          {
+            id: 1017,
+            name: "Milange",
+            image: Milange5, // Using existing image as dummy
+          },
+
           {
             id: 1012,
             name: "Preference",
@@ -301,17 +308,17 @@ const products = [
     subcategories: [
       {
         id: 201,
-        name: "King Size Bed",
+        name: "Denver Model",
         image: PlatformBed,
         subitems: [
           {
             id: 2011,
-            name: "king-with-storage",
+            name: "denver-with-storage",
             image: PlatformBed, // Using existing image as dummy
           },
           {
             id: 2012,
-            name: "king-without-storage",
+            name: "denver-without-storage",
             image: PanelBed, // Using existing image as dummy
           },
           {
@@ -328,17 +335,17 @@ const products = [
       },
       {
         id: 202,
-        name: "Queen-Size-Bed",
+        name: "PK Model",
         image: queensizebed1,
         subitems: [
           {
             id: 2021,
-            name: "queen-with-storage",
+            name: "pkmodel-with-storage",
             image: MurphyBed, // Using existing image as dummy
           },
           {
             id: 2022,
-            name: "queen-without-storage",
+            name: "pkmodel-without-storage",
             image: LoftBed, // Using existing image as dummy
           },
           {
@@ -353,20 +360,20 @@ const products = [
           },
         ],
       },
-      // SINGLE BED
+      // Diamond BED
       {
         id: 204,
-        name: "single-Size-Bed",
+        name: "Diamond Model",
         image: queensizebed1,
         subitems: [
           {
             id: 2041,
-            name: "single-with-storage",
+            name: "diamond-with-storage",
             image: MurphyBed, // Using existing image as dummy
           },
           {
             id: 2042,
-            name: "single-without-storage",
+            name: "diamond-without-storage",
             image: LoftBed, // Using existing image as dummy
           },
         ],
