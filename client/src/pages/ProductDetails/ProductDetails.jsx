@@ -190,6 +190,8 @@ import {
 // import "./productDetails.css";
 // import { productImages } from "../../components/Cloudinary/ProductImages.jsx";
 
+
+
 const ORTRHOMED1 =
   "https://res.cloudinary.com/dscazzgvz/image/upload/v1727091165/DSC02102_wxrv0l.jpg";
 
@@ -722,6 +724,7 @@ const productData = {
   orthomed: {
     // images: productImages.orthomed,
     images: [OrthomedBanner, ORTRHOMED1, ORTRHOMED2, ORTRHOMED6, Orthospeci],
+
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Orthomed</div>
@@ -1768,6 +1771,7 @@ const ProductDetails = () => {
                   className="sm:w-[540px] sm:h-[412px] xl:w-[645px] xl:h-[378px] rounded-xl border-2 border-slate-300 bg-slate-400"
                 />
                 {/* Carousel navigation buttons */}
+
                 <button
                   onClick={handlePrevClick}
                   className="left absolute xl:text-[80px] xl:top-[122px] xl:left-[1rem] xl:translate-x-[1.375rem]"
@@ -1779,7 +1783,8 @@ const ProductDetails = () => {
                   className="right absolute xl:text-[80px] xl:top-[122px] xl:right-[8rem] xl:translate-x-[1.375rem]"
                 >
                   &#8250;
-                </button>
+                  </button>
+
               </div>
 
               <div className="thumbnail flex justify-start gap-2">
