@@ -97,7 +97,7 @@ const Beds = () => {
               hoveredCategory === "Diamond model Collection" ? "" : ""
             }`}
             onMouseEnter={() =>
-              handleMouseEnterCategory("Diamond model Collection")
+              handleMouseEnterCategory("Diamond model Collection ")
             }
             onMouseLeave={handleMouseLeaveCategory}
           >
