@@ -937,19 +937,23 @@ const productData = {
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Pocketed spring inspiration</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
+    <div class="text-xl font-semibold my-[6px]">Pocketed Spring Inspiration Mattress</div>
+    
+    The Pocketed Spring Inspiration mattress combines the best of advanced spring technology with plush comfort, delivering a superior sleeping experience. Its core consists of individually wrapped pocket springs, ensuring targeted support that adapts to your body’s natural contours. The top comfort layer enhances the mattress's luxurious feel, offering a balance between cushioning and proper orthopedic alignment for a restful sleep.<br><br>
+    <h2 class="font-bold">Plush Comfort with Orthopedic Benefits</h2>
+    The mattress is topped with a premium comfort layer that mimics the feel of memory foam but with a more responsive and breathable design. This plush top layer offers excellent cushioning without compromising on the support provided by the pocket springs beneath. The combination of materials helps reduce discomfort from back and joint pain, providing a restful, restorative sleep.<br><br>
+    <h2 class="font-bold">Medium Firmness for Optimal Comfort</h2>
+    Designed for those who need medium firmness, this mattress provides a balance between support and softness. The pocket springs offer a firmer base that keeps your spine aligned, while the plush top layer ensures comfort. This combination helps alleviate common sleep issues like back pain and stiffness, making it an excellent choice for individuals seeking both orthopedic support and luxury.<br><br>
+    <h2 class="font-bold">Breathable Fabric & Quilted Cover</h2>
+    The outer fabric is crafted from breathable, high-quality materials designed to regulate body temperature. It features a quilted cover that enhances airflow, keeping you cool throughout the night. The multiple layers of fabric and PU foam ensure long-lasting comfort and durability, helping prevent overheating and creating a more hygienic sleeping environment.
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
     <p>5 & 6 inches</p>
+    </div>
+    <div>
+    <h2 class="font-bold">Variant</h2>
+    <p>TT (Tight Top)</p>
     </div>
     <div>
     <h2 class="font-bold">Warranty</h2>
@@ -967,15 +971,14 @@ const productData = {
     images: [EternityEuroton1, EternityEuroton2, EternityEuroton3], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">pocketed spring 6 inch eternity euroton</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
+    <div class="text-xl font-semibold my-[6px]">Pocketed Spring Eternity Euroton Mattress</div>
+    The Pocketed Spring Eternity Euroton mattress offers the perfect blend of advanced spring technology and luxurious comfort. This premium mattress is designed to provide long-lasting support with a Euro-top layer, delivering an indulgent sleeping experience. With its individually encased pocket springs, this mattress minimizes motion transfer and enhances support, while the Euroton comfort layer provides a plush and contouring feel for an ideal night’s rest.<br><br>
+    <h2 class="font-bold">Advanced Pocketed Springs for Personalized Support</h2>
+    The core of this mattress consists of high-density pocketed springs, each encased to move independently. This advanced spring system ensures targeted support across various body zones, adapting to your unique shape and reducing pressure on key areas like the hips, shoulders, and spine. The individually wrapped springs also limit motion transfer, making it perfect for couples seeking uninterrupted sleep.<br><br>
+    <h2 class="font-bold">Euroton Plush Top Layer for Extra Comfort</h2>
+    The mattress features a luxurious Euroton top layer that enhances the softness and cushioning effect. The Euro-top design offers a thick, pillow-like layer that cradles the body, delivering superior comfort while maintaining the firmness and support needed for proper alignment. This plush top layer contours to the body, providing a feeling of luxury without compromising on orthopedic benefits.<br><br>
+    <h2 class="font-bold">Medium-Firm Support for Balanced Comfort</h2>
+    This mattress is designed to offer medium-firm support, which is ideal for maintaining a healthy sleeping posture while delivering a plush surface for ultimate comfort. The pocketed springs work in tandem with the Euroton top layer to provide both support and relief from pressure points, reducing stress on the back, neck, and joints. It’s the perfect choice for those seeking a balance between firmness and softness.
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
@@ -997,15 +1000,14 @@ const productData = {
     images: [AloeveraBanner, AloveraBonnel1, AloveraBonnel2, AloveraBonnel3], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Pocketed Spring aloe vera with latex</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
+    <div class="text-xl font-semibold my-[6px]">Pocketed Spring Aloe Vera with Latex Mattress</div>
+    The Pocketed Spring Aloe Vera with Latex mattress combines the natural benefits of latex with the advanced support of pocketed springs for a healthier, more comfortable sleep. Infused with aloe vera for added skin benefits and breathability, this mattress is crafted to provide superior orthopedic support, pressure relief, and long-lasting durability. The inclusion of latex adds natural responsiveness, creating a sleep surface that conforms to your body while promoting optimal alignment.<br><br>
+    <h2 class="font-bold">Pocketed Springs for Advanced Support</h2>
+    At the core of this mattress are individually wrapped pocket springs, engineered to offer tailored support for every part of your body. These springs work independently, minimizing motion transfer and ensuring personalized support for areas such as your shoulders, hips, and spine. This design promotes proper posture and relieves pressure points, making it perfect for those who need firm support with flexibility.<br><br>
+    <h2 class="font-bold">Natural Latex Comfort Layer</h2>
+    Topped with a natural latex layer, this mattress offers a unique combination of firm support and plush comfort. Latex is known for its breathability, natural resistance to dust mites, and hypoallergenic properties, making it ideal for allergy-prone sleepers. The latex layer adapts to your body’s contours, providing pressure relief while maintaining a responsive feel that helps in spinal alignment. This combination of latex and pocketed springs ensures the right balance of firmness and softness for a rejuvenating sleep.<br><br>
+    <h2 class="font-bold">Aloe Vera-Infused Fabric for Skin-Friendly Comfort</h2>
+    The mattress cover is infused with natural aloe vera, known for its soothing and anti-inflammatory properties. This not only promotes a fresh and hygienic sleeping environment but also enhances the fabric's breathability, keeping you cool throughout the night. The aloe vera-infused fabric helps moisturize and protect the skin while you sleep, contributing to a relaxing and restorative rest.
     </div>
     <div class="description flex justify-start items-start gap-5 mt-2">
   <div class="flex flex-col">
@@ -1041,15 +1043,14 @@ const productData = {
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Pocketed spring aloe vera with memory</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
+    <div class="text-xl font-semibold my-[6px]">Pocketed Spring Aloe Vera with Memory Foam Mattress</div>
+    The Pocketed Spring Aloe Vera with Memory Foam mattress blends advanced sleep technology with natural aloe vera benefits, offering superior comfort, support, and freshness. This premium mattress is designed with pocketed springs for individualized support, while the memory foam layer ensures contouring comfort and pressure relief. Infused with aloe vera, this mattress provides a refreshing and skin-friendly sleep environment, perfect for those seeking a combination of orthopedic support and luxury.<br><br>
+    <h2 class="font-bold">Pocketed Springs for Customized Support</h2>
+    At the core of this mattress are individually wrapped pocket springs, engineered to respond independently to your body's movements. These springs provide targeted support, ensuring proper alignment of the spine and relieving pressure points like the shoulders and hips. The independent movement of each spring reduces motion transfer, making this mattress ideal for couples by minimizing disturbances caused by movement.<br><br>
+    <h2 class="font-bold">Memory Foam for Contouring Comfort</h2>
+    The memory foam layer atop the pocketed springs adapts to your body's shape, providing a personalized level of comfort and support. It cradles your body, relieving pressure points and promoting optimal spinal alignment. Memory foam also responds to heat, softening and molding to the contours of your body for a cloud-like sleeping experience. This combination of pocketed springs and memory foam ensures the right balance of support and plushness for a restful sleep.<br><br>
+    <h2 class="font-bold">Aloe Vera-Infused Fabric for Skin Rejuvenation</h2>
+    The outer cover is infused with natural aloe vera, known for its soothing and skin-rejuvenating properties. Aloe vera helps keep the fabric fresh and cool, promoting a healthy sleep environment by preventing overheating and maintaining breathability. This infusion also offers natural skin benefits, helping to keep your skin moisturized and revitalized during sleep. The aloe vera-infused fabric makes the mattress not only comfortable but also skin-friendly.
     </div>
     <div class="description flex justify-start items-start gap-5 mt-2">
   <div class="flex flex-col">
@@ -1083,15 +1084,14 @@ const productData = {
     images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">HR PU gravity</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
+    <div class="text-xl font-semibold my-[6px]">HR PU Gravity Mattress</div>
+    The HR PU Gravity mattress is designed with advanced High-Resilience (HR) PU foam technology, offering the perfect balance of firm support and plush comfort. This premium mattress is crafted for individuals who require robust back support combined with a soft, cushioning surface. The HR foam core adapts to your body’s movements, providing durability, enhanced flexibility, and optimal comfort for a restful night’s sleep.<br><br>
+    <h2 class="font-bold">High-Resilience PU Foam for Superior Support</h2>
+    The core of the HR PU Gravity mattress is made of high-resilience PU foam, known for its ability to contour to the body while maintaining its shape over time. This foam is more durable and flexible than traditional PU foam, ensuring long-lasting comfort and support. The HR foam responds quickly to pressure, offering targeted support for your back, hips, and shoulders, promoting proper spinal alignment and helping to alleviate pressure points.<br><br>
+    <h2 class="font-bold">Firmness and Support</h2>
+    The HR PU Gravity mattress is designed with medium-firm support, ideal for maintaining healthy posture during sleep. The high-resilience foam prevents sagging and provides firm support to the spine, helping reduce the chances of waking up with aches or stiffness. Its durable structure is especially beneficial for those who need consistent support throughout the night.<br><br>
+    <h2 class="font-bold">Breathable and Durable Fabric</h2>
+    The mattress is wrapped in a breathable fabric that promotes airflow, preventing heat retention and ensuring a cooler sleeping environment. The durable quilted cover enhances the overall longevity of the mattress, protecting the foam layers from wear and tear while adding an additional layer of comfort. This breathable design keeps the mattress cool, even on hot nights, allowing for an undisturbed sleep experience.
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
@@ -1113,15 +1113,14 @@ const productData = {
     images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">HR PU space</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
+    <div class="text-xl font-semibold my-[6px]">HR PU Space Mattress</div>
+    The HR PU Space mattress is crafted using High-Resilience (HR) PU foam technology, providing a unique combination of superior support and luxurious comfort. Designed for individuals who prioritize both durability and pressure-relieving features, this mattress adapts to your body’s contours, ensuring optimal spinal alignment while delivering a plush, restful sleep surface.<br><br>
+    <h2 class="font-bold">Space-Like Comfort with Plush Surface</h2>
+    The top layer of the HR PU Space mattress offers a plush, cloud-like surface, designed to give you the feeling of floating in space. This luxurious layer creates a soft, cushioning effect while the HR foam underneath ensures that the body remains supported. The combination of plush comfort and firm support makes this mattress ideal for sleepers who want to experience both coziness and orthopedic benefits.<br><br>
+    <h2 class="font-bold">Medium-Firm Support for Healthy Sleep Posture</h2>
+    With a medium-firm support level, the HR PU Space mattress is perfect for maintaining a healthy sleep posture. The HR foam core is firm enough to keep your spine aligned, while the plush top layer ensures comfort without compromising on support. This balance helps reduce pressure on your joints and prevents back pain, making it an excellent choice for people seeking a supportive and restorative sleep surface.<br><br>
+    <h2 class="font-bold">Breathable and Durable Quilted Cover</h2>
+    The mattress is encased in a breathable, quilted fabric cover designed to enhance airflow, keeping the surface cool and comfortable throughout the night. This durable cover is engineered to protect the foam layers from wear and tear, ensuring that the mattress maintains its shape and performance over time. Its breathability also helps prevent overheating, allowing you to enjoy a cool and refreshing sleep experience.
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
@@ -1143,15 +1142,16 @@ const productData = {
     images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">HR PU Plush</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
+    <div class="text-xl font-semibold my-[6px]">HR PU Plush Mattress</div>
+    The HR PU Plush mattress offers an exceptional blend of luxury, comfort, and support, thanks to its High-Resilience (HR) PU foam core and plush surface. Designed for those who seek a soft yet supportive sleep experience, this mattress delivers a cloud-like feel while ensuring your spine remains properly aligned. With superior cushioning and long-lasting durability, this mattress is the perfect choice for anyone wanting the best of both worlds—plush comfort and firm support.<br><br>
+    <h2 class="font-bold">High-Resilience PU Foam for Lasting Support</h2>
+    The core of the HR PU Plush mattress is built with high-resilience PU foam, which provides advanced support by contouring to your body and distributing your weight evenly. HR foam offers more elasticity and responsiveness compared to regular PU foam, making it ideal for long-term use without sagging. The foam adjusts to your body’s natural curves, reducing pressure on sensitive areas like the hips and shoulders, and promoting proper spinal alignment.<br><br>
+    <h2 class="font-bold">Luxurious Plush Comfort Layer</h2>
+    Topping the HR foam core is a plush comfort layer that offers an indulgently soft sleeping surface. This layer cradles your body, providing a gentle, cushioning feel that enhances relaxation and encourages restful sleep. Despite its soft feel, the mattress ensures that your body remains well-supported, preventing any sinking sensation that could lead to discomfort. Whether you sleep on your back, side, or stomach, the plush top layer offers the perfect balance of softness and support.
+
+    <br><br>
+    <h2 class="font-bold">Breathable and Durable Quilted Cover</h2>
+    The mattress is wrapped in a high-quality, breathable quilted cover that promotes airflow, keeping you cool and comfortable throughout the night. The fabric is designed to wick away moisture, ensuring a fresh and dry sleep environment. The durable construction of the cover helps protect the mattress from wear and tear, ensuring long-lasting performance and comfort.
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
@@ -1173,15 +1173,14 @@ const productData = {
     images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">HR PU Techniko</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
+    <div class="text-xl font-semibold my-[6px]">HR PU Techniko Mattress</div>
+    The HR PU Techniko mattress combines cutting-edge sleep technology with premium materials to deliver a sleep experience that’s both comfortable and supportive. Built with High-Resilience (HR) PU foam, this mattress offers a balance of firm support and plush cushioning, ideal for sleepers who want durability, responsiveness, and pressure relief all in one. The HR foam core ensures long-lasting comfort while maintaining optimal spinal alignment, making it a perfect solution for those seeking a high-performance mattress.<br><br>
+    <h2 class="font-bold">High-Resilience PU Foam for Enhanced Support</h2>
+    The core of the HR PU Techniko mattress is composed of high-resilience PU foam, which adapts to your body shape and provides targeted support where you need it most. HR foam is known for its elasticity and ability to bounce back quickly, ensuring that the mattress maintains its shape and doesn't sag over time. It offers a superior level of pressure relief, especially for the back, shoulders, and hips, promoting a restful sleep and reducing the risk of developing aches and pains.<br><br>
+    <h2 class="font-bold">Adaptive Comfort Layer for a Balanced Sleep Surface</h2>
+    This mattress is designed with a specialized comfort layer that enhances the body-contouring properties of HR foam. The comfort layer works to cushion pressure points and provide a medium-firm feel that supports a variety of sleep styles. Whether you prefer to sleep on your back, side, or stomach, the HR PU Techniko adapts to your position, offering balanced support without compromising on comfort.<br><br>
+    <h2 class="font-bold">Durable and Breathable Quilted Cover</h2>
+    The outer layer of the mattress features a breathable, quilted cover that helps regulate body temperature and enhances airflow. This breathable fabric ensures that you stay cool and comfortable throughout the night by preventing heat retention. The quilted design not only adds to the comfort of the mattress but also increases its durability, protecting the foam layers from wear and tear.
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
