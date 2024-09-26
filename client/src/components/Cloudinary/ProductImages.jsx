@@ -320,7 +320,7 @@ import { BuckinghumBanner, LatexPillow1, Memofy1, Preference1 } from "../../asse
   ],
 
   //Pillow
-  
+
   Memory_pillow:[
 
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264286/Memoryfoam_Pillow1_vqewfs.jpg ",
