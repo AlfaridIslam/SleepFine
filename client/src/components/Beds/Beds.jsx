@@ -69,9 +69,7 @@ const Beds = () => {
             className={`px-4 py-2 rounded-lg hover:bg-slate-200 hover:text-black ${
               hoveredCategory === "PK Model Collection" ? "" : ""
             }`}
-            onMouseEnter={() =>
-              handleMouseEnterCategory("PK Model Collection")
-            }
+            onMouseEnter={() => handleMouseEnterCategory("PK Model Collection")}
             onMouseLeave={handleMouseLeaveCategory}
           >
             PK Model
@@ -117,33 +115,6 @@ const Beds = () => {
               </div>
             )}
           </div>
-
-          {/* Double Sized Beds Collection */}
-          {/* <div
-            className={`px-4 py-2 rounded-lg hover:bg-slate-200 hover:text-black ${
-              hoveredCategory === "Double bed Collection" ? "" : ""
-            }`}
-            onMouseEnter={() =>
-              handleMouseEnterCategory("Double bed Collection")
-            }
-            onMouseLeave={handleMouseLeaveCategory}
-          >
-            PK Model
-            {hoveredCategory === "Double bed Collection" && (
-              <div className="xl:absolute xl:left-[180px] xl:-mt-[45px] xl:w-40 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50">
-                <div className="px-4 py-2 hover:bg-indigo-100">
-                  <Link to="product-details/double-with-storage">
-                    With Storage
-                  </Link>
-                </div>
-                <div className="px-4 py-2 hover:bg-indigo-100">
-                  <Link to="product-details/double-without-storage">
-                    Without Storage
-                  </Link>
-                </div>
-              </div>
-            )}
-          </div> */}
         </div>
       )}
     </div>

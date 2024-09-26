@@ -1,213 +1,217 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
-import {
-  ORTRHOMED1,
-  ORTRHOMED2,
-  ORTRHOMED3,
-  ORTRHOMED4,
-  ORTRHOMED5,
-  ORTRHOMED6,
-  AloeveraBanner,
-  BuckinghumBanner,
-  PreferenceBanner,
-  RomanticBanner,
-  OrthopedicAloeveraLatexSpeci,
-  OrthopedicAloeveraMemorySpeci,
+// import {
+//   ORTRHOMED1,
+//   ORTRHOMED2,
+//   ORTRHOMED3,
+//   ORTRHOMED4,
+//   ORTRHOMED5,
+//   ORTRHOMED6,
+//   AloeveraBanner,
+//   BuckinghumBanner,
+//   PreferenceBanner,
+//   RomanticBanner,
+//   OrthopedicAloeveraLatexSpeci,
+//   OrthopedicAloeveraMemorySpeci,
 
-  orthomedbanner,
-  milangebanner,
-  preferencebanner,
-  buckinghumbanner,
-  memofybanner,
-  aloeveralatexbanner,
-  aloeveramemorybanner,
-
-
-
-  Milange1,
-  Milange2,
-  Milange3,
-  Milange4,
-  Milange5,
-  Milange6,
-  MilangeSpeci,
-  Preference1,
-  Preference2,
-  Preference3,
-  Preference4,
-  Preference5,
-  Preference6,
-  Buckingham1,
-  Buckingham2,
-  Buckingham3,
-  Buckingham4,
-  Buckingham5,
-  Buckingham6,
-  BuckinghumSpeci,
-  Hotel1,
-  Hotel2,
-  Hotel3,
-  OrthopedicAloeveraMemory1,
-  OrthopedicAloeveraMemory2,
-  OrthopedicAloeveraMemory3,
-  OrthopedicAloeveraMemory4,
-  OrthopedicAloeveraMemory5,
-  OrthopedicAloeveraMemory6,
-  //pufoam6
-  SixinchPUFOAM1,
-  SixinchPUFOAM2,
-  SixinchPUFOAM3,
-  SixinchPUFOAM4,
-  SixinchPUFOAM5,
-  oxford1,
-  oxford2,
-  oxford3,
-  oxford4,
-  oxford5,
-  oxford6,
-  EightinchPUFOAM1,
-  EightinchPUFOAM2,
-  EightinchPUFOAM3,
-  EightinchPUFOAM4,
-  EightinchPUFOAM5,
-  AloveraBonnel1,
-  AloveraBonnel2,
-  AloveraBonnel3,
-  AloveraBonnel4,
-  Loveland1,
-  Loveland2,
-  Loveland3,
-  Loveland4,
-  Loveland5,
-  Loveland6,
-  Romanticfirm1,
-  Romanticfirm2,
-  Romanticfirm3,
-  Romanticfirm4,
-  Romanticfirm5,
-  Romanticfirm6,
-  OrthomedBanner,
-  RoseByRosaBanner2,
-  AmbitiousSleepingBanner3,
-  RomanticBanner4,
-  Orthospeci,
-  InsperationalPocketed1,
-  InsperationalPocketed2 ,
-  InsperationalPocketed3 ,
-  InsperationalPocketed4 ,
-  InsperationalPocketed5 ,
-  InsperationalPocketed6,
-
-  EternityEuroton1,
-  EternityEuroton3,
-  EternityEuroton2,
-  EternityEuroton4,
-  EternityEuroton5,
-
-  Memofy1,
-  Memofy2,
-  Memofy3,
-  MemofySpeci,
-//------------------------------------------------------------------
-  //beds
-  //kingsize bed--------------------
-  kingsizebed1,
-  kingsizebed2,
-  kingsizebed3,
-  kingsizebed4,
-  DenverModel2,
-DenverModel3,
-DenverModel4,
-DenverModel1,
-
-  //queen size
-  queensizebed1,
-  queensizebed2,
-  queensizebed3,
-  queensizebed4,
-  PKModel1,
-  PKModel2,
-  PKModel3,
-  PKModel4,
-  DiamondModel1,
-  DiamondModel2,
-  DiamondModel3,
-  DiamondModel4,
+  // orthomedbanner,
+  // milangebanner,
+  // preferencebanner,
+  // buckinghumbanner,
+  // memofybanner,
+  // aloeveralatexbanner,
+  // aloeveramemorybanner,
 
 
-  //Sofas
-  //Standard-sofa
-  chesterfield1,
-  chesterfield2,
-  chesterfield3,
-  chesterfield4,
-  ChesterfieldSofa,
-  Lawson1,
-  Lawson2,
-  Lawson3,
-  Lawson4,
-  LawsonSofa,
-  Tuxedo1,
-  Tuxedo2,
-  Tuxedo3,
-  Tuxedo4,
-  //Sectional sofas
-  LshapedSofa,
-  UshapedSofa,
-  LshapedSofa1,
-  LshapedSofa2,
-  LshapedSofa3,
-  LshapedSofa4,
-  UshapedSofa1,
-  UshapedSofa2,
-  UshapedSofa3,
-  UshapedSofa4,
-  ushapedsofacumbed1,
-  ushapedsofacumbed2,
-  ushapedsofacumbed3,
-  ushapedsofacumbed4,
-  Lshapedsofacumbed1,
-  Lshapedsofacumbed2,
-  Lshapedsofacumbed3,
-  Lshapedsofacumbed4,
-  ModularSofa1,
-  ModularSofa2,
-  ModularSofa3,
-  ModularSofa4,
-  //---------ACCESSORIES------------------------
-  //COMFORTERS
-  BaffelBox,
-  SewnThrough,
-  //Pillows
-  BodyPillow,
-  StandardPillow,
-  MemoryfoamPillow1,
-  MemoryfoamPillow2,
-  MemoryfoamPillow3,
-  MemoryfoamPillow4,
-  LatexPillow1,
-  LatexPillow2,
-  LatexPillow3,
-  LatexPillow4,
-  Foampillow1,
-  Foampillow2,
-  Foampillow3,
-  Foampillow4,
-  AloveraPolyfiberPillow1,
-  AloveraPolyfiberPillow2,
-  AloveraPolyfiberPillow3,
-  AloveraPolyfiberPillow4,
-  PolyfiberPillow1,
-  Foampillow11,
-} from "../../assets/index.jsx"; // Adjust the import paths as needed
+
+//   Milange1,
+//   Milange2,
+//   Milange3,
+//   Milange4,
+//   Milange5,
+//   Milange6,
+//   MilangeSpeci,
+//   Preference1,
+//   Preference2,
+//   Preference3,
+//   Preference4,
+//   Preference5,
+//   Preference6,
+//   Buckingham1,
+//   Buckingham2,
+//   Buckingham3,
+//   Buckingham4,
+//   Buckingham5,
+//   Buckingham6,
+//   BuckinghumSpeci,
+//   Hotel1,
+//   Hotel2,
+//   Hotel3,
+//   OrthopedicAloeveraMemory1,
+//   OrthopedicAloeveraMemory2,
+//   OrthopedicAloeveraMemory3,
+//   OrthopedicAloeveraMemory4,
+//   OrthopedicAloeveraMemory5,
+//   OrthopedicAloeveraMemory6,
+//   //pufoam6
+//   SixinchPUFOAM1,
+//   SixinchPUFOAM2,
+//   SixinchPUFOAM3,
+//   SixinchPUFOAM4,
+//   SixinchPUFOAM5,
+//   oxford1,
+//   oxford2,
+//   oxford3,
+//   oxford4,
+//   oxford5,
+//   oxford6,
+//   EightinchPUFOAM1,
+//   EightinchPUFOAM2,
+//   EightinchPUFOAM3,
+//   EightinchPUFOAM4,
+//   EightinchPUFOAM5,
+//   AloveraBonnel1,
+//   AloveraBonnel2,
+//   AloveraBonnel3,
+//   AloveraBonnel4,
+//   Loveland1,
+//   Loveland2,
+//   Loveland3,
+//   Loveland4,
+//   Loveland5,
+//   Loveland6,
+//   Romanticfirm1,
+//   Romanticfirm2,
+//   Romanticfirm3,
+//   Romanticfirm4,
+//   Romanticfirm5,
+//   Romanticfirm6,
+//   OrthomedBanner,
+//   RoseByRosaBanner2,
+//   AmbitiousSleepingBanner3,
+//   RomanticBanner4,
+//   Orthospeci,
+//   InsperationalPocketed1,
+//   InsperationalPocketed2 ,
+//   InsperationalPocketed3 ,
+//   InsperationalPocketed4 ,
+//   InsperationalPocketed5 ,
+//   InsperationalPocketed6,
+
+//   EternityEuroton1,
+//   EternityEuroton3,
+//   EternityEuroton2,
+//   EternityEuroton4,
+//   EternityEuroton5,
+
+//   Memofy1,
+//   Memofy2,
+//   Memofy3,
+//   MemofySpeci,
+// //------------------------------------------------------------------
+//   //beds
+//   //kingsize bed--------------------
+//   kingsizebed1,
+//   kingsizebed2,
+//   kingsizebed3,
+//   kingsizebed4,
+//   DenverModel2,
+// DenverModel3,
+// DenverModel4,
+// DenverModel1,
+
+//   //queen size
+//   queensizebed1,
+//   queensizebed2,
+//   queensizebed3,
+//   queensizebed4,
+//   PKModel1,
+//   PKModel2,
+//   PKModel3,
+//   PKModel4,
+//   DiamondModel1,
+//   DiamondModel2,
+//   DiamondModel3,
+//   DiamondModel4,
+
+
+//   //Sofas
+//   //Standard-sofa
+//   chesterfield1,
+//   chesterfield2,
+//   chesterfield3,
+//   chesterfield4,
+//   ChesterfieldSofa,
+//   Lawson1,
+//   Lawson2,
+//   Lawson3,
+//   Lawson4,
+//   LawsonSofa,
+//   Tuxedo1,
+//   Tuxedo2,
+//   Tuxedo3,
+//   Tuxedo4,
+//   //Sectional sofas
+//   LshapedSofa,
+//   UshapedSofa,
+//   LshapedSofa1,
+//   LshapedSofa2,
+//   LshapedSofa3,
+//   LshapedSofa4,
+//   UshapedSofa1,
+//   UshapedSofa2,
+//   UshapedSofa3,
+//   UshapedSofa4,
+//   ushapedsofacumbed1,
+//   ushapedsofacumbed2,
+//   ushapedsofacumbed3,
+//   ushapedsofacumbed4,
+//   Lshapedsofacumbed1,
+//   Lshapedsofacumbed2,
+//   Lshapedsofacumbed3,
+//   Lshapedsofacumbed4,
+//   ModularSofa1,
+//   ModularSofa2,
+//   ModularSofa3,
+//   ModularSofa4,
+//   //---------ACCESSORIES------------------------
+//   //COMFORTERS
+//   BaffelBox,
+//   SewnThrough,
+//   //Pillows
+//   BodyPillow,
+//   StandardPillow,
+//   MemoryfoamPillow1,
+//   MemoryfoamPillow2,
+//   MemoryfoamPillow3,
+//   MemoryfoamPillow4,
+//   LatexPillow1,
+//   LatexPillow2,
+//   LatexPillow3,
+//   LatexPillow4,
+//   Foampillow1,
+//   Foampillow2,
+//   Foampillow3,
+//   Foampillow4,
+//   AloveraPolyfiberPillow1,
+//   AloveraPolyfiberPillow2,
+//   AloveraPolyfiberPillow3,
+//   AloveraPolyfiberPillow4,
+//   PolyfiberPillow1,
+//   Foampillow11,
+// } from "../../assets/index.jsx";
+
+// importing cloudinary urls
+import  {productImages}  from "../../components/Cloudinary/ProductImages.jsx";
 
 // Define the image mapping for each product type with multiple images and descriptions
 const productData = {
   // SOFAS
   // STANDARD SOFA
   chesterfield: {
-    images: [chesterfield1, chesterfield2, chesterfield3, chesterfield4], // Assuming images are not uploaded yet
+    // images: [chesterfield1, chesterfield2, chesterfield3, chesterfield4],
+    images: productImages.chesterfield,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Chesterfield Sofa: Timeless Elegance Meets Modern Comfort</div>
@@ -222,7 +226,8 @@ const productData = {
   `,
   },
   lawson: {
-    images: [Lawson1, Lawson2, Lawson3, Lawson4], // Assuming images are not uploaded yet
+    // images: [Lawson1, Lawson2, Lawson3, Lawson4],
+    images: productImages.lawson,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Lawson Sofa: Modern Simplicity Meets Comfort</div>
@@ -237,7 +242,8 @@ const productData = {
   `,
   },
   tuxedo: {
-    images: [Tuxedo1, Tuxedo2, Tuxedo3, Tuxedo4], // Replace these with actual King Size Bed images
+    // images: [Tuxedo1, Tuxedo2, Tuxedo3, Tuxedo4],
+    images: productImages.tuxedo,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Tuxedo Sofa: Sophisticated Elegance with a Modern Edge</div>
@@ -254,7 +260,8 @@ const productData = {
 
   // SECTIONAL SOFA
   "l-shaped": {
-    images: [LshapedSofa1, LshapedSofa2, LshapedSofa3, LshapedSofa4], // Assuming images are not uploaded yet
+    // images: [LshapedSofa1, LshapedSofa2, LshapedSofa3, LshapedSofa4],
+    images: productImages.Lshaped,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">L-Shaped Sofa: The Perfect Blend of Comfort and Versatility</div>
@@ -269,7 +276,8 @@ const productData = {
   `,
   },
   "u-shaped": {
-    images: [UshapedSofa1, UshapedSofa2, UshapedSofa3, UshapedSofa4], // Assuming images are not uploaded yet
+    // images: [UshapedSofa1, UshapedSofa2, UshapedSofa3, UshapedSofa4],
+    images: productImages.Ushaped,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">U-Shaped Sofa: The Ultimate Statement of Comfort and Luxury</div>
@@ -284,7 +292,8 @@ const productData = {
   `,
   },
   modular: {
-    images: [ModularSofa1, ModularSofa2, ModularSofa3, ModularSofa4], // Assuming images are not uploaded yet
+    // images: [ModularSofa1, ModularSofa2, ModularSofa3, ModularSofa4],
+    images: productImages.modular,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Modular Sofa: Adaptable Comfort and Customizable Design</div>
@@ -300,12 +309,13 @@ const productData = {
   },
 
   "l-shaped-sofa-cumbed": {
-    images: [
-      Lshapedsofacumbed1,
-      Lshapedsofacumbed2,
-      Lshapedsofacumbed3,
-      Lshapedsofacumbed4,
-    ], // Assuming images are not uploaded yet
+    // images: [
+    //   Lshapedsofacumbed1,
+    //   Lshapedsofacumbed2,
+    //   Lshapedsofacumbed3,
+    //   Lshapedsofacumbed4,
+    // ],
+    images: productImages.Lshapedsofa_cumbed,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]"> L-Shaped Sofa Cum Bed: Space-Saving Comfort and Versatility</div>
@@ -321,12 +331,13 @@ const productData = {
   },
 
   "u-shaped-sofa-cumbed": {
-    images: [
-      ushapedsofacumbed1,
-      ushapedsofacumbed2,
-      ushapedsofacumbed3,
-      ushapedsofacumbed4,
-    ], // Replace these with actual Queen Size Bed images
+    // images: [
+    //   ushapedsofacumbed1,
+    //   ushapedsofacumbed2,
+    //   ushapedsofacumbed3,
+    //   ushapedsofacumbed4,
+    // ],
+    images: productImages.Ushapedsofa_cumbed,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]"> U-Shaped Sofa Cum Bed: Space-Saving Comfort and Versatility</div>
@@ -344,7 +355,8 @@ const productData = {
   // BEDS
   // DENVER-MODEL-BEDS
   "denver-with-storage": {
-    images: [DenverModel1, DenverModel2, DenverModel3, DenverModel4], // Assuming images are not uploaded yet
+    // images: [DenverModel1, DenverModel2, DenverModel3, DenverModel4],
+    images: productImages.denver_model_with_storage,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]"> Denver with storage: Space-Saving Comfort and Versatility</div>
@@ -359,7 +371,8 @@ const productData = {
   `,
   },
   "denver-without-storage": {
-    images: [DenverModel1, DenverModel2, DenverModel3, DenverModel4], // Assuming images are not uploaded yet
+    // images: [DenverModel1, DenverModel2, DenverModel3, DenverModel4],
+    images: productImages.denver_model_without_storage,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Denver Sofa: Adaptable Comfort and Customizable Design</div>
@@ -375,7 +388,8 @@ const productData = {
   },
   // DIAMOND MODEL BED
   "diamond-with-storage": {
-    images: [DiamondModel1, DiamondModel2, DiamondModel3, DiamondModel4], // Assuming images are not uploaded yet
+    // images: [DiamondModel1, DiamondModel2, DiamondModel3, DiamondModel4],
+    images: productImages.diamond_with_storage,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]"> Diamond with storage: Space-Saving Comfort and Versatility</div>
@@ -390,7 +404,8 @@ const productData = {
   `,
   },
   "diamond-without-storage": {
-    images: [DiamondModel1, DiamondModel2, DiamondModel3, DiamondModel4], // Assuming images are not uploaded yet
+    // images: [DiamondModel1, DiamondModel2, DiamondModel3, DiamondModel4],
+    images: productImages.diamond_without_storage,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Diamond Sofa: Adaptable Comfort and Customizable Design</div>
@@ -406,7 +421,8 @@ const productData = {
   },
   // PK MODEL BEDS
   "pkmodel-with-storage": {
-    images: [PKModel1, PKModel2, PKModel3, PKModel4], // Assuming images are not uploaded yet
+    // images: [PKModel1, PKModel2, PKModel3, PKModel4],
+    images: productImages.pk_model_withstorage,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]"> PK Model with storage: Space-Saving Comfort and Versatility</div>
@@ -421,51 +437,11 @@ const productData = {
   `,
   },
   "pkmodel-without-storage": {
-    images: [PKModel1, PKModel2, PKModel3, PKModel4], // Assuming images are not uploaded yet
+    // images: [PKModel1, PKModel2, PKModel3, PKModel4],
+    images: productImages.pk_model_without_storage,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">PK Model Sofa: Adaptable Comfort and Customizable Design</div>
-    <h2 class=" font-bold">Flexibility Meets Style</h2>
-    The Sleep Fine Modular Sofa offers unmatched versatility, allowing you to create a seating arrangement that perfectly fits your living space and lifestyle. Whether you have a compact apartment or a large living room, this sofa can be easily reconfigured to suit your needs. Its modular design means each section can stand alone or be combined in various ways, giving you the freedom to adjust the sofa’s shape and size to fit any occasion.<br><br>
-    <h2 class="font-bold">Effortless Comfort for Every Lifestyle</h2>
-    Designed with your comfort in mind, the Sleep Fine Modular Sofa features plush cushions and supportive backrests, making it ideal for lounging, reading, or entertaining guests. The high-density foam padding provides just the right balance of softness and firmness, ensuring that every seat feels inviting. Plus, you can easily move and reconfigure each section to create more space or a cozier, intimate seating arrangement.<br><br>
-    <h2 class="font-bold">Perfect for Entertaining</h2>
-    Thanks to its modular design, this sofa is ideal for hosting friends and family. Rearrange the sections to create a larger seating area for parties, or transform it into a cozy corner for more intimate gatherings. The flexibility of the Modular Sofa makes it a versatile piece for any occasion, whether you’re entertaining guests or enjoying a quiet evening at home.<br><br>
-    <h2 class="font-bold">Customization available as per requirement</h2>
-    </div>
-  `,
-  },
-  // DOUBLE BED
-  "double-with-storage": {
-    images: [
-      EightinchPUFOAM1,
-      EightinchPUFOAM2,
-      EightinchPUFOAM3,
-      EightinchPUFOAM4,
-    ], // Assuming images are not uploaded yet
-    description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]"> Double bed with storage: Space-Saving Comfort and Versatility</div>
-    <h2 class=" font-bold">Multi-Functional Design for Modern Living</h2>
-    The Sleep Fine L-Shaped Sofa Cum Bed is the ultimate solution for those who need a blend of style, comfort, and functionality. This cleverly designed piece of furniture serves as both a luxurious seating arrangement and a spacious bed, making it perfect for compact apartments, guest rooms, or any living space that requires flexible usage. The L-shape not only maximizes seating capacity but also transforms effortlessly into a bed, offering you comfort day and night.<br><br>
-    <h2 class="font-bold">Perfect for Hosting Guests</h2>
-    The L-Shaped Sofa Cum Bed is ideal for homes that frequently host overnight guests. It allows you to quickly provide a spacious sleeping area without the need for a separate guest bed. The easy conversion from sofa to bed and back again ensures that your living room remains functional and stylish while still being ready to accommodate visitors.<br><br>
-    <h2 class="font-bold">Storage and Convenience</h2>
-    Many models come with a hidden storage compartment, allowing you to store extra pillows, blankets, or linens conveniently out of sight. This added feature makes the sofa cum bed even more practical for small spaces, helping you keep your living area clutter-free while being prepared for unexpected guests.<br><br>
-    <h2 class="font-bold">Customization available as per requirement</h2>
-    </div>
-  `,
-  },
-  "double-without-storage": {
-    images: [
-      EightinchPUFOAM1,
-      EightinchPUFOAM1,
-      EightinchPUFOAM1,
-      EightinchPUFOAM1,
-    ], // Assuming images are not uploaded yet
-    description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Double bed: Adaptable Comfort and Customizable Design</div>
     <h2 class=" font-bold">Flexibility Meets Style</h2>
     The Sleep Fine Modular Sofa offers unmatched versatility, allowing you to create a seating arrangement that perfectly fits your living space and lifestyle. Whether you have a compact apartment or a large living room, this sofa can be easily reconfigured to suit your needs. Its modular design means each section can stand alone or be combined in various ways, giving you the freedom to adjust the sofa’s shape and size to fit any occasion.<br><br>
     <h2 class="font-bold">Effortless Comfort for Every Lifestyle</h2>
@@ -480,7 +456,10 @@ const productData = {
   // MATTRESSES
   // ORTHOPEDIC
   orthomed: {
-    images: [orthomedbanner, ORTRHOMED1, ORTRHOMED2, ORTRHOMED6, Orthospeci],
+
+    // images: [OrthomedBanner, ORTRHOMED1, ORTRHOMED2, ORTRHOMED6, Orthospeci],
+    images: productImages.orthomed,
+
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Orthomed</div>
@@ -514,7 +493,10 @@ const productData = {
   `,
   },
   milange: {
-    images: [milangebanner, Milange1, Milange2, Milange6, MilangeSpeci], // Assuming images are not uploaded yet
+
+    // images: [OrthomedBanner, Milange1, Milange2, Milange6, MilangeSpeci],
+    images: productImages.milange,
+
     description: `
     <div class="text-xl font-semibold my-[6px]">Milange </div>
     This mattress is designed for optimal orthopedic support and comfort. It features a high-density rebounded foam core that evenly distributes body weight, reducing pressure on joints and providing spinal alignment. 
@@ -547,13 +529,16 @@ const productData = {
   },
 
   preference: {
-    images: [
-      preferencebanner,
-      Preference1,
-      Preference2,
-      Preference6,
-      PreferenceBanner,
-    ], // Assuming images are not uploaded yet
+
+    // images: [
+    //   OrthomedBanner,
+    //   Preference1,
+    //   Preference2,
+    //   Preference6,
+    //   PreferenceBanner,
+    // ],
+    images: productImages.preference,
+
     description: `
     <div class="text-xl font-semibold my-[6px]">The Preference Orthomed </div>
     This mattress is designed for optimal orthopedic support and comfort. It features a high-density rebounded foam core that evenly distributes body weight, reducing pressure on joints and providing spinal alignment. 
@@ -585,13 +570,16 @@ const productData = {
   `,
   },
   buckingham: {
-    images: [
-      buckinghumbanner,
-      Buckingham1,
-      Buckingham2,
-      Buckingham5,
-      BuckinghumSpeci,
-    ], // Assuming images are not uploaded yet
+
+    // images: [
+    //   BuckinghumBanner,
+    //   Buckingham1,
+    //   Buckingham2,
+    //   Buckingham5,
+    //   BuckinghumSpeci,
+    // ],
+    images: productImages.buckingham,
+
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Buckinghum</div>
@@ -627,13 +615,16 @@ const productData = {
   `,
   },
   "orthopedic-aloe-vera-latex": {
-    images: [
-      aloeveralatexbanner,
-      AloveraBonnel1,
-      AloveraBonnel2,
-      AloveraBonnel3,
-      OrthopedicAloeveraLatexSpeci,
-    ], // Assuming images are not uploaded yet
+
+    // images: [
+    //   AloeveraBanner,
+    //   AloveraBonnel1,
+    //   AloveraBonnel2,
+    //   AloveraBonnel3,
+    //   OrthopedicAloeveraLatexSpeci,
+    // ],
+    images: productImages.orthopedic_alovera_latex,
+
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Orthopedic aloe vera latex</div>
@@ -672,13 +663,16 @@ const productData = {
   `,
   },
   "orthopedic-aloe-vera-memory": {
-    images: [
-      aloeveramemorybanner,
-      OrthopedicAloeveraMemory1,
-      OrthopedicAloeveraMemory2,
-      OrthopedicAloeveraMemory6,
-      OrthopedicAloeveraMemorySpeci,
-    ], // Assuming images are not uploaded yet
+
+    // images: [
+    //   AloeveraBanner,
+    //   OrthopedicAloeveraMemory1,
+    //   OrthopedicAloeveraMemory2,
+    //   OrthopedicAloeveraMemory6,
+    //   OrthopedicAloeveraMemorySpeci,
+    // ],
+    images: productImages.orthopedic_alovera_memory,
+
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Orthopedic aloe vera memory</div>
@@ -717,7 +711,10 @@ const productData = {
   `,
   },
   memofy: {
-    images: [memofybanner, Memofy1, Memofy2, Memofy3, MemofySpeci], // Assuming images are not uploaded yet
+
+    // images: [OrthomedBanner, Memofy1, Memofy2, Memofy3, MemofySpeci], // Assuming images are not uploaded yet
+    images: productImages.memofy,
+
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Orthopedic aloe vera memory</div>
@@ -754,7 +751,8 @@ const productData = {
   // ORTHO BONNELL
 
   oxford: {
-    images: [oxford1, oxford2, oxford6], // Assuming images are not uploaded yet
+    // images: [oxford1, oxford2, oxford6],
+    images: productImages.oxford,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Oxford</div>
@@ -784,7 +782,8 @@ const productData = {
   `,
   },
   "the-hotel": {
-    images: [Hotel1, Hotel2, Hotel3], // Assuming images are not uploaded yet
+    // images: [Hotel1, Hotel2, Hotel3],
+    images: productImages.thehotel,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">The Hotel</div>
@@ -814,7 +813,8 @@ const productData = {
   `,
   },
   "love-land-pillow-top": {
-    images: [Loveland1, Loveland2, Loveland6], // Assuming images are not uploaded yet
+    // images: [Loveland1, Loveland2, Loveland6],
+    images: productImages.Love_Land_Pillow_Top,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Loveland Pillow top</div>
@@ -844,7 +844,8 @@ const productData = {
   `,
   },
   "romantic-euroton": {
-    images: [RomanticBanner, Romanticfirm1, Romanticfirm2, Romanticfirm6], // Assuming images are not uploaded yet
+    // images: [RomanticBanner, Romanticfirm1, Romanticfirm2, Romanticfirm6],
+    images: productImages.Romantic_Euroton,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Romantic Euroton</div>
@@ -874,7 +875,8 @@ const productData = {
   `,
   },
   "ortho-bonnell-aloe-vera-with-latex": {
-    images: [AloeveraBanner, AloveraBonnel1, AloveraBonnel2, AloveraBonnel3], // Assuming images are not uploaded yet
+    // images: [AloeveraBanner, AloveraBonnel1, AloveraBonnel2, AloveraBonnel3],
+    images: productImages.Aloe_Vera_With_Latex,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Orthobonnell aloe vera latex</div>
@@ -913,12 +915,13 @@ const productData = {
   `,
   },
   "ortho-bonnell-aloe-vera-with-memory": {
-    images: [
-      AloeveraBanner,
-      OrthopedicAloeveraMemory1,
-      OrthopedicAloeveraMemory2,
-      OrthopedicAloeveraMemory6,
-    ], // Assuming images are not uploaded yet
+    // images: [
+    //   AloeveraBanner,
+    //   OrthopedicAloeveraMemory1,
+    //   OrthopedicAloeveraMemory2,
+    //   OrthopedicAloeveraMemory6,
+    // ],
+    images: productImages.Aloe_Vera_With_Memory,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Orthobonnell aloe vera memory</div>
@@ -961,11 +964,12 @@ const productData = {
   // POCKETED
 
   "pocketed-spring-inspiration": {
-    images: [
-      InsperationalPocketed1,
-      InsperationalPocketed2,
-      InsperationalPocketed6,
-    ], // Assuming images are not uploaded yet
+    // images: [
+    //   InsperationalPocketed1,
+    //   InsperationalPocketed2,
+    //   InsperationalPocketed6,
+    // ], // Assuming images are not uploaded yet
+    images: productImages.inspiration,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Pocketed Spring Inspiration Mattress</div>
@@ -999,7 +1003,8 @@ const productData = {
   `,
   },
   "pocketed-spring-6inch-eternity-euroton": {
-    images: [EternityEuroton1, EternityEuroton2, EternityEuroton3], // Assuming images are not uploaded yet
+    // images: [EternityEuroton1, EternityEuroton2, EternityEuroton3],
+    images: productImages.Eternity_Euroton,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Pocketed Spring Eternity Euroton Mattress</div>
@@ -1028,7 +1033,8 @@ const productData = {
   `,
   },
   "pocketed-spring-aloe-vera-with-latex": {
-    images: [AloeveraBanner, AloveraBonnel1, AloveraBonnel2, AloveraBonnel3], // Assuming images are not uploaded yet
+    // images: [AloeveraBanner, AloveraBonnel1, AloveraBonnel2, AloveraBonnel3],
+    images: productImages.Aloe_Vera_With_Latex,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Pocketed Spring Aloe Vera with Latex Mattress</div>
@@ -1066,12 +1072,13 @@ const productData = {
   `,
   },
   "pocketed-spring-aloe-vera-with-memory": {
-    images: [
-      AloeveraBanner,
-      OrthopedicAloeveraMemory1,
-      OrthopedicAloeveraMemory2,
-      OrthopedicAloeveraMemory6,
-    ], // Assuming images are not uploaded yet
+    // images: [
+    //   AloeveraBanner,
+    //   OrthopedicAloeveraMemory1,
+    //   OrthopedicAloeveraMemory2,
+    //   OrthopedicAloeveraMemory6,
+    // ],
+    images: productImages.Aloe_Vera_With_Memory,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Pocketed Spring Aloe Vera with Memory Foam Mattress</div>
@@ -1113,7 +1120,8 @@ const productData = {
   // HR-PU FOAM 
 
   "hr-pu-gravity": {
-    images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5], // Assuming images are not uploaded yet
+    // images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5],
+    images: productImages.gravity,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">HR PU Gravity Mattress</div>
@@ -1142,7 +1150,8 @@ const productData = {
   `,
   },
   "hr-pu-space": {
-    images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5], // Assuming images are not uploaded yet
+    // images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5],
+    images: productImages.space,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">HR PU Space Mattress</div>
@@ -1171,7 +1180,8 @@ const productData = {
   `,
   },
   "hr-pu-plush": {
-    images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5], // Assuming images are not uploaded yet
+    // images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5],
+    images: productImages.plush,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">HR PU Plush Mattress</div>
@@ -1202,7 +1212,8 @@ const productData = {
   `,
   },
   "hr-pu-techniko": {
-    images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5], // Assuming images are not uploaded yet
+    // images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5],
+    images: productImages.techniko,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">HR PU Techniko Mattress</div>
@@ -1235,7 +1246,8 @@ const productData = {
   // COMFORTERS
 
   protector: {
-    images: [BaffelBox, SewnThrough], // Assuming images are not uploaded yet
+    // images: [BaffelBox, SewnThrough],
+    images: productImages.waterproof_protectors,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Water-Proof Mattress Protector</div>
@@ -1252,7 +1264,8 @@ const productData = {
   },
 
   "quilted-protector": {
-    images: [BaffelBox, SewnThrough], // Assuming images are not uploaded yet
+    // images: [BaffelBox, SewnThrough],
+    images: productImages.Quilted_protectors,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Quilted Mattress Protector</div>
@@ -1269,7 +1282,8 @@ const productData = {
   },
 
   "fitted-protector": {
-    images: [BaffelBox, SewnThrough], // Assuming images are not uploaded yet
+    // images: [BaffelBox, SewnThrough],
+    images: productImages.fitted_protectors,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Fitted Mattress Protector</div>
@@ -1287,12 +1301,13 @@ const productData = {
 
   // pillows
   "memory-pillow": {
-    images: [
-      MemoryfoamPillow1,
-      MemoryfoamPillow2,
-      MemoryfoamPillow3,
-      MemoryfoamPillow4,
-    ], // Assuming images are not uploaded yet
+    // images: [
+    //   MemoryfoamPillow1,
+    //   MemoryfoamPillow2,
+    //   MemoryfoamPillow3,
+    //   MemoryfoamPillow4,
+    // ],
+    images: productImages.Memory_pillow,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Memory Foam Pillow</div>
@@ -1308,7 +1323,8 @@ const productData = {
   `,
   },
   latexpillow: {
-    images: [LatexPillow1, LatexPillow2, LatexPillow3, LatexPillow4], // Assuming images are not uploaded yet
+    // images: [LatexPillow1, LatexPillow2, LatexPillow3, LatexPillow4],
+    images: productImages.latexy_pillow,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Latex Pillow</div>
@@ -1324,7 +1340,8 @@ const productData = {
   `,
   },
   "foam-pillow": {
-    images: [Foampillow11, Foampillow2, Foampillow3, Foampillow4], // Assuming images are not uploaded yet
+    // images: [Foampillow11, Foampillow2, Foampillow3, Foampillow4],
+    images: productImages.foam_pillow,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Foam Pillow</div>
@@ -1340,12 +1357,13 @@ const productData = {
   `,
   },
   "poly-fibre-pillow": {
-    images: [
-      PolyfiberPillow1,
-      AloveraPolyfiberPillow2,
-      AloveraPolyfiberPillow3,
-      Foampillow4,
-    ], // Assuming images are not uploaded yet
+    // images: [
+    //   PolyfiberPillow1,
+    //   AloveraPolyfiberPillow2,
+    //   AloveraPolyfiberPillow3,
+    //   Foampillow4,
+    // ],
+    images: productImages.polyfiber_pillow,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Poly Fibre Pillow</div>
@@ -1357,28 +1375,6 @@ const productData = {
     Engineered for durability, the Sleep Fine Poly Fiber Pillow retains its shape and loft over time, providing consistent support without flattening. You can enjoy the same level of comfort and support night after night, ensuring a lasting investment in your sleep quality.<br><br>
     <h2 class="font-bold">Soft, Removable Cover</h2>
     The pillow comes with a soft, removable, and machine-washable cover for added convenience. The breathable cover enhances comfort and makes it easy to keep your pillow fresh and clean.
-    </div>
-  `,
-  },
-  "polyfibre-textile": {
-    images: [
-      AloveraPolyfiberPillow1,
-      AloveraPolyfiberPillow2,
-      AloveraPolyfiberPillow3,
-      AloveraPolyfiberPillow4,
-    ], // Assuming images are not uploaded yet
-    description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Poly fibre textile pillow</div>
-    <h2 class=" font-bold">Softness and Support for Ultimate Comfort</h2>
-    The Sleep Fine Poly Fiber Textile Pillow combines plush softness with exceptional support, designed to enhance your sleeping experience. Crafted from high-quality poly fiber filling, this pillow offers a perfect balance of comfort and stability, making it an ideal choice for those who value restful sleep.<br><br>
-    <h2 class="font-bold">Premium Poly Fiber Filling</h2>
-    This pillow features premium poly fiber filling, which mimics the luxurious softness of down while providing excellent support for your head and neck. Its unique construction helps maintain proper spinal alignment, reducing pressure points and promoting healthier sleep posture.<br><br>
-    <h2 class="font-bold">Durability and Shape Retention</h2>
-    Engineered for longevity, this pillow retains its shape and loft over time, providing consistent support without flattening. You can rely on the Sleep Fine Poly Fiber Textile Pillow to deliver the same level of comfort night after night.<br><br>
-    <h2 class="font-bold">Easy to Maintain</h2>
-    The pillow comes with a removable cover that is machine washable, making it easy to keep your pillow fresh and clean. This feature ensures that you can maintain a hygienic sleeping environment without hassle.
-
     </div>
   `,
   },
