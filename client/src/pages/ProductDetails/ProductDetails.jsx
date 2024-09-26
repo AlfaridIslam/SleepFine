@@ -201,13 +201,7 @@ const productData = {
   // SOFAS
   // STANDARD SOFA
   chesterfield: {
-    images: [
-      chesterfield1,
-      chesterfield2,
-      chesterfield3,
-      chesterfield4,
-      
-    ], // Assuming images are not uploaded yet
+    images: [chesterfield1, chesterfield2, chesterfield3, chesterfield4], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Chesterfield Sofa: Timeless Elegance Meets Modern Comfort</div>
@@ -222,7 +216,7 @@ const productData = {
   `,
   },
   lawson: {
-    images: [Lawson1, Lawson2,Lawson3,Lawson4, ], // Assuming images are not uploaded yet
+    images: [Lawson1, Lawson2, Lawson3, Lawson4], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Lawson Sofa: Modern Simplicity Meets Comfort</div>
@@ -237,7 +231,7 @@ const productData = {
   `,
   },
   tuxedo: {
-    images: [Tuxedo1, Tuxedo2, Tuxedo3,Tuxedo4,], // Replace these with actual King Size Bed images
+    images: [Tuxedo1, Tuxedo2, Tuxedo3, Tuxedo4], // Replace these with actual King Size Bed images
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Tuxedo Sofa: Sophisticated Elegance with a Modern Edge</div>
@@ -254,7 +248,7 @@ const productData = {
 
   // SECTIONAL SOFA
   "l-shaped": {
-    images: [LshapedSofa1, LshapedSofa2, LshapedSofa3,LshapedSofa4, ], // Assuming images are not uploaded yet
+    images: [LshapedSofa1, LshapedSofa2, LshapedSofa3, LshapedSofa4], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">L-Shaped Sofa: The Perfect Blend of Comfort and Versatility</div>
@@ -269,7 +263,7 @@ const productData = {
   `,
   },
   "u-shaped": {
-    images: [UshapedSofa1, UshapedSofa2, UshapedSofa3,UshapedSofa4,], // Assuming images are not uploaded yet
+    images: [UshapedSofa1, UshapedSofa2, UshapedSofa3, UshapedSofa4], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">U-Shaped Sofa: The Ultimate Statement of Comfort and Luxury</div>
@@ -284,13 +278,7 @@ const productData = {
   `,
   },
   modular: {
-    images: [
-      ModularSofa1,
-      ModularSofa2,
-      ModularSofa3,
-      ModularSofa4,
-      
-    ], // Assuming images are not uploaded yet
+    images: [ModularSofa1, ModularSofa2, ModularSofa3, ModularSofa4], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Modular Sofa: Adaptable Comfort and Customizable Design</div>
@@ -314,32 +302,34 @@ const productData = {
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Tuxedo Sofa: Sophisticated Elegance with a Modern Edge</div>
-    <h2 class=" font-bold">Timeless Design, Elevated Aesthetics</h2>
-    The Sleep Fine Tuxedo Sofa brings a touch of luxurious sophistication to your living space. Defined by its high, straight back and arms that are of equal height, the Tuxedo sofa creates a bold, structured look that is perfect for those who appreciate refined design. Its angular, clean lines exude elegance, making it a stunning centerpiece for formal living rooms, upscale lounges, or contemporary spaces.<br><br>
-    <h2 class="font-bold">Tailored Comfort and Support</h2>
-    While the Tuxedo Sofa is known for its sophisticated shape, it doesn’t compromise on comfort. The high arms and back envelop you, creating a sense of coziness while maintaining an upright posture that’s ideal for entertaining guests or enjoying a moment of relaxation. The sofa is generously padded with plush foam and topped with soft cushions that strike the perfect balance between firm support and inviting comfort.<br><br>
-    <h2 class="font-bold">Sturdy Construction, Built to Last</h2>
-    The Tuxedo Sofa is as durable as it is stylish. Featuring a solid wood frame and expertly crafted construction, this sofa is designed to provide long-lasting comfort and support. The sturdy base ensures stability, while the sleek, minimalist legs add a touch of modernity to its timeless silhouette.<br><br>
+    <div class="text-xl font-semibold my-[6px]"> L-Shaped Sofa Cum Bed: Space-Saving Comfort and Versatility</div>
+    <h2 class=" font-bold">Multi-Functional Design for Modern Living</h2>
+    The Sleep Fine L-Shaped Sofa Cum Bed is the ultimate solution for those who need a blend of style, comfort, and functionality. This cleverly designed piece of furniture serves as both a luxurious seating arrangement and a spacious bed, making it perfect for compact apartments, guest rooms, or any living space that requires flexible usage. The L-shape not only maximizes seating capacity but also transforms effortlessly into a bed, offering you comfort day and night.<br><br>
+    <h2 class="font-bold">Perfect for Hosting Guests</h2>
+    The L-Shaped Sofa Cum Bed is ideal for homes that frequently host overnight guests. It allows you to quickly provide a spacious sleeping area without the need for a separate guest bed. The easy conversion from sofa to bed and back again ensures that your living room remains functional and stylish while still being ready to accommodate visitors.<br><br>
+    <h2 class="font-bold">Storage and Convenience</h2>
+    Many models come with a hidden storage compartment, allowing you to store extra pillows, blankets, or linens conveniently out of sight. This added feature makes the sofa cum bed even more practical for small spaces, helping you keep your living area clutter-free while being prepared for unexpected guests.<br><br>
     <h2 class="font-bold">Customization available as per requirement</h2>
     </div>
   `,
   },
 
   "u-shaped-sofa-cumbed": {
-    images: [ushapedsofacumbed1,
+    images: [
+      ushapedsofacumbed1,
       ushapedsofacumbed2,
       ushapedsofacumbed3,
-      ushapedsofacumbed4,], // Replace these with actual Queen Size Bed images
+      ushapedsofacumbed4,
+    ], // Replace these with actual Queen Size Bed images
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Tuxedo Sofa: Sophisticated Elegance with a Modern Edge</div>
-    <h2 class=" font-bold">Timeless Design, Elevated Aesthetics</h2>
-    The Sleep Fine Tuxedo Sofa brings a touch of luxurious sophistication to your living space. Defined by its high, straight back and arms that are of equal height, the Tuxedo sofa creates a bold, structured look that is perfect for those who appreciate refined design. Its angular, clean lines exude elegance, making it a stunning centerpiece for formal living rooms, upscale lounges, or contemporary spaces.<br><br>
-    <h2 class="font-bold">Tailored Comfort and Support</h2>
-    While the Tuxedo Sofa is known for its sophisticated shape, it doesn’t compromise on comfort. The high arms and back envelop you, creating a sense of coziness while maintaining an upright posture that’s ideal for entertaining guests or enjoying a moment of relaxation. The sofa is generously padded with plush foam and topped with soft cushions that strike the perfect balance between firm support and inviting comfort.<br><br>
-    <h2 class="font-bold">Sturdy Construction, Built to Last</h2>
-    The Tuxedo Sofa is as durable as it is stylish. Featuring a solid wood frame and expertly crafted construction, this sofa is designed to provide long-lasting comfort and support. The sturdy base ensures stability, while the sleek, minimalist legs add a touch of modernity to its timeless silhouette.<br><br>
+    <div class="text-xl font-semibold my-[6px]"> U-Shaped Sofa Cum Bed: Space-Saving Comfort and Versatility</div>
+    <h2 class=" font-bold">Multi-Functional Design for Modern Living</h2>
+    The Sleep Fine L-Shaped Sofa Cum Bed is the ultimate solution for those who need a blend of style, comfort, and functionality. This cleverly designed piece of furniture serves as both a luxurious seating arrangement and a spacious bed, making it perfect for compact apartments, guest rooms, or any living space that requires flexible usage. The L-shape not only maximizes seating capacity but also transforms effortlessly into a bed, offering you comfort day and night.<br><br>
+    <h2 class="font-bold">Perfect for Hosting Guests</h2>
+    The L-Shaped Sofa Cum Bed is ideal for homes that frequently host overnight guests. It allows you to quickly provide a spacious sleeping area without the need for a separate guest bed. The easy conversion from sofa to bed and back again ensures that your living room remains functional and stylish while still being ready to accommodate visitors.<br><br>
+    <h2 class="font-bold">Storage and Convenience</h2>
+    Many models come with a hidden storage compartment, allowing you to store extra pillows, blankets, or linens conveniently out of sight. This added feature makes the sofa cum bed even more practical for small spaces, helping you keep your living area clutter-free while being prepared for unexpected guests.<br><br>
     <h2 class="font-bold">Customization available as per requirement</h2>
     </div>
   `,
@@ -348,211 +338,94 @@ const productData = {
   // BEDS
   // DENVER-MODEL-BEDS
   "denver-with-storage": {
-    images: [ DenverModel1, DenverModel2,
-      DenverModel3,
-      DenverModel4,
-     
-     ], // Assuming images are not uploaded yet
+    images: [DenverModel1, DenverModel2, DenverModel3, DenverModel4], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Denver with storage</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
-    <div class="flex justify-start mt-2 items-center gap-10">
-    <div class="flex-col">
-    <h2 class="font-bold">Height</h2>
-    <p>5 & 6 inches</p>
-    </div>
-    <div>
-    <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
-    </div>
-    <div>
-    <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐</p>
-    </div>
-    </div>
+    <div class="text-xl font-semibold my-[6px]"> Denver with storage: Space-Saving Comfort and Versatility</div>
+    <h2 class=" font-bold">Multi-Functional Design for Modern Living</h2>
+    The Sleep Fine L-Shaped Sofa Cum Bed is the ultimate solution for those who need a blend of style, comfort, and functionality. This cleverly designed piece of furniture serves as both a luxurious seating arrangement and a spacious bed, making it perfect for compact apartments, guest rooms, or any living space that requires flexible usage. The L-shape not only maximizes seating capacity but also transforms effortlessly into a bed, offering you comfort day and night.<br><br>
+    <h2 class="font-bold">Perfect for Hosting Guests</h2>
+    The L-Shaped Sofa Cum Bed is ideal for homes that frequently host overnight guests. It allows you to quickly provide a spacious sleeping area without the need for a separate guest bed. The easy conversion from sofa to bed and back again ensures that your living room remains functional and stylish while still being ready to accommodate visitors.<br><br>
+    <h2 class="font-bold">Storage and Convenience</h2>
+    Many models come with a hidden storage compartment, allowing you to store extra pillows, blankets, or linens conveniently out of sight. This added feature makes the sofa cum bed even more practical for small spaces, helping you keep your living area clutter-free while being prepared for unexpected guests.<br><br>
+    <h2 class="font-bold">Customization available as per requirement</h2>
     </div>
   `,
   },
   "denver-without-storage": {
-    images: [
-      DenverModel1,
-      DenverModel2,
-      DenverModel3,
-      DenverModel4,
-      
-      
-    ], // Assuming images are not uploaded yet
+    images: [DenverModel1, DenverModel2, DenverModel3, DenverModel4], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Denver without storage</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
-    <div class="flex justify-start mt-2 items-center gap-10">
-    <div class="flex-col">
-    <h2 class="font-bold">Height</h2>
-    <p>5 & 6 inches</p>
-    </div>
-    <div>
-    <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
-    </div>
-    <div>
-    <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐</p>
-    </div>
-    </div>
+    <div class="text-xl font-semibold my-[6px]">Denver Sofa: Adaptable Comfort and Customizable Design</div>
+    <h2 class=" font-bold">Flexibility Meets Style</h2>
+    The Sleep Fine Modular Sofa offers unmatched versatility, allowing you to create a seating arrangement that perfectly fits your living space and lifestyle. Whether you have a compact apartment or a large living room, this sofa can be easily reconfigured to suit your needs. Its modular design means each section can stand alone or be combined in various ways, giving you the freedom to adjust the sofa’s shape and size to fit any occasion.<br><br>
+    <h2 class="font-bold">Effortless Comfort for Every Lifestyle</h2>
+    Designed with your comfort in mind, the Sleep Fine Modular Sofa features plush cushions and supportive backrests, making it ideal for lounging, reading, or entertaining guests. The high-density foam padding provides just the right balance of softness and firmness, ensuring that every seat feels inviting. Plus, you can easily move and reconfigure each section to create more space or a cozier, intimate seating arrangement.<br><br>
+    <h2 class="font-bold">Perfect for Entertaining</h2>
+    Thanks to its modular design, this sofa is ideal for hosting friends and family. Rearrange the sections to create a larger seating area for parties, or transform it into a cozy corner for more intimate gatherings. The flexibility of the Modular Sofa makes it a versatile piece for any occasion, whether you’re entertaining guests or enjoying a quiet evening at home.<br><br>
+    <h2 class="font-bold">Customization available as per requirement</h2>
     </div>
   `,
   },
   // DIAMOND MODEL BED
   "diamond-with-storage": {
-    images: [ DiamondModel1,
-      DiamondModel2,
-      DiamondModel3,
-      DiamondModel4,], // Assuming images are not uploaded yet
+    images: [DiamondModel1, DiamondModel2, DiamondModel3, DiamondModel4], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Diamond with storage</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
-    <div class="flex justify-start mt-2 items-center gap-10">
-    <div class="flex-col">
-    <h2 class="font-bold">Height</h2>
-    <p>5 & 6 inches</p>
-    </div>
-    <div>
-    <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
-    </div>
-    <div>
-    <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐</p>
-    </div>
-    </div>
+    <div class="text-xl font-semibold my-[6px]"> Diamond with storage: Space-Saving Comfort and Versatility</div>
+    <h2 class=" font-bold">Multi-Functional Design for Modern Living</h2>
+    The Sleep Fine L-Shaped Sofa Cum Bed is the ultimate solution for those who need a blend of style, comfort, and functionality. This cleverly designed piece of furniture serves as both a luxurious seating arrangement and a spacious bed, making it perfect for compact apartments, guest rooms, or any living space that requires flexible usage. The L-shape not only maximizes seating capacity but also transforms effortlessly into a bed, offering you comfort day and night.<br><br>
+    <h2 class="font-bold">Perfect for Hosting Guests</h2>
+    The L-Shaped Sofa Cum Bed is ideal for homes that frequently host overnight guests. It allows you to quickly provide a spacious sleeping area without the need for a separate guest bed. The easy conversion from sofa to bed and back again ensures that your living room remains functional and stylish while still being ready to accommodate visitors.<br><br>
+    <h2 class="font-bold">Storage and Convenience</h2>
+    Many models come with a hidden storage compartment, allowing you to store extra pillows, blankets, or linens conveniently out of sight. This added feature makes the sofa cum bed even more practical for small spaces, helping you keep your living area clutter-free while being prepared for unexpected guests.<br><br>
+    <h2 class="font-bold">Customization available as per requirement</h2>
     </div>
   `,
   },
   "diamond-without-storage": {
-    images: [ DiamondModel1,
-      DiamondModel2,
-      DiamondModel3,
-      DiamondModel4,], // Assuming images are not uploaded yet
+    images: [DiamondModel1, DiamondModel2, DiamondModel3, DiamondModel4], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Diamond without storage</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
-    <div class="flex justify-start mt-2 items-center gap-10">
-    <div class="flex-col">
-    <h2 class="font-bold">Height</h2>
-    <p>5 & 6 inches</p>
-    </div>
-    <div>
-    <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
-    </div>
-    <div>
-    <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐</p>
-    </div>
-    </div>
+    <div class="text-xl font-semibold my-[6px]">Diamond Sofa: Adaptable Comfort and Customizable Design</div>
+    <h2 class=" font-bold">Flexibility Meets Style</h2>
+    The Sleep Fine Modular Sofa offers unmatched versatility, allowing you to create a seating arrangement that perfectly fits your living space and lifestyle. Whether you have a compact apartment or a large living room, this sofa can be easily reconfigured to suit your needs. Its modular design means each section can stand alone or be combined in various ways, giving you the freedom to adjust the sofa’s shape and size to fit any occasion.<br><br>
+    <h2 class="font-bold">Effortless Comfort for Every Lifestyle</h2>
+    Designed with your comfort in mind, the Sleep Fine Modular Sofa features plush cushions and supportive backrests, making it ideal for lounging, reading, or entertaining guests. The high-density foam padding provides just the right balance of softness and firmness, ensuring that every seat feels inviting. Plus, you can easily move and reconfigure each section to create more space or a cozier, intimate seating arrangement.<br><br>
+    <h2 class="font-bold">Perfect for Entertaining</h2>
+    Thanks to its modular design, this sofa is ideal for hosting friends and family. Rearrange the sections to create a larger seating area for parties, or transform it into a cozy corner for more intimate gatherings. The flexibility of the Modular Sofa makes it a versatile piece for any occasion, whether you’re entertaining guests or enjoying a quiet evening at home.<br><br>
+    <h2 class="font-bold">Customization available as per requirement</h2>
     </div>
   `,
   },
   // PK MODEL BEDS
   "pkmodel-with-storage": {
-    images: [
-      PKModel1,
-      PKModel2,
-      PKModel3,
-      PKModel4,
-    ], // Assuming images are not uploaded yet
+    images: [PKModel1, PKModel2, PKModel3, PKModel4], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">PK model with storage</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
-    <div class="flex justify-start mt-2 items-center gap-10">
-    <div class="flex-col">
-    <h2 class="font-bold">Height</h2>
-    <p>5 & 6 inches</p>
-    </div>
-    <div>
-    <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
-    </div>
-    <div>
-    <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐</p>
-    </div>
-    </div>
+    <div class="text-xl font-semibold my-[6px]"> PK Model with storage: Space-Saving Comfort and Versatility</div>
+    <h2 class=" font-bold">Multi-Functional Design for Modern Living</h2>
+    The Sleep Fine L-Shaped Sofa Cum Bed is the ultimate solution for those who need a blend of style, comfort, and functionality. This cleverly designed piece of furniture serves as both a luxurious seating arrangement and a spacious bed, making it perfect for compact apartments, guest rooms, or any living space that requires flexible usage. The L-shape not only maximizes seating capacity but also transforms effortlessly into a bed, offering you comfort day and night.<br><br>
+    <h2 class="font-bold">Perfect for Hosting Guests</h2>
+    The L-Shaped Sofa Cum Bed is ideal for homes that frequently host overnight guests. It allows you to quickly provide a spacious sleeping area without the need for a separate guest bed. The easy conversion from sofa to bed and back again ensures that your living room remains functional and stylish while still being ready to accommodate visitors.<br><br>
+    <h2 class="font-bold">Storage and Convenience</h2>
+    Many models come with a hidden storage compartment, allowing you to store extra pillows, blankets, or linens conveniently out of sight. This added feature makes the sofa cum bed even more practical for small spaces, helping you keep your living area clutter-free while being prepared for unexpected guests.<br><br>
+    <h2 class="font-bold">Customization available as per requirement</h2>
     </div>
   `,
   },
   "pkmodel-without-storage": {
-    images: [
-      PKModel1,
-  PKModel2,
-  PKModel3,
-  PKModel4,
-    ], // Assuming images are not uploaded yet
+    images: [PKModel1, PKModel2, PKModel3, PKModel4], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">PK Model without storage</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
-    <div class="flex justify-start mt-2 items-center gap-10">
-    <div class="flex-col">
-    <h2 class="font-bold">Height</h2>
-    <p>5 & 6 inches</p>
-    </div>
-    <div>
-    <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
-    </div>
-    <div>
-    <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐</p>
-    </div>
-    </div>
+    <div class="text-xl font-semibold my-[6px]">PK Model Sofa: Adaptable Comfort and Customizable Design</div>
+    <h2 class=" font-bold">Flexibility Meets Style</h2>
+    The Sleep Fine Modular Sofa offers unmatched versatility, allowing you to create a seating arrangement that perfectly fits your living space and lifestyle. Whether you have a compact apartment or a large living room, this sofa can be easily reconfigured to suit your needs. Its modular design means each section can stand alone or be combined in various ways, giving you the freedom to adjust the sofa’s shape and size to fit any occasion.<br><br>
+    <h2 class="font-bold">Effortless Comfort for Every Lifestyle</h2>
+    Designed with your comfort in mind, the Sleep Fine Modular Sofa features plush cushions and supportive backrests, making it ideal for lounging, reading, or entertaining guests. The high-density foam padding provides just the right balance of softness and firmness, ensuring that every seat feels inviting. Plus, you can easily move and reconfigure each section to create more space or a cozier, intimate seating arrangement.<br><br>
+    <h2 class="font-bold">Perfect for Entertaining</h2>
+    Thanks to its modular design, this sofa is ideal for hosting friends and family. Rearrange the sections to create a larger seating area for parties, or transform it into a cozy corner for more intimate gatherings. The flexibility of the Modular Sofa makes it a versatile piece for any occasion, whether you’re entertaining guests or enjoying a quiet evening at home.<br><br>
+    <h2 class="font-bold">Customization available as per requirement</h2>
     </div>
   `,
   },
@@ -566,29 +439,14 @@ const productData = {
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Double bed with storage</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
-    <div class="flex justify-start mt-2 items-center gap-10">
-    <div class="flex-col">
-    <h2 class="font-bold">Height</h2>
-    <p>5 & 6 inches</p>
-    </div>
-    <div>
-    <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
-    </div>
-    <div>
-    <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐</p>
-    </div>
-    </div>
+    <div class="text-xl font-semibold my-[6px]"> Double bed with storage: Space-Saving Comfort and Versatility</div>
+    <h2 class=" font-bold">Multi-Functional Design for Modern Living</h2>
+    The Sleep Fine L-Shaped Sofa Cum Bed is the ultimate solution for those who need a blend of style, comfort, and functionality. This cleverly designed piece of furniture serves as both a luxurious seating arrangement and a spacious bed, making it perfect for compact apartments, guest rooms, or any living space that requires flexible usage. The L-shape not only maximizes seating capacity but also transforms effortlessly into a bed, offering you comfort day and night.<br><br>
+    <h2 class="font-bold">Perfect for Hosting Guests</h2>
+    The L-Shaped Sofa Cum Bed is ideal for homes that frequently host overnight guests. It allows you to quickly provide a spacious sleeping area without the need for a separate guest bed. The easy conversion from sofa to bed and back again ensures that your living room remains functional and stylish while still being ready to accommodate visitors.<br><br>
+    <h2 class="font-bold">Storage and Convenience</h2>
+    Many models come with a hidden storage compartment, allowing you to store extra pillows, blankets, or linens conveniently out of sight. This added feature makes the sofa cum bed even more practical for small spaces, helping you keep your living area clutter-free while being prepared for unexpected guests.<br><br>
+    <h2 class="font-bold">Customization available as per requirement</h2>
     </div>
   `,
   },
@@ -601,29 +459,14 @@ const productData = {
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Double bed without storage</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
-    <div class="flex justify-start mt-2 items-center gap-10">
-    <div class="flex-col">
-    <h2 class="font-bold">Height</h2>
-    <p>5 & 6 inches</p>
-    </div>
-    <div>
-    <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
-    </div>
-    <div>
-    <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐</p>
-    </div>
-    </div>
+    <div class="text-xl font-semibold my-[6px]">Double bed: Adaptable Comfort and Customizable Design</div>
+    <h2 class=" font-bold">Flexibility Meets Style</h2>
+    The Sleep Fine Modular Sofa offers unmatched versatility, allowing you to create a seating arrangement that perfectly fits your living space and lifestyle. Whether you have a compact apartment or a large living room, this sofa can be easily reconfigured to suit your needs. Its modular design means each section can stand alone or be combined in various ways, giving you the freedom to adjust the sofa’s shape and size to fit any occasion.<br><br>
+    <h2 class="font-bold">Effortless Comfort for Every Lifestyle</h2>
+    Designed with your comfort in mind, the Sleep Fine Modular Sofa features plush cushions and supportive backrests, making it ideal for lounging, reading, or entertaining guests. The high-density foam padding provides just the right balance of softness and firmness, ensuring that every seat feels inviting. Plus, you can easily move and reconfigure each section to create more space or a cozier, intimate seating arrangement.<br><br>
+    <h2 class="font-bold">Perfect for Entertaining</h2>
+    Thanks to its modular design, this sofa is ideal for hosting friends and family. Rearrange the sections to create a larger seating area for parties, or transform it into a cozy corner for more intimate gatherings. The flexibility of the Modular Sofa makes it a versatile piece for any occasion, whether you’re entertaining guests or enjoying a quiet evening at home.<br><br>
+    <h2 class="font-bold">Customization available as per requirement</h2>
     </div>
   `,
   },
@@ -631,14 +474,7 @@ const productData = {
   // MATTRESSES
   // ORTHOPEDIC
   orthomed: {
-    images: [
-      OrthomedBanner,
-      ORTRHOMED1,
-      ORTRHOMED2,
-      ORTRHOMED6,
-     
-      Orthospeci,
-    ],
+    images: [OrthomedBanner, ORTRHOMED1, ORTRHOMED2, ORTRHOMED6, Orthospeci],
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Orthomed</div>
@@ -672,7 +508,7 @@ const productData = {
   `,
   },
   milange: {
-    images: [OrthomedBanner, Milange1,Milange2,Milange6, MilangeSpeci,], // Assuming images are not uploaded yet
+    images: [OrthomedBanner, Milange1, Milange2, Milange6, MilangeSpeci], // Assuming images are not uploaded yet
     description: `
     <div class="text-xl font-semibold my-[6px]">Milange </div>
     This mattress is designed for optimal orthopedic support and comfort. It features a high-density rebounded foam core that evenly distributes body weight, reducing pressure on joints and providing spinal alignment. 
@@ -705,7 +541,13 @@ const productData = {
   },
 
   preference: {
-    images: [OrthomedBanner,Preference1, Preference2, Preference6,PreferenceBanner, ], // Assuming images are not uploaded yet
+    images: [
+      OrthomedBanner,
+      Preference1,
+      Preference2,
+      Preference6,
+      PreferenceBanner,
+    ], // Assuming images are not uploaded yet
     description: `
     <div class="text-xl font-semibold my-[6px]">The Preference Orthomed </div>
     This mattress is designed for optimal orthopedic support and comfort. It features a high-density rebounded foam core that evenly distributes body weight, reducing pressure on joints and providing spinal alignment. 
@@ -737,7 +579,13 @@ const productData = {
   `,
   },
   buckingham: {
-    images: [BuckinghumBanner,Buckingham1, Buckingham2, Buckingham5,BuckinghumSpeci,], // Assuming images are not uploaded yet
+    images: [
+      BuckinghumBanner,
+      Buckingham1,
+      Buckingham2,
+      Buckingham5,
+      BuckinghumSpeci,
+    ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Buckinghum</div>
@@ -773,7 +621,13 @@ const productData = {
   `,
   },
   "orthopedic-aloe-vera-latex": {
-    images: [AloeveraBanner,AloveraBonnel1, AloveraBonnel2, AloveraBonnel3,OrthopedicAloeveraLatexSpeci, ], // Assuming images are not uploaded yet
+    images: [
+      AloeveraBanner,
+      AloveraBonnel1,
+      AloveraBonnel2,
+      AloveraBonnel3,
+      OrthopedicAloeveraLatexSpeci,
+    ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Orthopedic aloe vera latex</div>
@@ -857,7 +711,7 @@ const productData = {
   `,
   },
   memofy: {
-    images: [ OrthomedBanner,Memofy1,Memofy2,Memofy3, MemofySpeci,], // Assuming images are not uploaded yet
+    images: [OrthomedBanner, Memofy1, Memofy2, Memofy3, MemofySpeci], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Orthopedic aloe vera memory</div>
@@ -890,10 +744,11 @@ const productData = {
     </div>
   `,
   },
+
+  // ORTHO BONNELL
+
   oxford: {
-    images: [
-      oxford1, oxford2, oxford6, 
-    ], // Assuming images are not uploaded yet
+    images: [oxford1, oxford2, oxford6], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Oxford</div>
@@ -923,11 +778,7 @@ const productData = {
   `,
   },
   "the-hotel": {
-    images: [
-      Hotel1,
-      Hotel2,
-      Hotel3,
-    ], // Assuming images are not uploaded yet
+    images: [Hotel1, Hotel2, Hotel3], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">The Hotel</div>
@@ -957,12 +808,7 @@ const productData = {
   `,
   },
   "love-land-pillow-top": {
-    images: [
-      Loveland1,
-      Loveland2,
-      Loveland6,
-      
-    ], // Assuming images are not uploaded yet
+    images: [Loveland1, Loveland2, Loveland6], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Loveland Pillow top</div>
@@ -992,7 +838,7 @@ const productData = {
   `,
   },
   "romantic-euroton": {
-    images: [RomanticBanner,Romanticfirm1, Romanticfirm2, Romanticfirm6], // Assuming images are not uploaded yet
+    images: [RomanticBanner, Romanticfirm1, Romanticfirm2, Romanticfirm6], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Romantic Euroton</div>
@@ -1022,7 +868,7 @@ const productData = {
   `,
   },
   "ortho-bonnell-aloe-vera-with-latex": {
-    images: [AloeveraBanner,AloveraBonnel1, AloveraBonnel2, AloveraBonnel3,], // Assuming images are not uploaded yet
+    images: [AloeveraBanner, AloveraBonnel1, AloveraBonnel2, AloveraBonnel3], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Orthobonnell aloe vera latex</div>
@@ -1066,7 +912,6 @@ const productData = {
       OrthopedicAloeveraMemory1,
       OrthopedicAloeveraMemory2,
       OrthopedicAloeveraMemory6,
-      
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
@@ -1105,13 +950,14 @@ const productData = {
 
   `,
   },
+
+  // POCKETED 
+
   "pocketed-spring-inspiration": {
     images: [
       InsperationalPocketed1,
       InsperationalPocketed2,
       InsperationalPocketed6,
-      
-      
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
@@ -1142,9 +988,7 @@ const productData = {
   `,
   },
   "pocketed-spring-6inch-eternity-euroton": {
-    images: [EternityEuroton1,EternityEuroton2,
-      EternityEuroton3,
-     ], // Assuming images are not uploaded yet
+    images: [EternityEuroton1, EternityEuroton2, EternityEuroton3], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">pocketed spring 6 inch eternity euroton</div>
@@ -1174,7 +1018,7 @@ const productData = {
   `,
   },
   "pocketed-spring-aloe-vera-with-latex": {
-    images: [AloeveraBanner,AloveraBonnel1, AloveraBonnel2, AloveraBonnel3, ], // Assuming images are not uploaded yet
+    images: [AloeveraBanner, AloveraBonnel1, AloveraBonnel2, AloveraBonnel3], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Pocketed Spring aloe vera with latex</div>
@@ -1218,7 +1062,6 @@ const productData = {
       OrthopedicAloeveraMemory1,
       OrthopedicAloeveraMemory2,
       OrthopedicAloeveraMemory6,
-      
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
@@ -1257,8 +1100,10 @@ const productData = {
 
   `,
   },
+
+  // HR-PU FOAM
   "hr-pu-gravity": {
-    images: [ SixinchPUFOAM1,SixinchPUFOAM2,SixinchPUFOAM5,], // Assuming images are not uploaded yet
+    images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">HR PU gravity</div>
@@ -1288,7 +1133,7 @@ const productData = {
   `,
   },
   "hr-pu-space": {
-    images: [SixinchPUFOAM1,SixinchPUFOAM2,SixinchPUFOAM5,], // Assuming images are not uploaded yet
+    images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">HR PU space</div>
@@ -1318,7 +1163,7 @@ const productData = {
   `,
   },
   "hr-pu-plush": {
-    images: [SixinchPUFOAM1,SixinchPUFOAM2,SixinchPUFOAM5,], // Assuming images are not uploaded yet
+    images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">HR PU Plush</div>
@@ -1348,7 +1193,7 @@ const productData = {
   `,
   },
   "hr-pu-techniko": {
-    images: [SixinchPUFOAM1,SixinchPUFOAM2,SixinchPUFOAM5,], // Assuming images are not uploaded yet
+    images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">HR PU Techniko</div>
@@ -1381,11 +1226,8 @@ const productData = {
   // ACCESSORIES
   // COMFORTERS
 
-  "protector": {
-    images: [
-      BaffelBox,
-      SewnThrough,
-    ], // Assuming images are not uploaded yet
+  protector: {
+    images: [BaffelBox, SewnThrough], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Water-Proof Mattress Protector</div>
@@ -1474,12 +1316,7 @@ const productData = {
   `,
   },
   "foam-pillow": {
-    images: [
-      Foampillow11,
-      Foampillow2,
-      Foampillow3,
-      Foampillow4,
-    ], // Assuming images are not uploaded yet
+    images: [Foampillow11, Foampillow2, Foampillow3, Foampillow4], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Foam Pillow</div>

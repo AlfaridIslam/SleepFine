@@ -47,7 +47,7 @@ const Accessories = () => {
           >
             Mattress Protector
             {hoveredCategory === "Mattress Protector Collection" && (
-              <div className="xl:absolute xl:left-[145px] xl:-mt-[40px]  xl:w-60   xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50 bg-white">
+              <div className="xl:absolute xl:left-[145px] xl:-mt-[40px]  xl:w-56   xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50 bg-white">
                 <div className="px-4 py-2 hover:bg-indigo-100">
                 <Link
                               to="product-details/protector"
