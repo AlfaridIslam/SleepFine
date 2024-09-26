@@ -1,5 +1,14 @@
 // assets/index.js
 // mattresses
+
+//banners new
+import orthomedbanner from "./mattress S.F COMP IMG/BANNER&SPECIFICATION/orthomedbanner.jpeg";
+import milangebanner from "./mattress S.F COMP IMG/BANNER&SPECIFICATION/milange.png";
+import preferencebanner from "./mattress S.F COMP IMG/BANNER&SPECIFICATION/preferencebanner.png";
+import memofybanner from "./mattress S.F COMP IMG/BANNER&SPECIFICATION/memofybanner.png";
+import aloeveralatexbanner from "./mattress S.F COMP IMG/BANNER&SPECIFICATION/aloeveralatexbanner.png";
+import aloeveramemorybanner from "./mattress S.F COMP IMG/BANNER&SPECIFICATION/aloeveramemorybanner.png";
+import buckinghumbanner from "./mattress S.F COMP IMG/BANNER&SPECIFICATION/buckinghumbanner.png";
 // ------------------------orthopedicbonded---------------------------------------------
 // -----ORTRHOMED-IMGS----------
 import ORTRHOMED1 from "./mattress S.F COMP IMG/ORTHOMED/DSC02102.jpg";
@@ -17,7 +26,6 @@ import BuckinghumSpeci from "./mattress S.F COMP IMG/BANNER&SPECIFICATION/Buckin
 import OrthopedicAloeveraLatexSpeci from "./mattress S.F COMP IMG/BANNER&SPECIFICATION/OrthopedicAloeveralatexSpeci.jpeg";
 import OrthopedicAloeveraMemorySpeci from "./mattress S.F COMP IMG/BANNER&SPECIFICATION/OrthopedicAloeveramemorySpeci.jpeg";
 import MemofySpeci from "./mattress S.F COMP IMG/BANNER&SPECIFICATION/Memofyspeci.jpeg";
-
 
 //---------Preference-------------
 import Preference1 from "./mattress S.F COMP IMG/Prefrence CI/DSC02094.jpg";
@@ -318,8 +326,6 @@ import AloveraPolyfiberPillow3 from "../assets/Accessories/Pillows/AloveraPolyfi
 import AloveraPolyfiberPillow4 from "../assets/Accessories/Pillows/AloveraPolyfiberPillow4.jpeg";
 import PolyfiberPillow1 from "../assets/Accessories/Pillows/PolyfiberPillow1.png";
 
-//Banner
-
 import OrthomedBanner from "./banner1.png";
 import RoseByRosaBanner2 from "./banner2.JPG";
 import AmbitiousSleepingBanner3 from "./banner3.JPG";
@@ -333,7 +339,14 @@ export {
   RoseByRosaBanner2,
   AmbitiousSleepingBanner3,
   RomanticBanner4,
-
+  //new banners
+  orthomedbanner,
+  milangebanner,
+  preferencebanner,
+  buckinghumbanner,
+  memofybanner,
+  aloeveralatexbanner,
+  aloeveramemorybanner,
   // orthomed
   ORTRHOMED1,
   ORTRHOMED2,
@@ -507,9 +520,9 @@ export {
   kingsizebed4,
   //diamond model
   DiamondModel1,
-DiamondModel2,
-DiamondModel3,
-DiamondModel4,
+  DiamondModel2,
+  DiamondModel3,
+  DiamondModel4,
   //Queen-Sized-Beds
   LoftBed,
   MurphyBed,
