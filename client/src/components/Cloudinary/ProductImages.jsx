@@ -295,14 +295,14 @@ import { BuckinghumBanner, LatexPillow1, Memofy1, Preference1 } from "../../asse
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263804/ushapedsofacumbed3_jd3kqq.png ",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263806/ushapedsofacumbed4_oed6vf.png",
   ],
-  modlar:[
+  modular:[
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263896/ModularSofa1_tr9gy2.jpg",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263899/ModularSofa2_now7ko.jpg",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263901/ModularSofa3_su0otc.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263903/ModularSofa4_xtx5di.jpg ",
   ],
   //----------Accessories------
-  //protrectors
+  //protectors
   waterproof_protectors:[
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264076/BaffleBox_qq0ojm.jpg ",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727264078/SewnThrough_lk0in9.jpg",
