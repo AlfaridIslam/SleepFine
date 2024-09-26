@@ -147,7 +147,7 @@ import { BuckinghumBanner, LatexPillow1, Memofy1, Preference1 } from "../../asse
 
 
 
-  insperation:[
+  inspiration:[
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727261282/DSC02082_ikx7ky.jpg",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727261283/DSC02083_s5dzo3.jpg",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727261278/DSC02086_iejmho.jpg",
@@ -158,21 +158,21 @@ import { BuckinghumBanner, LatexPillow1, Memofy1, Preference1 } from "../../asse
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727261423/DSC02123_gwykre.jpg",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727261425/DSC02123a_xasmnc.jpg",
   ],
-  Aloe_Vera_With_Latex:[
+  // Aloe_Vera_With_Latex:[
 
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260013/DSC02058_y8rz3g.jpg ",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260014/DSC02060_tug0yd.jpg",
-   " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260065/DSC02061_d88ey8.jpg",
+  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260013/DSC02058_y8rz3g.jpg ",
+  //   " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260014/DSC02060_tug0yd.jpg",
+  //  " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260065/DSC02061_d88ey8.jpg",
  
-   ],
+  //  ],
  
-   Aloe_Vera_With_Memory:[
+  //  Aloe_Vera_With_Memory:[
  
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260128/DSC02137_ts4tze.jpg ",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260130/DSC02138_obuxug.jpg ",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260131/DSC02145_khuuqm.jpg",
+  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260128/DSC02137_ts4tze.jpg ",
+  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260130/DSC02138_obuxug.jpg ",
+  //   " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260131/DSC02145_khuuqm.jpg",
  
-   ],
+  //  ],
 
 
   //  -------------HR-PU-FOAM--------------------
@@ -295,7 +295,7 @@ import { BuckinghumBanner, LatexPillow1, Memofy1, Preference1 } from "../../asse
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263804/ushapedsofacumbed3_jd3kqq.png ",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263806/ushapedsofacumbed4_oed6vf.png",
   ],
-  modlar:[
+  modular:[
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263896/ModularSofa1_tr9gy2.jpg",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263899/ModularSofa2_now7ko.jpg",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263901/ModularSofa3_su0otc.jpg",
