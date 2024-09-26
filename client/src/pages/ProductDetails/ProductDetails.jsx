@@ -1105,6 +1105,8 @@ const productData = {
 
   `,
   },
+
+  // POCKETED
   "pocketed-spring-inspiration": {
     images: [
       InsperationalPocketed1,
@@ -1257,6 +1259,8 @@ const productData = {
 
   `,
   },
+
+  // HR-PU FOAM 
   "hr-pu-gravity": {
     images: [ SixinchPUFOAM1,SixinchPUFOAM2,SixinchPUFOAM5,], // Assuming images are not uploaded yet
     description: `
@@ -1496,7 +1500,7 @@ const productData = {
   },
   "poly-fibre-pillow": {
     images: [
-      AloveraPolyfiberPillow1,
+      PolyfiberPillow1,
       AloveraPolyfiberPillow2,
       AloveraPolyfiberPillow3,
       Foampillow4,
