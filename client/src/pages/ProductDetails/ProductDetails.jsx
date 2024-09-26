@@ -751,15 +751,14 @@ const productData = {
     images: [oxford1, oxford2, oxford6], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Oxford</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
+    <div class="text-xl font-semibold my-[6px]">Ortho Bonnell Spring Oxford</div>
+    The Sleep Fine Ortho Bonnell Spring Oxford mattress is designed for those who seek a perfect balance between firm orthopedic support and traditional spring comfort. Crafted with high-quality Bonnell springs, this mattress provides a stable and durable foundation, ensuring a restful and rejuvenating sleep experience. The interconnected coil system evenly distributes body weight, offering consistent support throughout the night, which helps maintain proper spinal alignment and reduces pressure points.<br><br>
+    <h2 class="font-bold">Firm Orthopedic Support</h2>
+    This mattress features a firm Bonnell spring core that offers excellent orthopedic benefits, promoting healthy posture and reducing discomfort caused by poor sleep alignment. The open-coil design ensures that air flows freely through the mattress, keeping the surface cool and fresh for a comfortable night’s rest.<br><br>
+    <h2 class="font-bold">Enhanced Comfort Layer</h2>
+    The Ortho Bonnell Spring Oxford comes with a plush comfort layer on top of the springs, providing just the right amount of cushioning for a soothing sleeping experience. This combination of firm support and soft comfort makes it ideal for those who prefer a structured yet comfortable sleeping surface.<br><br>
+    <h2 class="font-bold">Durable and Long-Lasting</h2>
+    Built to last, the Bonnell springs are engineered to maintain their shape and performance over time. The sturdy construction ensures that the mattress retains its firmness and does not sag, even after years of use. Its durability makes it a great long-term investment for anyone seeking consistent orthopedic support.
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
@@ -781,15 +780,14 @@ const productData = {
     images: [Hotel1, Hotel2, Hotel3], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">The Hotel</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
+    <div class="text-xl font-semibold my-[6px]">The Hotels: The Perfect Blend of Comfort and Durability</div>
+    Designed specifically for hospitality use, the Sleep Fine Bonnell Spring Mattress offers the ideal combination of comfort, support, and durability, making it perfect for hotel environments. This mattress is engineered with high-quality Bonnell springs, providing consistent support and lasting comfort for guests, ensuring they wake up feeling refreshed and rejuvenated.<br><br>
+    <h2 class="font-bold">Superior Support for All Sleepers</h2>
+    The interconnected Bonnell spring system evenly distributes body weight, ensuring optimal spinal alignment and reducing pressure points. This makes it an excellent choice for a wide range of guests, offering both firm support and cushioned comfort. Its ability to adapt to different body types and sleeping positions makes it the go-to mattress for hotels that want to provide top-tier comfort for every guest.<br><br>
+    <h2 class="font-bold">Built for Durability</h2>
+    Hotels require mattresses that can withstand frequent use without losing their shape or support. The Bonnell Spring Mattress is crafted to be highly durable, maintaining its structural integrity over time. The robust spring system is designed to resist sagging, ensuring the mattress retains its form and provides long-lasting comfort, even in high-traffic settings.<br><br>
+    <h2 class="font-bold">Exceptional Comfort and Breathability</h2>
+    This mattress combines firm support with a plush comfort layer, offering a balanced sleeping experience that caters to different preferences. The open-coil structure also promotes airflow, keeping the mattress cool and fresh, an important feature in a hospitality setting where comfort and hygiene are key.
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
@@ -811,15 +809,14 @@ const productData = {
     images: [Loveland1, Loveland2, Loveland6], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Loveland Pillow top</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
+    <div class="text-xl font-semibold my-[6px]">Ortho Bonnell LoveLand Pillow Top</div>
+    The Sleep Fine Ortho Bonnell Spring LoveLand Pillow Top mattress is designed for those who seek a perfect balance between firm orthopedic support and traditional spring comfort. Crafted with high-quality Bonnell springs, this mattress provides a stable and durable foundation, ensuring a restful and rejuvenating sleep experience. The interconnected coil system evenly distributes body weight, offering consistent support throughout the night, which helps maintain proper spinal alignment and reduces pressure points.<br><br>
+    <h2 class="font-bold">Firm Orthopedic Support</h2>
+    This mattress features a firm Bonnell spring core that offers excellent orthopedic benefits, promoting healthy posture and reducing discomfort caused by poor sleep alignment. The open-coil design ensures that air flows freely through the mattress, keeping the surface cool and fresh for a comfortable night’s rest.<br><br>
+    <h2 class="font-bold">Enhanced Comfort Layer</h2>
+    The Ortho Bonnell Spring LoveLand Pillow Top comes with a plush comfort layer on top of the springs, providing just the right amount of cushioning for a soothing sleeping experience. This combination of firm support and soft comfort makes it ideal for those who prefer a structured yet comfortable sleeping surface.<br><br>
+    <h2 class="font-bold">Durable and Long-Lasting</h2>
+    Built to last, the Bonnell springs are engineered to maintain their shape and performance over time. The sturdy construction ensures that the mattress retains its firmness and does not sag, even after years of use. Its durability makes it a great long-term investment for anyone seeking consistent orthopedic support.
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
@@ -841,15 +838,14 @@ const productData = {
     images: [RomanticBanner, Romanticfirm1, Romanticfirm2, Romanticfirm6], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Romantic Euroton</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
+    <div class="text-xl font-semibold my-[6px]">Ortho Bonnell Spring Romantic Euroton</div>
+    The Sleep Fine Ortho Bonnell Spring Romantic Euroton mattress is designed for those who seek a perfect balance between firm orthopedic support and traditional spring comfort. Crafted with high-quality Bonnell springs, this mattress provides a stable and durable foundation, ensuring a restful and rejuvenating sleep experience. The interconnected coil system evenly distributes body weight, offering consistent support throughout the night, which helps maintain proper spinal alignment and reduces pressure points.<br><br>
+    <h2 class="font-bold">Firm Orthopedic Support</h2>
+    This mattress features a firm Bonnell spring core that offers excellent orthopedic benefits, promoting healthy posture and reducing discomfort caused by poor sleep alignment. The open-coil design ensures that air flows freely through the mattress, keeping the surface cool and fresh for a comfortable night’s rest.<br><br>
+    <h2 class="font-bold">Enhanced Comfort Layer</h2>
+    The Ortho Bonnell Spring Romantic Euroton comes with a plush comfort layer on top of the springs, providing just the right amount of cushioning for a soothing sleeping experience. This combination of firm support and soft comfort makes it ideal for those who prefer a structured yet comfortable sleeping surface.<br><br>
+    <h2 class="font-bold">Durable and Long-Lasting</h2>
+    Built to last, the Bonnell springs are engineered to maintain their shape and performance over time. The sturdy construction ensures that the mattress retains its firmness and does not sag, even after years of use. Its durability makes it a great long-term investment for anyone seeking consistent orthopedic support.
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
@@ -871,39 +867,29 @@ const productData = {
     images: [AloeveraBanner, AloveraBonnel1, AloveraBonnel2, AloveraBonnel3], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Orthobonnell aloe vera latex</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
-    </div>
-    <div class="description flex justify-start items-start gap-5 mt-2">
-  <div class="flex flex-col">
+    <div class="text-xl font-semibold my-[6px]">Ortho Bonnell Spring Aloe Vera with Latex</div>
+    The Sleep Fine Ortho Bonnell Spring Aloe Vera with Latex mattress is designed for those who seek a perfect balance between firm orthopedic support and traditional spring comfort. Crafted with high-quality Bonnell springs, this mattress provides a stable and durable foundation, ensuring a restful and rejuvenating sleep experience. The interconnected coil system evenly distributes body weight, offering consistent support throughout the night, which helps maintain proper spinal alignment and reduces pressure points.<br><br>
+    <h2 class="font-bold">Firm Orthopedic Support</h2>
+    This mattress features a firm Bonnell spring core that offers excellent orthopedic benefits, promoting healthy posture and reducing discomfort caused by poor sleep alignment. The open-coil design ensures that air flows freely through the mattress, keeping the surface cool and fresh for a comfortable night’s rest.<br><br>
+    <h2 class="font-bold">Enhanced Comfort Layer</h2>
+    The Ortho Bonnell Spring Aloe Vera with Latex comes with a plush comfort layer on top of the springs, providing just the right amount of cushioning for a soothing sleeping experience. This combination of firm support and soft comfort makes it ideal for those who prefer a structured yet comfortable sleeping surface.<br><br>
+    <h2 class="font-bold">Durable and Long-Lasting</h2>
+    Built to last, the Bonnell springs are engineered to maintain their shape and performance over time. The sturdy construction ensures that the mattress retains its firmness and does not sag, even after years of use. Its durability makes it a great long-term investment for anyone seeking consistent orthopedic support.
+    <div class="flex justify-start mt-2 items-center gap-10">
+    <div class="flex-col">
     <h2 class="font-bold">Height</h2>
-    <p>6 ,8 & 10 inches only</p>
-  </div>
-
-  <div class="flex flex-col">
-    <h2 class="font-bold">Variant</h2>
-    <p>EuroTop</p>
-  </div>
-
-  <div class="flex flex-col">
+    <p>5 & 6 inches</p>
+    </div>
+    <div>
     <h2 class="font-bold">Warranty</h2>
-    <p>10 years for 8 & 10 inches</p>
-    <p>7 years for 6 inches</p>
-  </div>
-
-  <div class="flex flex-col">
+    <p>5 years</p>
+    </div>
+    <div>
     <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐⭐</p>
-  </div>
-</div>
-
+    <p>⭐⭐⭐⭐</p>
+    </div>
+    </div>
+    </div>
   `,
   },
   "ortho-bonnell-aloe-vera-with-memory": {
@@ -915,42 +901,31 @@ const productData = {
     ], // Assuming images are not uploaded yet
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Orthobonnell aloe vera memory</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
-    </div>
-    <div class="description flex justify-start items-start gap-5 mt-2">
-  <div class="flex flex-col">
+    <div class="text-xl font-semibold my-[6px]">Ortho Bonnell Spring Aloe Vera with Memory</div>
+    The Sleep Fine Ortho Bonnell Spring Aloe Vera with Memory mattress is designed for those who seek a perfect balance between firm orthopedic support and traditional spring comfort. Crafted with high-quality Bonnell springs, this mattress provides a stable and durable foundation, ensuring a restful and rejuvenating sleep experience. The interconnected coil system evenly distributes body weight, offering consistent support throughout the night, which helps maintain proper spinal alignment and reduces pressure points.<br><br>
+    <h2 class="font-bold">Firm Orthopedic Support</h2>
+    This mattress features a firm Bonnell spring core that offers excellent orthopedic benefits, promoting healthy posture and reducing discomfort caused by poor sleep alignment. The open-coil design ensures that air flows freely through the mattress, keeping the surface cool and fresh for a comfortable night’s rest.<br><br>
+    <h2 class="font-bold">Enhanced Comfort Layer</h2>
+    The Ortho Bonnell Spring Aloe Vera with Memory comes with a plush comfort layer on top of the springs, providing just the right amount of cushioning for a soothing sleeping experience. This combination of firm support and soft comfort makes it ideal for those who prefer a structured yet comfortable sleeping surface.<br><br>
+    <h2 class="font-bold">Durable and Long-Lasting</h2>
+    Built to last, the Bonnell springs are engineered to maintain their shape and performance over time. The sturdy construction ensures that the mattress retains its firmness and does not sag, even after years of use. Its durability makes it a great long-term investment for anyone seeking consistent orthopedic support.
+    <div class="flex justify-start mt-2 items-center gap-10">
+    <div class="flex-col">
     <h2 class="font-bold">Height</h2>
-    <p>6 ,8 & 10 inches only</p>
-  </div>
-
-  <div class="flex flex-col">
-    <h2 class="font-bold">Variant</h2>
-    <p>EuroTop</p>
-  </div>
-
-  <div class="flex flex-col">
+    <p>5 & 6 inches</p>
+    </div>
+    <div>
     <h2 class="font-bold">Warranty</h2>
-    <p>10 years for 8 & 10 inches</p>
-    <p>7 years for 6 inches</p>
-  </div>
-
-  <div class="flex flex-col">
+    <p>5 years</p>
+    </div>
+    <div>
     <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐⭐</p>
-  </div>
-</div>
-
+    <p>⭐⭐⭐⭐</p>
+    </div>
+    </div>
+    </div>
   `,
   },
-
 
   // POCKETED
 
@@ -1102,8 +1077,7 @@ const productData = {
   `,
   },
 
-
-  // HR-PU FOAM 
+  // HR-PU FOAM
 
   "hr-pu-gravity": {
     images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5], // Assuming images are not uploaded yet
