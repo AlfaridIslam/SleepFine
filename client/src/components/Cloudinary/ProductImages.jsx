@@ -303,14 +303,24 @@ import { BuckinghumBanner, LatexPillow1, Memofy1, Preference1 } from "../../asse
   ],
   //----------Accessories------
   //protrectors
-  protectors:[
+  waterproof_protectors:[
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264076/BaffleBox_qq0ojm.jpg ",
+    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727264078/SewnThrough_lk0in9.jpg",
+    
+  ],
+  Quilted_protectors:[
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264076/BaffleBox_qq0ojm.jpg ",
+    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727264078/SewnThrough_lk0in9.jpg",
+    
+  ],
+  fitted_protectors:[
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264076/BaffleBox_qq0ojm.jpg ",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727264078/SewnThrough_lk0in9.jpg",
     
   ],
 
   //Pillow
-
+  
   Memory_pillow:[
 
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264286/Memoryfoam_Pillow1_vqewfs.jpg ",
@@ -337,7 +347,6 @@ import { BuckinghumBanner, LatexPillow1, Memofy1, Preference1 } from "../../asse
   ],
   polyfiber_pillow:[
 
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727266137/PolyFiberPillow1_qpuvhp.png",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727266047/AloveraPolyfiberPillow2_jrtovb.jpg ",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727266048/AloveraPolyfiberPillow3_sisgsh.jpg ",
    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727265490/Foampillow4_mcdvvc.jpg",
