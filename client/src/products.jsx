@@ -348,16 +348,6 @@ const products = [
             name: "pkmodel-without-storage",
             image: LoftBed, // Using existing image as dummy
           },
-          {
-            id: 2023,
-            name: "Bunk-Bed",
-            image: queensizebed2, // Using existing image as dummy
-          },
-          {
-            id: 2024,
-            name: "Trundle-Bed",
-            image: queensizebed3, // Using existing image as dummy
-          },
         ],
       },
       // Diamond BED

@@ -416,7 +416,7 @@ const productData = {
   // PK MODEL BEDS
   "pkmodel-with-storage": {
     // images: [PKModel1, PKModel2, PKModel3, PKModel4],
-    images: productImages.pk_model_with_storage,
+    images: productImages.pk_model_withstorage,
     description: `
     <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]"> PK Model with storage: Space-Saving Comfort and Versatility</div>
