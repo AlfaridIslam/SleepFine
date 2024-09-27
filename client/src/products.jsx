@@ -163,11 +163,6 @@ const products = [
             name: "Orthomed",
             image: ORTRHOMED3, // Using existing image as dummy
           },
-          {
-            id: 1017,
-            name: "Milange",
-            image: Milange5, // Using existing image as dummy
-          },
 
           {
             id: 1012,
@@ -193,6 +188,11 @@ const products = [
             id: 1016,
             name: "Memofy",
             image: OrthopedicAloeveraMemory2, // Using existing image as dummy
+          },
+          {
+            id: 1017,
+            name: "Milange",
+            image: Milange5, // Using existing image as dummy
           },
         ],
       },
@@ -505,7 +505,7 @@ const products = [
             name: "Poly-fibre-pillow",
             image: MemoryfoamPillow2, // Using existing image as dummy
           },
-          { 
+          {
             id: 4015,
             name: "Polyfibre-textile",
             image: MemoryfoamPillow3, // Using existing image as dummy
