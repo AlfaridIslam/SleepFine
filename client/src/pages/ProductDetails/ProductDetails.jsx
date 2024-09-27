@@ -454,7 +454,7 @@ const productData = {
     images: productImages.orthomed,
     description: `
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Orthomed</div>
+    <div class="text-xl font-semibold my-[6px]">Orthomed Spine Cure</div>
     <h2 class=" font-bold">Rebonded Foam</h2>
     This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
     <h2 class="font-bold">Orthopedic Support</h2>
@@ -470,7 +470,7 @@ const productData = {
     </div>
     <div>
     <h2 class="font-bold">Variant</h2>
-    <p>TT (Tight Top)</p>
+    <p>Tight Top</p>
     </div>
     <div>
     <h2 class="font-bold">Warranty</h2>
@@ -533,9 +533,12 @@ const productData = {
     images: productImages.preference,
     description: `
     <div class="text-xl font-semibold my-[6px]">The Preference Orthomed </div>
-    This mattress is designed for optimal orthopedic support and comfort. It features a high-density rebounded foam core that evenly distributes body weight, reducing pressure on joints and providing spinal alignment. 
+    This mattress is designed for optimal orthopedic support and comfort. It features a high-density rebounded foam core that evenly distributes body weight, reducing pressure on joints and providing spinal alignment. <br><br>
+    <h2 class="font-bold">Ortho Support </h2>
     The mattress is firm yet comfortable, catering to those with back or joint issues. Its breathable cover ensures a cool and hygienic sleeping surface. Ideal for individuals seeking a restful night's sleep while maintaining proper posture and relieving body aches. Suitable for all bed types, it offers durability, long-lasting shape retention, and a blend of therapeutic and luxury sleeping experiences.<br><br>
+
     <h2 class="font-bold">Firmness</h2>
+
     The Preference Orthomed Mattress offers orthopedic support, providing firm and balanced support that aligns the spine and alleviates pressure points, making it an excellent choice for those with back or joint discomfort.<br><br>
     <h2 class="font-bold">Comfort</h2>
     When it comes to comfort, this mattress strikes the perfect balance with its high-density Rebonded foam combines with HR foam core. It provides a firm sleeping surface that supports the body without feeling too hard, ensuring a restful and rejuvenating sleep experience.<br><br>
