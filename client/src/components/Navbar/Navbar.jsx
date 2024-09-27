@@ -4,6 +4,7 @@ import Mattress from "../Mattress/Mattress.jsx";
 import Beds from "../Beds/Beds.jsx";
 import Sofas from "../Sofas/Sofas.jsx";
 
+
 import Accessories from "../Accessories/Accessories.jsx";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -14,6 +15,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { Link, useLocation } from "react-router-dom";
 import logo from "../../assets/sleepfinelogo-3.png";
+import logoR from "../../assets/SleepFinelogoR.png"
 
 const Navbar = () => {
   const [isProductsDropdownOpen, setIsProductsDropdownOpen] = useState(false);
@@ -83,7 +85,7 @@ const Navbar = () => {
 
         <Link to="/" className="">
           <img
-            src={logo}
+            src={logoR}
             alt="Logo"
             className="xl:w-44   xl:h-14  xl:mt-5  xl:ml-0 xl:pb-0 xl:pt-0 xl:p-0  sm:justify-center sm:ml-[450px] sm:py-2  sm:h-20 sm:-mt-20"
           />

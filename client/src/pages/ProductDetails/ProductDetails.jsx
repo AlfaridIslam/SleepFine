@@ -15,7 +15,13 @@ import { useParams } from "react-router-dom";
 //   OrthopedicAloeveraLatexSpeci,
 //   OrthopedicAloeveraMemorySpeci,
 
-
+  // orthomedbanner,
+  // milangebanner,
+  // preferencebanner,
+  // buckinghumbanner,
+  // memofybanner,
+  // aloeveralatexbanner,
+  // aloeveramemorybanner,
 
 
 
@@ -450,8 +456,10 @@ const productData = {
   // MATTRESSES
   // ORTHOPEDIC
   orthomed: {
+
     // images: [OrthomedBanner, ORTRHOMED1, ORTRHOMED2, ORTRHOMED6, Orthospeci],
     images: productImages.orthomed,
+
     description: `
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Orthomed Spine Cure</div>
@@ -485,8 +493,10 @@ const productData = {
   `,
   },
   milange: {
+
     // images: [OrthomedBanner, Milange1, Milange2, Milange6, MilangeSpeci],
     images: productImages.milange,
+
     description: `
     <div class="text-xl font-semibold my-[6px]">Milange Rebonded HR Foam Dual Mattress</div>
     Experience unparalleled comfort and support with our Milange Rebonded HR Foam Dual Mattress, designed to provide a restful sleep experience.<br><br>
@@ -523,6 +533,7 @@ const productData = {
   },
 
   preference: {
+
     // images: [
     //   OrthomedBanner,
     //   Preference1,
@@ -531,6 +542,7 @@ const productData = {
     //   PreferenceBanner,
     // ],
     images: productImages.preference,
+
     description: `
     <div class="text-xl font-semibold my-[6px]">The Preference Orthomed </div>
     This mattress is designed for optimal orthopedic support and comfort. It features a high-density rebounded foam core that evenly distributes body weight, reducing pressure on joints and providing spinal alignment. <br><br>
@@ -565,6 +577,7 @@ const productData = {
   `,
   },
   buckingham: {
+
     // images: [
     //   BuckinghumBanner,
     //   Buckingham1,
@@ -573,6 +586,7 @@ const productData = {
     //   BuckinghumSpeci,
     // ],
     images: productImages.buckingham,
+
     description: `
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Buckinghum Lexus Ortho Hybrid</div>
@@ -608,6 +622,7 @@ const productData = {
   `,
   },
   "orthopedic-aloe-vera-latex": {
+
     // images: [
     //   AloeveraBanner,
     //   AloveraBonnel1,
@@ -616,6 +631,7 @@ const productData = {
     //   OrthopedicAloeveraLatexSpeci,
     // ],
     images: productImages.orthopedic_alovera_latex,
+
     description: `
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">AloeVera Euroton Ortho Mattress with Latex </div>
@@ -654,6 +670,7 @@ const productData = {
   `,
   },
   "orthopedic-aloe-vera-memory": {
+
     // images: [
     //   AloeveraBanner,
     //   OrthopedicAloeveraMemory1,
@@ -662,6 +679,7 @@ const productData = {
     //   OrthopedicAloeveraMemorySpeci,
     // ],
     images: productImages.orthopedic_alovera_memory,
+
     description: `
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">AloeVera Euroton Ortho Mattress with Memory</div>
@@ -700,8 +718,10 @@ const productData = {
   `,
   },
   memofy: {
+
     // images: [OrthomedBanner, Memofy1, Memofy2, Memofy3, MemofySpeci], // Assuming images are not uploaded yet
     images: productImages.memofy,
+
     description: `
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Memofy Ortho Mattress </div>
@@ -741,6 +761,7 @@ const productData = {
     // images: [oxford1, oxford2, oxford6],
     images: productImages.oxford,
     description: `
+
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Ortho Bonnell Spring Oxford</div>
     The Sleep Fine Ortho Bonnell Spring Oxford mattress is designed for those who seek a perfect balance between firm orthopedic support and traditional spring comfort. Crafted with high-quality Bonnell springs, this mattress provides a stable and durable foundation, ensuring a restful and rejuvenating sleep experience. The interconnected coil system evenly distributes body weight, offering consistent support throughout the night, which helps maintain proper spinal alignment and reduces pressure points.<br><br>
@@ -750,6 +771,7 @@ const productData = {
     The Ortho Bonnell Spring Oxford comes with a plush comfort layer on top of the springs, providing just the right amount of cushioning for a soothing sleeping experience. This combination of firm support and soft comfort makes it ideal for those who prefer a structured yet comfortable sleeping surface.<br><br>
     <h2 class="font-bold">Durable and Long-Lasting</h2>
     Built to last, the Bonnell springs are engineered to maintain their shape and performance over time. The sturdy construction ensures that the mattress retains its firmness and does not sag, even after years of use. Its durability makes it a great long-term investment for anyone seeking consistent orthopedic support.
+
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
@@ -771,6 +793,7 @@ const productData = {
     // images: [Hotel1, Hotel2, Hotel3],
     images: productImages.thehotel,
     description: `
+
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">The Hotels: The Perfect Blend of Comfort and Durability</div>
     Designed specifically for hospitality use, the Sleep Fine Bonnell Spring Mattress offers the ideal combination of comfort, support, and durability, making it perfect for hotel environments. This mattress is engineered with high-quality Bonnell springs, providing consistent support and lasting comfort for guests, ensuring they wake up feeling refreshed and rejuvenated.<br><br>
@@ -780,6 +803,7 @@ const productData = {
     Hotels require mattresses that can withstand frequent use without losing their shape or support. The Bonnell Spring Mattress is crafted to be highly durable, maintaining its structural integrity over time. The robust spring system is designed to resist sagging, ensuring the mattress retains its form and provides long-lasting comfort, even in high-traffic settings.<br><br>
     <h2 class="font-bold">Exceptional Comfort and Breathability</h2>
     This mattress combines firm support with a plush comfort layer, offering a balanced sleeping experience that caters to different preferences. The open-coil structure also promotes airflow, keeping the mattress cool and fresh, an important feature in a hospitality setting where comfort and hygiene are key.
+
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
@@ -801,6 +825,7 @@ const productData = {
     // images: [Loveland1, Loveland2, Loveland6],
     images: productImages.Love_Land_Pillow_Top,
     description: `
+
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Ortho Bonnell LoveLand Pillow Top</div>
     The Sleep Fine Bonnell Spring Love Land Pillow Top Mattress combines the robust support of a Bonnell spring system with the plush, indulgent comfort of a pillow top layer. This mattress is designed for those who seek a firm foundation with an added touch of luxury, providing a balanced sleeping experience that supports the body while enveloping it in softness.<br><br>
@@ -810,6 +835,7 @@ const productData = {
     The signature pillow top layer adds an extra level of plushness to the mattress, creating a soft and luxurious sleeping surface. This layer enhances comfort, offering a cozy feel without sacrificing the firm support provided by the Bonnell spring core. It's perfect for sleepers who want a gentle touch without compromising on structural integrity.<br><br>
     <h2 class="font-bold">Balanced Sleep Experience</h2>
     With its combination of firm Bonnell spring support and a plush pillow top, the Love Land Pillow Top Mattress is ideal for those who desire a mattress that caters to both support and softness. Whether you're a back, side, or stomach sleeper, this mattress provides the right amount of comfort and support for a rejuvenating night's rest.
+
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
@@ -831,6 +857,7 @@ const productData = {
     // images: [RomanticBanner, Romanticfirm1, Romanticfirm2, Romanticfirm6],
     images: productImages.Romantic_Euroton,
     description: `
+
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Ortho Bonnell Spring Romantic Euroton</div>
     The Sleep Fine Bonnell Spring Romantic Euroton Mattress is the epitome of classic comfort and enduring support. With a foundation built upon a reliable Bonnell spring system, this mattress offers a balanced combination of resilience and plushness, making it perfect for those who desire a firm, supportive sleep surface with a touch of luxury.<br><br>
@@ -840,6 +867,7 @@ const productData = {
     Topping the Bonnell spring base is a Eurotop design that adds a layer of soft cushioning without compromising on support. The Eurotop enhances the mattress's plush feel, giving you a cloud-like sensation while the Bonnell springs work underneath to maintain firmness and stability. This pairing creates the perfect harmony between softness and structure.<br><br>
     <h2 class="font-bold">Luxurious Sleeping Experience</h2>
     With its elegant Eurotop design and sturdy Bonnell spring foundation, the Romantic Euroton Mattress delivers a sleep experience that is both indulgent and supportive. Ideal for sleepers who enjoy a blend of firmness with a gentle surface, this mattress offers the perfect solution for those seeking comfort with reliable orthopedic support.
+
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
@@ -861,6 +889,7 @@ const productData = {
     // images: [AloeveraBanner, AloveraBonnel1, AloveraBonnel2, AloveraBonnel3],
     images: productImages.Aloe_Vera_With_Latex,
     description: `
+
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Ortho Bonnell Spring Aloe Vera with Latex</div>
     The Sleep Fine Ortho Bonnell Aloe Vera with Latex Mattress combines the strength of a Bonnell spring system with the natural benefits of latex and aloe vera. Crafted for those who seek firm orthopedic support with added comfort, this mattress ensures a rejuvenating sleep experience while promoting natural wellness.<br><br>
@@ -872,19 +901,31 @@ const productData = {
     To enhance the health benefits, the outer fabric is infused with aloe vera extracts, known for their soothing and skin-friendly properties. The aloe vera-infused cover helps create a calm, natural sleeping environment, while the breathable fabric aids in temperature regulation for a refreshing night’s rest.
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
+
+    <div class="description flex justify-start items-start gap-5 mt-2">
+  <div class="flex flex-col">
+
     <h2 class="font-bold">Height</h2>
-    <p>5 & 6 inches</p>
-    </div>
-    <div>
+    <p>6 ,8 & 10 inches only</p>
+  </div>
+
+  <div class="flex flex-col">
+    <h2 class="font-bold">Variant</h2>
+    <p>EuroTop</p>
+  </div>
+
+  <div class="flex flex-col">
     <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
-    </div>
-    <div>
+    <p>10 years for 8 & 10 inches</p>
+    <p>7 years for 6 inches</p>
+  </div>
+
+  <div class="flex flex-col">
     <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐</p>
-    </div>
-    </div>
-    </div>
+    <p>⭐⭐⭐⭐⭐</p>
+  </div>
+</div>
+
   `,
   },
   "ortho-bonnell-aloe-vera-with-memory": {
@@ -896,6 +937,7 @@ const productData = {
     // ],
     images: productImages.Aloe_Vera_With_Memory,
     description: `
+
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Ortho Bonnell Spring Aloe Vera with Memory</div>
     The Sleep Fine Ortho Bonnell Aloe Vera with Memory Mattress is a perfect blend of firm orthopedic support, soothing aloe vera benefits, and the luxurious comfort of memory foam. Tailored for those who need sturdy support but don't want to compromise on comfort, this mattress is ideal for a rejuvenating and restful sleep experience.<br><br>
@@ -907,21 +949,34 @@ const productData = {
     The aloe vera-infused outer fabric brings a touch of natural wellness to your sleeping environment. Known for its calming and healing properties, aloe vera helps create a soothing atmosphere for your skin and body, while the breathable fabric ensures a cool and comfortable sleep.
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
+
+    <div class="description flex justify-start items-start gap-5 mt-2">
+  <div class="flex flex-col">
+
     <h2 class="font-bold">Height</h2>
-    <p>5 & 6 inches</p>
-    </div>
-    <div>
+    <p>6 ,8 & 10 inches only</p>
+  </div>
+
+  <div class="flex flex-col">
+    <h2 class="font-bold">Variant</h2>
+    <p>EuroTop</p>
+  </div>
+
+  <div class="flex flex-col">
     <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
-    </div>
-    <div>
+    <p>10 years for 8 & 10 inches</p>
+    <p>7 years for 6 inches</p>
+  </div>
+
+  <div class="flex flex-col">
     <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐</p>
-    </div>
-    </div>
-    </div>
+    <p>⭐⭐⭐⭐⭐</p>
+  </div>
+</div>
+
   `,
   },
+
 
   // POCKETED
 
@@ -1078,7 +1133,8 @@ const productData = {
   `,
   },
 
-  // HR-PU FOAM
+
+  // HR-PU FOAM 
 
   "hr-pu-gravity": {
     // images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5],

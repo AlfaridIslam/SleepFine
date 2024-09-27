@@ -4,44 +4,45 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import "./ProductsScrolling.css";
 import {Link} from "react-router-dom";
+import {ProductScrollingImages} from '../Cloudinary/ProductScrollingImages.jsx';
 
 // mattresses images
-import Orthomed1 from "../../assets/ORTHOMED1.jpeg";
-import Orthomed2 from "../../assets/ORTHOMED2.jpeg";
-import Buckingham1 from "../../assets/buckingham1.jpeg";
-import Buckingham2 from "../../assets/buckingham2.jpeg";
-import aloeveralatex1 from "../../assets/aloeveralatex1.jpeg";
-import aloeveralatex2 from "../../assets/aloeveralatex2.jpeg";
-import eternity1 from "../../assets/eternity1.jpeg";
-import eternity2 from "../../assets/eternity2.jpeg";
+// import Orthomed1 from "../../assets/ORTHOMED1.jpeg";
+// import Orthomed2 from "../../assets/ORTHOMED2.jpeg";
+// import Buckingham2 from "../../assets/buckingham2.jpeg";
+// import Buckingham1 from "../../assets/buckingham1.jpeg";
+// import aloeveralatex1 from "../../assets/aloeveralatex1.jpeg";
+// import aloeveralatex2 from "../../assets/aloeveralatex2.jpeg";
+// import eternity1 from "../../assets/eternity1.jpeg";
+// import eternity2 from "../../assets/eternity2.jpeg";
 
 // bed images
-import bed1 from "../../assets/Beds/King-Size-bed/CanopyBed.JPG";
-import bed2 from "../../assets/Beds/King-Size-bed/SleighBed.jpeg";
-import bed3 from "../../assets/Beds/King-Size-bed/PlatformBed.jpeg";
-import bed4 from "../../assets/Beds/King-Size-bed/PanelBed.jpeg";
-import bed5 from "../../assets/Beds/King-Size-bed/kingsizebed4.jpg";
-import bed6 from "../../assets/Beds/Queen-size-bed/LoftBed.jpg";
-import bed7 from "../../assets/Beds/King-Size-bed/Kingsizebed3.jpg";
-import bed8 from "../../assets/Beds/Queen-size-bed/MurphyBed.jpeg";
+// import bed1 from "../../assets/Beds/King-Size-bed/CanopyBed.JPG";
+// import bed2 from "../../assets/Beds/King-Size-bed/SleighBed.jpeg";
+// import bed3 from "../../assets/Beds/King-Size-bed/PlatformBed.jpeg";
+// import bed4 from "../../assets/Beds/King-Size-bed/PanelBed.jpeg";
+// import bed5 from "../../assets/Beds/King-Size-bed/kingsizebed4.jpg";
+// import bed6 from "../../assets/Beds/Queen-size-bed/LoftBed.jpg";
+// import bed7 from "../../assets/Beds/King-Size-bed/Kingsizebed3.jpg";
+// import bed8 from "../../assets/Beds/Queen-size-bed/MurphyBed.jpeg";
 // sofa images
-import sofa1 from "../../assets/Sofas/Sectional-Sofas/Lshapedsofa1.jpeg";
-import sofa2 from "../../assets/Sofas/Sectional-Sofas/ModularSofa1.jpg";
-import sofa3 from "../../assets/Sofas/Sectional-Sofas/UshapedSofa1.jpeg";
-import sofa4 from "../../assets/Sofas/Sectional-Sofas/UshapedSofa4.jpeg";
-import sofa5 from "../../assets/Sofas/StandardSofas/chesterfield4.jpg";
-import sofa6 from "../../assets/Sofas/StandardSofas/chesterfield1.jpg";
-import sofa7 from  "../../assets/Sofas/StandardSofas/Tuxedo3.jpg";
-import sofa8 from "../../assets/Sofas/StandardSofas/Tuxedo1.jpg";
+// import sofa1 from "../../assets/Sofas/Sectional-Sofas/Lshapedsofa1.jpeg";
+// import sofa2 from "../../assets/Sofas/Sectional-Sofas/ModularSofa1.jpg";
+// import sofa3 from "../../assets/Sofas/Sectional-Sofas/UshapedSofa1.jpeg";
+// import sofa4 from "../../assets/Sofas/Sectional-Sofas/UshapedSofa4.jpeg";
+// import sofa5 from "../../assets/Sofas/StandardSofas/chesterfield4.jpg";
+// import sofa6 from "../../assets/Sofas/StandardSofas/chesterfield1.jpg";
+// import sofa7 from  "../../assets/Sofas/StandardSofas/Tuxedo3.jpg";
+// import sofa8 from "../../assets/Sofas/StandardSofas/Tuxedo1.jpg";
 // accessories images
-import accessories1 from "../../assets/Accessories/Pillows/AloveraPolyfiberPillow2.jpeg";
-import accessories2 from "../../assets/Accessories/Pillows/AloveraPolyfiberPillow1.jpeg";
-import accessories3 from "../../assets/Accessories/Pillows/Memoryfoam_Pillow1.jpeg";
-import accessories4 from "../../assets/Accessories/Pillows/Memoryfoam_Pillow2.jpeg";
-import accessories5 from "../../assets/Accessories/Pillows/LatexPillow1.jpeg";
-import accessories6 from "../../assets/Accessories/Pillows/LatexPillow4.jpeg";
-import accessories7 from "../../assets/Accessories/Pillows/Foampillow11.png";
-import accessories8 from "../../assets/Accessories/Pillows/Foampillow2.jpeg";
+// import accessories1 from "../../assets/Accessories/Pillows/AloveraPolyfiberPillow2.jpeg";
+// import accessories2 from "../../assets/Accessories/Pillows/AloveraPolyfiberPillow1.jpeg";
+// import accessories3 from "../../assets/Accessories/Pillows/Memoryfoam_Pillow1.jpeg";
+// import accessories4 from "../../assets/Accessories/Pillows/Memoryfoam_Pillow2.jpeg";
+// import accessories5 from "../../assets/Accessories/Pillows/LatexPillow1.jpeg";
+// import accessories6 from "../../assets/Accessories/Pillows/LatexPillow4.jpeg";
+// import accessories7 from "../../assets/Accessories/Pillows/Foampillow11.png";
+// import accessories8 from "../../assets/Accessories/Pillows/Foampillow2.jpeg";
 
 const ProductsScrolling = () => {
   const settings = {
@@ -75,92 +76,92 @@ const ProductsScrolling = () => {
 
     const mattressItems = [
       {
-        image: Orthomed1,
-        hoverImage: Orthomed2,
+        image: ProductScrollingImages.orthomed1,
+        hoverImage: ProductScrollingImages.orthomed2,
         link: "orthomed",
       },
       {
-        image: Buckingham1,
-        hoverImage: Buckingham2,
+        image: ProductScrollingImages.Buckingham1,
+        hoverImage: ProductScrollingImages.Buckingham2,
         link: "buckingham",
       },
       {
-        image: aloeveralatex1,
-        hoverImage: aloeveralatex2,
+        image: ProductScrollingImages.aloeveralatex1,
+        hoverImage: ProductScrollingImages.aloeveralatex2,
         link: "orthopedic-aloe-vera-latex",
       },
       {
-        image: eternity1,
-        hoverImage: eternity2,
+        image: ProductScrollingImages.eternity1,
+        hoverImage: ProductScrollingImages.eternity2,
         link: "pocketed-spring-6inch-eternity-euroton",
       },
     ];
 
   const bedItems = [
     {
-      image: bed1, // Pass the image directly
-      hoverImage: bed2, // Pass the hover image directly
+      image: ProductScrollingImages.bed1, // Pass the image directly
+      hoverImage: ProductScrollingImages.bed2, // Pass the hover image directly
       link: "denver-with-storage",
     },
     {
-      image: bed3,
-      hoverImage: bed4,
+      image: ProductScrollingImages.bed3,
+      hoverImage: ProductScrollingImages.bed4,
       link: "denver-without-storage",
     },
     {
-      image: bed5,
-      hoverImage: bed6,
+      image: ProductScrollingImages.bed5,
+      hoverImage: ProductScrollingImages.bed6,
       link: "pkmodel-with-storage",
     },
     {
-      image: bed7,
-      hoverImage: bed8,
+      image: ProductScrollingImages.bed7,
+      hoverImage: ProductScrollingImages.bed8,
       link: "diamond-with-storage",
     },
   ];
   
   const sofaItems = [
     {
-      image: sofa1,
-      hoverImage: sofa2,
+      image: ProductScrollingImages.sofa1,
+      hoverImage: ProductScrollingImages.sofa2,
       link: "L-Shaped",
     },
     {
-      image: sofa3,
-      hoverImage: sofa4,
+      image: ProductScrollingImages.sofa3,
+      hoverImage: ProductScrollingImages.sofa4,
       link: "U-Shaped",
     },
     {
-      image: sofa5,
-      hoverImage: sofa6,
+      image: ProductScrollingImages.sofa5,
+      hoverImage: ProductScrollingImages.sofa6,
       link: "Chesterfield",
     },
     {
-      image: sofa7,
-      hoverImage: sofa8,
+      image: ProductScrollingImages.sofa7,
+      hoverImage: ProductScrollingImages.sofa8,
       link: "Tuxedo",
     },
   ];
   
   const accessoriesItems = [
     {
-      image: accessories1,
-      hoverImage: accessories2,
+      image: ProductScrollingImages.accessories1,
+      hoverImage: ProductScrollingImages.accessories2,
       link: "poly-fibre-pillow",
     },
     {
-      image: accessories3,
-      hoverImage: accessories4,
+      image: ProductScrollingImages.accessories3,
+      hoverImage: ProductScrollingImages.accessories4,
       link: "memory-pillow",
     },
     {
-      image: accessories5,
-      hoverImage: accessories6,
+      image: ProductScrollingImages.accessories5,
+      hoverImage: ProductScrollingImages.accessories6,
       link: "latexpillow",
     },
     {
-      image: accessories7,
-      hoverImage: accessories8,
+      image: ProductScrollingImages.accessories7,
+      hoverImage: ProductScrollingImages.accessories8,
       link: "foam-pillow",
     },
   ];
