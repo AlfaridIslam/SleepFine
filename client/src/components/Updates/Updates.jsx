@@ -18,7 +18,7 @@ export const Updates = () => {
       <div
         className="container xl:rounded-2xl xl:border-2 xl:shadow xl:opacity-1 xl:flex 
       xl:items-center xl:justify-between xl:p-[135px] xl:w-[850px] xl:h-[200px] xl:ml-12 xl:relative xl:bg-slate-50 xl:mt-0
-       sm:mt-10 sm:shadow sm:bg-slate-50 sm:rounded-xl sm:opacity-1 sm:border-2 sm:w-[200px] "
+       sm:mt-10 sm:ml-[3rem] sm:shadow sm:bg-slate-50 sm:rounded-xl sm:opacity-1 sm:border-2 sm:w-[200px] "
       >
         <div className="image xl:border-none xl:border-2 xl:p-15 xl:absolute xl:left-2  ">
         <video

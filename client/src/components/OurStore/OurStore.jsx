@@ -7,13 +7,8 @@ import React from "react";
         OUR STORES
       </div>
 
-
-      
-
-     
-      
       <div className="xl:grid xl:grid-cols-2 xl:gap-8 xl:px-10 xl:w-full  sm:w-[100%] sm:px-10 sm:grid sm:gap-8 sm:justify-center ">
-         {/* Store 1 */}
+        {/* Store 1 */}
 
         <div className="rounded-2xl border-2 shadow opacity-1 pt-10 items-center justify-between p-6 w-full h-auto relative bg-slate-100">
           <div className="address p-4 py-0">
@@ -24,7 +19,7 @@ import React from "react";
               height="240"
               allowFullScreen
               loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer"
             ></iframe>
           </div>
         </div>
@@ -68,12 +63,11 @@ import React from "react";
             <p className="text-xl">
               Sleep Fine Comfort Planet-Gajularamaram 500055
             </p>
-           
+
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.7375006040056!2d78.433486!3d17.5200398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb8f0cd88dfcb1%3A0x40f2138f02379df1!2sSleepfine%20mattress%20gajularamaram!5e0!3m2!1sen!2sin!4v1726827479140!5m2!1sen!2sin"
               width="100%"
               height="240"
-              
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
