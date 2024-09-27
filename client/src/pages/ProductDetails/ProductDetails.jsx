@@ -207,7 +207,7 @@ const productData = {
     // images: [chesterfield1, chesterfield2, chesterfield3, chesterfield4],
     images: productImages.chesterfield,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Chesterfield Sofa: Timeless Elegance Meets Modern Comfort</div>
     <h2 class=" font-bold">Luxury and Craftsmanship</h2>
     The Sleep Fine Chesterfield Sofa brings an air of sophistication and classic charm to your living space. Renowned for its deep button-tufted backrest, rolled arms, and premium upholstery, this timeless piece of furniture is a perfect blend of traditional design and contemporary comfort. Whether placed in a formal living room or a cozy den, the Chesterfield sofa enhances any interior with its luxurious style.<br><br>
@@ -223,7 +223,7 @@ const productData = {
     // images: [Lawson1, Lawson2, Lawson3, Lawson4],
     images: productImages.lawson,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Lawson Sofa: Modern Simplicity Meets Comfort</div>
     <h2 class=" font-bold">Effortless Style and Versatility</h2>
     The Sleep Fine Lawson Sofa is the epitome of modern simplicity, offering clean lines and a versatile design that complements a wide range of interior styles. Whether your home décor leans contemporary, transitional, or even mid-century modern, the Lawson sofa's understated elegance makes it a perfect fit for any living room, family room, or lounge area.<br><br>
@@ -239,7 +239,7 @@ const productData = {
     // images: [Tuxedo1, Tuxedo2, Tuxedo3, Tuxedo4],
     images: productImages.tuxedo,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Tuxedo Sofa: Sophisticated Elegance with a Modern Edge</div>
     <h2 class=" font-bold">Timeless Design, Elevated Aesthetics</h2>
     The Sleep Fine Tuxedo Sofa brings a touch of luxurious sophistication to your living space. Defined by its high, straight back and arms that are of equal height, the Tuxedo sofa creates a bold, structured look that is perfect for those who appreciate refined design. Its angular, clean lines exude elegance, making it a stunning centerpiece for formal living rooms, upscale lounges, or contemporary spaces.<br><br>
@@ -257,7 +257,7 @@ const productData = {
     // images: [LshapedSofa1, LshapedSofa2, LshapedSofa3, LshapedSofa4],
     images: productImages.Lshaped,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">L-Shaped Sofa: The Perfect Blend of Comfort and Versatility</div>
     <h2 class=" font-bold">Stylish Comfort for Modern Living</h2>
     The Sleep Fine L-Shaped Sofa is designed to combine maximum comfort with sleek, contemporary style. Its spacious, versatile design makes it the ideal choice for families, entertainers, or anyone looking to elevate their living room with a stylish and functional piece of furniture. With its clean lines, plush cushioning, and modern appeal, the L-shaped sofa is perfect for both lounging and hosting guests in a relaxed setting.<br><br>
@@ -273,7 +273,7 @@ const productData = {
     // images: [UshapedSofa1, UshapedSofa2, UshapedSofa3, UshapedSofa4],
     images: productImages.Ushaped,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">U-Shaped Sofa: The Ultimate Statement of Comfort and Luxury</div>
     <h2 class=" font-bold">Luxurious Design for Larger Living Spaces</h2>
     The Sleep Fine U-Shaped Sofa is a grand statement of comfort and style, designed to make a bold impact in spacious living areas. With its expansive seating arrangement, this sofa is perfect for larger families, entertainers, and anyone looking for a versatile piece that can comfortably seat multiple people. Its U-shaped design brings everyone together, creating a cozy environment for socializing, lounging, or simply stretching out after a long day.<br><br>
@@ -289,7 +289,7 @@ const productData = {
     // images: [ModularSofa1, ModularSofa2, ModularSofa3, ModularSofa4],
     images: productImages.modular,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Modular Sofa: Adaptable Comfort and Customizable Design</div>
     <h2 class=" font-bold">Flexibility Meets Style</h2>
     The Sleep Fine Modular Sofa offers unmatched versatility, allowing you to create a seating arrangement that perfectly fits your living space and lifestyle. Whether you have a compact apartment or a large living room, this sofa can be easily reconfigured to suit your needs. Its modular design means each section can stand alone or be combined in various ways, giving you the freedom to adjust the sofa’s shape and size to fit any occasion.<br><br>
@@ -311,7 +311,7 @@ const productData = {
     // ],
     images: productImages.Lshapedsofa_cumbed,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]"> L-Shaped Sofa Cum Bed: Space-Saving Comfort and Versatility</div>
     <h2 class=" font-bold">Multi-Functional Design for Modern Living</h2>
     The Sleep Fine L-Shaped Sofa Cum Bed is the ultimate solution for those who need a blend of style, comfort, and functionality. This cleverly designed piece of furniture serves as both a luxurious seating arrangement and a spacious bed, making it perfect for compact apartments, guest rooms, or any living space that requires flexible usage. The L-shape not only maximizes seating capacity but also transforms effortlessly into a bed, offering you comfort day and night.<br><br>
@@ -333,7 +333,7 @@ const productData = {
     // ],
     images: productImages.Ushapedsofa_cumbed,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]"> U-Shaped Sofa Cum Bed: Space-Saving Comfort and Versatility</div>
     <h2 class=" font-bold">Multi-Functional Design for Modern Living</h2>
     The Sleep Fine L-Shaped Sofa Cum Bed is the ultimate solution for those who need a blend of style, comfort, and functionality. This cleverly designed piece of furniture serves as both a luxurious seating arrangement and a spacious bed, making it perfect for compact apartments, guest rooms, or any living space that requires flexible usage. The L-shape not only maximizes seating capacity but also transforms effortlessly into a bed, offering you comfort day and night.<br><br>
@@ -352,7 +352,7 @@ const productData = {
     // images: [DenverModel1, DenverModel2, DenverModel3, DenverModel4],
     images: productImages.denver_model_with_storage,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]"> Denver with storage: Space-Saving Comfort and Versatility</div>
     <h2 class=" font-bold">Multi-Functional Design for Modern Living</h2>
     The Sleep Fine L-Shaped Sofa Cum Bed is the ultimate solution for those who need a blend of style, comfort, and functionality. This cleverly designed piece of furniture serves as both a luxurious seating arrangement and a spacious bed, making it perfect for compact apartments, guest rooms, or any living space that requires flexible usage. The L-shape not only maximizes seating capacity but also transforms effortlessly into a bed, offering you comfort day and night.<br><br>
@@ -368,7 +368,7 @@ const productData = {
     // images: [DenverModel1, DenverModel2, DenverModel3, DenverModel4],
     images: productImages.denver_model_without_storage,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Denver Sofa: Adaptable Comfort and Customizable Design</div>
     <h2 class=" font-bold">Flexibility Meets Style</h2>
     The Sleep Fine Modular Sofa offers unmatched versatility, allowing you to create a seating arrangement that perfectly fits your living space and lifestyle. Whether you have a compact apartment or a large living room, this sofa can be easily reconfigured to suit your needs. Its modular design means each section can stand alone or be combined in various ways, giving you the freedom to adjust the sofa’s shape and size to fit any occasion.<br><br>
@@ -385,7 +385,7 @@ const productData = {
     // images: [DiamondModel1, DiamondModel2, DiamondModel3, DiamondModel4],
     images: productImages.diamond_with_storage,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]"> Diamond with storage: Space-Saving Comfort and Versatility</div>
     <h2 class=" font-bold">Multi-Functional Design for Modern Living</h2>
     The Sleep Fine L-Shaped Sofa Cum Bed is the ultimate solution for those who need a blend of style, comfort, and functionality. This cleverly designed piece of furniture serves as both a luxurious seating arrangement and a spacious bed, making it perfect for compact apartments, guest rooms, or any living space that requires flexible usage. The L-shape not only maximizes seating capacity but also transforms effortlessly into a bed, offering you comfort day and night.<br><br>
@@ -401,7 +401,7 @@ const productData = {
     // images: [DiamondModel1, DiamondModel2, DiamondModel3, DiamondModel4],
     images: productImages.diamond_without_storage,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Diamond Sofa: Adaptable Comfort and Customizable Design</div>
     <h2 class=" font-bold">Flexibility Meets Style</h2>
     The Sleep Fine Modular Sofa offers unmatched versatility, allowing you to create a seating arrangement that perfectly fits your living space and lifestyle. Whether you have a compact apartment or a large living room, this sofa can be easily reconfigured to suit your needs. Its modular design means each section can stand alone or be combined in various ways, giving you the freedom to adjust the sofa’s shape and size to fit any occasion.<br><br>
@@ -418,7 +418,7 @@ const productData = {
     // images: [PKModel1, PKModel2, PKModel3, PKModel4],
     images: productImages.pk_model_withstorage,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]"> PK Model with storage: Space-Saving Comfort and Versatility</div>
     <h2 class=" font-bold">Multi-Functional Design for Modern Living</h2>
     The Sleep Fine L-Shaped Sofa Cum Bed is the ultimate solution for those who need a blend of style, comfort, and functionality. This cleverly designed piece of furniture serves as both a luxurious seating arrangement and a spacious bed, making it perfect for compact apartments, guest rooms, or any living space that requires flexible usage. The L-shape not only maximizes seating capacity but also transforms effortlessly into a bed, offering you comfort day and night.<br><br>
@@ -434,7 +434,7 @@ const productData = {
     // images: [PKModel1, PKModel2, PKModel3, PKModel4],
     images: productImages.pk_model_without_storage,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">PK Model Sofa: Adaptable Comfort and Customizable Design</div>
     <h2 class=" font-bold">Flexibility Meets Style</h2>
     The Sleep Fine Modular Sofa offers unmatched versatility, allowing you to create a seating arrangement that perfectly fits your living space and lifestyle. Whether you have a compact apartment or a large living room, this sofa can be easily reconfigured to suit your needs. Its modular design means each section can stand alone or be combined in various ways, giving you the freedom to adjust the sofa’s shape and size to fit any occasion.<br><br>
@@ -453,7 +453,7 @@ const productData = {
     // images: [OrthomedBanner, ORTRHOMED1, ORTRHOMED2, ORTRHOMED6, Orthospeci],
     images: productImages.orthomed,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Orthomed</div>
     <h2 class=" font-bold">Rebonded Foam</h2>
     This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
@@ -488,27 +488,31 @@ const productData = {
     // images: [OrthomedBanner, Milange1, Milange2, Milange6, MilangeSpeci],
     images: productImages.milange,
     description: `
-    <div class="text-xl font-semibold my-[6px]">Milange </div>
-    This mattress is designed for optimal orthopedic support and comfort. It features a high-density rebounded foam core that evenly distributes body weight, reducing pressure on joints and providing spinal alignment. 
-    The mattress is firm yet comfortable, catering to those with back or joint issues. Its breathable cover ensures a cool and hygienic sleeping surface. Ideal for individuals seeking a restful night's sleep while maintaining proper posture and relieving body aches. Suitable for all bed types, it offers durability, long-lasting shape retention, and a blend of therapeutic and luxury sleeping experiences.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    The Preference Orthomed Mattress offers orthopedic support, providing firm and balanced support that aligns the spine and alleviates pressure points, making it an excellent choice for those with back or joint discomfort.<br><br>
-    <h2 class="font-bold">Comfort</h2>
-    When it comes to comfort, this mattress strikes the perfect balance with its high-density Rebonded foam combines with HR foam core. It provides a firm sleeping surface that supports the body without feeling too hard, ensuring a restful and rejuvenating sleep experience.<br><br>
-    <h2 class="font-bold">Breathability & Upholstery </h2>
-    Its breathability is enhanced by a breathable cover made of 300gsm Viscose Okotex 100 Certified knitted Fabric, designed to regulate temperature and moisture. This keeps the sleeping surface cool, fresh, and hygienic, promoting a more comfortable sleep throughout the night.
+    <div class="text-xl font-semibold my-[6px]">Milange Rebonded HR Foam Dual Mattress</div>
+    Experience unparalleled comfort and support with our Milange Rebonded HR Foam Dual Mattress, designed to provide a restful sleep experience.<br><br>
+    <h2 class="font-bold">Key Features</h2>
+    - Rebonded HR Foam: 100density High-Resilience foam ensures optimal support and durability.<br>
+    - Dual Comfort: Two layers of HR PU foam provide medium-soft and medium-firm comfort options.<br>
+    - Melange Yarn Fabric Quilting: Soft, breathable, and stylish fabric for a luxurious feel.<br>
+    - Long-Lasting: Durable construction ensures years of comfortable sleep.<br><br>
+    <h2 class="font-bold">Benefits</h2>
+    - Pressure Relief: Alleviates pressure points for a pain-free sleep.<br>
+    - Allergy-Friendly: Hypoallergenic materials resist dust mites and allergens.<br>
+    - Cooling: Breathable fabric regulates body temperature.<br><br>
+    <h2 class="font-bold">Upgrade Your Sleep</h2>
+    Treat yourself to a superior sleeping experience with our Milange Rebonded HR Foam Dual Mattress. 
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
-    <p>6 inches only</p>
+    <p>7 inches only</p>
     </div>
     <div>
     <h2 class="font-bold">Variant</h2>
-    <p>EuroTop</p>
+    <p>Tight Top</p>
     </div>
     <div>
     <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
+    <p>7 years</p>
     </div>
     <div>
     <h2 class="font-bold">Ratings</h2>
@@ -567,16 +571,16 @@ const productData = {
     // ],
     images: productImages.buckingham,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Buckinghum</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
+    <div class="text-xl font-semibold my-[6px]">Buckinghum Lexus Ortho Hybrid</div>
+    This Buckingham Lexus Hybrid mattress is a premium mattress designed using advanced Hybrid technology, featuring High Resilience Rebonded foam as Main core. This mattress offers a unique combination of firmness and comfort for orthopedic support, ideal for individuals seeking relief from back and joint pain with luxury.<br><br>
+    <h2 class=" font-bold">Support & Technology</h2>
+    High Resilience Rebonded Foam Core this mattress provides firm support, ensuring durability and resistance to sagging. The inclusion of Zonal Grid PU Softy Foam Layer enhances the mattress comfort by offering gentle contouring, pressure relief, and a responsive bounce, making it adaptable to various sleeping positions. Zonal Grid PU Softy Foam also has body adoptive properties, contributing to a more temperature-regulated sleep.<br><br>
+    <h2 class="font-bold">Comfort & Motion Isolation</h2>
+    The combination of HR Rebonded foam and Zonal Grid PU Softy Foam creates a hybrid structure that balances firmness with plushy feel. This ensures optimal support while maintaining a comfortable sleeping surface. The hybrid design helps minimize motion transfer. <br><br>
+    <h2 class="font-bold">Breathability & Upholstery </h2>
+    The upholstery fabric is treated with anti-microbial agents, which prevent the growth of bacteria, mold, and dust mites, The top quilt layer is intricately designed with multiple layers of soft foam & fibers to create a plush, cloud-like surface. Beneath the fabric, high-density quilting foam is used to enhance support and durability. The quilting often features an elegant, detailed luxurious Patterned Design that adds an aesthetic appeal, complementing the mattress's luxurious feel.
+    
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
@@ -610,16 +614,16 @@ const productData = {
     // ],
     images: productImages.orthopedic_alovera_latex,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Orthopedic aloe vera latex</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
+    <div class="text-xl font-semibold my-[6px]">AloeVera Euroton Ortho Mattress with Latex </div>
+    The AloeVera Euroton Ortho Mattress with Latex Layer is a perfect blend of firm orthopedic support and luxurious comfort, offering a refreshing sleep experience while promoting overall wellness through its natural materials and specialized fabric. Ideal for those who value both therapeutic support and premium comfort.<br><br>
+    <h2 class=" font-bold">Core Features</h2>
+    The mattress features a robust HR Rebonded foam core that adds longevity and maintains a firm, supportive foundation. This layer ensures resistance to sagging and provides the structural integrity necessary for orthopedic support engineered to provide firm, consistent support, this mattress ensures optimal spinal alignment, making it ideal for individuals with back, neck, or joint pain. It targets pressure points, helping alleviate discomfort and promoting restorative sleep.<br><br>
+    <h2 class="font-bold">Latex Comfort Layer</h2>
+    Natural Latex Layer a plush layer of natural latex sits atop the mattress, offering gentle contouring and pressure relief. Latex is known for its responsive support, allowing the mattress to adapt to various body shapes and sleeping positions. This layer also provides a natural bounce, enhancing comfort without compromising support. Latex has natural cooling properties, which combined with its breathability, ensure a cooler and more comfortable sleeping environment by dispersing body heat effectively.<br><br>
+    <h2 class="font-bold">Aloe Vera-Infused Fabric</h2>
+    The outer fabric is infused with Aloe Vera, which has soothing, skin-friendly properties. This infusion not only enhances the softness of the fabric but also promotes a healthier, more hygienic sleep surface by keeping it naturally fresh and anti-bacterial. The Aloe Vera fabric is hypoallergenic, making it suitable for those with sensitive skin or allergies. It is designed to wick away moisture, ensuring a dry and comfortable sleep throughout the night.The Euro top design enhances the aesthetic appeal with a plush, pillow-like layer that creates a cozy surface. The quilting adds an extra layer of softness without compromising the mattress's orthopedic benefits.
+    
     </div>
     <div class="description flex justify-start items-start gap-5 mt-2">
   <div class="flex flex-col">
@@ -635,7 +639,7 @@ const productData = {
   <div class="flex flex-col">
     <h2 class="font-bold">Warranty</h2>
     <p>10 years for 8 & 10 inches</p>
-    <p>7 years for 6 inches</p>
+    <p>5 years for 6 inches</p>
   </div>
 
   <div class="flex flex-col">
@@ -656,16 +660,16 @@ const productData = {
     // ],
     images: productImages.orthopedic_alovera_memory,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Orthopedic aloe vera memory</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
+    <div class="text-xl font-semibold my-[6px]">AloeVera Euroton Ortho Mattress with Memory</div>
+    
+    The Aloe Vera OrthoRebonded Mattress with Memory Foam and HR (High Resilience) is designed for enhanced comfort, orthopedic support, and health benefits. This mattress combines a core of rebonded foam, a layer of high resilience (HR) foam, and a top layer of memory foam, all infused with the soothing and skin-friendly properties of aloe vera. These layers work together to provide a balance of firmness, body contouring, and support, making it ideal for people seeking both comfort and relief from orthopedic issues.<br><br>
+    <h2 class="font-bold">Core Features</h2>
+    The high-density HR Rebonded foam offers firm support, ensuring proper spinal alignment and relieving pressure points. It is especially beneficial for those with back pain or joint discomfort as it keeps the body in a natural, supported position. (HR Extra Layer) The High Resilience (HR) foam layer is added for enhanced comfort. It provides medium-firm support with a responsive, bouncy feel that adapts to body movements. This layer prevents the mattress from feeling too rigid and adds durability, making it last longer without sagging.<br><br>
+    <h2 class="font-bold">Memory Comfort Layer</h2>
+    The top memory foam layer contours to your body, providing a cradling effect that helps evenly distribute weight. It reduces pressure on sensitive areas such as hips and shoulders while minimizing motion transfe. Memory foam molds to the body, alleviating pressure points, improving blood circulation, and enhancing overall comfort by providing a personalized sleep experience. It also minimizes partner disturbances by reducing motion transfer.<br><br>
+    <h2 class="font-bold">Aloe Vera-Infused Fabric</h2>
+    The outer fabric is infused with Aloe Vera, which has soothing, skin-friendly properties. This infusion not only enhances the softness of the fabric but also promotes a healthier, more hygienic sleep surface by keeping it naturally fresh and anti-bacterial. The Aloe Vera fabric is hypoallergenic, making it suitable for those with sensitive skin or allergies. It is designed to wick away moisture, ensuring a dry and comfortable sleep throughout the night.The Euro top design enhances the aesthetic appeal with a plush, pillow-like layer that creates a cozy surface. The quilting adds an extra layer of softness without compromising the mattress's orthopedic benefits.
     </div>
     <div class="description flex justify-start items-start gap-5 mt-2">
   <div class="flex flex-col">
@@ -681,7 +685,7 @@ const productData = {
   <div class="flex flex-col">
     <h2 class="font-bold">Warranty</h2>
     <p>10 years for 8 & 10 inches</p>
-    <p>7 years for 6 inches</p>
+    <p>5 years for 6 inches</p>
   </div>
 
   <div class="flex flex-col">
@@ -696,20 +700,20 @@ const productData = {
     // images: [OrthomedBanner, Memofy1, Memofy2, Memofy3, MemofySpeci], // Assuming images are not uploaded yet
     images: productImages.memofy,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Orthopedic aloe vera memory</div>
-    <h2 class=" font-bold">Rebonded Foam</h2>
-    This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
-    <h2 class="font-bold">Orthopedic Support</h2>
-    These mattresses are often recommended by doctors for individuals with back pain or spinal issues. They help maintain proper spinal alignment and reduce pressure points, which can alleviate pain and discomfort.<br><br>
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
+    <div class="text-xl font-semibold my-[6px]">Memofy Ortho Mattress </div>
+    This mattress features a core of Rebonded foam for firm support, topped with a unique layer that mimics the feel of memory foam, providing a soft and cushioning surface similar to polyurethane (PU) foam but with orthopedic benefits. Memory-Like PU Foam Feel is crafted for those who seek the ideal balance of orthopedic support and a plush, comfortable sleeping surface.<br><br>
+    <h2 class=" font-bold">Rebonded Foam with Comfort</h2>
+    The mattress has a durable Rebonded foam base that provides firm orthopedic support. This core ensures proper spinal alignment. The top layer of this mattress offers a soft, memory-like feel, similar to high-quality PU foam, but with added orthopedic benefits. This layer contours to the body, delivering the plush comfort of memory foam while maintaining support and responsiveness. <br><br>
+   
     <h2 class="font-bold">Firmness</h2>
-    Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.<br><br>
-    <h2 class="font-bold">Breathability</h2>
-    Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.
+    Designed to promote healthy sleep posture, the firm rebonded foam works in tandem with the plush top layer to reduce stress on the back, neck, and joints. This mattress helps alleviate aches and pains associated with poor sleep alignment.<br><br>
+    <h2 class="font-bold">Fabric & Quilt Cover</h2>
+    The outer fabric is designed and quilted with multilayer PU Foam to enhance breathability, allowing for better air circulation and a cooler sleeping surface, preventing overheating during the night.
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
-    <p>6 & 8 inches only</p>
+    <p>6 inches only</p>
     </div>
     <div>
     <h2 class="font-bold">Variant</h2>
@@ -717,11 +721,11 @@ const productData = {
     </div>
     <div>
     <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
+    <p>3 years</p>
     </div>
     <div>
     <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐</p>
+    <p>⭐⭐⭐</p>
     </div>
     </div>
     </div>
@@ -734,7 +738,7 @@ const productData = {
     // images: [oxford1, oxford2, oxford6],
     images: productImages.oxford,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Ortho Bonnell Spring Oxford</div>
     The Sleep Fine Ortho Bonnell Spring Oxford mattress is designed for those who seek a perfect balance between firm orthopedic support and traditional spring comfort. Crafted with high-quality Bonnell springs, this mattress provides a stable and durable foundation, ensuring a restful and rejuvenating sleep experience. The interconnected coil system evenly distributes body weight, offering consistent support throughout the night, which helps maintain proper spinal alignment and reduces pressure points.<br><br>
     <h2 class="font-bold">Firm Orthopedic Support</h2>
@@ -764,7 +768,7 @@ const productData = {
     // images: [Hotel1, Hotel2, Hotel3],
     images: productImages.thehotel,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">The Hotels: The Perfect Blend of Comfort and Durability</div>
     Designed specifically for hospitality use, the Sleep Fine Bonnell Spring Mattress offers the ideal combination of comfort, support, and durability, making it perfect for hotel environments. This mattress is engineered with high-quality Bonnell springs, providing consistent support and lasting comfort for guests, ensuring they wake up feeling refreshed and rejuvenated.<br><br>
     <h2 class="font-bold">Superior Support for All Sleepers</h2>
@@ -794,7 +798,7 @@ const productData = {
     // images: [Loveland1, Loveland2, Loveland6],
     images: productImages.Love_Land_Pillow_Top,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Ortho Bonnell LoveLand Pillow Top</div>
     The Sleep Fine Bonnell Spring Love Land Pillow Top Mattress combines the robust support of a Bonnell spring system with the plush, indulgent comfort of a pillow top layer. This mattress is designed for those who seek a firm foundation with an added touch of luxury, providing a balanced sleeping experience that supports the body while enveloping it in softness.<br><br>
     <h2 class="font-bold">Bonnell Spring Support</h2>
@@ -824,7 +828,7 @@ const productData = {
     // images: [RomanticBanner, Romanticfirm1, Romanticfirm2, Romanticfirm6],
     images: productImages.Romantic_Euroton,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Ortho Bonnell Spring Romantic Euroton</div>
     The Sleep Fine Bonnell Spring Romantic Euroton Mattress is the epitome of classic comfort and enduring support. With a foundation built upon a reliable Bonnell spring system, this mattress offers a balanced combination of resilience and plushness, making it perfect for those who desire a firm, supportive sleep surface with a touch of luxury.<br><br>
     <h2 class="font-bold">Bonnell Spring System</h2>
@@ -854,7 +858,7 @@ const productData = {
     // images: [AloeveraBanner, AloveraBonnel1, AloveraBonnel2, AloveraBonnel3],
     images: productImages.Aloe_Vera_With_Latex,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Ortho Bonnell Spring Aloe Vera with Latex</div>
     The Sleep Fine Ortho Bonnell Aloe Vera with Latex Mattress combines the strength of a Bonnell spring system with the natural benefits of latex and aloe vera. Crafted for those who seek firm orthopedic support with added comfort, this mattress ensures a rejuvenating sleep experience while promoting natural wellness.<br><br>
     <h2 class="font-bold">Bonnell Spring Orthopedic Support</h2>
@@ -889,7 +893,7 @@ const productData = {
     // ],
     images: productImages.Aloe_Vera_With_Memory,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Ortho Bonnell Spring Aloe Vera with Memory</div>
     The Sleep Fine Ortho Bonnell Aloe Vera with Memory Mattress is a perfect blend of firm orthopedic support, soothing aloe vera benefits, and the luxurious comfort of memory foam. Tailored for those who need sturdy support but don't want to compromise on comfort, this mattress is ideal for a rejuvenating and restful sleep experience.<br><br>
     <h2 class="font-bold">Bonnell Spring Orthopedic Core</h2>
@@ -926,7 +930,7 @@ const productData = {
     // ], // Assuming images are not uploaded yet
     images: productImages.inspiration,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Pocketed Spring Inspiration Mattress</div>
     
     The Pocketed Spring Inspiration mattress combines the best of advanced spring technology with plush comfort, delivering a superior sleeping experience. Its core consists of individually wrapped pocket springs, ensuring targeted support that adapts to your body’s natural contours. The top comfort layer enhances the mattress's luxurious feel, offering a balance between cushioning and proper orthopedic alignment for a restful sleep.<br><br>
@@ -961,7 +965,7 @@ const productData = {
     // images: [EternityEuroton1, EternityEuroton2, EternityEuroton3],
     images: productImages.Eternity_Euroton,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Pocketed Spring Eternity Euroton Mattress</div>
     The Pocketed Spring Eternity Euroton mattress offers the perfect blend of advanced spring technology and luxurious comfort. This premium mattress is designed to provide long-lasting support with a Euro-top layer, delivering an indulgent sleeping experience. With its individually encased pocket springs, this mattress minimizes motion transfer and enhances support, while the Euroton comfort layer provides a plush and contouring feel for an ideal night’s rest.<br><br>
     <h2 class="font-bold">Advanced Pocketed Springs for Personalized Support</h2>
@@ -991,7 +995,7 @@ const productData = {
     // images: [AloeveraBanner, AloveraBonnel1, AloveraBonnel2, AloveraBonnel3],
     images: productImages.Aloe_Vera_With_Latex,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Pocketed Spring Aloe Vera with Latex Mattress</div>
     The Pocketed Spring Aloe Vera with Latex mattress combines the natural benefits of latex with the advanced support of pocketed springs for a healthier, more comfortable sleep. Infused with aloe vera for added skin benefits and breathability, this mattress is crafted to provide superior orthopedic support, pressure relief, and long-lasting durability. The inclusion of latex adds natural responsiveness, creating a sleep surface that conforms to your body while promoting optimal alignment.<br><br>
     <h2 class="font-bold">Pocketed Springs for Advanced Support</h2>
@@ -1035,7 +1039,7 @@ const productData = {
     // ],
     images: productImages.Aloe_Vera_With_Memory,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Pocketed Spring Aloe Vera with Memory Foam Mattress</div>
     The Pocketed Spring Aloe Vera with Memory Foam mattress blends advanced sleep technology with natural aloe vera benefits, offering superior comfort, support, and freshness. This premium mattress is designed with pocketed springs for individualized support, while the memory foam layer ensures contouring comfort and pressure relief. Infused with aloe vera, this mattress provides a refreshing and skin-friendly sleep environment, perfect for those seeking a combination of orthopedic support and luxury.<br><br>
     <h2 class="font-bold">Pocketed Springs for Customized Support</h2>
@@ -1077,7 +1081,7 @@ const productData = {
     // images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5],
     images: productImages.gravity,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">HR PU Gravity Mattress</div>
     The HR PU Gravity mattress is designed with advanced High-Resilience (HR) PU foam technology, offering the perfect balance of firm support and plush comfort. This premium mattress is crafted for individuals who require robust back support combined with a soft, cushioning surface. The HR foam core adapts to your body’s movements, providing durability, enhanced flexibility, and optimal comfort for a restful night’s sleep.<br><br>
     <h2 class="font-bold">High-Resilience PU Foam for Superior Support</h2>
@@ -1107,7 +1111,7 @@ const productData = {
     // images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5],
     images: productImages.space,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">HR PU Space Mattress</div>
     The HR PU Space mattress is crafted using High-Resilience (HR) PU foam technology, providing a unique combination of superior support and luxurious comfort. Designed for individuals who prioritize both durability and pressure-relieving features, this mattress adapts to your body’s contours, ensuring optimal spinal alignment while delivering a plush, restful sleep surface.<br><br>
     <h2 class="font-bold">Space-Like Comfort with Plush Surface</h2>
@@ -1137,7 +1141,7 @@ const productData = {
     // images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5],
     images: productImages.plush,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">HR PU Plush Mattress</div>
     The HR PU Plush mattress offers an exceptional blend of luxury, comfort, and support, thanks to its High-Resilience (HR) PU foam core and plush surface. Designed for those who seek a soft yet supportive sleep experience, this mattress delivers a cloud-like feel while ensuring your spine remains properly aligned. With superior cushioning and long-lasting durability, this mattress is the perfect choice for anyone wanting the best of both worlds—plush comfort and firm support.<br><br>
     <h2 class="font-bold">High-Resilience PU Foam for Lasting Support</h2>
@@ -1169,7 +1173,7 @@ const productData = {
     // images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5],
     images: productImages.techniko,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">HR PU Techniko Mattress</div>
     The HR PU Techniko mattress combines cutting-edge sleep technology with premium materials to deliver a sleep experience that’s both comfortable and supportive. Built with High-Resilience (HR) PU foam, this mattress offers a balance of firm support and plush cushioning, ideal for sleepers who want durability, responsiveness, and pressure relief all in one. The HR foam core ensures long-lasting comfort while maintaining optimal spinal alignment, making it a perfect solution for those seeking a high-performance mattress.<br><br>
     <h2 class="font-bold">High-Resilience PU Foam for Enhanced Support</h2>
@@ -1203,7 +1207,7 @@ const productData = {
     // images: [BaffelBox, SewnThrough],
     images: productImages.waterproof_protectors,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Water-Proof Mattress Protector</div>
     <h2 class=" font-bold">Ultimate Protection for a Healthy Sleep Environment</h2>
     Our Sleep Fine Mattress Protector offers superior protection for your mattress while ensuring a comfortable and hygienic sleep environment. Crafted with premium, breathable fabric, this protector shields your mattress from spills, stains, dust mites, and allergens, prolonging its life and maintaining its freshness.<br><br>
@@ -1221,7 +1225,7 @@ const productData = {
     // images: [BaffelBox, SewnThrough],
     images: productImages.Quilted_protectors,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Quilted Mattress Protector</div>
     <h2 class=" font-bold">Enhanced Comfort and Protection for a Luxurious Sleep</h2>
     The Sleep Fine Quilted Mattress Protector not only shields your mattress from everyday wear and tear but also adds an extra layer of plush comfort to your bed. With its quilted design, this protector offers both protection and luxurious padding, enhancing the comfort of your mattress while keeping it clean and fresh for years to come.<br><br>
@@ -1239,7 +1243,7 @@ const productData = {
     // images: [BaffelBox, SewnThrough],
     images: productImages.fitted_protectors,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Fitted Mattress Protector</div>
     <h2 class=" font-bold">Perfect Fit Protection with Lasting Comfort</h2>
     The Sleep Fine Fitted Mattress Protector is designed to provide comprehensive protection for your mattress while offering a snug, wrinkle-free fit. Its fitted sheet-style design ensures that your mattress is fully encased and protected from spills, allergens, and wear, all while maintaining the natural feel and comfort of your bedding.<br><br>
@@ -1263,7 +1267,7 @@ const productData = {
     // ],
     images: productImages.Memory_pillow,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Memory Foam Pillow</div>
     <h2 class=" font-bold">Ergonomic Comfort for a Restful Sleep</h2>
     The Sleep Fine Memory Foam Pillow is designed to provide optimal support for your head and neck, ensuring a restful night's sleep. Crafted with high-quality memory foam, this pillow molds to the natural curves of your body, delivering personalized comfort while relieving pressure points for a rejuvenating sleep experience.<br><br>
@@ -1280,7 +1284,7 @@ const productData = {
     // images: [LatexPillow1, LatexPillow2, LatexPillow3, LatexPillow4],
     images: productImages.latexy_pillow,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Latex Pillow</div>
     <h2 class=" font-bold">Naturally Supportive Comfort for a Healthier Sleep</h2>
     The Sleep Fine Latex Pillow offers a luxurious combination of natural comfort and superior support. Crafted from 100% natural latex, this pillow provides optimal neck and head alignment while offering a resilient, spring-like feel. Known for its durability and natural breathability, the latex pillow ensures long-lasting comfort and freshness, promoting a deeper, healthier sleep.<br><br>
@@ -1297,7 +1301,7 @@ const productData = {
     // images: [Foampillow11, Foampillow2, Foampillow3, Foampillow4],
     images: productImages.foam_pillow,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Foam Pillow</div>
     <h2 class=" font-bold">Enhanced Comfort & Support for a Restful Night</h2>
     The Sleep Fine Foam Pillow is designed to deliver a perfect balance of plush comfort and sturdy support, ensuring a restful night's sleep. Crafted from high-quality polyurethane (PU) foam, this pillow adapts to the contours of your head and neck, providing personalized support that helps relieve pressure points and promote proper spinal alignment.<br><br>
@@ -1319,7 +1323,7 @@ const productData = {
     // ],
     images: productImages.polyfiber_pillow,
     description: `
-    <div class="sm:w-[140%] sm:text-justify xl:w-[83%]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Poly Fibre Pillow</div>
     <h2 class=" font-bold">Soft Comfort and Support for Peaceful Sleep</h2>
     The Sleep Fine Poly Fiber Pillow offers a delightful blend of plush softness and supportive comfort, making it an ideal choice for a restful night's sleep. Crafted with premium poly fiber filling, this pillow is designed to provide excellent support while retaining its shape, ensuring a cozy sleeping experience.<br><br>
@@ -1396,21 +1400,15 @@ const ProductDetails = () => {
                 {/* Carousel navigation buttons */}
                 <button
                   onClick={handlePrevClick}
-
                   className="left xl:absolute xl:text-[80px] xl:top-[122px] xl:left-[1rem] xl:translate-x-[1.375rem] sm:hidden"
-
                 >
-                   &#8249;
+                  &#8249;
                 </button>
                 <button
                   onClick={handleNextClick}
-
                   className="right xl:absolute xl:text-[80px] xl:top-[122px] xl:right-[8rem] xl:translate-x-[1.375rem] sm:hidden"
                 >
                   &#8250;
-
-               
-
                 </button>
               </div>
               <div className="thumbnail flex justify-start gap-2">
@@ -1447,7 +1445,7 @@ const ProductDetails = () => {
 
           {/* Enquiry Now Button */}
 
-          <div className="mt-6 xl:ml-[-37rem] flex justify-center sm:ml-[-20rem] ">
+          <div className="mt-6 xl:ml-[-37rem] flex justify-center sm:ml-[-14rem] ">
             <button
               onClick={handleEnquiryClick}
               className="px-6 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600"
@@ -1455,7 +1453,6 @@ const ProductDetails = () => {
               Enquiry Now
             </button>
           </div>
-
         </div>
       </div>
     </>
