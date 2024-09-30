@@ -17,8 +17,8 @@ export const Updates = () => {
 
       <div
         className="container xl:rounded-2xl xl:border-2 xl:shadow xl:opacity-1 xl:flex 
-               xl:items-center xl:justify-between xl:p-[135px] xl:w-[850px] xl:h-[200px] xl:ml-12 xl:relative xl:bg-slate-50 xl:mt-0
-               sm:mt-10 sm:ml-[3rem] sm:shadow sm:bg-slate-50 sm:rounded-xl sm:opacity-1 sm:border-[3px] sm:w-[100%] sm:h-[360px]"
+               xl:items-center xl:justify-between xl:p-[135px] xl:max-w-[800px] xl:h-[200px] xl:ml-12 xl:relative xl:bg-slate-50 xl:mt-0
+               sm:mt-10 sm:ml-[3rem] sm:shadow sm:bg-slate-50 sm:rounded-xl sm:opacity-1 sm:border-[3px]  sm:h-[450px] sm:max-w-[700px]"
       >
         <div className="image xl:border-none xl:border-2 xl:p-15 xl:absolute xl:left-2">
           <video
@@ -26,7 +26,7 @@ export const Updates = () => {
             autoPlay
             loop
             muted
-            className="xl:rounded-xl xl:w-[450px] xl:h-[450px] sm:w-[314px] sm:h-[159px] sm:rounded-xl"
+            className="xl:rounded-xl xl:w-[450px] xl:h-[450px] sm:w-[494px] sm:h-[237px] sm:rounded-xl"
           >
             Your browser does not support the video tag.
           </video>

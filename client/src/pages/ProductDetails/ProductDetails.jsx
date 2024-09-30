@@ -1441,7 +1441,7 @@ const ProductDetails = () => {
         <div className="flex-1">
           {productInfo.images.length > 0 ? (
             <>
-              <div className="main-image relative mb-4 xl:w-[100%] xl:h-[380px] sm:ml-[12px] sm:w-[143%]">
+              <div className="main-image relative mb-4 xl:w-[100%] xl:h-[380px] sm:ml-[12px] sm:w-[143%] sm:max-w-[616px]">
                 <img
                   src={productInfo.images[currentImageIndex]}
                   alt="Main product"
@@ -1461,13 +1461,13 @@ const ProductDetails = () => {
                   &#8250;
                 </button>
               </div>
-              <div className="thumbnail flex justify-start gap-2">
+              <div className="thumbnail flex justify-start">
                 {productInfo.images.map((image, index) => (
                   <img
                     key={index}
                     src={image}
                     alt={`Thumbnail ${index}`}
-                    className={`cursor-pointer sm:w-[70px] sm:h-[100px] sm:ml-[13px] xl:w-[80px]  xl:h-[80px] xl:ml-5  rounded-xl ${
+                    className={`cursor-pointer sm:w-[70px] sm:h-[70px] sm:ml-[13px] xl:w-[80px]  xl:h-[80px] xl:ml-5  rounded-xl ${
                       index === currentImageIndex
                         ? "border-2 border-blue-500"
                         : ""
@@ -1495,7 +1495,7 @@ const ProductDetails = () => {
 
           {/* Enquiry Now Button */}
 
-          <div className="mt-6 xl:ml-[-37rem] flex justify-center sm:ml-[-14rem] ">
+          <div className="mt-6 xl:ml-[-37rem] flex justify-center sm:ml-0 ">
             <button
               onClick={handleEnquiryClick}
               className="px-6 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600"
