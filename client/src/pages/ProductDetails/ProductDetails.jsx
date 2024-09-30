@@ -456,7 +456,6 @@ const productData = {
   // MATTRESSES
   // ORTHOPEDIC
   orthomed: {
-
     // images: [OrthomedBanner, ORTRHOMED1, ORTRHOMED2, ORTRHOMED6, Orthospeci],
     images: productImages.orthomed,
 
@@ -493,7 +492,6 @@ const productData = {
   `,
   },
   milange: {
-
     // images: [OrthomedBanner, Milange1, Milange2, Milange6, MilangeSpeci],
     images: productImages.milange,
 
@@ -533,7 +531,6 @@ const productData = {
   },
 
   preference: {
-
     // images: [
     //   OrthomedBanner,
     //   Preference1,
@@ -577,7 +574,6 @@ const productData = {
   `,
   },
   buckingham: {
-
     // images: [
     //   BuckinghumBanner,
     //   Buckingham1,
@@ -622,7 +618,6 @@ const productData = {
   `,
   },
   "orthopedic-aloe-vera-latex": {
-
     // images: [
     //   AloeveraBanner,
     //   AloveraBonnel1,
@@ -670,7 +665,6 @@ const productData = {
   `,
   },
   "orthopedic-aloe-vera-memory": {
-
     // images: [
     //   AloeveraBanner,
     //   OrthopedicAloeveraMemory1,
@@ -718,7 +712,6 @@ const productData = {
   `,
   },
   memofy: {
-
     // images: [OrthomedBanner, Memofy1, Memofy2, Memofy3, MemofySpeci], // Assuming images are not uploaded yet
     images: productImages.memofy,
 
@@ -887,7 +880,7 @@ const productData = {
   },
   "ortho-bonnell-aloe-vera-with-latex": {
     // images: [AloeveraBanner, AloveraBonnel1, AloveraBonnel2, AloveraBonnel3],
-    images: productImages.Aloe_Vera_With_Latex,
+    images: productImages.orthopedic_alovera_latex,
     description: `
 
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
@@ -935,7 +928,7 @@ const productData = {
     //   OrthopedicAloeveraMemory2,
     //   OrthopedicAloeveraMemory6,
     // ],
-    images: productImages.Aloe_Vera_With_Memory,
+    images: productImages.orthopedic_alovera_memory,
     description: `
 
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
@@ -976,7 +969,6 @@ const productData = {
 
   `,
   },
-
 
   // POCKETED
 
@@ -1051,7 +1043,7 @@ const productData = {
   },
   "pocketed-spring-aloe-vera-with-latex": {
     // images: [AloeveraBanner, AloveraBonnel1, AloveraBonnel2, AloveraBonnel3],
-    images: productImages.Aloe_Vera_With_Latex,
+    images: productImages.orthopedic_alovera_latex,
     description: `
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Pocketed Spring Aloe Vera with Latex Mattress</div>
@@ -1095,7 +1087,7 @@ const productData = {
     //   OrthopedicAloeveraMemory2,
     //   OrthopedicAloeveraMemory6,
     // ],
-    images: productImages.Aloe_Vera_With_Memory,
+    images: productImages.orthopedic_alovera_memory,
     description: `
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Pocketed Spring Aloe Vera with Memory Foam Mattress</div>
@@ -1133,8 +1125,7 @@ const productData = {
   `,
   },
 
-
-  // HR-PU FOAM 
+  // HR-PU FOAM
 
   "hr-pu-gravity": {
     // images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5],
