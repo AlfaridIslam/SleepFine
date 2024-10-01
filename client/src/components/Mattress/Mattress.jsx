@@ -150,6 +150,11 @@ const Mattress = () => {
                   </Link>
                 </div>
                 <div className="px-4 py-2 hover:bg-indigo-100">
+                  <Link to="product-details/pocketed-spring-inspiration">
+                    The Hotel Luxury
+                  </Link>
+                </div>
+                <div className="px-4 py-2 hover:bg-indigo-100">
                   <Link to="product-details/pocketed-spring-6inch-eternity-euroton">
                     Eternity-Euroton
                   </Link>
@@ -190,10 +195,10 @@ const Mattress = () => {
                   <Link to="product-details/hr-pu-space">Space</Link>
                 </div>
                 <div className="px-4 py-2 hover:bg-indigo-100">
-                  <Link to="product-details/hr-pu-plush">Plush</Link>
+                  <Link to="product-details/memory-active">Memory Active</Link>
                 </div>
                 <div className="px-4 py-2 hover:bg-indigo-100">
-                  <Link to="product-details/hr-pu-techniko">Techniko</Link>
+                  <Link to="product-details/rose-by-rose">Rose By Rose</Link>
                 </div>
               </div>
             )}

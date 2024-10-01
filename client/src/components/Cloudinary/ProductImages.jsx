@@ -39,7 +39,7 @@
 
 export const productImages = {
   orthomed: [
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348277/orthomedbanner_otmiqv.jpg", //banner
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727772298/orthomed_bnr_s4rfyf.png", //banner
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259353/DSC02103_podoia.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259355/DSC02107_m7js1b.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259359/DSC02102_bl637n.jpg",
@@ -47,7 +47,7 @@ export const productImages = {
   ],
 
   milange: [
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348384/milange_sccuzw.png", //banner
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727772302/milange_bnr_rundx1.png", //banner
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259571/DSC02176_jvowve.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259572/DSC02177_ypqmcq.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259574/DSC02181_rympvo.jpg",
@@ -55,7 +55,7 @@ export const productImages = {
   ],
 
   preference: [
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348581/preferencebanner_svilpq.png", //Banner
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727772298/preference_bnr_iukpb2.png", //Banner
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259646/DSC02094_zshc82.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259648/DSC02096_osbotc.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259649/DSC02101_joqube.jpg ",
@@ -63,11 +63,21 @@ export const productImages = {
   ],
 
   buckingham: [
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348502/buckinghumbanner_dyv8it.png", //Banner
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727772298/buckinghum_bnr_ajjtgu.png", //Banner
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259809/DSC02088_xulnzz.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259830/DSC02089_yk4zt4.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259833/DSC02092_teesok.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258373/Buckinghumspeci_qtm7da.jpg", //spf
+ // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258373/Buckinghumspeci_qtm7da.jpg", //spf
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727768045/buckinghum_spf_rxparw.png",
+  ],
+
+  buckinghamLexus: [
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727772297/buckinghumLexus_bnr_hbxxna.png", //Banner
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259809/DSC02088_xulnzz.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259830/DSC02089_yk4zt4.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259833/DSC02092_teesok.jpg",
+   // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258373/Buckinghumspeci_qtm7da.jpg", //spf
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727768167/buckinghum_lexus_spf_ejosou.png",
   ],
 
   // preference: [
@@ -87,23 +97,25 @@ export const productImages = {
   // ],
 
   orthopedic_alovera_latex: [
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348774/aloeveralatexbanner_q230qg.png", //Banner
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727772296/aloverLatex_bnr_q5xlqx.png", //Banner
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260013/DSC02058_y8rz3g.jpg ",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260014/DSC02060_tug0yd.jpg",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260065/DSC02061_d88ey8.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258374/OrthopedicAloeveralatexSpeci_je7qrx.jpg", //spf
+    //"https://res.cloudinary.com/dpsmbluby/image/upload/v1727258374/OrthopedicAloeveralatexSpeci_je7qrx.jpg", //spf
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727767866/alovera_latex_odew3k.png",
   ],
 
   orthopedic_alovera_memory: [
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348872/aloeveramemorybanner_dqnmcf.png", // Banner
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727772298/aloveraMemory_bnr_wz0f5d.png", // Banner
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260128/DSC02137_ts4tze.jpg ",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260130/DSC02138_obuxug.jpg ",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260131/DSC02145_khuuqm.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727258374/OrthopedicAloeveramemorySpeci_kxuqaa.jpg", //spf
+    //" https://res.cloudinary.com/dpsmbluby/image/upload/v1727258374/OrthopedicAloeveramemorySpeci_kxuqaa.jpg", //spf
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727767590/alover_memory_nzrstl.png",
   ],
 
   memofy: [
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348667/memofybanner_itzyg6.png", //Banner
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727772297/memofy_bnr_wknllh.png", //Banner
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260363/Memofy1_eaue2l.jpg ",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260365/Memofy2_rh2zwo.jpg",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260366/Memofy3_l5z1oz.jpg",
@@ -130,6 +142,13 @@ export const productImages = {
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260808/DSC02151_cpwvd2.jpg",
   ],
   Romantic_Euroton: [
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727785035/romantic_euro_bnr_rgpraa.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260904/DSC02075_nbp4vg.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260905/DSC02076a_suxx4l.jpg ",
+    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260907/DSC02081_h0nbp3.jpg",
+  ],
+  ambitious: [
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727784742/ambisious_bnr_h3te6r.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260904/DSC02075_nbp4vg.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260905/DSC02076a_suxx4l.jpg ",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260907/DSC02081_h0nbp3.jpg",
@@ -144,6 +163,7 @@ export const productImages = {
   ],
 
   Eternity_Euroton: [
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727786127/eternity_bnrr_ewgc5o.png",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261422/DSC02120_bjf9km.jpg ",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727261423/DSC02123_gwykre.jpg",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727261425/DSC02123a_xasmnc.jpg",
@@ -182,6 +202,12 @@ export const productImages = {
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261606/DSC02157_t44xyz.jpg",
   ],
   techniko: [
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261603/DSC02152_n4qzkd.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261604/DSC02154_cf3usg.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261606/DSC02157_t44xyz.jpg",
+  ],
+  rose: [
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727785033/rose_bnr_tyf1xw.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261603/DSC02152_n4qzkd.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261604/DSC02154_cf3usg.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261606/DSC02157_t44xyz.jpg",
