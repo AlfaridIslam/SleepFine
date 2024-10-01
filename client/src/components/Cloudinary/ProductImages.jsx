@@ -44,6 +44,7 @@ export const productImages = {
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259355/DSC02107_m7js1b.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259359/DSC02102_bl637n.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258748/orthospeci_lh112h.png", //Specifications
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258748/orthospeci_lh112h.png", //Specifications
   ],
 
   milange: [

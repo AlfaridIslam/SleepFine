@@ -57,6 +57,9 @@ const Mattress = () => {
                   <Link to="product-details/buckingham">Buckingham</Link>
                 </div>
                 <div className="px-4 py-2 hover:bg-indigo-100">
+                  <Link to="product-details/buckingham-lexus">Buckingham Lexus</Link>
+                </div>
+                <div className="px-4 py-2 hover:bg-indigo-100">
                   <Link to="product-details/orthopedic-aloe-vera-latex">
                     Aloe-Vera With Latex
                   </Link>
@@ -104,6 +107,11 @@ const Mattress = () => {
                 <div className="px-4 py-2 hover:bg-indigo-100">
                   <Link to="product-details/romantic-euroton">
                     Romantic Euroton
+                  </Link>
+                </div>
+                <div className="px-4 py-2 hover:bg-indigo-100">
+                  <Link to="product-details/ambitious">
+                    Ambitious
                   </Link>
                 </div>
                 <div className="px-4 py-2 hover:bg-indigo-100">

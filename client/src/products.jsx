@@ -178,21 +178,26 @@ const products = [
           },
           {
             id: 1014,
+            name: "Buckingham-lexus",
+            image: SubProductsImages.Buckingham, 
+          },
+          {
+            id: 1015,
             name: "Orthopedic-Aloe-Vera-Latex",
             image: SubProductsImages.Aloeveralatex, 
           },
           {
-            id: 1015,
+            id: 1016,
             name: "orthopedic-aloe-vera-memory",
             image: SubProductsImages.Aloeveramemory, 
           },
           {
-            id: 1016,
+            id: 1017,
             name: "Memofy",
             image: SubProductsImages.Memofy, 
           },
           {
-            id: 1017,
+            id: 1018,
             name: "Milange",
             image: SubProductsImages.Milange, 
           },
@@ -235,6 +240,11 @@ const products = [
           {
             id: 1027,
             name: "ortho-bonnell-aloe-vera-with-memory",
+            image: SubProductsImages.AloverMemory , 
+          },
+          {
+            id: 1028,
+            name: "ambitious",
             image: SubProductsImages.AloverMemory , 
           },
         ],
