@@ -61,12 +61,12 @@ Inspiration:[
 Euroton :[
   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261423/DSC02123_gwykre.jpg",
 ],
-AloveraLatex :[
-  "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260013/DSC02058_y8rz3g.jpg ",
-],
-AloverMemory :[
-  " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260128/DSC02137_ts4tze.jpg",
-],
+// AloveraLatex :[
+//   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260013/DSC02058_y8rz3g.jpg ",
+// ],
+// AloverMemory :[
+//   " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260128/DSC02137_ts4tze.jpg",
+// ],
    
 //Hr-Pu-Foam
 

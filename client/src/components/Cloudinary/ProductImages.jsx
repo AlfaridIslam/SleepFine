@@ -44,48 +44,9 @@ export const productImages = {
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259355/DSC02107_m7js1b.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259359/DSC02102_bl637n.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258748/orthospeci_lh112h.png", //Specifications
-
   ],
 
   milange: [
-
-              "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348384/milange_sccuzw.png" , //banner
-              "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259571/DSC02176_jvowve.jpg",
-              "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259572/DSC02177_ypqmcq.jpg",
-              "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259574/DSC02181_rympvo.jpg",
-              "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258374/Milangespeci_vxpzgf.jpg",//Spf
-    
-  ],
-
-  preference :[
-                "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348581/preferencebanner_svilpq.png", //Banner 
-                "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259646/DSC02094_zshc82.jpg",
-                "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259648/DSC02096_osbotc.jpg",
-                "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259649/DSC02101_joqube.jpg ",
-                " https://res.cloudinary.com/dpsmbluby/image/upload/v1727258376/preference2speci_a4bggp.jpg", //Spf                   
-  ],
-
-  buckingham:[
-               "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348502/buckinghumbanner_dyv8it.png" ,//Banner
-               "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259809/DSC02088_xulnzz.jpg",
-               "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259830/DSC02089_yk4zt4.jpg",
-               "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259833/DSC02092_teesok.jpg",
-               "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258373/Buckinghumspeci_qtm7da.jpg",//spf
-
-  ],
-
-  orthopedic_alovera_latex:[
-
-                   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348774/aloeveralatexbanner_q230qg.png",//Banner
-                   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260013/DSC02058_y8rz3g.jpg ",
-                   " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260014/DSC02060_tug0yd.jpg",
-                   " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260065/DSC02061_d88ey8.jpg",
-                   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258374/OrthopedicAloeveralatexSpeci_je7qrx.jpg,"//spf
-  ],
-
-
-  orthopedic_alovera_memory:[
-
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348384/milange_sccuzw.png", //banner
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259571/DSC02176_jvowve.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259572/DSC02177_ypqmcq.jpg",
@@ -114,18 +75,48 @@ export const productImages = {
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260013/DSC02058_y8rz3g.jpg ",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260014/DSC02060_tug0yd.jpg",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260065/DSC02061_d88ey8.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258374/OrthopedicAloeveralatexSpeci_je7qrx.jpg", //spf
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258374/OrthopedicAloeveralatexSpeci_je7qrx.jpg,", //spf
   ],
 
   orthopedic_alovera_memory: [
-
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348872/aloeveramemorybanner_dqnmcf.png", // Banner
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260128/DSC02137_ts4tze.jpg ",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260130/DSC02138_obuxug.jpg ",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260131/DSC02145_khuuqm.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727258374/OrthopedicAloeveramemorySpeci_kxuqaa.jpg", //spf
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348384/milange_sccuzw.png", //banner
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259571/DSC02176_jvowve.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259572/DSC02177_ypqmcq.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259574/DSC02181_rympvo.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258374/Milangespeci_vxpzgf.jpg", //Spf
   ],
 
+  // preference: [
+  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348581/preferencebanner_svilpq.png", //Banner
+  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259646/DSC02094_zshc82.jpg",
+  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259648/DSC02096_osbotc.jpg",
+  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259649/DSC02101_joqube.jpg ",
+  //   " https://res.cloudinary.com/dpsmbluby/image/upload/v1727258376/preference2speci_a4bggp.jpg", //Spf
+  // ],
+
+  // buckingham: [
+  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348502/buckinghumbanner_dyv8it.png", //Banner
+  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259809/DSC02088_xulnzz.jpg",
+  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259830/DSC02089_yk4zt4.jpg",
+  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259833/DSC02092_teesok.jpg",
+  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258373/Buckinghumspeci_qtm7da.jpg", //spf
+  // ],
+
+  // orthopedic_alovera_latex: [
+  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348774/aloeveralatexbanner_q230qg.png", //Banner
+  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260013/DSC02058_y8rz3g.jpg ",
+  //   " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260014/DSC02060_tug0yd.jpg",
+  //   " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260065/DSC02061_d88ey8.jpg",
+  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258374/OrthopedicAloeveralatexSpeci_je7qrx.jpg", //spf
+  // ],
+
+  // orthopedic_alovera_memory: [
+  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348872/aloeveramemorybanner_dqnmcf.png", // Banner
+  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260128/DSC02137_ts4tze.jpg ",
+  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260130/DSC02138_obuxug.jpg ",
+  //   " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260131/DSC02145_khuuqm.jpg",
+  //   " https://res.cloudinary.com/dpsmbluby/image/upload/v1727258374/OrthopedicAloeveramemorySpeci_kxuqaa.jpg", //spf
+  // ],
 
   memofy: [
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348667/memofybanner_itzyg6.png", //Banner
@@ -133,7 +124,6 @@ export const productImages = {
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260365/Memofy2_rh2zwo.jpg",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260366/Memofy3_l5z1oz.jpg",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727258373/Memofyspeci_hexrqt.jpg", //spf
-
   ],
 
   // ---------------Ortho-Bonnel-Spring -Collection------------------
@@ -356,7 +346,7 @@ export const productImages = {
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727265490/Foampillow4_mcdvvc.jpg",
   ],
   polyfiber_pillow: [
-   
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727266137/PolyFiberPillow1_qpuvhp.png",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727266047/AloveraPolyfiberPillow2_jrtovb.jpg ",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727266048/AloveraPolyfiberPillow3_sisgsh.jpg ",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727265490/Foampillow4_mcdvvc.jpg",
