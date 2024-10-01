@@ -7,13 +7,15 @@ import Footer from "../components/Footer/Footer";
 // import Section3 from "../components/Section3/Section3";
 import { Updates } from "../components/Updates/Updates";
 import ProductsScrolling from "../components/ProductsScrolling/ProductsScrolling";
+import HeroSection from "../components/HeroSection/HeroSection";
 
 
 const Home = () => {
   return (
     <div className="xl:overflow-hidden">
-      <Carousel />
-      <Section1 />
+      <HeroSection/>
+      {/* <Carousel /> */}
+      {/* <Section1 /> */}
 
 
       {/* <Section3 /> */}

@@ -52,9 +52,9 @@ const Navbar = () => {
   };
 
   return (
-    <div>
+    <div className=" ">
       <div
-        className="xl:flex xl:border-b-[2px] xl:justify-end xl:gap-10 xl:p-2 xl:text-base xl:w-full xl:bg-white
+        className="w-[166%] xl:w-full xl:flex xl:border-b-[2px] xl:justify-end xl:gap-10 xl:p-2 xl:text-base xl:bg-white
   sm:flex sm:justify-center sm:text-3xl sm:gap-20 sm:bg-amber-300 sm:w-[166%] sm:p-4"
       >
         <div>
