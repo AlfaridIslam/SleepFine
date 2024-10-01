@@ -456,7 +456,6 @@ const productData = {
   // MATTRESSES
   // ORTHOPEDIC
   orthomed: {
-
     // images: [OrthomedBanner, ORTRHOMED1, ORTRHOMED2, ORTRHOMED6, Orthospeci],
     images: productImages.orthomed,
 
@@ -493,7 +492,6 @@ const productData = {
   `,
   },
   milange: {
-
     // images: [OrthomedBanner, Milange1, Milange2, Milange6, MilangeSpeci],
     images: productImages.milange,
 
@@ -533,7 +531,6 @@ const productData = {
   },
 
   preference: {
-
     // images: [
     //   OrthomedBanner,
     //   Preference1,
@@ -577,7 +574,6 @@ const productData = {
   `,
   },
   buckingham: {
-
     // images: [
     //   BuckinghumBanner,
     //   Buckingham1,
@@ -622,7 +618,6 @@ const productData = {
   `,
   },
   "orthopedic-aloe-vera-latex": {
-
     // images: [
     //   AloeveraBanner,
     //   AloveraBonnel1,
@@ -670,7 +665,6 @@ const productData = {
   `,
   },
   "orthopedic-aloe-vera-memory": {
-
     // images: [
     //   AloeveraBanner,
     //   OrthopedicAloeveraMemory1,
@@ -718,7 +712,6 @@ const productData = {
   `,
   },
   memofy: {
-
     // images: [OrthomedBanner, Memofy1, Memofy2, Memofy3, MemofySpeci], // Assuming images are not uploaded yet
     images: productImages.memofy,
 
@@ -887,7 +880,7 @@ const productData = {
   },
   "ortho-bonnell-aloe-vera-with-latex": {
     // images: [AloeveraBanner, AloveraBonnel1, AloveraBonnel2, AloveraBonnel3],
-    images: productImages.Aloe_Vera_With_Latex,
+    images: productImages.orthopedic_alovera_latex,
     description: `
 
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
@@ -935,7 +928,7 @@ const productData = {
     //   OrthopedicAloeveraMemory2,
     //   OrthopedicAloeveraMemory6,
     // ],
-    images: productImages.Aloe_Vera_With_Memory,
+    images: productImages.orthopedic_alovera_memory,
     description: `
 
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
@@ -976,7 +969,6 @@ const productData = {
 
   `,
   },
-
 
   // POCKETED
 
@@ -1051,7 +1043,7 @@ const productData = {
   },
   "pocketed-spring-aloe-vera-with-latex": {
     // images: [AloeveraBanner, AloveraBonnel1, AloveraBonnel2, AloveraBonnel3],
-    images: productImages.Aloe_Vera_With_Latex,
+    images: productImages.orthopedic_alovera_latex,
     description: `
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Pocketed Spring Aloe Vera with Latex Mattress</div>
@@ -1095,7 +1087,7 @@ const productData = {
     //   OrthopedicAloeveraMemory2,
     //   OrthopedicAloeveraMemory6,
     // ],
-    images: productImages.Aloe_Vera_With_Memory,
+    images: productImages.orthopedic_alovera_memory,
     description: `
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Pocketed Spring Aloe Vera with Memory Foam Mattress</div>
@@ -1133,8 +1125,7 @@ const productData = {
   `,
   },
 
-
-  // HR-PU FOAM 
+  // HR-PU FOAM
 
   "hr-pu-gravity": {
     // images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5],
@@ -1450,7 +1441,7 @@ const ProductDetails = () => {
         <div className="flex-1">
           {productInfo.images.length > 0 ? (
             <>
-              <div className="main-image relative mb-4 xl:w-[100%] xl:h-[380px] sm:ml-[12px] sm:w-[143%]">
+              <div className="main-image relative mb-4 xl:w-[100%] xl:h-[380px] sm:ml-[12px] sm:w-[143%] sm:max-w-[616px]">
                 <img
                   src={productInfo.images[currentImageIndex]}
                   alt="Main product"
@@ -1470,13 +1461,13 @@ const ProductDetails = () => {
                   &#8250;
                 </button>
               </div>
-              <div className="thumbnail flex justify-start gap-2">
+              <div className="thumbnail flex justify-start">
                 {productInfo.images.map((image, index) => (
                   <img
                     key={index}
                     src={image}
                     alt={`Thumbnail ${index}`}
-                    className={`cursor-pointer sm:w-[70px] sm:h-[100px] sm:ml-[13px] xl:w-[80px]  xl:h-[80px] xl:ml-5  rounded-xl ${
+                    className={`cursor-pointer sm:w-[70px] sm:h-[70px] sm:ml-[13px] xl:w-[80px]  xl:h-[80px] xl:ml-5  rounded-xl ${
                       index === currentImageIndex
                         ? "border-2 border-blue-500"
                         : ""
@@ -1504,7 +1495,7 @@ const ProductDetails = () => {
 
           {/* Enquiry Now Button */}
 
-          <div className="mt-6 xl:ml-[-37rem] flex justify-center sm:ml-[-14rem] ">
+          <div className="mt-6 xl:ml-[-37rem] flex justify-center sm:ml-0 ">
             <button
               onClick={handleEnquiryClick}
               className="px-6 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600"
