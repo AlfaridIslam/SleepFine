@@ -210,14 +210,13 @@ const productData = {
     // images: [chesterfield1, chesterfield2, chesterfield3, chesterfield4],
     images: productImages.chesterfield,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Chesterfield Sofa: Timeless Elegance Meets Modern Comfort</div>
-    <h2 class=" font-bold">Luxury and Craftsmanship</h2>
-    The Sleep Fine Chesterfield Sofa brings an air of sophistication and classic charm to your living space. Renowned for its deep button-tufted backrest, rolled arms, and premium upholstery, this timeless piece of furniture is a perfect blend of traditional design and contemporary comfort. Whether placed in a formal living room or a cozy den, the Chesterfield sofa enhances any interior with its luxurious style.<br><br>
-    <h2 class="font-bold">Solid Wood Frame for Durability</h2>
-    Built with a solid wood frame, this Chesterfield sofa is designed for durability and longevity. The sturdy construction ensures that your sofa can withstand everyday use while retaining its structural integrity and luxurious look. The robust frame also contributes to the sofa's ability to support multiple people comfortably.<br><br>
-    <h2 class="font-bold">Versatile Design for Any Space</h2>
-    With its versatile design, the Sleep Fine Chesterfield Sofa fits seamlessly into both modern and traditional interiors. Its classic silhouette and elegant proportions make it an ideal centerpiece for living rooms, studies, or even office spaces. The sofa's timeless style allows it to adapt to evolving design trends, ensuring it remains a cherished part of your home for years to come.<br><br>
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+     <h2 class=" font-bold">Variety :  </h2> 
+     Sofa<br><br>
+    <h2 class="font-bold">Title :</h2>
+    Chesterfield<br><br>
+    <h2 class="font-bold">Size :</h2>
+    Standard ,  Customized<br><br>
     <h2 class="font-bold">Customization available as per requirement</h2>
     </div>
   `,
@@ -226,14 +225,13 @@ const productData = {
     // images: [Lawson1, Lawson2, Lawson3, Lawson4],
     images: productImages.lawson,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Lawson Sofa: Modern Simplicity Meets Comfort</div>
-    <h2 class=" font-bold">Effortless Style and Versatility</h2>
-    The Sleep Fine Lawson Sofa is the epitome of modern simplicity, offering clean lines and a versatile design that complements a wide range of interior styles. Whether your home décor leans contemporary, transitional, or even mid-century modern, the Lawson sofa's understated elegance makes it a perfect fit for any living room, family room, or lounge area.<br><br>
-    <h2 class="font-bold">Premium Upholstery Choices</h2>
-    The Sleep Fine Lawson Sofa comes in a range of high-quality upholstery options, from luxurious fabrics to durable leathers. Available in a variety of neutral and bold color options, the sofa can be customized to match your home’s color palette and style preferences. The upholstery is not only soft to the touch but also easy to clean and maintain, ensuring your sofa looks great for years to come.<br><br>
-    <h2 class="font-bold">Low-Maintenance and Family-Friendly</h2>
-    The Sleep Fine Lawson Sofa is designed with everyday living in mind. The removable cushion covers make cleaning a breeze, while the durable upholstery is resistant to stains, wear, and tear, making it a great option for homes with children or pets.<br><br>
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+     <h2 class=" font-bold">Variety :  </h2> 
+     Sofa<br><br>
+    <h2 class="font-bold">Title :</h2>
+     Lawson<br><br>
+    <h2 class="font-bold">Size :</h2>
+    Standard ,  Customized<br><br>
     <h2 class="font-bold">Customization available as per requirement</h2>
     </div>
   `,
@@ -242,14 +240,13 @@ const productData = {
     // images: [Tuxedo1, Tuxedo2, Tuxedo3, Tuxedo4],
     images: productImages.tuxedo,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Tuxedo Sofa: Sophisticated Elegance with a Modern Edge</div>
-    <h2 class=" font-bold">Timeless Design, Elevated Aesthetics</h2>
-    The Sleep Fine Tuxedo Sofa brings a touch of luxurious sophistication to your living space. Defined by its high, straight back and arms that are of equal height, the Tuxedo sofa creates a bold, structured look that is perfect for those who appreciate refined design. Its angular, clean lines exude elegance, making it a stunning centerpiece for formal living rooms, upscale lounges, or contemporary spaces.<br><br>
-    <h2 class="font-bold">Tailored Comfort and Support</h2>
-    While the Tuxedo Sofa is known for its sophisticated shape, it doesn’t compromise on comfort. The high arms and back envelop you, creating a sense of coziness while maintaining an upright posture that’s ideal for entertaining guests or enjoying a moment of relaxation. The sofa is generously padded with plush foam and topped with soft cushions that strike the perfect balance between firm support and inviting comfort.<br><br>
-    <h2 class="font-bold">Sturdy Construction, Built to Last</h2>
-    The Tuxedo Sofa is as durable as it is stylish. Featuring a solid wood frame and expertly crafted construction, this sofa is designed to provide long-lasting comfort and support. The sturdy base ensures stability, while the sleek, minimalist legs add a touch of modernity to its timeless silhouette.<br><br>
+     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+     <h2 class=" font-bold">Variety :  </h2> 
+     Sofa<br><br>
+    <h2 class="font-bold">Title :</h2>
+    Tuxedo<br><br>
+    <h2 class="font-bold">Size :</h2>
+    Standard ,  Customized<br><br>
     <h2 class="font-bold">Customization available as per requirement</h2>
     </div>
   `,
@@ -260,14 +257,13 @@ const productData = {
     // images: [LshapedSofa1, LshapedSofa2, LshapedSofa3, LshapedSofa4],
     images: productImages.Lshaped,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">L-Shaped Sofa: The Perfect Blend of Comfort and Versatility</div>
-    <h2 class=" font-bold">Stylish Comfort for Modern Living</h2>
-    The Sleep Fine L-Shaped Sofa is designed to combine maximum comfort with sleek, contemporary style. Its spacious, versatile design makes it the ideal choice for families, entertainers, or anyone looking to elevate their living room with a stylish and functional piece of furniture. With its clean lines, plush cushioning, and modern appeal, the L-shaped sofa is perfect for both lounging and hosting guests in a relaxed setting.<br><br>
-    <h2 class="font-bold">Space-Saving Versatility</h2>
-    One of the greatest advantages of the L-Shaped Sofa is its ability to make the most of your space. Whether placed in a corner to optimize floor area or positioned centrally to define an open-concept living space, this sofa offers flexible seating options. It creates an inviting atmosphere, with enough room for everyone to relax. Available in left- or right-hand configurations, this sofa adapts to your room layout seamlessly.<br><br>
-    <h2 class="font-bold">Superior Comfort and Support</h2>
-    The Sleep Fine L-Shaped Sofa is built with ultimate comfort in mind. Its generously padded seat cushions are designed to provide lasting support, ensuring you feel comfortable even during extended periods of lounging. The plush backrests and wide armrests enhance the coziness of the sofa, creating a warm and inviting spot for movie nights, reading, or relaxing with family.<br><br>
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+     <h2 class=" font-bold">Variety :  </h2> 
+     Sofa<br><br>
+    <h2 class="font-bold">Title :</h2>
+    L-shaped<br><br>
+    <h2 class="font-bold">Size :</h2>
+    Standard ,  Customized<br><br>
     <h2 class="font-bold">Customization available as per requirement</h2>
     </div>
   `,
@@ -276,14 +272,13 @@ const productData = {
     // images: [UshapedSofa1, UshapedSofa2, UshapedSofa3, UshapedSofa4],
     images: productImages.Ushaped,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">U-Shaped Sofa: The Ultimate Statement of Comfort and Luxury</div>
-    <h2 class=" font-bold">Luxurious Design for Larger Living Spaces</h2>
-    The Sleep Fine U-Shaped Sofa is a grand statement of comfort and style, designed to make a bold impact in spacious living areas. With its expansive seating arrangement, this sofa is perfect for larger families, entertainers, and anyone looking for a versatile piece that can comfortably seat multiple people. Its U-shaped design brings everyone together, creating a cozy environment for socializing, lounging, or simply stretching out after a long day.<br><br>
-    <h2 class="font-bold">Ideal for Entertainers and Large Families</h2>
-    The Sleep Fine U-Shaped Sofa is perfect for hosting gatherings, whether you’re having a movie night, a party, or a family get-together. Its U-shaped layout encourages conversation and interaction, making it a central hub for social activities. The extended seating allows guests to sit comfortably, and its spacious design ensures that no one is left out.<br><br>
-    <h2 class="font-bold">Durability and Strength You Can Count On</h2>
-    Built with a robust frame and durable legs, the Sleep Fine U-Shaped Sofa is designed to last. Its solid wood structure provides exceptional support, while the high-quality foam cushions are resilient and bounce back to their original shape even after long periods of use. This sofa is made to handle everyday wear and tear without compromising on comfort or stability, ensuring long-lasting satisfaction.<br><br>
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+     <h2 class=" font-bold">Variety :  </h2> 
+     Sofa<br><br>
+    <h2 class="font-bold">Title :</h2>
+    U-shaped<br><br>
+    <h2 class="font-bold">Size :</h2>
+    Standard ,  Customized<br><br>
     <h2 class="font-bold">Customization available as per requirement</h2>
     </div>
   `,
@@ -292,14 +287,13 @@ const productData = {
     // images: [ModularSofa1, ModularSofa2, ModularSofa3, ModularSofa4],
     images: productImages.modular,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Modular Sofa: Adaptable Comfort and Customizable Design</div>
-    <h2 class=" font-bold">Flexibility Meets Style</h2>
-    The Sleep Fine Modular Sofa offers unmatched versatility, allowing you to create a seating arrangement that perfectly fits your living space and lifestyle. Whether you have a compact apartment or a large living room, this sofa can be easily reconfigured to suit your needs. Its modular design means each section can stand alone or be combined in various ways, giving you the freedom to adjust the sofa’s shape and size to fit any occasion.<br><br>
-    <h2 class="font-bold">Effortless Comfort for Every Lifestyle</h2>
-    Designed with your comfort in mind, the Sleep Fine Modular Sofa features plush cushions and supportive backrests, making it ideal for lounging, reading, or entertaining guests. The high-density foam padding provides just the right balance of softness and firmness, ensuring that every seat feels inviting. Plus, you can easily move and reconfigure each section to create more space or a cozier, intimate seating arrangement.<br><br>
-    <h2 class="font-bold">Perfect for Entertaining</h2>
-    Thanks to its modular design, this sofa is ideal for hosting friends and family. Rearrange the sections to create a larger seating area for parties, or transform it into a cozy corner for more intimate gatherings. The flexibility of the Modular Sofa makes it a versatile piece for any occasion, whether you’re entertaining guests or enjoying a quiet evening at home.<br><br>
+     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+     <h2 class=" font-bold">Variety :  </h2> 
+     Sofa<br><br>
+    <h2 class="font-bold">Title :</h2>
+    Modular<br><br>
+    <h2 class="font-bold">Size :</h2>
+    Standard ,  Customized<br><br>
     <h2 class="font-bold">Customization available as per requirement</h2>
     </div>
   `,
@@ -314,14 +308,13 @@ const productData = {
     // ],
     images: productImages.Lshapedsofa_cumbed,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]"> L-Shaped Sofa Cum Bed: Space-Saving Comfort and Versatility</div>
-    <h2 class=" font-bold">Multi-Functional Design for Modern Living</h2>
-    The Sleep Fine L-Shaped Sofa Cum Bed is the ultimate solution for those who need a blend of style, comfort, and functionality. This cleverly designed piece of furniture serves as both a luxurious seating arrangement and a spacious bed, making it perfect for compact apartments, guest rooms, or any living space that requires flexible usage. The L-shape not only maximizes seating capacity but also transforms effortlessly into a bed, offering you comfort day and night.<br><br>
-    <h2 class="font-bold">Perfect for Hosting Guests</h2>
-    The L-Shaped Sofa Cum Bed is ideal for homes that frequently host overnight guests. It allows you to quickly provide a spacious sleeping area without the need for a separate guest bed. The easy conversion from sofa to bed and back again ensures that your living room remains functional and stylish while still being ready to accommodate visitors.<br><br>
-    <h2 class="font-bold">Storage and Convenience</h2>
-    Many models come with a hidden storage compartment, allowing you to store extra pillows, blankets, or linens conveniently out of sight. This added feature makes the sofa cum bed even more practical for small spaces, helping you keep your living area clutter-free while being prepared for unexpected guests.<br><br>
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+     <h2 class=" font-bold">Variety :  </h2> 
+     Sofa-Cumbed<br><br>
+    <h2 class="font-bold">Title :</h2>
+     L-shaped-sofa-cumbed<br><br>
+    <h2 class="font-bold">Size :</h2>
+    Standard ,  Customized<br><br>
     <h2 class="font-bold">Customization available as per requirement</h2>
     </div>
   `,
@@ -336,15 +329,15 @@ const productData = {
     // ],
     images: productImages.Ushapedsofa_cumbed,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]"> U-Shaped Sofa Cum Bed: Space-Saving Comfort and Versatility</div>
-    <h2 class=" font-bold">Multi-Functional Design for Modern Living</h2>
-    The Sleep Fine L-Shaped Sofa Cum Bed is the ultimate solution for those who need a blend of style, comfort, and functionality. This cleverly designed piece of furniture serves as both a luxurious seating arrangement and a spacious bed, making it perfect for compact apartments, guest rooms, or any living space that requires flexible usage. The L-shape not only maximizes seating capacity but also transforms effortlessly into a bed, offering you comfort day and night.<br><br>
-    <h2 class="font-bold">Perfect for Hosting Guests</h2>
-    The L-Shaped Sofa Cum Bed is ideal for homes that frequently host overnight guests. It allows you to quickly provide a spacious sleeping area without the need for a separate guest bed. The easy conversion from sofa to bed and back again ensures that your living room remains functional and stylish while still being ready to accommodate visitors.<br><br>
-    <h2 class="font-bold">Storage and Convenience</h2>
-    Many models come with a hidden storage compartment, allowing you to store extra pillows, blankets, or linens conveniently out of sight. This added feature makes the sofa cum bed even more practical for small spaces, helping you keep your living area clutter-free while being prepared for unexpected guests.<br><br>
+   <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+     <h2 class=" font-bold">Variety :  </h2> 
+     Sofa-Cumbed<br><br>
+    <h2 class="font-bold">Title :</h2>
+     U-shaped-sofa-cumbed<br><br>
+    <h2 class="font-bold">Size :</h2>
+    Standard ,  Customized<br><br>
     <h2 class="font-bold">Customization available as per requirement</h2>
+    </div>ont-bold">Customization available as per requirement</h2>
     </div>
   `,
   },
@@ -355,14 +348,14 @@ const productData = {
     // images: [DenverModel1, DenverModel2, DenverModel3, DenverModel4],
     images: productImages.denver_model_with_storage,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]"> Denver with storage: Space-Saving Comfort and Versatility</div>
-    <h2 class=" font-bold">Multi-Functional Design for Modern Living</h2>
-    The Sleep Fine L-Shaped Sofa Cum Bed is the ultimate solution for those who need a blend of style, comfort, and functionality. This cleverly designed piece of furniture serves as both a luxurious seating arrangement and a spacious bed, making it perfect for compact apartments, guest rooms, or any living space that requires flexible usage. The L-shape not only maximizes seating capacity but also transforms effortlessly into a bed, offering you comfort day and night.<br><br>
-    <h2 class="font-bold">Perfect for Hosting Guests</h2>
-    The L-Shaped Sofa Cum Bed is ideal for homes that frequently host overnight guests. It allows you to quickly provide a spacious sleeping area without the need for a separate guest bed. The easy conversion from sofa to bed and back again ensures that your living room remains functional and stylish while still being ready to accommodate visitors.<br><br>
-    <h2 class="font-bold">Storage and Convenience</h2>
-    Many models come with a hidden storage compartment, allowing you to store extra pillows, blankets, or linens conveniently out of sight. This added feature makes the sofa cum bed even more practical for small spaces, helping you keep your living area clutter-free while being prepared for unexpected guests.<br><br>
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+    
+    <h2 class=" font-bold">Variety :  </h2> 
+     With Storage<br><br>
+    <h2 class="font-bold">Title :</h2>
+    Denver<br><br>
+    <h2 class="font-bold">Size :</h2>
+    Standard ,  Customized<br><br>
     <h2 class="font-bold">Customization available as per requirement</h2>
     </div>
   `,
@@ -371,14 +364,13 @@ const productData = {
     // images: [DenverModel1, DenverModel2, DenverModel3, DenverModel4],
     images: productImages.denver_model_without_storage,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Denver Sofa: Adaptable Comfort and Customizable Design</div>
-    <h2 class=" font-bold">Flexibility Meets Style</h2>
-    The Sleep Fine Modular Sofa offers unmatched versatility, allowing you to create a seating arrangement that perfectly fits your living space and lifestyle. Whether you have a compact apartment or a large living room, this sofa can be easily reconfigured to suit your needs. Its modular design means each section can stand alone or be combined in various ways, giving you the freedom to adjust the sofa’s shape and size to fit any occasion.<br><br>
-    <h2 class="font-bold">Effortless Comfort for Every Lifestyle</h2>
-    Designed with your comfort in mind, the Sleep Fine Modular Sofa features plush cushions and supportive backrests, making it ideal for lounging, reading, or entertaining guests. The high-density foam padding provides just the right balance of softness and firmness, ensuring that every seat feels inviting. Plus, you can easily move and reconfigure each section to create more space or a cozier, intimate seating arrangement.<br><br>
-    <h2 class="font-bold">Perfect for Entertaining</h2>
-    Thanks to its modular design, this sofa is ideal for hosting friends and family. Rearrange the sections to create a larger seating area for parties, or transform it into a cozy corner for more intimate gatherings. The flexibility of the Modular Sofa makes it a versatile piece for any occasion, whether you’re entertaining guests or enjoying a quiet evening at home.<br><br>
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+     <h2 class=" font-bold">Variety :  </h2> 
+     Without Storage<br><br>
+    <h2 class="font-bold">Title :</h2>
+    Denver<br><br>
+    <h2 class="font-bold">Size :</h2>
+    Standard ,  Customized<br><br>
     <h2 class="font-bold">Customization available as per requirement</h2>
     </div>
   `,
@@ -388,14 +380,13 @@ const productData = {
     // images: [DiamondModel1, DiamondModel2, DiamondModel3, DiamondModel4],
     images: productImages.diamond_with_storage,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]"> Diamond with storage: Space-Saving Comfort and Versatility</div>
-    <h2 class=" font-bold">Multi-Functional Design for Modern Living</h2>
-    The Sleep Fine L-Shaped Sofa Cum Bed is the ultimate solution for those who need a blend of style, comfort, and functionality. This cleverly designed piece of furniture serves as both a luxurious seating arrangement and a spacious bed, making it perfect for compact apartments, guest rooms, or any living space that requires flexible usage. The L-shape not only maximizes seating capacity but also transforms effortlessly into a bed, offering you comfort day and night.<br><br>
-    <h2 class="font-bold">Perfect for Hosting Guests</h2>
-    The L-Shaped Sofa Cum Bed is ideal for homes that frequently host overnight guests. It allows you to quickly provide a spacious sleeping area without the need for a separate guest bed. The easy conversion from sofa to bed and back again ensures that your living room remains functional and stylish while still being ready to accommodate visitors.<br><br>
-    <h2 class="font-bold">Storage and Convenience</h2>
-    Many models come with a hidden storage compartment, allowing you to store extra pillows, blankets, or linens conveniently out of sight. This added feature makes the sofa cum bed even more practical for small spaces, helping you keep your living area clutter-free while being prepared for unexpected guests.<br><br>
+     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+     <h2 class=" font-bold">Variety :  </h2> 
+     With Storage<br><br>
+    <h2 class="font-bold">Title :</h2>
+    Diamond<br><br>
+    <h2 class="font-bold">Size :</h2>
+    Standard ,  Customized<br><br>
     <h2 class="font-bold">Customization available as per requirement</h2>
     </div>
   `,
@@ -404,14 +395,13 @@ const productData = {
     // images: [DiamondModel1, DiamondModel2, DiamondModel3, DiamondModel4],
     images: productImages.diamond_without_storage,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Diamond Sofa: Adaptable Comfort and Customizable Design</div>
-    <h2 class=" font-bold">Flexibility Meets Style</h2>
-    The Sleep Fine Modular Sofa offers unmatched versatility, allowing you to create a seating arrangement that perfectly fits your living space and lifestyle. Whether you have a compact apartment or a large living room, this sofa can be easily reconfigured to suit your needs. Its modular design means each section can stand alone or be combined in various ways, giving you the freedom to adjust the sofa’s shape and size to fit any occasion.<br><br>
-    <h2 class="font-bold">Effortless Comfort for Every Lifestyle</h2>
-    Designed with your comfort in mind, the Sleep Fine Modular Sofa features plush cushions and supportive backrests, making it ideal for lounging, reading, or entertaining guests. The high-density foam padding provides just the right balance of softness and firmness, ensuring that every seat feels inviting. Plus, you can easily move and reconfigure each section to create more space or a cozier, intimate seating arrangement.<br><br>
-    <h2 class="font-bold">Perfect for Entertaining</h2>
-    Thanks to its modular design, this sofa is ideal for hosting friends and family. Rearrange the sections to create a larger seating area for parties, or transform it into a cozy corner for more intimate gatherings. The flexibility of the Modular Sofa makes it a versatile piece for any occasion, whether you’re entertaining guests or enjoying a quiet evening at home.<br><br>
+     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+     <h2 class=" font-bold">Variety :  </h2> 
+     Without Storage<br><br>
+    <h2 class="font-bold">Title :</h2>
+    Diamond<br><br>
+    <h2 class="font-bold">Size :</h2>
+    Standard ,  Customized<br><br>
     <h2 class="font-bold">Customization available as per requirement</h2>
     </div>
   `,
@@ -421,14 +411,13 @@ const productData = {
     // images: [PKModel1, PKModel2, PKModel3, PKModel4],
     images: productImages.pk_model_withstorage,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]"> PK Model with storage: Space-Saving Comfort and Versatility</div>
-    <h2 class=" font-bold">Multi-Functional Design for Modern Living</h2>
-    The Sleep Fine L-Shaped Sofa Cum Bed is the ultimate solution for those who need a blend of style, comfort, and functionality. This cleverly designed piece of furniture serves as both a luxurious seating arrangement and a spacious bed, making it perfect for compact apartments, guest rooms, or any living space that requires flexible usage. The L-shape not only maximizes seating capacity but also transforms effortlessly into a bed, offering you comfort day and night.<br><br>
-    <h2 class="font-bold">Perfect for Hosting Guests</h2>
-    The L-Shaped Sofa Cum Bed is ideal for homes that frequently host overnight guests. It allows you to quickly provide a spacious sleeping area without the need for a separate guest bed. The easy conversion from sofa to bed and back again ensures that your living room remains functional and stylish while still being ready to accommodate visitors.<br><br>
-    <h2 class="font-bold">Storage and Convenience</h2>
-    Many models come with a hidden storage compartment, allowing you to store extra pillows, blankets, or linens conveniently out of sight. This added feature makes the sofa cum bed even more practical for small spaces, helping you keep your living area clutter-free while being prepared for unexpected guests.<br><br>
+     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+     <h2 class=" font-bold">Variety :  </h2> 
+     With Storage<br><br>
+    <h2 class="font-bold">Title :</h2>
+    PK-Model<br><br>
+    <h2 class="font-bold">Size :</h2>
+    Standard ,  Customized<br><br>
     <h2 class="font-bold">Customization available as per requirement</h2>
     </div>
   `,
@@ -437,14 +426,13 @@ const productData = {
     // images: [PKModel1, PKModel2, PKModel3, PKModel4],
     images: productImages.pk_model_without_storage,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">PK Model Sofa: Adaptable Comfort and Customizable Design</div>
-    <h2 class=" font-bold">Flexibility Meets Style</h2>
-    The Sleep Fine Modular Sofa offers unmatched versatility, allowing you to create a seating arrangement that perfectly fits your living space and lifestyle. Whether you have a compact apartment or a large living room, this sofa can be easily reconfigured to suit your needs. Its modular design means each section can stand alone or be combined in various ways, giving you the freedom to adjust the sofa’s shape and size to fit any occasion.<br><br>
-    <h2 class="font-bold">Effortless Comfort for Every Lifestyle</h2>
-    Designed with your comfort in mind, the Sleep Fine Modular Sofa features plush cushions and supportive backrests, making it ideal for lounging, reading, or entertaining guests. The high-density foam padding provides just the right balance of softness and firmness, ensuring that every seat feels inviting. Plus, you can easily move and reconfigure each section to create more space or a cozier, intimate seating arrangement.<br><br>
-    <h2 class="font-bold">Perfect for Entertaining</h2>
-    Thanks to its modular design, this sofa is ideal for hosting friends and family. Rearrange the sections to create a larger seating area for parties, or transform it into a cozy corner for more intimate gatherings. The flexibility of the Modular Sofa makes it a versatile piece for any occasion, whether you’re entertaining guests or enjoying a quiet evening at home.<br><br>
+     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+     <h2 class=" font-bold">Variety :  </h2> 
+     Without Storage<br><br>
+    <h2 class="font-bold">Title :</h2>
+    PK-Model<br><br>
+    <h2 class="font-bold">Size :</h2>
+    Standard ,  Customized<br><br>
     <h2 class="font-bold">Customization available as per requirement</h2>
     </div>
   `,
@@ -621,7 +609,7 @@ const productData = {
     //   Buckingham5,
     //   BuckinghumSpeci,
     // ],
-    images: productImages.buckingham,
+    images: productImages.buckinghamLexus,
 
     description: `
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
@@ -936,7 +924,7 @@ const productData = {
   },
   ambitious: {
     // images: [RomanticBanner, Romanticfirm1, Romanticfirm2, Romanticfirm6],
-    images: productImages.Romantic_Euroton,
+    images: productImages.ambitious,
     description: `
 
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
@@ -1226,16 +1214,18 @@ const productData = {
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">HR PU Gravity Mattress</div>
     The HR PU Gravity mattress is designed with advanced High-Resilience (HR) PU foam technology, offering the perfect balance of firm support and plush comfort. This premium mattress is crafted for individuals who require robust back support combined with a soft, cushioning surface. The HR foam core adapts to your body’s movements, providing durability, enhanced flexibility, and optimal comfort for a restful night’s sleep.<br><br>
-    <h2 class="font-bold">High-Resilience PU Foam for Superior Support</h2>
-    The core of the HR PU Gravity mattress is made of high-resilience PU foam, known for its ability to contour to the body while maintaining its shape over time. This foam is more durable and flexible than traditional PU foam, ensuring long-lasting comfort and support. The HR foam responds quickly to pressure, offering targeted support for your back, hips, and shoulders, promoting proper spinal alignment and helping to alleviate pressure points.<br><br>
-    <h2 class="font-bold">Firmness and Support</h2>
-    The HR PU Gravity mattress is designed with medium-firm support, ideal for maintaining healthy posture during sleep. The high-resilience foam prevents sagging and provides firm support to the spine, helping reduce the chances of waking up with aches or stiffness. Its durable structure is especially beneficial for those who need consistent support throughout the night.<br><br>
+    
+    
     <h2 class="font-bold">Breathable and Durable Fabric</h2>
     The mattress is wrapped in a breathable fabric that promotes airflow, preventing heat retention and ensuring a cooler sleeping environment. The durable quilted cover enhances the overall longevity of the mattress, protecting the foam layers from wear and tear while adding an additional layer of comfort. This breathable design keeps the mattress cool, even on hot nights, allowing for an undisturbed sleep experience.
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
     <p>5 & 6 inches</p>
+    </div>
+     <div class="flex-col">
+    <h2 class="font-bold">Variant</h2>
+    <p>Tight Top</p>
     </div>
     <div>
     <h2 class="font-bold">Warranty</h2>
@@ -1258,84 +1248,113 @@ const productData = {
     The HR PU Space mattress is crafted using High-Resilience (HR) PU foam technology, providing a unique combination of superior support and luxurious comfort. Designed for individuals who prioritize both durability and pressure-relieving features, this mattress adapts to your body’s contours, ensuring optimal spinal alignment while delivering a plush, restful sleep surface.<br><br>
     <h2 class="font-bold">Space-Like Comfort with Plush Surface</h2>
     The top layer of the HR PU Space mattress offers a plush, cloud-like surface, designed to give you the feeling of floating in space. This luxurious layer creates a soft, cushioning effect while the HR foam underneath ensures that the body remains supported. The combination of plush comfort and firm support makes this mattress ideal for sleepers who want to experience both coziness and orthopedic benefits.<br><br>
-    <h2 class="font-bold">Medium-Firm Support for Healthy Sleep Posture</h2>
-    With a medium-firm support level, the HR PU Space mattress is perfect for maintaining a healthy sleep posture. The HR foam core is firm enough to keep your spine aligned, while the plush top layer ensures comfort without compromising on support. This balance helps reduce pressure on your joints and prevents back pain, making it an excellent choice for people seeking a supportive and restorative sleep surface.<br><br>
+    
     <h2 class="font-bold">Breathable and Durable Quilted Cover</h2>
     The mattress is encased in a breathable, quilted fabric cover designed to enhance airflow, keeping the surface cool and comfortable throughout the night. This durable cover is engineered to protect the foam layers from wear and tear, ensuring that the mattress maintains its shape and performance over time. Its breathability also helps prevent overheating, allowing you to enjoy a cool and refreshing sleep experience.
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
-    <p>5 & 6 inches</p>
+    <p>8 inches</p>
+    </div>
+     <div class="flex-col">
+    <h2 class="font-bold">Variant</h2>
+    <p>Pillow Top</p>
     </div>
     <div>
     <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
+    <p>7 years</p>
     </div>
     <div>
     <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐</p>
+    <p>⭐⭐⭐⭐⭐</p>
     </div>
     </div>
     </div>
   `,
   },
-  "hr-pu-plush": {
+
+  //Meory-Active
+
+  "memory-active": {
     // images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5],
     images: productImages.plush,
     description: `
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">HR PU Plush Mattress</div>
-    The HR PU Plush mattress offers an exceptional blend of luxury, comfort, and support, thanks to its High-Resilience (HR) PU foam core and plush surface. Designed for those who seek a soft yet supportive sleep experience, this mattress delivers a cloud-like feel while ensuring your spine remains properly aligned. With superior cushioning and long-lasting durability, this mattress is the perfect choice for anyone wanting the best of both worlds—plush comfort and firm support.<br><br>
-    <h2 class="font-bold">High-Resilience PU Foam for Lasting Support</h2>
-    The core of the HR PU Plush mattress is built with high-resilience PU foam, which provides advanced support by contouring to your body and distributing your weight evenly. HR foam offers more elasticity and responsiveness compared to regular PU foam, making it ideal for long-term use without sagging. The foam adjusts to your body’s natural curves, reducing pressure on sensitive areas like the hips and shoulders, and promoting proper spinal alignment.<br><br>
-    <h2 class="font-bold">Luxurious Plush Comfort Layer</h2>
-    Topping the HR foam core is a plush comfort layer that offers an indulgently soft sleeping surface. This layer cradles your body, providing a gentle, cushioning feel that enhances relaxation and encourages restful sleep. Despite its soft feel, the mattress ensures that your body remains well-supported, preventing any sinking sensation that could lead to discomfort. Whether you sleep on your back, side, or stomach, the plush top layer offers the perfect balance of softness and support.
+    <div class="text-xl font-semibold my-[6px]">HR PU Foam Memory Active Eurotop </div>
+    Discover unparalleled comfort and support with the HR PU Foam Memory Active Eurotop Mattress. Designed with cutting-edge foam technology, this mattress combines High Resilience (HR) foam and Memory Foam to provide you with a superior sleep experience.<br><br>
+    <h2 class="font-bold">Premium Support</h2>
+    The HR foam core adapts to your body, offering firm yet flexible support that helps maintain natural spinal alignment throughout the night.<br><br>
+    <h2 class="font-bold">Memory Foam Layer</h2>
+    The memory foam contouring layer relieves pressure points by conforming to the shape of your body, ensuring a restful and undisturbed sleep.<br><br>
+    <h2 class="font-bold">Euro top Comfort</h2>
+    Featuring a plush Euro top design, this mattress adds an extra layer of softness, providing a cloud-like sleeping surface.<br><br>
+    <h2 class="font-bold">Active Technology</h2>
+    Promotes airflow and regulates temperature, keeping you cool and comfortable as you sleep.<br><br>
 
-    <br><br>
-    <h2 class="font-bold">Breathable and Durable Quilted Cover</h2>
-    The mattress is wrapped in a high-quality, breathable quilted cover that promotes airflow, keeping you cool and comfortable throughout the night. The fabric is designed to wick away moisture, ensuring a fresh and dry sleep environment. The durable construction of the cover helps protect the mattress from wear and tear, ensuring long-lasting performance and comfort.
+    <h2 class="font-bold">Durable & Long-lasting</h2>
+    Built to last with high-quality materials, this mattress ensures consistent support and comfort for years to come.<br><br>
+
+
+
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
-    <p>5 & 6 inches</p>
+    <p> 6 & 8 inches</p>
+    </div>
+    <div class="flex-col">
+    <h2 class="font-bold">Variant</h2>
+    <p>Euro Top</p>
     </div>
     <div>
     <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
+    <p>10 years</p>
     </div>
     <div>
     <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐</p>
+    <p>⭐⭐⭐⭐⭐</p>
     </div>
     </div>
     </div>
   `,
   },
-  "hr-pu-techniko": {
+
+  //Rose-rose
+
+  "rose-by-rose": {
     // images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5],
-    images: productImages.techniko,
+    images: productImages.rose,
     description: `
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">HR PU Techniko Mattress</div>
-    The HR PU Techniko mattress combines cutting-edge sleep technology with premium materials to deliver a sleep experience that’s both comfortable and supportive. Built with High-Resilience (HR) PU foam, this mattress offers a balance of firm support and plush cushioning, ideal for sleepers who want durability, responsiveness, and pressure relief all in one. The HR foam core ensures long-lasting comfort while maintaining optimal spinal alignment, making it a perfect solution for those seeking a high-performance mattress.<br><br>
-    <h2 class="font-bold">High-Resilience PU Foam for Enhanced Support</h2>
-    The core of the HR PU Techniko mattress is composed of high-resilience PU foam, which adapts to your body shape and provides targeted support where you need it most. HR foam is known for its elasticity and ability to bounce back quickly, ensuring that the mattress maintains its shape and doesn't sag over time. It offers a superior level of pressure relief, especially for the back, shoulders, and hips, promoting a restful sleep and reducing the risk of developing aches and pains.<br><br>
-    <h2 class="font-bold">Adaptive Comfort Layer for a Balanced Sleep Surface</h2>
-    This mattress is designed with a specialized comfort layer that enhances the body-contouring properties of HR foam. The comfort layer works to cushion pressure points and provide a medium-firm feel that supports a variety of sleep styles. Whether you prefer to sleep on your back, side, or stomach, the HR PU Techniko adapts to your position, offering balanced support without compromising on comfort.<br><br>
-    <h2 class="font-bold">Durable and Breathable Quilted Cover</h2>
-    The outer layer of the mattress features a breathable, quilted cover that helps regulate body temperature and enhances airflow. This breathable fabric ensures that you stay cool and comfortable throughout the night by preventing heat retention. The quilted design not only adds to the comfort of the mattress but also increases its durability, protecting the foam layers from wear and tear.
-    <div class="flex justify-start mt-2 items-center gap-10">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
+    <div class="text-xl font-semibold my-[6px]">Rose by Rose Organic Plain Fabric Covered HR with Memory </div>
+   Indulge in eco-friendly luxury and exceptional comfort with the Rose by Rose Organic HR with Memory Mattress. Crafted with natural materials and cutting-edge foam technology, this mattress provides a perfect blend of sustainability and sleep quality.<br><br>
+    <h2 class="font-bold">Organic Fabric Cover</h2>
+    Wrapped in a soft, breathable organic fabric, this mattress is gentle on your skin and ideal for those seeking an eco-conscious lifestyle.<br><br>
+    <h2 class="font-bold">High Resilience (HR) Foam Core</h2>
+   The durable HR foam core provides excellent support, adapting to your body’s natural curves to ensure optimal spinal alignment.<br><br>
+    <h2 class="font-bold">Memory Foam Layer</h2>
+    The integrated memory foam adds another level of comfort by gently contouring to your body, reducing pressure points and enhancing relaxation.<br><br>
+    <h2 class="font-bold">Hypoallergenic & Chemical-Free</h2>
+   With its organic materials, this mattress is free from harmful chemicals, making it a healthier choice for sensitive sleepers.<br><br>
+
+    <h2 class="font-bold">Balanced Firmness</h2>
+   Offering the perfect medium-firm feel, this mattress is designed to deliver both support and plush comfort, making it suitable for a wide range of sleep preferences.<br><br>
+    <div class="flex justify-start mt-2 items-center gap-5">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
-    <p>5 & 6 inches</p>
+    <p> 6 & 8 inches</p>
+    </div>
+    <div class="flex-col">
+    <h2 class="font-bold">Variant</h2>
+    <p>Euro Top</p>
     </div>
     <div>
     <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
+    <p> 10 years</p>
     </div>
     <div>
     <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐</p>
+    <p>⭐⭐⭐⭐⭐</p>
     </div>
     </div>
     </div>
