@@ -69,7 +69,7 @@ const Mattress = () => {
                     Aloe-Vera With Memory
                   </Link>
                 </div>
-                <div className="px-4 py-2 hover:bg-indigo-100">
+                <div className="px-4 py-2 hover:bg-indigo-100 z-20">
                   <Link to="product-details/memofy">Memofy</Link>
                 </div>
               </div>

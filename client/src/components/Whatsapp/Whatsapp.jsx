@@ -1,4 +1,3 @@
-/* eslint-disable-next-line no-unused-vars */
 import React from "react";
 //import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Whatsapp.css";
@@ -6,7 +5,7 @@ import "./Whatsapp.css";
 const Whatsapp = () => {
   return (
     <div className="whatsapp-container">
-      <div className="whatsapp_float sm:p-2 sm:mr-1 lg:p-2">
+      <div className="whatsapp_float  sm:p-2 sm:mr-1 lg:p-2">
         <a
           href="https://wa.me/9346023775"
           target="_blank"

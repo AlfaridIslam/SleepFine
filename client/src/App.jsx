@@ -16,6 +16,8 @@ import Store from "./components/OurStore/OurStore.jsx";
 import NotFound from "./pages/NotFound/NotFound.jsx";
 import Spinner from "./components/spinner/Spinner.jsx";
 
+import products from "./products.jsx";
+
 function App() {
   const [loading, setLoading] = useState(true); // Spinner state
 
