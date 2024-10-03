@@ -13,8 +13,10 @@ const Whatsapp = () => {
           rel="noopener noreferrer"
         >
           <i className="fa fa-whatsapp whatsapp-icon mb-[10px]"></i>
-          <div className="whatsapp-text flex justify-center xl:pb-0 xl:text-base xl:gap-1 xl:mt-8 
-          sm:pb-10  sm:text-lg lg:pb-10">
+          <div
+            className="whatsapp-text flex justify-center xl:pb-0 xl:text-base xl:gap-1 xl:mt-8 
+          sm:pb-10  sm:text-lg lg:pb-10"
+          >
             <p>Chat</p>
             <p>with</p>
             <p>us</p>
@@ -26,5 +28,3 @@ const Whatsapp = () => {
 };
 
 export default Whatsapp;
-    
-   
