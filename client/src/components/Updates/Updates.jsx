@@ -13,7 +13,7 @@ export const Updates = () => {
         <div className="bg-slate-50 rounded-xl shadow border-2 p-4 xl:p-8 relative overflow-hidden">
           <div className="flex flex-col xl:flex-row items-center gap-4 xl:gap-8">
             {/* Video container with consistent dimensions */}
-            <div className="w-full xl:w-1/2 aspect-video">
+            <div className="w-full xl:w-1/2 aspect-[18/9]">
               <video
                 autoPlay
                 loop

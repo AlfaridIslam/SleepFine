@@ -37,7 +37,7 @@ const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto mt-12 px-4">
+      <div className="relative z-10 container mx-auto xl:mt-[10rem] sm:mt-8 px-4">
         <h1 className="text-[#e9d2ba] text-5xl xl:text-[60px] font-extrabold leading-tight xl:leading-[56px] mb-8 sm:mt-24 xl:mt-0 sm:px-4 xl:px-24">
           Trusted Mattress Innovators
           <br />
@@ -46,7 +46,11 @@ const HeroSection = () => {
           Hospitality
         </h1>
 
-        <button className="bg-[#e5e5e6] text-black font-bold text-xs py-4 px-9 flex items-center sm:mx-4 xl:mx-24">
+        <button
+          className="bg-[#e5e5e6] text-black font-bold text-xs py-4 px-9 flex items-center sm:mx-4 xl:mx-24"
+          aria-label="Get in touch with us"
+          role="button" // Optional: If you want to explicitly define the role
+        >
           <Link to="/ourstores" className="flex items-center">
             <span>Get in touch with us</span>
             <span className="text-lg ml-2">&#8250;</span>
