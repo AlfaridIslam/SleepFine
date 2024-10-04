@@ -1,0 +1,22 @@
+{
+  "protector": {
+    "images": [
+      "https://example.com/baffelbox.jpg",
+      "https://example.com/sewnthrough.jpg"
+    ],
+    "title1": "Product",
+    "content1": "Water-Proof Mattress Protector",
+
+    "title2": "Description",
+    "content2": "Ultimate Protection for a Healthy Sleep Environment. Our Sleep Fine Mattress Protector offers superior protection for your mattress while ensuring a comfortable and hygienic sleep environment. Crafted with premium, breathable fabric, this protector shields your mattress from spills, stains, dust mites, and allergens, prolonging its life and maintaining its freshness.",
+
+    "title3": "Features",
+    "content3": "Waterproof & Breathable: The mattress protector features a soft, breathable top layer combined with a waterproof backing. The waterproof membrane effectively blocks liquids while allowing air to circulate, ensuring your mattress stays dry and cool throughout the night. No more worrying about spills or moisture seeping through!",
+
+    "title4": "Hypoallergenic Protection",
+    "content4": "Ideal for those with allergies or sensitive skin, this protector creates a barrier against dust mites, allergens, and bacteria. The hypoallergenic material keeps irritants at bay, allowing you to sleep soundly in a clean and healthy environment.",
+
+    "title5": "Comfort",
+    "content5": "Soft & Silent Comfort: The Sleep Fine Mattress Protector fits snugly around your mattress with deep pockets and elasticized edges, ensuring it stays securely in place. It’s machine washable, making it easy to clean and maintain, so your mattress stays protected and fresh for years to come."
+  }
+}

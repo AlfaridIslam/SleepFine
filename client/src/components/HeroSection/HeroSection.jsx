@@ -37,7 +37,7 @@ const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4">
+      <div className="relative z-10 container mx-auto mt-12 px-4">
         <h1 className="text-[#e9d2ba] text-5xl xl:text-[60px] font-extrabold leading-tight xl:leading-[56px] mb-8 sm:mt-24 xl:mt-0 sm:px-4 xl:px-24">
           Trusted Mattress Innovators
           <br />
