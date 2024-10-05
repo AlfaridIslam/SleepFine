@@ -43,7 +43,7 @@ const ContactForm = () => {
         <input
           type="text"
           placeholder="Enter your name"
-          className="w-60 h-10 rounded-lg"
+          className="w-60 h-10 rounded-lg text-black"
           onChange={(e) => setName(e.target.value)}
           value={name}
         />
@@ -53,7 +53,7 @@ const ContactForm = () => {
         <input
           type="text"
           placeholder="Enter your phone"
-          className=" w-60 h-10 rounded-lg"
+          className=" w-60 h-10 rounded-lg  text-black"
           onChange={(e) => setPhone(e.target.value)}
           value={phone}
         />
@@ -62,7 +62,7 @@ const ContactForm = () => {
         <label>PRODUCT &nbsp;</label> <br />
         <textarea
           placeholder="Enter your product "
-          className="w-60 h-28 rounded-lg ml-20 -mt-10"
+          className="w-60 h-28 rounded-lg ml-20 -mt-10  text-black"
           onChange={(e) => setProduct(e.target.value)}
           value={product}
         ></textarea>
