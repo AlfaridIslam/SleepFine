@@ -17,7 +17,7 @@ const HeroSection = () => {
           <video
             autoPlay
             loop
-            muted
+            // muted
             playsInline
             className="absolute top-0 left-0 w-full h-full object-cover"
           >
