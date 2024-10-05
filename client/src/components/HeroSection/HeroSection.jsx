@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faVolumeMute, faVolumeUp } from "@fortawesome/free-solid-svg-icons"; // Import mute and unmute icons
 
 const HeroSection = () => {
+  const [videoMusic, setVideoMusic] = useState(false); // Initially unmuted (sound plays)
+
+  // handling (toggling mute/unmute)
+  const handleMusic = () => {
+    setVideoMusic(!videoMusic);
+  };
+
   const Video =
     "https://res.cloudinary.com/dpsmbluby/video/upload/v1728044969/Carouselvid_nmtw6q.mp4";
 
@@ -17,13 +26,24 @@ const HeroSection = () => {
           <video
             autoPlay
             loop
-            // muted
+            muted={videoMusic} // Controlled by videoMusic state (unmuted initially)
             playsInline
             className="absolute top-0 left-0 w-full h-full object-cover"
           >
             <source src={Video} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
+
+          {/* Mute/Unmute button with Font Awesome icons */}
+          <button
+            onClick={handleMusic}
+            className="absolute top-4 left-4 bg-white py-[1px] px-4 rounded-full"
+          >
+            <FontAwesomeIcon
+              icon={videoMusic ? faVolumeMute : faVolumeUp} // Toggle icons based on state
+              className="text-[15px]"
+            />
+          </button>
         </div>
 
         {/* Image for screens smaller than xl */}
@@ -54,7 +74,7 @@ const HeroSection = () => {
         <button
           className="bg-[#e5e5e6] text-black font-bold text-xs py-4 px-9 flex items-center sm:mx-4 xl:mx-24 xl:bg-transparent xl:bg-opacity-100"
           aria-label="Get in touch with us"
-          role="button" // Optional: If you want to explicitly define the role
+          role="button"
         >
           <Link to="/ourstores" className="flex items-center">
             <span>Get in touch with us</span>
