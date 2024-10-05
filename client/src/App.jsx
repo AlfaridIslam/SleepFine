@@ -3,22 +3,18 @@ import "./App.css";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Products from "./pages/Products/Product.jsx";
-// import AboutUs from "./pages/AboutUs/AboutUs.jsx";
-// import ContactUs from "./pages/ContactUs/ContactUs.jsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import GoToTop from "./components/GoToTop/GoToTop.jsx";
 import Whatsaap from "./components/Whatsapp/Whatsapp.jsx";
 import ProductTypes from "./pages/ProductTypes/ProductTypes.jsx";
 import ProductDetails from "./pages/ProductDetails/ProductDetails.jsx";
-// import NewsandUpdate from "./components/NewsandUpdates/NewsUpdate.jsx";
+
 import Store from "./components/OurStore/OurStore.jsx";
-// import Gallery from "./pages/Gallery/Gallery.jsx";
+
 import NotFound from "./pages/NotFound/NotFound.jsx";
 import Spinner from "./components/spinner/Spinner.jsx";
 
-import products from "./products.jsx";
 import WarrantyForm from "./components/WarrantyForm/WarrantyForm.jsx";
-import WarrantyForm2 from "./components/WarrantyForm/WarrantyForm2.jsx";
 
 function App() {
   const [loading, setLoading] = useState(true); // Spinner state
@@ -41,28 +37,17 @@ function App() {
             <Routes>
               <Route path="/" Component={Home} />
               <Route path="/products" Component={Products} />
-              {/* <Route path="/aboutus" Component={AboutUs} /> */}
-              {/* <Route path="/contactus" Component={ContactUs} /> */}
-              {/* <Route path="/gallery" Component={Gallery} /> */}
 
               <Route path="/product-types" element={<ProductTypes />} />
-              {/* <Route path="/updates" element={<NewsandUpdate />} /> */}
+
               <Route path="/ourstores" element={<Store />} />
-              {/* <Route path="/gallery" element={<Gallery />} /> */}
+
               <Route
                 path="/product-details/:productType"
                 element={<ProductDetails />}
               />
 
-              <Route
-                path="/warranty-form"
-                element={<WarrantyForm/>}
-              />
-
-              <Route
-                path="/warranty-form2"
-                element={<WarrantyForm2/>}
-              />
+              <Route path="/warranty-form" element={<WarrantyForm />} />
 
               <Route path="*" element={<NotFound />} />
             </Routes>

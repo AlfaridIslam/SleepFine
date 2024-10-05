@@ -12,6 +12,7 @@ import {
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const [showPopup, setShowPopup] = useState(false);
@@ -109,6 +110,10 @@ const Footer = () => {
               className="cursor-pointer"
             >
               Warranty
+            </li>
+            {/* Warranty registration */}
+            <li>
+              <Link to = "/warranty-form">Warranty Registration</Link>
             </li>
           </ul>
         </div>

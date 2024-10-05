@@ -30,7 +30,7 @@ const Home = () => {
      
       <Updates />
       <Offersdisplay/>
-      <ContactForm/>
+      {/* <ContactForm/> */}
       <Footer />
     </div>
   );

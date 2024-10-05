@@ -7,12 +7,17 @@ const HeroSection = () => {
   const [videoMusic, setVideoMusic] = useState(false); // Initially unmuted (sound plays)
 
   // handling (toggling mute/unmute)
-  const handleMusic = () => {
-    setVideoMusic(!videoMusic);
-  };
+  // const handleMusic = () => {
+  //   setVideoMusic(!videoMusic);
+  // };
 
-  const Video =
-    "https://res.cloudinary.com/dpsmbluby/video/upload/v1728044969/Carouselvid_nmtw6q.mp4";
+  // company video
+  // const Video =
+  //   "https://res.cloudinary.com/dpsmbluby/video/upload/v1728044969/Carouselvid_nmtw6q.mp4";
+
+  // this one is pexel video(short one )
+   const Video =
+     "https://res.cloudinary.com/dpsmbluby/video/upload/v1727780873/herosection-video_pyansr.mp4";
 
   const Image =
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727780912/herosection-image_x6rrdk.jpg";
@@ -26,7 +31,7 @@ const HeroSection = () => {
           <video
             autoPlay
             loop
-            muted={videoMusic} // Controlled by videoMusic state (unmuted initially)
+            // muted={videoMusic} // Controlled by videoMusic state (unmuted initially)
             playsInline
             className="absolute top-0 left-0 w-full h-full object-cover"
           >
@@ -35,7 +40,7 @@ const HeroSection = () => {
           </video>
 
           {/* Mute/Unmute button with Font Awesome icons */}
-          <button
+          {/* <button
             onClick={handleMusic}
             className="absolute top-4 left-4 bg-white py-[1px] px-4 rounded-full"
           >
@@ -43,7 +48,7 @@ const HeroSection = () => {
               icon={videoMusic ? faVolumeMute : faVolumeUp} // Toggle icons based on state
               className="text-[15px]"
             />
-          </button>
+          </button> */}
         </div>
 
         {/* Image for screens smaller than xl */}
@@ -72,7 +77,7 @@ const HeroSection = () => {
         </h1>
 
         <button
-          className="bg-[#e5e5e6] text-black font-bold text-xs py-4 px-9 flex items-center sm:mx-4 xl:mx-24 xl:bg-transparent xl:bg-opacity-100"
+          className="bg-[#e5e5e6] text-black font-bold text-xs py-4 px-9 flex items-center sm:mx-4 xl:mx-24"
           aria-label="Get in touch with us"
           role="button"
         >

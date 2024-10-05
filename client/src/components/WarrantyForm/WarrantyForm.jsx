@@ -1,5 +1,8 @@
+import ReactDOM from "react-dom";
 import React, { useState } from "react";
 import jsPDF from "jspdf";
+import html2canvas from "html2canvas";
+import WarrantyCardTemplate from "./WarrantyCard";
 
 const WarrantyForm = () => {
   const [customerName, setCustomerName] = useState("");
@@ -19,7 +22,7 @@ const WarrantyForm = () => {
   const [selectedStore, setSelectedStore] = useState("");
   const [storeNames, setStoreNames] = useState([]);
 
-  //   Product Details
+  // Product Details
   const productOptions = {
     "Orthopedic Bonded Collection": [
       "Orthomed",
@@ -38,18 +41,18 @@ const WarrantyForm = () => {
       "LoveLand",
       "Romantic Euroton",
       "Ambitious",
-      "Aloe-Vera with Latex 6 inches",
-      "Aloe-vera with Memory 6 inches",
-      "Aloe-Vera with Latex 8 & 10 inches",
-      "Aloe-vera with Memory 8 & 10 inches",
+      "orthopedic Aloe-Vera with Latex 6 inches",
+      "orthopedic Aloe-vera with Memory 6 inches",
+      "orthopedic Aloe-Vera with Latex 8 & 10 inches",
+      "orthopedic Aloe-vera with Memory 8 & 10 inches",
     ],
     "Pocketed Spring Collection": [
       "Inspiration",
       "Eternity Euroton",
-      "Aloe-Vera with Latex 6 inches",
-      "Aloe-vera with Memory 6 inches",
-      "Aloe-Vera with Latex 8 & 10 inches",
-      "Aloe-vera with Memory 8 & 10 inches",
+      "pocketed Aloe-Vera with Latex 6 inches",
+      "pocketed Aloe-vera with Memory 6 inches",
+      "pocketed Aloe-Vera with Latex 8 & 10 inches",
+      "pocketed Aloe-vera with Memory 8 & 10 inches",
     ],
     "HR-PU Foam Collection": [
       "Gravity",
@@ -59,7 +62,7 @@ const WarrantyForm = () => {
     ],
   };
 
-  //   store details
+  // Store details
   const storeOptions = [
     "Alwal",
     "Ameerpet Store",
@@ -68,11 +71,13 @@ const WarrantyForm = () => {
     "Shahpur/Gajularamaram",
   ];
 
-  //   warranty details
+  // Warranty details
   const warrantyOptions = {
     "10 years": [
-      "Aloe-Vera with Latex 8 & 10 inches",
-      "Aloe-Vera with Memory 8 & 10 inches",
+      "orthopedic Aloe-Vera with Latex 8 & 10 inches",
+      "orthopedic Aloe-vera with Memory 8 & 10 inches",
+      "pocketed Aloe-Vera with Latex 8 & 10 inches",
+      "pocketed Aloe-vera with Memory 8 & 10 inches",
       "Buckingham",
       "Buckingham Lexus",
       "LoveLand",
@@ -82,8 +87,10 @@ const WarrantyForm = () => {
       "Rose by Rose",
     ],
     "5 years": [
-      "Aloe-Vera with Latex 6 inches",
-      "Aloe-Vera with Memory 6 inches",
+      "orthopedic Aloe-Vera with Latex 6 inches",
+      "orthopedic Aloe-vera with Memory 6 inches",
+      "pocketed Aloe-Vera with Latex 6 inches",
+      "pocketed Aloe-vera with Memory 6 inches",
       "Orthomed",
       "Preference",
       "Memofy",
@@ -95,7 +102,7 @@ const WarrantyForm = () => {
     "7 years": ["Milange", "Space"],
   };
 
-  //   handling product
+  // Handling product selection
   const handleProductChange = (e) => {
     const product = e.target.value;
     setSelectedProduct(product);
@@ -104,7 +111,7 @@ const WarrantyForm = () => {
     setWarranty("");
   };
 
-  //   handling product variety
+  // Handling variety selection
   const handleVarietyChange = (e) => {
     const variety = e.target.value;
     setSelectedVariety(variety);
@@ -114,7 +121,7 @@ const WarrantyForm = () => {
     setWarranty(warrantyPeriod || "");
   };
 
-  //   handling Purchase from
+  // Handling purchase source selection
   const handlePurchaseFromChange = (e) => {
     const purchase = e.target.value;
     setPurchaseFrom(purchase);
@@ -122,68 +129,64 @@ const WarrantyForm = () => {
   };
 
   // Function to generate the PDF
-  const generatePDF = () => {
-    const doc = new jsPDF();
+  const generatePDF = async () => {
+    const div = document.createElement("div");
+    document.body.appendChild(div);
 
-    // Set the background color for the title
-    const titleX = doc.internal.pageSize.width / 2; // Center horizontally
-    const titleY = 20; // Position at the top
-    const titleHeight = 10; // Adjust the height as needed
+    const root = ReactDOM.createRoot(div);
+    root.render(
+      <WarrantyCardTemplate
+        data={{
+          customerName,
+          address,
+          mobileNumber,
+          email,
+          selectedProduct,
+          selectedVariety,
+          purchaseFrom,
+          selectedStore,
+          dealerName,
+          orderNumber,
+          invoiceDate,
+          warranty,
+        }}
+      />
+    );
 
-    // Draw a rectangle for the background
-    doc.setFillColor(0, 123, 255); // Bootstrap blue color (RGB)
-    doc.rect(0, titleY - 5, doc.internal.pageSize.width, titleHeight, "F"); // Draw rectangle, 'F' for fill
+    // Wait for render
+    await new Promise((resolve) => setTimeout(resolve, 100));
 
-    // Add title
-    doc.setFontSize(20);
-    doc.setTextColor(255, 255, 255); // Set text color to white for contrast
-    doc.text("Sleep Fine", titleX, titleY, { align: "center" });
+    try {
+      const canvas = await html2canvas(div, {
+        scale: 2,
+        useCORS: true,
+        logging: false,
+      });
 
-    // Add subtitle
-    doc.setFontSize(16);
-    doc.text("Warranty Card", 20, 35);
+      const imgData = canvas.toDataURL("image/png");
 
-    // Add customer details
-    doc.setFontSize(16);
-    doc.text("Warranty Card", 20, 20);
+      const pdf = new jsPDF({
+        orientation: "portrait",
+        unit: "px",
+        format: [595, 842],
+      });
 
-    doc.setFontSize(12);
-    doc.setTextColor(0, 0, 0); // Reset text color to black
-    doc.text(`Customer Name: ${customerName}`, 20, 40);
-    doc.text(`Address: ${address}`, 20, 50);
-    doc.text(`Mobile Number: ${mobileNumber}`, 20, 60);
-    doc.text(`Email: ${email}`, 20, 70);
-    doc.text(`Product: ${selectedProduct}`, 20, 80);
-    doc.text(`Variety: ${selectedVariety}`, 20, 90);
-    doc.text(`Purchase From: ${purchaseFrom}`, 20, 100);
+      pdf.addImage(imgData, "PNG", 0, 0, 595, 842);
 
-    if (purchaseFrom === "Store") {
-      doc.text(`Store Name: ${selectedStore}`, 20, 110);
-    } else if (purchaseFrom === "Dealer" && dealerName) {
-      doc.text(`Dealer Name: ${dealerName}`, 20, 110);
+      // Cleanup
+      document.body.removeChild(div);
+
+      return pdf;
+    } catch (error) {
+      console.error("Error generating PDF:", error);
+      // Cleanup
+      document.body.removeChild(div);
+      throw error;
     }
-    doc.text(`Order Number: ${orderNumber}`, 20, 120);
-    doc.text(`Invoice Date: ${invoiceDate}`, 20, 130);
-    doc.text(`Warranty Period: ${warranty}`, 20, 140);
-
-    return doc;
-  };
-
-
-  // Function to send the PDF via WhatsApp
-  const sendViaWhatsApp = (pdfUrl, phoneNumber) => {
-    const formattedNumber = phoneNumber.replace(/\D/g, ""); // Format phone number to remove non-numeric characters
-    const message = encodeURIComponent(`Here is your warranty card: ${pdfUrl}`); // WhatsApp message
-
-    // WhatsApp URL with the message
-    const whatsappUrl = `https://wa.me/${formattedNumber}?text=${message}`;
-
-    // Open the WhatsApp URL in a new tab
-    window.open(whatsappUrl, "_blank");
   };
 
   // Function to handle form submission
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     // Reset messages
@@ -205,28 +208,15 @@ const WarrantyForm = () => {
       return;
     }
 
-    // Generate the PDF
     try {
       // Generate PDF
-      const pdfDoc = generatePDF();
-
-      // Create PDF URL for WhatsApp
-      const pdfBlob = pdfDoc.output("blob");
-      const pdfUrl = URL.createObjectURL(pdfBlob);
+      const pdfDoc = await generatePDF();
 
       // Trigger PDF download
       pdfDoc.save(`Warranty_Card_${customerName.replace(/\s+/g, "_")}.pdf`);
 
-      // Send to customer's number
-      if (mobileNumber) {
-        sendViaWhatsApp(pdfUrl, mobileNumber);
-      }
-
-      // Send to fixed number
-      sendViaWhatsApp(pdfUrl, "08062181296");
-
       setSuccessMessage(
-        "Your warranty form has been generated and downloaded! Please check the WhatsApp links that have opened."
+        "Your warranty form has been generated and downloaded!"
       );
     } catch (error) {
       setFormError("An error occurred while generating the warranty card.");
@@ -295,75 +285,71 @@ const WarrantyForm = () => {
               </option>
             ))}
           </select>
-
-          {selectedProduct && (
-            <>
-              <label className="block text-gray-700 mt-2">Variety</label>
-              <select
-                className="w-full px-3 py-2 border rounded shadow-sm"
-                value={selectedVariety}
-                onChange={handleVarietyChange}
-              >
-                <option value="">Select a variety</option>
-                {varieties.map((variety) => (
-                  <option key={variety} value={variety}>
-                    {variety}
-                  </option>
-                ))}
-              </select>
-            </>
-          )}
         </div>
+
+        {varieties.length > 0 && (
+          <div className="mb-4">
+            <label className="block text-gray-700">Variety</label>
+            <select
+              className="w-full px-3 py-2 border rounded shadow-sm"
+              value={selectedVariety}
+              onChange={handleVarietyChange}
+            >
+              <option value="">Select a variety</option>
+              {varieties.map((variety) => (
+                <option key={variety} value={variety}>
+                  {variety}
+                </option>
+              ))}
+            </select>
+          </div>
+        )}
 
         {/* Purchase Details section */}
         <div className="mb-4">
-          <h3 className="text-xl font-semibold">Product Purchase Details</h3>
-          <label className="block text-gray-700">Purchase From</label>
+          <h3 className="text-xl font-semibold">Purchase Details</h3>
+          <label className="block text-gray-700">Purchased From</label>
           <select
             className="w-full px-3 py-2 border rounded shadow-sm"
             value={purchaseFrom}
             onChange={handlePurchaseFromChange}
           >
-            <option value="">Select</option>
+            <option value="">Select purchase source</option>
             <option value="Store">Store</option>
-            <option value="Dealer">Dealer</option>
+            <option value="Online">Online</option>
           </select>
+        </div>
 
-          {purchaseFrom === "Store" && (
-            <>
-              <label className="block text-gray-700 mt-2">Store Name</label>
-              <select
-                className="w-full px-3 py-2 border rounded shadow-sm"
-                value={selectedStore}
-                onChange={(e) => setSelectedStore(e.target.value)}
-              >
-                <option value="">Select a store</option>
-                {storeOptions.map((store) => (
-                  <option key={store} value={store}>
-                    {store}
-                  </option>
-                ))}
-              </select>
-            </>
-          )}
+        {purchaseFrom === "Store" && storeNames.length > 0 && (
+          <div className="mb-4">
+            <label className="block text-gray-700">Store</label>
+            <select
+              className="w-full px-3 py-2 border rounded shadow-sm"
+              value={selectedStore}
+              onChange={(e) => setSelectedStore(e.target.value)}
+            >
+              <option value="">Select store</option>
+              {storeNames.map((store) => (
+                <option key={store} value={store}>
+                  {store}
+                </option>
+              ))}
+            </select>
+          </div>
+        )}
 
-          {purchaseFrom === "Dealer" && (
-            <>
-              <label className="block text-gray-700 mt-2">Dealer Name</label>
-              <input
-                type="text"
-                className="w-full px-3 py-2 border rounded shadow-sm"
-                value={dealerName}
-                onChange={(e) => setDealerName(e.target.value)}
-              />
-            </>
-          )}
+        <div className="mb-4">
+          <label className="block text-gray-700">Dealer Name</label>
+          <input
+            type="text"
+            className="w-full px-3 py-2 border rounded shadow-sm"
+            value={dealerName}
+            onChange={(e) => setDealerName(e.target.value)}
+          />
         </div>
 
         <div className="mb-4">
-          <label className="block text-gray-700">
-            Order Form/Invoice Number
-          </label>
+          <label className="block text-gray-700">Order Number</label>
           <input
             type="text"
             className="w-full px-3 py-2 border rounded shadow-sm"
@@ -373,7 +359,7 @@ const WarrantyForm = () => {
         </div>
 
         <div className="mb-4">
-          <label className="block text-gray-700">Date of Invoice</label>
+          <label className="block text-gray-700">Invoice Date</label>
           <input
             type="date"
             className="w-full px-3 py-2 border rounded shadow-sm"
@@ -382,26 +368,24 @@ const WarrantyForm = () => {
           />
         </div>
 
-        <div className="mb-4">
-          <label className="block text-gray-700">Warranty</label>
-          <input
-            type="text"
-            className="w-full px-3 py-2 border rounded shadow-sm"
-            value={warranty}
-            disabled
-          />
-        </div>
+        {warranty && (
+          <div className="mb-4">
+            <label className="block text-gray-700">Warranty</label>
+            <input
+              type="text"
+              className="w-full px-3 py-2 border rounded shadow-sm"
+              value={warranty}
+              disabled
+            />
+          </div>
+        )}
 
         <button
           type="submit"
-          className="w-full bg-blue-500 text-white py-2 rounded shadow-lg hover:bg-blue-600"
+          className="w-full bg-blue-500 text-white px-4 py-2 rounded shadow"
         >
-          Generate and Download Warranty Card
+          Generate Warranty Card
         </button>
-
-        <p className="mt-4 text-gray-600">
-          For customer support call 08062181296
-        </p>
       </form>
     </div>
   );

@@ -1,54 +1,80 @@
-import React, { useRef } from "react";
-import html2canvas from "html2canvas";
-import jsPDF from "jspdf";
+import React from "react";
+import { QRCodeSVG } from "qrcode.react";
 
-const WarrantyCard = ({ data }) => {
+import logo from "../../assets/SleepFinelogoR.png";
+
+const WarrantyCardTemplate = React.forwardRef(({ data }, ref) => {
+  const {
+    customerName,
+    address,
+    mobileNumber,
+    email,
+    selectedProduct,
+    selectedVariety,
+    purchaseFrom,
+    selectedStore,
+    dealerName,
+    orderNumber,
+    invoiceDate,
+    warranty,
+  } = data;
+
   return (
-    <div id="warranty-card" style={{ padding: "20px", fontFamily: "Arial" }}>
-      <h2 style={{ textAlign: "center" }}>Warranty Card</h2>
-      <p>
-        <strong>Customer Name:</strong> {data.customerName}
-      </p>
-      <p>
-        <strong>Address:</strong> {data.address}
-      </p>
-      <p>
-        <strong>Mobile Number:</strong> {data.mobileNumber}
-      </p>
-      <p>
-        <strong>Email:</strong> {data.email}
-      </p>
-      <p>
-        <strong>Product:</strong> {data.selectedProduct}
-      </p>
-      <p>
-        <strong>Variety:</strong> {data.selectedVariety}
-      </p>
-      <p>
-        <strong>Purchase From:</strong> {data.purchaseFrom}
-      </p>
-      {data.purchaseFrom === "Store" ? (
-        <p>
-          <strong>Store Name:</strong> {data.selectedStore}
-        </p>
-      ) : (
-        data.purchaseFrom === "Dealer" && (
-          <p>
-            <strong>Dealer Name:</strong> {data.dealerName}
-          </p>
-        )
-      )}
-      <p>
-        <strong>Order Number:</strong> {data.orderNumber}
-      </p>
-      <p>
-        <strong>Invoice Date:</strong> {data.invoiceDate}
-      </p>
-      <p>
-        <strong>Warranty Period:</strong> {data.warranty}
-      </p>
+    <div ref={ref} className="w-[595px] h-[842px] p-8 bg-white">
+      {/* Header */}
+      <div className="bg-blue-500 text-white p-4 flex items-center justify-between">
+        <div>
+          <h1 className="text-2xl font-bold">Sleep Fine</h1>
+        </div>
+        <img src={logo} alt="Sleep Fine Logo" className="h-12" />
+      </div>
+
+      {/* Content */}
+      <div className="mt-6 space-y-4">
+        <div className="grid grid-cols-2 gap-4">
+          <div>
+            <h2 className="text-xl">Warranty Card</h2>
+            <h3 className="font-semibold">Customer Details</h3>
+            <p>Name: {customerName}</p>
+            <p>Address: {address}</p>
+            <p>Mobile: {mobileNumber}</p>
+            <p>Email: {email}</p>
+          </div>
+          <div>
+            <h3 className="font-semibold">Product Details</h3>
+            <p>Product: {selectedProduct}</p>
+            <p>Variety: {selectedVariety}</p>
+            <p>Purchase From: {purchaseFrom}</p>
+            {purchaseFrom === "Store" ? (
+              <p>Store Name: {selectedStore}</p>
+            ) : (
+              dealerName && <p>Dealer Name: {dealerName}</p>
+            )}
+          </div>
+        </div>
+
+        <div className="mt-4">
+          <h3 className="font-semibold">Purchase Details</h3>
+          <p>Order Number: {orderNumber}</p>
+          <p>Invoice Date: {invoiceDate}</p>
+          <p>Warranty Period: {warranty}</p>
+        </div>
+      </div>
+
+      {/* Footer */}
+      <div className="absolute bottom-8 left-8 right-8 flex justify-between items-center">
+        <div>
+          <p className="font-semibold">Contact Us:</p>
+          <p>Email: support@sleepfine.com</p>
+          <p>Phone: 1-800-SLEEP-FINE</p>
+        </div>
+        <div className="text-center">
+          <QRCodeSVG value="https://sleepfineindia.com/" size={100} />
+          <p className="mt-2 text-sm">Scan for website</p>
+        </div>
+      </div>
     </div>
   );
-};
+});
 
-export default WarrantyCard;
+export default WarrantyCardTemplate;
