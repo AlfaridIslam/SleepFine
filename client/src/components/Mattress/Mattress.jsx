@@ -101,7 +101,7 @@ const Mattress = () => {
 
                 <div className="px-4 py-2 hover:bg-indigo-100">
                   <Link to="product-details/love-land-pillow-top">
-                    Love Land Pillow Top
+                    LoveLand Pillow Top
                   </Link>
                 </div>
                 <div className="px-4 py-2 hover:bg-indigo-100">

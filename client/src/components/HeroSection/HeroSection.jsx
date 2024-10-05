@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   const Video =
-    "https://res.cloudinary.com/dpsmbluby/video/upload/v1727780873/herosection-video_pyansr.mp4";
+    "https://res.cloudinary.com/dpsmbluby/video/upload/v1728044969/Carouselvid_nmtw6q.mp4";
 
   const Image =
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727780912/herosection-image_x6rrdk.jpg";
@@ -38,7 +38,12 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto xl:mt-[10rem] sm:mt-8 px-4">
-        <h1 className="text-[#e9d2ba] text-5xl xl:text-[60px] font-extrabold leading-tight xl:leading-[56px] mb-8 sm:mt-24 xl:mt-0 sm:px-4 xl:px-24">
+        <h1
+          className="text-[#e9d2ba] text-5xl xl:text-[60px] font-extrabold leading-tight xl:leading-[56px] mb-8  xl:mt-0
+         sm:px-4 xl:px-24 sm:mt-[-1rem]"
+        >
+          SleepFine<sup className="top-[-30px] text-[14px]">(R)</sup>
+          <br />
           Trusted Mattress Innovators
           <br />
           for Homes and
@@ -47,7 +52,7 @@ const HeroSection = () => {
         </h1>
 
         <button
-          className="bg-[#e5e5e6] text-black font-bold text-xs py-4 px-9 flex items-center sm:mx-4 xl:mx-24"
+          className="bg-[#e5e5e6] text-black font-bold text-xs py-4 px-9 flex items-center sm:mx-4 xl:mx-24 xl:bg-transparent xl:bg-opacity-100"
           aria-label="Get in touch with us"
           role="button" // Optional: If you want to explicitly define the role
         >

@@ -17,6 +17,8 @@ import NotFound from "./pages/NotFound/NotFound.jsx";
 import Spinner from "./components/spinner/Spinner.jsx";
 
 import products from "./products.jsx";
+import WarrantyForm from "./components/WarrantyForm/WarrantyForm.jsx";
+import WarrantyForm2 from "./components/WarrantyForm/WarrantyForm2.jsx";
 
 function App() {
   const [loading, setLoading] = useState(true); // Spinner state
@@ -50,6 +52,16 @@ function App() {
               <Route
                 path="/product-details/:productType"
                 element={<ProductDetails />}
+              />
+
+              <Route
+                path="/warranty-form"
+                element={<WarrantyForm/>}
+              />
+
+              <Route
+                path="/warranty-form2"
+                element={<WarrantyForm2/>}
               />
 
               <Route path="*" element={<NotFound />} />

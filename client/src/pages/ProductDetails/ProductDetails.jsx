@@ -1619,9 +1619,9 @@ const ProductDetails = () => {
   const handleEnquiryClick = () => {
     const whatsappNumber = "9346023775"; // Replace with your WhatsApp number
     const currentUrl = window.location.href; // Get the current URL
-    const productImage = `${window.location.origin}/${productInfo.images[currentImageIndex]}`; // Get the full image URL
-    // const message = `Check out this product:\n${currentUrl}\n\nImage:\n${productImage}`; // to get both url and image link
-    const message = `Check out this product:\n${currentUrl}`; // just to send the url
+    const productImage = `${productInfo.images[currentImageIndex]}`; // Get the full image URL
+    const message = `Check out this product:\n${currentUrl}\n\nImage:\n${productImage}`; // to get both url and image link
+    // const message = `Check out this product:\n${currentUrl}`; // just to send the url
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
       message
     )}`;
