@@ -1652,7 +1652,6 @@ const ProductDetails = () => {
                   }`}
                   // Apply onClick and onDoubleClick for both large and small screens
                   onClick={handleToggleZoom}
-                  
                   // Conditionally apply handlers for magnifying glass and touch events only for large screens
                   {...(isLargeScreen && {
                     onMouseEnter: handleMouseEnter,
@@ -1726,6 +1725,7 @@ const ProductDetails = () => {
             <button
               onClick={handleEnquiryClick}
               className="px-6 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600"
+              aria-label="Submit an enquiry for more information"
             >
               Enquiry Now
             </button>

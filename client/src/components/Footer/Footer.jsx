@@ -124,14 +124,9 @@ const Footer = () => {
               Pakalakunta, Kompally, Hyderabad - 500 010.
             </li>
             <div className="mt-4">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.6723251800763!2d78.49592439999999!3d17.523148600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb85c89724427b%3A0x7df68edcf8e67783!2sSleep%20fine%20mattress%20Factory!5e0!3m2!1sen!2sin!4v1726652689795!5m2!1sen!2sin"
-                width="100%"
-                height="100"
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer"
-              ></iframe>
+            <a href="https://maps.app.goo.gl/eStfe3XsvR46KMYG9" target ="_blank" >
+              <img src="https://res.cloudinary.com/dpsmbluby/image/upload/v1728109413/googlemap_ozetao.png" alt=""  className="xl:w-[60%] xl:h-20 sm:w-[40%]" />
+             </a>
             </div>
           </ul>
         </div>

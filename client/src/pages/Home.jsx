@@ -8,6 +8,8 @@ import Footer from "../components/Footer/Footer";
 import { Updates } from "../components/Updates/Updates";
 import ProductsScrolling from "../components/ProductsScrolling/ProductsScrolling";
 import HeroSection from "../components/HeroSection/HeroSection";
+import Offersdisplay from "../components/Offers/OffersDisplay";
+import ContactForm from "../components/ContactForm/ContactForm";
 
 
 const Home = () => {
@@ -25,8 +27,10 @@ const Home = () => {
 
       <Testimonial />
 
-
+     
       <Updates />
+      <Offersdisplay/>
+      <ContactForm/>
       <Footer />
     </div>
   );
