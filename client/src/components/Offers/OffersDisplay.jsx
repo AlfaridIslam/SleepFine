@@ -7,7 +7,7 @@ const OffersDisplay = () => {
     <div className='xl:w-full sm:w-[165%] '>
     
     <div className="relative">
-      <h1 className="text-3xl font-serif flex justify-center z-10 absolute inset-x-0 top-4">
+      <h1 className="text-3xl font-serif flex justify-center  absolute inset-x-0 top-4">
         Hurry Up! Offer ends in
       </h1>
   
@@ -19,7 +19,7 @@ const OffersDisplay = () => {
       />
       
      
-      <div className="absolute inset-0 flex justify-center items-center z-20 ">
+      <div className="absolute inset-0 flex justify-center items-center  ">
         <div className="flex  items-center space-y-4 ">
           <div><Counter /></div>
           <div><CouponGenerator /></div>

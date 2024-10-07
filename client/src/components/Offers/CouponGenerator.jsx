@@ -32,7 +32,7 @@ const SendCoupon = () => {
   return (
 
     <div className="  mr-10">
-      <img src="https://res.cloudinary.com/dpsmbluby/image/upload/v1728043919/OFFERSIMAGE1_lcxjwp.png" alt="" className="w-[100%]" />
+      <img src="https://res.cloudinary.com/dpsmbluby/image/upload/v1728284437/OFFERS_cc6kka.png" alt="" className="w-[100%]" />
     <div className="text-center mt-4">
       <h1 className="text-2xl font-bold mb-4">Get Your Exclusive Coupon </h1>
       <button
