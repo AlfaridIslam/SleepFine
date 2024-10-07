@@ -25,16 +25,24 @@ const WarrantyCardTemplate = React.forwardRef(({ data }, ref) => {
   return (
     <div
       ref={ref}
-      className="w-full sm:w-[595px] xl:w-[700px] h-[842px] p-4 sm:p-8 xl:p-10 bg-white flex flex-col justify-between"
+      className="w-full sm:w-[595px] sm:h-[742px] xl:w-[1100px] xl:h-[990px] p-4 sm:p-8 xl:p-0 bg-white flex flex-col justify-between"
     >
       {/* Header */}
-      <div className="bg-blue-500 text-white p-2 sm:p-4 xl:p-6 flex items-center justify-between gap-20">
-        <img src={logo} alt="Sleep Fine Logo" className="h-8 sm:h-12 sm:w-11 xl:h-16 xl:w-15" />
-        <img src={warrantyQR} alt="QR Code" className="h-8 sm:h-12 sm:w-11 xl:h-16 xl:w-15" />
+      <div className="bg-blue-300 text-white p-2 sm:p-4 xl:p-6 flex items-center justify-between gap-20">
+        <img
+          src={logo}
+          alt="Sleep Fine Logo"
+          className="h-8  sm:h-12  xl:h-16 "
+        />
+        <img
+          src={warrantyQR}
+          alt="QR Code"
+          className="h-8  sm:h-12  xl:h-16 "
+        />
       </div>
 
       {/* Content */}
-      <div className="flex-grow mt-4 sm:mt-6 xl:mt-8 space-y-4">
+      <div className="flex-grow mt-4 sm:mt-6 xl:mt-3 sm:space-y-4 xl:ml-7 xl:p-4 xl:mb-0">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
             <h2 className="text-lg sm:text-xl xl:text-2xl">Warranty Card</h2>
@@ -69,7 +77,7 @@ const WarrantyCardTemplate = React.forwardRef(({ data }, ref) => {
       </div>
 
       {/* Footer */}
-      <div className="flex justify-between items-center mt-1">
+      <div className="flex justify-between items-center mt-0 mb-2 ml-4">
         <div className="text-xs">
           <p className="font-semibold">Contact Us:</p>
           <p>Email: contact@sleepfineindia.com</p>
@@ -79,7 +87,7 @@ const WarrantyCardTemplate = React.forwardRef(({ data }, ref) => {
           <img
             src={QRcode}
             alt="QR code"
-            className="h-16 w-16 sm:h-20 sm:w-20 xl:h-24 xl:w-24"
+            className="h-16 w-16 sm:h-20 sm:w-20 xl:h-18 xl:w-18"
           />
           <p className="mt-2 text-xs sm:text-sm xl:text-base">
             Scan for website
