@@ -1,4 +1,4 @@
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import React, { useState } from "react";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
@@ -9,8 +9,11 @@ const WarrantyForm = () => {
   const [address, setAddress] = useState("");
   const [mobileNumber, setMobileNumber] = useState("");
   const [email, setEmail] = useState("");
+  const [state, setState] = useState("");
+  const [city, setCity] = useState("");
   const [selectedProduct, setSelectedProduct] = useState("");
   const [selectedVariety, setSelectedVariety] = useState("");
+  const [size, setSize] = useState("");
   const [purchaseFrom, setPurchaseFrom] = useState("");
   const [orderNumber, setOrderNumber] = useState("");
   const [invoiceDate, setInvoiceDate] = useState("");
@@ -30,10 +33,10 @@ const WarrantyForm = () => {
       "Preference",
       "Buckingham",
       "Buckingham Lexus",
-      "Aloe-Vera with Latex 6 inches",
-      "Aloe-vera with Memory 6 inches",
-      "Aloe-Vera with Latex 8 & 10 inches",
-      "Aloe-vera with Memory 8 & 10 inches",
+      "orthopedic Aloe-Vera with Latex 6 inches",
+      "orthopedic Aloe-vera with Memory 6 inches",
+      "orthopedic Aloe-Vera with Latex 8 & 10 inches",
+      "orthopedic Aloe-vera with Memory 8 & 10 inches",
       "Memofy",
     ],
     "Ortho Bonnell Spring Collection": [
@@ -41,10 +44,10 @@ const WarrantyForm = () => {
       "LoveLand",
       "Romantic Euroton",
       "Ambitious",
-      "orthopedic Aloe-Vera with Latex 6 inches",
-      "orthopedic Aloe-vera with Memory 6 inches",
-      "orthopedic Aloe-Vera with Latex 8 & 10 inches",
-      "orthopedic Aloe-vera with Memory 8 & 10 inches",
+      "ortho bonnell Aloe-Vera with Latex 6 inches",
+      "ortho bonnell Aloe-vera with Memory 6 inches",
+      "ortho bonnell Aloe-Vera with Latex 8 & 10 inches",
+      "ortho bonnell Aloe-vera with Memory 8 & 10 inches",
     ],
     "Pocketed Spring Collection": [
       "Inspiration",
@@ -78,6 +81,8 @@ const WarrantyForm = () => {
       "orthopedic Aloe-vera with Memory 8 & 10 inches",
       "pocketed Aloe-Vera with Latex 8 & 10 inches",
       "pocketed Aloe-vera with Memory 8 & 10 inches",
+      "ortho bonnell Aloe-Vera with Latex 8 & 10 inches",
+      "ortho bonnell Aloe-vera with Memory 8 & 10 inches",
       "Buckingham",
       "Buckingham Lexus",
       "LoveLand",
@@ -91,6 +96,8 @@ const WarrantyForm = () => {
       "orthopedic Aloe-vera with Memory 6 inches",
       "pocketed Aloe-Vera with Latex 6 inches",
       "pocketed Aloe-vera with Memory 6 inches",
+      "ortho bonnell Aloe-Vera with Latex 6 inches",
+      "ortho bonnell Aloe-vera with Memory 6 inches",
       "Orthomed",
       "Preference",
       "Memofy",
@@ -141,8 +148,11 @@ const WarrantyForm = () => {
           address,
           mobileNumber,
           email,
+          state,
+          city,
           selectedProduct,
           selectedVariety,
+          size,
           purchaseFrom,
           selectedStore,
           dealerName,
@@ -199,8 +209,11 @@ const WarrantyForm = () => {
       !address ||
       !mobileNumber ||
       !email ||
+      !state ||
+      !city ||
       !selectedProduct ||
       !selectedVariety ||
+      !size ||
       !orderNumber ||
       !invoiceDate
     ) {
@@ -268,6 +281,24 @@ const WarrantyForm = () => {
             onChange={(e) => setEmail(e.target.value)}
           />
         </div>
+        <div className="mb-4">
+          <label className="block text-gray-700">State</label>
+          <input
+            type="text"
+            className="w-full px-3 py-2 border rounded shadow-sm"
+            value={state}
+            onChange={(e) => setState(e.target.value)}
+          />
+        </div>
+        <div className="mb-4">
+          <label className="block text-gray-700">City</label>
+          <input
+            type="text"
+            className="w-full px-3 py-2 border rounded shadow-sm"
+            value={city}
+            onChange={(e) => setCity(e.target.value)}
+          />
+        </div>
 
         {/* Product Details section */}
         <div className="mb-4">
@@ -304,6 +335,17 @@ const WarrantyForm = () => {
             </select>
           </div>
         )}
+
+        <div className="mb-4">
+          <label className="block text-gray-700">Size</label>
+          <input
+            type="text"
+            className="w-full px-3 py-2 border rounded shadow-sm"
+            value={size}
+            onChange={(e) => setSize(e.target.value)}
+            placeholder="Enter in L * B * H"
+          />
+        </div>
 
         {/* Purchase Details section */}
         <div className="mb-4">
