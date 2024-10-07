@@ -1,0 +1,21 @@
+{
+  "chesterfield": {
+    "images": [
+      "https://example.com/chesterfield1.jpg",
+      "https://example.com/chesterfield2.jpg",
+      "https://example.com/chesterfield3.jpg",
+      "https://example.com/chesterfield4.jpg"
+    ],
+    "title1": "Variety",
+    "content1": "Sofa",
+
+    "title2": "Title",
+    "content2": "Chesterfield",
+
+    "title3": "Size",
+    "content3": "Standard, Customized",
+
+    "title4": "Customization",
+    "content4": "Customization available as per requirement"
+  }
+}

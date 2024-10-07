@@ -1,91 +1,61 @@
-import React, { useState } from "react";
-import "./Product.css";
-import {
-  Image8,
-  Image9,
-  Image10,
-  Image11,
-  HoveredImage4,
-  HoveredImage5,
-  HoveredImage6,
-  HoveredImage7,
-  HoveredImage8,
-  HoveredImage9,
-  HoveredImage10,
-  HoveredImage11,
-} from "../../assets/index.jsx";
+import React, { useState, useRef, useEffect } from "react";
+import { Link } from "react-router-dom";
+import products from "../../products.jsx"; // Adjust the path according to your folder structure
+import ProductTypes from "../ProductTypes/ProductTypes.jsx"; // Import the ProductTypes component
 
 const Product = () => {
-  const products = [
-    {
-      id: 1,
-      frontImage: Image8,
-      backImage: Image9,
-      description: "Bonnell Spring Mattresses",
-    },
-    {
-      id: 2,
-      frontImage: Image10,
-      backImage: Image11,
-      description: "Pocketed Spring Mattresses",
-    },
-    {
-      id: 3,
-      frontImage: HoveredImage4,
-      backImage: HoveredImage5,
-      description: "Medical Rebonded Mattresses",
-    },
-    {
-      id: 4,
-      frontImage: HoveredImage6,
-      backImage: HoveredImage7,
-      description: "Head Board and Bases",
-    },
-    {
-      id: 5,
-      frontImage: HoveredImage8,
-      backImage: HoveredImage9,
-      description: "Pillows",
-    },
-    {
-      id: 6,
-      frontImage: HoveredImage10,
-      backImage: HoveredImage11,
-      description: "Comforters",
-    },
-  ];
+  const [selectedProduct, setSelectedProduct] = useState(null);
+  const productTypesRef = useRef(null); // Create a ref to the ProductTypes section
+
+  // Handle product click
+  const handleProductClick = (product) => {
+    setSelectedProduct(product);
+  };
+
+  // Scroll to ProductTypes section when product is selected
+  useEffect(() => {
+    if (selectedProduct && productTypesRef.current) {
+      productTypesRef.current.scrollIntoView({
+        behavior: "smooth", // Smooth scroll
+        block: "start",
+      });
+    }
+  }, [selectedProduct]);
 
   return (
-    <div className="flex-col justify-center items-center p-5">
-      <div className="font-mono font-light text-3xl text-center">
-        OUR PRODUCTS, YOUR COMFORT
-      </div>
-      <div className="grid grid-cols-3 gap-4 p-4">
+    <div className="xl:grid xl:justify-center xl:items-center xl:mt-4 sm:justify-center xl:w-full sm:grid sm:w-[158%] ">
+      <h1 className="text-2xl font-sans xl:flex xl:justify-center sm:flex sm:justify-center sm:mt-5 ">
+        PRODUCTS
+      </h1>
+      <Link to='/' >
+      <button className="flex justify-start bg-red-200 w-16 px-[10px]  xl:ml-10 rounded-lg sm:-ml-12">BACK</button>
+      </Link >
+      <div className="xl:flex xl:gap-4 sm:grid sm:justify-center xl:px-2 ">
         {products.map((product) => (
           <div
             key={product.id}
-            className="product-card w-[400px] h-[250px] p-6"
+            className="cursor-pointer xl:p-0 xl:h-[425px]  lg:h-[440px]"
+            onClick={() => handleProductClick(product)}
           >
-            <div className="product-card-inner">
-              <div className="product-card-front">
-                <img
-                  src={product.frontImage}
-                  alt={`Front of ${product.description}`}
-                  className="w-full h-full object-cover rounded-lg"
-                />
-              </div>
-              <div className="product-card-back">
-                <img
-                  src={product.backImage}
-                  alt={`Back of ${product.description}`}
-                  className="w-full h-full object-cover rounded-lg"
-                />
-              </div>
-            </div>
-            <p className="text-center mt-2">{product.description}</p>
+            <img
+              src={product.image}
+              alt={product.name}
+              className="h-[400px] sm:rounded-xl w-80 mt-5 sm:w-96"
+            />
+            <h2 className="mt-2 text-center">{product.name}</h2>
           </div>
         ))}
       </div>
+
+      {/* Show subcategories if a product is selected */}
+      {selectedProduct && (
+        <div
+          ref={productTypesRef} // Attach the ref to the ProductTypes container
+          className="transition-opacity duration-300 ease-in-out opacity-100" // Fade-in effect
+        >
+          <ProductTypes subcategories={selectedProduct.subcategories} />
+        </div>
+      )}
     </div>
   );
 };

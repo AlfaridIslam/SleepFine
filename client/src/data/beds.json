@@ -1,0 +1,21 @@
+{
+  "denver-with-storage": {
+    "images": [
+      "https://example.com/denver_model_with_storage1.jpg",
+      "https://example.com/denver_model_with_storage2.jpg",
+      "https://example.com/denver_model_with_storage3.jpg",
+      "https://example.com/denver_model_with_storage4.jpg"
+    ],
+    "title1": "Variety",
+    "content1": "With Storage",
+
+    "title2": "Title",
+    "content2": "Denver",
+
+    "title3": "Size",
+    "content3": "Standard, Customized",
+
+    "title4": "Customization",
+    "content4": "Customization available as per requirement"
+  }
+}

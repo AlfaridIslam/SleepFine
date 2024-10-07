@@ -19,7 +19,8 @@ const slides = [
   {
     image: Carousel3,
     title: "Research & Development",
-    description: "Sleep Fine Mattresses has the best R&D setup for continuous product development",
+    description:
+      "Sleep Fine Mattresses has the best R&D setup for continuous product development",
   },
 ];
 
@@ -42,30 +43,37 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-[550px] mx-auto overflow-hidden">
+    <div className="relative xl:w-full xl:h-[550px] sm:w-full sm:h-[550px]">
       <div
-        className="relative w-full h-full bg-gray-200"
+        className="relative xl:w-[100%] sm:w-[166%] sm:h-full bg-gray-200"
         style={{
           backgroundImage: `url(${slides[currentIndex].image})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center text-white p-4">
-          <h5 className="text-xl mb-2">{slides[currentIndex].title}</h5>
-          <p>{slides[currentIndex].description}</p>
+        <div
+          className="xl:absolute inset-0 xl:font-bold xl:flex xl:flex-col xl:justify-center xl:items-center xl:text-center text-black xl:top-[0.5rem]
+        sm:absolute sm:top-[12.5rem] sm:font-bold "
+        >
+          <h5 className="text-xl mb-2 xl:text-center sm:text-center">
+            {slides[currentIndex].title}
+          </h5>
+          <p className="font-medium xl:text-center sm:text-center">
+            {slides[currentIndex].description}
+          </p>
         </div>
         <button
-          className="absolute top-1/2 left-4 transform -translate-y-1/2  text-white p-2 "
+          className="absolute top-1/2 left-4 transform -translate-y-1/2 text-white p-2"
           onClick={prevSlide}
         >
-          &#10094;
+          ❮
         </button>
         <button
-          className="absolute top-1/2 right-4 transform -translate-y-1/2  text-white p-2 "
+          className="absolute top-1/2 right-4 transform -translate-y-1/2 text-white p-2"
           onClick={nextSlide}
         >
-          &#10095;
+          ❯
         </button>
       </div>
     </div>
