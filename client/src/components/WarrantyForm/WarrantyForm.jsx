@@ -94,7 +94,6 @@ const WarrantyForm = () => {
       "Romantic Euroton",
       "Ambitious",
       "Memory Active",
-      "Rose by Rose",
     ],
     "5 years": [
       "orthopedic Aloe-Vera with Latex 6 inches",
@@ -107,11 +106,12 @@ const WarrantyForm = () => {
       "Preference",
       "Memofy",
       "Oxford",
-      "Gravity",
+      "Space",
       "Inspiration",
       "Eternity Euroton",
     ],
-    "7 years": ["Milange", "Space"],
+    "7 years": ["Milange", "Rose by Rose"],
+    "2.5 years": ["Gravity"],
   };
 
   const handleInputChange = (e) => {
