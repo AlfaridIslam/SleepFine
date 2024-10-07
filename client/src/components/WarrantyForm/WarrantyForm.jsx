@@ -191,7 +191,7 @@ const WarrantyForm = () => {
     setFormError("");
     setSuccessMessage("");
 
-    const requiredFields = [
+    const baseRequiredFields = [
       "customerName",
       "address",
       "mobileNumber",
@@ -205,13 +205,28 @@ const WarrantyForm = () => {
       "invoiceDate",
     ];
 
+    // Dynamically determine required fields based on purchase source
+    const requiredFields =
+      formData.purchaseFrom === "Store"
+        ? [...baseRequiredFields, "selectedStore", "dealerName"]
+        : baseRequiredFields;
+
     const missingFields = requiredFields.filter((field) => !formData[field]);
 
-    if (missingFields.length > 0) {
-      setFormError("Please fill out all mandatory fields.");
-      setIsLoading(false);
-      return;
-    }
+     if (missingFields.length > 0) {
+       setFormError(
+         `Please fill out all mandatory fields: ${missingFields
+           .map((field) => {
+             // Convert camelCase to readable format
+             return field
+               .replace(/([A-Z])/g, " $1")
+               .replace(/^./, (str) => str.toUpperCase());
+           })
+           .join(", ")}`
+       );
+       setIsLoading(false);
+       return;
+     }
 
     try {
       // Generate PDF
@@ -228,8 +243,10 @@ const WarrantyForm = () => {
         Variety: formData.selectedVariety,
         Size: formData.size,
         "Purchase From": formData.purchaseFrom,
-        Store: formData.selectedStore,
-        "Dealer Name": formData.dealerName,
+        ...(formData.purchaseFrom === "Store" && {
+          Store: formData.selectedStore,
+          "Dealer Name": formData.dealerName,
+        }),
         "Order Number": formData.orderNumber,
         "Invoice Date": formData.invoiceDate,
         Warranty: formData.warranty,
@@ -400,36 +417,42 @@ const WarrantyForm = () => {
           </select>
         </div>
 
-        {/* Conditional rendering based on 'Store' selection */}
-        {formData.purchaseFrom === "Store" && storeOptions.length > 0 && (
-          <div className="mb-4">
-            <label className="block text-gray-700">Select Store</label>
-            <select
-              name="selectedStore"
-              className="w-full px-3 py-2 border rounded shadow-sm"
-              value={formData.selectedStore}
-              onChange={handleInputChange}
-            >
-              <option value="">Select a store</option>
-              {storeOptions.map((store) => (
-                <option key={store} value={store}>
-                  {store}
-                </option>
-              ))}
-            </select>
-          </div>
-        )}
+        {/* Conditional rendering for Store-related fields */}
+        {formData.purchaseFrom === "Store" && (
+          <>
+            {/* Store selection dropdown */}
+            {storeOptions.length > 0 && (
+              <div className="mb-4">
+                <label className="block text-gray-700">Select Store</label>
+                <select
+                  name="selectedStore"
+                  className="w-full px-3 py-2 border rounded shadow-sm"
+                  value={formData.selectedStore}
+                  onChange={handleInputChange}
+                >
+                  <option value="">Select a store</option>
+                  {storeOptions.map((store) => (
+                    <option key={store} value={store}>
+                      {store}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            )}
 
-        <div className="mb-4">
-          <label className="block text-gray-700">Dealer Name</label>
-          <input
-            type="text"
-            name="dealerName"
-            className="w-full px-3 py-2 border rounded shadow-sm"
-            value={formData.dealerName}
-            onChange={handleInputChange}
-          />
-        </div>
+            {/* Dealer Name input */}
+            <div className="mb-4">
+              <label className="block text-gray-700">Dealer Name</label>
+              <input
+                type="text"
+                name="dealerName"
+                className="w-full px-3 py-2 border rounded shadow-sm"
+                value={formData.dealerName}
+                onChange={handleInputChange}
+              />
+            </div>
+          </>
+        )}
 
         <div className="mb-4">
           <label className="block text-gray-700">Order Number</label>
