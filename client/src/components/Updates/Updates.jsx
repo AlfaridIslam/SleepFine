@@ -14,18 +14,11 @@ export const Updates = () => {
           <div className="flex flex-col xl:flex-row items-center gap-4 xl:gap-8">
             {/* Video container with consistent dimensions */}
             <div className="w-full xl:w-1/2 aspect-[18/9]">
-              <video
-                autoPlay
-                loop
-                muted
-                playsInline
-                className="w-full h-full object-cover rounded-xl"
-              >
-                <source src={DasaraVid} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+            <img src="https://res.cloudinary.com/dpsmbluby/image/upload/v1728285108/Big_Sale_Banner_n8kobr.gif" alt="" className="w-full h-full object-cover rounded-xl" />
+
             </div>
 
+           
             {/* Content section */}
             <div className="w-full xl:w-1/2">
               <div className="space-y-4">

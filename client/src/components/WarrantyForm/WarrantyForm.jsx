@@ -1,29 +1,34 @@
-import ReactDOM from "react-dom/client";
 import React, { useState } from "react";
+import ReactDOM from "react-dom/client";
+import axios from "axios";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
 import WarrantyCardTemplate from "./WarrantyCard";
 
 const WarrantyForm = () => {
-  const [customerName, setCustomerName] = useState("");
-  const [address, setAddress] = useState("");
-  const [mobileNumber, setMobileNumber] = useState("");
-  const [email, setEmail] = useState("");
-  const [state, setState] = useState("");
-  const [city, setCity] = useState("");
-  const [selectedProduct, setSelectedProduct] = useState("");
-  const [selectedVariety, setSelectedVariety] = useState("");
-  const [size, setSize] = useState("");
-  const [purchaseFrom, setPurchaseFrom] = useState("");
-  const [orderNumber, setOrderNumber] = useState("");
-  const [invoiceDate, setInvoiceDate] = useState("");
-  const [warranty, setWarranty] = useState("");
+  const initialFormState = {
+    customerName: "",
+    address: "",
+    mobileNumber: "",
+    email: "",
+    state: "",
+    city: "",
+    selectedProduct: "",
+    selectedVariety: "",
+    size: "",
+    purchaseFrom: "",
+    selectedStore: "",
+    dealerName: "",
+    orderNumber: "",
+    invoiceDate: "",
+    warranty: "",
+  };
+
+  const [formData, setFormData] = useState(initialFormState);
   const [formError, setFormError] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
-  const [dealerName, setDealerName] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
   const [varieties, setVarieties] = useState([]);
-  const [selectedStore, setSelectedStore] = useState("");
-  const [storeNames, setStoreNames] = useState([]);
 
   // Product Details
   const productOptions = {
@@ -109,64 +114,54 @@ const WarrantyForm = () => {
     "7 years": ["Milange", "Space"],
   };
 
-  // Handling product selection
-  const handleProductChange = (e) => {
-    const product = e.target.value;
-    setSelectedProduct(product);
-    setVarieties(productOptions[product] || []);
-    setSelectedVariety("");
-    setWarranty("");
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+
+    // Special handling for product selection
+    if (name === "selectedProduct") {
+      handleProductChange(value);
+    }
+
+    // Special handling for variety selection
+    if (name === "selectedVariety") {
+      handleVarietyChange(value);
+    }
   };
 
-  // Handling variety selection
-  const handleVarietyChange = (e) => {
-    const variety = e.target.value;
-    setSelectedVariety(variety);
+  const handleProductChange = (product) => {
+    setVarieties(productOptions[product] || []);
+    setFormData((prev) => ({
+      ...prev,
+      selectedVariety: "",
+      warranty: "",
+    }));
+  };
+
+  const handleVarietyChange = (variety) => {
     const warrantyPeriod = Object.keys(warrantyOptions).find((period) =>
       warrantyOptions[period].includes(variety)
     );
-    setWarranty(warrantyPeriod || "");
+    setFormData((prev) => ({
+      ...prev,
+      warranty: warrantyPeriod || "",
+    }));
   };
 
-  // Handling purchase source selection
-  const handlePurchaseFromChange = (e) => {
-    const purchase = e.target.value;
-    setPurchaseFrom(purchase);
-    setStoreNames(purchase === "Store" ? storeOptions : []);
-  };
-
-  // Function to generate the PDF
   const generatePDF = async () => {
     const div = document.createElement("div");
     document.body.appendChild(div);
 
-    const root = ReactDOM.createRoot(div);
-    root.render(
-      <WarrantyCardTemplate
-        data={{
-          customerName,
-          address,
-          mobileNumber,
-          email,
-          state,
-          city,
-          selectedProduct,
-          selectedVariety,
-          size,
-          purchaseFrom,
-          selectedStore,
-          dealerName,
-          orderNumber,
-          invoiceDate,
-          warranty,
-        }}
-      />
-    );
-
-    // Wait for render
-    await new Promise((resolve) => setTimeout(resolve, 100));
-
     try {
+      const root = ReactDOM.createRoot(div);
+      root.render(<WarrantyCardTemplate data={formData} />);
+
+      // Wait for render
+      await new Promise((resolve) => setTimeout(resolve, 100));
+
       const canvas = await html2canvas(div, {
         scale: 2,
         useCORS: true,
@@ -174,7 +169,6 @@ const WarrantyForm = () => {
       });
 
       const imgData = canvas.toDataURL("image/png");
-
       const pdf = new jsPDF({
         orientation: "portrait",
         unit: "px",
@@ -182,42 +176,40 @@ const WarrantyForm = () => {
       });
 
       pdf.addImage(imgData, "PNG", 0, 0, 595, 842);
-
-      // Cleanup
-      document.body.removeChild(div);
-
       return pdf;
     } catch (error) {
       console.error("Error generating PDF:", error);
-      // Cleanup
-      document.body.removeChild(div);
       throw error;
+    } finally {
+      document.body.removeChild(div);
     }
   };
 
-  // Function to handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    // Reset messages
+    setIsLoading(true);
     setFormError("");
     setSuccessMessage("");
 
-    // Validate required fields
-    if (
-      !customerName ||
-      !address ||
-      !mobileNumber ||
-      !email ||
-      !state ||
-      !city ||
-      !selectedProduct ||
-      !selectedVariety ||
-      !size ||
-      !orderNumber ||
-      !invoiceDate
-    ) {
+    const requiredFields = [
+      "customerName",
+      "address",
+      "mobileNumber",
+      "email",
+      "state",
+      "city",
+      "selectedProduct",
+      "selectedVariety",
+      "size",
+      "orderNumber",
+      "invoiceDate",
+    ];
+
+    const missingFields = requiredFields.filter((field) => !formData[field]);
+
+    if (missingFields.length > 0) {
       setFormError("Please fill out all mandatory fields.");
+      setIsLoading(false);
       return;
     }
 
@@ -225,15 +217,49 @@ const WarrantyForm = () => {
       // Generate PDF
       const pdfDoc = await generatePDF();
 
-      // Trigger PDF download
-      pdfDoc.save(`Warranty_Card_${customerName.replace(/\s+/g, "_")}.pdf`);
+      const transformedData = {
+        "Customer Name": formData.customerName,
+        "Mobile Number": formData.mobileNumber,
+        "Email Id": formData.email,
+        Address: formData.address,
+        State: formData.state,
+        City: formData.city,
+        Product: formData.selectedProduct,
+        Variety: formData.selectedVariety,
+        Size: formData.size,
+        "Purchase From": formData.purchaseFrom,
+        Store: formData.selectedStore,
+        "Dealer Name": formData.dealerName,
+        "Order Number": formData.orderNumber,
+        "Invoice Date": formData.invoiceDate,
+        Warranty: formData.warranty,
+      };
+
+      console.log("Transformed data being sent:", transformedData);
+
+      // Submit to Google Sheets
+      await axios.post(
+        "https://api.sheetbest.com/sheets/f6c087ef-7190-4e8f-a6f2-0803e4fa8066",
+        transformedData
+      );
+
+      // Save PDF
+      pdfDoc.save(
+        `Warranty_Card_${formData.customerName.replace(/\s+/g, "_")}.pdf`
+      );
 
       setSuccessMessage(
-        "Your warranty form has been generated and downloaded!"
+        "Your warranty form has been generated and saved successfully!"
       );
+      setFormData(initialFormState);
+      setVarieties([]);
     } catch (error) {
-      setFormError("An error occurred while generating the warranty card.");
-      console.error("PDF generation error:", error);
+      console.error("Error:", error);
+      setFormError(
+        "An error occurred while processing your request. Please try again."
+      );
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -249,54 +275,60 @@ const WarrantyForm = () => {
           <label className="block text-gray-700">Customer Name</label>
           <input
             type="text"
+            name="customerName"
             className="w-full px-3 py-2 border rounded shadow-sm"
-            value={customerName}
-            onChange={(e) => setCustomerName(e.target.value)}
+            value={formData.customerName}
+            onChange={handleInputChange}
           />
         </div>
         <div className="mb-4">
           <label className="block text-gray-700">Address</label>
           <input
             type="text"
+            name="address"
             className="w-full px-3 py-2 border rounded shadow-sm"
-            value={address}
-            onChange={(e) => setAddress(e.target.value)}
+            value={formData.address}
+            onChange={handleInputChange}
           />
         </div>
         <div className="mb-4">
           <label className="block text-gray-700">Mobile Number</label>
           <input
             type="text"
+            name="mobileNumber"
             className="w-full px-3 py-2 border rounded shadow-sm"
-            value={mobileNumber}
-            onChange={(e) => setMobileNumber(e.target.value)}
+            value={formData.mobileNumber}
+            onChange={handleInputChange}
           />
         </div>
         <div className="mb-4">
           <label className="block text-gray-700">Email Address</label>
           <input
             type="email"
+            name="email"
             className="w-full px-3 py-2 border rounded shadow-sm"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            value={formData.email}
+            onChange={handleInputChange}
           />
         </div>
         <div className="mb-4">
           <label className="block text-gray-700">State</label>
           <input
             type="text"
+            name="state"
             className="w-full px-3 py-2 border rounded shadow-sm"
-            value={state}
-            onChange={(e) => setState(e.target.value)}
+            value={formData.state}
+            onChange={handleInputChange}
           />
         </div>
         <div className="mb-4">
           <label className="block text-gray-700">City</label>
           <input
             type="text"
+            name="city"
             className="w-full px-3 py-2 border rounded shadow-sm"
-            value={city}
-            onChange={(e) => setCity(e.target.value)}
+            value={formData.city}
+            onChange={handleInputChange}
           />
         </div>
 
@@ -305,9 +337,10 @@ const WarrantyForm = () => {
           <h3 className="text-xl font-semibold">Product Details</h3>
           <label className="block text-gray-700">Product</label>
           <select
+            name="selectedProduct"
             className="w-full px-3 py-2 border rounded shadow-sm"
-            value={selectedProduct}
-            onChange={handleProductChange}
+            value={formData.selectedProduct}
+            onChange={handleInputChange}
           >
             <option value="">Select a product</option>
             {Object.keys(productOptions).map((product) => (
@@ -322,9 +355,10 @@ const WarrantyForm = () => {
           <div className="mb-4">
             <label className="block text-gray-700">Variety</label>
             <select
+              name="selectedVariety"
               className="w-full px-3 py-2 border rounded shadow-sm"
-              value={selectedVariety}
-              onChange={handleVarietyChange}
+              value={formData.selectedVariety}
+              onChange={handleInputChange}
             >
               <option value="">Select a variety</option>
               {varieties.map((variety) => (
@@ -340,9 +374,10 @@ const WarrantyForm = () => {
           <label className="block text-gray-700">Size</label>
           <input
             type="text"
+            name="size"
             className="w-full px-3 py-2 border rounded shadow-sm"
-            value={size}
-            onChange={(e) => setSize(e.target.value)}
+            value={formData.size}
+            onChange={handleInputChange}
             placeholder="Enter in L * B * H"
           />
         </div>
@@ -350,11 +385,14 @@ const WarrantyForm = () => {
         {/* Purchase Details section */}
         <div className="mb-4">
           <h3 className="text-xl font-semibold">Purchase Details</h3>
+
+          {/* Select Purchase Source */}
           <label className="block text-gray-700">Purchased From</label>
           <select
+            name="purchaseFrom"
             className="w-full px-3 py-2 border rounded shadow-sm"
-            value={purchaseFrom}
-            onChange={handlePurchaseFromChange}
+            value={formData.purchaseFrom}
+            onChange={handleInputChange}
           >
             <option value="">Select purchase source</option>
             <option value="Store">Store</option>
@@ -362,16 +400,18 @@ const WarrantyForm = () => {
           </select>
         </div>
 
-        {purchaseFrom === "Store" && storeNames.length > 0 && (
+        {/* Conditional rendering based on 'Store' selection */}
+        {formData.purchaseFrom === "Store" && storeOptions.length > 0 && (
           <div className="mb-4">
-            <label className="block text-gray-700">Store</label>
+            <label className="block text-gray-700">Select Store</label>
             <select
+              name="selectedStore"
               className="w-full px-3 py-2 border rounded shadow-sm"
-              value={selectedStore}
-              onChange={(e) => setSelectedStore(e.target.value)}
+              value={formData.selectedStore}
+              onChange={handleInputChange}
             >
-              <option value="">Select store</option>
-              {storeNames.map((store) => (
+              <option value="">Select a store</option>
+              {storeOptions.map((store) => (
                 <option key={store} value={store}>
                   {store}
                 </option>
@@ -384,9 +424,10 @@ const WarrantyForm = () => {
           <label className="block text-gray-700">Dealer Name</label>
           <input
             type="text"
+            name="dealerName"
             className="w-full px-3 py-2 border rounded shadow-sm"
-            value={dealerName}
-            onChange={(e) => setDealerName(e.target.value)}
+            value={formData.dealerName}
+            onChange={handleInputChange}
           />
         </div>
 
@@ -394,9 +435,10 @@ const WarrantyForm = () => {
           <label className="block text-gray-700">Order Number</label>
           <input
             type="text"
+            name="orderNumber"
             className="w-full px-3 py-2 border rounded shadow-sm"
-            value={orderNumber}
-            onChange={(e) => setOrderNumber(e.target.value)}
+            value={formData.orderNumber}
+            onChange={handleInputChange}
           />
         </div>
 
@@ -404,19 +446,21 @@ const WarrantyForm = () => {
           <label className="block text-gray-700">Invoice Date</label>
           <input
             type="date"
+            name="invoiceDate"
             className="w-full px-3 py-2 border rounded shadow-sm"
-            value={invoiceDate}
-            onChange={(e) => setInvoiceDate(e.target.value)}
+            value={formData.invoiceDate}
+            onChange={handleInputChange}
           />
         </div>
 
-        {warranty && (
+        {formData.warranty && (
           <div className="mb-4">
             <label className="block text-gray-700">Warranty</label>
             <input
               type="text"
+              name="warranty"
               className="w-full px-3 py-2 border rounded shadow-sm"
-              value={warranty}
+              value={formData.warranty}
               disabled
             />
           </div>
@@ -425,8 +469,9 @@ const WarrantyForm = () => {
         <button
           type="submit"
           className="w-full bg-blue-500 text-white px-4 py-2 rounded shadow"
+          disabled={isLoading}
         >
-          Generate Warranty Card
+          {isLoading ? "Generating..." : "Generate Warranty Card"}
         </button>
       </form>
     </div>
