@@ -25,17 +25,12 @@ const WarrantyCardTemplate = React.forwardRef(({ data }, ref) => {
   return (
     <div
       ref={ref}
-      className="w-full sm:w-[500px] xl:w-[800px] h-[742px] p-4 sm:p-10  xl:p-8  bg-white flex flex-col justify-between"
+      className="w-full sm:w-[595px] xl:w-[700px] h-[842px] p-4 sm:p-8 xl:p-10 bg-white flex flex-col justify-between"
     >
       {/* Header */}
-      <div className="bg-blue-500 text-white p-2 sm:p-4 xl:p-6 flex items-center justify-between">
-        <div>
-          <h1 className="text-lg sm:text-2xl xl:text-3xl font-bold">
-            Sleep Fine
-          </h1>
-        </div>
-        <img src={logo} alt="Sleep Fine Logo" className="h-8 sm:h-12 xl:h-16" />
-        <img src={warrantyQR} alt="QR Code" className="h-8 sm:h-12 xl:h-16" />
+      <div className="bg-blue-500 text-white p-2 sm:p-4 xl:p-6 flex items-center justify-between gap-20">
+        <img src={logo} alt="Sleep Fine Logo" className="h-8 sm:h-12 sm:w-11 xl:h-16 xl:w-15" />
+        <img src={warrantyQR} alt="QR Code" className="h-8 sm:h-12 sm:w-11 xl:h-16 xl:w-15" />
       </div>
 
       {/* Content */}
