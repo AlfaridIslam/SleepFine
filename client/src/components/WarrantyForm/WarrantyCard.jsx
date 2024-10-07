@@ -25,22 +25,24 @@ const WarrantyCardTemplate = React.forwardRef(({ data }, ref) => {
   return (
     <div
       ref={ref}
-      className="w-[595px] h-[842px] p-8 bg-white flex flex-col justify-between"
+      className="w-full sm:w-[500px] xl:w-[800px] h-[742px] p-4 sm:p-10  xl:p-8  bg-white flex flex-col justify-between"
     >
       {/* Header */}
-      <div className="bg-blue-500 text-white p-4 flex items-center justify-between">
+      <div className="bg-blue-500 text-white p-2 sm:p-4 xl:p-6 flex items-center justify-between">
         <div>
-          <h1 className="text-2xl font-bold">Sleep Fine</h1>
+          <h1 className="text-lg sm:text-2xl xl:text-3xl font-bold">
+            Sleep Fine
+          </h1>
         </div>
-        <img src={logo} alt="Sleep Fine Logo" className="h-12" />
-        <img src={warrantyQR} alt="QR Code" className="h-12" />
+        <img src={logo} alt="Sleep Fine Logo" className="h-8 sm:h-12 xl:h-16" />
+        <img src={warrantyQR} alt="QR Code" className="h-8 sm:h-12 xl:h-16" />
       </div>
 
       {/* Content */}
-      <div className="flex-grow mt-6 space-y-4">
-        <div className="grid grid-cols-2 gap-4">
+      <div className="flex-grow mt-4 sm:mt-6 xl:mt-8 space-y-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
-            <h2 className="text-xl">Warranty Card</h2>
+            <h2 className="text-lg sm:text-xl xl:text-2xl">Warranty Card</h2>
             <h3 className="font-semibold">Customer Details</h3>
             <p>Name: {customerName}</p>
             <p>Address: {address}</p>
@@ -79,8 +81,14 @@ const WarrantyCardTemplate = React.forwardRef(({ data }, ref) => {
           <p>Phone: 08062181296</p>
         </div>
         <div className="text-center">
-          <img src={QRcode} alt="QR code" className="h-20 w-20" />
-          <p className="mt-2 text-sm">Scan for website</p>
+          <img
+            src={QRcode}
+            alt="QR code"
+            className="h-16 w-16 sm:h-20 sm:w-20 xl:h-24 xl:w-24"
+          />
+          <p className="mt-2 text-xs sm:text-sm xl:text-base">
+            Scan for website
+          </p>
         </div>
       </div>
     </div>
