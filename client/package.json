@@ -22,7 +22,6 @@
     "cloudinary-core": "^2.13.1",
     "html2canvas": "^1.4.1",
     "jspdf": "^2.5.2",
-    "prop-types": "^15.8.1",
     "qrcode.react": "^4.0.1",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.4",
@@ -48,3 +47,5 @@
     "vite": "^5.4.1"
   }
 }
+
+
