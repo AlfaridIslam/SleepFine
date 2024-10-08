@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faVolumeMute, faVolumeUp } from "@fortawesome/free-solid-svg-icons"; // Import mute and unmute icons
+import SleepFineR from "../../assets/SleepFine_R.png";
 
 const HeroSection = () => {
   const [videoMusic, setVideoMusic] = useState(false); // Initially unmuted (sound plays)
@@ -67,7 +68,13 @@ const HeroSection = () => {
           className="text-[#e9d2ba] text-5xl xl:text-[60px] font-extrabold leading-tight xl:leading-[56px] mb-8  xl:mt-0
          sm:px-4 xl:px-24 sm:mt-[-1rem]"
         >
-          SleepFine<sup className="top-[-30px] text-[14px]">(R)</sup>
+          {/* SleepFine<sup className="top-[-30px] text-[14px]">(R)</sup> */}
+          <img
+            src={SleepFineR}
+            alt="sleepfine"
+            className="absolute xl:-top-[162px] xl:right-[331px] sm:-top-[44px] sm:right-[28px]
+             md:-top-[91px] md:right-[59px] lg:-top-[174px] lg:right-[119px]"
+          />
           <br />
           Trusted Mattress Innovators
           <br />

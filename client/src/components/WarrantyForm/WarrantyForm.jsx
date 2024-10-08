@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import axios from "axios";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
 import WarrantyCardTemplate from "./WarrantyCard";
+// import {} from "./stateCityData.json"
 
 const WarrantyForm = () => {
   const initialFormState = {
@@ -15,7 +16,9 @@ const WarrantyForm = () => {
     city: "",
     selectedProduct: "",
     selectedVariety: "",
-    size: "",
+    length: "",
+    breadth: "",
+    height: "",
     purchaseFrom: "",
     selectedStore: "",
     dealerName: "",
@@ -29,6 +32,37 @@ const WarrantyForm = () => {
   const [successMessage, setSuccessMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [varieties, setVarieties] = useState([]);
+
+  const [stateCityData, setStateCityData] = useState({});
+  const [cities, setCities] = useState([]);
+
+  // Fetch the stateCityData.json file from public folder
+  useEffect(() => {
+    const fetchStateCityData = async () => {
+      try {
+        const response = await fetch("/stateCityData.json");
+        const data = await response.json();
+        setStateCityData(data);
+        console.log(data);
+      } catch (error) {
+        console.error("Error fetching state-city data:", error);
+      }
+    };
+
+    fetchStateCityData();
+  }, []);
+
+  // Update cities based on selected state
+  useEffect(() => {
+    if (formData.state) {
+      const selectedCities = stateCityData[formData.state] || [];
+      setCities(selectedCities);
+      setFormData((prev) => ({
+        ...prev,
+        city: "", // Reset city when state changes
+      }));
+    }
+  }, [formData.state, stateCityData]);
 
   // Product Details
   const productOptions = {
@@ -78,6 +112,15 @@ const WarrantyForm = () => {
     "Kompally",
     "Shahpur/Gajularamaram",
   ];
+
+  const handlePurchaseFromChange = (e) => {
+    setFormData({
+      ...formData,
+      purchaseFrom: e.target.value,
+      selectedStore: "",
+      dealerName: "",
+    });
+  };
 
   // Warranty details
   const warrantyOptions = {
@@ -200,33 +243,38 @@ const WarrantyForm = () => {
       "city",
       "selectedProduct",
       "selectedVariety",
-      "size",
+      "length",
+      "breadth",
+      "height",
       "orderNumber",
       "invoiceDate",
     ];
 
     // Dynamically determine required fields based on purchase source
-    const requiredFields =
-      formData.purchaseFrom === "Store"
-        ? [...baseRequiredFields, "selectedStore", "dealerName"]
-        : baseRequiredFields;
+    // Dynamically determine required fields based on purchase source
+    const requiredFields = [...baseRequiredFields];
 
+    if (formData.purchaseFrom === "Store") {
+      requiredFields.push("selectedStore");
+    } else if (formData.purchaseFrom === "Others") {
+      requiredFields.push("dealerName");
+    }
     const missingFields = requiredFields.filter((field) => !formData[field]);
 
-     if (missingFields.length > 0) {
-       setFormError(
-         `Please fill out all mandatory fields: ${missingFields
-           .map((field) => {
-             // Convert camelCase to readable format
-             return field
-               .replace(/([A-Z])/g, " $1")
-               .replace(/^./, (str) => str.toUpperCase());
-           })
-           .join(", ")}`
-       );
-       setIsLoading(false);
-       return;
-     }
+    if (missingFields.length > 0) {
+      setFormError(
+        `Please fill out all mandatory fields: ${missingFields
+          .map((field) => {
+            // Convert camelCase to readable format
+            return field
+              .replace(/([A-Z])/g, " $1")
+              .replace(/^./, (str) => str.toUpperCase());
+          })
+          .join(", ")}`
+      );
+      setIsLoading(false);
+      return;
+    }
 
     try {
       // Generate PDF
@@ -241,7 +289,9 @@ const WarrantyForm = () => {
         City: formData.city,
         Product: formData.selectedProduct,
         Variety: formData.selectedVariety,
-        Size: formData.size,
+        Length: formData.length,
+        Breadth: formData.breadth,
+        Height: formData.height,
         "Purchase From": formData.purchaseFrom,
         ...(formData.purchaseFrom === "Store" && {
           Store: formData.selectedStore,
@@ -328,27 +378,37 @@ const WarrantyForm = () => {
             onChange={handleInputChange}
           />
         </div>
-        <div className="mb-4">
-          <label className="block text-gray-700">State</label>
-          <input
-            type="text"
-            name="state"
-            className="w-full px-3 py-2 border rounded shadow-sm"
-            value={formData.state}
-            onChange={handleInputChange}
-          />
-        </div>
-        <div className="mb-4">
-          <label className="block text-gray-700">City</label>
-          <input
-            type="text"
-            name="city"
-            className="w-full px-3 py-2 border rounded shadow-sm"
-            value={formData.city}
-            onChange={handleInputChange}
-          />
-        </div>
-
+        <select
+          name="state"
+          value={formData.state}
+          onChange={handleInputChange}
+          required
+          className="input-field"
+        >
+          <option value="">Select State</option>
+          {Object.keys(stateCityData).map((state) => (
+            <option key={state} value={state}>
+              {state}
+            </option>
+          ))}
+        </select>
+        <br /> <br />
+        <select
+          name="city"
+          value={formData.city}
+          onChange={handleInputChange}
+          required
+          className="input-field"
+          disabled={!formData.state} // Disable until state is selected
+        >
+          <option value="">Select City</option>
+          {cities.map((city, index) => (
+            <option key={index} value={city}>
+              {city}
+            </option>
+          ))}
+        </select>
+        <br /> <br />
         {/* Product Details section */}
         <div className="mb-4">
           <h3 className="text-xl font-semibold">Product Details</h3>
@@ -367,7 +427,6 @@ const WarrantyForm = () => {
             ))}
           </select>
         </div>
-
         {varieties.length > 0 && (
           <div className="mb-4">
             <label className="block text-gray-700">Variety</label>
@@ -386,74 +445,129 @@ const WarrantyForm = () => {
             </select>
           </div>
         )}
-
+        {/* SIZES */}
         <div className="mb-4">
           <label className="block text-gray-700">Size</label>
-          <input
-            type="text"
-            name="size"
-            className="w-full px-3 py-2 border rounded shadow-sm"
-            value={formData.size}
-            onChange={handleInputChange}
-            placeholder="Enter in L * B * H"
-          />
-        </div>
+          <div className="flex space-x-4 sm:space-x-[0px]">
+            <select
+              name="length"
+              value={formData.length}
+              onChange={handleInputChange}
+              required
+              className="w-full sm:px-0 xl:px-2 py-2 border rounded shadow-sm"
+            >
+              <option value="">Select Length</option>
+              <option value="72 inches">72 inches</option>
+              <option value="75 inches">75 inches</option>
+              <option value="78 inches">78 inches</option>
+            </select>
 
+            <select
+              name="breadth"
+              value={formData.breadth}
+              onChange={handleInputChange}
+              required
+              className="w-full sm:px-0 xl:px-1 py-2 border rounded shadow-sm"
+            >
+              <option value="">Select Breadth</option>
+              <option value="30 inches">30 inches</option>
+              <option value="36 inches">36 inches</option>
+              <option value="42 inches">42 inches</option>
+              <option value="48 inches">48 inches</option>
+              <option value="60 inches">60 inches</option>
+              <option value="66 inches">66 inches</option>
+              <option value="72 inches">72 inches</option>
+            </select>
+
+            <select
+              name="height"
+              value={formData.height}
+              onChange={handleInputChange}
+              required
+              className="w-full sm:px-0 xl:px-3 py-2 border rounded shadow-sm"
+            >
+              <option value="">Select Height</option>
+              <option value="5 inches">5 inches</option>
+              <option value="6 inches">6 inches</option>
+              <option value="7 inches">7 inches</option>
+              <option value="8 inches">8 inches</option>
+              <option value="10 inches">10 inches</option>
+              <option value="12 inches">12 inches</option>
+              <option value="14 inches">14 inches</option>
+            </select>
+          </div>
+        </div>
         {/* Purchase Details section */}
         <div className="mb-4">
           <h3 className="text-xl font-semibold">Purchase Details</h3>
 
           {/* Select Purchase Source */}
-          <label className="block text-gray-700">Purchased From</label>
-          <select
-            name="purchaseFrom"
-            className="w-full px-3 py-2 border rounded shadow-sm"
-            value={formData.purchaseFrom}
-            onChange={handleInputChange}
+          <label
+            htmlFor="purchaseFrom"
+            className="block text-sm font-medium text-gray-700 mb-1"
           >
-            <option value="">Select purchase source</option>
+            Purchase From
+          </label>
+          <select
+            id="purchaseFrom"
+            value={formData.purchaseFrom}
+            onChange={handlePurchaseFromChange}
+            className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2 border"
+          >
+            <option value="">Select purchase type</option>
             <option value="Store">Store</option>
             <option value="Online">Online</option>
+            <option value="Others">Others</option>
           </select>
         </div>
-
-        {/* Conditional rendering for Store-related fields */}
+        {/* Conditional rendering for Store selection */}
         {formData.purchaseFrom === "Store" && (
-          <>
-            {/* Store selection dropdown */}
-            {storeOptions.length > 0 && (
-              <div className="mb-4">
-                <label className="block text-gray-700">Select Store</label>
-                <select
-                  name="selectedStore"
-                  className="w-full px-3 py-2 border rounded shadow-sm"
-                  value={formData.selectedStore}
-                  onChange={handleInputChange}
-                >
-                  <option value="">Select a store</option>
-                  {storeOptions.map((store) => (
-                    <option key={store} value={store}>
-                      {store}
-                    </option>
-                  ))}
-                </select>
-              </div>
-            )}
-
-            {/* Dealer Name input */}
-            <div className="mb-4">
-              <label className="block text-gray-700">Dealer Name</label>
-              <input
-                type="text"
-                name="dealerName"
-                className="w-full px-3 py-2 border rounded shadow-sm"
-                value={formData.dealerName}
-                onChange={handleInputChange}
-              />
-            </div>
-          </>
+          <div className="mb-4">
+            <label
+              htmlFor="store"
+              className="block text-sm font-medium text-gray-700 mb-1"
+            >
+              Select Store
+            </label>
+            <select
+              id="store"
+              value={formData.selectedStore}
+              onChange={(e) =>
+                setFormData({ ...formData, selectedStore: e.target.value })
+              }
+              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2 border"
+            >
+              <option value="">Select a store</option>
+              {storeOptions.map((store) => (
+                <option key={store} value={store}>
+                  {store}
+                </option>
+              ))}
+            </select>
+          </div>
         )}
-
+        {/* Conditional rendering for Others - Dealer Name input */}
+        {formData.purchaseFrom === "Others" && (
+          <div className="mb-4">
+            <label
+              htmlFor="dealerName"
+              className="block text-sm font-medium text-gray-700 mb-1"
+            >
+              Dealer Name
+            </label>
+            <input
+              type="text"
+              id="dealerName"
+              name="dealerName"
+              value={formData.dealerName}
+              onChange={(e) =>
+                setFormData({ ...formData, dealerName: e.target.value })
+              }
+              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2 border"
+              placeholder="Enter dealer name"
+            />
+          </div>
+        )}
         <div className="mb-4">
           <label className="block text-gray-700">Order Number</label>
           <input
@@ -464,7 +578,6 @@ const WarrantyForm = () => {
             onChange={handleInputChange}
           />
         </div>
-
         <div className="mb-4">
           <label className="block text-gray-700">Invoice Date</label>
           <input
@@ -475,7 +588,6 @@ const WarrantyForm = () => {
             onChange={handleInputChange}
           />
         </div>
-
         {formData.warranty && (
           <div className="mb-4">
             <label className="block text-gray-700">Warranty</label>
@@ -488,7 +600,6 @@ const WarrantyForm = () => {
             />
           </div>
         )}
-
         <button
           type="submit"
           className="w-full bg-blue-500 text-white px-4 py-2 rounded shadow"
