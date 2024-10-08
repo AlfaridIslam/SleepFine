@@ -17,7 +17,7 @@ const Home = () => {
     <div className="xl:overflow-hidden">
       <HeroSection/>
       {/* <Carousel /> */}
-      {/* <Section1 /> */}
+      <Section1 />
 
 
       {/* <Section3 /> */}
