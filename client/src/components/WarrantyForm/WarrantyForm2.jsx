@@ -1,309 +1,87 @@
-import React, { useState, useRef } from "react";
-import jsPDF from "jspdf";
-import html2canvas from "html2canvas";
+import React from "react";
+import QRcode from "../../assets/qr-code.jpeg";
+import logo from "../../assets/SleepFinelogoR.png";
+import warrantyQR from "../../assets/barcode-warranty-registration.jpg";
 
-const WarrantyForm2 = () => {
-  const [customerName, setCustomerName] = useState("");
-  const [address, setAddress] = useState("");
-  const [mobileNumber, setMobileNumber] = useState("");
-  const [email, setEmail] = useState("");
-  const [selectedProduct, setSelectedProduct] = useState("");
-  const [selectedVariety, setSelectedVariety] = useState("");
-  const [purchaseFrom, setPurchaseFrom] = useState("");
-  const [orderNumber, setOrderNumber] = useState("");
-  const [invoiceDate, setInvoiceDate] = useState("");
-  const [warranty, setWarranty] = useState("");
-  const [formError, setFormError] = useState("");
-  const [successMessage, setSuccessMessage] = useState("");
-  const [dealerName, setDealerName] = useState("");
-  const [varieties, setVarieties] = useState([]);
-  const [selectedStore, setSelectedStore] = useState("");
-
-  const cardRef = useRef();
-
-  const productOptions = {
-    "Orthopedic Bonded Collection": [
-      "Orthomed",
-      "Milange",
-      "Preference",
-      "Buckingham",
-      "Buckingham Lexus",
-      "Aloe-Vera with Latex 6 inches",
-      "Aloe-vera with Memory 6 inches",
-      "Aloe-Vera with Latex 8 & 10 inches",
-      "Aloe-vera with Memory 8 & 10 inches",
-      "Memofy",
-    ],
-    "Ortho Bonnell Spring Collection": [
-      "Oxford",
-      "LoveLand",
-      "Romantic Euroton",
-      "Ambitious",
-      "Aloe-Vera with Latex 6 inches",
-      "Aloe-vera with Memory 6 inches",
-      "Aloe-Vera with Latex 8 & 10 inches",
-      "Aloe-vera with Memory 8 & 10 inches",
-    ],
-    "Pocketed Spring Collection": [
-      "Inspiration",
-      "Eternity Euroton",
-      "Aloe-Vera with Latex 6 inches",
-      "Aloe-vera with Memory 6 inches",
-      "Aloe-Vera with Latex 8 & 10 inches",
-      "Aloe-vera with Memory 8 & 10 inches",
-    ],
-    "HR-PU Foam Collection": [
-      "Gravity",
-      "Space",
-      "Memory Active",
-      "Rose by Rose",
-    ],
-  };
-
-  const storeOptions = [
-    "Alwal",
-    "Ameerpet Store",
-    "Hafiz Baba Nagar",
-    "Kompally",
-    "Shahpur/Gajularamaram",
-  ];
-
-  const warrantyOptions = {
-    "10 years": [
-      "Aloe-Vera with Latex 8 & 10 inches",
-      "Aloe-Vera with Memory 8 & 10 inches",
-      "Buckingham",
-      "Buckingham Lexus",
-      "LoveLand",
-      "Romantic Euroton",
-      "Ambitious",
-      "Memory Active",
-      "Rose by Rose",
-    ],
-    "5 years": [
-      "Aloe-Vera with Latex 6 inches",
-      "Aloe-Vera with Memory 6 inches",
-      "Orthomed",
-      "Preference",
-      "Memofy",
-      "Oxford",
-      "Gravity",
-      "Inspiration",
-      "Eternity Euroton",
-    ],
-    "7 years": ["Milange", "Space"],
-  };
-
-  const handleProductChange = (e) => {
-    const product = e.target.value;
-    setSelectedProduct(product);
-    setVarieties(productOptions[product] || []);
-    setSelectedVariety("");
-    setWarranty("");
-  };
-
-  const handleVarietyChange = (e) => {
-    const variety = e.target.value;
-    setSelectedVariety(variety);
-    const warrantyPeriod = Object.keys(warrantyOptions).find((period) =>
-      warrantyOptions[period].includes(variety)
-    );
-    setWarranty(warrantyPeriod || "");
-  };
-
-  const handlePurchaseFromChange = (e) => {
-    const purchase = e.target.value;
-    setPurchaseFrom(purchase);
-    setSelectedStore("");
-  };
-
-  const generatePDF = async () => {
-    const doc = new jsPDF();
-    const cardElement = cardRef.current;
-
-    const canvas = await html2canvas(cardElement);
-    const imgData = canvas.toDataURL("image/png");
-    doc.addImage(imgData, "PNG", 10, 10, 190, 0);
-    return doc;
-  };
-
-  const sendViaWhatsApp = (pdfUrl, phoneNumber) => {
-    const formattedNumber = phoneNumber.replace(/\D/g, "");
-    const message = encodeURIComponent(`Here is your warranty card: ${pdfUrl}`);
-    const whatsappUrl = `https://wa.me/${formattedNumber}?text=${message}`;
-    window.open(whatsappUrl, "_blank");
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setFormError("");
-    setSuccessMessage("");
-
-    const requiredFields = [
-      customerName,
-      address,
-      mobileNumber,
-      email,
-      selectedProduct,
-      selectedVariety,
-      orderNumber,
-      invoiceDate,
-    ];
-
-    if (requiredFields.some((field) => !field)) {
-      setFormError("Please fill out all mandatory fields.");
-      return;
-    }
-
-    try {
-      const pdfDoc = await generatePDF();
-      const pdfBlob = pdfDoc.output("blob");
-      const pdfUrl = URL.createObjectURL(pdfBlob);
-      pdfDoc.save(`Warranty_Card_${customerName.replace(/\s+/g, "_")}.pdf`);
-
-      if (mobileNumber) {
-        sendViaWhatsApp(pdfUrl, mobileNumber);
-      }
-
-      sendViaWhatsApp(pdfUrl, "08062181296");
-
-      setSuccessMessage(
-        "Your warranty form has been generated and downloaded! Please check the WhatsApp links that have opened."
-      );
-    } catch (error) {
-      setFormError("An error occurred while generating the warranty card.");
-      console.error("PDF generation error:", error);
-    }
-  };
-
+const WarrantyCardTemplate = React.forwardRef((_, ref) => {
   return (
     <div
-      className="max-w-lg mx-auto p-6 shadow-lg border rounded-lg mt-3 xl:mx-auto sm:ml-[33%] sm:w-[100%]"
-      ref={cardRef}
+      ref={ref}
+      className="w-full sm:w-[595px] sm:h-[742px] xl:w-[1100px] xl:h-[990px] p-4 sm:p-8 xl:p-[66px] bg-white flex flex-col justify-between
+      sm:m-[32px] xl:m-0"
     >
-      <h2 className="text-2xl font-bold mb-4">Generate your warranty card</h2>
-      {formError && <p className="text-red-500 mb-4">{formError}</p>}
-      {successMessage && (
-        <p className="text-green-500 mb-4">{successMessage}</p>
-      )}
-      <form onSubmit={handleSubmit}>
-        <div className="mb-4">
-          <label className="block text-gray-700">Customer Name</label>
-          <input
-            type="text"
-            className="w-full px-3 py-2 border rounded shadow-sm"
-            value={customerName}
-            onChange={(e) => setCustomerName(e.target.value)}
-          />
-        </div>
-        <div className="mb-4">
-          <label className="block text-gray-700">Address</label>
-          <input
-            type="text"
-            className="w-full px-3 py-2 border rounded shadow-sm"
-            value={address}
-            onChange={(e) => setAddress(e.target.value)}
-          />
-        </div>
-        <div className="mb-4">
-          <label className="block text-gray-700">Mobile Number</label>
-          <input
-            type="text"
-            className="w-full px-3 py-2 border rounded shadow-sm"
-            value={mobileNumber}
-            onChange={(e) => setMobileNumber(e.target.value)}
-          />
-        </div>
-        <div className="mb-4">
-          <label className="block text-gray-700">Email Address</label>
-          <input
-            type="email"
-            className="w-full px-3 py-2 border rounded shadow-sm"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
+      {/* Header */}
+      <div className="bg-blue-300 text-white p-2 sm:p-4 xl:p-6 flex items-center justify-between gap-20">
+        <img
+          src={logo}
+          alt="Sleep Fine Logo"
+          className="h-8  sm:h-12  xl:h-16 "
+        />
+        <img
+          src={warrantyQR}
+          alt="QR Code"
+          className="h-8  sm:h-12  xl:h-16 "
+        />
+      </div>
+
+      {/* Content */}
+      <div className="flex-grow mt-4 sm:mt-6 xl:mt-3 sm:space-y-4 xl:ml-7 xl:p-4 xl:mb-0">
+        <h1>Terms and Conditions apply</h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <h2 className="text-lg sm:text-xl xl:text-2xl">Warranty Card</h2>
+            <h3 className="font-semibold">Customer Details</h3>
+            <p>Name: John Doe</p>
+            <p>Address: 1234 Sleepwell St, Dream City</p>
+            <p>Mobile: +91 9876543210</p>
+            <p>Email: johndoe@example.com</p>
+            <p>State: Karnataka</p>
+            <p>City: Bangalore</p>
+          </div>
+          <div>
+            <h3 className="font-semibold">Product Details</h3>
+            <p>Product: Premium Mattress</p>
+            <p>Variety: King Size</p>
+            <p>Purchase From: Store</p>
+            <p>Store Name: SleepFine Store</p>
+            <p>Size:</p>
+            <p>Length: 200cm</p>
+            <p>Breadth: 180cm</p>
+            <p>Height: 30cm</p>
+          </div>
         </div>
 
-        <div className="mb-4">
-          <h3 className="text-xl font-semibold">Product Details</h3>
-          <label className="block text-gray-700">Product</label>
-          <select
-            className="w-full px-3 py-2 border rounded shadow-sm"
-            value={selectedProduct}
-            onChange={handleProductChange}
-          >
-            <option value="">Select a product</option>
-            {Object.keys(productOptions).map((product) => (
-              <option key={product} value={product}>
-                {product}
-              </option>
-            ))}
-          </select>
-
-          {selectedProduct && (
-            <>
-              <label className="block text-gray-700 mt-2">Variety</label>
-              <select
-                className="w-full px-3 py-2 border rounded shadow-sm"
-                value={selectedVariety}
-                onChange={handleVarietyChange}
-              >
-                <option value="">Select a variety</option>
-                {varieties.map((variety) => (
-                  <option key={variety} value={variety}>
-                    {variety}
-                  </option>
-                ))}
-              </select>
-            </>
-          )}
+        <div className="mt-4">
+          <h3 className="font-semibold">Purchase Details</h3>
+          <p>Order Number: 1234567890</p>
+          <p>Invoice Date: 08-Oct-2024</p>
+          <p>Warranty Period: 10 years</p>
         </div>
+      </div>
 
-        <div className="mb-4">
-          <label className="block text-gray-700">Purchase From</label>
-          <select
-            className="w-full px-3 py-2 border rounded shadow-sm"
-            value={purchaseFrom}
-            onChange={handlePurchaseFromChange}
-          >
-            <option value="">Select a store</option>
-            {storeOptions.map((store) => (
-              <option key={store} value={store}>
-                {store}
-              </option>
-            ))}
-          </select>
+      {/* Footer */}
+      <div className="flex justify-between items-center mt-0 mb-2 ml-4 sm:m-[40px]">
+        <div className="text-xs sm:m-[32px]">
+          <p className="font-semibold">Contact Us:</p>
+          <p>Email: contact@sleepfineindia.com</p>
+          <p>Phone: 08062181296</p>
         </div>
-
-        <div className="mb-4">
-          <label className="block text-gray-700">Order Number</label>
-          <input
-            type="text"
-            className="w-full px-3 py-2 border rounded shadow-sm"
-            value={orderNumber}
-            onChange={(e) => setOrderNumber(e.target.value)}
+        <div className="text-center">
+          <img
+            src={QRcode}
+            alt="QR code"
+            className="h-16 w-16 sm:h-20 sm:w-20 xl:h-18 xl:w-18"
           />
+          <p className="mt-2 text-xs sm:text-sm xl:text-base sm:-ml-[10px]">
+            Scan for website
+          </p>
         </div>
-
-        <div className="mb-4">
-          <label className="block text-gray-700">Invoice Date</label>
-          <input
-            type="date"
-            className="w-full px-3 py-2 border rounded shadow-sm"
-            value={invoiceDate}
-            onChange={(e) => setInvoiceDate(e.target.value)}
-          />
-        </div>
-
-        <button
-          type="submit"
-          className="w-full bg-blue-500 text-white py-2 rounded"
-        >
-          Generate Warranty Card
-        </button>
-      </form>
+      </div>
     </div>
   );
-};
+});
 
-export default WarrantyForm2;
+// Setting the display name explicitly
+WarrantyCardTemplate.displayName = "WarrantyCardTemplate";
+
+export default WarrantyCardTemplate;

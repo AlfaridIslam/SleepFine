@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Logo from "../../assets/sleepfinelogo-3.png";
-import LogoImage from "../../assets/logo-image.png";
+//import Logo from "../../assets/sleepfinelogo-3.png";
+//import LogoImage from "../../assets/logo-image.png";
+//import Ispflogo2 from '../../assets/ISPFlogo2.jpg';
+//import { Link } from "react-router-dom";
+//import ceritificatesLogo from "../../assets/certificate-logos.png";
 
-import Ispflogo2 from '../../assets/ISPFlogo2.jpg';
-import { Link } from "react-router-dom";
-import ceritificatesLogo from "../../assets/certificate-logos.png";
 const Section1 = () => {
   const [showFullContent, setShowFullContent] = useState(false);
 
@@ -21,7 +21,7 @@ const Section1 = () => {
         <div className="image ">
           {/* Adjust image size dynamically based on content visibility */}
           <img
-            src={Ispflogo2}
+            src="https://res.cloudinary.com/dpsmbluby/image/upload/v1728366495/ISPFlogo2_ud1lcw.jpg"
             alt="Image"
             className={`${
               showFullContent
@@ -33,7 +33,7 @@ const Section1 = () => {
         <div className="image ">
           {/* Adjust image size dynamically based on content visibility */}
           <img
-            src={LogoImage}
+            src="https://res.cloudinary.com/dpsmbluby/image/upload/v1728366520/logo-image_wxinpv.png"
             alt="Image"
             className={`${
               showFullContent
@@ -59,7 +59,7 @@ const Section1 = () => {
         </p>
         <p className="sm:px-4 xl:px-0">
           <strong>Our Certificates & Awards</strong>
-          <img src={ceritificatesLogo} alt="" className="h-40" />
+          <img src="https://res.cloudinary.com/dpsmbluby/image/upload/v1728366574/certificate-logos_edly7a.png" alt="" className="h-40" />
         </p>
         <p className="poppins-light  xl:text-left xl:mt-0 sm:text-left sm:text-lg sm:mt-2 xl:px-0 sm:px-4">
           <strong>Our Story</strong>
