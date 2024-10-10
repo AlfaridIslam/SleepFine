@@ -1,41 +1,35 @@
+// MATTRESSES
+// ----Banner & specifications--------
 
+// "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258580/banner1_qzowbo.png" --->Orthomed
+// "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258748/orthospeci_lh112h.png"
 
+// "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258580/banner1_qzowbo.png" --->Mileange
+// "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258374/Milangespeci_vxpzgf.jpg"
 
-  // MATTRESSES
-  // ----Banner & specifications--------
+// "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258580/banner1_qzowbo.png" --->Preference1
+// " https://res.cloudinary.com/dpsmbluby/image/upload/v1727258376/preference2speci_a4bggp.jpg"
 
-  // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258580/banner1_qzowbo.png" --->Orthomed
-  // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258748/orthospeci_lh112h.png"
+// "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258372/Buckinghum_banner_btbi9w.jpg" --->BuckinghumBanner
+// "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258373/Buckinghumspeci_qtm7da.jpg"
 
-  // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258580/banner1_qzowbo.png" --->Mileange
-  // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258374/Milangespeci_vxpzgf.jpg"
+// "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258371/Aloevera_banner_hluwdr.jpg "---->alovera with LatexPillow1
+// "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258374/OrthopedicAloeveralatexSpeci_je7qrx.jpg"
 
-  // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258580/banner1_qzowbo.png" --->Preference1
-  // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727258376/preference2speci_a4bggp.jpg"
+// "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258371/Aloevera_banner_hluwdr.jpg" ----> Alovera with MemoryRouter
+// " https://res.cloudinary.com/dpsmbluby/image/upload/v1727258374/OrthopedicAloeveramemorySpeci_kxuqaa.jpg"
 
-  // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258372/Buckinghum_banner_btbi9w.jpg" --->BuckinghumBanner
-  // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258373/Buckinghumspeci_qtm7da.jpg"
-
-  // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258371/Aloevera_banner_hluwdr.jpg "---->alovera with LatexPillow1
-  // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258374/OrthopedicAloeveralatexSpeci_je7qrx.jpg"
-
-  // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258371/Aloevera_banner_hluwdr.jpg" ----> Alovera with MemoryRouter
-  // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727258374/OrthopedicAloeveramemorySpeci_kxuqaa.jpg"
-
-  // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258580/banner1_qzowbo.png" --->Memofy1
-  // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727258373/Memofyspeci_hexrqt.jpg"
-
+// "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258580/banner1_qzowbo.png" --->Memofy1
+// " https://res.cloudinary.com/dpsmbluby/image/upload/v1727258373/Memofyspeci_hexrqt.jpg"
 
 //new banners
- // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348277/orthomedbanner_otmiqv.jpg";--- orthomed banner
+// "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348277/orthomedbanner_otmiqv.jpg";--- orthomed banner
 // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348384/milange_sccuzw.png"---milange banner
 // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348502/buckinghumbanner_dyv8it.png"---buckinghum banner
 // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348581/preferencebanner_svilpq.png"--preference banner
 // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348667/memofybanner_itzyg6.png"---memofy banner
 // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348774/aloeveralatexbanner_q230qg.png";---aloeveralatexbanner
 // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727348872/aloeveramemorybanner_dqnmcf.png"---aloeveramemory
-
- 
 
 export const productImages = {
   orthomed: [
@@ -67,17 +61,27 @@ export const productImages = {
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259809/DSC02088_xulnzz.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259830/DSC02089_yk4zt4.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259833/DSC02092_teesok.jpg",
- // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258373/Buckinghumspeci_qtm7da.jpg", //spf
+    // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258373/Buckinghumspeci_qtm7da.jpg", //spf
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727768045/buckinghum_spf_rxparw.png",
   ],
 
+  // buckinghamLexus: [
+  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727772297/buckinghumLexus_bnr_hbxxna.png", //Banner
+  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259809/DSC02088_xulnzz.jpg",
+  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259830/DSC02089_yk4zt4.jpg",
+  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259833/DSC02092_teesok.jpg",
+  //  // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258373/Buckinghumspeci_qtm7da.jpg", //spf
+  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727768167/buckinghum_lexus_spf_ejosou.png",
+  // ],
+
   buckinghamLexus: [
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727772297/buckinghumLexus_bnr_hbxxna.png", //Banner
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259809/DSC02088_xulnzz.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259830/DSC02089_yk4zt4.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259833/DSC02092_teesok.jpg",
-   // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258373/Buckinghumspeci_qtm7da.jpg", //spf
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727768167/buckinghum_lexus_spf_ejosou.png",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728466541/DSC03125_bopnzh.png",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728466541/DSC03130_hrffg8.png",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728466541/DSC03115_nka6qi.png",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728466540/DSC03128_zv72lc.png",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728466539/DSC03126_kyrdgt.png",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727768167/buckinghum_lexus_spf_ejosou.png", //specification
   ],
 
   // preference: [
