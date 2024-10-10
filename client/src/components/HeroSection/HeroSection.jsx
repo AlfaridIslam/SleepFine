@@ -63,7 +63,7 @@ const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto xl:mt-[10rem] sm:mt-8 px-4">
+      <div className="relative  container mx-auto xl:mt-[10rem] sm:mt-8 px-4 ">
         <h1
           className="text-[#e9d2ba] text-5xl xl:text-[60px] font-extrabold leading-tight xl:leading-[56px] mb-8  xl:mt-0
          sm:px-4 xl:px-24 sm:mt-[-1rem]"
