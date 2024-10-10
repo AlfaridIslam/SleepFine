@@ -34,12 +34,13 @@
 export const productImages = {
   orthomed: [
    // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727772298/orthomed_bnr_s4rfyf.png", //banner
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728560368/DSC02102_dtrsps.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728560369/DSC02103_smtcs3.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728560370/DSC02106_d0vgu1.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728560369/DSC02107_nlsewt.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727258748/orthospeci_lh112h.png", //Specifications
-  ],
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728565592/orthomed13_tlaq5j.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728565592/orthomed12_zbtuj9.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728565592/orthomed11_txipv7.jpg", 
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728565798/orthomed14_owwnnf.jpg",
+    //"https://res.cloudinary.com/dpsmbluby/image/upload/v1727258748/orthospeci_lh112h.png", //Specifications
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728470574/milangespecificationnew_pecovm.jpg",
+    ],
 
   milange: [
    // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727772302/milange_bnr_rundx1.png", //banner
@@ -47,7 +48,7 @@ export const productImages = {
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1728561070/DSC03186_pdyyuf.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1728561071/DSC03193_udyqzj.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1728561071/Rebonded_100_Density_100mm_700_x_400_px_9_xwlsuc.jpg",
-   "https://res.cloudinary.com/dpsmbluby/image/upload/v1728470574/milangespecificationnew_pecovm.jpg",//spf
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1728564999/Rebonded_100_Density_100mm_10_kblzix.jpg",//spf
   ],
 
   preference: [
@@ -127,9 +128,10 @@ export const productImages = {
 
   memofy: [
    // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727772297/memofy_bnr_wknllh.png", //Banner
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260363/Memofy1_eaue2l.jpg ",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260365/Memofy2_rh2zwo.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260366/Memofy3_l5z1oz.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728567400/Memofy2_rh2zwo_wubd3k.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728567401/WhatsApp_Image_2024-10-10_at_6.20.30_PM_cggnen.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728567399/Memofy1_eaue2l_hq4xmg.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728567459/Memofy3_l5z1oz__1_1_jhq8j7.jpg",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727258373/Memofyspeci_hexrqt.jpg", //spf
   ],
 
