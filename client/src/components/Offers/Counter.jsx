@@ -4,7 +4,7 @@ import React,{useState , useEffect} from 'react';
 const Counter =()=>{
 
 
-    const endTime = new Date('October 13, 2024 00:00:00').getTime();
+    const endTime = new Date('November 10, 2024 00:00:00').getTime();
     const [currentTime ,setCurrentTime] =useState(new Date().getTime());
     const gap = endTime - currentTime ;
 

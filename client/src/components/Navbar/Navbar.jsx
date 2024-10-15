@@ -95,7 +95,7 @@ const Navbar = () => {
 
         <div
           className={`xl:flex xl:justify-evenly xl:gap-14 xl:cursor-pointer xl:relative xl:z-10 xl:text-[13px] font-sans xl:mt-10 
-              sm:grid sm:gap-4   sm:ml-20   sm:text-[20px]  sm:${
+              sm:grid sm:gap-4   sm:ml-24   sm:text-[20px]  sm:${
                 barsOpen ? "block" : "hidden"
               }`}
         >

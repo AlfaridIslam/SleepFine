@@ -7,7 +7,7 @@ const Whatsapp = () => {
     <div className="whatsapp-container">
       <div className="whatsapp_float sm:p-2 sm:mr-1 lg:p-2">
         <a
-          href="https://wa.me/9346023775"
+          href="https://wa.me/+918062181296"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Chat with us on WhatsApp"
