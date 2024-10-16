@@ -34,8 +34,9 @@
 export const productImages = {
   orthomed: [
    // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727772298/orthomed_bnr_s4rfyf.png", //banner
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728565592/orthomed13_tlaq5j.jpg",
+   
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1728565592/orthomed12_zbtuj9.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728565592/orthomed13_tlaq5j.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1728565592/orthomed11_txipv7.jpg", 
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1728565798/orthomed14_owwnnf.jpg",
     //"https://res.cloudinary.com/dpsmbluby/image/upload/v1727258748/orthospeci_lh112h.png", //Specifications
@@ -138,11 +139,11 @@ export const productImages = {
   // ---------------Ortho-Bonnel-Spring -Collection------------------
 
   thehotel: [
-   " https://res.cloudinary.com/dpsmbluby/image/upload/v1728901818/DSC03270_z4f5vy.jpg",
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1728901818/DSC03270_z4f5vy.jpg",
    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728901806/DSC03282_es16ph.jpg ",
    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728901806/DSC03272_e6b7up.jpg ",
    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728901811/Rebonded_100_Density_100mm_700_x_400_px_27_v4kn7w.jpg ",
-   "https://res.cloudinary.com/dpsmbluby/image/upload/v1728986144/Rebonded_100_Density_100mm_700_x_400_px_33_1_yrhrke.jpg", //spf
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729077528/Rebonded_100_Density_100mm_700_x_400_px_50_keovmh.jpg", //spf
    
   ],
 
@@ -151,7 +152,7 @@ export const productImages = {
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1728902310/DSC03230_xyv13j.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1728902312/DSC03235_dlzc3g.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1728902311/Rebonded_100_Density_100mm_700_x_400_px_27_xkbclk.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728985973/Rebonded_100_Density_100mm_700_x_400_px_36_gjoiih.jpg" //spf  
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729077579/Rebonded_100_Density_100mm_700_x_400_px_48_xdc89m.jpg" //spf  
   ],
 
   Love_Land_Pillow_Top: [
@@ -159,25 +160,28 @@ export const productImages = {
    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728902718/DSC03418_kaqosm.jpg ",
    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728902719/DSC03424_klnf61.jpg ",
    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728902721/Rebonded_100_Density_100mm_700_x_400_px_27_gwd3nh.jpg ",
-   "https://res.cloudinary.com/dpsmbluby/image/upload/v1728986085/Rebonded_100_Density_100mm_700_x_400_px_37_mxwiee.jpg",//spf
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729077617/Rebonded_100_Density_100mm_700_x_400_px_49_kprz3t.jpg",//spf
   ],
   Romantic_Euroton: [
    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728903207/DSC03197_dtxvlh.jpg ",
    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728903207/DSC03205_d74nmu.jpg ",
    " https://res.cloudinary.com/dpsmbluby/image/upload/v1728903210/DSC03202_t5p8u2.jpg",
    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728903209/Rebonded_100_Density_100mm_700_x_400_px_27_cvnryh.jpg ",
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729077670/Rebonded_100_Density_100mm_700_x_400_px_51_htkpdv.jpg"//spf
   ],
   ambitious: [
    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728903566/DSC03311_di0krx.jpg ",
    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728903567/DSC03312_qyu3u0.jpg ",
    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728903569/DSC03314_ppfb6h.jpg ",
    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728903569/Rebonded_100_Density_100mm_700_x_400_px_28_offcyk.jpg",
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729077711/Rebonded_100_Density_100mm_700_x_400_px_52_wuraiy.jpg"//spf
   ],
   orthoBonnel_Alovera_with_latex :[
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1728904467/DSC03336_kfkkpc.jpg ",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1728904469/DSC03338_cvjmyz.jpg ",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1728904469/DSC03342_zqjrgz.jpg ",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1728904472/Rebonded_100_Density_100mm_700_x_400_px_12_1_qoijui.jpg ",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729077747/Rebonded_100_Density_100mm_700_x_400_px_53_kibebd.jpg",//spf
 
   ],
   orthoBonnel_Alovera_with_memory :[
@@ -185,66 +189,95 @@ export const productImages = {
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1728904651/DSC03158_bduqg6.jpg",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1728904654/DSC03163_y1sbra.jpg",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1728904656/Rebonded_100_Density_100mm_700_x_400_px_15_1_nzuxpp.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729077774/Rebonded_100_Density_100mm_700_x_400_px_54_flvcre.jpg",//spf
 
   ],
 
   // ---------Pocketed-Spring-Collection--------
 
+  silver_crown:[
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729079079/Rebonded_100_Density_100mm_700_x_400_px_58_jmzokf.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729079078/Rebonded_100_Density_100mm_700_x_400_px_57_revy6j.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729079081/Rebonded_100_Density_100mm_700_x_400_px_59_g8kcs9.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729079084/Rebonded_100_Density_100mm_700_x_400_px_60_pxoi7c.jpg",
+  ],
+
+
   inspiration: [
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727261282/DSC02082_ikx7ky.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727261283/DSC02083_s5dzo3.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727261278/DSC02086_iejmho.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729073020/DSC02082_ymup2l.jpg ",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729073034/DSC02083_wdftdu.jpg ",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729073023/DSC02084_wutxai.jpg ",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729073023/Rebonded_100_Density_100mm_700_x_400_px_45_1_gui91e.jpg",
+  ],
+
+  the_hotel_luxury:[
+
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729073150/DSC03270_bseaqp.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729073151/DSC03272_wdlcqq.jpg ",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729073152/DSC03282_spld8x.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729073152/Rebonded_100_Density_100mm_700_x_400_px_27_iocxrr.jpg ",
+    
+
   ],
 
   Eternity_Euroton: [
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727786127/eternity_bnrr_ewgc5o.png",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261422/DSC02120_bjf9km.jpg ",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727261423/DSC02123_gwykre.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727261425/DSC02123a_xasmnc.jpg",
+    // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727786127/eternity_bnrr_ewgc5o.png",// bnr
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729073243/DSC03243_htsg5j.jpg ",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729073244/DSC03246_vv3poy.jpg ",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729073246/DSC03251_demrwk.jpg ",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729073246/Rebonded_100_Density_100mm_700_x_400_px_46_1_l9wxau.jpg ",
   ],
-  // Aloe_Vera_With_Latex:[
+   pocketed_Aloe_Vera_With_Latex:[
 
-  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260013/DSC02058_y8rz3g.jpg ",
-  //   " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260014/DSC02060_tug0yd.jpg",
-  //  " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260065/DSC02061_d88ey8.jpg",
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729073484/DSC03157_scuv8b.jpg",
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729073406/DSC03338_sp1vzl.jpg ",
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729073407/DSC03342_nrmex4.jpg ",
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729073403/Rebonded_100_Density_100mm_700_x_400_px_12_1_rmro1r.jpg ",
+  
 
-  //  ],
+  ],
 
-  //  Aloe_Vera_With_Memory:[
+   pocketed_Aloe_Vera_With_Memory:[
 
-  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260128/DSC02137_ts4tze.jpg ",
-  //   "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260130/DSC02138_obuxug.jpg ",
-  //   " https://res.cloudinary.com/dpsmbluby/image/upload/v1727260131/DSC02145_khuuqm.jpg",
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729073484/DSC03157_scuv8b.jpg ",
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729073485/DSC03158_odcxgq.jpg ",
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729073486/DSC03163_kdxswi.jpg ",
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729073486/Rebonded_100_Density_100mm_700_x_400_px_15_1_qodqsb.jpg ",
+   
 
-  //  ],
+   ],
 
   //  -------------HR-PU-FOAM--------------------
 
   gravity: [
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261603/DSC02152_n4qzkd.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261604/DSC02154_cf3usg.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261606/DSC02157_t44xyz.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729074699/DSC02158_y3xxis.jpg ",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729074685/DSC02159_i9woaj.jpg ",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729074684/DSC02160_p5mhhb.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729074681/DSC02163_rtmdzk.jpg ",
   ],
   space: [
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261603/DSC02152_n4qzkd.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261604/DSC02154_cf3usg.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261606/DSC02157_t44xyz.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729078635/DSC03397_ldsmum.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729078638/DSC03403_ppzii1.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729078755/DSC03404_nowe89.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729078753/Rebonded_100_Density_100mm_700_x_400_px_56_1_wereaw.jpg",
   ],
   plush: [
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261603/DSC02152_n4qzkd.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261604/DSC02154_cf3usg.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261606/DSC02157_t44xyz.jpg",
   ],
-  techniko: [
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261603/DSC02152_n4qzkd.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261604/DSC02154_cf3usg.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261606/DSC02157_t44xyz.jpg",
+  memory_active: [
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729075064/DSC03353_qvvnsb.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729075066/DSC03360_kh9vj7.jpg ",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729075066/DSC03364_qq8eef.jpg ",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729075068/Rebonded_100_Density_100mm_700_x_400_px_47_1_uemsbd.jpg ",
   ],
   rose: [
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727785033/rose_bnr_tyf1xw.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261603/DSC02152_n4qzkd.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261604/DSC02154_cf3usg.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261606/DSC02157_t44xyz.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729077815/DSC03292_if65no.jpg ",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729077816/DSC03294_f7expj.jpg ",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729077817/DSC03299_jytkbn.jpg ",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729077819/Rebonded_100_Density_100mm_700_x_400_px_55_1_g63lha.jpg ",
+
   ],
 
   // --------------------Beds---------------

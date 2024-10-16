@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar/Navbar.jsx";
-import Products from "./pages/Products/Product.jsx";
+// import Products from "./pages/Products/Product.jsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import GoToTop from "./components/GoToTop/GoToTop.jsx";
 import Whatsaap from "./components/Whatsapp/Whatsapp.jsx";
@@ -37,7 +37,7 @@ function App() {
 
             <Routes>
               <Route path="/" Component={Home} />
-              <Route path="/products" Component={Products} />
+              {/* <Route path="/products" Component={Products} /> */}
 
               <Route path="/product-types" element={<ProductTypes />} />
 

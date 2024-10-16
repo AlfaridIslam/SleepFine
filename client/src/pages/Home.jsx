@@ -17,20 +17,19 @@ const Home = () => {
     <div className="xl:overflow-hidden">
       <HeroSection/>
       {/* <Carousel /> */}
-      <Section1 />
 
+      <Section1 /> 
+      <ProductsScrolling /> 
+      <Testimonial />
+      <Updates />
+      <Offersdisplay/> 
+      <Footer />
       {/* <Section3 /> */}
       {/* <Section2 /> */}
 
-      <ProductsScrolling />
-
-      <Testimonial />
-
-      <Updates />
-      <Offersdisplay/>
-      {/* <ContactForm/> */}
-      <Footer />
       {/* <SofaSample/> */}
+       {/* <ContactForm/> */}
+
     </div>
   );
 };
