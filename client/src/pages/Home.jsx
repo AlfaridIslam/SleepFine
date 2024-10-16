@@ -15,24 +15,22 @@ import SofaSample from "../components/SofaSample/SofaSample"
 const Home = () => {
   return (
     <div className="xl:overflow-hidden">
-      {/* <HeroSection/> */}
+      <HeroSection/>
       {/* <Carousel /> */}
-      {/* <Section1 /> */}
-
+      <Section1 />
 
       {/* <Section3 /> */}
       {/* <Section2 /> */}
-{/* 
-      <ProductsScrolling /> */}
 
-      {/* <Testimonial /> */}
+      <ProductsScrolling />
 
-     
-      {/* <Updates /> */}
-      {/* <Offersdisplay/> */}
+      <Testimonial />
+
+      <Updates />
+      <Offersdisplay/>
       {/* <ContactForm/> */}
-      {/* <Footer /> */}
-      <SofaSample/>
+      <Footer />
+      {/* <SofaSample/> */}
     </div>
   );
 };

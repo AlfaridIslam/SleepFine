@@ -16,6 +16,10 @@ const WarrantyForm = () => {
     city: "",
     selectedProduct: "",
     selectedVariety: "",
+    sizeType: "standard",
+    customLength: "",
+    customBreadth: "",
+    customHeight: "",
     length: "",
     breadth: "",
     height: "",
@@ -79,6 +83,7 @@ const WarrantyForm = () => {
       "Memofy",
     ],
     "Ortho Bonnell Spring Collection": [
+      "Silver Crown",
       "Oxford",
       "LoveLand",
       "Romantic Euroton",
@@ -149,11 +154,11 @@ const WarrantyForm = () => {
       "Orthomed",
       "Preference",
       "Memofy",
-      "Oxford",
+      "Silver Crown",
       "Space",
       "Inspiration",
     ],
-    "7 years": ["Milange", "Rose by Rose"],
+    "7 years": ["Milange", "Rose by Rose", "Oxford"],
     "2.5 years": ["Gravity"],
   };
 
@@ -243,9 +248,7 @@ const WarrantyForm = () => {
       "city",
       "selectedProduct",
       "selectedVariety",
-      "length",
-      "breadth",
-      "height",
+      "sizeType",
       "orderNumber",
       "invoiceDate",
     ];
@@ -260,6 +263,12 @@ const WarrantyForm = () => {
       requiredFields.push("dealerName");
     }
     const missingFields = requiredFields.filter((field) => !formData[field]);
+
+    if (formData.sizeType === "standard") {
+      requiredFields.push("length", "breadth", "height");
+    } else {
+      requiredFields.push("customLength", "customBreadth", "customHeight");
+    }
 
     if (missingFields.length > 0) {
       setFormError(
@@ -280,27 +289,39 @@ const WarrantyForm = () => {
       // Generate PDF
       const pdfDoc = await generatePDF();
 
-      const transformedData = {
-        "Customer Name": formData.customerName,
-        "Mobile Number": formData.mobileNumber,
-        "Email Id": formData.email,
-        Address: formData.address,
-        State: formData.state,
-        City: formData.city,
-        Product: formData.selectedProduct,
-        Variety: formData.selectedVariety,
-        Length: formData.length,
-        Breadth: formData.breadth,
-        Height: formData.height,
-        "Purchase From": formData.purchaseFrom,
-        ...(formData.purchaseFrom === "Store" && {
-          Store: formData.selectedStore,
-          "Dealer Name": formData.dealerName,
-        }),
-        "Order Number": formData.orderNumber,
-        "Invoice Date": formData.invoiceDate,
-        Warranty: formData.warranty,
-      };
+       const transformedData = {
+         "Customer Name": formData.customerName,
+         "Mobile Number": formData.mobileNumber,
+         "Email Id": formData.email,
+         Address: formData.address,
+         State: formData.state,
+         City: formData.city,
+         Product: formData.selectedProduct,
+         Variety: formData.selectedVariety,
+         "Size Type": formData.sizeType,
+         Length:
+           formData.sizeType === "standard"
+             ? formData.length
+             : formData.customLength,
+         Breadth:
+           formData.sizeType === "standard"
+             ? formData.breadth
+             : formData.customBreadth,
+         Height:
+           formData.sizeType === "standard"
+             ? formData.height
+             : formData.customHeight,
+         "Purchase From": formData.purchaseFrom,
+         ...(formData.purchaseFrom === "Store" && {
+           Store: formData.selectedStore,
+         }),
+         ...(formData.purchaseFrom === "Others" && {
+           "Dealer Name": formData.dealerName,
+         }),
+         "Order Number": formData.orderNumber,
+         "Invoice Date": formData.invoiceDate,
+         Warranty: formData.warranty,
+       };
 
       console.log("Transformed data being sent:", transformedData);
 
@@ -448,54 +469,93 @@ const WarrantyForm = () => {
         {/* SIZES */}
         <div className="mb-4">
           <label className="block text-gray-700">Size</label>
-          <div className="flex space-x-4 sm:space-x-[0px]">
-            <select
-              name="length"
-              value={formData.length}
-              onChange={handleInputChange}
-              required
-              className="w-full sm:px-0 xl:px-2 py-2 border rounded shadow-sm"
-            >
-              <option value="">Select Length</option>
-              <option value="72 inches">72 inches</option>
-              <option value="75 inches">75 inches</option>
-              <option value="78 inches">78 inches</option>
-            </select>
+          <select
+            name="sizeType"
+            value={formData.sizeType}
+            onChange={handleInputChange}
+            className="w-full px-3 py-2 border rounded shadow-sm mb-2"
+          >
+            <option value="standard">Standard</option>
+            <option value="customized">Customized</option>
+          </select>
 
-            <select
-              name="breadth"
-              value={formData.breadth}
-              onChange={handleInputChange}
-              required
-              className="w-full sm:px-0 xl:px-1 py-2 border rounded shadow-sm"
-            >
-              <option value="">Select Breadth</option>
-              <option value="30 inches">30 inches</option>
-              <option value="36 inches">36 inches</option>
-              <option value="42 inches">42 inches</option>
-              <option value="48 inches">48 inches</option>
-              <option value="60 inches">60 inches</option>
-              <option value="66 inches">66 inches</option>
-              <option value="72 inches">72 inches</option>
-            </select>
+          {formData.sizeType === "standard" ? (
+            <div className="flex space-x-4 sm:space-x-[0px]">
+              <select
+                name="length"
+                value={formData.length}
+                onChange={handleInputChange}
+                required
+                className="w-full sm:px-0 xl:px-2 py-2 border rounded shadow-sm"
+              >
+                <option value="">Select Length</option>
+                <option value="72 inches">72 inches</option>
+                <option value="75 inches">75 inches</option>
+                <option value="78 inches">78 inches</option>
+              </select>
 
-            <select
-              name="height"
-              value={formData.height}
-              onChange={handleInputChange}
-              required
-              className="w-full sm:px-0 xl:px-3 py-2 border rounded shadow-sm"
-            >
-              <option value="">Select Height</option>
-              <option value="5 inches">5 inches</option>
-              <option value="6 inches">6 inches</option>
-              <option value="7 inches">7 inches</option>
-              <option value="8 inches">8 inches</option>
-              <option value="10 inches">10 inches</option>
-              <option value="12 inches">12 inches</option>
-              <option value="14 inches">14 inches</option>
-            </select>
-          </div>
+              <select
+                name="breadth"
+                value={formData.breadth}
+                onChange={handleInputChange}
+                required
+                className="w-full sm:px-0 xl:px-1 py-2 border rounded shadow-sm"
+              >
+                <option value="">Select Breadth</option>
+                <option value="30 inches">30 inches</option>
+                <option value="36 inches">36 inches</option>
+                <option value="42 inches">42 inches</option>
+                <option value="48 inches">48 inches</option>
+                <option value="60 inches">60 inches</option>
+                <option value="66 inches">66 inches</option>
+                <option value="72 inches">72 inches</option>
+              </select>
+
+              <select
+                name="height"
+                value={formData.height}
+                onChange={handleInputChange}
+                required
+                className="w-full sm:px-0 xl:px-3 py-2 border rounded shadow-sm"
+              >
+                <option value="">Select Height</option>
+                <option value="5 inches">5 inches</option>
+                <option value="6 inches">6 inches</option>
+                <option value="7 inches">7 inches</option>
+                <option value="8 inches">8 inches</option>
+                <option value="10 inches">10 inches</option>
+                <option value="12 inches">12 inches</option>
+                <option value="14 inches">14 inches</option>
+              </select>
+            </div>
+          ) : (
+            <div className="flex space-x-4 sm:space-x-[0px]">
+              <input
+                type="text"
+                name="customLength"
+                value={formData.customLength}
+                onChange={handleInputChange}
+                placeholder="L (inches)"
+                className="w-full sm:px-0 xl:px-2 py-2 border rounded shadow-sm"
+              />
+              <input
+                type="text"
+                name="customBreadth"
+                value={formData.customBreadth}
+                onChange={handleInputChange}
+                placeholder="B (inches)"
+                className="w-full sm:px-0 xl:px-1 py-2 border rounded shadow-sm"
+              />
+              <input
+                type="text"
+                name="customHeight"
+                value={formData.customHeight}
+                onChange={handleInputChange}
+                placeholder="H (inches)"
+                className="w-full sm:px-0 xl:px-3 py-2 border rounded shadow-sm"
+              />
+            </div>
+          )}
         </div>
         {/* Purchase Details section */}
         <div className="mb-4">

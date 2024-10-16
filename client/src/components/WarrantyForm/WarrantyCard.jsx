@@ -13,6 +13,10 @@ const WarrantyCardTemplate = React.forwardRef(({ data }, ref) => {
     city,
     selectedProduct,
     selectedVariety,
+    sizeType,
+    customLength,
+    customBreadth,
+    customHeight,
     length,
     breadth,
     height,
@@ -23,6 +27,10 @@ const WarrantyCardTemplate = React.forwardRef(({ data }, ref) => {
     invoiceDate,
     warranty,
   } = data;
+
+  const displayLength = sizeType === "standard" ? length : customLength;
+  const displayBreadth = sizeType === "standard" ? breadth : customBreadth;
+  const displayHeight = sizeType === "standard" ? height : customHeight;
 
   return (
     <div
@@ -68,10 +76,10 @@ const WarrantyCardTemplate = React.forwardRef(({ data }, ref) => {
             ) : (
               dealerName && <p>Dealer Name: {dealerName}</p>
             )}
-            <p>Size:</p>
-            <p>Length:{length}</p>
-            <p>Breadth:{breadth}</p>
-            <p>Height:{height}</p>
+            <p>Size Type: {sizeType}</p>
+            <p>Length: {displayLength}</p>
+            <p>Breadth: {displayBreadth}</p>
+            <p>Height: {displayHeight}</p>
           </div>
         </div>
 
