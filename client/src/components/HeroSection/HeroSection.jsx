@@ -28,15 +28,15 @@ const HeroSection = () => {
       {/* Background with overlay */}
       <div className="absolute inset-0 bg-black/20">
         {/* Video for xl screens only */}
-        <div className="hidden xl:block h-full">
+        <div className="hidden xl:block xl:h-full">
           <video
             autoPlay
             loop
             // muted={videoMusic} // Controlled by videoMusic state (unmuted initially)
             playsInline
-            className="absolute top-0 left-0 w-full h-full object-cover"
+            className="absolute top-0 left-0 w-full h-[100%] object-fill"
           >
-            <source src={Video} type="video/mp4" />
+            <source src="https://res.cloudinary.com/dpsmbluby/video/upload/v1729078661/HAPPY_DUSSEHRE_DIWALI_2_cvtvka.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
 
@@ -63,16 +63,16 @@ const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <div className="relative  container mx-auto xl:mt-[10rem] sm:mt-8 px-4 ">
+      <div className="relative  container mx-auto xl:mt-[10rem]  sm:mt-8 px-4  ">
         <h1
           className="text-[#e9d2ba] text-5xl xl:text-[60px] font-extrabold leading-tight xl:leading-[56px] mb-8  xl:mt-0
          sm:px-4 xl:px-24 sm:mt-[-1rem]"
         >
           {/* SleepFine<sup className="top-[-30px] text-[14px]">(R)</sup> */}
           <img
-            src={SleepFineR}
+            src="https://res.cloudinary.com/dpsmbluby/image/upload/v1729065419/SleepFine_R_2_1_u2lg4f.png"
             alt="sleepfine"
-            className="absolute xl:-top-[162px] xl:right-[331px] sm:-top-[44px] sm:right-[28px]
+            className="absolute xl:-top-[120px] xl:left-[75px] sm:-top-[44px] xl:h-60 sm:left-[15px]
              md:-top-[91px] md:right-[59px] lg:-top-[174px] lg:right-[119px]"
           />
           <br />
