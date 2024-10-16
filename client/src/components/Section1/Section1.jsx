@@ -26,7 +26,7 @@ const Section1 = () => {
             className={`${
               showFullContent
                 ? "xl:w-[2600px] xl:h-[160px]"
-                : "xl:w-[3000px] xl:h-[160px]"
+                : "xl:w-[3000px] xl:h-[200px]"
             } transition-all duration-500`}
           />
         </div>

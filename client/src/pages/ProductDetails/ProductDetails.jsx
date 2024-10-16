@@ -960,7 +960,7 @@ const productData = {
   },
   "ortho-bonnell-aloe-vera-with-latex": {
     // images: [AloeveraBanner, AloveraBonnel1, AloveraBonnel2, AloveraBonnel3],
-    images: productImages.orthopedic_alovera_latex,
+    images: productImages.orthoBonnel_Alovera_with_latex,
     description: `
 
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
@@ -1008,7 +1008,7 @@ const productData = {
     //   OrthopedicAloeveraMemory2,
     //   OrthopedicAloeveraMemory6,
     // ],
-    images: productImages.orthopedic_alovera_memory,
+    images: productImages.orthoBonnel_Alovera_with_memory,
     description: `
 
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
@@ -1111,7 +1111,7 @@ const productData = {
     </div>
     <div>
     <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
+    <p>10 years</p>
     </div>
     <div>
     <h2 class="font-bold">Ratings</h2>
@@ -1617,7 +1617,7 @@ const ProductDetails = () => {
 
   // WhatsApp enquiry function
   const handleEnquiryClick = () => {
-    const whatsappNumber = "9346023775"; // Replace with your WhatsApp number
+    const whatsappNumber = "+918062181296"; // Replace with your WhatsApp number
     const currentUrl = window.location.href; // Get the current URL
     const productImage = `${productInfo.images[currentImageIndex]}`; // Get the full image URL
     const message = `Check out this product:\n${currentUrl}\n\nImage:\n${productImage}`; // to get both url and image link

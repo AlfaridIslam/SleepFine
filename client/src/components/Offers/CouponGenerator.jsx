@@ -21,7 +21,7 @@ const SendCoupon = () => {
 
   // Function to generate WhatsApp URL
   const sendWhatsAppMessage = () => {
-    const phoneNumber = "+919346023775"; 
+    const phoneNumber = "+918062181296"; 
     const message = `My exclusive mattress coupon code is: ${couponCode}`;
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
