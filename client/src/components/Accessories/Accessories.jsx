@@ -52,7 +52,7 @@ const Accessories = () => {
                 <div className="grid">
                 <Link to="product-details/protector" className="px-4 py-2 hover:bg-indigo-100">Water-Proof Protector</Link>
                 <Link to="product-details/quilted-protector" className="px-4 py-2 hover:bg-indigo-100">Quilted protector</Link>
-                <Link to="product-details/fitted-protector"className="px-4 py-2 hover:bg-indigo-100">Fitted Sheet Protector</Link>
+                
                 </div>
                 {/* <div className="px-4 py-2 hover:bg-indigo-100">
                 <Link
@@ -146,6 +146,17 @@ const Accessories = () => {
               </div>
             )}
           </div>
+          <Link to="product-details/duvet">
+          <div className="px-4 py-2 rounded-lg hover:bg-slate-200  hover:text-black">
+           Duvets 
+          </div>
+          </Link>
+          
+          <Link to="product-details/comforters">
+          <div className="px-4 py-2 rounded-lg hover:bg-slate-200  hover:text-black">
+          Comforters 
+          </div>
+          </Link>
          
         </div>
       )}

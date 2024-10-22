@@ -778,47 +778,6 @@ const productData = {
 
   // ORTHO BONNELL
 
-  
-  "silver-crown": {
-    // images: [Hotel1, Hotel2, Hotel3],
-    images: productImages.silver_crown,
-    description: `
-
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">The Silver Crown</div>
-    This mattress is designed for those who seek luxurious comfort combined with advanced support. It features a multi-layered construction with memory foam and high-resilience (HR) foam that adapts to the body's contours, offering superior pressure relief and comfort.<br><br>
-    <h2 class="font-bold">Advanced Support</h2>
-    The Silver Crown mattress provides medium-firm support, perfect for individuals looking for a balance between soft comfort and essential body support. It aids in maintaining spinal alignment while relieving stress from pressure points, making it ideal for a variety of sleep positions.<br><br>
-    <h2 class="font-bold">Firmness</h2>
-    The mattress offers a medium-firm sleeping surface that cradles the body while providing enough resistance to ensure proper posture. It's a versatile option for sleepers who prefer a balanced combination of softness and support.<br><br>
-     <h2 class="font-bold">Comfort</h2>
-     The Silver Crown mattress is crafted with a top layer of memory foam that adjusts to body shape, while the HR foam core provides underlying support. This results in a plush feel without sacrificing support, ideal for those looking to enjoy restful and uninterrupted sleep.<br><br>
-    <h2 class="font-bold">Breathability & Upholstery</h2>
-    Enhanced breathability is a hallmark of the Silver Crown, with a cover made from premium 300gsm knitted Viscose fabric. This material is designed to be both soft and breathable, ensuring a cool, dry, and hygienic sleeping environment throughout the night.<br>
-    <b>Upholstered with FR (Fire Retardent) Fabric.</b>
-    <div class="flex justify-start mt-2 items-center gap-10">
-    <div class="flex-col">
-    <h2 class="font-bold">Height</h2>
-    <p>6&7inches</p>
-    </div>
-    <div>
-    <h2 class="font-bold">Warranty</h2>
-    <p>5years</p>
-    </div>
-    <div>
-    <h2 class="font-bold">Variant</h2>
-    <p>TightTop&nbsp;&TightTop </p>
-    </div>
-    <div>
-    <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐</p>
-    </div>
-    </div>
-    </div>
-  `,
-  },
-
-
   oxford: {
     // images: [oxford1, oxford2, oxford6],
     images: productImages.oxford,
@@ -844,7 +803,7 @@ const productData = {
     </div>
     <div>
     <h2 class="font-bold">Warranty</h2>
-    <p>7 years</p>
+    <p>5 years</p>
     </div>
     <div>
     <h2 class="font-bold">Ratings</h2>
@@ -1001,7 +960,7 @@ const productData = {
   },
   "ortho-bonnell-aloe-vera-with-latex": {
     // images: [AloeveraBanner, AloveraBonnel1, AloveraBonnel2, AloveraBonnel3],
-    images: productImages.orthoBonnel_Alovera_with_latex,
+    images: productImages.orthopedic_alovera_latex,
     description: `
 
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
@@ -1049,7 +1008,7 @@ const productData = {
     //   OrthopedicAloeveraMemory2,
     //   OrthopedicAloeveraMemory6,
     // ],
-    images: productImages.orthoBonnel_Alovera_with_memory,
+    images: productImages.orthopedic_alovera_memory,
     description: `
 
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
@@ -1132,44 +1091,6 @@ const productData = {
     </div>
   `,
   },
-
-  "the-hotel-luxury": {
-    // images: [Hotel1, Hotel2, Hotel3],
-    images: productImages. the_hotel_luxury,
-    description: `
-
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">The Hotels: The Perfect Blend of Comfort and Durability</div>
-    Designed specifically for hospitality use, the Sleep Fine Bonnell Spring Mattress offers the ideal combination of comfort, support, and durability, making it perfect for hotel environments. This mattress is engineered with high-quality Bonnell springs, providing consistent support and lasting comfort for guests, ensuring they wake up feeling refreshed and rejuvenated.<br><br>
-    <h2 class="font-bold">Superior Support for All Sleepers</h2>
-    The interconnected Bonnell spring system evenly distributes body weight, ensuring optimal spinal alignment and reducing pressure points. This makes it an excellent choice for a wide range of guests, offering both firm support and cushioned comfort. Its ability to adapt to different body types and sleeping positions makes it the go-to mattress for hotels that want to provide top-tier comfort for every guest.<br><br>
-    <h2 class="font-bold">Built for Durability</h2>
-    Hotels require mattresses that can withstand frequent use without losing their shape or support. The Bonnell Spring Mattress is crafted to be highly durable, maintaining its structural integrity over time. The robust spring system is designed to resist sagging, ensuring the mattress retains its form and provides long-lasting comfort, even in high-traffic settings.<br><br>
-    <h2 class="font-bold">Exceptional Comfort and Breathability</h2>
-    This mattress combines firm support with a plush comfort layer, offering a balanced sleeping experience that caters to different preferences. The open-coil structure also promotes airflow, keeping the mattress cool and fresh, an important feature in a hospitality setting where comfort and hygiene are key.<br>
-    <b>Upholstered with FR (Fire Retardent) Fabric.</b>
-
-    <div class="flex justify-start mt-2 items-center gap-10">
-    <div class="flex-col">
-    <h2 class="font-bold">Height</h2>
-    <p>6, 8 & 10 inches</p>
-    </div>
-    <div>
-    <h2 class="font-bold">Warranty</h2>
-    <p>As per agreement (min 5years)</p>
-    </div>
-    <div>
-    <h2 class="font-bold">Variant</h2>
-    <p>TightTop &Pillow-Top</p>
-    </div>
-    <div>
-    <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐</p>
-    </div>
-    </div>
-    </div>
-  `,
-  },
   "pocketed-spring-6inch-eternity-euroton": {
     // images: [EternityEuroton1, EternityEuroton2, EternityEuroton3],
     images: productImages.Eternity_Euroton,
@@ -1190,7 +1111,7 @@ const productData = {
     </div>
     <div>
     <h2 class="font-bold">Warranty</h2>
-    <p>10 years</p>
+    <p>5 years</p>
     </div>
     <div>
     <h2 class="font-bold">Ratings</h2>
@@ -1202,7 +1123,7 @@ const productData = {
   },
   "pocketed-spring-aloe-vera-with-latex": {
     // images: [AloeveraBanner, AloveraBonnel1, AloveraBonnel2, AloveraBonnel3],
-    images: productImages.pocketed_Aloe_Vera_With_Latex,
+    images: productImages.orthopedic_alovera_latex,
     description: `
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Pocketed Spring Aloe Vera with Latex Mattress</div>
@@ -1246,7 +1167,7 @@ const productData = {
     //   OrthopedicAloeveraMemory2,
     //   OrthopedicAloeveraMemory6,
     // ],
-    images: productImages.pocketed_Aloe_Vera_With_Memory,
+    images: productImages.orthopedic_alovera_memory,
     description: `
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Pocketed Spring Aloe Vera with Memory Foam Mattress</div>
@@ -1356,7 +1277,7 @@ const productData = {
 
   "memory-active": {
     // images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5],
-    images: productImages.memory_active,
+    images: productImages.plush,
     description: `
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">HR PU Foam Memory Active Eurotop </div>
@@ -1576,6 +1497,59 @@ const productData = {
     </div>
   `,
   },
+
+
+  "duvet": {
+    
+    images: productImages.duvets,
+    description: `
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
+    <div class="text-xl font-semibold my-[6px]">Duvets</div>
+    <h2 class=" font-bold">Elevate Your Comfort with Opulent Design</h2>
+    Our exquisite quilt is crafted from 1000 TC Oeko-Tex 100 certified satin fabric, ensuring a luxurious touch for your bedroom. The quilt features a generous filling of 260 GSM poly fibre wadding, providing warmth and comfort without compromising on style. Available in sizes 90" x 100"(Double) and 66" x 90"(Single), it’s perfect for any space.<br><br>
+
+    <h2 class="font-bold">Sumptuous Softness & Durability</h2>
+    This quilt combines a silky satin surface with a plush interior, creating an inviting layer of softness. The high thread count not only enhances its aesthetic appeal but also ensures durability, making it a long-lasting addition to your bedding collection.<br><br>
+
+    <h2 class="font-bold">Hypoallergenic & Easy Care</h2>
+   Designed with your health in mind, our quilt is made from hypoallergenic materials, helping to reduce allergens and provide a healthier sleep environment. It’s also machine washable, making maintenance a breeze—imply toss it in the washer for easy cleaning.<br><br>
+
+    <h2 class="font-bold">Versatile & Elegant Style</h2>
+    With its elegant design and rich texture, this quilt complements a variety of decor styles. Whether you’re updating your bedroom or adding a cozy layer to your living space, it’s the perfect choice for enhancing comfort and style in your home. <br><br>
+
+    <h2 class="font-bold">Size</h2>
+    <p> "90 x 100"(Double) , "66 x 90"(Single)</p>
+    </div>
+  `,
+  },
+  "comforters": {
+   
+    images: productImages.comforters,
+    description: `
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
+    <div class="text-xl font-semibold my-[6px]">Comforters</div>
+
+    <h2 class=" font-bold">Elevate Your Comfort with Opulent Design</h2>
+    Our exquisite quilt is crafted from 1000 TC Oeko-Tex 100 certified floral satin fabric, ensuring a luxurious touch for your bedroom. The quilt features a generous filling of 300 GSM non-siliconised poly fibre wadding, providing warmth and comfort without compromising on style. Available in sizes 90" x 100"(Double) and 66" x 90"(Single), it’s perfect for any space.<br><br>
+
+    <h2 class="font-bold">Sumptuous Softness & Durability</h2>
+    This quilt combines a silky satin surface with a plush interior, creating an inviting layer of softness. The high thread count not only enhances its aesthetic appeal but also ensures durability, making it a long-lasting addition to your bedding collection.<br><br>
+
+    <h2 class="font-bold">Hypoallergenic & Easy Care</h2>
+    Designed with your health in mind, our quilt is made from hypoallergenic materials, helping to reduce allergens and provide a healthier sleep environment. It’s also machine washable, making maintenance a breeze—simply toss it in the washer for easy cleaning.<br><br>
+
+    <h2 class="font-bold">Versatile & Elegant Style</h2>
+    With its elegant floral design and rich texture, this quilt complements a variety of decor styles. Whether you’re updating your bedroom or adding a cozy layer to your living space, it’s the perfect choice for enhancing comfort and style in your home. <br><br>
+
+    <h2 class="font-bold">Size</h2>
+    <p> "90 x 100"(Double) , "66 x 90"(Single)</p>
+    </div>
+  `,
+  },
+
+
+
+
 };
 
 const ProductDetails = () => {
@@ -1696,7 +1670,7 @@ const ProductDetails = () => {
 
   // WhatsApp enquiry function
   const handleEnquiryClick = () => {
-    const whatsappNumber = "+918062181296"; // Replace with your WhatsApp number
+    const whatsappNumber = "9346023775"; // Replace with your WhatsApp number
     const currentUrl = window.location.href; // Get the current URL
     const productImage = `${productInfo.images[currentImageIndex]}`; // Get the full image URL
     const message = `Check out this product:\n${currentUrl}\n\nImage:\n${productImage}`; // to get both url and image link
@@ -1710,7 +1684,7 @@ const ProductDetails = () => {
   return (
     <>
       <Link
-        to="/"
+        to="/products"
         className="back cursor-pointer absolute rounded-md
          bg-red-300 text-black xl:text-[13px] xl:top-[160px] xl:left-[30px] xl:py-[2px] xl:pr-[22px] xl:pl-[25px] xl:px-0 xl:ml-0 xl:mt-0
           sm:text-lg sm:px-4 sm:ml-8 sm:mt-4 sm:p-[12px]"
@@ -1816,3 +1790,5 @@ const ProductDetails = () => {
 };
 
 export default ProductDetails;
+
+

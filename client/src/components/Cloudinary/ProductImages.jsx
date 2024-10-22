@@ -396,33 +396,37 @@ export const productImages = {
   //----------Accessories------
   //protrectors
   waterproof_protectors: [
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264076/BaffleBox_qq0ojm.jpg ",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727264078/SewnThrough_lk0in9.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729500348/Sleep_Fine_4_qmlyay.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729500347/Sleep_Fine_5_q0zyyl.jpg",
+    
   ],
   Quilted_protectors: [
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264076/BaffleBox_qq0ojm.jpg ",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727264078/SewnThrough_lk0in9.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729504619/Sleep_Fine_15_jckbx2.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729501983/Sleep_Fine_12_njpahh.jpg",
+    
   ],
   fitted_protectors: [
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264076/BaffleBox_qq0ojm.jpg ",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727264078/SewnThrough_lk0in9.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729500302/Sleep_Fine_8_sckztf.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729500302/Sleep_Fine_9_eij9sz.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729500302/Sleep_Fine_10_vilrrf.jpg",
   ],
 
   //Pillow
 
   Memory_pillow: [
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264286/Memoryfoam_Pillow1_vqewfs.jpg ",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264289/Memoryfoam_Pillow2_evrsjy.jpg ",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264291/Memoryfoam_Pillow3_iqfkra.jpg ",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727264294/Memoryfoam_Pillow4_nzk3ls.jpg",
+   
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729573923/memorypillow3_ktxwzp.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729573922/memorypillow2_zmskkf.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729573923/memorypillow1_d9q76n.jpg",
   ],
-  latexy_pillow: [
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264360/LatexPillow1_spx6l4.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264363/LatexPillow2_hneeoa.jpg ",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727264365/LatexPillow3_bhxjmg.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727264368/LatexPillow4_ftovke.jpg",
+
+ latexy_pillow: [
+   
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729573889/latexpillow3_cfnf2k.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729573888/latexpillow2_dlnsqj.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729573889/latexpillow1_pu3agr.jpg",
   ],
-  foam_pillow: [
+ foam_pillow: [
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727265486/Foampillow1_pcmsww.jpg",
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727265483/Foampillow2_rxnwgn.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727265485/Foampillow3_q0uijk.jpg ",
@@ -432,6 +436,16 @@ export const productImages = {
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727266137/PolyFiberPillow1_qpuvhp.png",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727266047/AloveraPolyfiberPillow2_jrtovb.jpg ",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727266048/AloveraPolyfiberPillow3_sisgsh.jpg ",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727265490/Foampillow4_mcdvvc.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727265490/Foampillow4_mcdvvc.jpg",
   ],
+  duvets:[
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729507141/Duvets1_rnmjti.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729507139/Duvets2_ltie2c.jpg",
+    
+  ],
+  comforters:[
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729507467/comforter3_gjo5ov.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729507069/comforter1_anpixa.jpg",
+   
+  ]
 };

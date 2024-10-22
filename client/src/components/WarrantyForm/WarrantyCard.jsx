@@ -1,6 +1,6 @@
 import React from "react";
 import QRcode from "../../assets/qr-code.jpeg";
-import logo from "../../assets/SleepFinelogoR.png";
+import logo from "../../assets/Warranty_logo.jpg";
 import warrantyQR from "../../assets/barcode-warranty-registration.jpg";
 
 const WarrantyCardTemplate = React.forwardRef(({ data }, ref) => {
@@ -39,17 +39,26 @@ const WarrantyCardTemplate = React.forwardRef(({ data }, ref) => {
        sm:m-[32px] xl:m-0"
     >
       {/* Header */}
-      <div className="bg-blue-300 text-white p-2 sm:p-4 xl:p-6 flex items-center justify-between gap-20">
+      <div className="  p-2 sm:p-4 xl:p-6 flex items-center justify-between ">
+
+        <div>
         <img
           src={logo}
           alt="Sleep Fine Logo"
-          className="h-8  sm:h-12  xl:h-16 "
+          className="h-8  sm:h-12  xl:h-20  xl:w-96"
         />
-        <img
-          src={warrantyQR}
-          alt="QR Code"
-          className="h-8  sm:h-12  xl:h-16 "
-        />
+         <p>Customer Support: 08062181296</p>
+         <p>Email: contact@sleepfineindia.com</p>
+        
+       
+        </div>
+        <div>
+        <h2 className="text-lg sm:text-xl xl:text-4xl -mt-10">Warranty Card</h2>
+        </div>
+
+       
+        
+       
       </div>
 
       {/* Content */}
@@ -57,7 +66,7 @@ const WarrantyCardTemplate = React.forwardRef(({ data }, ref) => {
         <h1>Terms and Conditions apply</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
-            <h2 className="text-lg sm:text-xl xl:text-2xl">Warranty Card</h2>
+           
             <h3 className="font-semibold">Customer Details</h3>
             <p>Name: {customerName}</p>
             <p>Address: {address}</p>
@@ -85,30 +94,14 @@ const WarrantyCardTemplate = React.forwardRef(({ data }, ref) => {
 
         <div className="mt-4">
           <h3 className="font-semibold">Purchase Details</h3>
-          <p>Order Number: {orderNumber}</p>
+          <p>Order/Inv: {orderNumber}</p>
           <p>Invoice Date: {invoiceDate}</p>
           <p>Warranty Period: {warranty}</p>
         </div>
       </div>
 
       {/* Footer */}
-      <div className="flex justify-between items-center mt-0 mb-2 ml-4 sm:m-[40px]">
-        <div className="text-xs sm:m-[32px]">
-          <p className="font-semibold">Contact Us:</p>
-          <p>Email: contact@sleepfineindia.com</p>
-          <p>Phone: 08062181296</p>
-        </div>
-        <div className="text-center">
-          <img
-            src={QRcode}
-            alt="QR code"
-            className="h-16 w-16 sm:h-20 sm:w-20 xl:h-18 xl:w-18"
-          />
-          <p className="mt-2 text-xs sm:text-sm xl:text-base">
-            Scan for website
-          </p>
-        </div>
-      </div>
+     
     </div>
   );
 });
