@@ -18,18 +18,20 @@ const Section1 = () => {
        sm:mt-4 sm:px-20 sm:flex sm:flex-col sm:justify-center sm:items-center sm:w-[158%] "
     >
       <div className="grid gap-5">
+
         <div className="image ">
           {/* Adjust image size dynamically based on content visibility */}
-          <img
+          {/* <img
             src="https://res.cloudinary.com/dpsmbluby/image/upload/v1728366495/ISPFlogo2_ud1lcw.jpg"
             alt="Image"
             className={`${
               showFullContent
                 ? "xl:w-[2600px] xl:h-[160px]"
-                : "xl:w-[3000px] xl:h-[160px]"
+                : "xl:w-[3000px] xl:h-[200px]"
             } transition-all duration-500`}
-          />
+          /> */}
         </div>
+        
         <div className="image ">
           {/* Adjust image size dynamically based on content visibility */}
           <img
@@ -59,7 +61,7 @@ const Section1 = () => {
         </p>
         <p className="sm:px-4 xl:px-0">
           <strong>Our Certificates & Awards</strong>
-          <img src="https://res.cloudinary.com/dpsmbluby/image/upload/v1728366574/certificate-logos_edly7a.png" alt="" className="h-40" />
+          <img src="https://res.cloudinary.com/dpsmbluby/image/upload/v1729062198/MEMBER_1_1_kgqjww.jpg" alt="" className="xl:h-48" />
         </p>
         <p className="poppins-light  xl:text-left xl:mt-0 sm:text-left sm:text-lg sm:mt-2 xl:px-0 sm:px-4">
           <strong>Our Story</strong>

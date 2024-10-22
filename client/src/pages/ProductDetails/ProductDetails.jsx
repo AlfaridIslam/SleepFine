@@ -1497,6 +1497,59 @@ const productData = {
     </div>
   `,
   },
+
+
+  "duvet": {
+    
+    images: productImages.duvets,
+    description: `
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
+    <div class="text-xl font-semibold my-[6px]">Duvets</div>
+    <h2 class=" font-bold">Elevate Your Comfort with Opulent Design</h2>
+    Our exquisite quilt is crafted from 1000 TC Oeko-Tex 100 certified satin fabric, ensuring a luxurious touch for your bedroom. The quilt features a generous filling of 260 GSM poly fibre wadding, providing warmth and comfort without compromising on style. Available in sizes 90" x 100"(Double) and 66" x 90"(Single), it’s perfect for any space.<br><br>
+
+    <h2 class="font-bold">Sumptuous Softness & Durability</h2>
+    This quilt combines a silky satin surface with a plush interior, creating an inviting layer of softness. The high thread count not only enhances its aesthetic appeal but also ensures durability, making it a long-lasting addition to your bedding collection.<br><br>
+
+    <h2 class="font-bold">Hypoallergenic & Easy Care</h2>
+   Designed with your health in mind, our quilt is made from hypoallergenic materials, helping to reduce allergens and provide a healthier sleep environment. It’s also machine washable, making maintenance a breeze—imply toss it in the washer for easy cleaning.<br><br>
+
+    <h2 class="font-bold">Versatile & Elegant Style</h2>
+    With its elegant design and rich texture, this quilt complements a variety of decor styles. Whether you’re updating your bedroom or adding a cozy layer to your living space, it’s the perfect choice for enhancing comfort and style in your home. <br><br>
+
+    <h2 class="font-bold">Size</h2>
+    <p> "90 x 100"(Double) , "66 x 90"(Single)</p>
+    </div>
+  `,
+  },
+  "comforters": {
+   
+    images: productImages.comforters,
+    description: `
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
+    <div class="text-xl font-semibold my-[6px]">Comforters</div>
+
+    <h2 class=" font-bold">Elevate Your Comfort with Opulent Design</h2>
+    Our exquisite quilt is crafted from 1000 TC Oeko-Tex 100 certified floral satin fabric, ensuring a luxurious touch for your bedroom. The quilt features a generous filling of 300 GSM non-siliconised poly fibre wadding, providing warmth and comfort without compromising on style. Available in sizes 90" x 100"(Double) and 66" x 90"(Single), it’s perfect for any space.<br><br>
+
+    <h2 class="font-bold">Sumptuous Softness & Durability</h2>
+    This quilt combines a silky satin surface with a plush interior, creating an inviting layer of softness. The high thread count not only enhances its aesthetic appeal but also ensures durability, making it a long-lasting addition to your bedding collection.<br><br>
+
+    <h2 class="font-bold">Hypoallergenic & Easy Care</h2>
+    Designed with your health in mind, our quilt is made from hypoallergenic materials, helping to reduce allergens and provide a healthier sleep environment. It’s also machine washable, making maintenance a breeze—simply toss it in the washer for easy cleaning.<br><br>
+
+    <h2 class="font-bold">Versatile & Elegant Style</h2>
+    With its elegant floral design and rich texture, this quilt complements a variety of decor styles. Whether you’re updating your bedroom or adding a cozy layer to your living space, it’s the perfect choice for enhancing comfort and style in your home. <br><br>
+
+    <h2 class="font-bold">Size</h2>
+    <p> "90 x 100"(Double) , "66 x 90"(Single)</p>
+    </div>
+  `,
+  },
+
+
+
+
 };
 
 const ProductDetails = () => {
@@ -1737,3 +1790,5 @@ const ProductDetails = () => {
 };
 
 export default ProductDetails;
+
+

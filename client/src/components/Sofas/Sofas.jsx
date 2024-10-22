@@ -154,3 +154,4 @@ const Sofas = () => {
 };
 
 export default Sofas;
+

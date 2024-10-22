@@ -15,3 +15,5 @@ describe('HeroSection', () => {
     screen.debug(); // prints out the JSX in the HeroSection component to the command line
   });
 });
+
+

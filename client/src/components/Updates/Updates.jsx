@@ -24,7 +24,7 @@ export const Updates = () => {
               <div className="space-y-4">
                 <p className="poppins-light text-sm xl:text-base">
                   ✨ Big Savings at Sleepfine! ✨ <br />
-                  Get your best night's sleep with up to 43% OFF on premium
+                  Get your best night's sleep with attractive discounts on premium
                   mattresses! 🛏️💤 Don't miss out on this limited-time offer to
                   enjoy unbeatable comfort at dreamy prices! 💸🔥
                   <br />

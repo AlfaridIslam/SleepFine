@@ -9,6 +9,6 @@ export default defineConfig({
     environment: 'jsdom',
     // hey! 👋 over here
     globals: true,
-    setupFiles: './src/components/tests/setup.jsx', // assuming the test folder is in the root of our project
+    setupFiles: './src/components/tests/setup.jsx', 
   }
 })

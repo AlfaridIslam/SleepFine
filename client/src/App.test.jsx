@@ -14,4 +14,3 @@ describe("App", () => {
     // Add more specific assertions here
   });
 });
-

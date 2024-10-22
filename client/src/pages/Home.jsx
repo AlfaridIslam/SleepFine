@@ -10,28 +10,26 @@ import ProductsScrolling from "../components/ProductsScrolling/ProductsScrolling
 import HeroSection from "../components/HeroSection/HeroSection";
 import Offersdisplay from "../components/Offers/OffersDisplay";
 import ContactForm from "../components/ContactForm/ContactForm";
-
+import SofaSample from "../components/SofaSample/SofaSample"
 
 const Home = () => {
   return (
     <div className="xl:overflow-hidden">
       <HeroSection/>
       {/* <Carousel /> */}
-      <Section1 />
 
-
+      <Section1 /> 
+      <ProductsScrolling /> 
+      <Testimonial />
+      <Updates />
+      <Offersdisplay/> 
+      <Footer />
       {/* <Section3 /> */}
       {/* <Section2 /> */}
 
-      <ProductsScrolling />
+      {/* <SofaSample/> */}
+       {/* <ContactForm/> */}
 
-      <Testimonial />
-
-     
-      <Updates />
-      <Offersdisplay/>
-      {/* <ContactForm/> */}
-      <Footer />
     </div>
   );
 };
