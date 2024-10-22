@@ -287,6 +287,7 @@ export const productImages = {
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729075066/DSC03364_qq8eef.jpg ",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729075068/Rebonded_100_Density_100mm_700_x_400_px_47_1_uemsbd.jpg ",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729164088/Rebonded_100_Density_100mm_700_x_400_px_78_sntb46.jpg",//spf
+    
   ],
   rose: [
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729077815/DSC03292_if65no.jpg ",
