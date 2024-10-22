@@ -85,7 +85,9 @@ const Navbar = () => {
 
         <Link to="/" className="">
           <img
-            src={logoR}
+           src={logoR}
+          // src="https://res.cloudinary.com/dpsmbluby/image/upload/v1729586943/Untitled_design_27_vhe9ks.png"
+         
             alt="Logo"
             className="xl:w-44   xl:h-14  xl:mt-5  xl:ml-0 xl:pb-0 xl:pt-0 xl:p-0  sm:justify-center sm:ml-[450px] sm:py-2  sm:h-20 sm:-mt-20"
           />

@@ -314,7 +314,7 @@ const ProductsScrolling = () => {
               <img
                 src={item.image}
                 alt={`Accessory ${index + 1}`}
-                className="transition-opacity duration-300 ease-in-out group-hover:opacity-0 w-full h-full object-cover rounded-xl"
+                className="transition-opacity duration-300 ease-in-out group-hover:opacity-0 w-full h-full  rounded-xl"
               />
 
               {/* Hover Image */}
