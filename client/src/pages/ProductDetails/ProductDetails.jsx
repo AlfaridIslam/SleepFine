@@ -1,203 +1,6 @@
 import React, { useState,useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
-// import {
-//   ORTRHOMED1,
-//   ORTRHOMED2,
-//   ORTRHOMED3,
-//   ORTRHOMED4,
-//   ORTRHOMED5,
-//   ORTRHOMED6,
-//   AloeveraBanner,
-//   BuckinghumBanner,
-//   PreferenceBanner,
-//   RomanticBanner,
-//   OrthopedicAloeveraLatexSpeci,
-//   OrthopedicAloeveraMemorySpeci,
-
-// orthomedbanner,
-// milangebanner,
-// preferencebanner,
-// buckinghumbanner,
-// memofybanner,
-// aloeveralatexbanner,
-// aloeveramemorybanner,
-
-//   Milange1,
-//   Milange2,
-//   Milange3,
-//   Milange4,
-//   Milange5,
-//   Milange6,
-//   MilangeSpeci,
-//   Preference1,
-//   Preference2,
-//   Preference3,
-//   Preference4,
-//   Preference5,
-//   Preference6,
-//   Buckingham1,
-//   Buckingham2,
-//   Buckingham3,
-//   Buckingham4,
-//   Buckingham5,
-//   Buckingham6,
-//   BuckinghumSpeci,
-//   Hotel1,
-//   Hotel2,
-//   Hotel3,
-//   OrthopedicAloeveraMemory1,
-//   OrthopedicAloeveraMemory2,
-//   OrthopedicAloeveraMemory3,
-//   OrthopedicAloeveraMemory4,
-//   OrthopedicAloeveraMemory5,
-//   OrthopedicAloeveraMemory6,
-//   //pufoam6
-//   SixinchPUFOAM1,
-//   SixinchPUFOAM2,
-//   SixinchPUFOAM3,
-//   SixinchPUFOAM4,
-//   SixinchPUFOAM5,
-//   oxford1,
-//   oxford2,
-//   oxford3,
-//   oxford4,
-//   oxford5,
-//   oxford6,
-//   EightinchPUFOAM1,
-//   EightinchPUFOAM2,
-//   EightinchPUFOAM3,
-//   EightinchPUFOAM4,
-//   EightinchPUFOAM5,
-//   AloveraBonnel1,
-//   AloveraBonnel2,
-//   AloveraBonnel3,
-//   AloveraBonnel4,
-//   Loveland1,
-//   Loveland2,
-//   Loveland3,
-//   Loveland4,
-//   Loveland5,
-//   Loveland6,
-//   Romanticfirm1,
-//   Romanticfirm2,
-//   Romanticfirm3,
-//   Romanticfirm4,
-//   Romanticfirm5,
-//   Romanticfirm6,
-//   OrthomedBanner,
-//   RoseByRosaBanner2,
-//   AmbitiousSleepingBanner3,
-//   RomanticBanner4,
-//   Orthospeci,
-//   InsperationalPocketed1,
-//   InsperationalPocketed2 ,
-//   InsperationalPocketed3 ,
-//   InsperationalPocketed4 ,
-//   InsperationalPocketed5 ,
-//   InsperationalPocketed6,
-
-//   EternityEuroton1,
-//   EternityEuroton3,
-//   EternityEuroton2,
-//   EternityEuroton4,
-//   EternityEuroton5,
-
-//   Memofy1,
-//   Memofy2,
-//   Memofy3,
-//   MemofySpeci,
-// //------------------------------------------------------------------
-//   //beds
-//   //kingsize bed--------------------
-//   kingsizebed1,
-//   kingsizebed2,
-//   kingsizebed3,
-//   kingsizebed4,
-//   DenverModel2,
-// DenverModel3,
-// DenverModel4,
-// DenverModel1,
-
-//   //queen size
-//   queensizebed1,
-//   queensizebed2,
-//   queensizebed3,
-//   queensizebed4,
-//   PKModel1,
-//   PKModel2,
-//   PKModel3,
-//   PKModel4,
-//   DiamondModel1,
-//   DiamondModel2,
-//   DiamondModel3,
-//   DiamondModel4,
-
-//   //Sofas
-//   //Standard-sofa
-//   chesterfield1,
-//   chesterfield2,
-//   chesterfield3,
-//   chesterfield4,
-//   ChesterfieldSofa,
-//   Lawson1,
-//   Lawson2,
-//   Lawson3,
-//   Lawson4,
-//   LawsonSofa,
-//   Tuxedo1,
-//   Tuxedo2,
-//   Tuxedo3,
-//   Tuxedo4,
-//   //Sectional sofas
-//   LshapedSofa,
-//   UshapedSofa,
-//   LshapedSofa1,
-//   LshapedSofa2,
-//   LshapedSofa3,
-//   LshapedSofa4,
-//   UshapedSofa1,
-//   UshapedSofa2,
-//   UshapedSofa3,
-//   UshapedSofa4,
-//   ushapedsofacumbed1,
-//   ushapedsofacumbed2,
-//   ushapedsofacumbed3,
-//   ushapedsofacumbed4,
-//   Lshapedsofacumbed1,
-//   Lshapedsofacumbed2,
-//   Lshapedsofacumbed3,
-//   Lshapedsofacumbed4,
-//   ModularSofa1,
-//   ModularSofa2,
-//   ModularSofa3,
-//   ModularSofa4,
-//   //---------ACCESSORIES------------------------
-//   //COMFORTERS
-//   BaffelBox,
-//   SewnThrough,
-//   //Pillows
-//   BodyPillow,
-//   StandardPillow,
-//   MemoryfoamPillow1,
-//   MemoryfoamPillow2,
-//   MemoryfoamPillow3,
-//   MemoryfoamPillow4,
-//   LatexPillow1,
-//   LatexPillow2,
-//   LatexPillow3,
-//   LatexPillow4,
-//   Foampillow1,
-//   Foampillow2,
-//   Foampillow3,
-//   Foampillow4,
-//   AloveraPolyfiberPillow1,
-//   AloveraPolyfiberPillow2,
-//   AloveraPolyfiberPillow3,
-//   AloveraPolyfiberPillow4,
-//   PolyfiberPillow1,
-//   Foampillow11,
-// } from "../../assets/index.jsx";
 
 // importing cloudinary urls
 import { productImages } from "../../components/Cloudinary/ProductImages.jsx";
@@ -778,6 +581,47 @@ const productData = {
 
   // ORTHO BONNELL
 
+  
+  "silver-crown": {
+    // images: [Hotel1, Hotel2, Hotel3],
+    images: productImages.silver_crown,
+    description: `
+
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
+    <div class="text-xl font-semibold my-[6px]">The Silver Crown</div>
+    This mattress is designed for those who seek luxurious comfort combined with advanced support. It features a multi-layered construction with memory foam and high-resilience (HR) foam that adapts to the body's contours, offering superior pressure relief and comfort.<br><br>
+    <h2 class="font-bold">Advanced Support</h2>
+    The Silver Crown mattress provides medium-firm support, perfect for individuals looking for a balance between soft comfort and essential body support. It aids in maintaining spinal alignment while relieving stress from pressure points, making it ideal for a variety of sleep positions.<br><br>
+    <h2 class="font-bold">Firmness</h2>
+    The mattress offers a medium-firm sleeping surface that cradles the body while providing enough resistance to ensure proper posture. It's a versatile option for sleepers who prefer a balanced combination of softness and support.<br><br>
+     <h2 class="font-bold">Comfort</h2>
+     The Silver Crown mattress is crafted with a top layer of memory foam that adjusts to body shape, while the HR foam core provides underlying support. This results in a plush feel without sacrificing support, ideal for those looking to enjoy restful and uninterrupted sleep.<br><br>
+    <h2 class="font-bold">Breathability & Upholstery</h2>
+    Enhanced breathability is a hallmark of the Silver Crown, with a cover made from premium 300gsm knitted Viscose fabric. This material is designed to be both soft and breathable, ensuring a cool, dry, and hygienic sleeping environment throughout the night.<br>
+    <b>Upholstered with FR (Fire Retardent) Fabric.</b>
+    <div class="flex justify-start mt-2 items-center gap-10">
+    <div class="flex-col">
+    <h2 class="font-bold">Height</h2>
+    <p>6&7inches</p>
+    </div>
+    <div>
+    <h2 class="font-bold">Warranty</h2>
+    <p>5years</p>
+    </div>
+    <div>
+    <h2 class="font-bold">Variant</h2>
+    <p>TightTop&nbsp;&TightTop </p>
+    </div>
+    <div>
+    <h2 class="font-bold">Ratings</h2>
+    <p>⭐⭐⭐⭐</p>
+    </div>
+    </div>
+    </div>
+  `,
+  },
+
+
   oxford: {
     // images: [oxford1, oxford2, oxford6],
     images: productImages.oxford,
@@ -803,7 +647,7 @@ const productData = {
     </div>
     <div>
     <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
+    <p>7 years</p>
     </div>
     <div>
     <h2 class="font-bold">Ratings</h2>
@@ -960,7 +804,7 @@ const productData = {
   },
   "ortho-bonnell-aloe-vera-with-latex": {
     // images: [AloeveraBanner, AloveraBonnel1, AloveraBonnel2, AloveraBonnel3],
-    images: productImages.orthopedic_alovera_latex,
+    images: productImages.orthoBonnel_Alovera_with_latex,
     description: `
 
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
@@ -1008,7 +852,7 @@ const productData = {
     //   OrthopedicAloeveraMemory2,
     //   OrthopedicAloeveraMemory6,
     // ],
-    images: productImages.orthopedic_alovera_memory,
+    images: productImages.orthoBonnel_Alovera_with_memory,
     description: `
 
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
@@ -1091,6 +935,44 @@ const productData = {
     </div>
   `,
   },
+
+  "the-hotel-luxury": {
+    // images: [Hotel1, Hotel2, Hotel3],
+    images: productImages. the_hotel_luxury,
+    description: `
+
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
+    <div class="text-xl font-semibold my-[6px]">The Hotels: The Perfect Blend of Comfort and Durability</div>
+    Designed specifically for hospitality use, the Sleep Fine Bonnell Spring Mattress offers the ideal combination of comfort, support, and durability, making it perfect for hotel environments. This mattress is engineered with high-quality Bonnell springs, providing consistent support and lasting comfort for guests, ensuring they wake up feeling refreshed and rejuvenated.<br><br>
+    <h2 class="font-bold">Superior Support for All Sleepers</h2>
+    The interconnected Bonnell spring system evenly distributes body weight, ensuring optimal spinal alignment and reducing pressure points. This makes it an excellent choice for a wide range of guests, offering both firm support and cushioned comfort. Its ability to adapt to different body types and sleeping positions makes it the go-to mattress for hotels that want to provide top-tier comfort for every guest.<br><br>
+    <h2 class="font-bold">Built for Durability</h2>
+    Hotels require mattresses that can withstand frequent use without losing their shape or support. The Bonnell Spring Mattress is crafted to be highly durable, maintaining its structural integrity over time. The robust spring system is designed to resist sagging, ensuring the mattress retains its form and provides long-lasting comfort, even in high-traffic settings.<br><br>
+    <h2 class="font-bold">Exceptional Comfort and Breathability</h2>
+    This mattress combines firm support with a plush comfort layer, offering a balanced sleeping experience that caters to different preferences. The open-coil structure also promotes airflow, keeping the mattress cool and fresh, an important feature in a hospitality setting where comfort and hygiene are key.<br>
+    <b>Upholstered with FR (Fire Retardent) Fabric.</b>
+
+    <div class="flex justify-start mt-2 items-center gap-10">
+    <div class="flex-col">
+    <h2 class="font-bold">Height</h2>
+    <p>6, 8 & 10 inches</p>
+    </div>
+    <div>
+    <h2 class="font-bold">Warranty</h2>
+    <p>As per agreement (min 5years)</p>
+    </div>
+    <div>
+    <h2 class="font-bold">Variant</h2>
+    <p>TightTop &Pillow-Top</p>
+    </div>
+    <div>
+    <h2 class="font-bold">Ratings</h2>
+    <p>⭐⭐⭐⭐</p>
+    </div>
+    </div>
+    </div>
+  `,
+  },
   "pocketed-spring-6inch-eternity-euroton": {
     // images: [EternityEuroton1, EternityEuroton2, EternityEuroton3],
     images: productImages.Eternity_Euroton,
@@ -1111,7 +993,7 @@ const productData = {
     </div>
     <div>
     <h2 class="font-bold">Warranty</h2>
-    <p>5 years</p>
+    <p>10 years</p>
     </div>
     <div>
     <h2 class="font-bold">Ratings</h2>
@@ -1123,7 +1005,7 @@ const productData = {
   },
   "pocketed-spring-aloe-vera-with-latex": {
     // images: [AloeveraBanner, AloveraBonnel1, AloveraBonnel2, AloveraBonnel3],
-    images: productImages.orthopedic_alovera_latex,
+    images: productImages.pocketed_Aloe_Vera_With_Latex,
     description: `
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Pocketed Spring Aloe Vera with Latex Mattress</div>
@@ -1167,7 +1049,7 @@ const productData = {
     //   OrthopedicAloeveraMemory2,
     //   OrthopedicAloeveraMemory6,
     // ],
-    images: productImages.orthopedic_alovera_memory,
+    images: productImages.pocketed_Aloe_Vera_With_Memory,
     description: `
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Pocketed Spring Aloe Vera with Memory Foam Mattress</div>
@@ -1277,7 +1159,7 @@ const productData = {
 
   "memory-active": {
     // images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5],
-    images: productImages.plush,
+    images: productImages.memory_active,
     description: `
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">HR PU Foam Memory Active Eurotop </div>
@@ -1497,8 +1379,6 @@ const productData = {
     </div>
   `,
   },
-
-
   "duvet": {
     
     images: productImages.duvets,
@@ -1546,7 +1426,6 @@ const productData = {
     </div>
   `,
   },
-
 
 
 
@@ -1670,7 +1549,7 @@ const ProductDetails = () => {
 
   // WhatsApp enquiry function
   const handleEnquiryClick = () => {
-    const whatsappNumber = "9346023775"; // Replace with your WhatsApp number
+    const whatsappNumber = "+918062181296"; // Replace with your WhatsApp number
     const currentUrl = window.location.href; // Get the current URL
     const productImage = `${productInfo.images[currentImageIndex]}`; // Get the full image URL
     const message = `Check out this product:\n${currentUrl}\n\nImage:\n${productImage}`; // to get both url and image link
@@ -1684,7 +1563,7 @@ const ProductDetails = () => {
   return (
     <>
       <Link
-        to="/products"
+        to="/"
         className="back cursor-pointer absolute rounded-md
          bg-red-300 text-black xl:text-[13px] xl:top-[160px] xl:left-[30px] xl:py-[2px] xl:pr-[22px] xl:pl-[25px] xl:px-0 xl:ml-0 xl:mt-0
           sm:text-lg sm:px-4 sm:ml-8 sm:mt-4 sm:p-[12px]"
@@ -1787,8 +1666,10 @@ const ProductDetails = () => {
       </div>
     </>
   );
+
+
+  
 };
 
 export default ProductDetails;
-
 
