@@ -327,16 +327,22 @@ export const productImages = {
   //Pillow
 
   Memory_pillow: [
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264286/Memoryfoam_Pillow1_vqewfs.jpg ",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264289/Memoryfoam_Pillow2_evrsjy.jpg ",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264291/Memoryfoam_Pillow3_iqfkra.jpg ",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727264294/Memoryfoam_Pillow4_nzk3ls.jpg",
+    // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264286/Memoryfoam_Pillow1_vqewfs.jpg ",
+    // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264289/Memoryfoam_Pillow2_evrsjy.jpg ",
+    // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264291/Memoryfoam_Pillow3_iqfkra.jpg ",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727264294/Memoryfoam_Pillow4_nzk3ls.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729573923/memorypillow3_ktxwzp.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729573922/memorypillow2_zmskkf.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729573923/memorypillow1_d9q76n.jpg",
   ],
   latexy_pillow: [
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264360/LatexPillow1_spx6l4.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264363/LatexPillow2_hneeoa.jpg ",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727264365/LatexPillow3_bhxjmg.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727264368/LatexPillow4_ftovke.jpg",
+    // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264360/LatexPillow1_spx6l4.jpg",
+    // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264363/LatexPillow2_hneeoa.jpg ",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727264365/LatexPillow3_bhxjmg.jpg",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727264368/LatexPillow4_ftovke.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729573889/latexpillow3_cfnf2k.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729573888/latexpillow2_dlnsqj.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729573889/latexpillow1_pu3agr.jpg",
   ],
   foam_pillow: [
     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727265486/Foampillow1_pcmsww.jpg",

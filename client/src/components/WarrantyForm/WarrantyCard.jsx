@@ -31,17 +31,34 @@ const WarrantyCardTemplate = React.forwardRef(({ data }, ref) => {
        sm:m-[32px] xl:m-0"
     >
       {/* Header */}
-      <div className="bg-blue-300 text-white p-2 sm:p-4 xl:p-6 flex items-center justify-between gap-20">
+      <div className=" text-white p-2 sm:p-4 xl:p-6 flex items-center justify-between gap-20">
         <img
           src={logo}
           alt="Sleep Fine Logo"
           className="h-8  sm:h-12  xl:h-16 "
         />
-        <img
+        {/* <img
           src={warrantyQR}
           alt="QR Code"
           className="h-8  sm:h-12  xl:h-16 "
-        />
+        /> */}
+      </div>
+      <div className="flex justify-between items-center -mt-0 -mb-2 ml-4 sm:m-[40px]">
+        <div className="text-xs sm:m-[32px]">
+          <p className="font-semibold">Contact Us:</p>
+          <p>Email: contact@sleepfineindia.com</p>
+          <p>Phone: 08062181296</p>
+        </div>
+        {/* <div className="text-center">
+          <img
+            src={QRcode}
+            alt="QR code"
+            className="h-16 w-16 sm:h-20 sm:w-20 xl:h-18 xl:w-18"
+          />
+          <p className="mt-2 text-xs sm:text-sm xl:text-base">
+            Scan for website
+          </p>
+        </div> */}
       </div>
 
       {/* Content */}
@@ -84,7 +101,7 @@ const WarrantyCardTemplate = React.forwardRef(({ data }, ref) => {
       </div>
 
       {/* Footer */}
-      <div className="flex justify-between items-center mt-0 mb-2 ml-4 sm:m-[40px]">
+      {/* <div className="flex justify-between items-center mt-0 mb-2 ml-4 sm:m-[40px]">
         <div className="text-xs sm:m-[32px]">
           <p className="font-semibold">Contact Us:</p>
           <p>Email: contact@sleepfineindia.com</p>
@@ -100,7 +117,7 @@ const WarrantyCardTemplate = React.forwardRef(({ data }, ref) => {
             Scan for website
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 });
