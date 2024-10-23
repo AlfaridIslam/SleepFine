@@ -1,13 +1,14 @@
 export const ProductScrollingImages = {
     // mattress
-    orthomed1    :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1728565592/orthomed12_zbtuj9.jpg",],
-    orthomed2    :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1728565592/orthomed13_tlaq5j.jpg",],
-    Buckingham2  :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1728560179/DSC03140_bmnyhx.jpg",],
-    Buckingham1  :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1728560178/DSC03133_wkryi9.jpg",],
-    aloeveralatex1 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1728559792/DSC03336_l482w9.jpg",],
-    aloeveralatex2 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1728559792/DSC03338_d6bbyq.jpg",],
-    eternity1 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729073243/DSC03243_htsg5j.jpg",],
-    eternity2  :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729073246/DSC03251_demrwk.jpg",],
+    orthomed1    :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729659313/orthomed12_zbtuj9_ox30gd.jpg",],
+    orthomed2    :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729659313/orthomed13_tlaq5j_y7eboz.jpg",],
+    ambitious1  :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1728903566/DSC03311_di0krx.jpg",],
+    ambitious2  :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1728903569/Rebonded_100_Density_100mm_700_x_400_px_28_offcyk.jpg",],
+    aloeveralatex1 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729660952/DSC03336_kfkkpc_d6de1m.jpg",],
+    aloeveralatex2 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729660954/DSC03338_cvjmyz_pdiiin.jpg",],
+    eternity1 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729661795/DSC03243_htsg5j_oidklg.jpg",],
+    eternity2  :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729661794/DSC03246_vv3poy_ujnkt8.jpg",],
+    
     
 
     //Beds

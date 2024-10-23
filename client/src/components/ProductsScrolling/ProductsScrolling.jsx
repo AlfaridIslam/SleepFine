@@ -81,9 +81,9 @@ const ProductsScrolling = () => {
         link: "orthomed",
       },
       {
-        image: ProductScrollingImages.Buckingham1,
-        hoverImage: ProductScrollingImages.Buckingham2,
-        link: "buckingham",
+        image: ProductScrollingImages.ambitious1,
+        hoverImage: ProductScrollingImages.ambitious2,
+        link: "ambitious",
       },
       {
         image: ProductScrollingImages.aloeveralatex1,
@@ -169,7 +169,7 @@ const ProductsScrolling = () => {
 
   return (
     <div className="mt-4 sm:justify-center sm:align-middle sm:items-center grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-4 xl:w-full sm:w-[160%]  ">
-      {/* ------------------Beds------------------------- */}
+      {/* ------------------Mattress------------------------- */}
       <div className="Beds">
         <h1 className="text-xl font-semibold text-center mb-4 mt-10">
           MATTRESSES

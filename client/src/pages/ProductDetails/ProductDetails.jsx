@@ -13,7 +13,7 @@ const productData = {
     // images: [chesterfield1, chesterfield2, chesterfield3, chesterfield4],
     images: productImages.chesterfield,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
      Sofa<br><br>
     <h2 class="font-bold">Title :</h2>
@@ -28,7 +28,7 @@ const productData = {
     // images: [Lawson1, Lawson2, Lawson3, Lawson4],
     images: productImages.lawson,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
      Sofa<br><br>
     <h2 class="font-bold">Title :</h2>
@@ -43,7 +43,7 @@ const productData = {
     // images: [Tuxedo1, Tuxedo2, Tuxedo3, Tuxedo4],
     images: productImages.tuxedo,
     description: `
-     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
      Sofa<br><br>
     <h2 class="font-bold">Title :</h2>
@@ -60,7 +60,7 @@ const productData = {
     // images: [LshapedSofa1, LshapedSofa2, LshapedSofa3, LshapedSofa4],
     images: productImages.Lshaped,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
      Sofa<br><br>
     <h2 class="font-bold">Title :</h2>
@@ -75,7 +75,7 @@ const productData = {
     // images: [UshapedSofa1, UshapedSofa2, UshapedSofa3, UshapedSofa4],
     images: productImages.Ushaped,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
      Sofa<br><br>
     <h2 class="font-bold">Title :</h2>
@@ -90,7 +90,7 @@ const productData = {
     // images: [ModularSofa1, ModularSofa2, ModularSofa3, ModularSofa4],
     images: productImages.modular,
     description: `
-     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
      Sofa<br><br>
     <h2 class="font-bold">Title :</h2>
@@ -111,7 +111,7 @@ const productData = {
     // ],
     images: productImages.Lshapedsofa_cumbed,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
      Sofa-Cumbed<br><br>
     <h2 class="font-bold">Title :</h2>
@@ -132,7 +132,7 @@ const productData = {
     // ],
     images: productImages.Ushapedsofa_cumbed,
     description: `
-   <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+   <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
      Sofa-Cumbed<br><br>
     <h2 class="font-bold">Title :</h2>
@@ -151,7 +151,7 @@ const productData = {
     // images: [DenverModel1, DenverModel2, DenverModel3, DenverModel4],
     images: productImages.denver_model_with_storage,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
     
     <h2 class=" font-bold">Variety :  </h2> 
      With Storage<br><br>
@@ -167,7 +167,7 @@ const productData = {
     // images: [DenverModel1, DenverModel2, DenverModel3, DenverModel4],
     images: productImages.denver_model_without_storage,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
      Without Storage<br><br>
     <h2 class="font-bold">Title :</h2>
@@ -183,7 +183,7 @@ const productData = {
     // images: [DiamondModel1, DiamondModel2, DiamondModel3, DiamondModel4],
     images: productImages.diamond_with_storage,
     description: `
-     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
      With Storage<br><br>
     <h2 class="font-bold">Title :</h2>
@@ -198,7 +198,7 @@ const productData = {
     // images: [DiamondModel1, DiamondModel2, DiamondModel3, DiamondModel4],
     images: productImages.diamond_without_storage,
     description: `
-     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
      Without Storage<br><br>
     <h2 class="font-bold">Title :</h2>
@@ -214,7 +214,7 @@ const productData = {
     // images: [PKModel1, PKModel2, PKModel3, PKModel4],
     images: productImages.pk_model_withstorage,
     description: `
-     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
      With Storage<br><br>
     <h2 class="font-bold">Title :</h2>
@@ -229,7 +229,7 @@ const productData = {
     // images: [PKModel1, PKModel2, PKModel3, PKModel4],
     images: productImages.pk_model_without_storage,
     description: `
-     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
      Without Storage<br><br>
     <h2 class="font-bold">Title :</h2>
@@ -1625,13 +1625,14 @@ const ProductDetails = () => {
                     key={index}
                     src={image}
                     alt={`Thumbnail ${index}`}
-                    className={`cursor-pointer sm:w-[70px] sm:h-[70px] sm:ml-[13px] xl:w-[65px]  xl:h-65px] xl:ml-[15px]  rounded-xl ${
+                    className={`cursor-pointer sm:w-[70px] sm:h-[70px] sm:ml-[13px] xl:w-[ 65px]  xl:h-[65px] xl:ml-[15px]  rounded-xl ${
                       index === currentImageIndex
                         ? "border-2 border-blue-500"
                         : ""
                     }`}
                     onClick={() => handleThumbnailClick(index)} // Change main image on click
                     onMouseEnter={() => handleThumbnailClick(index)} // Change main image on hover
+                    
                   />
                 ))}
               </div>
