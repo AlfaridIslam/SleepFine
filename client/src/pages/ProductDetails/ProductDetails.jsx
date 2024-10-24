@@ -154,7 +154,7 @@ const productData = {
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
     
     <h2 class=" font-bold">Variety :  </h2> 
-     With Storage<br><br>
+     With & Without Storage<br><br>
     <h2 class="font-bold">Title :</h2>
     Denver<br><br>
     <h2 class="font-bold">Size :</h2>
@@ -185,7 +185,7 @@ const productData = {
     description: `
      <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
-     With Storage<br><br>
+     With & Without Storage<br><br>
     <h2 class="font-bold">Title :</h2>
     Diamond<br><br>
     <h2 class="font-bold">Size :</h2>
@@ -216,7 +216,7 @@ const productData = {
     description: `
      <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
-     With Storage<br><br>
+     With & Without Storage<br><br>
     <h2 class="font-bold">Title :</h2>
     PK-Model<br><br>
     <h2 class="font-bold">Size :</h2>
@@ -610,7 +610,7 @@ const productData = {
     </div>
     <div>
     <h2 class="font-bold">Variant</h2>
-    <p>TightTop&nbsp;&TightTop </p>
+    <p>TightTop&nbsp;&PillowTop </p>
     </div>
     <div>
     <h2 class="font-bold">Ratings</h2>
@@ -772,15 +772,14 @@ const productData = {
     description: `
 
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Romantic Euroton</div>
-    The Sleep Fine Bonnell Spring Romantic Euroton Mattress is the epitome of classic comfort and enduring support. With a foundation built upon a reliable Bonnell spring system, this mattress offers a balanced combination of resilience and plushness, making it perfect for those who desire a firm, supportive sleep surface with a touch of luxury.<br><br>
+    <div class="text-xl font-semibold my-[6px]">Ambitious</div>
+    The Sleep Fine Bonnell Ambitious Mattress is the epitome of classic comfort and enduring support. With a foundation built upon a reliable Bonnell spring system, this mattress offers a balanced combination of resilience and plushness, making it perfect for those who desire a firm, supportive sleep surface with a touch of luxury.<br><br>
     <h2 class="font-bold">Bonnell Spring System</h2>
-    The core of the Romantic Euroton is reinforced by a robust Bonnell spring system. This interconnected spring structure provides superior durability and even weight distribution, ensuring the mattress retains its shape and integrity over time. Its supportive framework promotes proper spinal alignment, reducing pressure on key areas of the body and helping you wake up refreshed.<br><br>
+    The core of the Ambitious Mattress is reinforced by a robust Bonnell spring system. This interconnected spring structure provides superior durability and even weight distribution, ensuring the mattress retains its shape and integrity over time. Its supportive framework promotes proper spinal alignment, reducing pressure on key areas of the body and helping you wake up refreshed.<br><br>
     <h2 class="font-bold">Eurotop Plush Layer</h2>
     Topping the Bonnell spring base is a Eurotop design that adds a layer of soft cushioning without compromising on support. The Eurotop enhances the mattress's plush feel, giving you a cloud-like sensation while the Bonnell springs work underneath to maintain firmness and stability. This pairing creates the perfect harmony between softness and structure.<br><br>
     <h2 class="font-bold">Luxurious Sleeping Experience</h2>
-    With its elegant Eurotop design and sturdy Bonnell spring foundation, the Romantic Euroton Mattress delivers a sleep experience that is both indulgent and supportive. Ideal for sleepers who enjoy a blend of firmness with a gentle surface, this mattress offers the perfect solution for those seeking comfort with reliable orthopedic support.
-
+    With its elegant Eurotop design and sturdy Bonnell spring foundation, the Ambitious Mattress delivers a sleep experience that is both indulgent and supportive. Ideal for sleepers who enjoy a blend of firmness with a gentle surface, this mattress offers the perfect solution for those seeking comfort with reliable orthopedic support.<br><br>
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
@@ -1575,11 +1574,11 @@ const ProductDetails = () => {
         <div className="flex-1">
           {productInfo.images.length > 0 ? (
             <>
-              <div className="main-image relative mb-4 xl:w-[100%] xl:h-[380px] sm:ml-[12px] sm:w-[143%] sm:max-w-[616px]">
+              <div className="main-image relative mb-4 xl:w-[100%] xl:h-[380px] sm:ml-[12px] sm:w-[250%] sm:max-w-[616px]">
                 <img
                   src={productInfo.images[currentImageIndex]}
                   alt="Main product"
-                  className={`sm:w-[540px] sm:h-[412px] xl:w-[645px] xl:h-[378px] rounded-xl border-2 border-slate-300 bg-slate-400 transition-transform duration-300 ease-in-out ${
+                  className={`sm:w-[540px] sm:h-[350px] xl:w-[645px] xl:h-[378px] rounded-xl border-2 border-slate-300 bg-slate-400 transition-transform duration-300 ease-in-out ${
                     zoom ? "scale-150" : "scale-100"
                   }`}
                   // Apply onClick and onDoubleClick for both large and small screens

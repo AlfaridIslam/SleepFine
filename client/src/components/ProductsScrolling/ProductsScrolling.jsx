@@ -103,14 +103,15 @@ const ProductsScrolling = () => {
       hoverImage: ProductScrollingImages.bed2, // Pass the hover image directly
       link: "denver-with-storage",
     },
-    {
-      image: ProductScrollingImages.bed3,
-      hoverImage: ProductScrollingImages.bed4,
-      link: "denver-without-storage",
-    },
+  
     {
       image: ProductScrollingImages.bed5,
       hoverImage: ProductScrollingImages.bed6,
+      link: "diamond-with-storage",
+    },
+    {
+      image: ProductScrollingImages.bed3,
+      hoverImage: ProductScrollingImages.bed4,
       link: "pkmodel-with-storage",
     },
     {
@@ -188,14 +189,14 @@ const ProductsScrolling = () => {
                 <img
                   src={item.image}
                   alt={`Bed ${index + 1}`}
-                  className="transition-opacity duration-300 ease-in-out group-hover:opacity-0 w-full h-full object-cover rounded-xl"
+                  className="transition-opacity duration-300 ease-in-out group-hover:opacity-0 w-full h-full  rounded-xl"
                 />
 
                 {/* Hover Image */}
                 <img
                   src={item.hoverImage}
                   alt={`Hover Bed ${index + 1}`}
-                  className="absolute inset-0 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 w-full h-full object-cover rounded-xl"
+                  className="absolute inset-0 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 w-full h-full  rounded-xl"
                 />
 
                 {/* Know More Text */}
@@ -230,14 +231,14 @@ const ProductsScrolling = () => {
                 <img
                   src={item.image}
                   alt={`Bed ${index + 1}`}
-                  className="transition-opacity duration-300 ease-in-out group-hover:opacity-0 w-full h-full object-cover rounded-xl"
+                  className="transition-opacity duration-300 ease-in-out group-hover:opacity-0 w-full h-full  rounded-xl"
                 />
 
                 {/* Hover Image */}
                 <img
                   src={item.hoverImage}
                   alt={`Hover Bed ${index + 1}`}
-                  className="absolute inset-0 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 w-full h-full object-cover rounded-xl"
+                  className="absolute inset-0 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 w-full h-full  rounded-xl"
                 />
 
                 {/* Know More Text */}
@@ -321,7 +322,7 @@ const ProductsScrolling = () => {
               <img
                 src={item.hoverImage}
                 alt={`Hover Accessory ${index + 1}`}
-                className="absolute inset-0 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 w-full h-full object-cover rounded-xl"
+                className="absolute inset-0 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 w-full h-full  rounded-xl"
               />
 
               {/* Know More Text */}

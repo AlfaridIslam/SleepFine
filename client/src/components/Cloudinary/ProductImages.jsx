@@ -86,10 +86,10 @@ export const productImages = {
   buckinghamLexus: [
 
     //"https://res.cloudinary.com/dpsmbluby/image/upload/v1727772297/buckinghumLexus_bnr_hbxxna.png", //Banner
-   "https://res.cloudinary.com/dpsmbluby/image/upload/v1728560752/DSC03130_gfxoyy.jpg ",
-   "https://res.cloudinary.com/dpsmbluby/image/upload/v1728560752/DSC03126_h2xszz.jpg ",
-   "https://res.cloudinary.com/dpsmbluby/image/upload/v1728560754/DSC03125_dxiufh.jpg ",
-   "https://res.cloudinary.com/dpsmbluby/image/upload/v1728560753/Rebonded_100_Density_100mm_700_x_400_px_10_1_ixkdyo.jpg ",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728560752/DSC03130_gfxoyy.jpg ",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728560752/DSC03126_h2xszz.jpg ",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728560754/DSC03125_dxiufh.jpg ",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728560753/Rebonded_100_Density_100mm_700_x_400_px_10_1_ixkdyo.jpg ",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1728883982/Rebonded_100_Density_100mm_700_x_400_px_20_ojray8.jpg",//spf
 
   ],
@@ -204,9 +204,10 @@ export const productImages = {
 
   silver_crown:[ 
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729079079/Rebonded_100_Density_100mm_700_x_400_px_58_jmzokf.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729079078/Rebonded_100_Density_100mm_700_x_400_px_57_revy6j.jpg",
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729760294/sivercrown11_mvxrqd.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729079081/Rebonded_100_Density_100mm_700_x_400_px_59_g8kcs9.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729079084/Rebonded_100_Density_100mm_700_x_400_px_60_pxoi7c.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729760296/silvercrown13_hfvs0l.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729760293/silvercrown12_crnuj0.jpg",
   ],
 
 
@@ -308,6 +309,7 @@ export const productImages = {
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729682420/denvermodel_rtox0v.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729682417/denvermodel2_qiggqf.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729682414/denvermodel3_xwzzje.jpg",
+  
   ],
   denver_model_without_storage: [
     // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262733/DenverModel1_gmjei6.jpg",
@@ -326,7 +328,7 @@ export const productImages = {
     // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263019/PKModel3_xbonrq.jpg",
     // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263021/PKModel4_wc7pjz.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729686520/pkmodel3_umifcd.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729686522/pkmodel2_h82gt8.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729755876/pkmodel22_zggrxv.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729686525/pkmodel1_zdj8kf.jpg",
   ],
 
@@ -337,22 +339,32 @@ export const productImages = {
     // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263021/PKModel4_wc7pjz.jpg",
 
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729686520/pkmodel3_umifcd.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729686522/pkmodel2_h82gt8.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729755876/pkmodel22_zggrxv.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729686525/pkmodel1_zdj8kf.jpg",
   ],
 
   diamond_with_storage: [
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263171/DiamondModel1_lyglos.jpg ",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263173/DiamondModel2_h03jse.jpg ",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263175/DiamondModel3_k6gfml.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263177/DiamondModel4_tuxtfp.jpg",
+    // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263171/DiamondModel1_lyglos.jpg ",
+    // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263173/DiamondModel2_h03jse.jpg ",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263175/DiamondModel3_k6gfml.jpg",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263177/DiamondModel4_tuxtfp.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729753885/9_mu2y2q.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729753886/10_s7kup7.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729753886/11_eqv48j.jpg",
+
+
   ],
 
   diamond_without_storage: [
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263171/DiamondModel1_lyglos.jpg ",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263173/DiamondModel2_h03jse.jpg ",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263175/DiamondModel3_k6gfml.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263177/DiamondModel4_tuxtfp.jpg",
+    // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263171/DiamondModel1_lyglos.jpg ",
+    // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263173/DiamondModel2_h03jse.jpg ",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263175/DiamondModel3_k6gfml.jpg",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263177/DiamondModel4_tuxtfp.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729753885/9_mu2y2q.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729753886/10_s7kup7.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729753886/11_eqv48j.jpg",
+
+
   ],
 
   //-----------------Sofa--------------
