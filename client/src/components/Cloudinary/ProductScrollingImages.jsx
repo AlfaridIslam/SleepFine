@@ -11,12 +11,12 @@ export const ProductScrollingImages = {
     
 
     //Beds
-    bed1 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727429571/CanopyBed_albyci.jpg",],
-    bed2 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727429570/SleighBed_txlov7.jpg",],
-    bed3 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727429652/PlatformBed_r8llmx.jpg",],
-    bed4 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727429650/PanelBed_wrfwa9.jpg",],
-    bed5 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727429714/kingsizebed4_qc1tfm.jpg",],
-    bed6 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727417984/LoftBed_ldvcdy.jpg",],
+    bed1 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729752612/denvermodel_adonkd.jpg",],
+    bed2 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729752611/denvermodel2_l8t3fp.jpg",],
+    bed3 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729752416/pkmodel3_xgejun.jpg",],
+    bed4 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729752388/pkmodel2_fovzam.jpg",],
+    bed5 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729754816/9_uef8bd.jpg",],
+    bed6 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729754821/10_sbpl8g.jpg",],
     bed7 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727429726/kingsizebed3_cqzfoy.jpg",],
     bed8 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727429777/MurphyBed_bnwywo.jpg",],
    

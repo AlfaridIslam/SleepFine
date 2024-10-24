@@ -328,10 +328,13 @@ export const productImages = {
   ],
 
   diamond_with_storage: [
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263171/DiamondModel1_lyglos.jpg ",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263173/DiamondModel2_h03jse.jpg ",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263175/DiamondModel3_k6gfml.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263177/DiamondModel4_tuxtfp.jpg",
+    // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263171/DiamondModel1_lyglos.jpg ",
+    // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263173/DiamondModel2_h03jse.jpg ",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263175/DiamondModel3_k6gfml.jpg",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263177/DiamondModel4_tuxtfp.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729753885/9_mu2y2q.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729753886/10_s7kup7.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729753886/11_eqv48j.jpg",
   ],                       
 
   diamond_without_storage: [
