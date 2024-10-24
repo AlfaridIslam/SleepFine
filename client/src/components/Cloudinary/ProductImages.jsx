@@ -86,10 +86,10 @@ export const productImages = {
   buckinghamLexus: [
 
     //"https://res.cloudinary.com/dpsmbluby/image/upload/v1727772297/buckinghumLexus_bnr_hbxxna.png", //Banner
-   "https://res.cloudinary.com/dpsmbluby/image/upload/v1728560752/DSC03130_gfxoyy.jpg ",
-   "https://res.cloudinary.com/dpsmbluby/image/upload/v1728560752/DSC03126_h2xszz.jpg ",
-   "https://res.cloudinary.com/dpsmbluby/image/upload/v1728560754/DSC03125_dxiufh.jpg ",
-   "https://res.cloudinary.com/dpsmbluby/image/upload/v1728560753/Rebonded_100_Density_100mm_700_x_400_px_10_1_ixkdyo.jpg ",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728560752/DSC03130_gfxoyy.jpg ",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728560752/DSC03126_h2xszz.jpg ",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728560754/DSC03125_dxiufh.jpg ",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728560753/Rebonded_100_Density_100mm_700_x_400_px_10_1_ixkdyo.jpg ",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1728883982/Rebonded_100_Density_100mm_700_x_400_px_20_ojray8.jpg",//spf
 
   ],
@@ -202,11 +202,12 @@ export const productImages = {
 
   // ---------Pocketed-Spring-Collection--------
 
-  silver_crown:[
+  silver_crown:[ 
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729079079/Rebonded_100_Density_100mm_700_x_400_px_58_jmzokf.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729079078/Rebonded_100_Density_100mm_700_x_400_px_57_revy6j.jpg",
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729760294/sivercrown11_mvxrqd.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729079081/Rebonded_100_Density_100mm_700_x_400_px_59_g8kcs9.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729079084/Rebonded_100_Density_100mm_700_x_400_px_60_pxoi7c.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729760296/silvercrown13_hfvs0l.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729760293/silvercrown12_crnuj0.jpg",
   ],
 
 
@@ -263,11 +264,11 @@ export const productImages = {
   //  -------------HR-PU-FOAM--------------------
 
   gravity: [
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729074699/DSC02158_y3xxis.jpg ",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729074685/DSC02159_i9woaj.jpg ",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729074684/DSC02160_p5mhhb.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729074681/DSC02163_rtmdzk.jpg ",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729163991/Rebonded_100_Density_100mm_700_x_400_px_76_jrgwty.jpg", //spf
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729680040/DSC02182_ax2rl3.jpg",
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729680028/DSC02076_tbvvl0.jpg",
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729680031/DSC02184_vexvl7.jpg",
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729680034/Sleep_Fine_36_1_vw7xes.jpg",
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729681604/gravitynewspeci_qyzpeq.jpg",
   ],
   space: [
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729078635/DSC03397_ldsmum.jpg",
@@ -301,30 +302,45 @@ export const productImages = {
   // --------------------Beds---------------
 
   denver_model_with_storage: [
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262733/DenverModel1_gmjei6.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262729/DenverModel2_scz2ap.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262730/DenverModel3_ntraw6.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262732/DenverModel4_roihmm.jpg",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262733/DenverModel1_gmjei6.jpg",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262729/DenverModel2_scz2ap.jpg",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262730/DenverModel3_ntraw6.jpg",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262732/DenverModel4_roihmm.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729682420/denvermodel_rtox0v.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729682417/denvermodel2_qiggqf.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729682414/denvermodel3_xwzzje.jpg",
+  
   ],
   denver_model_without_storage: [
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262733/DenverModel1_gmjei6.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262729/DenverModel2_scz2ap.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262730/DenverModel3_ntraw6.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262732/DenverModel4_roihmm.jpg",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262733/DenverModel1_gmjei6.jpg",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262729/DenverModel2_scz2ap.jpg",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262730/DenverModel3_ntraw6.jpg",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262732/DenverModel4_roihmm.jpg",
+
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729682420/denvermodel_rtox0v.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729682417/denvermodel2_qiggqf.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729682414/denvermodel3_xwzzje.jpg",
   ],
 
   pk_model_withstorage: [
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263016/PKModel1_bvz0ru.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263017/PKModel2_cbqzn1.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263019/PKModel3_xbonrq.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263021/PKModel4_wc7pjz.jpg",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263016/PKModel1_bvz0ru.jpg",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263017/PKModel2_cbqzn1.jpg",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263019/PKModel3_xbonrq.jpg",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263021/PKModel4_wc7pjz.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729686520/pkmodel3_umifcd.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729755876/pkmodel22_zggrxv.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729686525/pkmodel1_zdj8kf.jpg",
   ],
 
   pk_model_without_storage: [
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263016/PKModel1_bvz0ru.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263017/PKModel2_cbqzn1.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263019/PKModel3_xbonrq.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263021/PKModel4_wc7pjz.jpg",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263016/PKModel1_bvz0ru.jpg",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263017/PKModel2_cbqzn1.jpg",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263019/PKModel3_xbonrq.jpg",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263021/PKModel4_wc7pjz.jpg",
+
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729686520/pkmodel3_umifcd.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729755876/pkmodel22_zggrxv.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729686525/pkmodel1_zdj8kf.jpg",
   ],
 
   diamond_with_storage: [
@@ -335,13 +351,20 @@ export const productImages = {
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729753885/9_mu2y2q.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729753886/10_s7kup7.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729753886/11_eqv48j.jpg",
-  ],                       
+
+
+  ],
 
   diamond_without_storage: [
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263171/DiamondModel1_lyglos.jpg ",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263173/DiamondModel2_h03jse.jpg ",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263175/DiamondModel3_k6gfml.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263177/DiamondModel4_tuxtfp.jpg",
+    // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263171/DiamondModel1_lyglos.jpg ",
+    // "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263173/DiamondModel2_h03jse.jpg ",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263175/DiamondModel3_k6gfml.jpg",
+    // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263177/DiamondModel4_tuxtfp.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729753885/9_mu2y2q.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729753886/10_s7kup7.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729753886/11_eqv48j.jpg",
+
+
   ],
 
   //-----------------Sofa--------------

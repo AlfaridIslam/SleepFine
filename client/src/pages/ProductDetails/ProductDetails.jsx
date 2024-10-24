@@ -13,7 +13,7 @@ const productData = {
     // images: [chesterfield1, chesterfield2, chesterfield3, chesterfield4],
     images: productImages.chesterfield,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
      Sofa<br><br>
     <h2 class="font-bold">Title :</h2>
@@ -28,7 +28,7 @@ const productData = {
     // images: [Lawson1, Lawson2, Lawson3, Lawson4],
     images: productImages.lawson,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
      Sofa<br><br>
     <h2 class="font-bold">Title :</h2>
@@ -43,7 +43,7 @@ const productData = {
     // images: [Tuxedo1, Tuxedo2, Tuxedo3, Tuxedo4],
     images: productImages.tuxedo,
     description: `
-     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
      Sofa<br><br>
     <h2 class="font-bold">Title :</h2>
@@ -60,7 +60,7 @@ const productData = {
     // images: [LshapedSofa1, LshapedSofa2, LshapedSofa3, LshapedSofa4],
     images: productImages.Lshaped,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
      Sofa<br><br>
     <h2 class="font-bold">Title :</h2>
@@ -75,7 +75,7 @@ const productData = {
     // images: [UshapedSofa1, UshapedSofa2, UshapedSofa3, UshapedSofa4],
     images: productImages.Ushaped,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
      Sofa<br><br>
     <h2 class="font-bold">Title :</h2>
@@ -90,7 +90,7 @@ const productData = {
     // images: [ModularSofa1, ModularSofa2, ModularSofa3, ModularSofa4],
     images: productImages.modular,
     description: `
-     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
      Sofa<br><br>
     <h2 class="font-bold">Title :</h2>
@@ -111,7 +111,7 @@ const productData = {
     // ],
     images: productImages.Lshapedsofa_cumbed,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
      Sofa-Cumbed<br><br>
     <h2 class="font-bold">Title :</h2>
@@ -132,7 +132,7 @@ const productData = {
     // ],
     images: productImages.Ushapedsofa_cumbed,
     description: `
-   <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+   <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
      Sofa-Cumbed<br><br>
     <h2 class="font-bold">Title :</h2>
@@ -151,10 +151,10 @@ const productData = {
     // images: [DenverModel1, DenverModel2, DenverModel3, DenverModel4],
     images: productImages.denver_model_with_storage,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
     
     <h2 class=" font-bold">Variety :  </h2> 
-     With Storage<br><br>
+     With & Without Storage<br><br>
     <h2 class="font-bold">Title :</h2>
     Denver<br><br>
     <h2 class="font-bold">Size :</h2>
@@ -167,7 +167,7 @@ const productData = {
     // images: [DenverModel1, DenverModel2, DenverModel3, DenverModel4],
     images: productImages.denver_model_without_storage,
     description: `
-    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+    <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
      Without Storage<br><br>
     <h2 class="font-bold">Title :</h2>
@@ -183,9 +183,9 @@ const productData = {
     // images: [DiamondModel1, DiamondModel2, DiamondModel3, DiamondModel4],
     images: productImages.diamond_with_storage,
     description: `
-     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
-     With Storage<br><br>
+     With & Without Storage<br><br>
     <h2 class="font-bold">Title :</h2>
     Diamond<br><br>
     <h2 class="font-bold">Size :</h2>
@@ -198,7 +198,7 @@ const productData = {
     // images: [DiamondModel1, DiamondModel2, DiamondModel3, DiamondModel4],
     images: productImages.diamond_without_storage,
     description: `
-     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
      Without Storage<br><br>
     <h2 class="font-bold">Title :</h2>
@@ -214,9 +214,9 @@ const productData = {
     // images: [PKModel1, PKModel2, PKModel3, PKModel4],
     images: productImages.pk_model_withstorage,
     description: `
-     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
-     With Storage<br><br>
+     With & Without Storage<br><br>
     <h2 class="font-bold">Title :</h2>
     PK-Model<br><br>
     <h2 class="font-bold">Size :</h2>
@@ -229,7 +229,7 @@ const productData = {
     // images: [PKModel1, PKModel2, PKModel3, PKModel4],
     images: productImages.pk_model_without_storage,
     description: `
-     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[350px]">
+     <div class="sm:w-[143%] sm:text-justify xl:w-[83%] xl:h-[390px]">
      <h2 class=" font-bold">Variety :  </h2> 
      Without Storage<br><br>
     <h2 class="font-bold">Title :</h2>
@@ -610,7 +610,7 @@ const productData = {
     </div>
     <div>
     <h2 class="font-bold">Variant</h2>
-    <p>TightTop&nbsp;&TightTop </p>
+    <p>TightTop&nbsp;&PillowTop </p>
     </div>
     <div>
     <h2 class="font-bold">Ratings</h2>
@@ -772,15 +772,14 @@ const productData = {
     description: `
 
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Romantic Euroton</div>
-    The Sleep Fine Bonnell Spring Romantic Euroton Mattress is the epitome of classic comfort and enduring support. With a foundation built upon a reliable Bonnell spring system, this mattress offers a balanced combination of resilience and plushness, making it perfect for those who desire a firm, supportive sleep surface with a touch of luxury.<br><br>
+    <div class="text-xl font-semibold my-[6px]">Ambitious</div>
+    The Sleep Fine Bonnell Ambitious Mattress is the epitome of classic comfort and enduring support. With a foundation built upon a reliable Bonnell spring system, this mattress offers a balanced combination of resilience and plushness, making it perfect for those who desire a firm, supportive sleep surface with a touch of luxury.<br><br>
     <h2 class="font-bold">Bonnell Spring System</h2>
-    The core of the Romantic Euroton is reinforced by a robust Bonnell spring system. This interconnected spring structure provides superior durability and even weight distribution, ensuring the mattress retains its shape and integrity over time. Its supportive framework promotes proper spinal alignment, reducing pressure on key areas of the body and helping you wake up refreshed.<br><br>
+    The core of the Ambitious Mattress is reinforced by a robust Bonnell spring system. This interconnected spring structure provides superior durability and even weight distribution, ensuring the mattress retains its shape and integrity over time. Its supportive framework promotes proper spinal alignment, reducing pressure on key areas of the body and helping you wake up refreshed.<br><br>
     <h2 class="font-bold">Eurotop Plush Layer</h2>
     Topping the Bonnell spring base is a Eurotop design that adds a layer of soft cushioning without compromising on support. The Eurotop enhances the mattress's plush feel, giving you a cloud-like sensation while the Bonnell springs work underneath to maintain firmness and stability. This pairing creates the perfect harmony between softness and structure.<br><br>
     <h2 class="font-bold">Luxurious Sleeping Experience</h2>
-    With its elegant Eurotop design and sturdy Bonnell spring foundation, the Romantic Euroton Mattress delivers a sleep experience that is both indulgent and supportive. Ideal for sleepers who enjoy a blend of firmness with a gentle surface, this mattress offers the perfect solution for those seeking comfort with reliable orthopedic support.
-
+    With its elegant Eurotop design and sturdy Bonnell spring foundation, the Ambitious Mattress delivers a sleep experience that is both indulgent and supportive. Ideal for sleepers who enjoy a blend of firmness with a gentle surface, this mattress offers the perfect solution for those seeking comfort with reliable orthopedic support.<br><br>
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
@@ -1575,11 +1574,11 @@ const ProductDetails = () => {
         <div className="flex-1">
           {productInfo.images.length > 0 ? (
             <>
-              <div className="main-image relative mb-4 xl:w-[100%] xl:h-[380px] sm:ml-[12px] sm:w-[143%] sm:max-w-[616px]">
+              <div className="main-image relative mb-4 xl:w-[100%] xl:h-[380px] sm:ml-[12px] sm:w-[250%] sm:max-w-[616px]">
                 <img
                   src={productInfo.images[currentImageIndex]}
                   alt="Main product"
-                  className={`sm:w-[540px] sm:h-[412px] xl:w-[645px] xl:h-[378px] rounded-xl border-2 border-slate-300 bg-slate-400 transition-transform duration-300 ease-in-out ${
+                  className={`sm:w-[540px] sm:h-[350px] xl:w-[645px] xl:h-[378px] rounded-xl border-2 border-slate-300 bg-slate-400 transition-transform duration-300 ease-in-out ${
                     zoom ? "scale-150" : "scale-100"
                   }`}
                   // Apply onClick and onDoubleClick for both large and small screens
@@ -1625,13 +1624,14 @@ const ProductDetails = () => {
                     key={index}
                     src={image}
                     alt={`Thumbnail ${index}`}
-                    className={`cursor-pointer sm:w-[70px] sm:h-[70px] sm:ml-[13px] xl:w-[65px]  xl:h-65px] xl:ml-[15px]  rounded-xl ${
+                    className={`cursor-pointer sm:w-[70px] sm:h-[70px] sm:ml-[13px] xl:w-[ 65px]  xl:h-[65px] xl:ml-[15px]  rounded-xl ${
                       index === currentImageIndex
                         ? "border-2 border-blue-500"
                         : ""
                     }`}
                     onClick={() => handleThumbnailClick(index)} // Change main image on click
                     onMouseEnter={() => handleThumbnailClick(index)} // Change main image on hover
+                    
                   />
                 ))}
               </div>

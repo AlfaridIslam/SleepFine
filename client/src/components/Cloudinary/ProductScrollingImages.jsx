@@ -2,12 +2,13 @@ export const ProductScrollingImages = {
     // mattress
     orthomed1    :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729659313/orthomed12_zbtuj9_ox30gd.jpg",],
     orthomed2    :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729659313/orthomed13_tlaq5j_y7eboz.jpg",],
-    Buckingham2  :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729660592/DSC03140_bmnyhx_mkjrxu.jpg",],
-    Buckingham1  :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729660591/DSC03133_wkryi9_ktrziz.jpg",],
+    ambitious1  :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1728903566/DSC03311_di0krx.jpg",],
+    ambitious2  :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1728903569/Rebonded_100_Density_100mm_700_x_400_px_28_offcyk.jpg",],
     aloeveralatex1 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729660952/DSC03336_kfkkpc_d6de1m.jpg",],
     aloeveralatex2 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729660954/DSC03338_cvjmyz_pdiiin.jpg",],
     eternity1 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729661795/DSC03243_htsg5j_oidklg.jpg",],
     eternity2  :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729661794/DSC03246_vv3poy_ujnkt8.jpg",],
+    
     
 
     //Beds
@@ -17,8 +18,8 @@ export const ProductScrollingImages = {
     bed4 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729752388/pkmodel2_fovzam.jpg",],
     bed5 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729754816/9_uef8bd.jpg",],
     bed6 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729754821/10_sbpl8g.jpg",],
-    bed7 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727429726/kingsizebed3_cqzfoy.jpg",],
-    bed8 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727429777/MurphyBed_bnwywo.jpg",],
+    bed7 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729756167/scrolling4bed2_oxedbu.jpg",],
+    bed8 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729756168/scrolling4bed_rwbqwg.jpg",],
    
 
     //Sofas

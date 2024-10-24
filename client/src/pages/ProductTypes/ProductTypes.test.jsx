@@ -26,3 +26,6 @@ describe('ProductTypes', () => {
     expect(screen.getByText(/Subcategory 2/i)).toBeInTheDocument();
   });
 });
+
+
+

@@ -8,3 +8,4 @@ describe('Ourstore', () => {
     screen.debug(); // prints out the jsx in the App component unto the command line
   })
 })
+

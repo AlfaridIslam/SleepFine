@@ -47,8 +47,9 @@ const WarrantyCardTemplate = React.forwardRef(({ data }, ref) => {
           alt="Sleep Fine Logo"
           className="h-8  sm:h-12  xl:h-20  xl:w-96"
         />
-         <p>Customer Support: 08062181296</p>
-         <p>Email: contact@sleepfineindia.com</p>
+        
+         <p className="ml-5">Customer Support: 08062181296</p>
+         <p className="ml-5">Email: contact@sleepfineindia.com</p>
         
        
         </div>
