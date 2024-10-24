@@ -416,28 +416,26 @@ export const productImages = {
 
   Memory_pillow: [
    
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729573923/memorypillow3_ktxwzp.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729573922/memorypillow2_zmskkf.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729573923/memorypillow1_d9q76n.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729588175/memorypillow11_c3rbvh.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729588173/memorypillow13_dptour.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729588174/memorypillow12_mazfhr.jpg",
   ],
 
  latexy_pillow: [
    
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729573889/latexpillow3_cfnf2k.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729573888/latexpillow2_dlnsqj.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729573889/latexpillow1_pu3agr.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729588567/latexpillow13_yupfni.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729588568/latexpillow12_whjoa4.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729588568/latexpillow11_bk2egt.jpg",
   ],
  foam_pillow: [
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727265486/Foampillow1_pcmsww.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727265483/Foampillow2_rxnwgn.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727265485/Foampillow3_q0uijk.jpg ",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727265490/Foampillow4_mcdvvc.jpg",
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586109/foampillow3_yh2old.jpg",
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586107/foam1_lejizy.jpg",
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586118/foampillow2_ewl5hs.jpg",
   ],
   polyfiber_pillow: [
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727266137/PolyFiberPillow1_qpuvhp.png",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727266047/AloveraPolyfiberPillow2_jrtovb.jpg ",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727266048/AloveraPolyfiberPillow3_sisgsh.jpg ",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727265490/Foampillow4_mcdvvc.jpg",
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586063/polyfibre3_mcdq0l.jpg",
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586064/polyfibre2_sltiv4.jpg",
+   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586065/polyfibre1_lcdxqt.jpg",
   ],
   duvets:[
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729507141/Duvets1_rnmjti.jpg",
