@@ -35,7 +35,8 @@ const Section1 = () => {
         <div className="image ">
           {/* Adjust image size dynamically based on content visibility */}
           <img
-            src="https://res.cloudinary.com/dpsmbluby/image/upload/v1729771827/coverphoto11_pa1ycm.jpg"
+           // src="https://res.cloudinary.com/dpsmbluby/image/upload/v1728366520/logo-image_wxinpv.png"
+           src="https://res.cloudinary.com/dpsmbluby/image/upload/v1729772005/coverphot011_wncnop.jpg"
             alt="Image"
             className={`${
               showFullContent

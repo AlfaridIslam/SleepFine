@@ -773,13 +773,13 @@ const productData = {
 
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
     <div class="text-xl font-semibold my-[6px]">Ambitious</div>
-    The Sleep Fine Bonnell Ambitious Mattress is the epitome of classic comfort and enduring support. With a foundation built upon a reliable Bonnell spring system, this mattress offers a balanced combination of resilience and plushness, making it perfect for those who desire a firm, supportive sleep surface with a touch of luxury.<br><br>
-    <h2 class="font-bold">Bonnell Spring System</h2>
-    The core of the Ambitious Mattress is reinforced by a robust Bonnell spring system. This interconnected spring structure provides superior durability and even weight distribution, ensuring the mattress retains its shape and integrity over time. Its supportive framework promotes proper spinal alignment, reducing pressure on key areas of the body and helping you wake up refreshed.<br><br>
-    <h2 class="font-bold">Eurotop Plush Layer</h2>
-    Topping the Bonnell spring base is a Eurotop design that adds a layer of soft cushioning without compromising on support. The Eurotop enhances the mattress's plush feel, giving you a cloud-like sensation while the Bonnell springs work underneath to maintain firmness and stability. This pairing creates the perfect harmony between softness and structure.<br><br>
-    <h2 class="font-bold">Luxurious Sleeping Experience</h2>
-    With its elegant Eurotop design and sturdy Bonnell spring foundation, the Ambitious Mattress delivers a sleep experience that is both indulgent and supportive. Ideal for sleepers who enjoy a blend of firmness with a gentle surface, this mattress offers the perfect solution for those seeking comfort with reliable orthopedic support.<br><br>
+    The Ambitious Mattress is designed for those who strive for excellence in every aspect of their lives, including their sleep. Crafted with innovation and comfort in mind, this mattress combines advanced materials and cutting-edge technology to deliver an unparalleled sleeping experience that supports your ambitions.<br><br>
+    <h2 class="font-bold">Innovative Support System</h2>
+    At the heart of the Ambitious Mattress is a multi-layered support system that adapts to your body’s unique contours. Featuring high-density foam and strategically placed pocket springs, it provides exceptional support and responsiveness. This combination ensures optimal spinal alignment, reducing pressure points and allowing you to wake up revitalized and ready to conquer the day.<br><br>
+    <h2 class="font-bold">Luxurious Comfort Layer</h2>
+    The top layer of the Ambitious Mattress features a premium, breathable fabric infused with cooling gel. This luxurious layer enhances airflow and regulates temperature, keeping you cool and comfortable throughout the night. The plush cushioning envelops your body, providing a soft yet supportive feel that promotes deep, restorative sleep.<br><br>
+    <h2 class="font-bold">Elevate Your Sleep</h2>
+   The Ambitious Mattress isn’t just a place to sleep; it’s an investment in your well-being and productivity. Experience the difference that high-quality materials and thoughtful design can make in your nightly rest. With the Ambitious Mattress, you’ll enjoy a luxurious sleeping experience that empowers you to dream big and achieve your goals.<br><br>
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
@@ -988,15 +988,21 @@ const productData = {
     <div class="flex justify-start mt-2 items-center gap-10">
     <div class="flex-col">
     <h2 class="font-bold">Height</h2>
-    <p>5 & 6 inches</p>
+    <p>8 & 10 inches</p>
+    
     </div>
     <div>
+    <h2 class="font-bold">Variant</h2>
+    <p>Pillow-Top</p>
+    </div>
+    <div>
+    
     <h2 class="font-bold">Warranty</h2>
     <p>10 years</p>
     </div>
     <div>
     <h2 class="font-bold">Ratings</h2>
-    <p>⭐⭐⭐⭐</p>
+    <p>⭐⭐⭐⭐⭐</p>
     </div>
     </div>
     </div>
@@ -1527,6 +1533,19 @@ const ProductDetails = () => {
   const hideMagnifyGlass = () => {
     setMagnifyStyle({ display: "none" });
   };
+
+
+  useEffect(() => {
+    const handleBeforeUnload = (event) => {
+        event.preventDefault();
+        
+    };
+
+    window.addEventListener('beforeunload', handleBeforeUnload);
+
+   
+    
+}, []);
 
   // Handle navigation for the carousel
   const handlePrevClick = () => {

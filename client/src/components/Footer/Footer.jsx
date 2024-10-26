@@ -126,7 +126,7 @@ const Footer = () => {
             <li>Tel: +91-40-40032084</li>
             <li>
               Sy. NO. 575, 576, Harsha Hospital Lane, Near S.L.N. Apartments,
-              Pakalakunta, Kompally, Hyderabad - 500 010.
+              Pakalakunta, Kompally, Hyderabad , Telangana , India - 500 010.
             </li>
             <div className="mt-4">
             <a href="https://maps.app.goo.gl/eStfe3XsvR46KMYG9" target ="_blank" >
