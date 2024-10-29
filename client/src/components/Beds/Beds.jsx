@@ -49,10 +49,10 @@ const Beds = () => {
           >
             Denver Model
             {hoveredCategory === "Denver Model collection" && (
-              <div className="xl:absolute xl:left-[180px] xl:-mt-[45px] xl:w-40 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-[500]">
+              <div className="xl:absolute xl:left-[180px] xl:-mt-[45px] xl:w-[175px] xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-[500]">
                 <div className="grid">
-                   <Link to="product-details/denver-with-storage"className="px-4 py-2 hover:bg-indigo-100">With storage</Link>
-                   <Link to="product-details/denver-without-storage"className="px-4 py-2 hover:bg-indigo-100">Without Storage</Link>
+                   <Link to="product-details/denver-with-storage"className="px-4 py-4 hover:bg-indigo-100">With & Without Storage</Link>
+                   {/* <Link to="product-details/denver-without-storage"className="px-4 py-2 hover:bg-indigo-100">Without Storage</Link> */}
 
                 </div>
                 
@@ -81,11 +81,11 @@ const Beds = () => {
           >
             PK Model
             {hoveredCategory === "PK Model Collection" && (
-              <div className="xl:absolute xl:left-[180px] xl:-mt-[45px] xl:w-40 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50">
+              <div className="xl:absolute xl:left-[180px] xl:-mt-[40px] xl:w-[175px] xl:bg-white xl:shadow-lg xl:rounded-md  xl:font-medium xl:-z-50">
 
                 <div className="grid">
-                <Link to="product-details/pkmodel-with-storage"className="px-4 py-2 hover:bg-indigo-100">With storage</Link>
-                <Link to="product-details/pkmodel-without-storage"className="px-4 py-2 hover:bg-indigo-100"> With Out storage</Link>
+                <Link to="product-details/pkmodel-with-storage"className="px-4 py-4 hover:bg-indigo-100">With & Without Storage</Link>
+                {/* <Link to="product-details/pkmodel-without-storage"className="px-4 py-2 hover:bg-indigo-100"> With Out storage</Link> */}
                 </div>
                 {/* <div className="px-4 py-2 hover:bg-indigo-100">
                   <Link to="product-details/pkmodel-with-storage">
@@ -113,10 +113,10 @@ const Beds = () => {
           >
             Diamond Model
             {hoveredCategory === "Diamond model Collection" && (
-              <div className="xl:absolute xl:left-[180px] xl:-mt-[45px] xl:w-40 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50">
+              <div className="xl:absolute xl:left-[180px] xl:-mt-[30px] xl:w-[175px] xl:bg-white xl:shadow-lg xl:rounded-md  xl:font-medium xl:-z-50">
                 <div className="grid">
-                <Link to="product-details/diamond-with-storage"className="px-4 py-2 hover:bg-indigo-100">With Storage</Link>
-                <Link to="product-details/diamond-without-storage"className="px-4 py-2 hover:bg-indigo-100">Without Storage </Link>   
+                <Link to="product-details/diamond-with-storage"className="px-4 py-4 hover:bg-indigo-100">With & Without Storage </Link>
+                {/* <Link to="product-details/diamond-without-storage"className="px-4 py-2 hover:bg-indigo-100">Without Storage </Link>    */}
                   
                   
                 </div>

@@ -1,24 +1,25 @@
 export const ProductScrollingImages = {
     // mattress
-    orthomed1    :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259359/DSC02102_bl637n.jpg",],
-    orthomed2    :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259353/DSC02103_podoia.jpg",],
-    Buckingham2  :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259809/DSC02088_xulnzz.jpg",],
-    Buckingham1  :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259830/DSC02089_yk4zt4.jpg",],
-    aloeveralatex1 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260128/DSC02137_ts4tze.jpg",],
-    aloeveralatex2 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727260130/DSC02138_obuxug.jpg",],
-    eternity1 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261422/DSC02120_bjf9km.jpg",],
-    eternity2  :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727261423/DSC02123_gwykre.jpg",],
+    orthomed1    :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729659313/orthomed12_zbtuj9_ox30gd.jpg",],
+    orthomed2    :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729659313/orthomed13_tlaq5j_y7eboz.jpg",],
+    ambitious1  :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1728903566/DSC03311_di0krx.jpg",],
+    ambitious2  :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1728903569/Rebonded_100_Density_100mm_700_x_400_px_28_offcyk.jpg",],
+    aloeveralatex1 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729660952/DSC03336_kfkkpc_d6de1m.jpg",],
+    aloeveralatex2 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729660954/DSC03338_cvjmyz_pdiiin.jpg",],
+    eternity1 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729661795/DSC03243_htsg5j_oidklg.jpg",],
+    eternity2  :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729661794/DSC03246_vv3poy_ujnkt8.jpg",],
+    
     
 
     //Beds
-    bed1 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727429571/CanopyBed_albyci.jpg",],
-    bed2 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727429570/SleighBed_txlov7.jpg",],
-    bed3 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727429652/PlatformBed_r8llmx.jpg",],
-    bed4 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727429650/PanelBed_wrfwa9.jpg",],
-    bed5 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727429714/kingsizebed4_qc1tfm.jpg",],
-    bed6 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727417984/LoftBed_ldvcdy.jpg",],
-    bed7 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727429726/kingsizebed3_cqzfoy.jpg",],
-    bed8 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727429777/MurphyBed_bnwywo.jpg",],
+    bed1 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729752612/denvermodel_adonkd.jpg",],
+    bed2 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729752611/denvermodel2_l8t3fp.jpg",],
+    bed3 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729752416/pkmodel3_xgejun.jpg",],
+    bed4 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729752388/pkmodel2_fovzam.jpg",],
+    bed5 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729754816/9_uef8bd.jpg",],
+    bed6 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729754821/10_sbpl8g.jpg",],
+    bed7 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729756167/scrolling4bed2_oxedbu.jpg",],
+    bed8 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729756168/scrolling4bed_rwbqwg.jpg",],
    
 
     //Sofas
@@ -34,13 +35,13 @@ export const ProductScrollingImages = {
 
    // Accessories
 
-    accessories1 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727266047/AloveraPolyfiberPillow2_jrtovb.jpg",],
-    accessories2 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727266137/PolyFiberPillow1_qpuvhp.png",],
-    accessories3 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264286/Memoryfoam_Pillow1_vqewfs.jpg",],
-    accessories4 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264289/Memoryfoam_Pillow2_evrsjy.jpg",],
-    accessories5 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264360/LatexPillow1_spx6l4.jpg",],
-    accessories6 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264368/LatexPillow4_ftovke.jpg",],
-    accessories7 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727430364/Foampillow11_ia9qsr.png",],
-    accessories8 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1727265483/Foampillow2_rxnwgn.jpg",],
+    accessories1 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586063/polyfibre3_mcdq0l.jpg",],
+    accessories2 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586065/polyfibre1_lcdxqt.jpg",],
+    accessories3 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729588175/memorypillow11_c3rbvh.jpg",],
+    accessories4 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729588174/memorypillow12_mazfhr.jpg",],
+    accessories5 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729588567/latexpillow13_yupfni.jpg",],
+    accessories6 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729588568/latexpillow11_bk2egt.jpg",],
+    accessories7 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586109/foampillow3_yh2old.jpg",],
+    accessories8 :[ "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586118/foampillow2_ewl5hs.jpg",],
 
 }

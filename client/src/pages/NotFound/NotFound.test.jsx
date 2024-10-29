@@ -1,24 +1,22 @@
-import React from "react";
-import { render, screen } from "@testing-library/react";
-import { BrowserRouter } from "react-router-dom";
-import NotFound from "./NotFound";
-import { vi } from "vitest";
 
-// Mock any components or modules used in NotFound if necessary
-// For example:
-// vi.mock("../../components/SomeComponent", () => ({ default: () => <div>Mocked Component</div> }));
 
-describe("NotFound", () => {
-  it("renders the NotFound component", () => {
+import { render, screen } from '@testing-library/react';
+import { MemoryRouter } from 'react-router-dom';
+import NotFound from './NotFound.jsx';
+
+describe('NotFound', () => {
+  it('renders the NotFound component', () => {
     render(
-      <BrowserRouter>
+      <MemoryRouter>
         <NotFound />
-      </BrowserRouter>
+      </MemoryRouter>
     );
 
-    // Add assertions to check for expected content
-    expect(screen.getByText(/404/i)).toBeInTheDocument();
-    expect(screen.getByText(/Page Not Found/i)).toBeInTheDocument();
-    // Add more specific assertions based on your NotFound component's content
+    // Optional: add assertions to verify the content
+    expect(screen.getByText(/404 - Page Not Found/i)).toBeInTheDocument();
+    expect(screen.getByText(/Sorry, the page you're looking for doesn't exist/i)).toBeInTheDocument();
+    expect(screen.getByText(/Go back to the Homepage/i)).toBeInTheDocument();
   });
 });
+
+
