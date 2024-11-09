@@ -6,7 +6,8 @@ import SleepFineR from "../../assets/SleepFine_R.png";
 
 const HeroSection = () => {
 
-  const DiwaliVideoRef = useRef(null);
+  // const DiwaliVideoRef = useRef(null);
+  const VideoRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
   // const [videoMusic, setVideoMusic] = useState(false); // Initially unmuted (sound plays)
 
@@ -20,12 +21,12 @@ const HeroSection = () => {
   //   "https://res.cloudinary.com/dpsmbluby/video/upload/v1728044969/Carouselvid_nmtw6q.mp4";
 
   // this one is pexel video(short one )
-  // const Video =
-  //   "https://res.cloudinary.com/dpsmbluby/video/upload/v1727780873/herosection-video_pyansr.mp4";
+  const Video =
+    "https://res.cloudinary.com/dpsmbluby/video/upload/v1727780873/herosection-video_pyansr.mp4";
 
   // Diwali video
-  const DiwaliVideo =
-    "https://res.cloudinary.com/dpsmbluby/video/upload/v1729078661/HAPPY_DUSSEHRE_DIWALI_2_cvtvka.mp4";
+  // const DiwaliVideo =
+  //   "https://res.cloudinary.com/dpsmbluby/video/upload/v1729078661/HAPPY_DUSSEHRE_DIWALI_2_cvtvka.mp4";
 
   const Image =
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727780912/herosection-image_x6rrdk.jpg";
@@ -33,8 +34,8 @@ const HeroSection = () => {
   useEffect(() => {
     const playVideo = async () => {
       try {
-        if (DiwaliVideoRef.current) {
-          await DiwaliVideoRef.current.play();
+        if (VideoRef.current) {
+          await VideoRef.current.play();
           setIsPlaying(true);
         }
       } catch (error) {
@@ -53,7 +54,7 @@ const HeroSection = () => {
         {/* Video for xl screens only */}
         <div className="hidden xl:block xl:h-full">
           <video
-            ref={DiwaliVideoRef}
+            ref={VideoRef}
             autoPlay
             loop
             muted
@@ -61,7 +62,7 @@ const HeroSection = () => {
             playsInline
             className="absolute top-0 left-0 w-full h-[100%] object-fill"
           >
-            <source src={DiwaliVideo} type="video/mp4" />
+            <source src={Video} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
 
