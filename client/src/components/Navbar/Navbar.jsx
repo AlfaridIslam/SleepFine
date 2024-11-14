@@ -117,7 +117,7 @@ const Navbar = () => {
             <Accessories />
           </div>
           <div className="underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
-            <Link to="/ourstores">OUR-STORES</Link>
+            <Link to="/blog">BLOG</Link>
           </div>
 
           {/* <div
