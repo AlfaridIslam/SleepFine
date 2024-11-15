@@ -10,6 +10,7 @@ import ProductTypes from "./pages/ProductTypes/ProductTypes.jsx";
 import ProductDetails from "./pages/ProductDetails/ProductDetails.jsx";
 
 import Store from "./components/OurStore/OurStore.jsx";
+import Blog from "./components/Blog/Blog.jsx";
 
 import NotFound from "./pages/NotFound/NotFound.jsx";
 import Spinner from "./components/spinner/Spinner.jsx";
@@ -42,6 +43,7 @@ function App() {
               <Route path="/product-types" element={<ProductTypes />} />
 
               <Route path="/ourstores" element={<Store />} />
+              <Route path="/blog" element={<Blog />} />
 
               <Route
                 path="/product-details/:productType"
