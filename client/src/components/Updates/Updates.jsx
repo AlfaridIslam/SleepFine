@@ -17,7 +17,7 @@ export const Updates = () => {
               <img
                 src="https://res.cloudinary.com/dpsmbluby/image/upload/v1731652719/Guru_Nanak_Jayanti_Offer_post_dorr49.jpg"
                 alt="Ambitious discount grunu nanak jayanti"
-                className="w-full h-full object-cover rounded-xl"
+                className="w-full h-full object-contain rounded-xl"
               />
             </div>
 
