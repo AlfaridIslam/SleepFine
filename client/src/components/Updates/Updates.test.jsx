@@ -13,4 +13,3 @@ describe('Updates', () => {
     screen.debug(); // Prints out the JSX in the Updates component to the command line
   });
 });
-

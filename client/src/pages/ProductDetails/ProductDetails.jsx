@@ -1534,6 +1534,19 @@ const ProductDetails = () => {
     setMagnifyStyle({ display: "none" });
   };
 
+
+  useEffect(() => {
+    const handleBeforeUnload = (event) => {
+        event.preventDefault();
+        
+    };
+
+    window.addEventListener('beforeunload', handleBeforeUnload);
+
+   
+    
+}, []);
+
   // Handle navigation for the carousel
   const handlePrevClick = () => {
     setCurrentImageIndex((prevIndex) =>
