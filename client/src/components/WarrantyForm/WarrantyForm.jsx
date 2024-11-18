@@ -383,8 +383,9 @@ const WarrantyForm = () => {
         <div className="mb-4">
           <label className="block text-gray-700">Mobile Number</label>
           <input
-            type="text"
+            type="tel"
             name="mobileNumber"
+            
             className="w-full px-3 py-2 border rounded shadow-sm"
             value={formData.mobileNumber}
             onChange={handleInputChange}
