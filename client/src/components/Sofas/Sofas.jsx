@@ -51,9 +51,9 @@ const Sofas = () => {
             {hoveredCategory === "Standard Sofa Collection" && (
               <div className="xl:absolute xl:left-[150px] xl:-mt-[45px]  xl:w-40   xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium bg-white l:-z-50">
                 <div className='grid'>
-                <Link  to="product-details/Chesterfield"className="px-4 py-2 hover:bg-indigo-100">Chesterfield</Link>
-                <Link to="product-details/Lawson"className="px-4 py-2 hover:bg-indigo-100" >Lawson </Link>
-                <Link to="product-details/Tuxedo"className="px-4 py-2 hover:bg-indigo-100">Tuxedo  </Link>
+                <Link  to="product-details/Chesterfield_sofa"className="px-4 py-2 hover:bg-indigo-100">Chesterfield</Link>
+                <Link to="product-details/Lawson_sofa"className="px-4 py-2 hover:bg-indigo-100" >Lawson </Link>
+                <Link to="product-details/Tuxedo_sofa"className="px-4 py-2 hover:bg-indigo-100">Tuxedo  </Link>
                 </div>
                 {/* <div className="px-4 py-2 hover:bg-indigo-100">
                   <Link
@@ -97,11 +97,11 @@ const Sofas = () => {
             {hoveredCategory === "Sectional Sofa Collection" && (
               <div className="xl:absolute xl:left-[150px] xl:-mt-[45px] xl:w-52 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50">
                 <div className='grid'>
-                <Link to="product-details/L-Shaped"className="px-4 py-2 hover:bg-indigo-100">L-Shaped </Link>
-                <Link to="product-details/U-Shaped"className="px-4 py-2 hover:bg-indigo-100" >U-Shaped</Link>
+                <Link to="product-details/L-Shaped-sofa"className="px-4 py-2 hover:bg-indigo-100">L-Shaped </Link>
+                <Link to="product-details/U-Shaped-sofa"className="px-4 py-2 hover:bg-indigo-100" >U-Shaped</Link>
                 <Link to="product-details/l-shaped-sofa-cumbed"className="px-4 py-2 hover:bg-indigo-100" >L-Shaped Sofa cum Bed </Link>
                 <Link to="product-details/u-shaped-sofa-cumbed"className="px-4 py-2 hover:bg-indigo-100">U-Shaped Sofa cum Bed </Link>
-                <Link to="product-details/Modular"className="px-4 py-2 hover:bg-indigo-100">Modular </Link>
+                <Link to="product-details/Modular_sofa"className="px-4 py-2 hover:bg-indigo-100">Modular </Link>
                 </div>
                 {/* <div className="px-4 py-2 hover:bg-indigo-100">
                   <Link

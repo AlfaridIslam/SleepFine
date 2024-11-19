@@ -49,15 +49,15 @@ const Mattress = () => {
             {hoveredCategory === "Orthopedic Bonded Collection" && (
               <div className="xl:absolute xl:left-[250px] xl:-mt-10 xl:w-52 xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:bg-white xl:-z-50">
                 <div className="grid ">
-                <Link to="product-details/orthomed" className="px-4 py-2 hover:bg-indigo-100">Orthomed</Link>
+                <Link to="product-details/orthopedic_rebonded_orthomed_mattress" className="px-4 py-2 hover:bg-indigo-100">Orthomed</Link>
                 
-                <Link to="product-details/milange " className="px-4 py-2 hover:bg-indigo-100">Milange</Link>
-                <Link to="product-details/preference" className="px-4 py-2 hover:bg-indigo-100">Preference</Link>
-                <Link to="product-details/buckingham"className="px-4 py-2 hover:bg-indigo-100">Buckingham</Link>
-                <Link to="product-details/buckingham-lexus"className="px-4 py-2 hover:bg-indigo-100">Buckingham Lexus</Link>
-                <Link to="product-details/orthopedic-aloe-vera-latex"className="px-4 py-2 hover:bg-indigo-100">Aloe-Vera With Latex</Link>
-                <Link to="product-details/orthopedic-aloe-vera-memory"className="px-4 py-2 hover:bg-indigo-100">Aloe-Vera With Memory</Link>
-                <Link to="product-details/memofy"className="px-4 py-2 hover:bg-indigo-100">Memofy</Link>
+                <Link to="product-details/orthopedic_rebonded_milange_mattress " className="px-4 py-2 hover:bg-indigo-100">Milange</Link>
+                <Link to="product-details/orthopedic_rebonded_preference_mattress" className="px-4 py-2 hover:bg-indigo-100">Preference</Link>
+                <Link to="product-details/orthopedic_rebonded_buckingham_mattress"className="px-4 py-2 hover:bg-indigo-100">Buckingham</Link>
+                <Link to="product-details/orthopedic-rebonded-buckingham-lexus-mattress"className="px-4 py-2 hover:bg-indigo-100">Buckingham Lexus</Link>
+                <Link to="product-details/orthopedic-rebonded-aloe-vera-latex-mattress"className="px-4 py-2 hover:bg-indigo-100">Aloe-Vera With Latex</Link>
+                <Link to="product-details/orthopedic-rebonded-aloe-vera-memory-mattress"className="px-4 py-2 hover:bg-indigo-100">Aloe-Vera With Memory</Link>
+                <Link to="product-details/orthopedic_rebonded_memofy_mattress"className="px-4 py-2 hover:bg-indigo-100">Memofy</Link>
                 
                 </div>
 
@@ -112,14 +112,14 @@ const Mattress = () => {
               <div className="xl:absolute xl:left-[250px]  xl:w-52 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50 xl:-mt-[45px]">
                 
                 <div className="grid">
-                <Link to="product-details/silver-crown" className="px-4 py-2 hover:bg-indigo-100">Silver Crown</Link>
-                <Link to="product-details/oxford" className="px-4 py-2 hover:bg-indigo-100">Oxford</Link>
-                <Link to="product-details/love-land-pillow-top" className="px-4 py-2 hover:bg-indigo-100">LoveLand Pillow Top</Link>
-                <Link to="product-details/romantic-euroton" className="px-4 py-2 hover:bg-indigo-100">Romantic Euroton</Link>
-                <Link to="product-details/ambitious" className="px-4 py-2 hover:bg-indigo-100">Ambitious</Link>
-                <Link to="product-details/ortho-bonnell-aloe-vera-with-latex" className="px-4 py-2 hover:bg-indigo-100">Aloe-Vera With Latex</Link>
-                <Link to="product-details/ortho-bonnell-aloe-vera-with-memory" className="px-4 py-2 hover:bg-indigo-100">Aloe-Vera With Memory</Link>
-                <Link to="product-details/the-hotel"  className="px-4 py-2 hover:bg-indigo-100">The Hotel</Link>
+                <Link to="product-details/ortho-bonnell-spring-silver-crown-mattress" className="px-4 py-2 hover:bg-indigo-100">Silver Crown</Link>
+                <Link to="product-details/ortho_bonnell_spring_oxford_mattress" className="px-4 py-2 hover:bg-indigo-100">Oxford</Link>
+                <Link to="product-details/ortho-bonnell-spring-love-land-pillow-top-mattress" className="px-4 py-2 hover:bg-indigo-100">LoveLand Pillow Top</Link>
+                <Link to="product-details/ortho-bonnell-spring-romantic-euroton-mattress" className="px-4 py-2 hover:bg-indigo-100">Romantic Euroton</Link>
+                <Link to="product-details/ortho_bonnell_spring_ambitious_mattress" className="px-4 py-2 hover:bg-indigo-100">Ambitious</Link>
+                <Link to="product-details/ortho-bonnell-spring-aloe-vera-with-latex-mattress" className="px-4 py-2 hover:bg-indigo-100">Aloe-Vera With Latex</Link>
+                <Link to="product-details/ortho-bonnell-spring-aloe-vera-with-memory-mattress" className="px-4 py-2 hover:bg-indigo-100">Aloe-Vera With Memory</Link>
+                <Link to="product-details/ortho-bonnell-spring-the-hotel-mattress"  className="px-4 py-2 hover:bg-indigo-100">The Hotel</Link>
 
                 </div>
                 {/* <div className="px-4 py-2 hover:bg-indigo-100">
@@ -177,11 +177,11 @@ const Mattress = () => {
                 
                 <div className="grid">
                 
-                <Link to="product-details/pocketed-spring-inspiration" className="px-4 py-2 hover:bg-indigo-100">Inspiration</Link>
-                <Link to="product-details/the-hotel-luxury" className="px-4 py-2 hover:bg-indigo-100">The Hotel Luxury</Link>
-                <Link to="product-details/pocketed-spring-6inch-eternity-euroton"className="px-4 py-2 hover:bg-indigo-100">Eternity-Euroton</Link>
-                <Link to="product-details/pocketed-spring-aloe-vera-with-latex"className="px-4 py-2 hover:bg-indigo-100">Aloe-Vera With Latex</Link>
-                <Link to="product-details/pocketed-spring-aloe-vera-with-memory"className="px-4 py-2 hover:bg-indigo-100">Aloe-Vera With Memory</Link>
+                <Link to="product-details/pocketed-spring-inspiration-mattress" className="px-4 py-2 hover:bg-indigo-100">Inspiration</Link>
+                <Link to="product-details/pocketed-spring-the-hotel-luxury-mattress" className="px-4 py-2 hover:bg-indigo-100">The Hotel Luxury</Link>
+                <Link to="product-details/pocketed-spring-6inch-eternity-euroton-mattress"className="px-4 py-2 hover:bg-indigo-100">Eternity-Euroton</Link>
+                <Link to="product-details/pocketed-spring-aloe-vera-with-latex-mattress"className="px-4 py-2 hover:bg-indigo-100">Aloe-Vera With Latex</Link>
+                <Link to="product-details/pocketed-spring-aloe-vera-with-memory-mattress"className="px-4 py-2 hover:bg-indigo-100">Aloe-Vera With Memory</Link>
                 
 
                 </div>
@@ -231,10 +231,10 @@ const Mattress = () => {
             {hoveredCategory === "HR-PU Foam Collection" && (
               <div className="xl:absolute xl:left-[250px] xl:-mt-[45px] xl:w-36 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium">
                 <div className="grid">
-                <Link to="product-details/hr-pu-gravity" className="px-4 py-2 hover:bg-indigo-100">Gravity</Link>
-                <Link to="product-details/hr-pu-space" className="px-4 py-2 hover:bg-indigo-100">Space</Link>
-                <Link to="product-details/memory-active" className="px-4 py-2 hover:bg-indigo-100">Memory Active</Link>
-                <Link to="product-details/rose-by-rose" className="px-4 py-2 hover:bg-indigo-100">Rose By Rose</Link>
+                <Link to="product-details/hr-pu-foam-gravity-mattress" className="px-4 py-2 hover:bg-indigo-100">Gravity</Link>
+                <Link to="product-details/hr-pu-foam-space-mattress" className="px-4 py-2 hover:bg-indigo-100">Space</Link>
+                <Link to="product-details/hr-pu-foam-memory-active-mattress" className="px-4 py-2 hover:bg-indigo-100">Memory Active</Link>
+                <Link to="product-details/hr-pu-foam-rose-by-rose-mattress" className="px-4 py-2 hover:bg-indigo-100">Rose By Rose</Link>
                       
                 </div>
 
