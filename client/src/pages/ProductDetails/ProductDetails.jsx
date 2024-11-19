@@ -9,7 +9,7 @@ import { productImages } from "../../components/Cloudinary/ProductImages.jsx";
 const productData = {
   // SOFAS
   // STANDARD SOFA
-  chesterfield: {
+  chesterfield_sofa: {
     // images: [chesterfield1, chesterfield2, chesterfield3, chesterfield4],
     images: productImages.chesterfield,
     description: `
@@ -24,7 +24,7 @@ const productData = {
     </div>
   `,
   },
-  lawson: {
+  lawson_sofa: {
     // images: [Lawson1, Lawson2, Lawson3, Lawson4],
     images: productImages.lawson,
     description: `
@@ -39,7 +39,7 @@ const productData = {
     </div>
   `,
   },
-  tuxedo: {
+  tuxedo_sofa: {
     // images: [Tuxedo1, Tuxedo2, Tuxedo3, Tuxedo4],
     images: productImages.tuxedo,
     description: `
@@ -56,7 +56,7 @@ const productData = {
   },
 
   // SECTIONAL SOFA
-  "l-shaped": {
+  "l-shaped-sofa": {
     // images: [LshapedSofa1, LshapedSofa2, LshapedSofa3, LshapedSofa4],
     images: productImages.Lshaped,
     description: `
@@ -71,7 +71,7 @@ const productData = {
     </div>
   `,
   },
-  "u-shaped": {
+  "u-shaped-sofa": {
     // images: [UshapedSofa1, UshapedSofa2, UshapedSofa3, UshapedSofa4],
     images: productImages.Ushaped,
     description: `
@@ -86,7 +86,7 @@ const productData = {
     </div>
   `,
   },
-  modular: {
+  modular_sofa: {
     // images: [ModularSofa1, ModularSofa2, ModularSofa3, ModularSofa4],
     images: productImages.modular,
     description: `
@@ -147,7 +147,7 @@ const productData = {
 
   // BEDS
   // DENVER-MODEL-BEDS
-  "denver-with-storage": {
+  "denver-with-storage-and-without-storage-bed": {
     // images: [DenverModel1, DenverModel2, DenverModel3, DenverModel4],
     images: productImages.denver_model_with_storage,
     description: `
@@ -179,7 +179,7 @@ const productData = {
   `,
   },
   // DIAMOND MODEL BED
-  "diamond-with-storage": {
+  "diamond-with-storage-and-without-storage-bed": {
     // images: [DiamondModel1, DiamondModel2, DiamondModel3, DiamondModel4],
     images: productImages.diamond_with_storage,
     description: `
@@ -210,7 +210,7 @@ const productData = {
   `,
   },
   // PK MODEL BEDS
-  "pkmodel-with-storage": {
+  "pkmodel-with-storage-and-without-storage-bed": {
     // images: [PKModel1, PKModel2, PKModel3, PKModel4],
     images: productImages.pk_model_withstorage,
     description: `
@@ -243,7 +243,7 @@ const productData = {
 
   // MATTRESSES
   // ORTHOPEDIC
-  orthomed: {
+  orthopedic_rebonded_orthomed_mattress: {
     // images: [OrthomedBanner, ORTRHOMED1, ORTRHOMED2, ORTRHOMED6, Orthospeci],
     images: productImages.orthomed,
 
@@ -279,7 +279,7 @@ const productData = {
     </div>
   `,
   },
-  milange: {
+  orthopedic_rebonded_milange_mattress: {
     // images: [OrthomedBanner, Milange1, Milange2, Milange6, MilangeSpeci],
     images: productImages.milange,
 
@@ -318,7 +318,7 @@ const productData = {
   `,
   },
 
-  preference: {
+  orthopedic_rebonded_preference_mattress: {
     // images: [
     //   OrthomedBanner,
     //   Preference1,
@@ -361,7 +361,7 @@ const productData = {
     </div>
   `,
   },
-  buckingham: {
+  orthopedic_rebonded_buckingham_mattress: {
     // images: [
     //   BuckinghumBanner,
     //   Buckingham1,
@@ -404,7 +404,7 @@ const productData = {
     </div>
   `,
   },
-  "buckingham-lexus": {
+  "orthopedic-rebonded-buckingham-lexus-mattress": {
     // images: [
     //   BuckinghumBanner,
     //   Buckingham1,
@@ -448,7 +448,7 @@ const productData = {
     </div>
   `,
   },
-  "orthopedic-aloe-vera-latex": {
+  "orthopedic-rebonded-aloe-vera-latex-mattress": {
     // images: [
     //   AloeveraBanner,
     //   AloveraBonnel1,
@@ -495,7 +495,7 @@ const productData = {
 
   `,
   },
-  "orthopedic-aloe-vera-memory": {
+  "orthopedic-rebonded-aloe-vera-memory-mattress": {
     // images: [
     //   AloeveraBanner,
     //   OrthopedicAloeveraMemory1,
@@ -542,7 +542,7 @@ const productData = {
 
   `,
   },
-  memofy: {
+  orthopedic_rebonded_memofy_mattress: {
     // images: [OrthomedBanner, Memofy1, Memofy2, Memofy3, MemofySpeci], // Assuming images are not uploaded yet
     images: productImages.memofy,
 
@@ -582,7 +582,7 @@ const productData = {
   // ORTHO BONNELL
 
   
-  "silver-crown": {
+  "ortho-bonnell-spring-silver-crown-mattress": {
     // images: [Hotel1, Hotel2, Hotel3],
     images: productImages.silver_crown,
     description: `
@@ -622,7 +622,7 @@ const productData = {
   },
 
 
-  oxford: {
+  ortho_bonnell_spring_oxford_mattress: {
     // images: [oxford1, oxford2, oxford6],
     images: productImages.oxford,
     description: `
@@ -657,7 +657,7 @@ const productData = {
     </div>
   `,
   },
-  "the-hotel": {
+  "ortho-bonnell-spring-the-hotel-mattress": {
     // images: [Hotel1, Hotel2, Hotel3],
     images: productImages.thehotel,
     description: `
@@ -694,7 +694,7 @@ const productData = {
     </div>
   `,
   },
-  "love-land-pillow-top": {
+  "ortho-bonnell-spring-love-land-pillow-top-mattress": {
     // images: [Loveland1, Loveland2, Loveland6],
     images: productImages.Love_Land_Pillow_Top,
     description: `
@@ -730,7 +730,7 @@ const productData = {
     </div>
   `,
   },
-  "romantic-euroton": {
+  "ortho-bonnell-spring-romantic-euroton-mattress": {
     // images: [RomanticBanner, Romanticfirm1, Romanticfirm2, Romanticfirm6],
     images: productImages.Romantic_Euroton,
     description: `
@@ -766,7 +766,7 @@ const productData = {
     </div>
   `,
   },
-  ambitious: {
+  ortho_bonnell_spring_ambitious_mattress: {
     // images: [RomanticBanner, Romanticfirm1, Romanticfirm2, Romanticfirm6],
     images: productImages.ambitious,
     description: `
@@ -801,7 +801,7 @@ const productData = {
     </div>
   `,
   },
-  "ortho-bonnell-aloe-vera-with-latex": {
+  "ortho-bonnell-spring-aloe-vera-with-latex-mattress": {
     // images: [AloeveraBanner, AloveraBonnel1, AloveraBonnel2, AloveraBonnel3],
     images: productImages.orthoBonnel_Alovera_with_latex,
     description: `
@@ -844,7 +844,7 @@ const productData = {
 
   `,
   },
-  "ortho-bonnell-aloe-vera-with-memory": {
+  "ortho-bonnell-spring-aloe-vera-with-memory-mattress": {
     // images: [
     //   AloeveraBanner,
     //   OrthopedicAloeveraMemory1,
@@ -895,7 +895,7 @@ const productData = {
 
   // POCKETED
 
-  "pocketed-spring-inspiration": {
+  "pocketed-spring-inspiration-mattress": {
     // images: [
     //   InsperationalPocketed1,
     //   InsperationalPocketed2,
@@ -935,7 +935,7 @@ const productData = {
   `,
   },
 
-  "the-hotel-luxury": {
+  "pocketed-spring-the-hotel-luxury-mattress": {
     // images: [Hotel1, Hotel2, Hotel3],
     images: productImages. the_hotel_luxury,
     description: `
@@ -972,7 +972,7 @@ const productData = {
     </div>
   `,
   },
-  "pocketed-spring-6inch-eternity-euroton": {
+  "pocketed-spring-6inch-eternity-euroton-mattress": {
     // images: [EternityEuroton1, EternityEuroton2, EternityEuroton3],
     images: productImages.Eternity_Euroton,
     description: `
@@ -1008,7 +1008,7 @@ const productData = {
     </div>
   `,
   },
-  "pocketed-spring-aloe-vera-with-latex": {
+  "pocketed-spring-aloe-vera-with-latex-mattress": {
     // images: [AloeveraBanner, AloveraBonnel1, AloveraBonnel2, AloveraBonnel3],
     images: productImages.pocketed_Aloe_Vera_With_Latex,
     description: `
@@ -1047,7 +1047,7 @@ const productData = {
 
   `,
   },
-  "pocketed-spring-aloe-vera-with-memory": {
+  "pocketed-spring-aloe-vera-with-memory-mattress": {
     // images: [
     //   AloeveraBanner,
     //   OrthopedicAloeveraMemory1,
@@ -1094,7 +1094,7 @@ const productData = {
 
   // HR-PU FOAM
 
-  "hr-pu-gravity": {
+  "hr-pu-foam-gravity-mattress": {
     // images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5],
     images: productImages.gravity,
     description: `
@@ -1126,7 +1126,7 @@ const productData = {
     </div>
   `,
   },
-  "hr-pu-space": {
+  "hr-pu-foam-space-mattress": {
     // images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5],
     images: productImages.space,
     description: `
@@ -1162,7 +1162,7 @@ const productData = {
 
   //Meory-Active
 
-  "memory-active": {
+  "hr-pu-foam-memory-active-mattress": {
     // images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5],
     images: productImages.memory_active,
     description: `
@@ -1207,7 +1207,7 @@ const productData = {
 
   //Rose-rose
 
-  "rose-by-rose": {
+  "hr-pu-foam-rose-by-rose-mattress": {
     // images: [SixinchPUFOAM1, SixinchPUFOAM2, SixinchPUFOAM5],
     images: productImages.rose,
     description: `
@@ -1251,7 +1251,7 @@ const productData = {
   // ACCESSORIES
   // COMFORTERS
 
-  protector: {
+  water_proof_mattress_protector_accessories: {
     // images: [BaffelBox, SewnThrough],
     images: productImages.waterproof_protectors,
     description: `
@@ -1269,7 +1269,7 @@ const productData = {
   `,
   },
 
-  "quilted-protector": {
+  "quilted-mattress-protector-accessories": {
     // images: [BaffelBox, SewnThrough],
     images: productImages.Quilted_protectors,
     description: `
@@ -1306,7 +1306,7 @@ const productData = {
   },
 
   // pillows
-  "memory-pillow": {
+  "memory-pillow-accessories": {
     // images: [
     //   MemoryfoamPillow1,
     //   MemoryfoamPillow2,
@@ -1328,7 +1328,7 @@ const productData = {
     </div>
   `,
   },
-  latexpillow: {
+  latexpillow_accessories: {
     // images: [LatexPillow1, LatexPillow2, LatexPillow3, LatexPillow4],
     images: productImages.latexy_pillow,
     description: `
@@ -1345,7 +1345,7 @@ const productData = {
     </div>
   `,
   },
-  "foam-pillow": {
+  "foam-pillow-accessories": {
     // images: [Foampillow11, Foampillow2, Foampillow3, Foampillow4],
     images: productImages.foam_pillow,
     description: `
@@ -1362,7 +1362,7 @@ const productData = {
     </div>
   `,
   },
-  "poly-fibre-pillow": {
+  "poly-fibre-pillow-accessories": {
     // images: [
     //   PolyfiberPillow1,
     //   AloveraPolyfiberPillow2,
@@ -1384,7 +1384,7 @@ const productData = {
     </div>
   `,
   },
-  "duvet": {
+  "duvet-accessories": {
     
     images: productImages.duvets,
     description: `
@@ -1407,7 +1407,7 @@ const productData = {
     </div>
   `,
   },
-  "comforters": {
+  "comforters-accessories": {
    
     images: productImages.comforters,
     description: `

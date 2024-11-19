@@ -50,8 +50,8 @@ const Accessories = () => {
               <div className="xl:absolute xl:left-[145px] xl:-mt-[40px]  xl:w-56   xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50 bg-white">
                 
                 <div className="grid">
-                <Link to="product-details/protector" className="px-4 py-2 hover:bg-indigo-100">Water-Proof Protector</Link>
-                <Link to="product-details/quilted-protector" className="px-4 py-2 hover:bg-indigo-100">Quilted protector</Link>
+                <Link to="product-details/water_proof_mattress_protector_accessories" className="px-4 py-2 hover:bg-indigo-100">Water-Proof Protector</Link>
+                <Link to="product-details/quilted-mattress-protector-accessories" className="px-4 py-2 hover:bg-indigo-100">Quilted protector</Link>
                 
                 </div>
                 {/* <div className="px-4 py-2 hover:bg-indigo-100">
@@ -96,10 +96,10 @@ const Accessories = () => {
               <div className="xl:absolute xl:left-[150px] xl:-mt-[45px] xl:w-40 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50">
                 
                 <div className='grid'>
-                <Link to="product-details/memory-pillow" className="px-4 py-2 hover:bg-indigo-100">Memory Pillow</Link>
-                <Link to="product-details/latexpillow" className="px-4 py-2 hover:bg-indigo-100">Latex Pillow</Link>
-                <Link to="product-details/foam-pillow"className="px-4 py-2 hover:bg-indigo-100">Foam Pillow</Link>  
-                <Link to="product-details/poly-fibre-pillow" className="px-4 py-2 hover:bg-indigo-100">Poly Fibre Pillow</Link>          
+                <Link to="product-details/memory-pillow-accessories" className="px-4 py-2 hover:bg-indigo-100">Memory Pillow</Link>
+                <Link to="product-details/latexpillow_accessories" className="px-4 py-2 hover:bg-indigo-100">Latex Pillow</Link>
+                <Link to="product-details/foam-pillow-accessories"className="px-4 py-2 hover:bg-indigo-100">Foam Pillow</Link>  
+                <Link to="product-details/poly-fibre-pillow-accessories" className="px-4 py-2 hover:bg-indigo-100">Poly Fibre Pillow</Link>          
 
                 </div>
 
@@ -146,13 +146,13 @@ const Accessories = () => {
               </div>
             )}
           </div>
-          <Link to="product-details/duvet">
+          <Link to="product-details/duvet-accessories">
           <div className="px-4 py-2 rounded-lg hover:bg-slate-200  hover:text-black">
            Duvets 
           </div>
           </Link>
           
-          <Link to="product-details/comforters">
+          <Link to="product-details/comforters-accessories">
           <div className="px-4 py-2 rounded-lg hover:bg-slate-200  hover:text-black">
           Comforters 
           </div>

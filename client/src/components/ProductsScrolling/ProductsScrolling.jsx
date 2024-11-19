@@ -78,22 +78,22 @@ const ProductsScrolling = () => {
       {
         image: ProductScrollingImages.orthomed1,
         hoverImage: ProductScrollingImages.orthomed2,
-        link: "orthomed",
+        link: "orthopedic_rebonded_orthomed_mattress",
       },
       {
         image: ProductScrollingImages.ambitious1,
         hoverImage: ProductScrollingImages.ambitious2,
-        link: "ambitious",
+        link: "ortho_bonnell_spring_ambitious_mattress",
       },
       {
         image: ProductScrollingImages.aloeveralatex1,
         hoverImage: ProductScrollingImages.aloeveralatex2,
-        link: "orthopedic-aloe-vera-latex",
+        link: "orthopedic-rebonded-aloe-vera-latex-mattress",
       },
       {
         image: ProductScrollingImages.eternity1,
         hoverImage: ProductScrollingImages.eternity2,
-        link: "pocketed-spring-6inch-eternity-euroton",
+        link: "pocketed-spring-6inch-eternity-euroton-mattress",
       },
     ];
 
@@ -101,23 +101,23 @@ const ProductsScrolling = () => {
     {
       image: ProductScrollingImages.bed1, // Pass the image directly
       hoverImage: ProductScrollingImages.bed2, // Pass the hover image directly
-      link: "denver-with-storage",
+      link: "denver-with-storage-and-without-storage-bed",
     },
   
     {
       image: ProductScrollingImages.bed5,
       hoverImage: ProductScrollingImages.bed6,
-      link: "diamond-with-storage",
+      link: "diamond-with-storage-and-without-storage-bed",
     },
     {
       image: ProductScrollingImages.bed3,
       hoverImage: ProductScrollingImages.bed4,
-      link: "pkmodel-with-storage",
+      link: "pkmodel-with-storage-and-without-storage-bed",
     },
     {
       image: ProductScrollingImages.bed7,
       hoverImage: ProductScrollingImages.bed8,
-      link: "diamond-with-storage",
+      link: "diamond-with-storage-and-without-storage-bed",
     },
   ];
   
@@ -125,22 +125,22 @@ const ProductsScrolling = () => {
     {
       image: ProductScrollingImages.sofa1,
       hoverImage: ProductScrollingImages.sofa2,
-      link: "L-Shaped",
+      link: "l-shaped-sofa",
     },
     {
       image: ProductScrollingImages.sofa3,
       hoverImage: ProductScrollingImages.sofa4,
-      link: "U-Shaped",
+      link: "u-shaped-sofa",
     },
     {
       image: ProductScrollingImages.sofa5,
       hoverImage: ProductScrollingImages.sofa6,
-      link: "Chesterfield",
+      link: "chesterfield_sofa",
     },
     {
       image: ProductScrollingImages.sofa7,
       hoverImage: ProductScrollingImages.sofa8,
-      link: "Tuxedo",
+      link: "tuxedo_sofa",
     },
   ];
   
@@ -148,22 +148,22 @@ const ProductsScrolling = () => {
     {
       image: ProductScrollingImages.accessories1,
       hoverImage: ProductScrollingImages.accessories2,
-      link: "poly-fibre-pillow",
+      link: "poly-fibre-pillow-accessories",
     },
     {
       image: ProductScrollingImages.accessories3,
       hoverImage: ProductScrollingImages.accessories4,
-      link: "memory-pillow",
+      link: "memory-pillow-accessories",
     },
     {
       image: ProductScrollingImages.accessories5,
       hoverImage: ProductScrollingImages.accessories6,
-      link: "latexpillow",
+      link: "latexpillow_accessories",
     },
     {
       image: ProductScrollingImages.accessories7,
       hoverImage: ProductScrollingImages.accessories8,
-      link: "foam-pillow",
+      link: "foam-pillow-accessories",
     },
   ];
   
