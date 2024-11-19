@@ -1,0 +1,49 @@
+<<<<<<< HEAD
+Container for the main image and buttons
+=======
+/* Container for the main image and buttons */
+.main-image {
+  position: relative;
+  margin-bottom: 4rem;
+  width: 100%;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main image styling */
+.main-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  border: 2px solid #cbd5e0;
+  background-color: #cbd5e0;
+}
+
+/* Carousel navigation buttons */
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 6rem;
+  padding: 1rem;
+  cursor: pointer;
+  margin-top: -44px;
+}
+
+button.left {
+  left: 1rem;
+  font-size: 80px;
+}
+
+button.right {
+  right: 1rem;
+  font-size: 80px;
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 45c32556088855d2779b27059a78f037b528807f
