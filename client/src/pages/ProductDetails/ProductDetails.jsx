@@ -1,6 +1,6 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { useParams } from "react-router-dom";
+import { useParams, Navigate } from "react-router-dom";
 
 // importing cloudinary urls
 import { productImages } from "../../components/Cloudinary/ProductImages.jsx";
@@ -581,7 +581,6 @@ const productData = {
 
   // ORTHO BONNELL
 
-  
   "ortho-bonnell-spring-silver-crown-mattress": {
     // images: [Hotel1, Hotel2, Hotel3],
     images: productImages.silver_crown,
@@ -620,7 +619,6 @@ const productData = {
     </div>
   `,
   },
-
 
   ortho_bonnell_spring_oxford_mattress: {
     // images: [oxford1, oxford2, oxford6],
@@ -937,7 +935,7 @@ const productData = {
 
   "pocketed-spring-the-hotel-luxury-mattress": {
     // images: [Hotel1, Hotel2, Hotel3],
-    images: productImages. the_hotel_luxury,
+    images: productImages.the_hotel_luxury,
     description: `
 
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
@@ -1385,7 +1383,6 @@ const productData = {
   `,
   },
   "duvet-accessories": {
-    
     images: productImages.duvets,
     description: `
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
@@ -1408,7 +1405,6 @@ const productData = {
   `,
   },
   "comforters-accessories": {
-   
     images: productImages.comforters,
     description: `
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
@@ -1431,15 +1427,16 @@ const productData = {
     </div>
   `,
   },
-
-
-
 };
 
 const ProductDetails = () => {
   const { productType } = useParams(); // Get the productType from URL
   const formattedProductType = productType.toLowerCase(); // Ensure the keys in productData are lower case and hyphenated
   const productInfo = productData[formattedProductType]; // Fetch the product info based on the URL param
+
+  if (!productInfo) {
+    return <Navigate to="*" />;
+  }
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0); // Track the current image index
 
@@ -1471,8 +1468,6 @@ const ProductDetails = () => {
   const handleMouseLeave = () => {
     setMagnifyStyle({ display: "none" });
   };
-
-   
 
   // handle function for zooming main image on Hovered or onClicked
   // const handleZoomIn = () => {
@@ -1509,8 +1504,6 @@ const ProductDetails = () => {
     });
   };
 
-  
-
   // Handle touch move for magnifying glass effect on mobile
   const handleTouchMove = (e) => {
     const touch = e.touches[0];
@@ -1534,18 +1527,13 @@ const ProductDetails = () => {
     setMagnifyStyle({ display: "none" });
   };
 
-
   useEffect(() => {
     const handleBeforeUnload = (event) => {
-        event.preventDefault();
-        
+      event.preventDefault();
     };
 
-    window.addEventListener('beforeunload', handleBeforeUnload);
-
-   
-    
-}, []);
+    window.addEventListener("beforeunload", handleBeforeUnload);
+  }, []);
 
   // Handle navigation for the carousel
   const handlePrevClick = () => {
@@ -1650,7 +1638,6 @@ const ProductDetails = () => {
                     }`}
                     onClick={() => handleThumbnailClick(index)} // Change main image on click
                     onMouseEnter={() => handleThumbnailClick(index)} // Change main image on hover
-                    
                   />
                 ))}
               </div>
@@ -1685,10 +1672,6 @@ const ProductDetails = () => {
       </div>
     </>
   );
-
-
-  
 };
 
 export default ProductDetails;
-
