@@ -15,8 +15,8 @@ export const Updates = () => {
             {/* Video container with consistent dimensions */}
             <div className="w-full xl:w-1/2 aspect-[18/9]">
               <img
-                src="https://res.cloudinary.com/dpsmbluby/image/upload/v1731652719/Guru_Nanak_Jayanti_Offer_post_dorr49.jpg"
-                alt="Ambitious discount grunu nanak jayanti"
+                src="https://res.cloudinary.com/dpsmbluby/image/upload/v1732101750/orthopedic-offer_kxknih.jpg"
+                alt="Orthopedic rebonded mattress"
                 className="w-full h-full object-contain rounded-xl"
               />
             </div>
@@ -25,19 +25,19 @@ export const Updates = () => {
             <div className="w-full xl:w-1/2">
               <div className="space-y-4">
                 <p className="poppins-light text-sm xl:text-base">
-                  ✨ Celebrate Guru Nanak Jayanti with Sleepfine! ✨ In honor of
-                  this special occasion, enjoy 35% off on our premium Orthopedic
-                  Buckingham Mattress! 🛏️💤 Plus, get 2 free memory pillows with
-                  your purchase for an extra touch of comfort. Don't miss out on
-                  this limited-time offer to elevate your sleep experience at an
-                  incredible value! 💸🔥
+                  ✨ Discover True Comfort with Sleepfine! ✨ Upgrade your sleep
+                  experience with our premium orthopedic mattresses, designed to
+                  provide unmatched support and relaxation. 🛏️💤 Visit your
+                  nearest Sleepfine store today and find the perfect mattress
+                  for your ultimate comfort. Your journey to better sleep starts
+                  here! 💤🔥
                   <br />
-                  <Link to="/ourstores" className="underline text-red-300">
+                  {/* <Link to="/ourstores" className="underline text-red-300">
                     Hurry before the sale ends! 🕒👀
-                  </Link>{" "}
-                  ✨
+                  </Link>{" "} */}
+                  {/* ✨ */}
                 </p>
-                <p className="font-thin text-[11px]">15th Nov, 2024</p>
+                <p className="font-thin text-[11px]">20th Nov, 2024</p>
               </div>
             </div>
           </div>

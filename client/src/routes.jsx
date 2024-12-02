@@ -8,6 +8,7 @@ import Store from "./components/OurStore/OurStore";
 import Blog from "./components/Blog/Blog";
 import WarrantyForm from "./components/WarrantyForm/WarrantyForm";
 import NotFound from "./pages/NotFound/NotFound";
+import Prime from "./components/WarrantyForm/Prime";
 
 export const router = createBrowserRouter([
   {
@@ -24,6 +25,7 @@ export const router = createBrowserRouter([
         path: "/product-details/*",
         element: <NotFound />,
       },
+      {path: "/primetech" , element: <Prime/>}
     ],
   },
 ]);
