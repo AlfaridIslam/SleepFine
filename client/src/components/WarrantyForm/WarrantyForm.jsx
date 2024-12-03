@@ -23,6 +23,7 @@ const WarrantyForm = () => {
     length: "",
     breadth: "",
     height: "",
+    totalQuantity: "",
     purchaseFrom: "",
     selectedStore: "",
     dealerName: "",
@@ -115,7 +116,7 @@ const WarrantyForm = () => {
     "Ameerpet Store",
     "Hafiz Baba Nagar",
     "Kompally",
-    "Shahpur/Gajularamaram",
+    "Shapur/Gajularamaram",
   ];
 
   const handlePurchaseFromChange = (e) => {
@@ -250,6 +251,7 @@ const WarrantyForm = () => {
       "selectedVariety",
       "sizeType",
       "orderNumber",
+      "totalQuantity",
       "invoiceDate",
     ];
 
@@ -289,46 +291,47 @@ const WarrantyForm = () => {
       // Generate PDF
       const pdfDoc = await generatePDF();
 
-       const transformedData = {
-         "Customer Name": formData.customerName,
-         "Mobile Number": formData.mobileNumber,
-         "Email Id": formData.email,
-         Address: formData.address,
-         State: formData.state,
-         City: formData.city,
-         Product: formData.selectedProduct,
-         Variety: formData.selectedVariety,
-         "Size Type": formData.sizeType,
-         Length:
-           formData.sizeType === "standard"
-             ? formData.length
-             : formData.customLength,
-         Breadth:
-           formData.sizeType === "standard"
-             ? formData.breadth
-             : formData.customBreadth,
-         Height:
-           formData.sizeType === "standard"
-             ? formData.height
-             : formData.customHeight,
-         "Purchase From": formData.purchaseFrom,
-         ...(formData.purchaseFrom === "Store" && {
-           Store: formData.selectedStore,
-         }),
-         ...(formData.purchaseFrom === "Others" && {
-           "Dealer Name": formData.dealerName,
-         }),
-         "Order Number": formData.orderNumber,
-         "Invoice Date": formData.invoiceDate,
-         Warranty: formData.warranty,
-       };
+      const transformedData = {
+        "Customer Name": formData.customerName,
+        "Mobile Number": formData.mobileNumber,
+        "Email Id": formData.email,
+        Address: formData.address,
+        State: formData.state,
+        City: formData.city,
+        "Total Quantity": formData.totalQuantity,
+        Product: formData.selectedProduct,
+        Variety: formData.selectedVariety,
+        "Size Type": formData.sizeType,
+        Length:
+          formData.sizeType === "standard"
+            ? formData.length
+            : formData.customLength,
+        Breadth:
+          formData.sizeType === "standard"
+            ? formData.breadth
+            : formData.customBreadth,
+        Height:
+          formData.sizeType === "standard"
+            ? formData.height
+            : formData.customHeight,
+        "Purchase From": formData.purchaseFrom,
+        ...(formData.purchaseFrom === "Store" && {
+          Store: formData.selectedStore,
+        }),
+        ...(formData.purchaseFrom === "Others" && {
+          "Dealer Name": formData.dealerName,
+        }),
+        "Order Number": formData.orderNumber,
+        "Invoice Date": formData.invoiceDate,
+        Warranty: formData.warranty,
+      };
 
       console.log("Transformed data being sent:", transformedData);
 
       // Submit to Google Sheets
       await axios.post(
         //"https://api.sheetbest.com/sheets/f6c087ef-7190-4e8f-a6f2-0803e4fa8066",(Main-contact@sleepfineindia.com)
-        "https://api.sheetbest.com/sheets/edd942dc-9a65-4dac-a249-3338f8872e82",//(sleepfinemattresses.in@gmail.com)
+        "https://api.sheetbest.com/sheets/edd942dc-9a65-4dac-a249-3338f8872e82", //(sleepfinemattresses.in@gmail.com)
 
         transformedData
       );
@@ -386,7 +389,6 @@ const WarrantyForm = () => {
           <input
             type="tel"
             name="mobileNumber"
-            
             className="w-full px-3 py-2 border rounded shadow-sm"
             value={formData.mobileNumber}
             onChange={handleInputChange}
@@ -631,6 +633,7 @@ const WarrantyForm = () => {
             />
           </div>
         )}
+        {/* ORDER NUMBER */}
         <div className="mb-4">
           <label className="block text-gray-700">Order Number</label>
           <input
@@ -641,6 +644,18 @@ const WarrantyForm = () => {
             onChange={handleInputChange}
           />
         </div>
+        {/* TOTAL QUANTITY */}
+        <div className="mb-4">
+          <label className="block text-gray-700">Total Quantity</label>
+          <input
+            type="text"
+            name="totalQuantity"
+            className="w-full px-3 py-2 border rounded shadow-sm"
+            value={formData.totalQuantity}
+            onChange={handleInputChange}
+          />
+        </div>
+        {/* INVOICE */}
         <div className="mb-4">
           <label className="block text-gray-700">Invoice Date</label>
           <input
