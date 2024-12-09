@@ -4,6 +4,7 @@ import Mattress from "../Mattress/Mattress.jsx";
 import Beds from "../Beds/Beds.jsx";
 import Sofas from "../Sofas/Sofas.jsx";
 
+
 import Accessories from "../Accessories/Accessories.jsx";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -14,6 +15,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { Link, useLocation } from "react-router-dom";
 import logo from "../../assets/sleepfinelogo-3.png";
+import logoR from "../../assets/SleepFinelogoR.png"
 
 const Navbar = () => {
   const [isProductsDropdownOpen, setIsProductsDropdownOpen] = useState(false);
@@ -52,7 +54,7 @@ const Navbar = () => {
   return (
     <div>
       <div
-        className="xl:flex xl:border-b-[2px] xl:justify-end xl:gap-10 xl:p-2 xl:text-base xl:w-full xl:bg-white
+        className="w-[166%] xl:w-full xl:flex xl:border-b-[2px] xl:justify-end xl:gap-10 xl:p-2 xl:text-base xl:bg-white
   sm:flex sm:justify-center sm:text-3xl sm:gap-20 sm:bg-amber-300 sm:w-[166%] sm:p-4"
       >
         <div>
@@ -83,7 +85,9 @@ const Navbar = () => {
 
         <Link to="/" className="">
           <img
-            src={logo}
+           //src={logoR}
+          src="https://res.cloudinary.com/dpsmbluby/image/upload/v1729774444/logosince11_vn89hm.png"
+         
             alt="Logo"
             className="xl:w-44   xl:h-14  xl:mt-5  xl:ml-0 xl:pb-0 xl:pt-0 xl:p-0  sm:justify-center sm:ml-[450px] sm:py-2  sm:h-20 sm:-mt-20"
           />
@@ -93,7 +97,7 @@ const Navbar = () => {
 
         <div
           className={`xl:flex xl:justify-evenly xl:gap-14 xl:cursor-pointer xl:relative xl:z-10 xl:text-[13px] font-sans xl:mt-10 
-              sm:grid sm:gap-4   sm:ml-20   sm:text-[20px]  sm:${
+              sm:grid sm:gap-4   sm:ml-24   sm:text-[20px]  sm:${
                 barsOpen ? "block" : "hidden"
               }`}
         >
@@ -113,7 +117,7 @@ const Navbar = () => {
             <Accessories />
           </div>
           <div className="underline decoration-transparent transition duration-300 ease-in-out hover:decoration-current">
-            <Link to="/ourstores">OUR-STORES</Link>
+            <Link to="/blog">BLOG</Link>
           </div>
 
           {/* <div
@@ -694,3 +698,5 @@ e
 };
 
 export default Navbar;
+
+

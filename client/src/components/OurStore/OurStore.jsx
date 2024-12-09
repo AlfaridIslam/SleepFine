@@ -7,94 +7,68 @@ import React from "react";
         OUR STORES
       </div>
 
-
-      
-
-     
-      
       <div className="xl:grid xl:grid-cols-2 xl:gap-8 xl:px-10 xl:w-full  sm:w-[100%] sm:px-10 sm:grid sm:gap-8 sm:justify-center ">
-         {/* Store 1 */}
+        {/* Store 1 */}
 
         <div className="rounded-2xl border-2 shadow opacity-1 pt-10 items-center justify-between p-6 w-full h-auto relative bg-slate-100">
           <div className="address p-4 py-0">
-            <p className="text-xl">Sleep Fine Comfort Planet-Alwal 500010</p>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243634.6393398494!2d78.30725502812498!3d17.4218033406113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9adb2cb190fb%3A0x95c1df25d34e0a85!2sSleepfine%20mattress!5e0!3m2!1sen!2sin!4v1725603986281!5m2!1sen!2sin"
-              width="100%"
-              height="240"
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+            <p className="text-xl underline">Sleep Fine Comfort Planet-Alwal 500010</p>
+            <a href="https://maps.app.goo.gl/d32jCdNqCPhv4e3y8"  target="_blank" rel="noopener noreferrer">
+            <img src="https://res.cloudinary.com/dpsmbluby/image/upload/v1727759140/Screenshot_2024-10-01_103447_lrswqt.png" alt="" className="w-[100%] h-80"/>
+
+            </a>
+          
           </div>
         </div>
 
         {/* Store 2 */}
         <div className="rounded-2xl border-2 shadow opacity-1 pt-10 items-center justify-between p-6 w-full h-auto relative bg-slate-100 ">
           <div className="address p-4 py-0">
-            <p className="text-xl">Sleep Fine Comfort Planet-Ameerpet 500016</p>
+            <p className="text-xl underline">Sleep Fine Comfort Planet-Ameerpet 500016</p>
+            <a href="https://maps.app.goo.gl/zcmixDarWiAidU7P8"  target="_blank" rel="noopener noreferrer">
+            <img src="https://res.cloudinary.com/dpsmbluby/image/upload/v1727763389/Screenshot_2024-10-01_114512_y53hks.png" alt=""  className="w-[100%] h-80"/>
 
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.50046838643!2d78.45212687351685!3d17.435744383459728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9a1a55555533%3A0x1b432d909a97654c!2sSleepfine%20Comfort%20Planet!5e0!3m2!1sen!2sin!4v1725604306165!5m2!1sen!2sin"
-              width="100%"
-              height="240"
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+            </a>
           </div>
         </div>
 
         {/* Store 3 */}
         <div className="rounded-2xl border-2 shadow opacity-1 pt-10 items-center justify-between p-6 w-full h-auto relative bg-slate-100">
           <div className="address p-4 py-0">
-            <p className="text-xl">
+            <p className="text-xl underline">
               Sleep Fine Comfort Planet-Hafiz Baba Nagar 500005
             </p>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3808.8213321368667!2d78.48494917351331!3d17.324167583552313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba36d708d9087%3A0x3d2500d3fe49d789!2sSLEEP%20FINE%20COMFORT%20PLANET!5e0!3m2!1sen!2sin!4v1725604225657!5m2!1sen!2sin"
-              width="100%"
-              height="240"
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+            <a href="https://maps.app.goo.gl/VSoBpCkdKkHKb4nr6"  target="_blank" rel="noopener noreferrer">
+            <img src="https://res.cloudinary.com/dpsmbluby/image/upload/v1727763795/Screenshot_2024-10-01_115241_a1fg99.png" alt="" className="w-[100%] h-80" />
+
+            </a>
           </div>
         </div>
 
         {/* Store 4 */}
         <div className="rounded-2xl border-2 shadow opacity-1 pt-10 items-center justify-between p-6 w-full h-auto relative bg-slate-100">
           <div className="address p-4 py-0">
-            <p className="text-xl">
+            <p className="text-xl underline">
               Sleep Fine Comfort Planet-Gajularamaram 500055
             </p>
-           
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.7375006040056!2d78.433486!3d17.5200398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb8f0cd88dfcb1%3A0x40f2138f02379df1!2sSleepfine%20mattress%20gajularamaram!5e0!3m2!1sen!2sin!4v1726827479140!5m2!1sen!2sin"
-              width="100%"
-              height="240"
-              
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+
+            <a href="https://maps.app.goo.gl/eHfFF396ZcEirC9Q9"  target="_blank" rel="noopener noreferrer">
+            <img src="https://res.cloudinary.com/dpsmbluby/image/upload/v1727763993/Screenshot_2024-10-01_115555_znh53n.png" alt=""  className="w-[100%] h-80" />
+
+            </a>
           </div>
         </div>
         {/* Store 5*/}
 
         <div className="rounded-2xl border-2 shadow opacity-1 pt-10 items-center justify-between p-6 w-full h-auto relative bg-slate-100">
           <div className="address p-4 py-0">
-            <p className="text-xl">
+            <p className="text-xl underline">
               Sleep Fine Mattress Factory-Kompally - 500010.
             </p>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15218.689267173717!2d78.495924!3d17.523149!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb85c89724427b%3A0x7df68edcf8e67783!2sSleep%20fine%20mattress%20Factory!5e0!3m2!1sen!2sin!4v1726658901039!5m2!1sen!2sin"
-              width="100%"
-              height="240"
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+            <a href="https://maps.app.goo.gl/hAFiRCuHUxYCcntb9"  target="_blank" rel="noopener noreferrer">
+            <img src="https://res.cloudinary.com/dpsmbluby/image/upload/v1727764413/Screenshot_2024-10-01_120242_bkm6ku.png" alt="" className="w-[100%] h-80" />
+
+            </a>
           </div>
         </div>
       </div>

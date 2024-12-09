@@ -4,44 +4,45 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import "./ProductsScrolling.css";
 import {Link} from "react-router-dom";
+import {ProductScrollingImages} from '../Cloudinary/ProductScrollingImages.jsx';
 
 // mattresses images
-import Orthomed1 from "../../assets/ORTHOMED1.jpeg";
-import Orthomed2 from "../../assets/ORTHOMED2.jpeg";
-import Buckingham1 from "../../assets/buckingham1.jpeg";
-import Buckingham2 from "../../assets/buckingham2.jpeg";
-import aloeveralatex1 from "../../assets/aloeveralatex1.jpeg";
-import aloeveralatex2 from "../../assets/aloeveralatex2.jpeg";
-import eternity1 from "../../assets/eternity1.jpeg";
-import eternity2 from "../../assets/eternity2.jpeg";
+// import Orthomed1 from "../../assets/ORTHOMED1.jpeg";
+// import Orthomed2 from "../../assets/ORTHOMED2.jpeg";
+// import Buckingham2 from "../../assets/buckingham2.jpeg";
+// import Buckingham1 from "../../assets/buckingham1.jpeg";
+// import aloeveralatex1 from "../../assets/aloeveralatex1.jpeg";
+// import aloeveralatex2 from "../../assets/aloeveralatex2.jpeg";
+// import eternity1 from "../../assets/eternity1.jpeg";
+// import eternity2 from "../../assets/eternity2.jpeg";
 
 // bed images
-import bed1 from "../../assets/Beds/King-Size-bed/CanopyBed.JPG";
-import bed2 from "../../assets/Beds/King-Size-bed/SleighBed.jpeg";
-import bed3 from "../../assets/Beds/King-Size-bed/PlatformBed.jpeg";
-import bed4 from "../../assets/Beds/King-Size-bed/PanelBed.jpeg";
-import bed5 from "../../assets/Beds/King-Size-bed/kingsizebed4.jpg";
-import bed6 from "../../assets/Beds/Queen-size-bed/LoftBed.jpg";
-import bed7 from "../../assets/Beds/King-Size-bed/Kingsizebed3.jpg";
-import bed8 from "../../assets/Beds/Queen-size-bed/MurphyBed.jpeg";
+// import bed1 from "../../assets/Beds/King-Size-bed/CanopyBed.JPG";
+// import bed2 from "../../assets/Beds/King-Size-bed/SleighBed.jpeg";
+// import bed3 from "../../assets/Beds/King-Size-bed/PlatformBed.jpeg";
+// import bed4 from "../../assets/Beds/King-Size-bed/PanelBed.jpeg";
+// import bed5 from "../../assets/Beds/King-Size-bed/kingsizebed4.jpg";
+// import bed6 from "../../assets/Beds/Queen-size-bed/LoftBed.jpg";
+// import bed7 from "../../assets/Beds/King-Size-bed/Kingsizebed3.jpg";
+// import bed8 from "../../assets/Beds/Queen-size-bed/MurphyBed.jpeg";
 // sofa images
-import sofa1 from "../../assets/Sofas/Sectional-Sofas/Lshapedsofa1.jpeg";
-import sofa2 from "../../assets/Sofas/Sectional-Sofas/ModularSofa1.jpg";
-import sofa3 from "../../assets/Sofas/Sectional-Sofas/UshapedSofa1.jpeg";
-import sofa4 from "../../assets/Sofas/Sectional-Sofas/UshapedSofa4.jpeg";
-import sofa5 from "../../assets/Sofas/StandardSofas/chesterfield4.jpg";
-import sofa6 from "../../assets/Sofas/StandardSofas/chesterfield1.jpg";
-import sofa7 from  "../../assets/Sofas/StandardSofas/Tuxedo3.jpg";
-import sofa8 from "../../assets/Sofas/StandardSofas/Tuxedo1.jpg";
+// import sofa1 from "../../assets/Sofas/Sectional-Sofas/Lshapedsofa1.jpeg";
+// import sofa2 from "../../assets/Sofas/Sectional-Sofas/ModularSofa1.jpg";
+// import sofa3 from "../../assets/Sofas/Sectional-Sofas/UshapedSofa1.jpeg";
+// import sofa4 from "../../assets/Sofas/Sectional-Sofas/UshapedSofa4.jpeg";
+// import sofa5 from "../../assets/Sofas/StandardSofas/chesterfield4.jpg";
+// import sofa6 from "../../assets/Sofas/StandardSofas/chesterfield1.jpg";
+// import sofa7 from  "../../assets/Sofas/StandardSofas/Tuxedo3.jpg";
+// import sofa8 from "../../assets/Sofas/StandardSofas/Tuxedo1.jpg";
 // accessories images
-import accessories1 from "../../assets/Accessories/Pillows/AloveraPolyfiberPillow2.jpeg";
-import accessories2 from "../../assets/Accessories/Pillows/AloveraPolyfiberPillow1.jpeg";
-import accessories3 from "../../assets/Accessories/Pillows/Memoryfoam_Pillow1.jpeg";
-import accessories4 from "../../assets/Accessories/Pillows/Memoryfoam_Pillow2.jpeg";
-import accessories5 from "../../assets/Accessories/Pillows/LatexPillow1.jpeg";
-import accessories6 from "../../assets/Accessories/Pillows/LatexPillow4.jpeg";
-import accessories7 from "../../assets/Accessories/Pillows/Foampillow11.png";
-import accessories8 from "../../assets/Accessories/Pillows/Foampillow2.jpeg";
+// import accessories1 from "../../assets/Accessories/Pillows/AloveraPolyfiberPillow2.jpeg";
+// import accessories2 from "../../assets/Accessories/Pillows/AloveraPolyfiberPillow1.jpeg";
+// import accessories3 from "../../assets/Accessories/Pillows/Memoryfoam_Pillow1.jpeg";
+// import accessories4 from "../../assets/Accessories/Pillows/Memoryfoam_Pillow2.jpeg";
+// import accessories5 from "../../assets/Accessories/Pillows/LatexPillow1.jpeg";
+// import accessories6 from "../../assets/Accessories/Pillows/LatexPillow4.jpeg";
+// import accessories7 from "../../assets/Accessories/Pillows/Foampillow11.png";
+// import accessories8 from "../../assets/Accessories/Pillows/Foampillow2.jpeg";
 
 const ProductsScrolling = () => {
   const settings = {
@@ -75,100 +76,101 @@ const ProductsScrolling = () => {
 
     const mattressItems = [
       {
-        image: Orthomed1,
-        hoverImage: Orthomed2,
-        link: "orthomed",
+        image: ProductScrollingImages.orthomed1,
+        hoverImage: ProductScrollingImages.orthomed2,
+        link: "orthopedic_rebonded_orthomed_mattress",
       },
       {
-        image: Buckingham1,
-        hoverImage: Buckingham2,
-        link: "buckingham",
+        image: ProductScrollingImages.ambitious1,
+        hoverImage: ProductScrollingImages.ambitious2,
+        link: "ortho_bonnell_spring_ambitious_mattress",
       },
       {
-        image: aloeveralatex1,
-        hoverImage: aloeveralatex2,
-        link: "orthopedic-aloe-vera-latex",
+        image: ProductScrollingImages.aloeveralatex1,
+        hoverImage: ProductScrollingImages.aloeveralatex2,
+        link: "orthopedic-rebonded-aloe-vera-latex-mattress",
       },
       {
-        image: eternity1,
-        hoverImage: eternity2,
-        link: "pocketed-spring-6inch-eternity-euroton",
+        image: ProductScrollingImages.eternity1,
+        hoverImage: ProductScrollingImages.eternity2,
+        link: "pocketed-spring-6inch-eternity-euroton-mattress",
       },
     ];
 
   const bedItems = [
     {
-      image: bed1, // Pass the image directly
-      hoverImage: bed2, // Pass the hover image directly
-      link: "denver-with-storage",
+      image: ProductScrollingImages.bed1, // Pass the image directly
+      hoverImage: ProductScrollingImages.bed2, // Pass the hover image directly
+      link: "denver-with-storage-and-without-storage-bed",
+    },
+  
+    {
+      image: ProductScrollingImages.bed5,
+      hoverImage: ProductScrollingImages.bed6,
+      link: "diamond-with-storage-and-without-storage-bed",
     },
     {
-      image: bed3,
-      hoverImage: bed4,
-      link: "denver-without-storage",
+      image: ProductScrollingImages.bed3,
+      hoverImage: ProductScrollingImages.bed4,
+      link: "pkmodel-with-storage-and-without-storage-bed",
     },
     {
-      image: bed5,
-      hoverImage: bed6,
-      link: "pkmodel-with-storage",
-    },
-    {
-      image: bed7,
-      hoverImage: bed8,
-      link: "diamond-with-storage",
+      image: ProductScrollingImages.bed7,
+      hoverImage: ProductScrollingImages.bed8,
+      link: "diamond-with-storage-and-without-storage-bed",
     },
   ];
   
   const sofaItems = [
     {
-      image: sofa1,
-      hoverImage: sofa2,
-      link: "L-Shaped",
+      image: ProductScrollingImages.sofa1,
+      hoverImage: ProductScrollingImages.sofa2,
+      link: "l-shaped-sofa",
     },
     {
-      image: sofa3,
-      hoverImage: sofa4,
-      link: "U-Shaped",
+      image: ProductScrollingImages.sofa3,
+      hoverImage: ProductScrollingImages.sofa4,
+      link: "u-shaped-sofa",
     },
     {
-      image: sofa5,
-      hoverImage: sofa6,
-      link: "Chesterfield",
+      image: ProductScrollingImages.sofa5,
+      hoverImage: ProductScrollingImages.sofa6,
+      link: "chesterfield_sofa",
     },
     {
-      image: sofa7,
-      hoverImage: sofa8,
-      link: "Tuxedo",
+      image: ProductScrollingImages.sofa7,
+      hoverImage: ProductScrollingImages.sofa8,
+      link: "tuxedo_sofa",
     },
   ];
   
   const accessoriesItems = [
     {
-      image: accessories1,
-      hoverImage: accessories2,
-      link: "poly-fibre-pillow",
+      image: ProductScrollingImages.accessories1,
+      hoverImage: ProductScrollingImages.accessories2,
+      link: "poly-fibre-pillow-accessories",
     },
     {
-      image: accessories3,
-      hoverImage: accessories4,
-      link: "memory-pillow",
+      image: ProductScrollingImages.accessories3,
+      hoverImage: ProductScrollingImages.accessories4,
+      link: "memory-pillow-accessories",
     },
     {
-      image: accessories5,
-      hoverImage: accessories6,
-      link: "latexpillow",
+      image: ProductScrollingImages.accessories5,
+      hoverImage: ProductScrollingImages.accessories6,
+      link: "latexpillow_accessories",
     },
     {
-      image: accessories7,
-      hoverImage: accessories8,
-      link: "foam-pillow",
+      image: ProductScrollingImages.accessories7,
+      hoverImage: ProductScrollingImages.accessories8,
+      link: "foam-pillow-accessories",
     },
   ];
   
 
   return (
     <div className="mt-4 sm:justify-center sm:align-middle sm:items-center grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-4 xl:w-full sm:w-[160%]  ">
-      {/* ------------------Beds------------------------- */}
+      {/* ------------------Mattress------------------------- */}
       <div className="Beds">
         <h1 className="text-xl font-semibold text-center mb-4 mt-10">
           MATTRESSES
@@ -187,14 +189,14 @@ const ProductsScrolling = () => {
                 <img
                   src={item.image}
                   alt={`Bed ${index + 1}`}
-                  className="transition-opacity duration-300 ease-in-out group-hover:opacity-0 w-full h-full object-cover rounded-xl"
+                  className="transition-opacity duration-300 ease-in-out group-hover:opacity-0 w-full h-full  rounded-xl"
                 />
 
                 {/* Hover Image */}
                 <img
                   src={item.hoverImage}
                   alt={`Hover Bed ${index + 1}`}
-                  className="absolute inset-0 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 w-full h-full object-cover rounded-xl"
+                  className="absolute inset-0 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 w-full h-full  rounded-xl"
                 />
 
                 {/* Know More Text */}
@@ -229,19 +231,19 @@ const ProductsScrolling = () => {
                 <img
                   src={item.image}
                   alt={`Bed ${index + 1}`}
-                  className="transition-opacity duration-300 ease-in-out group-hover:opacity-0 w-full h-full object-cover rounded-xl"
+                  className="transition-opacity duration-300 ease-in-out group-hover:opacity-0 w-full h-full  rounded-xl"
                 />
 
                 {/* Hover Image */}
                 <img
                   src={item.hoverImage}
                   alt={`Hover Bed ${index + 1}`}
-                  className="absolute inset-0 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 w-full h-full object-cover rounded-xl"
+                  className="absolute inset-0 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 w-full h-full  rounded-xl"
                 />
 
                 {/* Know More Text */}
 
-                <Link to="product-details/king-with-storage">
+                <Link to={`/product-details/${item.link}`}>
                   <div className="absolute inset-0 flex items-end justify-center text-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
                     <span className="text-white bg-black bg-opacity-50 px-2 py-2 rounded-lg w-full justify-center items-center">
                       Know More
@@ -282,7 +284,7 @@ const ProductsScrolling = () => {
               />
 
               {/* Know More Text */}
-              <Link to="product-details/Lawson">
+              <Link to={`/product-details/${item.link}`}>
                 <div className="absolute inset-0 flex items-end justify-center text-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
                   <span className="text-white bg-black bg-opacity-50 px-2 py-2 rounded-lg w-full justify-center items-center">
                     Know More
@@ -313,18 +315,18 @@ const ProductsScrolling = () => {
               <img
                 src={item.image}
                 alt={`Accessory ${index + 1}`}
-                className="transition-opacity duration-300 ease-in-out group-hover:opacity-0 w-full h-full object-cover rounded-xl"
+                className="transition-opacity duration-300 ease-in-out group-hover:opacity-0 w-full h-full  rounded-xl"
               />
 
               {/* Hover Image */}
               <img
                 src={item.hoverImage}
                 alt={`Hover Accessory ${index + 1}`}
-                className="absolute inset-0 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 w-full h-full object-cover rounded-xl"
+                className="absolute inset-0 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 w-full h-full  rounded-xl"
               />
 
               {/* Know More Text */}
-              <Link to="product-details/memory-pillow">
+              <Link to={`/product-details/${item.link}`}>
                 <div className="absolute inset-0 flex items-end justify-center text-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
                   <span className="text-white bg-black bg-opacity-50 px-2 py-2 rounded-lg w-full justify-center items-center">
                     Know More

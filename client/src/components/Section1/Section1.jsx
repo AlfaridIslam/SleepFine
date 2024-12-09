@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Logo from "../../assets/sleepfinelogo-3.png";
-import LogoImage from "../../assets/logo-image.png";
+//import Logo from "../../assets/sleepfinelogo-3.png";
+//import LogoImage from "../../assets/logo-image.png";
+//import Ispflogo2 from '../../assets/ISPFlogo2.jpg';
+//import { Link } from "react-router-dom";
+//import ceritificatesLogo from "../../assets/certificate-logos.png";
 
-import Ispflogo2 from '../../assets/ISPFlogo2.jpg';
-import { Link } from "react-router-dom";
-import ceritificatesLogo from "../../assets/certificate-logos.png";
 const Section1 = () => {
   const [showFullContent, setShowFullContent] = useState(false);
 
@@ -19,35 +19,34 @@ const Section1 = () => {
     >
       <div className="grid gap-5">
 
-      <div className="image ">
-        {/* Adjust image size dynamically based on content visibility */}
-        <img
-          src={Ispflogo2}
-          alt="Image"
-          className={`${
-            showFullContent
-              ? "xl:w-[2600px] xl:h-[160px]"
-              : "xl:w-[3000px] xl:h-[160px]"
-          } transition-all duration-500`}
-        />
+        <div className="image ">
+          {/* Adjust image size dynamically based on content visibility */}
+          {/* <img
+            src="https://res.cloudinary.com/dpsmbluby/image/upload/v1728366495/ISPFlogo2_ud1lcw.jpg"
+            alt="Image"
+            className={`${
+              showFullContent
+                ? "xl:w-[2600px] xl:h-[160px]"
+                : "xl:w-[3000px] xl:h-[200px]"
+            } transition-all duration-500`}
+          /> */}
+        </div>
+        
+        <div className="image ">
+          {/* Adjust image size dynamically based on content visibility */}
+          <img
+           // src="https://res.cloudinary.com/dpsmbluby/image/upload/v1728366520/logo-image_wxinpv.png"
+           src="https://res.cloudinary.com/dpsmbluby/image/upload/v1729772005/coverphot011_wncnop.jpg"
+            alt="Image"
+            className={`${
+              showFullContent
+                ? "xl:w-[2600px] xl:h-[400px]"
+                : "xl:w-[3000px] xl:h-[400px]"
+            } transition-all duration-500`}
+          />
+        </div>
       </div>
-      <div className="image ">
-        {/* Adjust image size dynamically based on content visibility */}
-        <img
-          src={LogoImage}
-          alt="Image"
-          className={`${
-            showFullContent
-              ? "xl:w-[2600px] xl:h-[400px]"
-              : "xl:w-[3000px] xl:h-[400px]"
-          } transition-all duration-500`}
-        />
-      </div>
-     
-      </div>
-      <div
-        className="description xl:flex-col xl:justify-center xl:items-center xl:p-11 xl:mt-0"
-      >
+      <div className="description xl:flex-col xl:justify-center xl:items-center xl:p-11 xl:mt-0">
         <p
           className="poppins-medium xl:text-center xl:text-4xl xl:mt-0
                            sm:text-2xl sm:mb-2 sm:text-center sm:mt-5"
@@ -62,11 +61,11 @@ const Section1 = () => {
           both luxurious and affordable?"
         </p>
         <p className="sm:px-4 xl:px-0">
-        <strong  >Our Certificates & Awards</strong>
-           <img src={ceritificatesLogo} alt=""  className="h-40"/>
+          <strong>Our Certificates & Awards</strong>
+          <img src="https://res.cloudinary.com/dpsmbluby/image/upload/v1729062198/MEMBER_1_1_kgqjww.jpg" alt="" className="xl:h-48" />
         </p>
         <p className="poppins-light  xl:text-left xl:mt-0 sm:text-left sm:text-lg sm:mt-2 xl:px-0 sm:px-4">
-          <strong  >Our Story</strong>
+          <strong>Our Story</strong>
           <br />
           Founded in the year 2006 by an experienced team of siblings as a
           family-owned business in the city Hyderabad, Telangana State, India.
@@ -85,7 +84,7 @@ const Section1 = () => {
               aim to help you wake up feeling refreshed, renewed, and ready to
               take on the day.
             </p>
-            <p className="poppins-light mt-4">
+            <div className="poppins-light mt-4">
               <strong>Our Values</strong>
               <ul className="list-disc ml-5 mt-2">
                 <li>
@@ -107,7 +106,8 @@ const Section1 = () => {
                   eco-friendly practices that minimize our impact on the planet.
                 </li>
               </ul>
-            </p>
+            </div>
+
             <p className="poppins-light mt-4">
               <strong>Join the Sleep Fine Family</strong>
               <br />
@@ -131,7 +131,6 @@ const Section1 = () => {
             View More
           </button>
         )}
-        
       </div>
     </div>
   );

@@ -49,8 +49,15 @@ const Beds = () => {
           >
             Denver Model
             {hoveredCategory === "Denver Model collection" && (
-              <div className="xl:absolute xl:left-[180px] xl:-mt-[45px] xl:w-40 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-[500]">
-                <div className="px-4 py-2 hover:bg-indigo-100">
+              <div className="xl:absolute xl:left-[180px] xl:-mt-[45px] xl:w-[175px] xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-[500]">
+                <div className="grid">
+                   <Link to="product-details/denver-with-storage-and-without-storage-bed"className="px-4 py-4 hover:bg-indigo-100">With & Without Storage</Link>
+                   {/* <Link to="product-details/denver-without-storage"className="px-4 py-2 hover:bg-indigo-100">Without Storage</Link> */}
+
+                </div>
+                
+                {/* <div className="px-4 py-2 hover:bg-indigo-100">
+
                   <Link to="product-details/denver-with-storage">
                     With storage
                   </Link>
@@ -59,7 +66,7 @@ const Beds = () => {
                   <Link to="product-details/denver-without-storage">
                     Without Storage
                   </Link>
-                </div>
+                </div> */}
               </div>
             )}
           </div>
@@ -69,15 +76,18 @@ const Beds = () => {
             className={`px-4 py-2 rounded-lg hover:bg-slate-200 hover:text-black ${
               hoveredCategory === "PK Model Collection" ? "" : ""
             }`}
-            onMouseEnter={() =>
-              handleMouseEnterCategory("PK Model Collection")
-            }
+            onMouseEnter={() => handleMouseEnterCategory("PK Model Collection")}
             onMouseLeave={handleMouseLeaveCategory}
           >
             PK Model
             {hoveredCategory === "PK Model Collection" && (
-              <div className="xl:absolute xl:left-[180px] xl:-mt-[45px] xl:w-40 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50">
-                <div className="px-4 py-2 hover:bg-indigo-100">
+              <div className="xl:absolute xl:left-[180px] xl:-mt-[40px] xl:w-[175px] xl:bg-white xl:shadow-lg xl:rounded-md  xl:font-medium xl:-z-50">
+
+                <div className="grid">
+                <Link to="product-details/pkmodel-with-storage-and-without-storage-bed"className="px-4 py-4 hover:bg-indigo-100">With & Without Storage</Link>
+                {/* <Link to="product-details/pkmodel-without-storage"className="px-4 py-2 hover:bg-indigo-100"> With Out storage</Link> */}
+                </div>
+                {/* <div className="px-4 py-2 hover:bg-indigo-100">
                   <Link to="product-details/pkmodel-with-storage">
                     With storage
                   </Link>
@@ -86,7 +96,7 @@ const Beds = () => {
                   <Link to="product-details/pkmodel-without-storage">
                     With Out storage
                   </Link>
-                </div>
+                </div> */}
               </div>
             )}
           </div>
@@ -103,8 +113,14 @@ const Beds = () => {
           >
             Diamond Model
             {hoveredCategory === "Diamond model Collection" && (
-              <div className="xl:absolute xl:left-[180px] xl:-mt-[45px] xl:w-40 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50">
-                <div className="px-4 py-2 hover:bg-indigo-100">
+              <div className="xl:absolute xl:left-[180px] xl:-mt-[30px] xl:w-[175px] xl:bg-white xl:shadow-lg xl:rounded-md  xl:font-medium xl:-z-50">
+                <div className="grid">
+                <Link to="product-details/diamond-with-storage-and-without-storage-bed"className="px-4 py-4 hover:bg-indigo-100">With & Without Storage </Link>
+                {/* <Link to="product-details/diamond-without-storage"className="px-4 py-2 hover:bg-indigo-100">Without Storage </Link>    */}
+                  
+                  
+                </div>
+                {/* <div className="px-4 py-2 hover:bg-indigo-100">
                   <Link to="product-details/diamond-with-storage">
                     With Storage
                   </Link>
@@ -113,37 +129,10 @@ const Beds = () => {
                   <Link to="product-details/diamond-without-storage">
                     Without Storage
                   </Link>
-                </div>
+                </div> */}
               </div>
             )}
           </div>
-
-          {/* Double Sized Beds Collection */}
-          {/* <div
-            className={`px-4 py-2 rounded-lg hover:bg-slate-200 hover:text-black ${
-              hoveredCategory === "Double bed Collection" ? "" : ""
-            }`}
-            onMouseEnter={() =>
-              handleMouseEnterCategory("Double bed Collection")
-            }
-            onMouseLeave={handleMouseLeaveCategory}
-          >
-            PK Model
-            {hoveredCategory === "Double bed Collection" && (
-              <div className="xl:absolute xl:left-[180px] xl:-mt-[45px] xl:w-40 xl:bg-white xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:-z-50">
-                <div className="px-4 py-2 hover:bg-indigo-100">
-                  <Link to="product-details/double-with-storage">
-                    With Storage
-                  </Link>
-                </div>
-                <div className="px-4 py-2 hover:bg-indigo-100">
-                  <Link to="product-details/double-without-storage">
-                    Without Storage
-                  </Link>
-                </div>
-              </div>
-            )}
-          </div> */}
         </div>
       )}
     </div>
@@ -151,3 +140,4 @@ const Beds = () => {
 };
 
 export default Beds;
+

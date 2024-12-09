@@ -1,0 +1,118 @@
+{
+  "denver-with-storage": {
+    "images": [
+      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262733/DenverModel1_gmjei6.jpg",
+      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262729/DenverModel2_scz2ap.jpg",
+      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262730/DenverModel3_ntraw6.jpg",
+      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262732/DenverModel4_roihmm.jpg"
+    ],
+    "title1": "Variety",
+    "content1": "With Storage",
+
+    "title2": "Title",
+    "content2": "Denver",
+
+    "title3": "Size",
+    "content3": "Standard, Customized",
+
+    "title4": "Customization",
+    "content4": "Customization available as per requirement"
+  },
+  "denver-without-storage": {
+    "images": [
+      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262733/DenverModel1_gmjei6.jpg",
+      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262729/DenverModel2_scz2ap.jpg",
+      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262730/DenverModel3_ntraw6.jpg",
+      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262732/DenverModel4_roihmm.jpg"
+    ],
+    "title1": "Variety",
+    "content1": "Without Storage",
+
+    "title2": "Title",
+    "content2": "Denver",
+
+    "title3": "Size",
+    "content3": "Standard, Customized",
+
+    "title4": "Customization",
+    "content4": "Customization available as per requirement"
+  },
+  "diamond-with-storage": {
+    "images": [
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263171/DiamondModel1_lyglos.jpg ",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263173/DiamondModel2_h03jse.jpg ",
+    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263175/DiamondModel3_k6gfml.jpg",
+    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263177/DiamondModel4_tuxtfp.jpg"
+    ],
+    "title1": "Variety",
+    "content1": "With Storage",
+
+    "title2": "Title",
+    "content2": "Diamond",
+
+    "title3": "Size",
+    "content3": "Standard, Customized",
+
+    "title4": "Customization",
+    "content4": "Customization available as per requirement"
+  },
+  "diamond-without-storage": {
+    "images": [
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263171/DiamondModel1_lyglos.jpg ",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263173/DiamondModel2_h03jse.jpg ",
+    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263175/DiamondModel3_k6gfml.jpg",
+    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263177/DiamondModel4_tuxtfp.jpg"
+    ],
+    "title1": "Variety",
+    "content1": "Without Storage",
+
+    "title2": "Title",
+    "content2": "Diamond",
+
+    "title3": "Size",
+    "content3": "Standard, Customized",
+
+    "title4": "Customization",
+    "content4": "Customization available as per requirement"
+  },
+  "pkmodel-with-storage": {
+    "images": [
+      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263016/PKModel1_bvz0ru.jpg",
+      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263017/PKModel2_cbqzn1.jpg",
+      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263019/PKModel3_xbonrq.jpg",
+      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263021/PKModel4_wc7pjz.jpg"
+    ],
+    "title1": "Variety",
+    "content1": "With Storage",
+
+    "title2": "Title",
+    "content2": "PK-Model",
+
+    "title3": "Size",
+    "content3": "Standard, Customized",
+
+    "title4": "Customization",
+    "content4": "Customization available as per requirement"
+  },
+  "pkmodel-without-storage": {
+    "images": [
+      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263016/PKModel1_bvz0ru.jpg",
+      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263017/PKModel2_cbqzn1.jpg",
+      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263019/PKModel3_xbonrq.jpg",
+      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263021/PKModel4_wc7pjz.jpg"
+    ],
+    "title1": "Variety",
+    "content1": "Without Storage",
+
+    "title2": "Title",
+    "content2": "PK-Model",
+
+    "title3": "Size",
+    "content3": "Standard, Customized",
+
+    "title4": "Customization",
+    "content4": "Customization available as per requirement"
+  }
+}
+
+
