@@ -50,8 +50,8 @@ const Mattress = () => {
               <div className="xl:absolute xl:left-[250px] xl:-mt-10 xl:w-52 xl:shadow-lg xl:rounded-md xl:pt-5 xl:font-medium xl:bg-white xl:-z-50">
                 <div className="grid ">
                 <Link to="product-details/orthopedic_rebonded_orthomed_mattress" className="px-4 py-2 hover:bg-indigo-100">Orthomed</Link>
-                
-                <Link to="product-details/orthopedic_rebonded_milange_mattress " className="px-4 py-2 hover:bg-indigo-100">Milange</Link>
+                <Link to="product-details/orthopedic_rebonded_milange_mattress" className="px-4 py-2 hover:bg-indigo-100">Milange</Link>
+                {/* <Link to="product-details/orthopedic_rebonded_milange_mattress" className="px-4 py-2 hover:bg-indigo-100">Milange</Link> */}
                 <Link to="product-details/orthopedic_rebonded_preference_mattress" className="px-4 py-2 hover:bg-indigo-100">Preference</Link>
                 <Link to="product-details/orthopedic_rebonded_buckingham_mattress"className="px-4 py-2 hover:bg-indigo-100">Buckingham</Link>
                 <Link to="product-details/orthopedic-rebonded-buckingham-lexus-mattress"className="px-4 py-2 hover:bg-indigo-100">Buckingham Lexus</Link>
