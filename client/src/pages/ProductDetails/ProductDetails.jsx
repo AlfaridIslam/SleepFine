@@ -279,7 +279,7 @@ const productData = {
     </div>
   `,
   },
-  orthopedic_rebonded_milange_mattress: {
+  "orthopedic-rebonded-milange-mattresses": {
     // images: [OrthomedBanner, Milange1, Milange2, Milange6, MilangeSpeci],
     images: productImages.milange,
 
