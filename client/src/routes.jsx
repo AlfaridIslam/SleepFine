@@ -8,10 +8,6 @@ import Store from "./components/OurStore/OurStore";
 import Blog from "./components/Blog/Blog";
 import WarrantyForm from "./components/WarrantyForm/WarrantyForm";
 import NotFound from "./pages/NotFound/NotFound";
-<<<<<<< HEAD
-
-=======
->>>>>>> 6956814142540461c66024aaf886ed0113df8d2e
 
 export const router = createBrowserRouter([
   {
