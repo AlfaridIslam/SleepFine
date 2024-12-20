@@ -274,9 +274,25 @@ const productData = {
     <div>
     <h2 class="font-bold">Ratings</h2>
     <p>⭐⭐⭐⭐</p>
+    
+    
     </div>
     </div>
+    
+    <h1 class="font-mono text-sky-700 sm:w-[120%] xl:w-full text-center mt-4">
+    Guide to Measuring Mattress Sizes:
+    <a
+      href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="animate-pulse text-blue-600 hover:underline cursor-pointer"
+    >
+      click here
+    </a>
+  </h1>
     </div>
+    
+    
   `,
   },
   "orthopedic-rebonded-milange-mattresses": {
@@ -314,7 +330,19 @@ const productData = {
     <h2 class="font-bold">Ratings</h2>
     <p>⭐⭐⭐⭐</p>
     </div>
+    
     </div>
+     <h1 class="font-mono text-sky-700 sm:w-[120%] xl:w-full text-center mt-4">
+    Guide to Measuring Mattress Sizes:
+    <a
+      href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="animate-pulse text-blue-600 hover:underline cursor-pointer"
+    >
+      click here
+    </a>
+  </h1>
   `,
   },
 
@@ -359,6 +387,17 @@ const productData = {
     <p>⭐⭐⭐⭐</p>
     </div>
     </div>
+     <h1 class="font-mono text-sky-700 sm:w-[120%] xl:w-full text-center mt-4">
+    Guide to Measuring Mattress Sizes:
+    <a
+      href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="animate-pulse text-blue-600 hover:underline cursor-pointer"
+    >
+      click here
+    </a>
+  </h1>
   `,
   },
   orthopedic_rebonded_buckingham_mattress: {
@@ -402,6 +441,17 @@ const productData = {
     <p>⭐⭐⭐⭐⭐</p>
     </div>
     </div>
+     <h1 class="font-mono text-sky-700 sm:w-[120%] xl:w-full text-center mt-4">
+    Guide to Measuring Mattress Sizes:
+    <a
+      href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="animate-pulse text-blue-600 hover:underline cursor-pointer"
+    >
+      click here
+    </a>
+  </h1>
   `,
   },
   "orthopedic-rebonded-buckingham-lexus-mattress": {
@@ -446,6 +496,17 @@ const productData = {
     </div>
     </div>
     </div>
+     <h1 class="font-mono text-sky-700 sm:w-[120%] xl:w-full text-center mt-4">
+    Guide to Measuring Mattress Sizes:
+    <a
+      href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="animate-pulse text-blue-600 hover:underline cursor-pointer"
+    >
+      click here
+    </a>
+  </h1>
   `,
   },
   "orthopedic-rebonded-aloe-vera-latex-mattress": {
@@ -492,6 +553,17 @@ const productData = {
     <p>⭐⭐⭐⭐⭐</p>
   </div>
 </div>
+ <h1 class="font-mono text-sky-700 text-center mt-4">
+    Guide to Measuring Mattress Sizes:
+    <a
+      href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="animate-pulse text-blue-600 hover:underline cursor-pointer"
+    >
+      click here
+    </a>
+  </h1>
 
   `,
   },
@@ -539,6 +611,17 @@ const productData = {
     <p>⭐⭐⭐⭐⭐</p>
   </div>
 </div>
+ <h1 class="font-mono text-sky-700 text-center mt-4">
+    Guide to Measuring Mattress Sizes:
+    <a
+      href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="animate-pulse text-blue-600 hover:underline cursor-pointer"
+    >
+      click here
+    </a>
+  </h1>
 
   `,
   },
@@ -576,6 +659,17 @@ const productData = {
     </div>
     </div>
     </div>
+     <h1 class="font-mono text-sky-700 sm:w-[120%] xl:w-full text-center mt-4">
+    Guide to Measuring Mattress Sizes:
+    <a
+      href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="animate-pulse text-blue-600 hover:underline cursor-pointer"
+    >
+      click here
+    </a>
+  </h1>
   `,
   },
 
@@ -617,6 +711,17 @@ const productData = {
     </div>
     </div>
     </div>
+     <h1 class="font-mono text-sky-700 sm:w-[120%] xl:w-full text-center mt-4">
+    Guide to Measuring Mattress Sizes:
+    <a
+      href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="animate-pulse text-blue-600 hover:underline cursor-pointer"
+    >
+      click here
+    </a>
+  </h1>
   `,
   },
 
@@ -653,6 +758,17 @@ const productData = {
     </div>
     </div>
     </div>
+     <h1 class="font-mono text-sky-700 sm:w-[120%] xl:w-full text-center mt-4">
+    Guide to Measuring Mattress Sizes:
+    <a
+      href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="animate-pulse text-blue-600 hover:underline cursor-pointer"
+    >
+      click here
+    </a>
+  </h1>
   `,
   },
   "ortho-bonnell-spring-the-hotel-mattress": {
@@ -690,6 +806,17 @@ const productData = {
     </div>
     </div>
     </div>
+     <h1 class="font-mono text-sky-700 sm:w-[120%] xl:w-full text-center mt-4">
+    Guide to Measuring Mattress Sizes:
+    <a
+      href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="animate-pulse text-blue-600 hover:underline cursor-pointer"
+    >
+      click here
+    </a>
+  </h1>
   `,
   },
   "ortho-bonnell-spring-love-land-pillow-top-mattress": {
@@ -726,6 +853,17 @@ const productData = {
     </div>
     </div>
     </div>
+     <h1 class="font-mono text-sky-700 sm:w-[120%] xl:w-full text-center mt-4">
+    Guide to Measuring Mattress Sizes:
+    <a
+      href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="animate-pulse text-blue-600 hover:underline cursor-pointer"
+    >
+      click here
+    </a>
+  </h1>
   `,
   },
   "ortho-bonnell-spring-romantic-euroton-mattress": {
@@ -762,6 +900,17 @@ const productData = {
     </div>
     </div>
     </div>
+     <h1 class="font-mono text-sky-700 sm:w-[120%] xl:w-full text-center mt-4">
+    Guide to Measuring Mattress Sizes:
+    <a
+      href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="animate-pulse text-blue-600 hover:underline cursor-pointer"
+    >
+      click here
+    </a>
+  </h1>
   `,
   },
   ortho_bonnell_spring_ambitious_mattress: {
@@ -797,6 +946,17 @@ const productData = {
     </div>
     </div>
     </div>
+     <h1 class="font-mono text-sky-700 sm:w-[120%] xl:w-full text-center mt-4">
+    Guide to Measuring Mattress Sizes:
+    <a
+      href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="animate-pulse text-blue-600 hover:underline cursor-pointer"
+    >
+      click here
+    </a>
+  </h1>
   `,
   },
   "ortho-bonnell-spring-aloe-vera-with-latex-mattress": {
@@ -839,6 +999,17 @@ const productData = {
     <p>⭐⭐⭐⭐⭐</p>
   </div>
 </div>
+ <h1 class="font-mono text-sky-700 text-center mt-4">
+    Guide to Measuring Mattress Sizes:
+    <a
+      href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="animate-pulse text-blue-600 hover:underline cursor-pointer"
+    >
+      click here
+    </a>
+  </h1>
 
   `,
   },
@@ -887,6 +1058,17 @@ const productData = {
     <p>⭐⭐⭐⭐⭐</p>
   </div>
 </div>
+ <h1 class="font-mono text-sky-700 text-center mt-4">
+    Guide to Measuring Mattress Sizes:
+    <a
+      href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="animate-pulse text-blue-600 hover:underline cursor-pointer"
+    >
+      click here
+    </a>
+  </h1>
 
   `,
   },
@@ -930,6 +1112,17 @@ const productData = {
     </div>
     </div>
     </div>
+     <h1 class="font-mono text-sky-700 sm:w-[120%] xl:w-full text-center mt-4">
+    Guide to Measuring Mattress Sizes:
+    <a
+      href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="animate-pulse text-blue-600 hover:underline cursor-pointer"
+    >
+      click here
+    </a>
+  </h1>
   `,
   },
 
@@ -968,6 +1161,17 @@ const productData = {
     </div>
     </div>
     </div>
+     <h1 class="font-mono text-sky-700 sm:w-[120%] xl:w-full text-center mt-4">
+    Guide to Measuring Mattress Sizes:
+    <a
+      href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="animate-pulse text-blue-600 hover:underline cursor-pointer"
+    >
+      click here
+    </a>
+  </h1>
   `,
   },
   "pocketed-spring-6inch-eternity-euroton-mattress": {
@@ -1004,6 +1208,17 @@ const productData = {
     </div>
     </div>
     </div>
+     <h1 class="font-mono text-sky-700 sm:w-[120%] xl:w-full text-center mt-4">
+    Guide to Measuring Mattress Sizes:
+    <a
+      href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="animate-pulse text-blue-600 hover:underline cursor-pointer"
+    >
+      click here
+    </a>
+  </h1>
   `,
   },
   "pocketed-spring-aloe-vera-with-latex-mattress": {
@@ -1042,6 +1257,17 @@ const productData = {
     <p>⭐⭐⭐⭐⭐</p>
   </div>
 </div>
+ <h1 class="font-mono text-sky-700 text-center mt-4">
+    Guide to Measuring Mattress Sizes:
+    <a
+      href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="animate-pulse text-blue-600 hover:underline cursor-pointer"
+    >
+      click here
+    </a>
+  </h1>
 
   `,
   },
@@ -1086,6 +1312,17 @@ const productData = {
     <p>⭐⭐⭐⭐⭐</p>
   </div>
 </div>
+ <h1 class="font-mono text-sky-700 text-center mt-4">
+    Guide to Measuring Mattress Sizes:
+    <a
+      href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="animate-pulse text-blue-600 hover:underline cursor-pointer"
+    >
+      click here
+    </a>
+  </h1>
 
   `,
   },
@@ -1122,6 +1359,17 @@ const productData = {
     </div>
     </div>
     </div>
+     <h1 class="font-mono text-sky-700 sm:w-[120%] xl:w-full text-center mt-4">
+    Guide to Measuring Mattress Sizes:
+    <a
+      href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="animate-pulse text-blue-600 hover:underline cursor-pointer"
+    >
+      click here
+    </a>
+  </h1>
   `,
   },
   "hr-pu-foam-space-mattress": {
@@ -1155,6 +1403,17 @@ const productData = {
     </div>
     </div>
     </div>
+     <h1 class="font-mono text-sky-700 sm:w-[120%] xl:w-full text-center mt-4">
+    Guide to Measuring Mattress Sizes:
+    <a
+      href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="animate-pulse text-blue-600 hover:underline cursor-pointer"
+    >
+      click here
+    </a>
+  </h1>
   `,
   },
 
@@ -1200,6 +1459,17 @@ const productData = {
     </div>
     </div>
     </div>
+     <h1 class="font-mono text-sky-700 sm:w-[120%] xl:w-full text-center mt-4">
+    Guide to Measuring Mattress Sizes:
+    <a
+      href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="animate-pulse text-blue-600 hover:underline cursor-pointer"
+    >
+      click here
+    </a>
+  </h1>
   `,
   },
 
@@ -1243,6 +1513,17 @@ const productData = {
     </div>
     </div>
     </div>
+     <h1 class="font-mono text-sky-700 sm:w-[120%] xl:w-full text-center mt-4">
+    Guide to Measuring Mattress Sizes:
+    <a
+      href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="animate-pulse text-blue-600 hover:underline cursor-pointer"
+    >
+      click here
+    </a>
+  </h1>
   `,
   },
 
@@ -1641,6 +1922,7 @@ const ProductDetails = () => {
                   />
                 ))}
               </div>
+        
             </>
           ) : (
             <div className="flex items-center justify-center w-full h-full">

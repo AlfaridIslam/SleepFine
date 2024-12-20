@@ -5,7 +5,7 @@ const Counter =()=>{
 
 
 
-    const endTime = new Date('November 10, 2024 00:00:00').getTime();
+    const endTime = new Date('December 31, 2024 00:00:00').getTime();
 
     const [currentTime ,setCurrentTime] =useState(new Date().getTime());
     const gap = endTime - currentTime ;
@@ -32,8 +32,8 @@ const Counter =()=>{
     return(
        <div className='relative'>
      
-        
-        <img src="https://res.cloudinary.com/dpsmbluby/image/upload/v1728045494/timer-11_nfniu1.png" alt="img"  className='w-[800px] '/>
+        {/* clock image */}
+        <img src="https://res.cloudinary.com/dpsmbluby/image/upload/v1728045494/timer-11_nfniu1.png" alt="img"  className='w-[550px] '/>
       
         {/* Second Main Div positioned absolutely */}
         <div className='absolute inset-0  xl:flex  justify-center items-center xl:gap-3  xl:top-24 -left-[13%] sm:grid   ' >
