@@ -8,6 +8,8 @@ import Store from "./components/OurStore/OurStore";
 import Blog from "./components/Blog/Blog";
 import WarrantyForm from "./components/WarrantyForm/WarrantyForm";
 import NotFound from "./pages/NotFound/NotFound";
+import MeasurementVideoPage from './pages/MeasurementVideoPage/MeasurementVideoPage'
+
 
 export const router = createBrowserRouter([
   {
@@ -20,11 +22,12 @@ export const router = createBrowserRouter([
       { path: "/product-details/:productType", element: <ProductDetails /> },
       { path: "/warranty-form", element: <WarrantyForm /> },
       { path: "*", element: <NotFound /> },
+      {path : "/measurement-video", element :<MeasurementVideoPage/> },
       {
         path: "/product-details/*",
         element: <NotFound />,
       },
-      
+    
     ],
   },
 ]);

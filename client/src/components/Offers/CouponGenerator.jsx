@@ -32,8 +32,8 @@ const SendCoupon = () => {
   return (
 
     <div className="  mr-10">
-      <img src="https://res.cloudinary.com/dpsmbluby/image/upload/v1728284437/OFFERS_cc6kka.png" alt="" className="w-[100%]" />
-    <div className="text-center mt-4">
+      <img src="https://res.cloudinary.com/dpsmbluby/image/upload/v1734677979/offers_uiakdy.jpg" alt="" className="w-[500px] " />
+    {/* <div className="text-center mt-4">
       <h1 className="text-2xl font-bold mb-4">Get Your Exclusive Coupon </h1>
       <button
         className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
@@ -52,7 +52,7 @@ const SendCoupon = () => {
           </button>
         </div>
       )}
-    </div>
+    </div> */}
 
     </div>
   );
