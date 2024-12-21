@@ -17,7 +17,7 @@ const MeasurementSection = () => {
 
       <div>
       <h1 className="text-2xl font-semibold  text-sky-500 mb-4 cursor-pointer ">
-<Link to="/measurement-video"> Perfect Fit Every Time</Link>
+      <Link to="/measurement-video"> Perfect Fit Every Time</Link>
        
       </h1>
       <h1 className="text-2xl font-semibold  mb-4" >A Guide to Measuring Mattress Sizes</h1>

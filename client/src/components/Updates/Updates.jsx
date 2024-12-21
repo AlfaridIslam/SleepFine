@@ -25,19 +25,20 @@ export const Updates = () => {
             <div className="w-full xl:w-1/2">
               <div className="space-y-4">
                 <p className="poppins-light text-sm xl:text-base">
-                  ✨ Discover True Comfort with Sleepfine! ✨ Upgrade your sleep
-                  experience with our premium orthopedic mattresses, designed to
-                  provide unmatched support and relaxation. 🛏️💤 Visit your
-                  nearest Sleepfine store today and find the perfect mattress
-                  for your ultimate comfort. Your journey to better sleep starts
-                  here! 💤🔥
+                  ✨ Celebrate Christmas with Sleepfine! ✨ Upgrade your sleep
+                  with our premium Memory Active mattress for unmatched support
+                  and relaxation. 🛏🎄 🎁 Christmas Special: Enjoy exclusive
+                  discounts + a FREE pillow with every mattress purchase! 🎉
+                  Visit your nearest Sleepfine store today and give yourself the
+                  gift of comfort this holiday season! 💤🎅 #MerryChristmas
+                  #SleepfineComfort #HolidayRest
                   <br />
                   {/* <Link to="/ourstores" className="underline text-red-300">
                     Hurry before the sale ends! 🕒👀
                   </Link>{" "} */}
                   {/* ✨ */}
                 </p>
-                <p className="font-thin text-[11px]">20th Nov, 2024</p>
+                <p className="font-thin text-[11px]">21st Dec, 2024</p>
               </div>
             </div>
           </div>
