@@ -119,6 +119,15 @@ const WarrantyForm = () => {
     "Shapur/Gajularamaram",
   ];
 
+  const handlePurchaseFromChange = (e) => {
+    setFormData({
+      ...formData,
+      purchaseFrom: e.target.value,
+      selectedStore: "",
+      dealerName: "",
+    });
+  };
+
   // Warranty details
   const warrantyOptions = {
     "10 years": [
@@ -152,15 +161,6 @@ const WarrantyForm = () => {
     ],
     "7 years": ["Milange", "Rose by Rose", "Oxford"],
     "2.5 years": ["Gravity"],
-  };
-
-  const handlePurchaseFromChange = (e) => {
-    setFormData({
-      ...formData,
-      purchaseFrom: e.target.value,
-      selectedStore: "",
-      dealerName: "",
-    });
   };
 
   const handleInputChange = (e) => {
@@ -200,333 +200,162 @@ const WarrantyForm = () => {
     }));
   };
 
-  // Utility function to parse size values
-  const parseSize = (size) => {
-    // Extract the number from strings like "72 inches"
-    return parseInt(size?.split(" ")?.[0] || "0");
+  const generatePDF = async () => {
+    const div = document.createElement("div");
+    document.body.appendChild(div);
+
+    try {
+      const root = ReactDOM.createRoot(div);
+      root.render(<WarrantyCardTemplate data={formData} />);
+
+      // Wait for render
+      await new Promise((resolve) => setTimeout(resolve, 100));
+
+      const canvas = await html2canvas(div, {
+        scale: 2,
+        useCORS: true,
+        logging: false,
+      });
+
+      const imgData = canvas.toDataURL("image/png");
+      const pdf = new jsPDF({
+        orientation: "portrait",
+        unit: "px",
+        format: [595, 842],
+      });
+
+      pdf.addImage(imgData, "PNG", 0, 0, 595, 842);
+      return pdf;
+    } catch (error) {
+      console.error("Error generating PDF:", error);
+      throw error;
+    } finally {
+      document.body.removeChild(div);
+    }
   };
 
-  // const generatePDF = async () => {
-  //   const div = document.createElement("div");
-  //   document.body.appendChild(div);
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsLoading(true);
+    setFormError("");
+    setSuccessMessage("");
 
-  //   try {
-  //     const root = ReactDOM.createRoot(div);
-  //     root.render(<WarrantyCardTemplate data={formData} />);
+    const baseRequiredFields = [
+      "customerName",
+      "address",
+      "mobileNumber",
+      "email",
+      "state",
+      "city",
+      "selectedProduct",
+      "selectedVariety",
+      "sizeType",
+      "orderNumber",
+      "totalQuantity",
+      "invoiceDate",
+    ];
 
-  //     // Wait for render
-  //     await new Promise((resolve) => setTimeout(resolve, 100));
+    // Dynamically determine required fields based on purchase source
+    // Dynamically determine required fields based on purchase source
+    const requiredFields = [...baseRequiredFields];
 
-  //     const canvas = await html2canvas(div, {
-  //       scale: 2,
-  //       useCORS: true,
-  //       logging: false,
-  //     });
+    if (formData.purchaseFrom === "Store") {
+      requiredFields.push("selectedStore");
+    } else if (formData.purchaseFrom === "Others") {
+      requiredFields.push("dealerName");
+    }
+    const missingFields = requiredFields.filter((field) => !formData[field]);
 
-  //     const imgData = canvas.toDataURL("image/png");
-  //     const pdf = new jsPDF({
-  //       orientation: "portrait",
-  //       unit: "px",
-  //       format: [595, 842],
-  //     });
+    if (formData.sizeType === "standard") {
+      requiredFields.push("length", "breadth", "height");
+    } else {
+      requiredFields.push("customLength", "customBreadth", "customHeight");
+    }
 
-  //     pdf.addImage(imgData, "PNG", 0, 0, 595, 842);
-  //     return pdf;
-  //   } catch (error) {
-  //     console.error("Error generating PDF:", error);
-  //     throw error;
-  //   } finally {
-  //     document.body.removeChild(div);
-  //   }
-  // };
+    if (missingFields.length > 0) {
+      setFormError(
+        `Please fill out all mandatory fields: ${missingFields
+          .map((field) => {
+            // Convert camelCase to readable format
+            return field
+              .replace(/([A-Z])/g, " $1")
+              .replace(/^./, (str) => str.toUpperCase());
+          })
+          .join(", ")}`
+      );
+      setIsLoading(false);
+      return;
+    }
 
-  // handle submit when pdf was genearting fron frontend
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-  //   setIsLoading(true);
-  //   setFormError("");
-  //   setSuccessMessage("");
+    try {
+      // Generate PDF
+      const pdfDoc = await generatePDF();
 
-  //   const baseRequiredFields = [
-  //     "customerName",
-  //     "address",
-  //     "mobileNumber",
-  //     "email",
-  //     "state",
-  //     "city",
-  //     "selectedProduct",
-  //     "selectedVariety",
-  //     "sizeType",
-  //     "orderNumber",
-  //     "totalQuantity",
-  //     "invoiceDate",
-  //   ];
+      const transformedData = {
+        "Customer Name": formData.customerName,
+        "Mobile Number": formData.mobileNumber,
+        "Email Id": formData.email,
+        Address: formData.address,
+        State: formData.state,
+        City: formData.city,
+        "Total Quantity": formData.totalQuantity,
+        Product: formData.selectedProduct,
+        Variety: formData.selectedVariety,
+        "Size Type": formData.sizeType,
+        Length:
+          formData.sizeType === "standard"
+            ? formData.length
+            : formData.customLength,
+        Breadth:
+          formData.sizeType === "standard"
+            ? formData.breadth
+            : formData.customBreadth,
+        Height:
+          formData.sizeType === "standard"
+            ? formData.height
+            : formData.customHeight,
+        "Purchase From": formData.purchaseFrom,
+        ...(formData.purchaseFrom === "Store" && {
+          Store: formData.selectedStore,
+        }),
+        ...(formData.purchaseFrom === "Others" && {
+          "Dealer Name": formData.dealerName,
+        }),
+        "Order Number": formData.orderNumber,
+        "Invoice Date": formData.invoiceDate,
+        Warranty: formData.warranty,
+      };
 
-  //   // Dynamically determine required fields based on purchase source
-  //   // Dynamically determine required fields based on purchase source
-  //   const requiredFields = [...baseRequiredFields];
+      console.log("Transformed data being sent:", transformedData);
 
-  //   if (formData.purchaseFrom === "Store") {
-  //     requiredFields.push("selectedStore");
-  //   } else if (formData.purchaseFrom === "Others") {
-  //     requiredFields.push("dealerName");
-  //   }
-  //   const missingFields = requiredFields.filter((field) => !formData[field]);
+      // Submit to Google Sheets
+      await axios.post(
+        //"https://api.sheetbest.com/sheets/f6c087ef-7190-4e8f-a6f2-0803e4fa8066",(Main-contact@sleepfineindia.com)
+        // "https://api.sheetbest.com/sheets/edd942dc-9a65-4dac-a249-3338f8872e82", //(sleepfinemattresses.in@gmail.com)
 
-  //   if (formData.sizeType === "standard") {
-  //     requiredFields.push("length", "breadth", "height");
-  //   } else {
-  //     requiredFields.push("customLength", "customBreadth", "customHeight");
-  //   }
+        "https://api.sheetbest.com/sheets/23c1fc18-f945-4cb6-b7d4-a3594fb27956", //silentsleep011@gmail.com
+        transformedData
+      );
 
-  //   if (missingFields.length > 0) {
-  //     setFormError(
-  //       `Please fill out all mandatory fields: ${missingFields
-  //         .map((field) => {
-  //           // Convert camelCase to readable format
-  //           return field
-  //             .replace(/([A-Z])/g, " $1")
-  //             .replace(/^./, (str) => str.toUpperCase());
-  //         })
-  //         .join(", ")}`
-  //     );
-  //     setIsLoading(false);
-  //     return;
-  //   }
+      // Save PDF
+      pdfDoc.save(
+        `Warranty_Card_${formData.customerName.replace(/\s+/g, "_")}.pdf`
+      );
 
-  //   try {
-  //     // Generate PDF
-  //     const pdfDoc = await generatePDF();
-
-  //     const transformedData = {
-  //       "Customer Name": formData.customerName,
-  //       "Mobile Number": formData.mobileNumber,
-  //       "Email Id": formData.email,
-  //       Address: formData.address,
-  //       State: formData.state,
-  //       City: formData.city,
-  //       "Total Quantity": formData.totalQuantity,
-  //       Product: formData.selectedProduct,
-  //       Variety: formData.selectedVariety,
-  //       "Size Type": formData.sizeType,
-  //       Length:
-  //         formData.sizeType === "standard"
-  //           ? formData.length
-  //           : formData.customLength,
-  //       Breadth:
-  //         formData.sizeType === "standard"
-  //           ? formData.breadth
-  //           : formData.customBreadth,
-  //       Height:
-  //         formData.sizeType === "standard"
-  //           ? formData.height
-  //           : formData.customHeight,
-  //       "Purchase From": formData.purchaseFrom,
-  //       ...(formData.purchaseFrom === "Store" && {
-  //         Store: formData.selectedStore,
-  //       }),
-  //       ...(formData.purchaseFrom === "Others" && {
-  //         "Dealer Name": formData.dealerName,
-  //       }),
-  //       "Order Number": formData.orderNumber,
-  //       "Invoice Date": formData.invoiceDate,
-  //       Warranty: formData.warranty,
-  //     };
-
-  //     console.log("Transformed data being sent:", transformedData);
-
-  //     // Submit to Google Sheets
-  //     await axios.post(
-  //       //"https://api.sheetbest.com/sheets/f6c087ef-7190-4e8f-a6f2-0803e4fa8066",(Main-contact@sleepfineindia.com)
-  //       "https://api.sheetbest.com/sheets/edd942dc-9a65-4dac-a249-3338f8872e82", //(sleepfinemattresses.in@gmail.com)
-
-  //       transformedData
-  //     );
-
-  //     // Save PDF
-  //     pdfDoc.save(
-  //       `Warranty_Card_${formData.customerName.replace(/\s+/g, "_")}.pdf`
-  //     );
-
-  //     setSuccessMessage(
-  //       "Your warranty form has been generated and saved successfully!"
-  //     );
-  //     setFormData(initialFormState);
-  //     setVarieties([]);
-  //   } catch (error) {
-  //     console.error("Error:", error);
-  //     setFormError(
-  //       "An error occurred while processing your request. Please try again."
-  //     );
-  //   } finally {
-  //     setIsLoading(false);
-  //   }
-  // };
-
-  // HANDLE SUBMIT USING API
-const handleSubmit = async (e) => {
-  e.preventDefault();
-  setIsLoading(true);
-  setFormError("");
-  setSuccessMessage("");
-
-  const baseRequiredFields = [
-    "customerName",
-    "address",
-    "mobileNumber",
-    "email",
-    "state",
-    "city",
-    "selectedProduct",
-    "selectedVariety",
-    "sizeType",
-    "orderNumber",
-    "totalQuantity",
-    "invoiceDate",
-  ];
-
-  // Add dynamic required fields based on purchase source
-  const requiredFields = [...baseRequiredFields];
-  if (formData.purchaseFrom === "Store") {
-    requiredFields.push("selectedStore");
-  } else if (formData.purchaseFrom === "Others") {
-    requiredFields.push("dealerName");
-  }
-
-  if (formData.sizeType === "standard") {
-    requiredFields.push("length", "breadth", "height");
-  } else {
-    requiredFields.push("customLength", "customBreadth", "customHeight");
-  }
-
-  const missingFields = requiredFields.filter((field) => !formData[field]);
-
-  if (missingFields.length > 0) {
-    setFormError(
-      `Please fill out all mandatory fields: ${missingFields
-        .map((field) =>
-          field
-            .replace(/([A-Z])/g, " $1")
-            .replace(/^./, (str) => str.toUpperCase())
-        )
-        .join(", ")}`
-    );
-    setIsLoading(false);
-    return;
-  }
-
-  try {
-    // Prepare data for the API
-    const apiData = {
-      invoiceDate: formData.invoiceDate,
-      purchaseDate: formData.invoiceDate, // Set purchaseDate same as invoiceDate
-      name: formData.customerName,
-      number: formData.mobileNumber,
-      email: formData.email,
-      address: formData.address,
-      state: formData.state,
-      city: formData.city,
-      product: formData.selectedProduct,
-      variety: formData.selectedVariety,
-      length:
-        formData.sizeType === "standard"
-          ? parseSize(formData.length)
-          : parseInt(formData.customLength),
-      breadth:
-        formData.sizeType === "standard"
-          ? parseSize(formData.breadth)
-          : parseInt(formData.customBreadth),
-      height:
-        formData.sizeType === "standard"
-          ? parseSize(formData.height)
-          : parseInt(formData.customHeight),
-      purchaseFrom: formData.purchaseFrom,
-      store: formData.selectedStore || "", // Empty string instead of null
-      dealer: formData.dealerName || "", // Empty string instead of null
-      orderNumber: formData.orderNumber,
-      totalQuantity: parseInt(formData.totalQuantity),
-      warrantyPeriod: formData.warranty,
-    };
-
-    // Call backend API
-    const response = await axios.post(
-      "http://localhost:3000/api/v1/warranty/generate-pdf",
-      apiData,
-      {
-        headers: {
-          "Content-Type": "application/json",
-        },
-        responseType: "arraybuffer", // Important for receiving binary data
-      }
-    );
-
-    // Check if we received data
-    if (response.data) {
-      // Create blob directly from response data
-      const blob = new Blob([response.data], { type: "application/pdf" });
-
-      // Create object URL from blob
-      const url = window.URL.createObjectURL(blob);
-
-      // Create link element for download
-      const link = document.createElement("a");
-      link.href = url;
-      link.download = `Warranty_Card_${formData.customerName.replace(
-        /\s+/g,
-        "_"
-      )}.pdf`;
-
-      // Append to body, click and remove
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-
-      // Clean up the URL
-      window.URL.revokeObjectURL(url);
-
-      // Reset form and show success message
       setSuccessMessage(
         "Your warranty form has been generated and saved successfully!"
       );
       setFormData(initialFormState);
       setVarieties([]);
-    } else {
-      throw new Error("No data received from server");
+    } catch (error) {
+      console.error("Error:", error);
+      setFormError(
+        "An error occurred while processing your request. Please try again."
+      );
+    } finally {
+      setIsLoading(false);
     }
-  } catch (error) {
-    console.error("Error details:", error);
-
-    let errorMessage =
-      "An error occurred while processing your request. Please try again.";
-
-    if (error.response) {
-      // If we have a response but it's an error
-      if (
-        error.response.headers["content-type"]?.includes("application/json")
-      ) {
-        // If it's JSON, try to parse the error message
-        try {
-          const errorText = new TextDecoder().decode(error.response.data);
-          const errorData = JSON.parse(errorText);
-          errorMessage = errorData.message || errorData.error || errorMessage;
-        } catch (e) {
-          errorMessage = "Error processing server response";
-        }
-      } else {
-        errorMessage = "Failed to generate PDF. Please try again.";
-      }
-    } else if (error.request) {
-      errorMessage =
-        "Unable to connect to the server. Please check your internet connection.";
-    } else {
-      errorMessage = error.message || "Unknown error occurred";
-    }
-
-    setFormError(errorMessage);
-  } finally {
-    setIsLoading(false);
-  }
-};
+  };
 
   return (
     <div className="max-w-lg mx-auto p-6 shadow-lg border rounded-lg mt-3 xl:mx-auto sm:ml-[33%] sm:w-[100%]">
