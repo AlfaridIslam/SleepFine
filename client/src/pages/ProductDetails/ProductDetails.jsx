@@ -249,7 +249,7 @@ const productData = {
 
     description: `
     <div class="sm:w-[143%] sm:text-justify xl:w-[83%]">
-    <div class="text-xl font-semibold my-[6px]">Orthomed Spine Cure</div>
+    <div class="text-xl font-semibold my-[6px]">Orthomed Spine Care</div>
     <h2 class=" font-bold">Rebonded Foam</h2>
     This type of foam is made from recycled foam scraps that are bonded together under high pressure. It is known for its durability and firmness, providing excellent support for the spine.<br><br>
     <h2 class="font-bold">Orthopedic Support</h2>
@@ -1922,7 +1922,6 @@ const ProductDetails = () => {
                   />
                 ))}
               </div>
-        
             </>
           ) : (
             <div className="flex items-center justify-center w-full h-full">
