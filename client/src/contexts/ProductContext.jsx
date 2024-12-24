@@ -1,5 +1,5 @@
 // contexts/ProductContext.jsx
-import { createContext, useState, useEffect } from "react";
+import { createContext, useState } from "react";
 import mattressesData from "../data/mattress.json";
 import bedsData from "../data/beds.json";
 import accessoriesData from "../data/accessories.json";
