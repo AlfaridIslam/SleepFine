@@ -245,10 +245,12 @@ const ProductDetails = () => {
               Guide to Measuring Mattress Sizes:
               <a
                 href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
-                target="_blank" rel="noopener noreferrer"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="animate-pulse text-blue-600 hover:underline
-                cursor-pointer ml-1">
-                   click here
+                cursor-pointer ml-1"
+              >
+                click here
               </a>
             </h1>
           </div>
