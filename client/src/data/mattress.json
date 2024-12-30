@@ -1,5 +1,5 @@
 {
-    "orthomed": {
+    "orthopedic_rebonded_orthomed_mattress": {
       "images": [
         "https://res.cloudinary.com/dpsmbluby/image/upload/v1727772298/orthomed_bnr_s4rfyf.png",
         "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259353/DSC02103_podoia.jpg",
@@ -23,7 +23,7 @@
       }
     },
   
-    "milange": {
+    "orthopedic-rebonded-milange-mattresses": {
       "images": [
       "https://res.cloudinary.com/dpsmbluby/image/upload/v1727772302/milange_bnr_rundx1.png",
       "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259571/DSC02176_jvowve.jpg",
@@ -48,11 +48,12 @@
     },
     "preference": {
       "images": [
-       "https://res.cloudinary.com/dpsmbluby/image/upload/v1727772298/preference_bnr_iukpb2.png",
-      "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259646/DSC02094_zshc82.jpg",
-      "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259648/DSC02096_osbotc.jpg",
-      "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259649/DSC02101_joqube.jpg ",
-      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727258376/preference2speci_a4bggp.jpg"
+     
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1728561395/DSC02094_dntqfb.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1728561396/DSC02099_sogyig.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1728561396/DSC02096_i7ucx4.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1728561402/DSC02101_lho9gs.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1728972504/Rebonded_100_Density_100mm_700_x_400_px_30_rx3wft.jpg"
       ],
       "title1": "The Preference Orthomed",
       "content1": "This mattress is designed for optimal orthopedic support and comfort. It features a high-density rebounded foam core that evenly distributes body weight, reducing pressure on joints and providing spinal alignment.",

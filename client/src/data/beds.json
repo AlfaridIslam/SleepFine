@@ -1,10 +1,9 @@
 {
-  "denver-with-storage": {
+  "denver-with-storage-and-without-storage-bed": {
     "images": [
-      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262733/DenverModel1_gmjei6.jpg",
-      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262729/DenverModel2_scz2ap.jpg",
-      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262730/DenverModel3_ntraw6.jpg",
-      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262732/DenverModel4_roihmm.jpg"
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729682420/denvermodel_rtox0v.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729682417/denvermodel2_qiggqf.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729682414/denvermodel3_xwzzje.jpg"
     ],
     "title1": "Variety",
     "content1": "With Storage",
