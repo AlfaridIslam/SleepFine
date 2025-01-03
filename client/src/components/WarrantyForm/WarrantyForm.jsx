@@ -1,21 +1,17 @@
 import React, { useState, useEffect } from "react";
-import ReactDOM from "react-dom/client";
 import axios from "axios";
-import jsPDF from "jspdf";
-import html2canvas from "html2canvas";
-import WarrantyCardTemplate from "./WarrantyCard";
-// import {} from "./stateCityData.json"
 
 const WarrantyForm = () => {
+  // Initial form state
   const initialFormState = {
-    customerName: "",
+    name: "",
     address: "",
-    mobileNumber: "",
+    number: "",
     email: "",
     state: "",
     city: "",
-    selectedProduct: "",
-    selectedVariety: "",
+    product: "",
+    variety: "",
     sizeType: "standard",
     customLength: "",
     customBreadth: "",
@@ -25,51 +21,23 @@ const WarrantyForm = () => {
     height: "",
     totalQuantity: "",
     purchaseFrom: "",
-    selectedStore: "",
-    dealerName: "",
+    store: "",
+    dealer: "",
     orderNumber: "",
     invoiceDate: "",
-    warranty: "",
+    warrantyPeriod: "",
   };
 
+  // Form states
   const [formData, setFormData] = useState(initialFormState);
   const [formError, setFormError] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [varieties, setVarieties] = useState([]);
-
   const [stateCityData, setStateCityData] = useState({});
   const [cities, setCities] = useState([]);
 
-  // Fetch the stateCityData.json file from public folder
-  useEffect(() => {
-    const fetchStateCityData = async () => {
-      try {
-        const response = await fetch("/stateCityData.json");
-        const data = await response.json();
-        setStateCityData(data);
-        console.log(data);
-      } catch (error) {
-        console.error("Error fetching state-city data:", error);
-      }
-    };
-
-    fetchStateCityData();
-  }, []);
-
-  // Update cities based on selected state
-  useEffect(() => {
-    if (formData.state) {
-      const selectedCities = stateCityData[formData.state] || [];
-      setCities(selectedCities);
-      setFormData((prev) => ({
-        ...prev,
-        city: "", // Reset city when state changes
-      }));
-    }
-  }, [formData.state, stateCityData]);
-
-  // Product Details
+  // Product options
   const productOptions = {
     "Orthopedic Bonded Collection": [
       "Orthomed",
@@ -110,7 +78,7 @@ const WarrantyForm = () => {
     ],
   };
 
-  // Store details
+  // Store options
   const storeOptions = [
     "Alwal",
     "Ameerpet Store",
@@ -119,17 +87,8 @@ const WarrantyForm = () => {
     "Shapur/Gajularamaram",
   ];
 
-  const handlePurchaseFromChange = (e) => {
-    setFormData({
-      ...formData,
-      purchaseFrom: e.target.value,
-      selectedStore: "",
-      dealerName: "",
-    });
-  };
-
-  // Warranty details
-  const warrantyOptions = {
+  // Warranty period mapping
+  const warrantyPeriodOptions = {
     "10 years": [
       "orthopedic Aloe-Vera with Latex 8 & 10 inches",
       "orthopedic Aloe-vera with Memory 8 & 10 inches",
@@ -163,6 +122,44 @@ const WarrantyForm = () => {
     "2.5 years": ["Gravity"],
   };
 
+  // Fetch state-city data on component mount
+  useEffect(() => {
+    const fetchStateCityData = async () => {
+      try {
+        const response = await fetch("/stateCityData.json");
+        const data = await response.json();
+        setStateCityData(data);
+      } catch (error) {
+        console.error("Error fetching state-city data:", error);
+      }
+    };
+
+    fetchStateCityData();
+  }, []);
+
+  // Update cities when state changes
+  useEffect(() => {
+    if (formData.state) {
+      const selectedCities = stateCityData[formData.state] || [];
+      setCities(selectedCities);
+      setFormData((prev) => ({
+        ...prev,
+        city: "",
+      }));
+    }
+  }, [formData.state, stateCityData]);
+
+  // Handle purchase source change
+  const handlePurchaseFromChange = (e) => {
+    setFormData({
+      ...formData,
+      purchaseFrom: e.target.value,
+      store: "",
+      dealer: "",
+    });
+  };
+
+  // Handle input changes
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -170,188 +167,187 @@ const WarrantyForm = () => {
       [name]: value,
     }));
 
-    // Special handling for product selection
-    if (name === "selectedProduct") {
+    if (name === "product") {
       handleProductChange(value);
     }
 
-    // Special handling for variety selection
-    if (name === "selectedVariety") {
+    if (name === "variety") {
       handleVarietyChange(value);
     }
   };
 
+  // Handle product selection
   const handleProductChange = (product) => {
     setVarieties(productOptions[product] || []);
     setFormData((prev) => ({
       ...prev,
-      selectedVariety: "",
-      warranty: "",
+      variety: "",
+      warrantyPeriod: "",
     }));
   };
 
+  // Handle variety selection and set warranty period
   const handleVarietyChange = (variety) => {
-    const warrantyPeriod = Object.keys(warrantyOptions).find((period) =>
-      warrantyOptions[period].includes(variety)
+    const periodString = Object.keys(warrantyPeriodOptions).find((period) =>
+      warrantyPeriodOptions[period].includes(variety)
     );
+    const warrantyYears = periodString || "";
     setFormData((prev) => ({
       ...prev,
-      warranty: warrantyPeriod || "",
+      warrantyPeriod: warrantyYears,
     }));
   };
 
-  const generatePDF = async () => {
-    const div = document.createElement("div");
-    document.body.appendChild(div);
-
-    try {
-      const root = ReactDOM.createRoot(div);
-      root.render(<WarrantyCardTemplate data={formData} />);
-
-      // Wait for render
-      await new Promise((resolve) => setTimeout(resolve, 100));
-
-      const canvas = await html2canvas(div, {
-        scale: 2,
-        useCORS: true,
-        logging: false,
-      });
-
-      const imgData = canvas.toDataURL("image/png");
-      const pdf = new jsPDF({
-        orientation: "portrait",
-        unit: "px",
-        format: [595, 842],
-      });
-
-      pdf.addImage(imgData, "PNG", 0, 0, 595, 842);
-      return pdf;
-    } catch (error) {
-      console.error("Error generating PDF:", error);
-      throw error;
-    } finally {
-      document.body.removeChild(div);
-    }
-  };
-
+  // Form submission handler
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Prevent multiple submissions
+    if (isLoading) {
+      console.log("Submission already in progress");
+      return;
+    }
+
     setIsLoading(true);
     setFormError("");
     setSuccessMessage("");
 
-    const baseRequiredFields = [
-      "customerName",
-      "address",
-      "mobileNumber",
-      "email",
-      "state",
-      "city",
-      "selectedProduct",
-      "selectedVariety",
-      "sizeType",
-      "orderNumber",
-      "totalQuantity",
-      "invoiceDate",
-    ];
-
-    // Dynamically determine required fields based on purchase source
-    // Dynamically determine required fields based on purchase source
-    const requiredFields = [...baseRequiredFields];
-
-    if (formData.purchaseFrom === "Store") {
-      requiredFields.push("selectedStore");
-    } else if (formData.purchaseFrom === "Others") {
-      requiredFields.push("dealerName");
-    }
-    const missingFields = requiredFields.filter((field) => !formData[field]);
-
-    if (formData.sizeType === "standard") {
-      requiredFields.push("length", "breadth", "height");
-    } else {
-      requiredFields.push("customLength", "customBreadth", "customHeight");
-    }
-
-    if (missingFields.length > 0) {
-      setFormError(
-        `Please fill out all mandatory fields: ${missingFields
-          .map((field) => {
-            // Convert camelCase to readable format
-            return field
-              .replace(/([A-Z])/g, " $1")
-              .replace(/^./, (str) => str.toUpperCase());
-          })
-          .join(", ")}`
-      );
-      setIsLoading(false);
-      return;
-    }
-
     try {
-      // Generate PDF
-      const pdfDoc = await generatePDF();
-
       const transformedData = {
-        "Customer Name": formData.customerName,
-        "Mobile Number": formData.mobileNumber,
-        "Email Id": formData.email,
-        Address: formData.address,
-        State: formData.state,
-        City: formData.city,
-        "Total Quantity": formData.totalQuantity,
-        Product: formData.selectedProduct,
-        Variety: formData.selectedVariety,
-        "Size Type": formData.sizeType,
-        Length:
+        invoiceDate: formData.invoiceDate,
+        name: formData.name.trim(),
+        number: formData.number.trim(),
+        email: formData.email.trim().toLowerCase(), // Normalize email
+        address: formData.address.trim(),
+        state: formData.state,
+        city: formData.city,
+        product: formData.product,
+        variety: formData.variety,
+        length: parseInt(
           formData.sizeType === "standard"
             ? formData.length
-            : formData.customLength,
-        Breadth:
+            : formData.customLength
+        ),
+        breadth: parseInt(
           formData.sizeType === "standard"
             ? formData.breadth
-            : formData.customBreadth,
-        Height:
+            : formData.customBreadth
+        ),
+        height: parseInt(
           formData.sizeType === "standard"
             ? formData.height
-            : formData.customHeight,
-        "Purchase From": formData.purchaseFrom,
-        ...(formData.purchaseFrom === "Store" && {
-          Store: formData.selectedStore,
-        }),
-        ...(formData.purchaseFrom === "Others" && {
-          "Dealer Name": formData.dealerName,
-        }),
-        "Order Number": formData.orderNumber,
-        "Invoice Date": formData.invoiceDate,
-        Warranty: formData.warranty,
+            : formData.customHeight
+        ),
+        purchaseFrom: formData.purchaseFrom || '',
+        store: formData.purchaseFrom === "Store" ? formData.store : "N/A",
+        dealer: formData.purchaseFrom === "Others" ? formData.dealer : "N/A",
+        orderNumber: formData.orderNumber.trim().toUpperCase(), // Normalize order number
+        totalQuantity: parseInt(formData.totalQuantity),
+        warrantyPeriod: formData.warrantyPeriod,
+        purchaseDate: formData.invoiceDate,
       };
 
-      console.log("Transformed data being sent:", transformedData);
-
-      // Submit to Google Sheets
-      await axios.post(
-        //"https://api.sheetbest.com/sheets/f6c087ef-7190-4e8f-a6f2-0803e4fa8066",(Main-contact@sleepfineindia.com)
-        // "https://api.sheetbest.com/sheets/edd942dc-9a65-4dac-a249-3338f8872e82", //(sleepfinemattresses.in@gmail.com)
-
-        "https://api.sheetbest.com/sheets/23c1fc18-f945-4cb6-b7d4-a3594fb27956", //silentsleep011@gmail.com
-        transformedData
+      // Debug log
+      console.log(
+        "Sending request with data:",
+        JSON.stringify(transformedData, null, 2)
       );
 
-      // Save PDF
-      pdfDoc.save(
-        `Warranty_Card_${formData.customerName.replace(/\s+/g, "_")}.pdf`
+      // Make the request
+      const response = await axios.post(
+        "https://api.silentsleep.in/api/v1/warranty/generate-pdf",
+        transformedData,
+        {
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/pdf, application/json", // Accept both PDF and JSON
+          },
+          responseType: "arraybuffer",
+          validateStatus: function (status) {
+            return status === 200; // Only treat 200 as success
+          },
+        }
       );
 
-      setSuccessMessage(
-        "Your warranty form has been generated and saved successfully!"
-      );
-      setFormData(initialFormState);
-      setVarieties([]);
+      // Check content type
+      const contentType = response.headers["content-type"];
+      console.log("Response content type:", contentType);
+
+      if (contentType && contentType.includes("application/pdf")) {
+        const blob = new Blob([response.data], { type: "application/pdf" });
+        const downloadUrl = window.URL.createObjectURL(blob);
+        const fileName = `Warranty_Card_${formData.name.replace(
+          /\s+/g,
+          "_"
+        )}.pdf`;
+
+        const link = document.createElement("a");
+        link.href = downloadUrl;
+        link.setAttribute("download", fileName);
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        window.URL.revokeObjectURL(downloadUrl);
+
+        setSuccessMessage("Warranty card has been generated successfully!");
+        setFormData(initialFormState);
+        setVarieties([]);
+      } else {
+        throw new Error("Received non-PDF response");
+      }
     } catch (error) {
-      console.error("Error:", error);
-      setFormError(
-        "An error occurred while processing your request. Please try again."
-      );
+      console.error("Error details:", error);
+
+      if (error.response) {
+        let errorMessage = "";
+
+        // Try to parse the error response
+        if (error.response.data instanceof ArrayBuffer) {
+          try {
+            const decoder = new TextDecoder("utf-8");
+            const text = decoder.decode(error.response.data);
+            console.log("Raw error response:", text);
+
+            try {
+              const errorObj = JSON.parse(text);
+              console.log("Parsed error object:", errorObj);
+
+              if (error.response.status === 409) {
+                // Handle specific conflict types
+                if (errorObj.details?.field) {
+                  errorMessage = `A warranty with this ${errorObj.details.field} (${errorObj.details.value}) already exists`;
+                } else {
+                  errorMessage =
+                    errorObj.message ||
+                    "A warranty with these details already exists";
+                }
+              } else {
+                errorMessage =
+                  errorObj.message ||
+                  errorObj.error ||
+                  "Failed to process warranty request";
+              }
+            } catch (jsonError) {
+              console.error("Error parsing JSON:", jsonError);
+              errorMessage = text;
+            }
+          } catch (decodeError) {
+            console.error("Error decoding response:", decodeError);
+            errorMessage = "Failed to process warranty request";
+          }
+        } else {
+          errorMessage = "An unexpected error occurred";
+        }
+
+        setFormError(errorMessage);
+        console.log("Final error message:", errorMessage);
+      } else if (error.request) {
+        setFormError(
+          "Network error. Please check your connection and try again."
+        );
+      } else {
+        setFormError("An unexpected error occurred. Please try again.");
+      }
     } finally {
       setIsLoading(false);
     }
@@ -369,9 +365,9 @@ const WarrantyForm = () => {
           <label className="block text-gray-700">Customer Name</label>
           <input
             type="text"
-            name="customerName"
+            name="name"
             className="w-full px-3 py-2 border rounded shadow-sm"
-            value={formData.customerName}
+            value={formData.name}
             onChange={handleInputChange}
           />
         </div>
@@ -389,9 +385,9 @@ const WarrantyForm = () => {
           <label className="block text-gray-700">Mobile Number</label>
           <input
             type="tel"
-            name="mobileNumber"
+            name="number"
             className="w-full px-3 py-2 border rounded shadow-sm"
-            value={formData.mobileNumber}
+            value={formData.number}
             onChange={handleInputChange}
           />
         </div>
@@ -441,9 +437,9 @@ const WarrantyForm = () => {
           <h3 className="text-xl font-semibold">Product Details</h3>
           <label className="block text-gray-700">Product</label>
           <select
-            name="selectedProduct"
+            name="product"
             className="w-full px-3 py-2 border rounded shadow-sm"
-            value={formData.selectedProduct}
+            value={formData.product}
             onChange={handleInputChange}
           >
             <option value="">Select a product</option>
@@ -458,15 +454,15 @@ const WarrantyForm = () => {
           <div className="mb-4">
             <label className="block text-gray-700">Variety</label>
             <select
-              name="selectedVariety"
+              name="variety"
               className="w-full px-3 py-2 border rounded shadow-sm"
-              value={formData.selectedVariety}
+              value={formData.variety}
               onChange={handleInputChange}
             >
               <option value="">Select a variety</option>
-              {varieties.map((variety) => (
-                <option key={variety} value={variety}>
-                  {variety}
+              {varieties.map((varietydata) => (
+                <option key={varietydata} value={varietydata}>
+                  {varietydata}
                 </option>
               ))}
             </select>
@@ -576,6 +572,7 @@ const WarrantyForm = () => {
           </label>
           <select
             id="purchaseFrom"
+            name="purchaseFrom"
             value={formData.purchaseFrom}
             onChange={handlePurchaseFromChange}
             className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2 border"
@@ -597,9 +594,9 @@ const WarrantyForm = () => {
             </label>
             <select
               id="store"
-              value={formData.selectedStore}
+              value={formData.store}
               onChange={(e) =>
-                setFormData({ ...formData, selectedStore: e.target.value })
+                setFormData({ ...formData, store: e.target.value })
               }
               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2 border"
             >
@@ -616,18 +613,18 @@ const WarrantyForm = () => {
         {formData.purchaseFrom === "Others" && (
           <div className="mb-4">
             <label
-              htmlFor="dealerName"
+              htmlFor="dealer"
               className="block text-sm font-medium text-gray-700 mb-1"
             >
               Dealer Name
             </label>
             <input
               type="text"
-              id="dealerName"
-              name="dealerName"
-              value={formData.dealerName}
+              id="dealer"
+              name="dealer"
+              value={formData.dealer}
               onChange={(e) =>
-                setFormData({ ...formData, dealerName: e.target.value })
+                setFormData({ ...formData, dealer: e.target.value })
               }
               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2 border"
               placeholder="Enter dealer name"
@@ -667,14 +664,14 @@ const WarrantyForm = () => {
             onChange={handleInputChange}
           />
         </div>
-        {formData.warranty && (
+        {formData.warrantyPeriod && (
           <div className="mb-4">
             <label className="block text-gray-700">Warranty</label>
             <input
               type="text"
-              name="warranty"
+              name="warrantyPeriod"
               className="w-full px-3 py-2 border rounded shadow-sm"
-              value={formData.warranty}
+              value={formData.warrantyPeriod}
               disabled
             />
           </div>
