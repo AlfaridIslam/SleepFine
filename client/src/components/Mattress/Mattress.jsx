@@ -60,7 +60,7 @@ const Mattress = () => {
                     Milange
                   </Link>
                   <Link
-                    to="product-details/preference"
+                    to="product-details/orthopedic-rebonded-preference-mattress"
                     className="px-4 py-2 hover:bg-indigo-100"
                   >
                     Preference

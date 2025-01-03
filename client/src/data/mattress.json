@@ -15,6 +15,15 @@
       "content3": "Typically, these mattresses have a medium to firm feel, which is ideal for supporting the natural curve of the spine. This firmness helps in distributing body weight evenly and prevents the mattress from sagging.",
       "title4": "Breathability",
       "content4": "Orthomed mattresses are designed with breathable materials to ensure good air circulation, keeping the mattress cool and comfortable throughout the night.",
+      "title5":"Height",
+      "content5":"5 & 6 inches", 
+      "title6":"Variant",
+      "content6":"Tight Top",
+      "title7":"Warranty",
+      "content7":"5 years",
+      "title8":"Rating",
+      "content8":"⭐⭐⭐⭐",
+      
       "details": {
         "height": "5 & 6 inches",
         "variant": "Tight Top",
@@ -46,7 +55,7 @@
         "ratings": "⭐⭐⭐⭐"
       }
     },
-    "preference": {
+    "orthopedic-rebonded-preference-mattress": {
       "images": [
      
       "https://res.cloudinary.com/dpsmbluby/image/upload/v1728561395/DSC02094_dntqfb.jpg",
@@ -70,7 +79,7 @@
         "ratings": "⭐⭐⭐⭐"
       }
     },
-    " buckingham": {
+    "orthopedic_rebonded_buckingham_mattress": {
       "images": [
       "https://res.cloudinary.com/dpsmbluby/image/upload/v1727772298/buckinghum_bnr_ajjtgu.png", 
       "https://res.cloudinary.com/dpsmbluby/image/upload/v1727259809/DSC02088_xulnzz.jpg",

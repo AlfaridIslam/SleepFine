@@ -16,6 +16,7 @@
 
     "title4": "Customization",
     "content4": "Customization available as per requirement"
+    
   },
   "denver-without-storage": {
     "images": [
@@ -36,7 +37,7 @@
     "title4": "Customization",
     "content4": "Customization available as per requirement"
   },
-  "diamond-with-storage": {
+  "diamond-with-storage-and-without-storage-bed": {
     "images": [
       "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263171/DiamondModel1_lyglos.jpg ",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263173/DiamondModel2_h03jse.jpg ",
@@ -53,7 +54,10 @@
     "content3": "Standard, Customized",
 
     "title4": "Customization",
-    "content4": "Customization available as per requirement"
+    "content4": "Customization available as per requirement",
+    "details": {
+      
+    }
   },
   "diamond-without-storage": {
     "images": [
@@ -72,9 +76,10 @@
     "content3": "Standard, Customized",
 
     "title4": "Customization",
-    "content4": "Customization available as per requirement"
+    "content4": "Customization available as per requirement",
+    "details":{}
   },
-  "pkmodel-with-storage": {
+  "pkmodel-with-storage-and-without-storage-bed": {
     "images": [
       " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263016/PKModel1_bvz0ru.jpg",
       " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263017/PKModel2_cbqzn1.jpg",
@@ -91,7 +96,8 @@
     "content3": "Standard, Customized",
 
     "title4": "Customization",
-    "content4": "Customization available as per requirement"
+    "content4": "Customization available as per requirement",
+   "details":{}
   },
   "pkmodel-without-storage": {
     "images": [

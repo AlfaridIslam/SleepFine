@@ -25,13 +25,14 @@ export const Updates = () => {
             <div className="w-full xl:w-1/2">
               <div className="space-y-4">
                 <p className="poppins-light text-sm xl:text-base">
-                  ✨ Ring in the New Year with Sleepfine! ✨ Upgrade your sleep
-                  with our premium Memory Active mattress for unmatched support
-                  and relaxation. 🛏️🎉 New Year Special: Enjoy exclusive
-                  discounts + a FREE pillow with every mattress purchase! 🎉
-                  Visit your nearest Sleepfine store today and give yourself the
-                  gift of a restful and rejuvenating new year. 💤🥂
-                  #HappyNewYear #SleepfineComfort #NewYearRest
+                  Here's a New Year message replacing the Christmas one: ✨ Ring
+                  in the New Year with Sleepfine! ✨ Upgrade your sleep with our
+                  premium Memory Active mattress for unmatched support and
+                  relaxation. 🛏️🎉 New Year Special: Enjoy exclusive discounts +
+                  a FREE pillow with every mattress purchase! 🎉 Visit your
+                  nearest Sleepfine store today and give yourself the gift of a
+                  restful and rejuvenating new year. 💤🥂 #HappyNewYear
+                  #SleepfineComfort #NewYearRest
                   <br />
                   {/* <Link to="/ourstores" className="underline text-red-300">
                     Hurry before the sale ends! 🕒👀
