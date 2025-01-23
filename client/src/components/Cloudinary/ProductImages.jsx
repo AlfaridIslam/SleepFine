@@ -6,7 +6,7 @@ export const productImages = {
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1728565592/orthomed13_tlaq5j.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1728565592/orthomed11_txipv7.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1728565798/orthomed14_owwnnf.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729230817/Rebonded_100_Density_100mm_700_x_400_px_80_r0bhg6.jpg",//spf
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729230817/Rebonded_100_Density_100mm_700_x_400_px_80_r0bhg6.jpg", //spf
     //"https://res.cloudinary.com/dpsmbluby/image/upload/v1727258748/orthospeci_lh112h.png", //Specifications
     // "https://res.cloudinary.com/dpsmbluby/image/upload/v1728470574/milangespecificationnew_pecovm.jpg",
     // "https://res.cloudinary.com/dpsmbluby/image/upload/v1729158927/Rebonded_100_Density_100mm_700_x_400_px_74_qi9y7y.jpg", //spf
@@ -56,7 +56,7 @@ export const productImages = {
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1728560754/DSC03125_dxiufh.jpg ",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1728560753/Rebonded_100_Density_100mm_700_x_400_px_10_1_ixkdyo.jpg ",
 
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728883982/Rebonded_100_Density_100mm_700_x_400_px_20_ojray8.jpg",//spf
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1728883982/Rebonded_100_Density_100mm_700_x_400_px_20_ojray8.jpg", //spf
   ],
 
   // preference: [
@@ -162,11 +162,9 @@ export const productImages = {
 
   // ---------Pocketed-Spring-Collection--------
 
-
-  silver_crown:[ 
-
+  silver_crown: [
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729079079/Rebonded_100_Density_100mm_700_x_400_px_58_jmzokf.jpg",
-   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729760294/sivercrown11_mvxrqd.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729760294/sivercrown11_mvxrqd.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729079081/Rebonded_100_Density_100mm_700_x_400_px_59_g8kcs9.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729760296/silvercrown13_hfvs0l.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729760293/silvercrown12_crnuj0.jpg",
@@ -217,11 +215,11 @@ export const productImages = {
   //  -------------HR-PU-FOAM--------------------
 
   gravity: [
-   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729680040/DSC02182_ax2rl3.jpg",
-   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729680028/DSC02076_tbvvl0.jpg",
-   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729680031/DSC02184_vexvl7.jpg",
-   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729680034/Sleep_Fine_36_1_vw7xes.jpg",
-   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729681604/gravitynewspeci_qyzpeq.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729680040/DSC02182_ax2rl3.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729680028/DSC02076_tbvvl0.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729680031/DSC02184_vexvl7.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729680034/Sleep_Fine_36_1_vw7xes.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729681604/gravitynewspeci_qyzpeq.jpg",
   ],
   space: [
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729078635/DSC03397_ldsmum.jpg",
@@ -241,8 +239,7 @@ export const productImages = {
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729075066/DSC03364_qq8eef.jpg ",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729075068/Rebonded_100_Density_100mm_700_x_400_px_47_1_uemsbd.jpg ",
 
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729164088/Rebonded_100_Density_100mm_700_x_400_px_78_sntb46.jpg",//spf
-    
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729164088/Rebonded_100_Density_100mm_700_x_400_px_78_sntb46.jpg", //spf
   ],
   rose: [
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729077815/DSC03292_if65no.jpg ",
@@ -262,7 +259,6 @@ export const productImages = {
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729682420/denvermodel_rtox0v.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729682417/denvermodel2_qiggqf.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729682414/denvermodel3_xwzzje.jpg",
-  
   ],
   denver_model_without_storage: [
     // " https://res.cloudinary.com/dpsmbluby/image/upload/v1727262733/DenverModel1_gmjei6.jpg",
@@ -304,8 +300,6 @@ export const productImages = {
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729753885/9_mu2y2q.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729753886/10_s7kup7.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729753886/11_eqv48j.jpg",
-
-
   ],
 
   diamond_without_storage: [
@@ -316,8 +310,6 @@ export const productImages = {
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729753885/9_mu2y2q.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729753886/10_s7kup7.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729753886/11_eqv48j.jpg",
-
-
   ],
 
   //-----------------Sofa--------------
@@ -378,12 +370,10 @@ export const productImages = {
   waterproof_protectors: [
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729500348/Sleep_Fine_4_qmlyay.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729500347/Sleep_Fine_5_q0zyyl.jpg",
-    
   ],
   Quilted_protectors: [
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729504619/Sleep_Fine_15_jckbx2.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729501983/Sleep_Fine_12_njpahh.jpg",
-    
   ],
   fitted_protectors: [
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729500302/Sleep_Fine_8_sckztf.jpg",
@@ -394,36 +384,32 @@ export const productImages = {
   //Pillow
 
   Memory_pillow: [
-   
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729588175/memorypillow11_c3rbvh.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729588173/memorypillow13_dptour.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729588174/memorypillow12_mazfhr.jpg",
   ],
 
- latexy_pillow: [
-   
+  latexy_pillow: [
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729588567/latexpillow13_yupfni.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729588568/latexpillow12_whjoa4.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729588568/latexpillow11_bk2egt.jpg",
   ],
- foam_pillow: [
-   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586109/foampillow3_yh2old.jpg",
-   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586107/foam1_lejizy.jpg",
-   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586118/foampillow2_ewl5hs.jpg",
+  foam_pillow: [
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586109/foampillow3_yh2old.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586107/foam1_lejizy.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586118/foampillow2_ewl5hs.jpg",
   ],
   polyfiber_pillow: [
-   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586063/polyfibre3_mcdq0l.jpg",
-   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586064/polyfibre2_sltiv4.jpg",
-   "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586065/polyfibre1_lcdxqt.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586063/polyfibre3_mcdq0l.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586064/polyfibre2_sltiv4.jpg",
+    "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586065/polyfibre1_lcdxqt.jpg",
   ],
-  duvets:[
+  duvets: [
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729507141/Duvets1_rnmjti.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729507139/Duvets2_ltie2c.jpg",
-    
   ],
-  comforters:[
+  comforters: [
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729507467/comforter3_gjo5ov.jpg",
     "https://res.cloudinary.com/dpsmbluby/image/upload/v1729507069/comforter1_anpixa.jpg",
-   
-  ]
+  ],
 };
