@@ -9,20 +9,23 @@ const ProductDetails = () => {
   const { productType } = useParams();
 
   // Find product in context
-  const findProduct = () => {
-    for (const category in products) {
-      if (products[category][productType]) {
-        return products[category][productType];
-      }
+const findProduct = () => {
+  for (const category in products) {
+    if (products[category][productType]) {
+      return { product: products[category][productType], category };
     }
-    return null;
-  };
-
-  const productInfo = findProduct();
-
-  if (!productInfo) {
-    return <Navigate to="*" />;
   }
+  return null;
+};
+
+const productData = findProduct();
+
+if (!productData) {
+  return <Navigate to="*" />;
+}
+
+const { product: productInfo, category } = productData;
+
 
   // Existing state management
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -119,6 +122,84 @@ const ProductDetails = () => {
     window.open(whatsappUrl, "_blank");
   };
 
+  // creating two functions for mattress and other 3 on conditional rendering
+
+  // redering mattress 
+
+  const renderMattressDetails = () => (
+    <div className="text-gray-600">
+      {/* Title 1 and Content 1 */}
+      <div className="text-xl font-semibold my-[6px]">{productInfo.title1}</div>
+      <p className="mb-4">{productInfo.content1}</p>
+
+      {/* Title 2 and Content 2 */}
+      <h2 className="font-bold">{productInfo.title2}</h2>
+      <p className="mb-4">{productInfo.content2}</p>
+
+      {/* Title 3 and Content 3 */}
+      <h2 className="font-bold">{productInfo.title3}</h2>
+      <p className="mb-4">{productInfo.content3}</p>
+
+      {/* Title 4 and Content 4 */}
+      <h2 className="font-bold">{productInfo.title4}</h2>
+      <p className="mb-4">{productInfo.content4}</p>
+
+      {/* Product Details Section */}
+      <div className="flex justify-start mt-2 items-center gap-10">
+        <div className="flex-col">
+          <h2 className="font-bold">Height</h2>
+          <p>{productInfo.details.height}</p>
+        </div>
+        <div>
+          <h2 className="font-bold">Variant</h2>
+          <p>{productInfo.details.variant}</p>
+        </div>
+        <div>
+          <h2 className="font-bold">Warranty</h2>
+          <p>{productInfo.details.warranty}</p>
+        </div>
+        <div>
+          <h2 className="font-bold">Ratings</h2>
+          <p>{productInfo.details.ratings}</p>
+        </div>
+      </div>
+
+      {/* Measurement Guide Link */}
+      <h1 className="font-mono text-sky-700 sm:w-[120%] xl:w-full text-center mt-4">
+        Guide to Measuring Mattress Sizes:
+        <a
+          href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="animate-pulse text-blue-600 hover:underline
+                cursor-pointer ml-1"
+        >
+          click here
+        </a>
+      </h1>
+    </div>
+  );
+
+  const renderDefaultDetails = () => (
+    <div className="text-gray-600">
+      {/* Title 1 and Content 1 */}
+      <div className="text-xl font-semibold my-[6px]">{productInfo.title1}</div>
+      <p className="mb-4">{productInfo.content1}</p>
+
+      {/* Title 2 and Content 2 */}
+      <h2 className="font-bold">{productInfo.title2}</h2>
+      <p className="mb-4">{productInfo.content2}</p>
+
+      {/* Title 3 and Content 3 */}
+      <h2 className="font-bold">{productInfo.title3}</h2>
+      <p className="mb-4">{productInfo.content3}</p>
+
+      {/* Title 4 and Content 4 */}
+      <h2 className="font-bold">{productInfo.title4}</h2>
+      <p className="mb-4">{productInfo.content4}</p>
+    </div>
+  );
+
   return (
     <>
       <Link
@@ -200,60 +281,10 @@ const ProductDetails = () => {
         <div className="flex-1">
           <h2 className="text-2xl font-bold mb-2">Product Description</h2>
 
-          {/* Title and Content Sections */}
-          <div className="text-gray-600">
-            {/* Title 1 and Content 1 */}
-            <div className="text-xl font-semibold my-[6px]">
-              {productInfo.title1}
-            </div>
-            <p className="mb-4">{productInfo.content1}</p>
-
-            {/* Title 2 and Content 2 */}
-            <h2 className="font-bold">{productInfo.title2}</h2>
-            <p className="mb-4">{productInfo.content2}</p>
-
-            {/* Title 3 and Content 3 */}
-            <h2 className="font-bold">{productInfo.title3}</h2>
-            <p className="mb-4">{productInfo.content3}</p>
-
-            {/* Title 4 and Content 4 */}
-            <h2 className="font-bold">{productInfo.title4}</h2>
-            <p className="mb-4">{productInfo.content4}</p>
-
-            {/* Product Details Section */}
-            <div className="flex justify-start mt-2 items-center gap-10">
-              <div className="flex-col">
-                <h2 className="font-bold">Height</h2>
-                <p>{productInfo.details.height}</p>
-              </div>
-              <div>
-                <h2 className="font-bold">Variant</h2>
-                <p>{productInfo.details.variant}</p>
-              </div>
-              <div>
-                <h2 className="font-bold">Warranty</h2>
-                <p>{productInfo.details.warranty}</p>
-              </div>
-              <div>
-                <h2 className="font-bold">Ratings</h2>
-                <p>{productInfo.details.ratings}</p>
-              </div>
-            </div>
-
-            {/* Measurement Guide Link */}
-            <h1 className="font-mono text-sky-700 sm:w-[120%] xl:w-full text-center mt-4">
-              Guide to Measuring Mattress Sizes:
-              <a
-                href="https://youtu.be/MMjGTx1RgNQ?si=zADBJ7YT1g4TC5YY"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="animate-pulse text-blue-600 hover:underline
-                cursor-pointer ml-1"
-              >
-                click here
-              </a>
-            </h1>
-          </div>
+          {/* conditional rendering for format of mattress and other products */}
+          {category === "mattresses"
+            ? renderMattressDetails()
+            : renderDefaultDetails()}
 
           {/* Enquiry Button */}
           <div className="mt-6 xl:ml-[-37rem] flex justify-center sm:ml-0">

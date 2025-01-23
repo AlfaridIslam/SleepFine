@@ -1,10 +1,10 @@
 {
-  "chesterfield": {
+  "Chesterfield_sofa": {
     "images": [
       "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263399/chesterfield1_mp45ak.jpg ",
       " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263401/chesterfield2_u5mtqo.jpg",
       "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263402/chesterfield3_ztjv4e.jpg ",
-     " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263404/chesterfield4_frodwm.jpg"
+      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263404/chesterfield4_frodwm.jpg"
     ],
     "title1": "Variety",
     "content1": "Sofa",
@@ -18,7 +18,7 @@
     "title4": "Customization",
     "content4": "Customization available as per requirement"
   },
-  "lawson": {
+  "Lawson_sofa": {
     "images": [
       " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263443/lawson1_yqx1ix.jpg",
       " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263445/lawson2_wab0ro.jpg",
@@ -37,12 +37,12 @@
     "title4": "Customization",
     "content4": "Customization available as per requirement"
   },
-  "tuxedo": {
+  "Tuxedo_sofa": {
     "images": [
       "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263477/Tuxedo1_c2ug3c.jpg",
       "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263480/Tuxedo2_q6cbyk.jpg",
       "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263482/Tuxedo3_acnhw9.jpg ",
-     "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263484/Tuxedo4_laufie.jpg"
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263484/Tuxedo4_laufie.jpg"
     ],
     "title1": "Variety",
     "content1": "Sofa",
@@ -56,7 +56,7 @@
     "title4": "Customization",
     "content4": "Customization available as per requirement"
   },
-  "l-shaped": {
+  "L-Shaped-sofa": {
     "images": [
       "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263610/LshapedSofa1_lokpag.jpg ",
       "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263612/LshapedSofa2_ijmfpt.jpg ",
@@ -67,7 +67,7 @@
     "content1": "Sofa",
 
     "title2": "Title",
-    "content2": "l-shaped",
+    "content2": "L-shaped",
 
     "title3": "Size",
     "content3": "Standard, Customized",
@@ -75,7 +75,7 @@
     "title4": "Customization",
     "content4": "Customization available as per requirement"
   },
-  "u-shaped": {
+  "U-Shaped-sofa": {
     "images": [
       " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263679/UshapedSofa1_v4agk7.jpg",
       "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263681/UshapedSofa2_d7c2z2.jpg ",
@@ -86,7 +86,7 @@
     "content1": "Sofa",
 
     "title2": "Title",
-    "content2": "u-shaped",
+    "content2": "U-shaped",
 
     "title3": "Size",
     "content3": "Standard, Customized",
@@ -97,15 +97,15 @@
   "l-shaped-sofa-cumbed": {
     "images": [
       "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263743/lshapedsofacumbed1_x8z7ek.jpg ",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263746/lshapedsofacumbed2_ir94qi.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263748/lshapedsofacumbed3_tzkrel.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263750/lshapedsofacumbed4_h9i3pa.jpg "
+      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263746/lshapedsofacumbed2_ir94qi.jpg",
+      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263748/lshapedsofacumbed3_tzkrel.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263750/lshapedsofacumbed4_h9i3pa.jpg "
     ],
     "title1": "Variety",
     "content1": "Sofa",
 
     "title2": "Title",
-    "content2": "l-shaped sofa cum bed",
+    "content2": "L-shaped sofa cum bed",
 
     "title3": "Size",
     "content3": "Standard, Customized",
@@ -116,15 +116,15 @@
   "u-shaped-sofa-cumbed": {
     "images": [
       " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263798/ushapedsofacumbed1_zzr0p5.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263801/ushapedsofacumbed2_urejkp.png",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263804/ushapedsofacumbed3_jd3kqq.png ",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263806/ushapedsofacumbed4_oed6vf.png"
+      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263801/ushapedsofacumbed2_urejkp.png",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1727263804/ushapedsofacumbed3_jd3kqq.png ",
+      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263806/ushapedsofacumbed4_oed6vf.png"
     ],
     "title1": "Variety",
     "content1": "Sofa",
 
     "title2": "Title",
-    "content2": "u-shaped sofa cum bed",
+    "content2": "U-shaped sofa cum bed",
 
     "title3": "Size",
     "content3": "Standard, Customized",
@@ -132,7 +132,7 @@
     "title4": "Customization",
     "content4": "Customization available as per requirement"
   },
-  "modular": {
+  "Modular_sofa": {
     "images": [
       " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263896/ModularSofa1_tr9gy2.jpg",
       " https://res.cloudinary.com/dpsmbluby/image/upload/v1727263899/ModularSofa2_now7ko.jpg",
@@ -143,7 +143,7 @@
     "content1": "Sofa",
 
     "title2": "Title",
-    "content2": "modular",
+    "content2": "Modular",
 
     "title3": "Size",
     "content3": "Standard, Customized",
@@ -151,8 +151,4 @@
     "title4": "Customization",
     "content4": "Customization available as per requirement"
   }
-  
-  
 }
-
-

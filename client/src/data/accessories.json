@@ -1,8 +1,8 @@
 {
-  "protector": {
+  "water_proof_mattress_protector_accessories": {
     "images": [
-       "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264076/BaffleBox_qq0ojm.jpg ",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727264078/SewnThrough_lk0in9.jpg"
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729500348/Sleep_Fine_4_qmlyay.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729500347/Sleep_Fine_5_q0zyyl.jpg"
     ],
     "title1": "Water-Proof Mattress Protector",
     "content1": " ",
@@ -19,10 +19,10 @@
     "title5": "Soft & Silent Comfort",
     "content5": "Soft & Silent Comfort: The Sleep Fine Mattress Protector fits snugly around your mattress with deep pockets and elasticized edges, ensuring it stays securely in place. It’s machine washable, making it easy to clean and maintain, so your mattress stays protected and fresh for years to come."
   },
-  "quilted-protector": {
+  "quilted-mattress-protector-accessories": {
     "images": [
-       "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264076/BaffleBox_qq0ojm.jpg ",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727264078/SewnThrough_lk0in9.jpg"
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729504619/Sleep_Fine_15_jckbx2.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729501983/Sleep_Fine_12_njpahh.jpg"
     ],
     "title1": "Quilted Mattress Protector",
     "content1": "",
@@ -39,32 +39,11 @@
     "title5": "Secure Fit & Durability",
     "content5": "With deep pockets and a stretchable skirt, this quilted mattress protector fits mattresses of various thicknesses snugly, ensuring it stays in place throughout the night. The durable stitching and high-quality fabric make it resistant to wear, providing lasting protection and comfort for your mattress."
   },
-  "fitted-protector": {
+  "memory-pillow-accessories": {
     "images": [
-       "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264076/BaffleBox_qq0ojm.jpg ",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727264078/SewnThrough_lk0in9.jpg"
-    ],
-    "title1": "Fitted Mattress Protector",
-    "content1": "",
-
-    "title2": "Perfect Fit Protection with Lasting Comfort",
-    "content2": "The Sleep Fine Fitted Mattress Protector is designed to provide comprehensive protection for your mattress while offering a snug, wrinkle-free fit. Its fitted sheet-style design ensures that your mattress is fully encased and protected from spills, allergens, and wear, all while maintaining the natural feel and comfort of your bedding.",
-
-    "title3": "Hypoallergenic Defense",
-    "content3": "This fitted mattress protector is crafted from hypoallergenic materials to safeguard against dust mites, allergens, and bacteria. It promotes a healthier sleeping environment, making it a perfect choice for people with allergies or sensitive skin.",
-
-    "title4": "Breathable Comfort",
-    "content4": "The Sleep Fitted Mattress Protector is engineered with breathable fabric to allow air circulation, ensuring a cool, dry, and comfortable sleeping surface. Its moisture-wicking properties help regulate temperature, preventing overheating during the night and delivering a refreshing sleep experience.",
-
-    "title5": "Easy Care and Durability",
-    "content5": "This fitted mattress protector is machine washable, making it easy to clean and maintain. Its high-quality fabric is designed for durability, ensuring it withstands frequent washing without losing its softness, shape, or protective qualities."
-  },
-  "memory-pillow": {
-    "images": [
-       "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264286/Memoryfoam_Pillow1_vqewfs.jpg ",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264289/Memoryfoam_Pillow2_evrsjy.jpg ",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264291/Memoryfoam_Pillow3_iqfkra.jpg ",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727264294/Memoryfoam_Pillow4_nzk3ls.jpg"
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729588175/memorypillow11_c3rbvh.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729588173/memorypillow13_dptour.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729588174/memorypillow12_mazfhr.jpg"
     ],
     "title1": "Memory Foam Pillow",
     "content1": "",
@@ -81,12 +60,11 @@
     "title5": "Luxurious Removable Cover",
     "content5": "The pillow comes with a removable and washable cover that enhances comfort and maintains hygiene. The fabric is soft and skin-friendly, allowing for easy maintenance without compromising on comfort or durability."
   },
-  "latex-pillow": {
+  "latexpillow_accessories": {
     "images": [
-      "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264360/LatexPillow1_spx6l4.jpg",
-    "https://res.cloudinary.com/dpsmbluby/image/upload/v1727264363/LatexPillow2_hneeoa.jpg ",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727264365/LatexPillow3_bhxjmg.jpg",
-    " https://res.cloudinary.com/dpsmbluby/image/upload/v1727264368/LatexPillow4_ftovke.jpg"
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729588567/latexpillow13_yupfni.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729588568/latexpillow12_whjoa4.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729588568/latexpillow11_bk2egt.jpg"
     ],
     "title1": "Latex Pillow",
     "content1": "",
@@ -103,12 +81,11 @@
     "title5": "Removable, Washable Cover",
     "content5": "To enhance the luxurious feel, the pillow comes with a soft, removable cover. The cover is designed for breathability and is machine washable, ensuring that your pillow stays fresh and clean with minimal effort."
   },
-  "foam-pillow": {
+  "foam-pillow-accessories": {
     "images": [
-      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727265486/Foampillow1_pcmsww.jpg",
-      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727265483/Foampillow2_rxnwgn.jpg",
-      "https://res.cloudinary.com/dpsmbluby/image/upload/v1727265485/Foampillow3_q0uijk.jpg ",
-      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727265490/Foampillow4_mcdvvc.jpg"
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586109/foampillow3_yh2old.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586107/foam1_lejizy.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586118/foampillow2_ewl5hs.jpg"
     ],
     "title1": "Foam Pillow",
     "content1": "",
@@ -125,12 +102,51 @@
     "title5": "Soft, Removable Cover",
     "content5": "The pillow comes with a soft, removable, and machine-washable cover, designed for enhanced breathability and comfort. The cover ensures that your pillow remains fresh and clean with minimal effort."
   },
-  "poly-fiber-pillow": {
+  "poly-fibre-pillow-accessories": {
     "images": [
-      "https://res.cloudinary.com/dpsmbluby/image/upload/v1727266137/PolyFiberPillow1_qpuvhp.png",
-      "https://res.cloudinary.com/dpsmbluby/image/upload/v1727266047/AloveraPolyfiberPillow2_jrtovb.jpg ",
-      "https://res.cloudinary.com/dpsmbluby/image/upload/v1727266048/AloveraPolyfiberPillow3_sisgsh.jpg ",
-      " https://res.cloudinary.com/dpsmbluby/image/upload/v1727265490/Foampillow4_mcdvvc.jpg"
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586063/polyfibre3_mcdq0l.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586064/polyfibre2_sltiv4.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729586065/polyfibre1_lcdxqt.jpg"
+    ],
+    "title1": "Poly Fibre Pillow",
+    "content1": "",
+
+    "title2": "Soft Comfort and Support for Peaceful Sleep",
+    "content2": "The Sleep Fine Poly Fiber Pillow offers a delightful blend of plush softness and supportive comfort, making it an ideal choice for a restful night's sleep. Crafted with premium poly fiber filling, this pillow is designed to provide excellent support while retaining its shape, ensuring a cozy sleeping experience.",
+
+    "title3": "Lightweight and Breathable",
+    "content3": "The Sleep Fine Poly Fiber Pillow is lightweight and breathable, ensuring a cool and comfortable sleep environment. Its structure allows for airflow, preventing overheating and keeping you comfortable throughout the night, no matter the season.",
+
+    "title4": "Durable and Shape-Retaining",
+    "content4": "Engineered for durability, the Sleep Fine Poly Fiber Pillow retains its shape and loft over time, providing consistent support without flattening. You can enjoy the same level of comfort and support night after night, ensuring a lasting investment in your sleep quality.",
+
+    "title5": "Soft, Removable Cover",
+    "content5": "The pillow comes with a soft, removable, and machine-washable cover for added convenience. The breathable cover enhances comfort and makes it easy to keep your pillow fresh and clean."
+  },
+  "duvet-accessories": {
+    "images": [
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729507141/Duvets1_rnmjti.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729507139/Duvets2_ltie2c.jpg"
+    ],
+    "title1": "Poly Fibre Pillow",
+    "content1": "",
+
+    "title2": "Soft Comfort and Support for Peaceful Sleep",
+    "content2": "The Sleep Fine Poly Fiber Pillow offers a delightful blend of plush softness and supportive comfort, making it an ideal choice for a restful night's sleep. Crafted with premium poly fiber filling, this pillow is designed to provide excellent support while retaining its shape, ensuring a cozy sleeping experience.",
+
+    "title3": "Lightweight and Breathable",
+    "content3": "The Sleep Fine Poly Fiber Pillow is lightweight and breathable, ensuring a cool and comfortable sleep environment. Its structure allows for airflow, preventing overheating and keeping you comfortable throughout the night, no matter the season.",
+
+    "title4": "Durable and Shape-Retaining",
+    "content4": "Engineered for durability, the Sleep Fine Poly Fiber Pillow retains its shape and loft over time, providing consistent support without flattening. You can enjoy the same level of comfort and support night after night, ensuring a lasting investment in your sleep quality.",
+
+    "title5": "Soft, Removable Cover",
+    "content5": "The pillow comes with a soft, removable, and machine-washable cover for added convenience. The breathable cover enhances comfort and makes it easy to keep your pillow fresh and clean."
+  },
+  "comforters-accessories": {
+    "images": [
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729507467/comforter3_gjo5ov.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729507069/comforter1_anpixa.jpg"
     ],
     "title1": "Poly Fibre Pillow",
     "content1": "",
@@ -148,5 +164,3 @@
     "content5": "The pillow comes with a soft, removable, and machine-washable cover for added convenience. The breathable cover enhances comfort and makes it easy to keep your pillow fresh and clean."
   }
 }
-
-
