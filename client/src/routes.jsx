@@ -6,7 +6,7 @@ import ProductTypes from "./pages/ProductTypes/ProductTypes";
 import ProductDetails from "./pages/ProductDetails/ProductDetails";
 import Store from "./components/OurStore/OurStore";
 import Blog from "./components/Blog/Blog";
-import WarrantyForm from "./components/WarrantyForm/WarrantyForm";
+import WarrantyForm from "./components/WarrantyForm/WarrantyForm2";
 import NotFound from "./pages/NotFound/NotFound";
 import MeasurementVideoPage from './pages/MeasurementVideoPage/MeasurementVideoPage'
 
