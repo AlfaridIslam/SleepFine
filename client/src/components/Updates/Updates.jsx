@@ -15,8 +15,8 @@ export const Updates = () => {
             {/* Video container with consistent dimensions */}
             <div className="w-full xl:w-1/2 aspect-[18/9]">
               <img
-                src="https://res.cloudinary.com/dpsmbluby/image/upload/v1737633536/republicDay_nnkisg.jpg"
-                alt="Republic day"
+                src="https://res.cloudinary.com/dpsmbluby/image/upload/v1748098665/updates_0525_byxh0b.jpg"
+                alt="Buckingham"
                 className="w-full h-full object-contain rounded-xl"
               />
             </div>
@@ -25,20 +25,19 @@ export const Updates = () => {
             <div className="w-full xl:w-1/2">
               <div className="space-y-4">
                 <p className="poppins-light text-sm xl:text-base">
-                  ✨ Celebrate Republic Day with Sleepfine! ✨ Upgrade your
-                  sleep with our premium Memory Active mattress for unmatched
-                  support and relaxation. 🛏️🎉 Republic Day Special: Enjoy
-                  exclusive discounts + a FREE pillow with every mattress
-                  purchase! 🎉 Visit your nearest Sleepfine store today and give
-                  yourself the gift of a restful and rejuvenating sleep. 💤🇮🇳
-                  #RepublicDay #SleepfineComfort #RestfulSleep
+                  ✨ Discover Unmatched Comfort with Sleepfine! ✨ Transform
+                  your sleep experience with our top-tier Memory Active
+                  mattress. 🛏️ Elevate your nights with unrivaled support and
+                  luxurious relaxation.
+                  <br />
+                  #SleepfineSupremacy #UltimateComfort #BetterSleepBetterLife
                   <br />
                   {/* <Link to="/ourstores" className="underline text-red-300">
                     Hurry before the sale ends! 🕒👀
                   </Link>{" "} */}
                   {/* ✨ */}
                 </p>
-                <p className="font-thin text-[11px]">23rd Jan, 2025</p>
+                <p className="font-thin text-[11px]">06th Feb, 2025</p>
               </div>
             </div>
           </div>

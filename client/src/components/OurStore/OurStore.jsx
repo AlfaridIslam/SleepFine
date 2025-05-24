@@ -12,22 +12,39 @@ import React from "react";
 
         <div className="rounded-2xl border-2 shadow opacity-1 pt-10 items-center justify-between p-6 w-full h-auto relative bg-slate-100">
           <div className="address p-4 py-0">
-            <p className="text-xl underline">Sleep Fine Comfort Planet-Alwal 500010</p>
-            <a href="https://maps.app.goo.gl/d32jCdNqCPhv4e3y8"  target="_blank" rel="noopener noreferrer">
-            <img src="https://res.cloudinary.com/dpsmbluby/image/upload/v1727759140/Screenshot_2024-10-01_103447_lrswqt.png" alt="" className="w-[100%] h-80"/>
-
+            <p className="text-xl underline">
+              Sleep Fine Comfort Planet-Alwal 500010
+            </p>
+            <a
+              href="https://maps.app.goo.gl/d32jCdNqCPhv4e3y8"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://res.cloudinary.com/dpsmbluby/image/upload/v1727759140/Screenshot_2024-10-01_103447_lrswqt.png"
+                alt=""
+                className="w-[100%] h-80"
+              />
             </a>
-          
           </div>
         </div>
 
         {/* Store 2 */}
         <div className="rounded-2xl border-2 shadow opacity-1 pt-10 items-center justify-between p-6 w-full h-auto relative bg-slate-100 ">
           <div className="address p-4 py-0">
-            <p className="text-xl underline">Sleep Fine Comfort Planet-Ameerpet 500016</p>
-            <a href="https://maps.app.goo.gl/zcmixDarWiAidU7P8"  target="_blank" rel="noopener noreferrer">
-            <img src="https://res.cloudinary.com/dpsmbluby/image/upload/v1727763389/Screenshot_2024-10-01_114512_y53hks.png" alt=""  className="w-[100%] h-80"/>
-
+            <p className="text-xl underline">
+              Sleep Fine Comfort Planet-Ameerpet 500016
+            </p>
+            <a
+              href="https://maps.app.goo.gl/zcmixDarWiAidU7P8"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://res.cloudinary.com/dpsmbluby/image/upload/v1727763389/Screenshot_2024-10-01_114512_y53hks.png"
+                alt=""
+                className="w-[100%] h-80"
+              />
             </a>
           </div>
         </div>
@@ -38,9 +55,16 @@ import React from "react";
             <p className="text-xl underline">
               Sleep Fine Comfort Planet-Hafiz Baba Nagar 500005
             </p>
-            <a href="https://maps.app.goo.gl/VSoBpCkdKkHKb4nr6"  target="_blank" rel="noopener noreferrer">
-            <img src="https://res.cloudinary.com/dpsmbluby/image/upload/v1727763795/Screenshot_2024-10-01_115241_a1fg99.png" alt="" className="w-[100%] h-80" />
-
+            <a
+              href="https://maps.app.goo.gl/VSoBpCkdKkHKb4nr6"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://res.cloudinary.com/dpsmbluby/image/upload/v1727763795/Screenshot_2024-10-01_115241_a1fg99.png"
+                alt=""
+                className="w-[100%] h-80"
+              />
             </a>
           </div>
         </div>
@@ -52,9 +76,16 @@ import React from "react";
               Sleep Fine Comfort Planet-Gajularamaram 500055
             </p>
 
-            <a href="https://maps.app.goo.gl/eHfFF396ZcEirC9Q9"  target="_blank" rel="noopener noreferrer">
-            <img src="https://res.cloudinary.com/dpsmbluby/image/upload/v1727763993/Screenshot_2024-10-01_115555_znh53n.png" alt=""  className="w-[100%] h-80" />
-
+            <a
+              href="https://maps.app.goo.gl/eHfFF396ZcEirC9Q9"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://res.cloudinary.com/dpsmbluby/image/upload/v1727763993/Screenshot_2024-10-01_115555_znh53n.png"
+                alt=""
+                className="w-[100%] h-80"
+              />
             </a>
           </div>
         </div>
@@ -65,9 +96,37 @@ import React from "react";
             <p className="text-xl underline">
               Sleep Fine Mattress Factory-Kompally - 500010.
             </p>
-            <a href="https://maps.app.goo.gl/hAFiRCuHUxYCcntb9"  target="_blank" rel="noopener noreferrer">
-            <img src="https://res.cloudinary.com/dpsmbluby/image/upload/v1727764413/Screenshot_2024-10-01_120242_bkm6ku.png" alt="" className="w-[100%] h-80" />
+            <a
+              href="https://maps.app.goo.gl/hAFiRCuHUxYCcntb9"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://res.cloudinary.com/dpsmbluby/image/upload/v1727764413/Screenshot_2024-10-01_120242_bkm6ku.png"
+                alt=""
+                className="w-[100%] h-80"
+              />
+            </a>
+          </div>
+        </div>
 
+        {/* Store 6*/}
+
+        <div className="rounded-2xl border-2 shadow opacity-1 pt-10 items-center justify-between p-6 w-full h-auto relative bg-slate-100">
+          <div className="address p-4 py-0">
+            <p className="text-xl underline">
+              Sleep Fine Mattress-Warangal - 506001.
+            </p>
+            <a
+              href="https://maps.app.goo.gl/T2cBhJWwZB9JB9448?g_st=com.google.maps.preview.copy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://res.cloudinary.com/dpsmbluby/image/upload/v1748098441/warangal-store_j3fzrj.jpg"
+                alt=""
+                className="w-[100%] h-80"
+              />
             </a>
           </div>
         </div>

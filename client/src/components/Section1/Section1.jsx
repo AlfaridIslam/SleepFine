@@ -18,7 +18,6 @@ const Section1 = () => {
        sm:mt-4 sm:px-20 sm:flex sm:flex-col sm:justify-center sm:items-center sm:w-[158%] "
     >
       <div className="grid gap-5">
-
         <div className="image ">
           {/* Adjust image size dynamically based on content visibility */}
           {/* <img
@@ -31,12 +30,12 @@ const Section1 = () => {
             } transition-all duration-500`}
           /> */}
         </div>
-        
+
         <div className="image ">
           {/* Adjust image size dynamically based on content visibility */}
           <img
-           // src="https://res.cloudinary.com/dpsmbluby/image/upload/v1728366520/logo-image_wxinpv.png"
-           src="https://res.cloudinary.com/dpsmbluby/image/upload/v1729772005/coverphot011_wncnop.jpg"
+            // src="https://res.cloudinary.com/dpsmbluby/image/upload/v1728366520/logo-image_wxinpv.png"
+            src="https://res.cloudinary.com/dpsmbluby/image/upload/v1729772005/coverphot011_wncnop.jpg"
             alt="Image"
             className={`${
               showFullContent
@@ -60,9 +59,13 @@ const Section1 = () => {
           journey began with a simple question: "What if a mattress could be
           both luxurious and affordable?"
         </p>
-        <p className="sm:px-4 xl:px-0">
+        <p className="sm:px-4 md:px-4 lg:px-2 xl:px-0">
           <strong>Our Certificates & Awards</strong>
-          <img src="https://res.cloudinary.com/dpsmbluby/image/upload/v1729062198/MEMBER_1_1_kgqjww.jpg" alt="" className="xl:h-48" />
+          <img
+            src="https://res.cloudinary.com/dpsmbluby/image/upload/v1729062198/MEMBER_1_1_kgqjww.jpg"
+            alt="Certificates and Awards"
+            className="h-36 sm:h-40 md:h-[17rem] lg:h-46 xl:h-48 w-auto max-w-full"
+          />
         </p>
         <p className="poppins-light  xl:text-left xl:mt-0 sm:text-left sm:text-lg sm:mt-2 xl:px-0 sm:px-4">
           <strong>Our Story</strong>
