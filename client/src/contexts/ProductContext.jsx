@@ -16,8 +16,6 @@ export const ProductProvider = ({ children }) => {
     accessories: accessoriesData,
   });
 
-  // We don't need useEffect anymore since data is imported directly
-
   return (
     <ProductContext.Provider value={products}>
       {children}

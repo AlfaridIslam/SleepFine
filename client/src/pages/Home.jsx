@@ -7,11 +7,9 @@ import Footer from "../components/Footer/Footer";
 import { Updates } from "../components/Updates/Updates";
 import ProductsScrolling from "../components/ProductsScrolling/ProductsScrolling";
 import HeroSection from "../components/HeroSection/HeroSection";
-// import Offersdisplay from "../components/Offers/OffersDisplay";
 import ContactForm from "../components/ContactForm/ContactForm";
 import SofaSample from "../components/SofaSample/SofaSample";
-import MeasurementSection from '../components/MeasurementSection/MeasurementSection'
- 
+import MeasurementSection from '../components/MeasurementSection/MeasurementSection';
 
 const Home = () => {
   // SEO metadata
@@ -81,9 +79,7 @@ const Home = () => {
         <ProductsScrolling />
         <Testimonial />
         <Updates />
-        {/* <Offersdisplay/> */}
         <MeasurementSection/>
-       
         <Footer />
       </div>
     </>

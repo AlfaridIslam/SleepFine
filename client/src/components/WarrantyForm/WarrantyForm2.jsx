@@ -8,6 +8,41 @@ import html2canvas from "html2canvas";
 import WarrantyCardTemplate from "./WarrantyCard";
 // import {} from "./stateCityData.json"
 
+const varietyHeights = {
+  Orthomed: ["5 inches", "6 inches"],
+  Milange: ["7 inches"],
+  Preference: ["6 inches"],
+  Buckingham: ["8 inches", "10 inches"],
+  "Buckingham Lexus": ["8 inches", "10 inches"],
+  "orthopedic Aloe-Vera with Latex 6 inches": ["6 inches"],
+  "orthopedic Aloe-vera with Memory 6 inches": ["6 inches"],
+  "orthopedic Aloe-Vera with Latex 8 & 10 inches": ["8 inches", "10 inches"],
+  "orthopedic Aloe-vera with Memory 8 & 10 inches": ["8 inches", "10 inches"],
+  Memofy: ["6 inches", "8 inches"],
+  "Silver Crown": ["5 inches", "6 inches", "7 inches"],
+  Oxford: ["7 inches"],
+  LoveLand: ["8 inches", "10 inches"],
+  "Romantic Euroton": ["8 inches", "10 inches"],
+  Ambitious: ["8 inches", "10 inches"],
+  "ortho bonnell Aloe-Vera with Latex 6 inches": ["6 inches"],
+  "ortho bonnell Aloe-vera with Memory 6 inches": ["6 inches"],
+  "ortho bonnell Aloe-Vera with Latex 8 & 10 inches": ["8 inches", "10 inches"],
+  "ortho bonnell Aloe-vera with Memory 8 & 10 inches": [
+    "8 inches",
+    "10 inches",
+  ],
+  Inspiration: ["5 inches", "6 inches"],
+  "Eternity Euroton": ["8 inches", "10 inches"],
+  "pocketed Aloe-Vera with Latex 6 inches": ["6 inches"],
+  "pocketed Aloe-vera with Memory 6 inches": ["6 inches"],
+  "pocketed Aloe-Vera with Latex 8 & 10 inches": ["8 inches", "10 inches"],
+  "pocketed Aloe-vera with Memory 8 & 10 inches": ["8 inches", "10 inches"],
+  Gravity: ["5 inches", "6 inches"],
+  Space: ["6 inches", "8 inches"],
+  "Memory Active": ["6 inches", "8 inches"],
+  "Rose by Rose": ["6 inches", "8 inches"],
+};
+
 const WarrantyForm = () => {
   const initialFormState = {
     customerName: "",
@@ -119,6 +154,7 @@ const WarrantyForm = () => {
     "Hafiz Baba Nagar",
     "Kompally",
     "Shapur/Gajularamaram",
+    "Warangal",
   ];
 
   const handlePurchaseFromChange = (e) => {
@@ -160,9 +196,10 @@ const WarrantyForm = () => {
       "Silver Crown",
       "Space",
       "Inspiration",
+      "Gravity",
     ],
     "7 years": ["Milange", "Rose by Rose", "Oxford"],
-    "2.5 years": ["Gravity"],
+    // "2.5 years": ["Gravity"],
   };
 
   const handleInputChange = (e) => {
@@ -526,13 +563,11 @@ const WarrantyForm = () => {
                 className="w-full sm:px-0 xl:px-3 py-2 border rounded shadow-sm"
               >
                 <option value="">Select Height</option>
-                <option value="5 inches">5 inches</option>
-                <option value="6 inches">6 inches</option>
-                <option value="7 inches">7 inches</option>
-                <option value="8 inches">8 inches</option>
-                <option value="10 inches">10 inches</option>
-                <option value="12 inches">12 inches</option>
-                <option value="14 inches">14 inches</option>
+                {(varietyHeights[formData.selectedVariety] || [
+                  "5 inches", "6 inches", "7 inches", "8 inches", "10 inches", "12 inches", "14 inches"
+                ]).map((height) => (
+                  <option key={height} value={height}>{height}</option>
+                ))}
               </select>
             </div>
           ) : (

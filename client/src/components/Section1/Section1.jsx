@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import LazyImage from "../LazyImage/LazyImage";
 //import Logo from "../../assets/sleepfinelogo-3.png";
 //import LogoImage from "../../assets/logo-image.png";
 //import Ispflogo2 from '../../assets/ISPFlogo2.jpg';
@@ -20,9 +21,9 @@ const Section1 = () => {
       <div className="grid gap-5">
         <div className="image ">
           {/* Adjust image size dynamically based on content visibility */}
-          {/* <img
+          {/* <LazyImage
             src="https://res.cloudinary.com/dpsmbluby/image/upload/v1728366495/ISPFlogo2_ud1lcw.jpg"
-            alt="Image"
+            alt="ISPF Logo"
             className={`${
               showFullContent
                 ? "xl:w-[2600px] xl:h-[160px]"
@@ -33,10 +34,9 @@ const Section1 = () => {
 
         <div className="image ">
           {/* Adjust image size dynamically based on content visibility */}
-          <img
-            // src="https://res.cloudinary.com/dpsmbluby/image/upload/v1728366520/logo-image_wxinpv.png"
+          <LazyImage
             src="https://res.cloudinary.com/dpsmbluby/image/upload/v1729772005/coverphot011_wncnop.jpg"
-            alt="Image"
+            alt="Sleep Fine Cover Photo"
             className={`${
               showFullContent
                 ? "xl:w-[2600px] xl:h-[400px]"
@@ -61,7 +61,7 @@ const Section1 = () => {
         </p>
         <p className="sm:px-4 md:px-4 lg:px-2 xl:px-0">
           <strong>Our Certificates & Awards</strong>
-          <img
+          <LazyImage
             src="https://res.cloudinary.com/dpsmbluby/image/upload/v1729062198/MEMBER_1_1_kgqjww.jpg"
             alt="Certificates and Awards"
             className="h-36 sm:h-40 md:h-[17rem] lg:h-46 xl:h-48 w-auto max-w-full"
