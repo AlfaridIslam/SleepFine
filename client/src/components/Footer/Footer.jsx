@@ -123,7 +123,8 @@ const Footer = () => {
           <h1 className="text-lg font-normal mb-2">CONTACT US</h1>
           <ul className="font-extralight">
             <li>E-mail: contact@sleepfineindia.com</li>
-            <li>Tel: +91-40-40032084</li>
+            <li>Tel: +91-9346023778</li>
+            <li>Tel: +91-9866685206</li>
             <li>
               Sy. NO. 575, 576, Harsha Hospital Lane, Near S.L.N. Apartments,
               Pakalakunta, Kompally, Hyderabad , Telangana , India - 500 010.

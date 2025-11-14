@@ -519,16 +519,17 @@
     }
   },
 
-  "hr-pu-foam-space-mattress": {
+  "hr-pu-foam-Latexco-hybrid-mattress": {
     "images": [
-      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729078635/DSC03397_ldsmum.jpg",
-      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729078638/DSC03403_ppzii1.jpg",
-      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729078755/DSC03404_nowe89.jpg",
-      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729078753/Rebonded_100_Density_100mm_700_x_400_px_56_1_wereaw.jpg",
-      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729164037/Rebonded_100_Density_100mm_700_x_400_px_77_rpaq5z.jpg"
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1763095387/7_cucvd7.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1763095387/9_vq1sow.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1763095387/8_ebacuo.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1763095387/10_edjiqb.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1763095387/11_tmvt9f.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1763095386/12_styidc.jpg"
     ],
-    "title1": "HR PU Space Mattress",
-    "content1": "The HR PU Space mattress is designed with High-Resilience (HR) PU foam technology, offering a unique blend of superior support and luxurious comfort. It’s crafted for those who value durability and pressure relief, adapting to your body’s contours for optimal spinal alignment and a restful sleep surface.",
+    "title1": "HR PU Latexco hybrid",
+    "content1": "The HR PU Latexco hybrid mattress is designed with High-Resilience (HR) PU foam technology, offering a unique blend of superior support and luxurious comfort. It’s crafted for those who value durability and pressure relief, adapting to your body’s contours for optimal spinal alignment and a restful sleep surface.",
     "title2": "Space-Like Comfort with Plush Surface",
     "content2": "The top layer provides a plush, cloud-like surface that gives the sensation of floating in space. This luxurious layer delivers a soft, cushioning effect, while the HR foam underneath ensures proper support. This combination makes it ideal for sleepers seeking both coziness and orthopedic benefits.",
     "title3": "Breathable Fabric",
@@ -537,20 +538,21 @@
     "content4": "The durable quilted cover protects the foam layers from wear and tear, ensuring long-lasting shape and performance. Its breathability helps prevent overheating, allowing for a cool and refreshing sleep experience night after night.",
 
     "details": {
-      "height": "8 inches",
+      "height": "6, 8 & 10 inches only",
       "variant": "Pillow Top",
-      "warranty": "7 years",
+      "warranty": "10 years for 8 & 10 inches, 5 years for 6 inches",
       "ratings": "⭐⭐⭐⭐⭐"
     }
   },
 
   "hr-pu-foam-memory-active-mattress": {
     "images": [
-      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729075064/DSC03353_qvvnsb.jpg",
-      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729075066/DSC03360_kh9vj7.jpg ",
-      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729075066/DSC03364_qq8eef.jpg ",
-      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729075068/Rebonded_100_Density_100mm_700_x_400_px_47_1_uemsbd.jpg ",
-      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729164088/Rebonded_100_Density_100mm_700_x_400_px_78_sntb46.jpg"
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1763096054/1_vtfooi.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1763096054/2_x3ddkk.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1763096054/3_hhwhfi.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1763096053/4_ozoni8.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1763096054/5_jsafpz.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1763096052/6_zw59qv.jpg"
     ],
     "title1": "HR PU Foam Memory Active Eurotop",
     "content1": "Experience unparalleled comfort and support with the HR PU Foam Memory Active Eurotop Mattress. This innovative mattress combines High Resilience (HR) foam and Memory Foam technology to deliver a superior sleep experience tailored to your needs.",
@@ -561,22 +563,23 @@
     "title4": "Active Technology and Durability",
     "content4": "Featuring active technology that promotes airflow and regulates temperature, this mattress keeps you cool and comfortable while you sleep. Built with high-quality materials, it ensures consistent support and comfort for years to come.",
     "details": {
-      "height": "6 & 8 inches",
+      "height": "6, 8 & 10 inches only",
       "variant": "Euro Top",
-      "warranty": "10 years",
+      "warranty": "10 years for 8 & 10 inches, 5 years for 6 inches",
       "ratings": "⭐⭐⭐⭐⭐"
     }
   },
-  "hr-pu-foam-rose-by-rose-mattress": {
+  "hr-pu-foam-ambitious-sleeping-mattress": {
     "images": [
-      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729077815/DSC03292_if65no.jpg ",
-      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729077816/DSC03294_f7expj.jpg ",
-      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729077817/DSC03299_jytkbn.jpg ",
-      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729077819/Rebonded_100_Density_100mm_700_x_400_px_55_1_g63lha.jpg ",
-      "https://res.cloudinary.com/dpsmbluby/image/upload/v1729164129/Rebonded_100_Density_100mm_700_x_400_px_79_rek72n.jpg"
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1763096331/13_allmic.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1763096332/14_tplj2p.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1763096333/15_eyzgln.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1763096330/17_z5olk8.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1763096330/16_cesuav.jpg",
+      "https://res.cloudinary.com/dpsmbluby/image/upload/v1763096329/18_s3ny0b.jpg"
     ],
-    "title1": "Rose by Rose Organic HR with Memory ",
-    "content1": "Experience eco-friendly luxury and exceptional comfort with the Rose by Rose Organic HR with Memory Mattress. Crafted with natural materials and advanced foam technology, this mattress combines sustainability with quality sleep.",
+    "title1": "Ambitious Sleeping HR with Memory ",
+    "content1": "Experience eco-friendly luxury and exceptional comfort with the Ambitious Sleeping HR with Memory Mattress. Crafted with natural materials and advanced foam technology, this mattress combines sustainability with quality sleep.",
     "title2": "Organic Fabric Cover",
     "content2": "Wrapped in a soft, breathable organic fabric, this mattress is gentle on the skin, making it ideal for those pursuing an eco-conscious lifestyle while ensuring a comfortable sleep surface.",
     "title3": "High Resilience Foam Core and Memory Foam Layer",
@@ -584,9 +587,9 @@
     "title4": "Hypoallergenic, Chemical-Free, and Balanced Firmness",
     "content4": "Free from harmful chemicals, this hypoallergenic mattress is a healthier choice for sensitive sleepers. Its medium-firm feel delivers the perfect balance of support and plush comfort, accommodating a wide range of sleep preferences.",
     "details": {
-      "height": "6 & 8 inches",
+      "height": "6, 8 & 10 inches only",
       "variant": "Euro Top",
-      "warranty": "10 years",
+      "warranty": "10 years for 8 & 10 inches, 5 years for 6 inches",
       "ratings": "⭐⭐⭐⭐⭐"
     }
   }

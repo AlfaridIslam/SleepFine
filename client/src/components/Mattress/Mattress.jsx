@@ -331,10 +331,10 @@ const Mattress = () => {
                     Gravity
                   </Link>
                   <Link
-                    to="product-details/hr-pu-foam-space-mattress"
+                    to="product-details/hr-pu-foam-Latexco-hybrid-mattress"
                     className="px-4 py-2 hover:bg-indigo-100"
                   >
-                    Space
+                    Latexco hybrid
                   </Link>
                   <Link
                     to="product-details/hr-pu-foam-memory-active-mattress"
@@ -343,10 +343,10 @@ const Mattress = () => {
                     Memory Active
                   </Link>
                   <Link
-                    to="product-details/hr-pu-foam-rose-by-rose-mattress"
+                    to="product-details/hr-pu-foam-ambitious-sleeping-mattress"
                     className="px-4 py-2 hover:bg-indigo-100"
                   >
-                    Rose By Rose
+                    Ambitious Sleeping
                   </Link>
                 </div>
 

@@ -38,9 +38,9 @@ const varietyHeights = {
   "pocketed Aloe-Vera with Latex 8 & 10 inches": ["8 inches", "10 inches"],
   "pocketed Aloe-vera with Memory 8 & 10 inches": ["8 inches", "10 inches"],
   Gravity: ["5 inches", "6 inches"],
-  Space: ["6 inches", "8 inches"],
-  "Memory Active": ["6 inches", "8 inches"],
-  "Rose by Rose": ["6 inches", "8 inches"],
+  "Latexco hybrid": ["6 inches", "8 inches", "10 inches"],
+  "Memory Active": ["6 inches", "8 inches", "10 inches"],
+  "Ambitious Sleeping": ["6 inches", "8 inches", "10 inches"],
 };
 
 const WarrantyForm = () => {
@@ -70,6 +70,7 @@ const WarrantyForm = () => {
   };
 
   const [formData, setFormData] = useState(initialFormState);
+  const [pdfMode, setPdfMode] = useState("desktop"); // 'mobile' | 'desktop'
   const [formError, setFormError] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -141,9 +142,12 @@ const WarrantyForm = () => {
     ],
     "HR-PU Foam Collection": [
       "Gravity",
-      "Space",
-      "Memory Active",
-      "Rose by Rose",
+      "Memory Active with 8 & 10 inches",
+      "Latexco hybrid with 8 & 10 inches",
+      "Ambitious Sleeping with 8 & 10 inches",
+      "Memory Active with 6 inches",
+      "Latexco hybrid with 6 inches",
+      "Ambitious Sleeping with 6 inches",
     ],
   };
 
@@ -180,8 +184,10 @@ const WarrantyForm = () => {
       "LoveLand",
       "Romantic Euroton",
       "Ambitious",
-      "Memory Active",
+      "Memory Active with 8 & 10 inches",
       "Eternity Euroton",
+      "Latexco hybrid with 8 & 10 inches",
+      "Ambitious Sleeping with 8 & 10 inches",
     ],
     "5 years": [
       "orthopedic Aloe-Vera with Latex 6 inches",
@@ -194,12 +200,13 @@ const WarrantyForm = () => {
       "Preference",
       "Memofy",
       "Silver Crown",
-      "Space",
+      "Latexco hybrid with 6 inches",
       "Inspiration",
       "Gravity",
+      "Memory Active with 6 inches",
+      "Ambitious Sleeping with 6 inches",
     ],
-    "7 years": ["Milange", "Rose by Rose", "Oxford"],
-    // "2.5 years": ["Gravity"],
+    "7 years": ["Milange", "Oxford"],
   };
 
   const handleInputChange = (e) => {
@@ -239,16 +246,34 @@ const WarrantyForm = () => {
     }));
   };
 
-  const generatePDF = async () => {
+  const generatePDF = async (mode) => {
+    const widthPx = mode === 'mobile' ? 375 : 800;
+
     const div = document.createElement("div");
+    div.style.position = "absolute";
+    div.style.left = "-9999px";
+    div.style.top = "-9999px";
+    div.style.width = `${widthPx}px`;
+    // Do NOT hide via visibility/display; hidden elements don't render in html2canvas
+    div.style.backgroundColor = '#ffffff';
     document.body.appendChild(div);
 
     try {
       const root = ReactDOM.createRoot(div);
-      root.render(<WarrantyCardTemplate data={formData} />);
+      root.render(<WarrantyCardTemplate data={formData} cardWidth={`${widthPx}px`} />);
 
       // Wait for render
-      await new Promise((resolve) => setTimeout(resolve, 100));
+      await new Promise((resolve) => setTimeout(resolve, 300));
+
+      // Ensure images are fully loaded before capture
+      const imgs = Array.from(div.querySelectorAll('img'));
+      if (imgs.length > 0) {
+        await Promise.all(
+          imgs.map(img => img.complete ? Promise.resolve() : new Promise(res => {
+            img.onload = res; img.onerror = res;
+          }))
+        );
+      }
 
       const canvas = await html2canvas(div, {
         scale: 2,
@@ -257,13 +282,19 @@ const WarrantyForm = () => {
       });
 
       const imgData = canvas.toDataURL("image/png");
-      const pdf = new jsPDF({
-        orientation: "portrait",
-        unit: "px",
-        format: [595, 842],
-      });
-
-      pdf.addImage(imgData, "PNG", 0, 0, 595, 842);
+      const pdf = new jsPDF({ orientation: 'portrait', unit: 'pt', format: 'a4' });
+      const pdfWidth = pdf.internal.pageSize.getWidth();
+      const pdfHeight = pdf.internal.pageSize.getHeight();
+      const imgAspect = canvas.height / canvas.width;
+      let renderWidth = pdfWidth - 40; // margins
+      let renderHeight = renderWidth * imgAspect;
+      if (renderHeight > pdfHeight - 40) {
+        renderHeight = pdfHeight - 40;
+        renderWidth = renderHeight / imgAspect;
+      }
+      const x = (pdfWidth - renderWidth) / 2;
+      const y = (pdfHeight - renderHeight) / 2;
+      pdf.addImage(imgData, 'PNG', x, y, renderWidth, renderHeight);
       return pdf;
     } catch (error) {
       console.error("Error generating PDF:", error);
@@ -289,13 +320,12 @@ const WarrantyForm = () => {
       "selectedProduct",
       "selectedVariety",
       "sizeType",
+      "purchaseFrom",
       "orderNumber",
       "totalQuantity",
       "invoiceDate",
     ];
 
-    // Dynamically determine required fields based on purchase source
-    // Dynamically determine required fields based on purchase source
     const requiredFields = [...baseRequiredFields];
 
     if (formData.purchaseFrom === "Store") {
@@ -303,6 +333,7 @@ const WarrantyForm = () => {
     } else if (formData.purchaseFrom === "Others") {
       requiredFields.push("dealerName");
     }
+    
     const missingFields = requiredFields.filter((field) => !formData[field]);
 
     if (formData.sizeType === "standard") {
@@ -327,8 +358,8 @@ const WarrantyForm = () => {
     }
 
     try {
-      // Generate PDF
-      const pdfDoc = await generatePDF();
+      // Generate PDF with selected mode
+      const pdfDoc = await generatePDF(pdfMode);
 
       const transformedData = {
         "Customer Name": formData.customerName,
@@ -715,6 +746,33 @@ const WarrantyForm = () => {
             />
           </div>
         )}
+        {/* PDF size toggle */}
+        <div className="mb-4">
+          <label className="block text-gray-700 font-medium mb-1">PDF size</label>
+          <div className="flex items-center gap-6">
+            <label className="flex items-center gap-2">
+              <input
+                type="radio"
+                name="pdfMode"
+                value="mobile"
+                checked={pdfMode === 'mobile'}
+                onChange={() => setPdfMode('mobile')}
+              />
+              <span>Mobile (compact)</span>
+            </label>
+            <label className="flex items-center gap-2">
+              <input
+                type="radio"
+                name="pdfMode"
+                value="desktop"
+                checked={pdfMode === 'desktop'}
+                onChange={() => setPdfMode('desktop')}
+              />
+              <span>Desktop (normal)</span>
+            </label>
+          </div>
+        </div>
+
         <button
           type="submit"
           className="w-full bg-blue-500 text-white px-4 py-2 rounded shadow"

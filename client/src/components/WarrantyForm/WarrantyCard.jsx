@@ -1,33 +1,32 @@
 import React from "react";
-import QRcode from "../../assets/qr-code.jpeg";
 import logo from "../../assets/Warranty_logo.jpg";
-import warrantyQR from "../../assets/barcode-warranty-registration.jpg";
+import stamp from "../../assets/stamp.jpeg";
 
-const WarrantyCardTemplate = React.forwardRef(({ data }, ref) => {
+const WarrantyCardTemplate = React.forwardRef(({ data, cardWidth }, ref) => {
   const {
-    customerName,
-    address,
-    mobileNumber,
-    email,
-    state,
-    city,
-    selectedProduct,
-    selectedVariety,
-    sizeType,
-    customLength,
-    customBreadth,
-    customHeight,
-    length,
-    breadth,
-    height,
-    totalQuantity,
-    purchaseFrom,
-    selectedStore,
-    dealerName,
-    orderNumber,
-    invoiceDate,
-    warranty,
-  } = data;
+    customerName = "",
+    address = "",
+    mobileNumber = "",
+    email = "",
+    state = "",
+    city = "",
+    selectedProduct = "",
+    selectedVariety = "",
+    sizeType = "standard",
+    customLength = "",
+    customBreadth = "",
+    customHeight = "",
+    length = "",
+    breadth = "",
+    height = "",
+    totalQuantity = "",
+    purchaseFrom = "",
+    selectedStore = "",
+    dealerName = "",
+    orderNumber = "",
+    invoiceDate = "",
+    warranty = "",
+  } = data || {};
 
   const displayLength = sizeType === "standard" ? length : customLength;
   const displayBreadth = sizeType === "standard" ? breadth : customBreadth;
@@ -36,77 +35,113 @@ const WarrantyCardTemplate = React.forwardRef(({ data }, ref) => {
   return (
     <div
       ref={ref}
-      className="w-full sm:w-full sm:h-full xl:w-[1100px] xl:h-[990px] p-4 sm:p-8  bg-white flex flex-col justify-between sm:grid sm:grid-cols-1 sm:grid-rows-[auto_1fr_auto] xl:grid-cols-none xl:m-0 sm:ml-10"
+      style={{
+        width: cardWidth || '800px',
+        minHeight: '600px',
+        padding: '32px',
+        backgroundColor: 'white',
+        fontFamily: 'Arial, sans-serif',
+        fontSize: '14px',
+        lineHeight: '1.4',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'space-between',
+        position: 'relative'
+      }}
     >
       {/* Header */}
-      <div className="p-2 sm:p-4 xl:p-6 flex items-center justify-between sm:col-span-1 sm:row-span-1 xl:gap-60 ">
+      <div style={{ 
+        display: 'flex', 
+        justifyContent: 'space-between', 
+        alignItems: 'center',
+        marginBottom: '20px',
+        borderBottom: '2px solid #ccc',
+        paddingBottom: '15px'
+      }}>
         <div>
           <img
             src={logo}
             alt="Sleep Fine Logo"
-            className="h-8 sm:h-12 xl:h-20 xl:w-96"
+            style={{ height: '60px', width: 'auto', marginBottom: '10px' }}
           />
-          <p className="-ml-2">Customer Support: 08062181296</p>
-          <p className="-ml-2">Email: contact@sleepfineindia.com</p>
-          <h1 className="sm:mt-4 xl:mt-4 xl:-ml-2 sm:-ml-2  ">
+          <p style={{ margin: '3px 0', fontSize: '12px' }}>Customer Support: 08062181296</p>
+          <p style={{ margin: '3px 0', fontSize: '12px' }}>Email: contact@sleepfineindia.com</p>
+          <h1 style={{ margin: '5px 0', fontSize: '12px', fontWeight: 'bold' }}>
             Terms and Conditions apply
           </h1>
         </div>
         <div>
-          <h2 className="text-lg sm:text-xl xl:text-4xl xl-mt-10 sm:-mt-16 sm:-ml-40  ">
+          <h2 style={{ fontSize: '24px', fontWeight: 'bold', color: '#333' }}>
             Warranty Card
           </h2>
         </div>
       </div>
 
       {/* Content */}
-      <div className="flex-grow sm:mt-4  sm:space-y-4     sm:grid sm:grid-cols-1  sm:gap-4 sm:col-span-1 sm:mr-40 xl:mr-0  ">
-        {/* Customer Details */}
+      <div style={{ 
+        display: 'flex', 
+        gap: '40px', 
+        marginBottom: '30px',
+        flexGrow: 1
+      }}>
+        <div style={{ flex: 1 }}>
+          <h3 style={{ fontWeight: 'bold', marginBottom: '10px', fontSize: '16px' }}>Customer Details</h3>
+          <p style={{ margin: '3px 0' }}>Name: {customerName}</p>
+          <p style={{ margin: '3px 0' }}>Address: {address}</p>
+          <p style={{ margin: '3px 0' }}>Mobile: {mobileNumber}</p>
+          <p style={{ margin: '3px 0' }}>Email: {email}</p>
+          <p style={{ margin: '3px 0' }}>State: {state}</p>
+          <p style={{ margin: '3px 0' }}>City: {city}</p>
+        </div>
 
-        <div className=" xl:flex xl:gap-40 xl:ml-10">
-          <div className="sm:col-span-1">
-            <h3 className="font-semibold">Customer Details</h3>
-            <p>Name: {customerName}</p>
-            <p>Address: {address}</p>
-            <p>Mobile: {mobileNumber}</p>
-            <p>Email: {email}</p>
-            <p>State: {state}</p>
-            <p>City: {city}</p>
-          </div>
-
-          {/* Product Details */}
-          <div className="sm:col-span-1 sm:mt-8 xl:mt-0 ">
-            <h3 className="font-semibold">Product Details</h3>
-            <p>Product: {selectedProduct}</p>
-            <p>Variety: {selectedVariety}</p>
-            <p>Purchase From: {purchaseFrom}</p>
-            {purchaseFrom === "Store" ? (
-              <p>Store Name: {selectedStore}</p>
-            ) : (
-              dealerName && <p>Dealer Name: {dealerName}</p>
-            )}
-            <p>Size Type: {sizeType}</p>
-            <p>Length: {displayLength}</p>
-            <p>Breadth: {displayBreadth}</p>
-            <p>Height: {displayHeight}</p>
-          </div>
+        {/* Product Details */}
+        <div style={{ flex: 1 }}>
+          <h3 style={{ fontWeight: 'bold', marginBottom: '10px', fontSize: '16px' }}>Product Details</h3>
+          <p style={{ margin: '3px 0' }}>Product: {selectedProduct}</p>
+          <p style={{ margin: '3px 0' }}>Variety: {selectedVariety}</p>
+          <p style={{ margin: '3px 0' }}>Purchase From: {purchaseFrom}</p>
+          {purchaseFrom === "Store" ? (
+            <p style={{ margin: '3px 0' }}>Store Name: {selectedStore}</p>
+          ) : (
+            dealerName && <p style={{ margin: '3px 0' }}>Dealer Name: {dealerName}</p>
+          )}
+          <p style={{ margin: '3px 0' }}>Size Type: {sizeType}</p>
+          <p style={{ margin: '3px 0' }}>Length: {displayLength}</p>
+          <p style={{ margin: '3px 0' }}>Breadth: {displayBreadth}</p>
+          <p style={{ margin: '3px 0' }}>Height: {displayHeight}</p>
         </div>
       </div>
 
       {/* Purchase Details */}
-      <div className="sm:col-span-1 sm:mt-4 xl:-my-[420px] xl:ml-10 sm:mr-40 xl:mr-0">
-        <h3 className="font-semibold">Purchase Details</h3>
-        <p>Order/Inv: {orderNumber}</p>
-        <p>Total Quantity: {totalQuantity}</p>
-        <p>Invoice Date: {invoiceDate}</p>
-        <p>Warranty Period: {warranty}</p>
+      <div style={{ marginBottom: '20px' }}>
+        <h3 style={{ fontWeight: 'bold', marginBottom: '10px', fontSize: '16px' }}>Purchase Details</h3>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
+          <p style={{ margin: '3px 0' }}>Order/Inv: {orderNumber}</p>
+          <p style={{ margin: '3px 0' }}>Total Quantity: {totalQuantity}</p>
+          <p style={{ margin: '3px 0' }}>Invoice Date: {invoiceDate}</p>
+          <p style={{ margin: '3px 0' }}>Warranty Period: {warranty}</p>
+        </div>
       </div>
 
-      {/* Footer (if any) */}
+      {/* Company Stamp */}
+      <div style={{
+        position: 'absolute',
+        bottom: '15px',
+        right: '60px'
+      }}>
+        <img
+          src={stamp}
+          alt="Company Stamp"
+          style={{
+            height: '50px',
+            width: 'auto',
+            opacity: 0.75,
+            filter: 'contrast(1.1) brightness(0.9)'
+          }}
+        />
+      </div>
     </div>
   );
 });
 
 export default WarrantyCardTemplate;
-
-

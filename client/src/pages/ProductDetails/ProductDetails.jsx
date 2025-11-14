@@ -9,23 +9,22 @@ const ProductDetails = () => {
   const { productType } = useParams();
 
   // Find product in context
-const findProduct = () => {
-  for (const category in products) {
-    if (products[category][productType]) {
-      return { product: products[category][productType], category };
+  const findProduct = () => {
+    for (const category in products) {
+      if (products[category][productType]) {
+        return { product: products[category][productType], category };
+      }
     }
+    return null;
+  };
+
+  const productData = findProduct();
+
+  if (!productData) {
+    return <Navigate to="*" />;
   }
-  return null;
-};
 
-const productData = findProduct();
-
-if (!productData) {
-  return <Navigate to="*" />;
-}
-
-const { product: productInfo, category } = productData;
-
+  const { product: productInfo, category } = productData;
 
   // Existing state management
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -112,7 +111,7 @@ const { product: productInfo, category } = productData;
   };
 
   const handleEnquiryClick = () => {
-    const whatsappNumber = "+918062181296";
+    const whatsappNumber = "+919346023775";
     const currentUrl = window.location.href;
     const productImage = `${productInfo.images[currentImageIndex]}`;
     const message = `Check out this product:\n${currentUrl}\n\nImage:\n${productImage}`;
@@ -124,7 +123,7 @@ const { product: productInfo, category } = productData;
 
   // creating two functions for mattress and other 3 on conditional rendering
 
-  // redering mattress 
+  // redering mattress
 
   const renderMattressDetails = () => (
     <div className="text-gray-600">
