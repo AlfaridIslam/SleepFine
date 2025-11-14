@@ -9,6 +9,8 @@ import Blog from "./components/Blog/Blog";
 import WarrantyForm from "./components/WarrantyForm/WarrantyForm2";
 import NotFound from "./pages/NotFound/NotFound";
 import MeasurementVideoPage from './pages/MeasurementVideoPage/MeasurementVideoPage';
+import Login from './pages/Login';
+import { adminRoutes } from "./routes/AdminRoutes";
 
 export const router = createBrowserRouter([
   {
@@ -38,10 +40,6 @@ export const router = createBrowserRouter([
         path: "/warranty-form", 
         element: <WarrantyForm />
       },
-      { 
-        path: "*", 
-        element: <NotFound />
-      },
       {
         path: "/measurement-video", 
         element: <MeasurementVideoPage />
@@ -49,6 +47,17 @@ export const router = createBrowserRouter([
       {
         path: "/product-details/*",
         element: <NotFound />,
+      },
+      // Login route
+      {
+        path: "/login",
+        element: <Login />
+      },
+      // Admin routes - spread the admin routes array
+      ...adminRoutes,
+      { 
+        path: "*", 
+        element: <NotFound />
       },
     ],
   },

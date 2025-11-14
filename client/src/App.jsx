@@ -3,14 +3,17 @@ import React from "react";
 import { RouterProvider } from "react-router-dom";
 import { router } from "./routes";
 import { ProductProvider } from "./contexts/ProductContext";
+import { AuthProvider } from "./modules/auth/AuthContext";
 // import ErrorBoundary from "./components/ErrorBoundary/ErrorBoundary";
 
 const App = () => {
   return (
     // <ErrorBoundary>
-      <ProductProvider>
-        <RouterProvider router={router} />
-      </ProductProvider>
+      <AuthProvider>
+        <ProductProvider>
+          <RouterProvider router={router} />
+        </ProductProvider>
+      </AuthProvider>
     // </ErrorBoundary>
   );
 };
